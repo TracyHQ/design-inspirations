@@ -12,7 +12,7 @@
   "source": {
     "url": "https://ja-teline-v.demo.joomlart.com/",
     "finalUrl": "https://ja-teline-v.demo.joomlart.com/",
-    "extractedAt": "2026-09-07T22:40:46.678Z",
+    "extractedAt": "2026-09-07T22:49:51.363Z",
     "thin": false,
     "blocked": false,
     "pages": true,
@@ -21,6 +21,7 @@
   "refined": [
     "name: \"Best Joomla News template - Teline V\" → \"Teline V\" (from the shortest title segment)",
     "font: display \"Roboto\" → \"Roboto Slab\" (the family the site sets on h1..h6)",
+    "tagline: \"Sidebar\" is page furniture → \"Best Joomla News template\" (the site's own words)",
     "accent: #e85555 is only painted in dark mode → #cc0000 (most-used chromatic colour)"
   ],
   "counts": {

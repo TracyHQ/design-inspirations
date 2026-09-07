@@ -17,7 +17,7 @@ colors:
 
 > Surface: web
 
-*Sidebar*
+*Best Joomla News template*
 
 Best Joomla template for Magazine and News site - Built with T3 Framework, Bootstrap 3, Advanced Custom Module.
 

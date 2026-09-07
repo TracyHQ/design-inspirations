@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-community-inspirations/v1",
   "count": 7,
-  "updatedAt": "2026-09-07T22:40:46.678Z",
+  "updatedAt": "2026-09-07T22:49:51.363Z",
   "systems": [
     {
       "id": "brand:ja-teline-v.demo.joomlart.com",
@@ -13,7 +13,7 @@
       "dark": true,
       "host": "ja-teline-v.demo.joomlart.com",
       "url": "https://ja-teline-v.demo.joomlart.com/",
-      "extractedAt": "2026-09-07T22:40:46.678Z",
+      "extractedAt": "2026-09-07T22:49:51.363Z",
       "pages": true,
       "counts": {
         "pages": 20,
