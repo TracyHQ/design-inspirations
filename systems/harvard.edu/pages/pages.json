@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://harvard.edu/",
+  "crawledAt": "2026-09-07T23:41:35.850Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://harvard.edu/",
+      "file": "pages/01-home.html",
+      "title": "Harvard University",
+      "h1": "Harvard University",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/",
+      "file": "pages/02-home.html",
+      "title": "Harvard University",
+      "h1": "Harvard University",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/federal-lawsuits/",
+      "file": "pages/03-federal-lawsuits.html",
+      "title": "Federal Lawsuits - Federal Lawsuits",
+      "h1": "Federal Lawsuits",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/a-to-z/",
+      "file": "pages/04-a-to-z.html",
+      "title": "Index of departments, schools, and affiliates - Harvard University",
+      "h1": "A to Z index",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/academics/",
+      "file": "pages/05-academics.html",
+      "title": "Academics - Harvard University",
+      "h1": "Academics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu//programs/",
+      "file": "pages/06-programs.html",
+      "title": "Programs - Harvard University",
+      "h1": "Explore programs available at Harvard",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/academics/professional-and-lifelong-learning/",
+      "file": "pages/07-academics-professional-and-lifelong-lear.html",
+      "title": "Professional and Lifelong Learning - Harvard University",
+      "h1": "Professional and Lifelong Learning",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/schools/",
+      "file": "pages/08-academics-schools.html",
+      "title": "Schools - Harvard University",
+      "h1": "Schools",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/campus/",
+      "file": "pages/09-campus.html",
+      "title": "Campus - Harvard University",
+      "h1": "Campus",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/campus/libraries/",
+      "file": "pages/10-campus-libraries.html",
+      "title": "Libraries - Harvard University",
+      "h1": "Libraries",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/campus/museums/",
+      "file": "pages/11-campus-museums.html",
+      "title": "Museums - Harvard University",
+      "h1": "Museums",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/campus/athletics/",
+      "file": "pages/12-campus-athletics.html",
+      "title": "Athletics - Harvard University",
+      "h1": "Athletics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/campus/work-at-harvard/",
+      "file": "pages/13-campus-work-at-harvard.html",
+      "title": "Work at Harvard University",
+      "h1": "Work at Harvard",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/in-focus/",
+      "file": "pages/14-in-focus.html",
+      "title": "In Focus - Harvard University",
+      "h1": "In Focus",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/in-focus/welcome-to-harvard/",
+      "file": "pages/15-in-focus-welcome-to-harvard.html",
+      "title": "Welcome to Harvard",
+      "h1": "Welcome to Harvard",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/in-focus/chronic-disease/",
+      "file": "pages/16-in-focus-chronic-disease.html",
+      "title": "Chronic disease - Harvard University",
+      "h1": "Chronic disease",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/in-focus/book-recommendations/",
+      "file": "pages/17-in-focus-book-recommendations.html",
+      "title": "Book Recommendations - Harvard University",
+      "h1": "Book Recommendations",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/visit/",
+      "file": "pages/18-visit.html",
+      "title": "Visit - Harvard University",
+      "h1": "Visit Harvard",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/visit/tours/",
+      "file": "pages/19-visit-tours.html",
+      "title": "Campus Tours - Harvard University",
+      "h1": "Tours",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.harvard.edu/visit/maps-directions/",
+      "file": "pages/20-visit-maps-directions.html",
+      "title": "Maps and directions - Harvard University",
+      "h1": "Maps and directions",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

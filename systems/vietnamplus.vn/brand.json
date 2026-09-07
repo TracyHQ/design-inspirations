@@ -1,0 +1,159 @@
+{
+  "name": "Vietnam+ (VietnamPlus)",
+  "tagline": "Tin tức Việt Nam và thế giới nhanh nhất, tin cậy, chính thống từ TTXVN, cập nhật liên tục 24/7. The most reliable source of news in Vietnam on political, business, social, cultural, sports, technology, environmental issues.",
+  "description": "Tin tức Việt Nam và thế giới nhanh nhất, tin cậy, chính thống từ TTXVN, cập nhật liên tục 24/7. The most reliable source of news in Vietnam on political, business, social, cultural, sports, technology, environmental issues.",
+  "sourceUrl": "https://vietnamplus.vn/",
+  "logo": {
+    "primary": "logos/favicon-0.ico",
+    "alternates": [
+      "logos/header-img-2.png",
+      "logos/og-image-1.jpg"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#f5f5f5",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#8c8c8c",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#dbdbdb",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#980700",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "URW Geometric",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=URW+Geometric:wght@400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "URW Geometric",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=URW+Geometric:wght@400;500;600;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Vietnam+ (VietnamPlus)",
+      "IAEA kêu gọi Iran nối lại hợp tác giữa căng thẳng gia tăng",
+      "Lần đầu xét xử vụ kiện công ích, yêu cầu nộp tiền nợ Bảo hiểm xã hội"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/cover-0.jpg",
+        "kind": "cover",
+        "caption": "Social cover image"
+      },
+      {
+        "file": "imagery/image-1.avif",
+        "kind": "image",
+        "caption": "Site image 1"
+      },
+      {
+        "file": "imagery/image-2.avif",
+        "kind": "image",
+        "caption": "Site image 2"
+      },
+      {
+        "file": "imagery/image-3.avif",
+        "kind": "image",
+        "caption": "Site image 3"
+      },
+      {
+        "file": "imagery/image-4.avif",
+        "kind": "image",
+        "caption": "Site image 4"
+      },
+      {
+        "file": "imagery/image-5.avif",
+        "kind": "image",
+        "caption": "Site image 5"
+      },
+      {
+        "file": "imagery/image-6.avif",
+        "kind": "image",
+        "caption": "Site image 6"
+      },
+      {
+        "file": "imagery/image-7.avif",
+        "kind": "image",
+        "caption": "Site image 7"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

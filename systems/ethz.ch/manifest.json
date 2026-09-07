@@ -1,0 +1,35 @@
+{
+  "id": "brand:ethz.ch",
+  "host": "ethz.ch",
+  "kind": "reference",
+  "slug": "eth-zurich",
+  "name": "ETH Zürich",
+  "category": "Reference",
+  "description": "Header Services Studierendenportal Alumni-Vereinigung Staffnet Kontakt Login Suche Suche Leichte Sprache de DE EN FR (TA) IT (TA) Departemente ETH Zürich Wählen Sie ein Departement Departemente D-ARCH: Architektur D-BAUG: Bau, Umwelt und Geomatik D-BSSE: Biosysteme D-INFK: Informatik D-ITET: Informationstechnologie und Elektrotechnik D-MATL: Materialwissenschaft D-MAVT: Maschinenbau und Verfahrenstechnik D-BIOL: Biologie D-CHAB: Chemie und Angewandte Biowissenschaften D-MATH: Mathematik D-PHYS: Physik D-EAPS: Erd- und Planetenwissenschaften D-HEST: Gesundheitswissenschaften und Technologie D-USYS: Umweltsystemwissenschaften D-MTEC: Management, Technologie und Ökonomie D-GESS: Geistes-, Sozial- und Staatswissenschaften Sprachauswahl Leichte Sprache de Deutsch English Français (TA) Italiano (TA) Direkt zum Inhalt springen ETH Z&uuml;rich: Übersicht und Aktuelles CO₂-armer Beton im Klimatest",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://ethz.ch/",
+    "finalUrl": "https://ethz.ch/",
+    "extractedAt": "2026-09-07T23:41:52.791Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #000000 has no hue → #215caf (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 2,
+    "logos": 2,
+    "imagery": 1,
+    "fonts_files": 6,
+    "headings": 19,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

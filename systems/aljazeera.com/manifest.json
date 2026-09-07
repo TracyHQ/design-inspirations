@@ -1,0 +1,33 @@
+{
+  "id": "brand:aljazeera.com",
+  "host": "aljazeera.com",
+  "kind": "reference",
+  "slug": "al-jazeera",
+  "name": "Al Jazeera",
+  "category": "Reference",
+  "description": "News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://aljazeera.com/",
+    "finalUrl": "https://aljazeera.com/",
+    "extractedAt": "2026-09-07T23:47:07.818Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 25,
+    "fonts": 4,
+    "logos": 4,
+    "imagery": 8,
+    "fonts_files": 10,
+    "headings": 40,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

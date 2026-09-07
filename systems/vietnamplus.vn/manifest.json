@@ -1,0 +1,37 @@
+{
+  "id": "brand:vietnamplus.vn",
+  "host": "vietnamplus.vn",
+  "kind": "reference",
+  "slug": "vietnam-vietnamplus",
+  "name": "Vietnam+ (VietnamPlus)",
+  "category": "Reference",
+  "description": "Tin tức Việt Nam và thế giới nhanh nhất, tin cậy, chính thống từ TTXVN, cập nhật liên tục 24/7. The most reliable source of news in Vietnam on political, business, social, cultural, sports, technology, environmental issues.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://vietnamplus.vn/",
+    "finalUrl": "https://vietnamplus.vn/",
+    "extractedAt": "2026-09-07T23:49:23.361Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "font: \"icomoon\" is an icon or code face → \"URW Geometric\"",
+    "tagline: \"Vietnam+ (VietnamPlus)\" is page furniture → \"Tin tức Việt Nam và thế giới nhanh nhất, tin cậy, chính thống từ TTXVN, cập nhật liên tục 24/7. The most reliable source of news in Vietnam on political, business, social, cultural, sports, technology, environmental issues.\" (the site's own words)",
+    "accent: #000000 has no hue → #980700 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 6,
+    "logos": 3,
+    "imagery": 8,
+    "fonts_files": 0,
+    "headings": 119,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

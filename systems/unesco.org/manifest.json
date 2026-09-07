@@ -1,0 +1,36 @@
+{
+  "id": "brand:unesco.org",
+  "host": "unesco.org",
+  "kind": "reference",
+  "slug": "unesco",
+  "name": "UNESCO",
+  "category": "Reference",
+  "description": "Learn more about UNESCO's role, vision and results. UNESCO is the United Nations Educational, Scientific and Cultural Organization. Our aim is to promote peace and security through international cooperation",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://unesco.org/",
+    "finalUrl": "https://unesco.org/",
+    "extractedAt": "2026-09-07T23:41:23.933Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"UNESCO : Building Peace through Education, Science and Culture, communication and information\" → \"UNESCO\" (from the shortest title segment)",
+    "fonts: 2 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 9,
+    "colors": 24,
+    "fonts": 3,
+    "logos": 3,
+    "imagery": 8,
+    "fonts_files": 9,
+    "headings": 11,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

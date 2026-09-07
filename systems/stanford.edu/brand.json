@@ -1,0 +1,127 @@
+{
+  "name": "Stanford University",
+  "tagline": "Stanford University",
+  "description": "At Stanford, a spirit of optimism and possibility energizes our mission of discovery and learning. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Alive with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.",
+  "sourceUrl": "https://stanford.edu/",
+  "logo": {
+    "primary": "logos/favicon-0.ico",
+    "alternates": [
+      "logos/favicon-1.png",
+      "logos/favicon-2.png",
+      "logos/favicon-3.png",
+      "logos/favicon-4.png",
+      "logos/favicon-5.png"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#0a0a0a",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#737373",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#242424",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#7a863b",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#a6b168",
+      "oklch": "",
+      "name": "Accent secondary",
+      "usage": "secondary brand color / links"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "Source Sans 3",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "Source Sans 3",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Stanford University",
+      "Our Impact",
+      "About Stanford"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": []
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

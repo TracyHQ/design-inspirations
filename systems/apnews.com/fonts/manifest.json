@@ -1,0 +1,41 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "APVar",
+      "weight": "400",
+      "style": "normal",
+      "file": "apvar-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APVarW05-Regular.3c0c9d016bf55b85d0800dd405b807e3.woff2",
+      "bytes": 141160
+    },
+    {
+      "family": "AP",
+      "weight": "400",
+      "style": "normal",
+      "file": "ap-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Regular.554b177de19fb126118d8d529f17aa6b.woff2",
+      "bytes": 50048
+    },
+    {
+      "family": "AP",
+      "weight": "500",
+      "style": "normal",
+      "file": "ap-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Medium.af2adfe5cf329805caaecc3469c17ba7.woff2",
+      "bytes": 51656
+    },
+    {
+      "family": "AP",
+      "weight": "700",
+      "style": "normal",
+      "file": "ap-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/assets/fonts/APCustomFont/APW05-Bold.3be6a0cf2309813e292bcbf849d6fa97.woff2",
+      "bytes": 51828
+    }
+  ]
+}

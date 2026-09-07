@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://mit.edu/",
+  "crawledAt": "2026-09-07T23:41:24.222Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://mit.edu/",
+      "file": "pages/01-home.html",
+      "title": "MIT - Massachusetts Institute of Technology",
+      "h1": "Massachusetts Institute of Technology",
+      "depth": 0,
+      "status": 200
+    }
+  ]
+}

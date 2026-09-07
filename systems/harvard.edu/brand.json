@@ -1,0 +1,169 @@
+{
+  "name": "Harvard University",
+  "tagline": "Harvard University",
+  "description": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+  "sourceUrl": "https://harvard.edu/",
+  "logo": {
+    "primary": "logos/apple-touch-icon-2.webp",
+    "alternates": [
+      "logos/favicon-0.webp",
+      "logos/favicon-1.webp",
+      "logos/header-img-4.webp",
+      "logos/header-img-5.svg",
+      "logos/og-image-3.webp"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#0a0a0a",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#737373",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#242424",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#0074e0",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#0077b5",
+      "oklch": "",
+      "name": "Accent secondary",
+      "usage": "secondary brand color / links"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "Canela Web",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Canela+Web:wght@400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "Canela Web",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Canela+Web:wght@400;500;600;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Harvard University",
+      "Welcome to Harvard",
+      "Explore campus"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/cover-0.webp",
+        "kind": "cover",
+        "caption": "Social cover image"
+      },
+      {
+        "file": "imagery/hero-1.webp",
+        "kind": "hero",
+        "caption": "Hero image"
+      },
+      {
+        "file": "imagery/hero-2.webp",
+        "kind": "hero",
+        "caption": "Hero image 2"
+      },
+      {
+        "file": "imagery/hero-3.webp",
+        "kind": "hero",
+        "caption": "Hero image 3"
+      },
+      {
+        "file": "imagery/hero-4.webp",
+        "kind": "hero",
+        "caption": "Hero image 4"
+      },
+      {
+        "file": "imagery/hero-5.webp",
+        "kind": "hero",
+        "caption": "Hero image 5"
+      },
+      {
+        "file": "imagery/hero-6.webp",
+        "kind": "hero",
+        "caption": "Hero image 6"
+      },
+      {
+        "file": "imagery/image-7.webp",
+        "kind": "image",
+        "caption": "Site image 1"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML SYSTEM  "about:legacy-compat"><html><head><title>ETH Zürich - Personensuche</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="robots" content="index,nofollow"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"/><link rel="stylesheet" media="all" href="css/base.css" type="text/css"/><link rel="stylesheet" media="all" href="css/application.css" type="text/css"/><link rel="stylesheet" media="screen and (max-width: 768px)" href="css/applicationMobile.css" type="text/css"/><link rel="stylesheet" media="print" href="css/basePrint.css" type="text/css"/><script type="text/od-defused-script" type="text/JavaScript" src="js/jquery-ui.min.js"></script><script type="text/od-defused-script" type="text/JavaScript" src="js/toggle.js"></script><script type="text/od-defused-script" type="text/JavaScript" src="js/tabNavi.js"></script><link rel="SHORTCUT ICON" href="images/favicon/kuppel_icon_c010.ico"/><script type="text/od-defused-script" type="text/JavaScript" src="js/reset.js"></script><script type="text/od-defused-script" type="text/JavaScript" src="js/switchHelpAdvanced.js"></script><script type="text/od-defused-script" type="text/JavaScript" src="js/info.js"></script><script type="text/od-defused-script" type="text/JavaScript">
+$('document').ready(function() {
+	
+	function showSelectProfessor() {
+		if ($('#professor').is(":checked")) {
+			$("#professur").show();
+		}
+		else {
+			$("#professur").hide();
+		}
+	}
+	showSelectProfessor();
+	
+	$('.listButton input:radio').click(function() {
+		showSelectProfessor();
+	});
+});
+</script></head><body class="colSide withMainNavi corp"><div id="bgHeader"></div><div id="wrapper"><header id="header"><div id="headerLogo"><div id="logo"><div id="logoWeb"><a href="https://www.ethz.ch/de.html" target="_blank"><img alt="ETH Homepage" src="images/eth_logo.png"/></a></div><div id="logoPrint"><img alt="Logo der ETH Zürich" src="images/eth_logo_kurz_schwarz_D_print_300dpi.png"/></div></div><div id="headlineBig"><p id="claim"><a href="personenFormular.view">Personensuche</a></p></div><nav id="metaNavi"><ul><li><a href="help/search_eth_member.html">Hilfe</a></li><li><a href="prelogin.view">Login</a></li><li><a href="https://www.ethz.ch/de/utils/contact.html" target="_blank">Kontakt</a></li><li><a href="javascript:window.print()" id="print">Drucken</a></li><li><a href="personenFormular.view?lang=en">en</a></li></ul></nav></div><div id="toggleMetaNavi" class="mobile"></div><div id="toggleMainNavi" class="mobile"></div><nav id="mainNavi"><ul><li class="active"><a href="personenFormular.view">Suche nach Personen</a></li><li class=""><a href="telekomFormular.view">Allgemeine Telekom Anschlüsse</a></li></ul></nav></header><section id="content"><nav id="flowNavi"><ul><li><a href="">Start</a></li></ul></nav><section id="contentContainer" style="min-height: 10px"><div id="contentTop"><h1>Suche nach Dozierenden, Studierenden <br />oder Angestellten der ETH</h1></div><div id="contentMain"><div class="inside"><noscript><div class="error"><p>Bitte schalten Sie Java-Script ein. Für das einwandfreie Funktionieren der erweiterten Funktionen der Personensuche ist Java-Script erforderlich.</p></div></noscript><div class="intro"><p>Geben Sie Name, Adresse oder Telefonnummer ein. Klicken Sie auf 'Erweiterte Suche' für eine spezifischere Suche.</p></div><h3></h3><form id="personenSuchKriterien" action="personenFormular.view" method="POST"><table class="quickSearch"><tr><td class="col1">Schnellsuche</td><td class="col2"><input id="schnellSuche" name="schnellSuche" type="text" value=""/></td><td class="col3"><input value="Suchen" id="search" name="search" title="Suchen" type="submit"/></td></tr></table><div>
+<input type="hidden" name="_csrf" value="aa954034-a61a-404c-989d-4422f1660b29" />
+</div></form></div></div></section><section id="contentContainerSide" style="min-height: 196px"><div class="inside"><div id="toggleBox"></div><div class="box-border"><div class="box"><h3 class="toggle" data-toggle="onlineHelp">Online-Hilfe</h3><div class="toggleBox" id="onlineHelp"><p style="margin:0">Bei Unklarheiten benutzen Sie die Hilfe oben rechts auf der Webseite.</p></div></div></div><div class="box-border"><div class="box"><h3 class="toggle" data-toggle="usefulLinks">Weitere Links</h3><div class="toggleBox" id="usefulLinks"><ul>
+<li><a href="https://ethz.ch/studierende/de/service/bibliotheken-sammlungen-archive.html" target="_blank">Bibliotheken und Sammlungen</a></li>
+<li><a href="http://e-collection.ethbib.ethz.ch/index.php?lang=de" target="_blank">ETH E-Collection</a></li>
+<li><a href="https://www.ethz.ch/de/forschung.html" target="_blank">Forschung an der ETH</a></li>
+<li><a href="https://www.ethz.ch/services/de/it-services.html" target="_blank">Informatikdienste</a></li>
+<li><a href="http://www.org.ethz.ch" target="_blank">Organisation der ETH</a></li>
+<li><a href="https://www.ethz.ch/students/de.html" target="_blank">Studierende</a></li>
+<li><a href="https://www.ethz.ch/de/studium.html" target="_blank">Studium an der ETH</a></li>
+<li><a href="https://www.ethz.ch/de/news-und-veranstaltungen/veranstaltungen.html" target="_blank">Veranstaltungskalender</a></li>
+<li><a href="http://www.vvz.ethz.ch/" target="_blank">Vorlesungsverzeichnis</a></li>
+</ul>
+</div></div></div><div class="box-border"><div class="box"><h3 class="toggle" data-toggle="additionalRegister">Weitere Personenverzeichnisse</h3><div class="toggleBox" id="additionalRegister"><ul>
+<li><a href="http://www.phonebook.uzh.ch/" target="_blank">Universität Zürich</a></li>
+<li><a href="http://www.epfl.ch/index.fr.html" target="_blank">EPFL</a></li>
+<li><a href="http://user.web.cern.ch/user/AcceleratorServices/OnSiteServices/Directory/Directory.html" target="_blank">CERN</a></li>
+<li><a href="http://tel.local.ch/de" target="_blank">tel.search.ch</a></li>
+<li><a href="http://local.ch/de" target="_blank">Directories</a></li>
+<li><a href="http://yellow.local.ch/de" target="_blank">Gelbe Seiten</a></li>
+</ul>
+</div></div></div></div></section><section id="contentContainer2"><div class="inside"><form id="formDet" action="personenFormular.view" method="POST"><h3 id="toggleAdvancedSearch"><span>Erweiterte Suche</span><span class="icon" title="Einblenden"></span><script type="text/od-defused-script">
+							$(document).ready(function() {
+								var hide = true;
+								var radioValue = $('input[name=funktion]:checked').val();
+								var firstItem = null;
+								
+								$('#formDet').find(':text, textarea').each(function() {
+									if (this.value != '') {
+										firstItem = $(this);
+										return false;
+									}
+								});
+							
+								if ((radioValue != 5 || (firstItem != null && firstItem.value != '')) || false) {
+									hide = false;
+									$('#toggleAdvancedSearch').addClass("open")
+									if (firstItem == null) {
+										firstItem = $('#name');
+									}
+									console.log(firstItem);
+									firstItem.focus();
+									var val = firstItem.val();
+									firstItem.val('');
+									firstItem.val(val);
+								} else {
+									$('#schnellSuche').focus();
+									// put cursor at end of the text
+									var val = $('#schnellSuche').val();
+									$('#schnellSuche').val('');
+									$('#schnellSuche').val(val);
+								}
+							
+								if (hide) {
+									$("#advancedSearch").hide();
+								}
+						
+								setTitle();
+								$("#toggleAdvancedSearch").click(function() {
+									setTitle();
+								});
+								function setTitle(){
+									if($("#toggleAdvancedSearch").hasClass("open")){
+										$(".icon").prop("title", 'Ausblenden');
+									}else{
+										$(".icon").prop("title", 'Einblenden');
+									}
+								}
+							});
+							</script></h3><div id="advancedSearch"><table><tr><td>Suchen</td><td><div class="searchButton"><span class="listButton"><input id="funktion1" name="funktion" type="radio" value="1"/></span><span class="listLabel">Alle (Studierende nur für eingeloggte Benutzer)</span><br/></div><div class="searchButton"><span class="listButton"><input id="professor" name="funktion" type="radio" value="2"/></span><span class="listLabel">ProfessorInnen<select id="professur" name="professur" style="width:135px;"><option value="1">Alle</option><option value="2">Aktive</option><option value="3">Emeritierte</option><option value="4">Titular</option><option value="5">Ordentliche</option><option value="6">Ausserordentliche</option><option value="7">Assistenz</option><option value="8">SNF</option></select></span></div><div class="searchButton"><span class="listButton"><input id="funktion2" name="funktion" type="radio" value="3"/></span><span class="listLabel">Dozierende</span></div><div class="searchButton"><span class="listButton"><input id="funktion3" name="funktion" disabled="disabled" type="radio" value="4"/></span><span class="listLabel">Studierende (nur für eingeloggte Benutzer)</span></div><div class="searchButton last"><span class="listButton"><input id="funktion4" name="funktion" type="radio" value="5" checked="checked"/></span><span class="listLabel">Mitarbeitende und ETH nahe Einheiten</span></div></td></tr><tr><td>Name</td><td><div class="divider"><div class="w25"><input id="name" name="name" type="text" value=""/><span>Name</span></div><div class="w25"><input id="vorname" name="vorname" type="text" value=""/><span>Vorname</span></div></div></td></tr><tr><td>E-Mail</td><td><input id="email" name="email" class="w50" type="text" value=""/></td></tr><tr><td>Telefon</td><td><input id="telefon" name="telefon" class="w50" type="text" value=""/></td></tr><tr><td>Strasse</td><td><input id="strasse" name="strasse" class="w75" type="text" value=""/></td></tr><tr><td>Ort</td><td><div class="divider"><div class="w25"><input id="gebaeude" name="gebaeude" type="text" value=""/><span>Gebäude</span></div><div class="w25"><input id="stockwerk" name="stockwerk" type="text" value=""/><span>Stockwerk</span></div><div class="w25"><input id="raum" name="raum" type="text" value=""/><span>Raum</span></div></div></td></tr><tr><td>Adresszugehörigkeit</td><td><div class="divider"><div class="w25"><input id="org" name="org" type="text" value=""/><span>Name</span></div><div class="w25"><input id="leitzahl" name="leitzahl" type="text" value=""/><span>Leitzahl</span></div><div style="width:13%;"><input id="hierarchisch1" name="hierarchisch" type="checkbox" value="true"/><input type="hidden" name="_hierarchisch" value="on"/><span>Hierarchisch</span></div><div class="w25"><a href="#openModal" title="Hinweis zur Suche nach Organisation" class="moreInfos"><br/></a><div id="openModal" class="modalDialog"><div><span><a href="#close" title="Close" class="close">X</a></span><h2>Hinweis zur Suche nach Organisation:</h2><p style="word-break:keep-all;">Es wird nach Personen gesucht, die eine direkte Beziehung zur angegebenen Organisation (Name oder Leitzahl) haben. Personen mit einer Beziehung zu einer untergeordneten Organisation können im Suchergebnis optional aufgeführt werden. Die hierarchischen Abhängigkeiten zwischen Organisationen können der Organisationsdatenbank entnommen werden (<a target="_blank" href="http://www.org.ethz.ch">www.org.ethz.ch</a>).</p></div></div></div></div></td></tr></table><div class="formButtons"><div class="right"><input value="Suchen" id="searchDet" name="searchDet" title="Suchen" type="submit"/></div><div class="left"><input value="Zur&uuml;cksetzen" class="reset" title="Zur&uuml;cksetzen" onclick="bCancel=true;" type="reset"/></div></div></div><div>
+<input type="hidden" name="_csrf" value="aa954034-a61a-404c-989d-4422f1660b29" />
+</div></form></div></section><section id="contentEnd"/></section></div><footer id="footer"><ul id="footerLinks"><li><a href="impressum.view?lang=de" class="path">Impressum</a></li><li><a href="feedback.view">Feedback/Support</a></li><li>8. September 2026
+</li><li>
+		Version 2025.1 prod (prod red5)
+			
+		</li></ul><ul id="copyright"><li>
+		© <a class="path" href="https://www.ethz.ch/de.html" target="_blank">2025 ETH Zürich</a></li></ul></footer></body></html>

@@ -1,0 +1,36 @@
+{
+  "id": "brand:nus.edu.sg",
+  "host": "nus.edu.sg",
+  "kind": "reference",
+  "slug": "nus-edu-sg",
+  "name": "nus.edu.sg",
+  "category": "Reference",
+  "description": "",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://nus.edu.sg/",
+    "finalUrl": "https://nus.edu.sg/",
+    "extractedAt": "2026-09-07T23:41:56.043Z",
+    "thin": true,
+    "blocked": true,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Nus\" → \"nus.edu.sg\" (the title is a sentence; using the hostname)",
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 1,
+    "colors": 0,
+    "fonts": 0,
+    "logos": 1,
+    "imagery": 0,
+    "fonts_files": 4,
+    "headings": 0,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

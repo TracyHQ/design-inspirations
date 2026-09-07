@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://baochinhphu.vn/",
+  "crawledAt": "2026-09-07T23:49:35.351Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://baochinhphu.vn/",
+      "file": "pages/01-home.html",
+      "title": "Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/chinh-tri.htm",
+      "file": "pages/02-chinh-tri.html",
+      "title": "Chính trị - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Ch&#xED;nh tr&#x1ECB;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/chinh-tri/doi-ngoai.htm",
+      "file": "pages/03-chinh-tri-doi-ngoai.html",
+      "title": "Đối ngoại - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "&#x110;&#x1ED1;i ngo&#x1EA1;i",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/chinh-tri/to-chuc-nhan-su.htm",
+      "file": "pages/04-chinh-tri-to-chuc-nhan-su.html",
+      "title": "Tổ chức nhân sự - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "T&#x1ED5; ch&#x1EE9;c nh&#xE2;n s&#x1EF1;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/chinh-tri/hoi-nhap.htm",
+      "file": "pages/05-chinh-tri-hoi-nhap.html",
+      "title": "Hội nhập - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "H&#x1ED9;i nh&#x1EAD;p",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/kinh-te.htm",
+      "file": "pages/06-kinh-te.html",
+      "title": "Kinh tế - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Kinh t&#x1EBF;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/kinh-te/ngan-hang.htm",
+      "file": "pages/07-kinh-te-ngan-hang.html",
+      "title": "Ngân hàng - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Ng&#xE2;n h&#xE0;ng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/kinh-te/chung-khoan.htm",
+      "file": "pages/08-kinh-te-chung-khoan.html",
+      "title": "Chứng khoán - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Ch&#x1EE9;ng kho&#xE1;n",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/kinh-te/kinh-doanh.htm",
+      "file": "pages/09-kinh-te-kinh-doanh.html",
+      "title": "Kinh doanh - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Kinh doanh",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/van-hoa.htm",
+      "file": "pages/10-van-hoa.html",
+      "title": "Văn hóa - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "V&#x103;n h&#xF3;a",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/van-hoa/the-thao.htm",
+      "file": "pages/11-van-hoa-the-thao.html",
+      "title": "Thể thao - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Th&#x1EC3; thao",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/van-hoa/du-lich.htm",
+      "file": "pages/12-van-hoa-du-lich.html",
+      "title": "Du lịch - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Du l&#x1ECB;ch",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/xa-hoi.htm",
+      "file": "pages/13-xa-hoi.html",
+      "title": "Xã hội - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "X&#xE3; h&#x1ED9;i",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/xa-hoi/phap-luat.htm",
+      "file": "pages/14-xa-hoi-phap-luat.html",
+      "title": "Pháp luật - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Ph&#xE1;p lu&#x1EAD;t",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/xa-hoi/doi-song.htm",
+      "file": "pages/15-xa-hoi-doi-song.html",
+      "title": "Đời sống - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "&#x110;&#x1EDD;i s&#x1ED1;ng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/xa-hoi/y-te.htm",
+      "file": "pages/16-xa-hoi-y-te.html",
+      "title": "Y tế - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Y t&#x1EBF;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/khoa-giao.htm",
+      "file": "pages/17-khoa-giao.html",
+      "title": "Khoa giáo - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Khoa gi&#xE1;o",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/khoa-giao/giao-duc.htm",
+      "file": "pages/18-khoa-giao-giao-duc.html",
+      "title": "Giáo dục - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Gi&#xE1;o d&#x1EE5;c",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/khoa-giao/khoa-hoc-cong-nghe.htm",
+      "file": "pages/19-khoa-giao-khoa-hoc-cong-nghe.html",
+      "title": "Khoa học - Công nghệ - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Khoa h&#x1ECD;c - C&#xF4;ng ngh&#x1EC7;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://baochinhphu.vn/quoc-te.htm",
+      "file": "pages/20-quoc-te.html",
+      "title": "Quốc tế - Báo Điện tử Chính phủ – Thông tin chính thống của Chính phủ nước CHXHCN Việt Nam trên Internet",
+      "h1": "Qu&#x1ED1;c t&#x1EBF;",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

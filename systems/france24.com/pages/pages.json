@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://france24.com/",
+  "crawledAt": "2026-09-07T23:47:18.663Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://france24.com/",
+      "file": "pages/01-en.html",
+      "title": "France 24 - International breaking news, top stories and headlines",
+      "h1": "How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/",
+      "file": "pages/02-en.html",
+      "title": "France 24 - International breaking news, top stories and headlines",
+      "h1": "How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tv-shows/latest-shows/",
+      "file": "pages/03-en-tv-shows-latest-shows.html",
+      "title": "Latest TV shows on demand: news reports, debates & exclusive interviews - France 24",
+      "h1": "Latest TV shows",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/live-news/",
+      "file": "pages/04-en-live-news.html",
+      "title": "The latest live news wires, videos et articles - International News Live - France 24",
+      "h1": "Live news",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/live",
+      "file": "pages/05-en-live.html",
+      "title": "Watch France 24 English Live",
+      "h1": "Watch France 24 English live",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/fr/",
+      "file": "pages/06-fr.html",
+      "title": "France 24 - Infos, news & actualités - L&#039;information internationale en direct",
+      "h1": "Victoire de l’AfD en Saxe-Anhalt : la gauche populiste faiseuse de rois de l’extrême droite ?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/es/",
+      "file": "pages/07-es.html",
+      "title": "France 24 - Noticias y actualidad internacional en vivo",
+      "h1": "Cuatro días en la selva: así escapó un cabo de la Legión Francesa de las disidencias de las FARC",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/ar/",
+      "file": "pages/08-ar.html",
+      "title": "فرانس 24 – الأخبار والأحداث الدولية على مدار الساعة",
+      "h1": "نيبال: حداد وطني على ضحايا الفيضانات المدمرة وتواصل البحث عن آلاف المفقودين",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/news-alerts-settings",
+      "file": "pages/09-en-news-alerts-settings.html",
+      "title": "Manage your subscription to web news alerts - France 24",
+      "h1": "Manage your subscription to web news alerts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tag/israel-hamas-war/",
+      "file": "pages/10-en-tag-war-in-gaza.html",
+      "title": "War in Gaza: news, videos, reports and analysis - France 24",
+      "h1": "War in Gaza",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tag/nepal/",
+      "file": "pages/11-en-tag-nepal.html",
+      "title": "Nepal: news, videos, reports and analysis - France 24",
+      "h1": "Nepal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tag/heatwave/",
+      "file": "pages/12-en-tag-heatwave.html",
+      "title": "heatwave: news, videos, reports and analysis - France 24",
+      "h1": "heatwave",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tv-shows/",
+      "file": "pages/13-en-tv-shows.html",
+      "title": "TV shows, VOD, exclusive interviews and reports - France 24",
+      "h1": "TV Shows",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/replay/latest-news",
+      "file": "pages/14-en-replay-latest-news.html",
+      "title": "Watch the latest international news top stories and headlines - France 24",
+      "h1": "Watch the latest international news",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/replay/closed-captioned-newscast",
+      "file": "pages/15-en-replay-closed-captioned-newscast.html",
+      "title": "Video newscast for the Deaf and Hard-of-hearing - France 24",
+      "h1": "Video newscast for the Deaf and Hard-of-hearing",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/tv-guide",
+      "file": "pages/16-en-tv-guide.html",
+      "title": "TV Guide",
+      "h1": "TV Guide",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/environment",
+      "file": "pages/17-en-environment.html",
+      "title": "Environment news - France 24",
+      "h1": "Environment",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/business-tech/",
+      "file": "pages/18-en-business-tech.html",
+      "title": "Business news, technology, media and finance reports - France 24",
+      "h1": "Business / Tech",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/sport/",
+      "file": "pages/19-en-sport.html",
+      "title": "Sports news, stories and scores - Football, tennis, cycling… - France 24",
+      "h1": "Sport",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.france24.com/en/culture/",
+      "file": "pages/20-en-culture.html",
+      "title": "News and stories on CULTURE, movies, music, literature - France 24",
+      "h1": "Culture",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://theguardian.com/",
+  "crawledAt": "2026-09-07T23:42:55.723Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://theguardian.com/",
+      "file": "pages/01-us.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/us",
+      "file": "pages/02-us.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/email-newsletters",
+      "file": "pages/03-email-newsletters.html",
+      "title": "Guardian newsletters: Sign up for our free newsletters",
+      "h1": "Newsletters",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/sport/2026/sep/07/us-open-tennis-influencers-noise-weed",
+      "file": "pages/04-sport-2026-sep-07-us-open-tennis-influen.html",
+      "title": "Will hordes of influencers, weed smokers and mid-point talkers bring down the US Open? | US Open Tennis 2026 | The Guardian",
+      "h1": "Will hordes of influencers, weed smokers and mid-point talkers bring down the US Open?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/07/lindsay-clancy-case-rorschach-test",
+      "file": "pages/05-commentisfree-2026-sep-07-lindsay-clancy.html",
+      "title": "Lindsay Clancy’s case is a rorschach test | Moira Donegan | The Guardian",
+      "h1": "Lindsay Clancy’s case is a rorschach test",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/thefilter-us/2026/sep/07/zojirushi-water-warmer-and-dispenser-review",
+      "file": "pages/06-thefilter-us-2026-sep-07-zojirushi-water.html",
+      "title": "My favorite family heirloom: an old Zojirushi hot water dispenser better than any tea kettle | Life and style | The Guardian",
+      "h1": "My favorite family heirloom: an old Zojirushi hot water dispenser better than any tea kettle",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/sep/07/republican-midterm-convention-trump",
+      "file": "pages/07-us-news-2026-sep-07-republican-midterm-c.html",
+      "title": "Republican midterm convention will be ‘Trumpist pageantry’ – at the party’s own risk | Republicans | The Guardian",
+      "h1": "Republican midterm convention will be ‘Trumpist pageantry’ – at the party’s own risk",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/sep/07/strangers-twin-towers-escape-september-11",
+      "file": "pages/08-us-news-2026-sep-07-strangers-twin-tower.html",
+      "title": "25 years ago, two strangers met in the twin towers and escaped on 9/11. What happened next? | September 11 2001 | The Guardian",
+      "h1": "25 years ago, two strangers met in the twin towers and escaped on 9/11. What happened next?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/sport/2026/sep/07/ronald-acuna-jr-hancel-rincon-umpire-tilted-cap-baseball",
+      "file": "pages/09-sport-2026-sep-07-ronald-acuna-jr-hancel.html",
+      "title": "For baseball’s Black and Latino players, it’s always 1926 somewhere | MLB | The Guardian",
+      "h1": "For baseball’s Black and Latino players, it’s always 1926 somewhere",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/preference/edition/us",
+      "file": "pages/10-us.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/preference/edition/uk",
+      "file": "pages/11-uk.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/preference/edition/au",
+      "file": "pages/12-au.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/preference/edition/eur",
+      "file": "pages/13-europe.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/preference/edition/int",
+      "file": "pages/14-international.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/",
+      "file": "pages/15-us.html",
+      "title": "Latest news, sport and opinion from the Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree",
+      "file": "pages/16-us-commentisfree.html",
+      "title": "Comment, opinion and discussion from the Guardian US | The Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/sport",
+      "file": "pages/17-us-sport.html",
+      "title": "Sports news, scores, analysis and opinion from the Guardian US | The Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/culture",
+      "file": "pages/18-us-culture.html",
+      "title": "Arts and entertainment news from Guardian US | The Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/lifeandstyle",
+      "file": "pages/19-us-lifeandstyle.html",
+      "title": "Lifestyle | The Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.theguardian.com/us-news",
+      "file": "pages/20-us-news.html",
+      "title": "US news from the Guardian | The Guardian",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

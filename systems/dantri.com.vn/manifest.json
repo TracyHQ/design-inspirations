@@ -1,0 +1,35 @@
+{
+  "id": "brand:dantri.com.vn",
+  "host": "dantri.com.vn",
+  "kind": "reference",
+  "slug": "bao-ien-tu-dan-tri",
+  "name": "Báo điện tử Dân trí",
+  "category": "Reference",
+  "description": "Đọc báo dantri - Tin tức mới nhất, Thông tin nhanh chính xác được cập nhật hàng giờ. báo nói đọc tin tức online Việt Nam Thế giới nóng nhất trong ngày, Kinh doanh Việc làm, Pháp luật Đời sống, Giáo dục Sức khỏe, Thể thao Giải trí, Công nghệ, Văn hóa Xã hội, Ôtô Xe máy, Tình yêu, Nhân ái, Bạn đọc",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://dantri.com.vn/",
+    "finalUrl": "https://dantri.com.vn/",
+    "extractedAt": "2026-09-07T23:48:49.887Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #000000 has no hue → #015e53 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 20,
+    "fonts": 10,
+    "logos": 6,
+    "imagery": 8,
+    "fonts_files": 16,
+    "headings": 177,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

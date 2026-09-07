@@ -1,0 +1,95 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Al-Jazeera",
+      "weight": "200",
+      "style": "normal",
+      "file": "al-jazeera-200.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Al-Jazeera-Light.b09a8096.woff2",
+      "bytes": 33072
+    },
+    {
+      "family": "Al-Jazeera",
+      "weight": "400",
+      "style": "normal",
+      "file": "al-jazeera-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Al-Jazeera-Regular.0112de0f.woff2",
+      "bytes": 33920
+    },
+    {
+      "family": "Al-Jazeera",
+      "weight": "700",
+      "style": "normal",
+      "file": "al-jazeera-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Al-Jazeera-Bold.3301c4f5.woff2",
+      "bytes": 33508
+    },
+    {
+      "family": "Al-Jazeera",
+      "weight": "900",
+      "style": "normal",
+      "file": "al-jazeera-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Al-Jazeera-Heavy.3baf54b4.woff2",
+      "bytes": 34856
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "file": "roboto-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Roboto-Light.56ecfc67.woff2",
+      "bytes": 22544
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Roboto-Regular.c5bf51b6.woff2",
+      "bytes": 22644
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "file": "roboto-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Roboto-Medium.15431381.woff2",
+      "bytes": 22732
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "file": "roboto-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Roboto-Bold.52bb58c8.woff2",
+      "bytes": 22724
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "file": "roboto-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://aljazeera.com/static/media/Roboto-Black.d8e97377.woff2",
+      "bytes": 22608
+    },
+    {
+      "family": "slick",
+      "weight": "400",
+      "style": "normal",
+      "file": "slick-400.woff",
+      "format": "woff",
+      "sourceUrl": "https://aljazeera.com/static/media/slick.b7c9e1e4.woff",
+      "bytes": 1380
+    }
+  ]
+}

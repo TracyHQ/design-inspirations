@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-300-italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-500-italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GH Guardian Headline";
+  src: url("./gh-guardian-headline-700-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GuardianTextSans";
+  src: url("./guardiantextsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GuardianTextSans";
+  src: url("./guardiantextsans-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GuardianTextSans";
+  src: url("./guardiantextsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GuardianTextSans";
+  src: url("./guardiantextsans-700-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-300-italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-500-italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Guardian Egyptian Web";
+  src: url("./guardian-egyptian-web-700-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

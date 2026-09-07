@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://cam.ac.uk/",
+  "crawledAt": "2026-09-07T23:41:44.719Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://cam.ac.uk/",
+      "file": "pages/01-home.html",
+      "title": "University of Cambridge",
+      "h1": "Welcome to Cambridge",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/",
+      "file": "pages/02-home.html",
+      "title": "University of Cambridge",
+      "h1": "Welcome to Cambridge",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/business-and-enterprise",
+      "file": "pages/03-business-and-enterprise.html",
+      "title": "Business and enterprise | University of Cambridge",
+      "h1": "Business and enterprise",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/news",
+      "file": "pages/04-news.html",
+      "title": "News | University of Cambridge",
+      "h1": "News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/jobs",
+      "file": "pages/05-jobs.html",
+      "title": "Jobs | University of Cambridge",
+      "h1": "Jobs",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/research",
+      "file": "pages/06-research.html",
+      "title": "Research | University of Cambridge",
+      "h1": "Research",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/colleges-and-departments",
+      "file": "pages/07-colleges-and-departments.html",
+      "title": "Colleges and Departments | University of Cambridge",
+      "h1": "Colleges and Departments",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/about-the-university",
+      "file": "pages/08-about-the-university.html",
+      "title": "About the University | University of Cambridge",
+      "h1": "About the University",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/news/university-of-cambridge-launches-independent-review-following-the-death-of-professor-jason-arday",
+      "file": "pages/09-news-university-of-cambridge-launches-in.html",
+      "title": "University of Cambridge launches independent review following the death of Professor Jason Arday | University of Cambridge",
+      "h1": "University of Cambridge launches independent review following the death of Professor Jason Arday",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/research/news/cancer-cells-release-antioxidants-to-prevent-immune-cells-from-destroying-them",
+      "file": "pages/10-research-news-cancer-cells-release-antio.html",
+      "title": "Cancer cells release antioxidants to prevent immune cells from destroying them | University of Cambridge",
+      "h1": "Cancer cells release antioxidants to prevent immune cells from destroying them",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/research/news/comparison-of-male-and-female-fly-brains-is-unlocking-the-secret-workings-of-the-mind",
+      "file": "pages/11-research-news-comparison-of-male-and-fem.html",
+      "title": "Comparison of male and female fly brains is unlocking the secret workings of the mind | University of Cambridge",
+      "h1": "Comparison of male and female fly brains is unlocking the secret workings of the mind",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/facebook",
+      "file": "pages/12-cambridge.html",
+      "title": "University of Cambridge",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/linkedin",
+      "file": "pages/13-uas-login.html",
+      "title": "LinkedIn Login, Sign in | LinkedIn",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/tiktok",
+      "file": "pages/14-cambridgeuniversity.html",
+      "title": "TikTok - Make Your Day",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/twitter",
+      "file": "pages/15-cambridge-uni.html",
+      "title": "Cambridge University (@Cambridge_Uni) / X",
+      "h1": "Cambridge University",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/youtube",
+      "file": "pages/16-cambridgeuniversity.html",
+      "title": "Cambridge University - YouTube",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/about-the-university/contact-the-university",
+      "file": "pages/17-about-the-university-contact-the-univers.html",
+      "title": "Contact the University | University of Cambridge",
+      "h1": "Contact the University",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/about-this-site/accessibility",
+      "file": "pages/18-about-this-site-accessibility.html",
+      "title": "Accessibility statement for the University of Cambridge | University of Cambridge",
+      "h1": "Accessibility statement for the University of Cambridge",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/about-this-site/privacy-policy",
+      "file": "pages/19-about-this-site-privacy-policy.html",
+      "title": "Privacy policy | University of Cambridge",
+      "h1": "Privacy policy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.cam.ac.uk/about-this-site/terms-and-conditions",
+      "file": "pages/20-about-this-site-terms-and-conditions.html",
+      "title": "Terms and conditions | University of Cambridge",
+      "h1": "Terms and conditions",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

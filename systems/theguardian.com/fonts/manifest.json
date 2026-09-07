@@ -1,0 +1,149 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "GH Guardian Headline",
+      "weight": "300",
+      "style": "normal",
+      "file": "gh-guardian-headline-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Light.woff2",
+      "bytes": 15764
+    },
+    {
+      "family": "GH Guardian Headline",
+      "weight": "300",
+      "style": "italic",
+      "file": "gh-guardian-headline-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-LightItalic.woff2",
+      "bytes": 17188
+    },
+    {
+      "family": "GH Guardian Headline",
+      "weight": "500",
+      "style": "normal",
+      "file": "gh-guardian-headline-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Medium.woff2",
+      "bytes": 16612
+    },
+    {
+      "family": "GH Guardian Headline",
+      "weight": "500",
+      "style": "italic",
+      "file": "gh-guardian-headline-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-MediumItalic.woff2",
+      "bytes": 19052
+    },
+    {
+      "family": "GH Guardian Headline",
+      "weight": "700",
+      "style": "normal",
+      "file": "gh-guardian-headline-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Bold.woff2",
+      "bytes": 16492
+    },
+    {
+      "family": "GH Guardian Headline",
+      "weight": "700",
+      "style": "italic",
+      "file": "gh-guardian-headline-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-BoldItalic.woff2",
+      "bytes": 19000
+    },
+    {
+      "family": "GuardianTextSans",
+      "weight": "400",
+      "style": "normal",
+      "file": "guardiantextsans-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-textsans/noalts-not-hinted/GuardianTextSans-Regular.woff2",
+      "bytes": 15416
+    },
+    {
+      "family": "GuardianTextSans",
+      "weight": "400",
+      "style": "italic",
+      "file": "guardiantextsans-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-textsans/noalts-not-hinted/GuardianTextSans-RegularItalic.woff2",
+      "bytes": 16536
+    },
+    {
+      "family": "GuardianTextSans",
+      "weight": "700",
+      "style": "normal",
+      "file": "guardiantextsans-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-textsans/noalts-not-hinted/GuardianTextSans-Bold.woff2",
+      "bytes": 17376
+    },
+    {
+      "family": "GuardianTextSans",
+      "weight": "700",
+      "style": "italic",
+      "file": "guardiantextsans-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-textsans/noalts-not-hinted/GuardianTextSans-BoldItalic.woff2",
+      "bytes": 18692
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "300",
+      "style": "normal",
+      "file": "guardian-egyptian-web-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Light.woff2",
+      "bytes": 15764
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "300",
+      "style": "italic",
+      "file": "guardian-egyptian-web-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-LightItalic.woff2",
+      "bytes": 17188
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "500",
+      "style": "normal",
+      "file": "guardian-egyptian-web-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Medium.woff2",
+      "bytes": 16612
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "500",
+      "style": "italic",
+      "file": "guardian-egyptian-web-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-MediumItalic.woff2",
+      "bytes": 19052
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "700",
+      "style": "normal",
+      "file": "guardian-egyptian-web-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Bold.woff2",
+      "bytes": 16492
+    },
+    {
+      "family": "Guardian Egyptian Web",
+      "weight": "700",
+      "style": "italic",
+      "file": "guardian-egyptian-web-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-BoldItalic.woff2",
+      "bytes": 19000
+    }
+  ]
+}

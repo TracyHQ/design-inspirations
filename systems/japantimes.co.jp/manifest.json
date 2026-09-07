@@ -1,0 +1,33 @@
+{
+  "id": "brand:japantimes.co.jp",
+  "host": "japantimes.co.jp",
+  "kind": "reference",
+  "slug": "the-japan-times",
+  "name": "The Japan Times",
+  "category": "Reference",
+  "description": "Latest news on Japan: business, politics, commentary, sports, culture, life and more",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://japantimes.co.jp/",
+    "finalUrl": "https://japantimes.co.jp/",
+    "extractedAt": "2026-09-07T23:47:36.528Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 10,
+    "logos": 5,
+    "imagery": 2,
+    "fonts_files": 13,
+    "headings": 20,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

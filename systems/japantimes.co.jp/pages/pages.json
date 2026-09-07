@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://japantimes.co.jp/",
+  "crawledAt": "2026-09-07T23:47:28.785Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://japantimes.co.jp/",
+      "file": "pages/01-home.html",
+      "title": "The Japan Times - News On Japan, Business News, Opinion, Sports, Entertainment And More",
+      "h1": "Home page",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/",
+      "file": "pages/02-home.html",
+      "title": "The Japan Times - News On Japan, Business News, Opinion, Sports, Entertainment And More",
+      "h1": "Home page",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/sub/",
+      "file": "pages/03-sub.html",
+      "title": "The Japan Times Subscription",
+      "h1": "Choose your digital plan",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/sub/print/",
+      "file": "pages/04-sub-print.html",
+      "title": "Print subscriptions | The Japan Times Subscription",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/weather/",
+      "file": "pages/05-weather.html",
+      "title": "Weather - The Japan Times",
+      "h1": "weather",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/archive/2026/09/08/",
+      "file": "pages/06-archive-2026-09-08.html",
+      "title": "Archive - The Japan Times",
+      "h1": "archive",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/2026/09/02/japan/japan-immigration-business-manager-visa/",
+      "file": "pages/07-news-2026-09-02-japan-japan-immigration-.html",
+      "title": "Nearly 1,000 business manager visa holders left Japan in first half of 2026 - The Japan Times",
+      "h1": "Nearly 1,000 business manager visa holders left Japan in first half of 2026",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/tag/yen/",
+      "file": "pages/08-tag-yen.html",
+      "title": "Tag - The Japan Times",
+      "h1": "Tag - yen",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/tag/nepal/",
+      "file": "pages/09-tag-nepal.html",
+      "title": "Tag - The Japan Times",
+      "h1": "Tag - nepal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/latest-news/",
+      "file": "pages/10-latest-news.html",
+      "title": "Latest News - The Japan Times",
+      "h1": "Latest News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/",
+      "file": "pages/11-news-japan.html",
+      "title": "Japan - News - The Japan Times",
+      "h1": "JAPAN",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/politics/",
+      "file": "pages/12-news-japan-politics.html",
+      "title": "Japan - Politics - News - The Japan Times",
+      "h1": "Politics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/society/",
+      "file": "pages/13-news-japan-society.html",
+      "title": "Social Issues - News - The Japan Times",
+      "h1": "Society",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/crime-legal/",
+      "file": "pages/14-news-japan-crime-legal.html",
+      "title": "Crime & Legal - News - The Japan Times",
+      "h1": "Crime & Legal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/science-health/",
+      "file": "pages/15-news-japan-science-health.html",
+      "title": "Science & Health - News - The Japan Times",
+      "h1": "Science & Health",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/explainer/",
+      "file": "pages/16-news-japan-explainer.html",
+      "title": "Reference - News - The Japan Times",
+      "h1": "Explainer",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/japan/history/",
+      "file": "pages/17-news-japan-history.html",
+      "title": "History - News - The Japan Times",
+      "h1": "History",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/world/",
+      "file": "pages/18-news-world.html",
+      "title": "World - News - The Japan Times",
+      "h1": "WORLD",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/world/politics/",
+      "file": "pages/19-news-world-politics.html",
+      "title": "World Politics - The Japan Times",
+      "h1": "Politics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/world/crime-legal/",
+      "file": "pages/20-news-world-crime-legal.html",
+      "title": "Crime & Legal - News - The Japan Times",
+      "h1": "Crime & Legal",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

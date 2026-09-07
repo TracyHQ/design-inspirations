@@ -1,0 +1,152 @@
+{
+  "name": "Massachusetts Institute of Technology",
+  "tagline": "Massachusetts Institute of Technology",
+  "description": "The mission of MIT is to advance knowledge and educate students in science, technology and other areas of scholarship that will best serve the nation and the world in the 21st century.",
+  "sourceUrl": "https://mit.edu/",
+  "logo": {
+    "primary": "logos/apple-touch-icon-2.png",
+    "alternates": [
+      "logos/favicon-0.ico",
+      "logos/favicon-1.svg"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#0a0a0a",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#737373",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#242424",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#00ad00",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "neue-haas-grotesk-display",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ]
+    },
+    "body": {
+      "family": "neue-haas-grotesk-display",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ]
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Massachusetts Institute of Technology",
+      "Spotlight: Sep 7, 2026",
+      "Research and Education that Matter"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/hero-0.jpg",
+        "kind": "hero",
+        "caption": "Hero image"
+      },
+      {
+        "file": "imagery/hero-1.jpg",
+        "kind": "hero",
+        "caption": "Hero image 2"
+      },
+      {
+        "file": "imagery/hero-2.jpg",
+        "kind": "hero",
+        "caption": "Hero image 3"
+      },
+      {
+        "file": "imagery/hero-3.jpg",
+        "kind": "hero",
+        "caption": "Hero image 4"
+      },
+      {
+        "file": "imagery/hero-4.jpg",
+        "kind": "hero",
+        "caption": "Hero image 5"
+      },
+      {
+        "file": "imagery/hero-5.jpg",
+        "kind": "hero",
+        "caption": "Hero image 6"
+      },
+      {
+        "file": "imagery/image-6.jpg",
+        "kind": "image",
+        "caption": "Site image 1"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

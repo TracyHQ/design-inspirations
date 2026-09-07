@@ -1,0 +1,35 @@
+{
+  "id": "brand:stanford.edu",
+  "host": "stanford.edu",
+  "kind": "reference",
+  "slug": "stanford-university",
+  "name": "Stanford University",
+  "category": "Reference",
+  "description": "At Stanford, a spirit of optimism and possibility energizes our mission of discovery and learning. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Alive with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://stanford.edu/",
+    "finalUrl": "https://stanford.edu/",
+    "extractedAt": "2026-09-07T23:41:35.425Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Source Sans 3)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 20,
+    "fonts": 9,
+    "logos": 6,
+    "imagery": 0,
+    "fonts_files": 4,
+    "headings": 39,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

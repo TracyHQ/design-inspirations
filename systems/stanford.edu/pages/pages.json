@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://stanford.edu/",
+  "crawledAt": "2026-09-07T23:41:29.361Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://stanford.edu/",
+      "file": "pages/01-home.html",
+      "title": "Stanford University",
+      "h1": "Stanford University",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/",
+      "file": "pages/02-home.html",
+      "title": "Stanford University",
+      "h1": "Stanford University",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/civics",
+      "file": "pages/03-civics.html",
+      "title": "Civics at Stanford | Stanford University",
+      "h1": "Civics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/cancer-research",
+      "file": "pages/04-cancer-research.html",
+      "title": "A Bold New Course in Cancer | Stanford University",
+      "h1": "A Bold New Course in Cancer",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/artificial-intelligence",
+      "file": "pages/05-artificial-intelligence.html",
+      "title": "Human-Centered AI at Stanford | Stanford University",
+      "h1": "Human-Centered AI",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/about/impact",
+      "file": "pages/06-about-impact.html",
+      "title": "Our Impact | Stanford University",
+      "h1": "Our Impact",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/about",
+      "file": "pages/07-about.html",
+      "title": "About Stanford | Stanford University",
+      "h1": "About Stanford",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/about/history",
+      "file": "pages/08-about-history.html",
+      "title": "Our History | Stanford University",
+      "h1": "Our History",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/about/leadership-and-governance",
+      "file": "pages/09-about-leadership-and-governance.html",
+      "title": "Our Leadership | Stanford University",
+      "h1": "Our Leadership",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/faculty-staff-gateway",
+      "file": "pages/10-faculty-staff-gateway.html",
+      "title": "Information for Stanford Faculty & Staff | Stanford University",
+      "h1": "Information for Faculty & Staff",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/academics",
+      "file": "pages/11-academics.html",
+      "title": "Academics at Stanford | Stanford University",
+      "h1": "Academics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/academics/schools",
+      "file": "pages/12-academics-schools.html",
+      "title": "Stanford’s Seven Schools | Stanford University",
+      "h1": "Stanford’s Seven Schools",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/academics/everyone",
+      "file": "pages/13-academics-everyone.html",
+      "title": "Stanford for Everyone | Stanford University",
+      "h1": "Stanford for Everyone",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/research",
+      "file": "pages/14-research.html",
+      "title": "Research at Stanford | Stanford University",
+      "h1": "Research",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/health-medicine",
+      "file": "pages/15-health-medicine.html",
+      "title": "Health & Medicine at Stanford | Stanford University",
+      "h1": "Health & Medicine",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/athletics",
+      "file": "pages/16-athletics.html",
+      "title": "Athletics at Stanford | Stanford University",
+      "h1": "Athletics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/admissions-aid",
+      "file": "pages/17-admissions-aid.html",
+      "title": "Admissions & Financial Aid at Stanford | Stanford University",
+      "h1": "Admissions & Aid",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/life",
+      "file": "pages/18-life.html",
+      "title": "Life on the Farm | Stanford University",
+      "h1": "Life on the Farm",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/life/visit",
+      "file": "pages/19-life-visit.html",
+      "title": "Visit Stanford | Stanford University",
+      "h1": "Visit",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.stanford.edu/contact",
+      "file": "pages/20-contact.html",
+      "title": "Contact Us | Stanford University",
+      "h1": "Contact Us",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

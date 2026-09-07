@@ -1,0 +1,35 @@
+{
+  "id": "brand:baochinhphu.vn",
+  "host": "baochinhphu.vn",
+  "kind": "reference",
+  "slug": "baochinhphu-vn",
+  "name": "baochinhphu.vn",
+  "category": "Reference",
+  "description": "Thông tin cập nhật, chính thống, tin cậy và toàn diện về hoạt động và chỉ đạo, điều hành của Chính phủ, lãnh đạo Chính phủ",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://baochinhphu.vn/",
+    "finalUrl": "https://baochinhphu.vn/",
+    "extractedAt": "2026-09-07T23:50:18.864Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #000000 has no hue → #1b1d2d (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 6,
+    "logos": 4,
+    "imagery": 4,
+    "fonts_files": 15,
+    "headings": 32,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

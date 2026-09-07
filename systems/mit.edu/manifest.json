@@ -1,0 +1,35 @@
+{
+  "id": "brand:mit.edu",
+  "host": "mit.edu",
+  "kind": "reference",
+  "slug": "massachusetts-institute-of-technology",
+  "name": "Massachusetts Institute of Technology",
+  "category": "Reference",
+  "description": "The mission of MIT is to advance knowledge and educate students in science, technology and other areas of scholarship that will best serve the nation and the world in the 21st century.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://mit.edu/",
+    "finalUrl": "https://mit.edu/",
+    "extractedAt": "2026-09-07T23:41:24.762Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #000000 has no hue → #00ad00 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 1,
+    "colors": 19,
+    "fonts": 2,
+    "logos": 3,
+    "imagery": 7,
+    "fonts_files": 0,
+    "headings": 9,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

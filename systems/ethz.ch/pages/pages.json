@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://ethz.ch/",
+  "crawledAt": "2026-09-07T23:41:50.873Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://ethz.ch/",
+      "file": "pages/01-de.html",
+      "title": "ETH Zürich - Homepage | ETH Zürich",
+      "h1": "ETH Z&uuml;rich: Übersicht und Aktuelles",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/",
+      "file": "pages/02-de.html",
+      "title": "ETH Zürich - Homepage | ETH Zürich",
+      "h1": "ETH Z&uuml;rich: Übersicht und Aktuelles",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de.html",
+      "file": "pages/03-de.html",
+      "title": "ETH Zürich - Homepage | ETH Zürich",
+      "h1": "ETH Z&uuml;rich: Übersicht und Aktuelles",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/utils/search.html",
+      "file": "pages/04-de-utils-search.html",
+      "title": "Suche | ETH Zürich",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/utils/kontakt.html",
+      "file": "pages/05-de-utils-kontakt.html",
+      "title": "Kontakt | ETH Zürich",
+      "h1": "Kontakt",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/footer/inhaltsverzeichnis.html",
+      "file": "pages/06-de-footer-inhaltsverzeichnis.html",
+      "title": "Inhaltsverzeichnis | ETH Zürich",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/studierende/de.html",
+      "file": "pages/07-studierende-de.html",
+      "title": "Studierendenportal ETH - Homepage – Studierendenportal | ETH Zürich",
+      "h1": "Studierendenportal : Übersicht und Aktuelles",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/staffnet/de.html",
+      "file": "pages/08-staffnet-de.html",
+      "title": "Homepage – Staffnet | ETH Zürich",
+      "h1": "Staffnet : Übersicht und Aktuelles",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/staffnet/de/news-und-veranstaltungen/intern-aktuell/archiv/2026/09/jetzt-eth-angehoerige-fuer-den-impact-award-nominieren.html",
+      "file": "pages/09-staffnet-de-news-und-veranstaltungen-int.html",
+      "title": "Jetzt ETH-Angehörige für den Impact Award nominieren – Staffnet | ETH Zürich",
+      "h1": "Jetzt ETH-Angeh&ouml;rige f&uuml;r den Impact Award nominieren",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/staffnet/de/news-und-veranstaltungen/intern-aktuell/archiv.html",
+      "file": "pages/10-staffnet-de-news-und-veranstaltungen-int.html",
+      "title": "Archiv Intern aktuell – Staffnet | ETH Zürich",
+      "h1": "Archiv Intern aktuell",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/news-und-veranstaltungen/eth-news/teaser.html",
+      "file": "pages/11-de-news-und-veranstaltungen-eth-news-tea.html",
+      "title": "Teaserkanal | ETH Zürich",
+      "h1": "Teaserkanal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/news-und-veranstaltungen/eth-news/meldungen.html",
+      "file": "pages/12-de-news-und-veranstaltungen-eth-news-mel.html",
+      "title": "Weitere Meldungen | ETH Zürich",
+      "h1": "Weitere Meldungen",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/news-und-veranstaltungen/medien.html",
+      "file": "pages/13-de-news-und-veranstaltungen-medien.html",
+      "title": "Informationen für Medienschaffende | ETH Zürich",
+      "h1": "Informationen f&uuml;r Medienschaffende",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/utils/rss.html",
+      "file": "pages/14-de-utils-rss.html",
+      "title": "RSS-Feeds | ETH Zürich",
+      "h1": "RSS-Feeds",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/footer/impressum.html",
+      "file": "pages/15-de-footer-impressum.html",
+      "title": "Impressum | ETH Zürich",
+      "h1": "Impressum",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/footer/barrierefreiheitserkl%C3%A4rung.html",
+      "file": "pages/16-de-footer-barrierefreiheitserkl-c3-a4run.html",
+      "title": "Erklärung zur Barrierefreiheit | ETH Zürich",
+      "h1": "Erkl&auml;rung zur Barrierefreiheit",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/footer/disclaimer-copyright.html",
+      "file": "pages/17-de-footer-disclaimer-copyright.html",
+      "title": "Disclaimer & Copyright | ETH Zürich",
+      "h1": "Disclaimer & Copyright",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/footer/datenschutz.html",
+      "file": "pages/18-de-footer-datenschutz.html",
+      "title": "Datenschutz | ETH Zürich",
+      "h1": "Datenschutz",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ethz.ch/de/campus/erleben/lernen-und-arbeiten/campusinfo.html",
+      "file": "pages/19-de-campus-erleben-lernen-und-arbeiten-ca.html",
+      "title": "Campus Info | ETH Zürich",
+      "h1": "Campus Info",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.ethz.ch/personensuche",
+      "file": "pages/20-personensuche-personenformular.html",
+      "title": "ETH Zürich - Personensuche",
+      "h1": "Suche nach Dozierenden, Studierenden oder Angestellten der ETH",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

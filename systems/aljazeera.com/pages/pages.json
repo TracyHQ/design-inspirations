@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://aljazeera.com/",
+  "crawledAt": "2026-09-07T23:47:06.090Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://aljazeera.com/",
+      "file": "pages/01-home.html",
+      "title": "Breaking News, World News and Video from Al Jazeera",
+      "h1": "Al Jazeera",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/",
+      "file": "pages/02-home.html",
+      "title": "Breaking News, World News and Video from Al Jazeera",
+      "h1": "Al Jazeera",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/video/live",
+      "file": "pages/03-video-live.html",
+      "title": "LIVE - Al Jazeera English | Video broadcast from Al Jazeera",
+      "h1": "Al Jazeera Live",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/news/",
+      "file": "pages/04-news.html",
+      "title": "News | News | Today&#x27;s latest from Al Jazeera",
+      "h1": "News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/africa/",
+      "file": "pages/05-africa.html",
+      "title": "Africa News | Today&#x27;s latest from Al Jazeera",
+      "h1": "Africa News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/asia/",
+      "file": "pages/06-asia.html",
+      "title": "Asia News | Today&#x27;s latest from Al Jazeera",
+      "h1": "Asia News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/us-canada/",
+      "file": "pages/07-us-canada.html",
+      "title": "US & Canada News | Today&#x27;s latest from Al Jazeera",
+      "h1": "US & Canada News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/latin-america/",
+      "file": "pages/08-latin-america.html",
+      "title": "Latin America News | Today&#x27;s latest from Al Jazeera",
+      "h1": "Latin America News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/europe/",
+      "file": "pages/09-europe.html",
+      "title": "Europe News | Today&#x27;s latest from Al Jazeera",
+      "h1": "Europe News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/asia-pacific/",
+      "file": "pages/10-asia-pacific.html",
+      "title": "Asia Pacific | Today&#x27;s latest from Al Jazeera",
+      "h1": "Asia Pacific",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/middle-east/",
+      "file": "pages/11-middle-east.html",
+      "title": "Middle East News | Today&#x27;s latest from Al Jazeera",
+      "h1": "Middle East News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/tag/explainer/",
+      "file": "pages/12-tag-explainer.html",
+      "title": "Explainer | Today&#x27;s latest from Al Jazeera",
+      "h1": "Explainer",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/sports",
+      "file": "pages/13-sports.html",
+      "title": "Sport | Sport | Today&#x27;s latest from Al Jazeera",
+      "h1": "Sport",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/opinion/",
+      "file": "pages/14-opinion.html",
+      "title": "Opinion | Today&#x27;s latest from Al Jazeera",
+      "h1": "Opinion",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/videos/",
+      "file": "pages/15-videos.html",
+      "title": "Video | Today&#x27;s latest from Al Jazeera",
+      "h1": "Video",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/features/",
+      "file": "pages/16-features.html",
+      "title": "Features | Today&#x27;s latest from Al Jazeera",
+      "h1": "Features",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/",
+      "file": "pages/17-economy.html",
+      "title": "Economy | Today&#x27;s latest from Al Jazeera",
+      "h1": "Economy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/tag/human-rights/",
+      "file": "pages/18-tag-human-rights.html",
+      "title": "Human Rights | Today&#x27;s latest from Al Jazeera",
+      "h1": "Human Rights",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/climate-crisis",
+      "file": "pages/19-climate-crisis.html",
+      "title": "Climate Crisis | Today&#x27;s latest from Al Jazeera",
+      "h1": "Climate Crisis",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.aljazeera.com/interactives/",
+      "file": "pages/20-interactives.html",
+      "title": "Interactives | Today&#x27;s latest from Al Jazeera",
+      "h1": "Interactives",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

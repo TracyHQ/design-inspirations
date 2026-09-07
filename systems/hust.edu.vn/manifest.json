@@ -1,0 +1,35 @@
+{
+  "id": "brand:hust.edu.vn",
+  "host": "hust.edu.vn",
+  "kind": "reference",
+  "slug": "ai-hoc-bach-khoa-ha-noi",
+  "name": "Đại học Bách khoa Hà Nội",
+  "category": "Reference",
+  "description": "Đại học Bách khoa Hà Nội - HaNoi University of science and technology",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://hust.edu.vn/",
+    "finalUrl": "https://hust.edu.vn/",
+    "extractedAt": "2026-09-07T23:42:51.969Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 25,
+    "fonts": 5,
+    "logos": 5,
+    "imagery": 8,
+    "fonts_files": 4,
+    "headings": 45,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

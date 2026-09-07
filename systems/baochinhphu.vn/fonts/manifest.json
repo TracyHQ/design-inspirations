@@ -1,0 +1,140 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "file": "inter-400.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Regular.ttf",
+      "bytes": 287928
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "file": "inter-500.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Medium.ttf",
+      "bytes": 292140
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "file": "inter-600.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-SemiBold.ttf",
+      "bytes": 293028
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "file": "inter-700.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Bold.ttf",
+      "bytes": 293448
+    },
+    {
+      "family": "Merriweather",
+      "weight": "normal",
+      "style": "normal",
+      "file": "merriweather-normal.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Merriweather-Regular.woff2",
+      "bytes": 62572
+    },
+    {
+      "family": "Merriweather",
+      "weight": "bold",
+      "style": "normal",
+      "file": "merriweather-bold.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Merriweather-Bold.woff2",
+      "bytes": 60784
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Regular.woff2",
+      "bytes": 65764
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "file": "roboto-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Medium.woff2",
+      "bytes": 66708
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "file": "roboto-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/RobotoCondensed-Bold.woff2",
+      "bytes": 66028
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "file": "roboto-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Bold.woff2",
+      "bytes": 66004
+    },
+    {
+      "family": "Roboto",
+      "weight": "bold",
+      "style": "normal",
+      "file": "roboto-bold.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Bold.woff2",
+      "bytes": 66004
+    },
+    {
+      "family": "SFProDisplay",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfprodisplay-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Regular.woff2",
+      "bytes": 89544
+    },
+    {
+      "family": "SFProDisplay",
+      "weight": "500",
+      "style": "normal",
+      "file": "sfprodisplay-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Semibold.woff2",
+      "bytes": 100384
+    },
+    {
+      "family": "SFProDisplay",
+      "weight": "600",
+      "style": "normal",
+      "file": "sfprodisplay-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Bold.woff2",
+      "bytes": 98704
+    },
+    {
+      "family": "NotoSerif",
+      "weight": "normal",
+      "style": "normal",
+      "file": "notoserif-normal.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/NotoSerif.woff2",
+      "bytes": 178364
+    }
+  ]
+}

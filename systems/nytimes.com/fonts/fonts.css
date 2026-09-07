@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-300-italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-500-italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-600-italic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-700-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-800-italic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-900-italic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-800.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-franklin";
+  src: url("./nyt-franklin-900.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-karnak";
+  src: url("./nyt-karnak-100-cursive.woff2") format("woff2");
+  font-weight: 100;
+  font-style: cursive;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-karnak";
+  src: url("./nyt-karnak-200-cursive.woff2") format("woff2");
+  font-weight: 200;
+  font-style: cursive;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-karnak";
+  src: url("./nyt-karnak-300-cursive.woff2") format("woff2");
+  font-weight: 300;
+  font-style: cursive;
+  font-display: swap;
+}
+@font-face {
+  font-family: "nyt-karnak";
+  src: url("./nyt-karnak-500-cursive.woff2") format("woff2");
+  font-weight: 500;
+  font-style: cursive;
+  font-display: swap;
+}

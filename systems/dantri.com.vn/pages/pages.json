@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://dantri.com.vn/",
+  "crawledAt": "2026-09-07T23:48:22.536Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://dantri.com.vn/",
+      "file": "pages/01-home.html",
+      "title": "Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/tong-bi-thu-chu-tich-nuoc-to-lam-tham-nga-phap-10502.htm",
+      "file": "pages/02-event-tong-bi-thu-chu-tich-nuoc-to-lam-t.html",
+      "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm thăm Nga, Pháp | Báo Dân trí",
+      "h1": "Tổng Bí thư, Chủ tịch nước Tô Lâm thăm Nga, Pháp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/chu-tich-quoc-hoi-tham-han-quoc-va-mong-co-10501.htm",
+      "file": "pages/03-event-chu-tich-quoc-hoi-tham-han-quoc-va.html",
+      "title": "Chủ tịch Quốc hội thăm Hàn Quốc và Mông Cổ | Báo Dân trí",
+      "h1": "Chủ tịch Quốc hội thăm Hàn Quốc và Mông Cổ",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/chay-khach-san-o-tphcm-10500.htm",
+      "file": "pages/04-event-chay-khach-san-o-tphcm-10500.html",
+      "title": "Cháy khách sạn ở TPHCM | Báo Dân trí",
+      "h1": "Cháy khách sạn ở TPHCM",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/vong-loai-u20-chau-a-2027-10451.htm",
+      "file": "pages/05-event-vong-loai-u20-chau-a-2027-10451.html",
+      "title": "Vòng loại U20 châu Á 2027 | Báo Dân trí",
+      "h1": "Vòng loại U20 châu Á 2027",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/phu-huynh-kho-mua-sach-giao-khoa-10450.htm",
+      "file": "pages/06-event-phu-huynh-kho-mua-sach-giao-khoa-1.html",
+      "title": "Phụ huynh khó mua sách giáo khoa | Báo Dân trí",
+      "h1": "Phụ huynh khó mua sách giáo khoa",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/ba-me-con-bi-sat-hai-o-dong-nai-10457.htm",
+      "file": "pages/07-event-ba-me-con-bi-sat-hai-o-dong-nai-10.html",
+      "title": "Ba mẹ con bị sát hại ở Đồng Nai | Báo Dân trí",
+      "h1": "Ba mẹ con bị sát hại ở Đồng Nai",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/lu-quet-o-bien-gioi-nepal-trung-quoc-10376.htm",
+      "file": "pages/08-event-lu-quet-o-bien-gioi-nepal-trung-qu.html",
+      "title": "Lũ quét ở biên giới Nepal - Trung Quốc | Báo Dân trí",
+      "h1": "Lũ quét ở biên giới Nepal - Trung Quốc",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/cuoc-chien-voi-loat-giang-ho-mang-10307.htm",
+      "file": "pages/09-event-cuoc-chien-voi-loat-giang-ho-mang-.html",
+      "title": "\"Cuộc chiến\" với loạt giang hồ mạng | Báo Dân trí",
+      "h1": "\"Cuộc chiến\" với loạt giang hồ mạng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/fifa-asean-cup-2026-9633.htm",
+      "file": "pages/10-event-fifa-asean-cup-2026-9633.html",
+      "title": "FIFA ASEAN Cup 2026 | Báo Dân trí",
+      "h1": "FIFA ASEAN Cup 2026",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/event/chien-dich-500-ngay-tra-ten-cho-liet-si-9490.htm",
+      "file": "pages/11-event-chien-dich-500-ngay-tra-ten-cho-li.html",
+      "title": "Chiến dịch 500 ngày \"trả tên\" cho liệt sĩ | Báo Dân trí",
+      "h1": "Chiến dịch 500 ngày \"trả tên\" cho liệt sĩ",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/dt360.htm",
+      "file": "pages/12-dt360.html",
+      "title": "Dân trí 360: lướt nhanh video tin nóng,đời sống, giải trí, sự kiện nổi bật | Báo Dân trí",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/tin-moi-nhat.htm",
+      "file": "pages/13-tin-moi-nhat.html",
+      "title": "Tin tức Việt Nam và Thế giới mới nhất cập nhật liên tục 24h | Báo Dân trí",
+      "h1": "Tin mới nhất",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/the-gioi.htm",
+      "file": "pages/14-the-gioi.html",
+      "title": "Tin tức thế giới 24h - Kinh tế, An ninh quân sự thế giới | Báo Dân trí",
+      "h1": "Thế giới",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/the-gioi/quan-su.htm",
+      "file": "pages/15-the-gioi-quan-su.html",
+      "title": "Tin tức quân sự thế giới cập nhật liên tục | Báo Dân trí",
+      "h1": "Quân sự",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/the-gioi/phan-tich-binh-luan.htm",
+      "file": "pages/16-the-gioi-phan-tich-binh-luan.html",
+      "title": "Phân tích - Bình luận | Báo Dân trí",
+      "h1": "Phân tích - Bình luận",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/the-gioi/the-gioi-do-day.htm",
+      "file": "pages/17-the-gioi-the-gioi-do-day.html",
+      "title": "Thế giới đó đây | Báo Dân trí",
+      "h1": "Thế giới đó đây",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/the-gioi/kieu-bao.htm",
+      "file": "pages/18-the-gioi-kieu-bao.html",
+      "title": "Tin tức, sự kiện kiều bào ta ở nước ngoài | Báo Dân trí",
+      "h1": "Kiều bào",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su.htm",
+      "file": "pages/19-thoi-su.html",
+      "title": "Tin Tức thời sự chính trị Xã hội, giao thông nóng cập nhật liên tục 24/7 | Báo Dân trí",
+      "h1": "Thời sự",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/chinh-tri.htm",
+      "file": "pages/20-thoi-su-chinh-tri.html",
+      "title": "Tin tức thời sự, chính trị Việt Nam và thế giới cập nhật nhanh chóng 24/7 | Báo Dân trí",
+      "h1": "Chính trị",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

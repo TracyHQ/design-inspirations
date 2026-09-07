@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://straitstimes.com/",
+  "crawledAt": "2026-09-07T23:47:41.678Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://straitstimes.com/",
+      "file": "pages/01-global.html",
+      "title": "The Straits Times - Breaking news, Singapore news, Asia and world news & multimedia",
+      "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/",
+      "file": "pages/02-global.html",
+      "title": "The Straits Times - Breaking news, Singapore news, Asia and world news & multimedia",
+      "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/singapore",
+      "file": "pages/03-singapore.html",
+      "title": "Latest Singapore News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Singapore",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/asia",
+      "file": "pages/04-asia.html",
+      "title": "Latest Asia News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Asia",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/world",
+      "file": "pages/05-world.html",
+      "title": "Latest World News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "World",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/opinion",
+      "file": "pages/06-opinion.html",
+      "title": "Latest Opinion News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Opinion",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/life",
+      "file": "pages/07-life.html",
+      "title": "Latest Life News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Life",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/business",
+      "file": "pages/08-business.html",
+      "title": "Latest Business News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Business",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/sport",
+      "file": "pages/09-sport.html",
+      "title": "Latest Sport News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Sport",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/visual",
+      "file": "pages/10-visual.html",
+      "title": "Latest Multimedia News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Visual",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/st-podcasts",
+      "file": "pages/11-st-podcasts.html",
+      "title": "Latest Podcasts News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Podcasts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/search",
+      "file": "pages/12-search.html",
+      "title": "Search Page | The Straits Times",
+      "h1": "Search Page | The Straits Times",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/paid-press-releases",
+      "file": "pages/13-paid-press-releases.html",
+      "title": "Latest Paid Press Release News & Headlines, Top Stories Today - The Straits Times",
+      "h1": "Paid press releases",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/asia/se-asia/jakarta-airport-and-others-reopen-after-volcanic-ash-crisis",
+      "file": "pages/14-asia-se-asia-jakarta-airport-and-others-.html",
+      "title": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption | The Straits Times",
+      "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/singapore/anak-krakatau-eruption-sia-cancels-one-flight-to-jakarta-retimes-six",
+      "file": "pages/15-singapore-anak-krakatau-eruption-sia-can.html",
+      "title": "SIA cancels and retimes flights on Sept 8 after Anak Krakatau eruption | The Straits Times",
+      "h1": "Anak Krakatau eruption: SIA cancels one flight from Jakarta, retimes six",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/asia/se-asia/anak-krakatau-eruption-where-flights-are-being-disrupted",
+      "file": "pages/16-multimedia-graphics-2026-09-anak-krakata.html",
+      "title": "Anak Krakatau eruption: Where flights are being disrupted | The Straits Times",
+      "h1": "Anak Krakatau eruption: Where flights are being disrupted",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/asia/south-asia/families-of-those-missing-in-nepals-hydropower-tunnels-want-faster-rescues-as-hope-turns-to-anger",
+      "file": "pages/17-asia-south-asia-families-of-those-missin.html",
+      "title": "Families of those still missing in Nepal’s hydropower tunnels want rescuers to work faster | The Straits Times",
+      "h1": "Families of those still missing in Nepal’s hydropower tunnels want rescuers to work faster",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/opinion/the-coming-food-price-shock-how-war-weather-and-fuel-are-colliding",
+      "file": "pages/18-opinion-the-coming-food-price-shock-how-.html",
+      "title": "The coming food price shock: How war, weather and fuel are colliding | The Straits Times",
+      "h1": "The coming food price shock: How war, weather and fuel are colliding",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/opinion/pas-faces-two-big-tests-on-its-path-to-power",
+      "file": "pages/19-opinion-pas-faces-two-big-tests-on-its-p.html",
+      "title": "PAS faces two big tests on its path to power | The Straits Times",
+      "h1": "PAS faces two big tests on its path to power",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/world/europe/robots-take-to-warsaw-streets-to-protest-rampant-ai",
+      "file": "pages/20-world-europe-robots-take-to-warsaw-stree.html",
+      "title": "Robots take to Warsaw streets to protest rampant AI | The Straits Times",
+      "h1": "Robots take to Warsaw streets to protest rampant AI",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

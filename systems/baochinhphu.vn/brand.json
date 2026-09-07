@@ -1,0 +1,140 @@
+{
+  "name": "baochinhphu.vn",
+  "tagline": "T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m g&#x1EB7;p g&#x1EE1; c&#xE1;n b&#x1ED9;, nh&#xE2;n vi&#xEA;n &#x110;&#x1EA1;i s&#x1EE9; qu&#xE1;n v&#xE0; c&#x1ED9;ng &#x111;&#x1ED3;ng ng&#x1B0;&#x1EDD;i Vi&#x1EC7;t Nam t&#x1EA1;i Li&#xEA;n bang Nga",
+  "description": "Thông tin cập nhật, chính thống, tin cậy và toàn diện về hoạt động và chỉ đạo, điều hành của Chính phủ, lãnh đạo Chính phủ",
+  "sourceUrl": "https://baochinhphu.vn/",
+  "logo": {
+    "primary": "logos/favicon-0.png",
+    "alternates": [
+      "logos/header-img-2.png",
+      "logos/header-img-3.png",
+      "logos/og-image-1.png"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#f5f5f5",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#8c8c8c",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#dbdbdb",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#1b1d2d",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "Inter",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "Inter",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "T&#x1ED5;ng B&#xED; th&#x1B0;, Ch&#x1EE7; t&#x1ECB;ch n&#x1B0;&#x1EDB;c T&#xF4; L&#xE2;m g&#x1EB7;p g&#x1EE1; c&#xE1;n b&#x1ED9;, nh&#xE2;n vi&#xEA;n &#x110;&#x1EA1;i s&#x1EE9; qu&#xE1;n v&#xE0; c&#x1ED9;ng &#x111;&#x1ED3;ng ng&#x1B0;&#x1EDD;i Vi&#x1EC7;t Nam t&#x1EA1;i Li&#xEA;n bang Nga",
+      "C&#xE1;c b&#xE0;i ph&#xE1;t bi&#x1EC3;u c&#x1EE7;a Th&#x1EE7; t&#x1B0;&#x1EDB;ng",
+      "Trang tin điện tử của các Phó Thủ tướng Chính phủ"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/cover-0.png",
+        "kind": "cover",
+        "caption": "Social cover image"
+      },
+      {
+        "file": "imagery/hero-1.jpg",
+        "kind": "hero",
+        "caption": "Hero image"
+      },
+      {
+        "file": "imagery/hero-2.webp",
+        "kind": "hero",
+        "caption": "Hero image 2"
+      },
+      {
+        "file": "imagery/image-3.jpg",
+        "kind": "image",
+        "caption": "Site image 1"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

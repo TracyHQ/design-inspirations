@@ -1,0 +1,45 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Lato",
+      "weight": "300",
+      "style": "normal",
+      "file": "lato-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2",
+      "bytes": 2988,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "normal",
+      "file": "lato-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2",
+      "bytes": 2988,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "normal",
+      "file": "lato-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2",
+      "bytes": 3028,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Open Sans",
+      "weight": "300 800",
+      "style": "normal",
+      "file": "open-sans-300-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2",
+      "bytes": 35328,
+      "unicodeRange": "U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    }
+  ]
+}

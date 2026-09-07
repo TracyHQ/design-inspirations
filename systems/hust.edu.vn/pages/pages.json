@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://hust.edu.vn/",
+  "crawledAt": "2026-09-07T23:42:40.407Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://hust.edu.vn/",
+      "file": "pages/01-home.html",
+      "title": "Đại học Bách khoa Hà Nội",
+      "h1": "Đại học Bách khoa Hà Nội",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/",
+      "file": "pages/02-vi.html",
+      "title": "Đại học Bách khoa Hà Nội",
+      "h1": "Đại học Bách khoa Hà Nội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/tai-nguyen-so/tai-nguyen-so/tai-nguyen-so-1.html",
+      "file": "pages/03-vi-tai-nguyen-so-tai-nguyen-so-tai-nguye.html",
+      "title": "Tài nguyên số",
+      "h1": "Tài nguyên số",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/lich-lam-viec/Truong-dai-hoc-BKHN/",
+      "file": "pages/04-vi-lich-lam-viec-truong-dai-hoc-bkhn.html",
+      "title": "Đại học Bách khoa Hà Nội",
+      "h1": "Đại học Bách khoa Hà Nội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/contact/",
+      "file": "pages/05-vi-contact.html",
+      "title": "Liên hệ",
+      "h1": "Đại học Bách khoa Hà Nội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi",
+      "file": "pages/06-vi.html",
+      "title": "Đại học Bách khoa Hà Nội",
+      "h1": "Đại học Bách khoa Hà Nội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/en",
+      "file": "pages/07-en.html",
+      "title": "Hanoi University of Science and Technology &#40;HUST&#41;",
+      "h1": "Hanoi University of Science and Technology &#40;HUST&#41;",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/",
+      "file": "pages/08-vi-about-thong-diep-cua-giam-doc-dai-hoc.html",
+      "title": "Thông điệp của Giám đốc Đại học",
+      "h1": "Thông điệp của Giám đốc Đại học",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/thong-diep-cua-giam-doc-dai-hoc.html",
+      "file": "pages/09-vi-about-thong-diep-cua-giam-doc-dai-hoc.html",
+      "title": "Thông điệp của Giám đốc Đại học",
+      "h1": "Thông điệp của Giám đốc Đại học",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/tong-quan.html",
+      "file": "pages/10-vi-about-tong-quan.html",
+      "title": "Tổng quan",
+      "h1": "Tổng quan",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/cac-giai-doan-lich-su-191736.html",
+      "file": "pages/11-vi-about-cac-giai-doan-lich-su-191736.html",
+      "title": "Các giai đoạn lịch sử",
+      "h1": "Các giai đoạn lịch sử",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+      "file": "pages/12-vi-about-su-mang-tam-nhin-gia-tri-cot-lo.html",
+      "title": "Sứ mạng, Tầm nhìn, Giá trị cốt lõi và Chính sách chất lượng",
+      "h1": "Sứ mạng, Tầm nhìn, Giá trị cốt lõi và Chính sách chất lượng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/chien-luoc-phat-trien.html",
+      "file": "pages/13-vi-about-chien-luoc-phat-trien.html",
+      "title": "Chiến lược phát triển",
+      "h1": "Chiến lược phát triển",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/danh-hieu-khen-thuong.html",
+      "file": "pages/14-vi-about-danh-hieu-khen-thuong.html",
+      "title": "Danh hiệu - Khen thưởng",
+      "h1": "Danh hiệu - Khen thưởng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/about/bao-cao-thuong-nien.html",
+      "file": "pages/15-vi-about-bao-cao-thuong-nien.html",
+      "title": "Báo cáo thường niên",
+      "h1": "Báo cáo thường niên",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/co-cau-to-chuc-bai-viet/",
+      "file": "pages/16-vi-co-cau-to-chuc-bai-viet-gioi-thieu-ch.html",
+      "title": "Giới thiệu chung",
+      "h1": "Giới thiệu chung",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/co-cau-to-chuc-bai-viet/bch-dang-bo-dai-hoc.html",
+      "file": "pages/17-vi-co-cau-to-chuc-bai-viet-bch-dang-bo-d.html",
+      "title": "BCH Đảng bộ đại học",
+      "h1": "BCH Đảng bộ đại học",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/co-cau-to-chuc-bai-viet/hoi-dong-dai-hoc.html",
+      "file": "pages/18-vi-co-cau-to-chuc-bai-viet-gioi-thieu-ch.html",
+      "title": "Giới thiệu chung",
+      "h1": "Giới thiệu chung",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/co-cau-to-chuc-bai-viet/ban-giam-doc-dai-hoc.html",
+      "file": "pages/19-vi-co-cau-to-chuc-bai-viet-ban-giam-doc-.html",
+      "title": "Ban Giám đốc đại học",
+      "h1": "Ban Giám đốc đại học",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://hust.edu.vn/vi/co-cau-to-chuc-bai-viet/cac-to-chuc-doan-the.html",
+      "file": "pages/20-vi-co-cau-to-chuc-bai-viet-cac-to-chuc-d.html",
+      "title": "Các tổ chức đoàn thể",
+      "h1": "Các tổ chức đoàn thể",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

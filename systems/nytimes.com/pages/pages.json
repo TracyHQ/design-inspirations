@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://nytimes.com/",
+  "crawledAt": "2026-09-07T23:46:50.170Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://nytimes.com/",
+      "file": "pages/01-home.html",
+      "title": "The New York Times - Breaking News, US News, World News and Videos",
+      "h1": "New York Times - Top Stories",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/",
+      "file": "pages/02-home.html",
+      "title": "The New York Times - Breaking News, US News, World News and Videos",
+      "h1": "New York Times - Top Stories",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/international/",
+      "file": "pages/03-international.html",
+      "title": "The New York Times International - Breaking News, US News, World News, Videos",
+      "h1": "New York Times - Top Stories",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/ca/",
+      "file": "pages/04-ca.html",
+      "title": "The New York Times Canada - Breaking News, US News, World News, Videos",
+      "h1": "New York Times - Top Stories",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/section/todayspaper",
+      "file": "pages/05-section-todayspaper.html",
+      "title": "Today&#x27;s Paper - The New York Times",
+      "h1": "Today’s Paper",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/news-event/2026-midterm-elections",
+      "file": "pages/06-news-event-2026-midterm-elections.html",
+      "title": "2026 Midterm Elections - The New York Times",
+      "h1": "2026 Midterm Elections",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/tips",
+      "file": "pages/07-tips.html",
+      "title": "Tips - The New York Times",
+      "h1": "Got a confidential news tip?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/",
+      "file": "pages/08-athletic-live-blogs-us-open-2026-live-up.html",
+      "title": "How Frances Tiafoe thrilled while favorites Sabalenka, Pegula, Alcaraz, Shelton all advanced on U.S. Open 2026 Day 8 - The Athletic",
+      "h1": "How Frances Tiafoe thrilled while favorites Sabalenka, Pegula, Alcaraz, Shelton all advanced on U.S. Open 2026 Day 8",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/7569041/2026/09/06/ben-shelton-tennis-style-us-open/",
+      "file": "pages/09-athletic-7569041-2026-09-06-ben-shelton-.html",
+      "title": "Ben Shelton’s tennis gifts made him a contender. To become a champion, he has more to unwrap - The Athletic",
+      "h1": "Ben Shelton’s tennis gifts made him a contender. To become a champion, he has more to unwrap",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/7554461/2026/09/06/novak-djokovic-tennis-body-longevity-aging/",
+      "file": "pages/10-athletic-7554461-2026-09-06-novak-djokov.html",
+      "title": "Novak Djokovic’s tennis longevity is extraordinary. The passage of time does not care - The Athletic",
+      "h1": "Novak Djokovic’s tennis longevity is extraordinary. The passage of time does not care",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-9-scores-results/I4xUk1nb0D9c/",
+      "file": "pages/11-athletic-live-blogs-us-open-2026-live-up.html",
+      "title": "US Open 2026 live updates: Latest as Coco Gauff faces Iva Jovic with Rybakina, Andreeva into quarterfinals - The Athletic",
+      "h1": "US Open 2026 live updates: Latest as Coco Gauff faces Iva Jovic with Rybakina, Andreeva into quarterfinals",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/section/opinion",
+      "file": "pages/12-section-opinion.html",
+      "title": "Opinion - The New York Times",
+      "h1": "Opinion",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/",
+      "file": "pages/13-athletic.html",
+      "title": "The Athletic - Sports news, stories, scores, schedules, podcasts, and more",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/connections-sports-edition",
+      "file": "pages/14-athletic-connections-sports-edition.html",
+      "title": "Connections: Sports Edition - Group sports terms that share a common thread - The Athletic",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/",
+      "file": "pages/15-wirecutter.html",
+      "title": "Wirecutter: New Product Reviews, Deals, and Buying Advice",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/games/wordle/index.html",
+      "file": "pages/16-games-wordle-index.html",
+      "title": "Wordle — The New York Times",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/games/connections",
+      "file": "pages/17-games-connections.html",
+      "title": "Connections — The New York Times",
+      "h1": "Connections",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/puzzles/spelling-bee",
+      "file": "pages/18-puzzles-spelling-bee.html",
+      "title": "Spelling Bee — The New York Times",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/crosswords/game/mini",
+      "file": "pages/19-crosswords-game-mini.html",
+      "title": "The New York Times Crossword — The New York Times",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/crosswords/game/midi",
+      "file": "pages/20-crosswords-game-midi.html",
+      "title": "The New York Times Crossword — The New York Times",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

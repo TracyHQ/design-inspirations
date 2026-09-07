@@ -1,0 +1,149 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "nyt-franklin",
+      "weight": "300",
+      "style": "italic",
+      "file": "nyt-franklin-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-300.fb6b1cd2191b4a3104e3c6b15ce6f294.woff2",
+      "bytes": 20356
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "500",
+      "style": "italic",
+      "file": "nyt-franklin-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-500.0fb05587186331cd0a9b0f1a30805e76.woff2",
+      "bytes": 20492
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "600",
+      "style": "italic",
+      "file": "nyt-franklin-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-600.53344665e817d0e6b779b0b12e75db89.woff2",
+      "bytes": 20604
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "700",
+      "style": "italic",
+      "file": "nyt-franklin-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-700.c2f31454e8f67e6a409c1b5a37c42847.woff2",
+      "bytes": 20976
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "800",
+      "style": "italic",
+      "file": "nyt-franklin-800-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-800.be53478fd7c32b04647c16795817c00a.woff2",
+      "bytes": 24640
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "900",
+      "style": "italic",
+      "file": "nyt-franklin-900-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-italic-900.93f61fe226df92cc8d8c7aa742f291e7.woff2",
+      "bytes": 24764
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "300",
+      "style": "normal",
+      "file": "nyt-franklin-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-300.a6479a5200f9a6352bdb71589c27c9c3.woff2",
+      "bytes": 20136
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "500",
+      "style": "normal",
+      "file": "nyt-franklin-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-500.0f4aea3d462cdb64748629efcbbf36bc.woff2",
+      "bytes": 19816
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "600",
+      "style": "normal",
+      "file": "nyt-franklin-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-600.75739ac267f076931c6da9740386ee6b.woff2",
+      "bytes": 20196
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "700",
+      "style": "normal",
+      "file": "nyt-franklin-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-700.91eaf6b5642463af4091160b4bbfdfcb.woff2",
+      "bytes": 20276
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "800",
+      "style": "normal",
+      "file": "nyt-franklin-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-800.fdc7cad17deeec2db1fe2f9f8c0520ed.woff2",
+      "bytes": 24184
+    },
+    {
+      "family": "nyt-franklin",
+      "weight": "900",
+      "style": "normal",
+      "file": "nyt-franklin-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/franklin/franklin-normal-900.c7663abf5510617900d31a082a9c2e8d.woff2",
+      "bytes": 23864
+    },
+    {
+      "family": "nyt-karnak",
+      "weight": "100",
+      "style": "cursive",
+      "file": "nyt-karnak-100-cursive.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/karnak/karnak-cursive-100.68318cfe79ed3292eaa8986498e1184c.woff2",
+      "bytes": 21480
+    },
+    {
+      "family": "nyt-karnak",
+      "weight": "200",
+      "style": "cursive",
+      "file": "nyt-karnak-200-cursive.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/karnak/karnak-cursive-200.c9e3af78fc17d90acd4c1c556db57338.woff2",
+      "bytes": 23412
+    },
+    {
+      "family": "nyt-karnak",
+      "weight": "300",
+      "style": "cursive",
+      "file": "nyt-karnak-300-cursive.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/karnak/karnak-cursive-300.7d2582db82f419e45720d9e28476199d.woff2",
+      "bytes": 23428
+    },
+    {
+      "family": "nyt-karnak",
+      "weight": "500",
+      "style": "cursive",
+      "file": "nyt-karnak-500-cursive.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://nytimes.com/fonts/family/karnak/karnak-cursive-500.0e939423d2f153db40cca99c956535cf.woff2",
+      "bytes": 23164
+    }
+  ]
+}

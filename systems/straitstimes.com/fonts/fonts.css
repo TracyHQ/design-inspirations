@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "curator-tech-semibold";
+  src: url("./curator-tech-semibold-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-regular";
+  src: url("./selane-st-regular-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "curator-tech-regular";
+  src: url("./curator-tech-regular-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "curator";
+  src: url("./curator-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "curator-semi-bold";
+  src: url("./curator-semi-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "curator-bold";
+  src: url("./curator-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-text-st-regular";
+  src: url("./selane-text-st-regular-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-semi-bold";
+  src: url("./selane-st-semi-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-semibold";
+  src: url("./selane-semibold-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "curator-light";
+  src: url("./curator-light-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-light";
+  src: url("./selane-st-light-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-extra-light";
+  src: url("./selane-st-extra-light-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-bold";
+  src: url("./selane-st-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-st-extra-bold";
+  src: url("./selane-st-extra-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-text-st-bold";
+  src: url("./selane-text-st-bold-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}
+@font-face {
+  font-family: "selane-extrabold";
+  src: url("./selane-extrabold-800.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  unicode-range: U+0020-2265;
+  font-display: swap;
+}

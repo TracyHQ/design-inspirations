@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("./canela-web-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("./canela-deck-web-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Standard Bold";
+  src: url("./gt-america-standard-bold-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Standard Medium";
+  src: url("./gt-america-standard-medium-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Standard Regular";
+  src: url("./gt-america-standard-regular-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Standard Regular Italic";
+  src: url("./gt-america-standard-regular-italic-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

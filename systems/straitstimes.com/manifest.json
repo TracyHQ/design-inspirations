@@ -1,0 +1,35 @@
+{
+  "id": "brand:straitstimes.com",
+  "host": "straitstimes.com",
+  "kind": "reference",
+  "slug": "the-straits-times",
+  "name": "The Straits Times",
+  "category": "Reference",
+  "description": "The Straits Times - Get latest breaking news, business, sports, lifestyle, tech & multimedia and more news in Singapore, Asia & rest of the world at straitstimes.com.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://straitstimes.com/",
+    "finalUrl": "https://straitstimes.com/",
+    "extractedAt": "2026-09-07T23:47:44.086Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #60abf8 is only painted in dark mode → #264f88 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 20,
+    "fonts": 10,
+    "logos": 4,
+    "imagery": 8,
+    "fonts_files": 16,
+    "headings": 27,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

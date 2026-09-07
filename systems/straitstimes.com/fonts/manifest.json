@@ -1,0 +1,165 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "curator-tech-semibold",
+      "weight": "600",
+      "style": "normal",
+      "file": "curator-tech-semibold-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://straitstimes.com/assets/curator-st-tech-semibold-DBTg4r9i.woff2",
+      "bytes": 37624,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-regular",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-regular-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-thirty-DFz4w9mk.otf",
+      "bytes": 106032,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "curator-tech-regular",
+      "weight": "400",
+      "style": "normal",
+      "file": "curator-tech-regular-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://straitstimes.com/assets/curator-st-tech-regular-D7hownXU.woff2",
+      "bytes": 34456,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "curator",
+      "weight": "400",
+      "style": "normal",
+      "file": "curator-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/curator-head-st-regular-DB_iMZru.otf",
+      "bytes": 120448,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "curator-semi-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "curator-semi-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/curator-head-st-semibold-DgRvyH4p.otf",
+      "bytes": 130612,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "curator-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "curator-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/curator-head-st-bold-yJfsKuL4.otf",
+      "bytes": 131908,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-text-st-regular",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-text-st-regular-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-text-st-regular-DwYjahZr.otf",
+      "bytes": 104204,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-semi-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-semi-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-forty-BATeqDnO.otf",
+      "bytes": 106024,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-semibold",
+      "weight": "600",
+      "style": "normal",
+      "file": "selane-semibold-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-tech-semibold-5D7UFz7o.woff2",
+      "bytes": 31424,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "curator-light",
+      "weight": "400",
+      "style": "normal",
+      "file": "curator-light-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/curator-head-st-light-ZNzk1SOr.otf",
+      "bytes": 122252,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-light",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-light-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-twenty-BXgnjDzi.otf",
+      "bytes": 105508,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-extra-light",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-extra-light-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-ten-Dl007Xdv.otf",
+      "bytes": 86828,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-fifty-BVDo7q5n.otf",
+      "bytes": 105872,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-st-extra-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-st-extra-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-sixty-DLf68xb1.otf",
+      "bytes": 104408,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-text-st-bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "selane-text-st-bold-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://straitstimes.com/assets/selane-text-st-bold-tXkTkVEf.otf",
+      "bytes": 44092,
+      "unicodeRange": "U+0020-2265"
+    },
+    {
+      "family": "selane-extrabold",
+      "weight": "800",
+      "style": "normal",
+      "file": "selane-extrabold-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://straitstimes.com/assets/selane-st-tech-extrabold-DnkXxi7X.woff2",
+      "bytes": 29228,
+      "unicodeRange": "U+0020-2265"
+    }
+  ]
+}

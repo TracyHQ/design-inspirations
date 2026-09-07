@@ -1,0 +1,59 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Canela Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "canela-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/canela/Canela-Regular-Web.woff2",
+      "bytes": 32545
+    },
+    {
+      "family": "Canela Deck Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "canela-deck-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/canela/CanelaDeck-Regular-Web.woff2",
+      "bytes": 34133
+    },
+    {
+      "family": "GT America Standard Bold",
+      "weight": "700",
+      "style": "normal",
+      "file": "gt-america-standard-bold-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/gt-america/GT-America-Standard-Bold.woff2",
+      "bytes": 52228
+    },
+    {
+      "family": "GT America Standard Medium",
+      "weight": "600",
+      "style": "normal",
+      "file": "gt-america-standard-medium-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/gt-america/GT-America-Standard-Medium.woff2",
+      "bytes": 52140
+    },
+    {
+      "family": "GT America Standard Regular",
+      "weight": "400",
+      "style": "normal",
+      "file": "gt-america-standard-regular-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/gt-america/GT-America-Standard-Regular.woff2",
+      "bytes": 48784
+    },
+    {
+      "family": "GT America Standard Regular Italic",
+      "weight": "400",
+      "style": "italic",
+      "file": "gt-america-standard-regular-italic-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://harvard.edu/wp-content/themes/core/assets/fonts/theme/gt-america/GT-America-Standard-Regular-Italic.woff2",
+      "bytes": 49456
+    }
+  ]
+}

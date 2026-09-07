@@ -1,0 +1,167 @@
+{
+  "name": "University of Cambridge",
+  "tagline": "Welcome to Cambridge",
+  "description": "The University of Cambridge is one of the world’s leading universities, with a rich history of radical thinking dating back to 1209.",
+  "sourceUrl": "https://cam.ac.uk/",
+  "logo": {
+    "primary": "logos/favicon-0.ico",
+    "alternates": [
+      "logos/header-img-2.svg",
+      "logos/header-img-3.svg",
+      "logos/og-image-1.jpg"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#f5f5f5",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#8c8c8c",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#dbdbdb",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#28a745",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#6bbbae",
+      "oklch": "",
+      "name": "Accent secondary",
+      "usage": "secondary brand color / links"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "Lato",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+    },
+    "body": {
+      "family": "Lato",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Welcome to Cambridge",
+      "Homepage - slider",
+      "News"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/cover-0.jpg",
+        "kind": "cover",
+        "caption": "Social cover image"
+      },
+      {
+        "file": "imagery/hero-1.webp",
+        "kind": "hero",
+        "caption": "Hero image"
+      },
+      {
+        "file": "imagery/hero-2.webp",
+        "kind": "hero",
+        "caption": "Hero image 2"
+      },
+      {
+        "file": "imagery/hero-3.webp",
+        "kind": "hero",
+        "caption": "Hero image 3"
+      },
+      {
+        "file": "imagery/hero-4.webp",
+        "kind": "hero",
+        "caption": "Hero image 4"
+      },
+      {
+        "file": "imagery/hero-5.webp",
+        "kind": "hero",
+        "caption": "Hero image 5"
+      },
+      {
+        "file": "imagery/hero-6.webp",
+        "kind": "hero",
+        "caption": "Hero image 6"
+      },
+      {
+        "file": "imagery/hero-7.webp",
+        "kind": "hero",
+        "caption": "Hero image 7"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

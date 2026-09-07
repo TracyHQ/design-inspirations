@@ -1,0 +1,149 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "normal",
+      "file": "inter-100.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/330d40f9d3469c8e913e.woff2",
+      "bytes": 109548
+    },
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "italic",
+      "file": "inter-100-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/7c76674c7eeffe6a82f3.woff2",
+      "bytes": 116880
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "normal",
+      "file": "inter-200.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/f270980df31d894beaf0.woff2",
+      "bytes": 112728
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "italic",
+      "file": "inter-200-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/e7ecb03b270636f4642a.woff2",
+      "bytes": 119320
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "file": "inter-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/8b60946b13251c212cac.woff2",
+      "bytes": 112592
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "italic",
+      "file": "inter-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/5336b8e1c76e1ab00547.woff2",
+      "bytes": 119608
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "file": "inter-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/85c128721035823e5405.woff2",
+      "bytes": 111268
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "file": "inter-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/6d7a749f5b9f8ce1ae13.woff2",
+      "bytes": 117700
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "file": "inter-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/da6143a97b8ed2ae857b.woff2",
+      "bytes": 114348
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "file": "inter-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/8bf30aa670a798f1dc70.woff2",
+      "bytes": 120784
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "file": "inter-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/594041393209f0003754.woff2",
+      "bytes": 114812
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "file": "inter-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/688008097bc0cd638745.woff2",
+      "bytes": 121416
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "file": "inter-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/54851dc3f5ada849af04.woff2",
+      "bytes": 114840
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "file": "inter-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/2cf00dc06f67faff98c2.woff2",
+      "bytes": 121500
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "file": "inter-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/4378ab437cddfc2bbb71.woff2",
+      "bytes": 114856
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "italic",
+      "file": "inter-800-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdnweb.dantri.com.vn/dist/484f10179d33fa2992d9.woff2",
+      "bytes": 121516
+    }
+  ]
+}

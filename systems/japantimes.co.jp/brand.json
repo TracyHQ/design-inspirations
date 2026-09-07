@@ -1,0 +1,138 @@
+{
+  "name": "The Japan Times",
+  "tagline": "Home page",
+  "description": "Latest news on Japan: business, politics, commentary, sports, culture, life and more",
+  "sourceUrl": "https://japantimes.co.jp/",
+  "logo": {
+    "primary": "logos/favicon-0.ico",
+    "alternates": [
+      "logos/header-img-2.svg",
+      "logos/header-img-3.png",
+      "logos/header-img-4.png",
+      "logos/og-image-1.png"
+    ],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#f5f5f5",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#8c8c8c",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#dbdbdb",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#c8102e",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#0099cc",
+      "oklch": "",
+      "name": "Accent secondary",
+      "usage": "secondary brand color / links"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "Roboto",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    },
+    "body": {
+      "family": "Roboto",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Home page",
+      "JAPAN",
+      "BUSINESS"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/cover-0.png",
+        "kind": "cover",
+        "caption": "Social cover image"
+      },
+      {
+        "file": "imagery/hero-1.jpg",
+        "kind": "hero",
+        "caption": "Hero image"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

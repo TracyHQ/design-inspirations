@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://apnews.com/",
+  "crawledAt": "2026-09-07T23:46:55.043Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://apnews.com/",
+      "file": "pages/01-home.html",
+      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/world-news",
+      "file": "pages/02-world-news.html",
+      "title": "World News: Top & Breaking World News Today | AP News",
+      "h1": "World News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/iran",
+      "file": "pages/03-hub-iran.html",
+      "title": "Iran war | AP News",
+      "h1": "Iran war",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/russia-ukraine",
+      "file": "pages/04-hub-russia-ukraine.html",
+      "title": "Russia-Ukraine | Breaking News & Live Updates | AP News",
+      "h1": "Russia-Ukraine war",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/noticias",
+      "file": "pages/05-hub-noticias.html",
+      "title": "Últimas Noticias del Mundo | AP News",
+      "h1": "Noticias",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/china",
+      "file": "pages/06-hub-china.html",
+      "title": "China | Latest News from China Today | AP News",
+      "h1": "China",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/asia-pacific",
+      "file": "pages/07-hub-asia-pacific.html",
+      "title": "Asia Pacific | Latest News & Updates | AP News",
+      "h1": "Asia Pacific",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/latin-america",
+      "file": "pages/08-hub-latin-america.html",
+      "title": "Latin American News | Latest Latin American News | AP News",
+      "h1": "Latin America",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/europe",
+      "file": "pages/09-hub-europe.html",
+      "title": "Europe News | Breaking European News Today | AP News",
+      "h1": "Europe",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/africa",
+      "file": "pages/10-hub-africa.html",
+      "title": "Africa News Reports | Latest News in Africa | AP News",
+      "h1": "Africa",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d",
+      "file": "pages/11-article-britain-king-harry-meghan-letter.html",
+      "title": "King clarifies status of Prince Harry and Meghan | AP News",
+      "h1": "King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/article/germany-afd-saxony-anhalt-election-e9c2b1bb69a9dab1778b80866ffa4c4f",
+      "file": "pages/12-article-germany-afd-saxony-anhalt-electi.html",
+      "title": "German leader under pressure after far-right state election triumph | AP News",
+      "h1": "Germany’s Merz shocked by far-right state election triumph but doubles down on unpopular reforms",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c",
+      "file": "pages/13-article-germany-afd-saxony-anhalt-electi.html",
+      "title": "AfD party&#x27;s landslide win in eastern Germany tests country&#x27;s &#x27;firewall&#x27; against the far right | AP News",
+      "h1": "AfD party’s landslide win in eastern Germany tests country’s ‘firewall’ against the far right",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/newsletters",
+      "file": "pages/14-newsletters.html",
+      "title": "Newsletters | AP News",
+      "h1": "Newsletters",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/us-news",
+      "file": "pages/15-us-news.html",
+      "title": "U.S. News: Top U.S. News Today | AP News",
+      "h1": "U.S. News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/immigration",
+      "file": "pages/16-hub-immigration.html",
+      "title": "Immigration | AP News",
+      "h1": "Immigration",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/weather",
+      "file": "pages/17-hub-weather.html",
+      "title": "Weather, Hurricanes and Storms | Latest News & Updates | AP News",
+      "h1": "Weather",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/education",
+      "file": "pages/18-education.html",
+      "title": "Education | Latest News & Updates | AP News",
+      "h1": "Education",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/us-news/transportation",
+      "file": "pages/19-us-news-transportation.html",
+      "title": "Transportation | AP News",
+      "h1": "Transportation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apnews.com/hub/abortion",
+      "file": "pages/20-hub-abortion.html",
+      "title": "Abortion | Latest News & Updates | AP News",
+      "h1": "Abortion",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}
