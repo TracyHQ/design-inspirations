@@ -80,19 +80,20 @@
 <title>Teline V — component kit (dark)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic" />
 <style>
 :root{
-  --brand-color-primary: #d37572;
-  --brand-color-primary-bg: #2e1a1b;
-  --brand-color-primary-bg-hover: #492424;
-  --brand-color-primary-border: #583635;
-  --brand-color-primary-border-hover: #794746;
-  --brand-color-primary-hover: #e8a5a0;
-  --brand-color-primary-active: #a65e5c;
-  --brand-color-primary-text: #f8ebe9;
+  --brand-color-primary: #bb2621;
+  --brand-color-primary-bg: #2a1112;
+  --brand-color-primary-bg-hover: #420f0f;
+  --brand-color-primary-border: #4f1a19;
+  --brand-color-primary-border-hover: #6d1d1b;
+  --brand-color-primary-hover: #d14e44;
+  --brand-color-primary-active: #94221e;
+  --brand-color-primary-text: #f8aa9f;
   --brand-color-primary-contrast: #ffffff;
-  --brand-color-primary-ink: #d37572;
+  --brand-color-primary-ink: #f8aa9f;
   --brand-color-success: #64b537;
   --brand-color-success-bg: #192913;
   --brand-color-success-border: #304d20;
@@ -108,9 +109,9 @@
   --brand-color-error-border: #5b3231;
   --brand-color-error-hover: #e89590;
   --brand-color-error-active: #ad5553;
-  --brand-color-info: #d37572;
-  --brand-color-info-bg: #2e1a1b;
-  --brand-color-info-border: #583635;
+  --brand-color-info: #bb2621;
+  --brand-color-info-bg: #2a1112;
+  --brand-color-info-border: #4f1a19;
   --brand-color-link: #bb2621;
   --brand-color-link-hover: #d14e44;
   --brand-color-link-active: #94221e;
@@ -163,16 +164,16 @@
   --brand-motion-duration-slow: 0.3s;
   --brand-motion-ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
   --brand-motion-ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
-  --brand-primary-palette-1: #2e1a1b;
-  --brand-primary-palette-2: #492424;
-  --brand-primary-palette-3: #583635;
-  --brand-primary-palette-4: #794746;
-  --brand-primary-palette-5: #a65e5c;
-  --brand-primary-palette-6: #d37572;
-  --brand-primary-palette-7: #e8a5a0;
-  --brand-primary-palette-8: #f3d3cf;
-  --brand-primary-palette-9: #f8ebe9;
-  --brand-primary-palette-10: #faeeec;
+  --brand-primary-palette-1: #2a1112;
+  --brand-primary-palette-2: #420f0f;
+  --brand-primary-palette-3: #4f1a19;
+  --brand-primary-palette-4: #6d1d1b;
+  --brand-primary-palette-5: #94221e;
+  --brand-primary-palette-6: #bb2621;
+  --brand-primary-palette-7: #d14e44;
+  --brand-primary-palette-8: #e77c6f;
+  --brand-primary-palette-9: #f8aa9f;
+  --brand-primary-palette-10: #fae6e2;
   --brand-presets-red-1: #fff1f0;
   --brand-presets-red-2: #ffcbc7;
   --brand-presets-red-3: #ffa39e;
@@ -314,7 +315,7 @@ body{
   background:var(--brand-color-bg-layout);
   -webkit-font-smoothing:antialiased;
 }
-h1,h2,h3{font-family:Roboto, system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, var(--brand-font-family)}
+h1,h2,h3{font-family:'Roboto Slab', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, var(--brand-font-family)}
 a{color:inherit}
 a[role="button"]{transition:filter .15s ease,transform .15s ease}
 a[role="button"]:hover{filter:brightness(1.07)}
@@ -495,40 +496,40 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
     <div style="margin-bottom:var(--brand-size-lg)">
     <div style="margin-bottom:var(--brand-size-sm);font-size:var(--brand-font-size-sm);font-weight:var(--brand-font-weight-strong);letter-spacing:0.04em;text-transform:uppercase;color:var(--brand-color-text-tertiary)">Primary palette</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:var(--brand-size-sm)"><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#2e1a1b"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#2a1112"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">50</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#492424"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#420f0f"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">200</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#583635"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#4f1a19"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">300</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#794746"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#6d1d1b"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">400</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#a65e5c"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#94221e"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">500</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#d37572"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#bb2621"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">600</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#e8a5a0"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#d14e44"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">700</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#f3d3cf"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#e77c6f"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">800</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#f8ebe9"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#f8aa9f"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">900</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#faeeec"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#fae6e2"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">1050</span>
   </div></div>
   </div><div style="margin-bottom:var(--brand-size-lg)">
     <div style="margin-bottom:var(--brand-size-sm);font-size:var(--brand-font-size-sm);font-weight:var(--brand-font-weight-strong);letter-spacing:0.04em;text-transform:uppercase;color:var(--brand-color-text-tertiary)">Functional</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:var(--brand-size-sm)"><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#d37572"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#bb2621"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">primary</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
     <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#64b537"></div>
@@ -540,7 +541,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
     <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#dc6966"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">error</span>
   </div><div style="display:flex;flex-direction:column;gap:var(--brand-size-xxs)">
-    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#d37572"></div>
+    <div style="height:48px;border-radius:var(--brand-border-radius-sm);border:var(--brand-line-width) solid var(--brand-color-border-secondary);background:#bb2621"></div>
     <span style="font-size:11px;font-family:var(--brand-font-family-code);color:var(--brand-color-text-tertiary)">info</span>
   </div></div>
   </div><div style="margin-bottom:var(--brand-size-lg)">

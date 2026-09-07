@@ -12,14 +12,16 @@
   "source": {
     "url": "https://ja-teline-v.demo.joomlart.com/",
     "finalUrl": "https://ja-teline-v.demo.joomlart.com/",
-    "extractedAt": "2026-09-07T20:14:01.372Z",
+    "extractedAt": "2026-09-07T22:40:46.678Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
-    "name: \"Best Joomla News template - Teline V\" → \"Teline V\" (from the shortest title segment)"
+    "name: \"Best Joomla News template - Teline V\" → \"Teline V\" (from the shortest title segment)",
+    "font: display \"Roboto\" → \"Roboto Slab\" (the family the site sets on h1..h6)",
+    "accent: #e85555 is only painted in dark mode → #cc0000 (most-used chromatic colour)"
   ],
   "counts": {
     "pages": 20,

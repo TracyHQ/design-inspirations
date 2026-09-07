@@ -5,7 +5,7 @@ Everything below is *derived* — no token here was hand-authored.
 
 - **slug:** `teline-v`
 - **source:** https://ja-teline-v.demo.joomlart.com/
-- **primary seed color:** `#e85555`
+- **primary seed color:** `#cc0000`
 - **derived tokens per theme:** 220
 - **themes:** default · dark · compact (same seed, different algorithm)
 

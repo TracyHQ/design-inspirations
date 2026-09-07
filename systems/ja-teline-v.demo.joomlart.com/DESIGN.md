@@ -8,8 +8,7 @@ colors:
   foreground: "#000000"
   muted: "#8c8c8c"
   border: "#dbdbdb"
-  accent: "#e85555"
-  accent-secondary: "#cc0000"
+  accent: "#cc0000"
 ---
 
 # Teline V
@@ -31,11 +30,10 @@ Best Joomla template for Magazine and News site - Built with T3 Framework, Boots
 | foreground | Foreground | `#000000` | body text |
 | muted | Muted | `#8c8c8c` | secondary text |
 | border | Border | `#dbdbdb` | hairlines / dividers |
-| accent | Accent | `#e85555` | primary brand color |
-| accent-secondary | Accent secondary | `#cc0000` | secondary brand color / links |
+| accent | Accent | `#cc0000` | primary brand color |
 
 ## Typography
-- **Display:** Roboto — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
+- **Display:** Roboto Slab — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
 - **Body:** Roboto — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
 
 ## Voice & Tone

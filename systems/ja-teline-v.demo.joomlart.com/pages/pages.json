@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://ja-teline-v.demo.joomlart.com/",
-  "crawledAt": "2026-09-07T20:13:56.315Z",
+  "crawledAt": "2026-09-07T22:40:41.764Z",
   "truncated": true,
   "pages": [
     {
@@ -21,56 +21,8 @@
       "status": 200
     },
     {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/teline-v-events",
-      "file": "pages/03-index-php-teline-v-events.html",
-      "title": "Events",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/teline-v-videos",
-      "file": "pages/04-index-php-teline-v-videos.html",
-      "title": "Videos",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/gallery",
-      "file": "pages/05-index-php-gallery.html",
-      "title": "Gallery",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/teline-v-blog",
-      "file": "pages/06-index-php-teline-v-blog.html",
-      "title": "Blog",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/world",
-      "file": "pages/07-index-php-world.html",
-      "title": "World",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://ja-teline-v.demo.joomlart.com/index.php/technology",
-      "file": "pages/08-index-php-technology.html",
-      "title": "Technology",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/sport",
-      "file": "pages/09-index-php-sport.html",
+      "file": "pages/03-index-php-sport.html",
       "title": "Sport",
       "h1": "",
       "depth": 1,
@@ -78,7 +30,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/health",
-      "file": "pages/10-index-php-health.html",
+      "file": "pages/04-index-php-health.html",
       "title": "Health",
       "h1": "",
       "depth": 1,
@@ -86,7 +38,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/science",
-      "file": "pages/11-index-php-science.html",
+      "file": "pages/05-index-php-science.html",
       "title": "Science",
       "h1": "",
       "depth": 1,
@@ -94,7 +46,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/travel",
-      "file": "pages/12-index-php-travel.html",
+      "file": "pages/06-index-php-travel.html",
       "title": "Travel",
       "h1": "",
       "depth": 1,
@@ -102,7 +54,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/entertainment",
-      "file": "pages/13-index-php-entertainment.html",
+      "file": "pages/07-index-php-entertainment.html",
       "title": "Entertainment",
       "h1": "",
       "depth": 1,
@@ -110,7 +62,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/art",
-      "file": "pages/14-index-php-more-art.html",
+      "file": "pages/08-index-php-more-art.html",
       "title": "Art",
       "h1": "",
       "depth": 1,
@@ -118,7 +70,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/typography",
-      "file": "pages/15-index-php-more-typography.html",
+      "file": "pages/09-index-php-more-typography.html",
       "title": "Typography",
       "h1": "Core Typography",
       "depth": 1,
@@ -126,7 +78,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/topic",
-      "file": "pages/16-index-php-more-topic.html",
+      "file": "pages/10-index-php-more-topic.html",
       "title": "Topic",
       "h1": "",
       "depth": 1,
@@ -134,7 +86,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/topic/356-victoria-secret-2014",
-      "file": "pages/17-index-php-more-topic-356-victoria-secret.html",
+      "file": "pages/11-index-php-more-topic-356-victoria-secret.html",
       "title": "Victoria Secret 2014",
       "h1": "Victoria Secret 2014",
       "depth": 1,
@@ -142,7 +94,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/teline-v-events/364-how-you-can-watch-the-victoria-s-secret-fashion-show",
-      "file": "pages/18-index-php-teline-v-events-364-how-you-ca.html",
+      "file": "pages/12-index-php-teline-v-events-364-how-you-ca.html",
       "title": "How you can watch the Victoria’s Secret Fashion Show",
       "h1": "",
       "depth": 1,
@@ -150,7 +102,7 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/topic/357-iphone",
-      "file": "pages/19-index-php-more-topic-357-iphone.html",
+      "file": "pages/13-index-php-more-topic-357-iphone.html",
       "title": "iPhone 6 and iPhone 6 Plus",
       "h1": "iPhone 6 and iPhone 6 Plus",
       "depth": 1,
@@ -158,9 +110,57 @@
     },
     {
       "url": "https://ja-teline-v.demo.joomlart.com/index.php/science/62-medicine/487-year-in-review-young-blood-aids-old-brains",
-      "file": "pages/20-index-php-science-62-medicine-487-year-i.html",
+      "file": "pages/14-index-php-science-62-medicine-487-year-i.html",
       "title": "Year in review: Young blood aids old brains",
       "h1": "Year in review: Young blood aids old brains",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/topic/369-how-healthcare-big-data-will-automate-your-health-needs",
+      "file": "pages/15-index-php-more-topic-369-how-healthcare-.html",
+      "title": "Social at Scale",
+      "h1": "Social at Scale",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/technology/33-personal-tech/350-artist-to-watch-tori-kelly-s-the-idol-you-ve-been-looking-for-america",
+      "file": "pages/16-index-php-technology-33-personal-tech-35.html",
+      "title": "Google’s Dart Programming Language Is Coming To The Server",
+      "h1": "Google’s Dart Programming Language Is Coming To The Server",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/more/topic/474-biometrics-redefining-privacy",
+      "file": "pages/17-index-php-more-topic-474-biometrics-rede.html",
+      "title": "Biometrics: redefining privacy",
+      "h1": "Biometrics: redefining privacy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/technology/35-green-tech/316-us-solar-growth-continues-1-3-gigawatts-of-pv-installed-in-q3",
+      "file": "pages/18-index-php-technology-35-green-tech-316-u.html",
+      "title": "US Solar Growth Continues: 1.3 Gigawatts of PV Installed in Q3",
+      "h1": "US Solar Growth Continues: 1.3 Gigawatts of PV Installed in Q3",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/world/19-africa",
+      "file": "pages/19-index-php-world-19-africa.html",
+      "title": "Africa",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ja-teline-v.demo.joomlart.com/index.php/world/21-middle-east",
+      "file": "pages/20-index-php-world-21-middle-east.html",
+      "title": "Middle East",
+      "h1": "",
       "depth": 1,
       "status": 200
     }

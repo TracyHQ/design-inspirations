@@ -51,22 +51,15 @@
     },
     {
       "role": "accent",
-      "hex": "#e85555",
+      "hex": "#cc0000",
       "oklch": "",
       "name": "Accent",
       "usage": "primary brand color"
-    },
-    {
-      "role": "accent-secondary",
-      "hex": "#cc0000",
-      "oklch": "",
-      "name": "Accent secondary",
-      "usage": "secondary brand color / links"
     }
   ],
   "typography": {
     "display": {
-      "family": "Roboto",
+      "family": "Roboto Slab",
       "fallbacks": [
         "system-ui",
         "-apple-system",
@@ -79,7 +72,7 @@
         400,
         700
       ],
-      "googleFontsUrl": "https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic"
+      "googleFontsUrl": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
     },
     "body": {
       "family": "Roboto",
