@@ -10,13 +10,13 @@
   "nav": "top-left",
   "hero": "centered",
   "source": {
-    "url": "https://ja-teline-v.demo.joomlart.com/index.php",
-    "finalUrl": "https://ja-teline-v.demo.joomlart.com/index.php",
-    "extractedAt": "2026-09-07T07:58:25.637Z",
+    "url": "https://ja-teline-v.demo.joomlart.com/",
+    "finalUrl": "https://ja-teline-v.demo.joomlart.com/",
+    "extractedAt": "2026-09-07T20:14:01.372Z",
     "thin": false,
     "blocked": false,
     "pages": true,
-    "recon": "failed:recon"
+    "recon": "skipped:no-browser"
   },
   "refined": [
     "name: \"Best Joomla News template - Teline V\" → \"Teline V\" (from the shortest title segment)"

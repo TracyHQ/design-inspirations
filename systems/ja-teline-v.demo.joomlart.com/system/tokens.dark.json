@@ -8,6 +8,8 @@
   "colorPrimaryHover": "#e8a5a0",
   "colorPrimaryActive": "#a65e5c",
   "colorPrimaryText": "#f8ebe9",
+  "colorPrimaryContrast": "#ffffff",
+  "colorPrimaryInk": "#d37572",
   "colorSuccess": "#64b537",
   "colorSuccessBg": "#192913",
   "colorSuccessBorder": "#304d20",

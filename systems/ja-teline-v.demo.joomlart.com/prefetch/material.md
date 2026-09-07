@@ -1,4 +1,4 @@
-# Brand material — https://ja-teline-v.demo.joomlart.com/index.php
+# Brand material — https://ja-teline-v.demo.joomlart.com/
 
 - site name: (unknown)
 - title: Best Joomla News template - Teline V
@@ -64,7 +64,7 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 ## Logo candidates (downloaded into ./logos/)
 
-- logos/header-inline.svg — inline-svg, 373 bytes, from https://ja-teline-v.demo.joomlart.com/index.php
+- logos/header-inline.svg — inline-svg, 373 bytes, from https://ja-teline-v.demo.joomlart.com/
 - logos/favicon-1.ico — favicon, 1150 bytes, from https://ja-teline-v.demo.joomlart.com/templates/ja_teline_v/favicon.ico
 - logos/header-img-2.png — header-img, 5272 bytes, from https://ja-teline-v.demo.joomlart.com/images/stories/joomlart/logo.png
 - logos/header-img-3.png — header-img, 2196 bytes, from https://ja-teline-v.demo.joomlart.com/images/stories/joomlart/logo_small.png
