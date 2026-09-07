@@ -1,0 +1,32 @@
+{
+  "id": "brand:lucaswp.tracy.ai",
+  "host": "lucaswp.tracy.ai",
+  "kind": "own",
+  "slug": "lucaswp-tracy-ai",
+  "name": "lucaswp.tracy.ai",
+  "category": "Your brand",
+  "description": "Tracy pairs an AI agent with each of your sites — armed with the skills of the teams who operate these platforms best. It reads, checks and proposes; you approve what ships.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://lucaswp.tracy.ai/",
+    "finalUrl": "https://lucaswp.tracy.ai/",
+    "extractedAt": "2026-09-07T14:54:41.533Z",
+    "thin": false,
+    "blocked": false
+  },
+  "refined": [
+    "name: \"One desk for every site you run.\" → \"lucaswp.tracy.ai\" (the title is a sentence; using the hostname)"
+  ],
+  "counts": {
+    "colors": 21,
+    "fonts": 1,
+    "logos": 1,
+    "imagery": 0,
+    "fonts_files": 5,
+    "headings": 18,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

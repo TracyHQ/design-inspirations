@@ -1,0 +1,35 @@
+{
+  "id": "brand:ja-teline-v.demo.joomlart.com",
+  "host": "ja-teline-v.demo.joomlart.com",
+  "kind": "reference",
+  "slug": "teline-v",
+  "name": "Teline V",
+  "category": "Reference",
+  "description": "Best Joomla template for Magazine and News site - Built with T3 Framework, Bootstrap 3, Advanced Custom Module.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://ja-teline-v.demo.joomlart.com/index.php",
+    "finalUrl": "https://ja-teline-v.demo.joomlart.com/index.php",
+    "extractedAt": "2026-09-07T07:58:25.637Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "failed:recon"
+  },
+  "refined": [
+    "name: \"Best Joomla News template - Teline V\" → \"Teline V\" (from the shortest title segment)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 22,
+    "fonts": 10,
+    "logos": 5,
+    "imagery": 8,
+    "fonts_files": 9,
+    "headings": 171,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

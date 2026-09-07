@@ -1,0 +1,1166 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+	  class='layout-magazine layout-media com_content view-category layout-ja_teline_vblank itemid-137 j43 j40 mm-hover '>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome to JoomlArt Demo Site">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Videos</title>
+	<link href="/index.php/teline-v-videos?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="Videos">
+	<link href="/index.php/teline-v-videos?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Videos">
+	<link href="https://ja-teline-v.demo.joomlart.com/index.php/component/finder/search?format=opensearch&amp;Itemid=113" rel="search" title="OpenSearch JoomlArt Demo Site" type="application/opensearchdescription+xml">
+	<link href="/templates/ja_teline_v/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="/media/vendor/awesomplete/css/awesomplete.css?1.1.5" rel="stylesheet" />
+	<link href="/t3-assets/css/css-15fec-07562.css" rel="stylesheet" media="all" />
+	<link href="/t3-assets/css/css-67cae-07556.css" rel="stylesheet" media="all" />
+	<link href="/t3-assets/css/css-d73c2-07562.css" rel="stylesheet" media="all" />
+	<link href="/t3-assets/css/css-d1a3e-07562.css" rel="stylesheet" media="all" />
+<script type="text/od-defused-script" src="/media/vendor/jquery/js/jquery.min.js?3.6.3"></script>
+	<script type="text/od-defused-script" type="application/json" class="joomla-script-options new">{"media-picker-api":{"apiBaseUrl":"https:\/\/ja-teline-v.demo.joomlart.com\/index.php?option=com_media&format=json"},"joomla.jtext":{"TPL_LOAD_MODULE_AJAX_DONE":"That's All","MOD_FINDER_SEARCH_VALUE":"Search &hellip;"},"finder-search":{"url":"\/index.php\/component\/finder\/?task=suggestions.suggest&amp;format=json&amp;tmpl=component&amp;Itemid=113"},"system.paths":{"root":"","rootFull":"https:\/\/ja-teline-v.demo.joomlart.com\/","base":"","baseFull":"https:\/\/ja-teline-v.demo.joomlart.com\/"},"csrf.token":"ca1965f9be603501e1e683eecd931f27"}</script>
+	<script type="text/od-defused-script" src="/media/system/js/core.min.js?576eb51da909dcf692c98643faa6fc89629ead18"></script>
+	<script type="text/od-defused-script" src="/media/com_finder/js/finder-es5.min.js?14e4c7fdce4ca11c6d12b74bad128529a294b183" nomodule defer></script>
+	<script type="text/od-defused-script" src="/media/legacy/js/jquery-noconflict.min.js?04499b98c0305b16b373dff09fe79d1290976288"></script>
+	<script type="text/od-defused-script" src="/media/vendor/awesomplete/js/awesomplete.min.js?1.1.5" defer></script>
+	<script type="text/od-defused-script" src="/media/com_finder/js/finder.min.js?c8b55661ed62db937b8d6856090adf9258c4a0fc" type="module"></script>
+	<script type="text/od-defused-script" src="/t3-assets/js/js-1c473-07562.js"></script>
+	<script type="text/od-defused-script" src="https://ja-teline-v.demo.joomlart.com/media/com_acym/js/module.min.js?v=846" defer></script>
+	<script type="text/od-defused-script">
+var disqus_shortname = 'jademo';
+var disqus_config = function(){
+	this.language = 'en';
+};
+window.addEventListener('load', function(){
+	(function () {
+	  var s = document.createElement('script'); s.async = true;
+	  s.src = '//jademo.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+	}());
+});
+</script>
+	<script type="text/od-defused-script">
+	var ja_base_uri = "";
+</script>
+	<script type="text/od-defused-script">
+	var JAVideoPlayer = {};
+	(function($){
+		$(document).ready(function(){
+			JAVideoPlayer.playlist = function() {
+				$('.ja-video-list').each(function(){
+					var container = $(this);
+
+					var btnPlay = container;
+					if(container.find('.btn-play').length) {
+						btnPlay = container.find('.btn-play');
+					}
+					btnPlay.click(function(){
+						var width = container.outerWidth(true);
+						var height = container.outerHeight(true);
+
+						if(container.data('video')) {
+							var mainPlayer = $('#ja-main-player');
+							if(!mainPlayer.length) {
+								video = container.find('.video-wrapper');
+								clearContent = true;
+							} else {
+								video = mainPlayer;
+								var width = video.width();
+								var height = video.height();
+								var clearContent = false;
+
+								if(container.data('url') && typeof(window.history.pushState) == 'function') {
+									window.history.pushState('string', container.data('title'), container.data('url'));
+								}
+							}
+
+							if(video.length) {
+								$('.ja-video-list').removeClass('video-playing');
+								container.addClass('video-playing');
+								video.html(container.data('video'));
+								video.find('iframe.ja-video, video').removeAttr('width').removeAttr('height').attr('autoplay', true);
+								video.find('iframe.ja-video, video, .jp-video, .jp-jplayer').css({width: width, height: height});
+								video.show();
+								if(clearContent) {
+									container.data('video', '');
+								}
+								if(mainPlayer.length) {
+									setTimeout(function(){
+										$('html, body').animate({
+											scrollTop: mainPlayer.offset().top
+										}, 200);
+									}, 500);
+								}
+							}
+						}
+					});
+				});
+			}
+
+			JAVideoPlayer.playlist();
+		});
+	})(jQuery);
+	</script>
+	<script type="text/od-defused-script">
+        if(typeof acymModule === 'undefined'){
+            var acymModule = [];
+			acymModule['emailRegex'] = /^[a-z0-9!#$%&\'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&\'*+\/=?^_`{|}~-]+)*\@([a-z0-9-]+\.)+[a-z0-9]{2,20}$/i;
+			acymModule['NAMECAPTION'] = 'Name';
+			acymModule['NAME_MISSING'] = 'Please enter your name';
+			acymModule['EMAILCAPTION'] = 'Email';
+			acymModule['VALID_EMAIL'] = 'Please enter a valid e-mail address';
+			acymModule['VALID_EMAIL_CONFIRMATION'] = 'Email field and email confirmation field must be identical';
+			acymModule['CAPTCHA_MISSING'] = 'The captcha is invalid, please try again';
+			acymModule['NO_LIST_SELECTED'] = 'Please select the lists you want to subscribe to';
+			acymModule['NO_LIST_SELECTED_UNSUB'] = 'Please select the lists you want to unsubscribe from';
+            acymModule['ACCEPT_TERMS'] = 'Please check the Terms and Conditions / Privacy policy';
+        }
+		</script>
+	<script type="text/od-defused-script">window.addEventListener("DOMContentLoaded", (event) => {
+acymModule["excludeValuesformAcym94981"] = [];
+acymModule["excludeValuesformAcym94981"]["1"] = "Name";
+acymModule["excludeValuesformAcym94981"]["2"] = "Email";  });</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/od-defused-script" type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+<!-- GOOGLE FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400' rel='stylesheet' type='text/css'>
+<!--//GOOGLE FONTS -->
+
+
+<!-- DARK MODE: pre-paint theme resolver + delegated toggle handler (raw output so the
+     T3 optimizer leaves it in <head>; runs before <body> parses, so no flash) -->
+<script type="text/od-defused-script">(function(){var KEY='ja_teline_v-theme',root=document.documentElement;
+function resolve(){var s;try{s=localStorage.getItem(KEY)}catch(e){}
+if(s==='dark'||s==='light')return s;
+try{return matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch(e){return 'light'}}
+function apply(m){root.setAttribute('data-theme',m)}
+apply(resolve());
+document.addEventListener('click',function(e){
+var b=e.target&&e.target.closest?e.target.closest('[data-set-theme]'):null;
+if(!b)return;
+var m=b.getAttribute('data-set-theme')==='dark'?'dark':'light';
+apply(m);try{localStorage.setItem(KEY,m)}catch(e){}});
+try{matchMedia('(prefers-color-scheme: dark)').addEventListener('change',function(ev){
+var s;try{s=localStorage.getItem(KEY)}catch(e){}
+if(!s)apply(ev.matches?'dark':'light')})}catch(e){}
+})();</script>
+<!-- //DARK MODE -->
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script type="text/od-defused-script" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/od-defused-script" type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--[if (!IE 8)&(!IE 9)]> -->
+<script type="text/od-defused-script" type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-548fde827970ba6d" async="async"></script>
+<!-- <![endif]-->
+</head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+	<!-- TOPBAR -->
+	<div class="t3-topbar">
+
+		<div class="top-left">
+			<nav class="t3-topnav">
+				<ul class="nav nav-pills nav-stacked menu">
+<li class="item-113 default"><a href="/index.php" class="nav-icon nav-magazine">Magazine</a></li><li class="item-136"><a href="/index.php/teline-v-events" class="nav-icon nav-events">Events</a></li><li class="item-137 current active"><a href="/index.php/teline-v-videos" class="nav-icon nav-media">Videos</a></li><li class="item-205"><a href="/index.php/gallery" class="nav-icon nav-gallery">Gallery</a></li><li class="item-138"><a href="/index.php/teline-v-blog" class="nav-icon nav-blog">Blog</a></li></ul>
+
+			</nav>
+		</div>
+
+		<div class="top-right">
+			<!-- DARK MODE SWITCH -->
+			<div class="ja-theme-switch" role="group" aria-label="Color theme">
+	<button type="button" class="ja-ts-btn ja-ts-light" data-set-theme="light" aria-label="Light mode" title="Light mode">
+		<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+	</button>
+	<button type="button" class="ja-ts-btn ja-ts-dark" data-set-theme="dark" aria-label="Dark mode" title="Dark mode">
+		<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+	</button>
+</div>
+
+			<!-- //DARK MODE SWITCH -->
+			
+<div class="module-search">
+	<form class="mod-finder js-finder-searchform form-search" action="/index.php/component/finder/search?Itemid=113" method="get" role="search">
+		<label for="mod-finder-searchword240" class="finder">Search</label><input type="text" name="q" id="mod-finder-searchword240" class="js-finder-search-query form-control" value="" placeholder="Search &hellip;">		<span class="fa fa-search"></span>
+						<input type="hidden" name="Itemid" value="113">	</form>
+</div>
+		</div>
+
+	</div>
+
+			<script type="text/od-defused-script">
+			(function ($) {
+				$('.t3-topnav li.item-137').addClass('active');
+			})(jQuery);
+		</script>
+		<!-- //TOP BAR -->
+
+
+  
+<!-- HEADER -->
+<header id="t3-header" class="t3-header">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-5 header-left">
+
+				<!-- OFF CANVAS TOGGLE -->
+				
+<button class="btn btn-default off-canvas-toggle" type="button" data-pos="left" data-nav="#t3-off-canvas" data-effect="off-canvas-effect-4">
+  <i class="fa fa-bars"></i>
+</button>
+
+<div id="t3-off-canvas" class="t3-off-canvas">
+
+  <div class="t3-off-canvas-header">
+    <h2 class="t3-off-canvas-header-title">Sidebar</h2>
+    <div class="ja-theme-switch" role="group" aria-label="Color theme">
+	<button type="button" class="ja-ts-btn ja-ts-light" data-set-theme="light" aria-label="Light mode" title="Light mode">
+		<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+	</button>
+	<button type="button" class="ja-ts-btn ja-ts-dark" data-set-theme="dark" aria-label="Dark mode" title="Dark mode">
+		<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+	</button>
+</div>
+
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  </div>
+
+  <div class="t3-off-canvas-body">
+    <div class="t3-module module " id="Mod216"><div class="module-inner"><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-113 default"><a href="/index.php" class="nav-icon nav-magazine">Magazine</a></li><li class="item-136"><a href="/index.php/teline-v-events" class="nav-icon nav-events">Events</a></li><li class="item-137 current active"><a href="/index.php/teline-v-videos" class="nav-icon nav-media">Videos</a></li><li class="item-205"><a href="/index.php/gallery" class="nav-icon nav-gallery">Gallery</a></li><li class="item-138"><a href="/index.php/teline-v-blog" class="nav-icon nav-blog">Blog</a></li></ul>
+</div></div></div><div class="t3-module module " id="Mod217"><div class="module-inner"><h3 class="module-title "><span>Magazine menu</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-151"><a href="/index.php" class="">Home </a></li><li class="item-139"><a href="/index.php/world" class="">World</a></li><li class="item-108"><a href="/index.php/technology" class="">Technology</a></li><li class="item-142"><a href="/index.php/sport" class="">Sport</a></li><li class="item-144"><a href="/index.php/health" class="">Health</a></li><li class="item-145"><a href="/index.php/science" class="">Science</a></li><li class="item-147"><a href="/index.php/travel" class="">Travel</a></li><li class="item-146"><a href="/index.php/entertainment" class="">Entertainment</a></li><li class="item-150 divider deeper dropdown parent"><span class="separator ">More</span>
+<ul class="dropdown-menu"><li class="item-148"><a href="/index.php/more/art" class="">Art</a></li><li class="item-204"><a href="/index.php/more/typography" class="">Typography</a></li><li class="item-223"><a href="/index.php/more/topic" class="">Topic</a></li></ul></li></ul>
+</div></div></div>
+  </div>
+
+</div>
+
+				<!-- // OFF CANVAS TOGGLE -->
+
+				<!-- LOGO -->
+				<div class="logo">
+					<div class="logo-image logo-control">
+						<a href="/index.php/teline-v-videos" title="Teline V">
+															<img class="logo-img" src="/images/stories/joomlart/logo_white.png" alt="Teline V" />
+																						<img class="logo-img-sm" src="/images/stories/joomlart/logo_small.png" alt="Teline V" />
+														<span>Teline V</span>
+						</a>
+						<small class="site-slogan">Best News Template For Joomla</small>
+					</div>
+				</div>
+				<!-- //LOGO -->
+
+			</div>
+
+			<!-- HEADER RIGHT -->
+			<div class="col-md-7 header-right">
+				<div class="header-right-inner header-banner">
+				<div class="mod-banners bannergroup">
+
+    <div class="mod-banners__item banneritem">
+                                                                                                                                                                                                                                                                            <a
+                            href="/index.php/component/banners/click/7" target="_blank" rel="noopener noreferrer"
+                            title="Header Blog Banner">
+                            <img
+                                src="https://ja-teline-v.demo.joomlart.com/images/stories/joomlart/banners/Blog-Banner.jpg"
+                                alt="Header Blog Banner"
+                                width="700"                                height="100"                            >
+                        </a>
+                                                            </div>
+
+</div>
+
+			</div>
+			<!-- //HEADER RIGHT -->
+
+		</div>
+
+	</div>
+</header>
+<!-- //HEADER -->
+
+
+  
+<div class="main">
+
+	
+  <div id="t3-mainbody" class="container t3-mainbody">
+  
+      
+      <!-- MAIN CONTENT -->
+      
+<div class="row videos-featured">
+
+	<div class="col videos-featured-items">
+					<div class="magazine-section-heading videos-section-heading col-md-4">
+				<h4>Hot Videos</h4>
+
+							</div>
+		
+		<div class="player-wrap col-md-8" itemprop="video">
+			<div id="ja-main-player" itemprop="video">
+									<iframe class="ja-video" width="640" height="360" src="https://www.youtube.com/embed/mnzQSsC9pJc" style="border:none" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+							</div>
+
+			<script type="text/od-defused-script" type="text/javascript">
+
+				(function($){
+					$(document).ready(function(){
+						$('#ja-main-player').find('iframe.ja-video, video, .jp-video, .jp-jplayer').each(function(){
+							var container = $('#ja-main-player');
+							var width = container.outerWidth(true);
+							var height = container.outerHeight(true);
+
+							$(this).removeAttr('width').removeAttr('height');
+							$(this).css({width: width, height: height});
+						});
+					});
+				})(jQuery);
+			</script>
+		</div>
+
+					<!-- Leading -->
+						<div class="videos-featured-list col-md-4 ">
+				<ul>
+										<li class="video-item active" itemprop="video">
+						
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/387-maroon-5-maps-explicit"
+		 data-title="Maroon 5 - Maps"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/mnzQSsC9pJc?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Aenean sit amet ultrices justo. Phasellus nibh dui, lobortis et finibus a, laoreet sed metus. Donec finibus lacus vel iaculis ultrices. "  src="/media/jact/small/images/stories/joomlart/videos/1.jpg" alt="Maroon 5 - Maps" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Aenean sit amet ultrices justo. Phasellus nibh dui, lobortis et finibus a, laoreet sed metus. Donec finibus lacus vel iaculis ultrices. </p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/387-maroon-5-maps-explicit" itemprop="url">
+						Maroon 5 - Maps</a>
+									</h3>
+			
+						
+					</div>
+	
+		
+			<div class="videos-item-ct" itemprop="description">
+			<p><strong>Sed tempus velit</strong></p>
+<p>Cras fringilla magna eros, eu ultricies velit mattis at. Sed tempus velit ac magna rutrum ullamcorper. </p>
+
+<p>Aliquam fringilla tristique erat, id malesuada turpis congue vitae. Duis eget <a href="#">euismod</a> dolor. Etiam ac tincidunt ipsum. Morbi ullamcorper erat et bibendum fermentum. Mauris consequat accumsan metus in vulputate. Proin odio ipsum, malesuada in arcu egestas, viverra tincidunt leo. Etiam fermentum felis consectetur fermentum auctor. <abbr title="Curabitur quis maximus">Curabitur quis maximus</abbr> turpis, eu porttitor velit. Praesent id sem porta, tristique massa et, euismod ante. Sed semper mauris metus. </p>
+<p><strong>Aenean at est</strong></p>
+<p>Proin suscipit nulla nec justo suscipit pulvinar. <a href="#">Vestibulum lobortis</a>, tortor non sagittis elementum, nibh ligula vulputate purus, pharetra euismod ex augue a metus. Nullam fermentum lobortis risus, et placerat tellus malesuada at. Aenean at est massa.</p>		</div>
+	
+	</div>
+					</li>
+										<li class="video-item " itemprop="video">
+						
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/388-usher-i-don-t-mind-ft-juicy-j"
+		 data-title="Usher - I Don&#039;t Mind ft. Juicy J"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/gAXlkVKG1Bg?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Maecenas cursus rhoncus elit id iaculis. Quisque sodales viverra nisi eu euismod. Nulla dignissim dignissim ipsum nec lacinia. "  src="/media/jact/small/images/stories/joomlart/videos/3.jpg" alt="Usher - I Don&#039;t Mind ft. Juicy J" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Maecenas cursus rhoncus elit id iaculis. Quisque sodales viverra nisi eu euismod. Nulla dignissim dignissim ipsum nec lacinia. </p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/388-usher-i-don-t-mind-ft-juicy-j" itemprop="url">
+						Usher - I Don&#039;t Mind ft. Juicy J</a>
+									</h3>
+			
+						
+					</div>
+	
+		
+			<div class="videos-item-ct" itemprop="description">
+			<p><strong>Sed tempus velit</strong></p>
+<p>Cras fringilla magna eros, eu ultricies velit mattis at. Sed tempus velit ac magna rutrum ullamcorper. </p>
+
+<p>Aliquam fringilla tristique erat, id malesuada turpis congue vitae. Duis eget <a href="#">euismod</a> dolor. Etiam ac tincidunt ipsum. Morbi ullamcorper erat et bibendum fermentum. Mauris consequat accumsan metus in vulputate. Proin odio ipsum, malesuada in arcu egestas, viverra tincidunt leo. Etiam fermentum felis consectetur fermentum auctor. <abbr title="Curabitur quis maximus">Curabitur quis maximus</abbr> turpis, eu porttitor velit. Praesent id sem porta, tristique massa et, euismod ante. Sed semper mauris metus. </p>
+<p><strong>Aenean at est</strong></p>
+<p>Proin suscipit nulla nec justo suscipit pulvinar. <a href="#">Vestibulum lobortis</a>, tortor non sagittis elementum, nibh ligula vulputate purus, pharetra euismod ex augue a metus. Nullam fermentum lobortis risus, et placerat tellus malesuada at. Aenean at est massa.</p>		</div>
+	
+	</div>
+					</li>
+										<li class="video-item " itemprop="video">
+						
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/389-dj-khaled-hold-you-down-ft-chris-brown-august-alsina-future-jeremih"
+		 data-title="DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/bSIaE_gjgbQ?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Nunc justo nibh, mollis ut dignissim non, feugiat in sem. Quisque et accumsan mi, eu viverra est. Pellentesque dignissim sem at velit rutrum placerat."  src="/media/jact/small/images/stories/joomlart/videos/4.jpg" alt="DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Nunc justo nibh, mollis ut dignissim non, feugiat in sem. Quisque et accumsan mi, eu viverra est. Pellentesque dignissim sem at velit rutrum placerat.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/389-dj-khaled-hold-you-down-ft-chris-brown-august-alsina-future-jeremih" itemprop="url">
+						DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih</a>
+									</h3>
+			
+						
+					</div>
+	
+		
+			<div class="videos-item-ct" itemprop="description">
+			<p><strong>Sed tempus velit</strong></p>
+<p>Cras fringilla magna eros, eu ultricies velit mattis at. Sed tempus velit ac magna rutrum ullamcorper. </p>
+
+<p>Aliquam fringilla tristique erat, id malesuada turpis congue vitae. Duis eget <a href="#">euismod</a> dolor. Etiam ac tincidunt ipsum. Morbi ullamcorper erat et bibendum fermentum. Mauris consequat accumsan metus in vulputate. Proin odio ipsum, malesuada in arcu egestas, viverra tincidunt leo. Etiam fermentum felis consectetur fermentum auctor. <abbr title="Curabitur quis maximus">Curabitur quis maximus</abbr> turpis, eu porttitor velit. Praesent id sem porta, tristique massa et, euismod ante. Sed semper mauris metus. </p>
+<p><strong>Aenean at est</strong></p>
+<p>Proin suscipit nulla nec justo suscipit pulvinar. <a href="#">Vestibulum lobortis</a>, tortor non sagittis elementum, nibh ligula vulputate purus, pharetra euismod ex augue a metus. Nullam fermentum lobortis risus, et placerat tellus malesuada at. Aenean at est massa.</p>		</div>
+	
+	</div>
+					</li>
+										<li class="video-item " itemprop="video">
+						
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/390-sia-chandelier-official-video"
+		 data-title="Sia - Chandelier"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/ILTZ8qZbNK0?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Pellentesque rutrum lectus id ligula tristique euismod. Duis ac turpis vel tellus sagittis imperdiet. Ut quam arcu, rutrum id elit ac, convallis laoreet libero."  src="/media/jact/small/images/stories/joomlart/videos/5.jpg" alt="Sia - Chandelier" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Pellentesque rutrum lectus id ligula tristique euismod. Duis ac turpis vel tellus sagittis imperdiet. Ut quam arcu, rutrum id elit ac, convallis laoreet libero.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/390-sia-chandelier-official-video" itemprop="url">
+						Sia - Chandelier</a>
+									</h3>
+			
+						
+					</div>
+	
+		
+			<div class="videos-item-ct" itemprop="description">
+			<p><strong>Sed tempus velit</strong></p>
+<p>Cras fringilla magna eros, eu ultricies velit mattis at. Sed tempus velit ac magna rutrum ullamcorper. </p>
+
+<p>Aliquam fringilla tristique erat, id malesuada turpis congue vitae. Duis eget <a href="#">euismod</a> dolor. Etiam ac tincidunt ipsum. Morbi ullamcorper erat et bibendum fermentum. Mauris consequat accumsan metus in vulputate. Proin odio ipsum, malesuada in arcu egestas, viverra tincidunt leo. Etiam fermentum felis consectetur fermentum auctor. <abbr title="Curabitur quis maximus">Curabitur quis maximus</abbr> turpis, eu porttitor velit. Praesent id sem porta, tristique massa et, euismod ante. Sed semper mauris metus. </p>
+<p><strong>Aenean at est</strong></p>
+<p>Proin suscipit nulla nec justo suscipit pulvinar. <a href="#">Vestibulum lobortis</a>, tortor non sagittis elementum, nibh ligula vulputate purus, pharetra euismod ex augue a metus. Nullam fermentum lobortis risus, et placerat tellus malesuada at. Aenean at est massa.</p>		</div>
+	
+	</div>
+					</li>
+										<li class="video-item " itemprop="video">
+						
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/391-ed-sheeran-thinking-out-loud-official-video"
+		 data-title="Ed Sheeran - Thinking Out Loud"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/lp-EO5I60KA?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Maecenas non risus nibh. Praesent fermentum ultrices mollis. Sed consectetur dolor id ipsum blandit bibendum."  src="/media/jact/small/images/stories/joomlart/videos/6.jpg" alt="Ed Sheeran - Thinking Out Loud" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Maecenas non risus nibh. Praesent fermentum ultrices mollis. Sed consectetur dolor id ipsum blandit bibendum.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/391-ed-sheeran-thinking-out-loud-official-video" itemprop="url">
+						Ed Sheeran - Thinking Out Loud</a>
+									</h3>
+			
+						
+					</div>
+	
+		
+			<div class="videos-item-ct" itemprop="description">
+			<p><strong>Sed tempus velit</strong></p>
+<p>Cras fringilla magna eros, eu ultricies velit mattis at. Sed tempus velit ac magna rutrum ullamcorper. </p>
+
+<p>Aliquam fringilla tristique erat, id malesuada turpis congue vitae. Duis eget <a href="#">euismod</a> dolor. Etiam ac tincidunt ipsum. Morbi ullamcorper erat et bibendum fermentum. Mauris consequat accumsan metus in vulputate. Proin odio ipsum, malesuada in arcu egestas, viverra tincidunt leo. Etiam fermentum felis consectetur fermentum auctor. <abbr title="Curabitur quis maximus">Curabitur quis maximus</abbr> turpis, eu porttitor velit. Praesent id sem porta, tristique massa et, euismod ante. Sed semper mauris metus. </p>
+<p><strong>Aenean at est</strong></p>
+<p>Proin suscipit nulla nec justo suscipit pulvinar. <a href="#">Vestibulum lobortis</a>, tortor non sagittis elementum, nibh ligula vulputate purus, pharetra euismod ex augue a metus. Nullam fermentum lobortis risus, et placerat tellus malesuada at. Aenean at est massa.</p>		</div>
+	
+	</div>
+					</li>
+									</ul>
+			</div>
+
+			<!-- //Leading -->
+		
+	</div>
+	<!-- //Left Column -->
+
+	</div>
+<div class="row magazine-list videos-list equal-height">
+	<!-- MAGAZINE LISTING -->
+	<div class="col col-md-12 magazine-categories">
+					<div class="magazine-section-heading videos-section-heading">
+				<h4>All Videos</h4>
+			</div>
+		
+		<div class="magazine-category" id="magazine-category-module-183">
+			
+				
+																		<div class="row-articles equal-height">
+												<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/387-maroon-5-maps-explicit"
+		 data-title="Maroon 5 - Maps"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/mnzQSsC9pJc?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Aenean sit amet ultrices justo. Phasellus nibh dui, lobortis et finibus a, laoreet sed metus. Donec finibus lacus vel iaculis ultrices. "  src="/media/jact/medium/images/stories/joomlart/videos/1.jpg" alt="Maroon 5 - Maps" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Aenean sit amet ultrices justo. Phasellus nibh dui, lobortis et finibus a, laoreet sed metus. Donec finibus lacus vel iaculis ultrices. </p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/387-maroon-5-maps-explicit" itemprop="url">
+						Maroon 5 - Maps</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/388-usher-i-don-t-mind-ft-juicy-j"
+		 data-title="Usher - I Don&#039;t Mind ft. Juicy J"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/gAXlkVKG1Bg?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Maecenas cursus rhoncus elit id iaculis. Quisque sodales viverra nisi eu euismod. Nulla dignissim dignissim ipsum nec lacinia. "  src="/media/jact/medium/images/stories/joomlart/videos/3.jpg" alt="Usher - I Don&#039;t Mind ft. Juicy J" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Maecenas cursus rhoncus elit id iaculis. Quisque sodales viverra nisi eu euismod. Nulla dignissim dignissim ipsum nec lacinia. </p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/388-usher-i-don-t-mind-ft-juicy-j" itemprop="url">
+						Usher - I Don&#039;t Mind ft. Juicy J</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/389-dj-khaled-hold-you-down-ft-chris-brown-august-alsina-future-jeremih"
+		 data-title="DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/bSIaE_gjgbQ?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Nunc justo nibh, mollis ut dignissim non, feugiat in sem. Quisque et accumsan mi, eu viverra est. Pellentesque dignissim sem at velit rutrum placerat."  src="/media/jact/medium/images/stories/joomlart/videos/4.jpg" alt="DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Nunc justo nibh, mollis ut dignissim non, feugiat in sem. Quisque et accumsan mi, eu viverra est. Pellentesque dignissim sem at velit rutrum placerat.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/389-dj-khaled-hold-you-down-ft-chris-brown-august-alsina-future-jeremih" itemprop="url">
+						DJ Khaled - Hold You Down ft. Chris Brown, August Alsina, Future, Jeremih</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/390-sia-chandelier-official-video"
+		 data-title="Sia - Chandelier"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/ILTZ8qZbNK0?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Pellentesque rutrum lectus id ligula tristique euismod. Duis ac turpis vel tellus sagittis imperdiet. Ut quam arcu, rutrum id elit ac, convallis laoreet libero."  src="/media/jact/medium/images/stories/joomlart/videos/5.jpg" alt="Sia - Chandelier" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Pellentesque rutrum lectus id ligula tristique euismod. Duis ac turpis vel tellus sagittis imperdiet. Ut quam arcu, rutrum id elit ac, convallis laoreet libero.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/390-sia-chandelier-official-video" itemprop="url">
+						Sia - Chandelier</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+													</div>
+																								<div class="row-articles equal-height">
+												<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/391-ed-sheeran-thinking-out-loud-official-video"
+		 data-title="Ed Sheeran - Thinking Out Loud"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/lp-EO5I60KA?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Maecenas non risus nibh. Praesent fermentum ultrices mollis. Sed consectetur dolor id ipsum blandit bibendum."  src="/media/jact/medium/images/stories/joomlart/videos/6.jpg" alt="Ed Sheeran - Thinking Out Loud" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Maecenas non risus nibh. Praesent fermentum ultrices mollis. Sed consectetur dolor id ipsum blandit bibendum.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/391-ed-sheeran-thinking-out-loud-official-video" itemprop="url">
+						Ed Sheeran - Thinking Out Loud</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/392-calvin-harris-blame-ft-john-newman"
+		 data-title="Calvin Harris - Blame ft. John Newman"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/0ltIPr-d8jg?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Integer auctor nisl nisi, non ornare tortor posuere sed. Nulla eu lacus quis nisi congue aliquet. Mauris faucibus ipsum ut pharetra pulvinar."  src="/media/jact/medium/images/stories/joomlart/videos/7.jpg" alt="Calvin Harris - Blame ft. John Newman" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Integer auctor nisl nisi, non ornare tortor posuere sed. Nulla eu lacus quis nisi congue aliquet. Mauris faucibus ipsum ut pharetra pulvinar.</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/392-calvin-harris-blame-ft-john-newman" itemprop="url">
+						Calvin Harris - Blame ft. John Newman</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/393-nick-jonas-jealous"
+		 data-title="Nick Jonas - Jealous"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/7KW5grqZV0Y?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Nulla vitae purus euismod, ornare tortor id, efficitur ligula. Proin arcu turpis, pretium maximus vehicula sit amet, ornare sodales arcu"  src="/media/jact/medium/images/stories/joomlart/videos/8.jpg" alt="Nick Jonas - Jealous" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Nulla vitae purus euismod, ornare tortor id, efficitur ligula. Proin arcu turpis, pretium maximus vehicula sit amet, ornare sodales arcu</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/393-nick-jonas-jealous" itemprop="url">
+						Nick Jonas - Jealous</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+																							<div class="col col-xs-12 col-sm-3 magazine-item videos-item">
+							
+<div class="magazine-item-media videos-item-media" itemprop="video">
+		<div class="item-image ja-video-list"
+		 data-url="/index.php/teline-v-videos/51-videos/394-meghan-trainor-lips-are-movin"
+		 data-title="Meghan Trainor - Lips Are Movin"
+		 data-video="&lt;iframe class=&quot;ja-video&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/Z3qbYcGEtYc?autoplay=1&quot; style=&quot;border:none&quot; allowfullscreen allow=&quot;autoplay; encrypted-media&quot;&gt;&lt;/iframe&gt;
+">
+		<span class="btn-play">
+			<i class="fa fa-play-circle-o"></i>
+		</span>
+		<span class="video-mask"></span>
+		
+      <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     <img class="caption" title="Nam quis vehicula neque, at congue dui. Nulla efficitur vel erat nec mattis. Nulla laoreet bibendum mi vitae aliquet. Praesent massa tortor, feugiat ut eleifend sed, maximus tempor orci. Aliquam laoreet ligula eu tempus laoreet.
+"  src="/media/jact/medium/images/stories/joomlart/videos/9.jpg" alt="Meghan Trainor - Lips Are Movin" itemprop="url"/>
+     <meta itemprop="height" content="auto" />
+     <meta itemprop="width" content="auto" />
+    </span>
+    
+    <p class="img-caption">Nam quis vehicula neque, at congue dui. Nulla efficitur vel erat nec mattis. Nulla laoreet bibendum mi vitae aliquet. Praesent massa tortor, feugiat ut eleifend sed, maximus tempor orci. Aliquam laoreet ligula eu tempus laoreet.
+</p>
+  		<div class="video-wrapper">
+		</div>
+	</div>
+	</div>
+
+<div class="magazine-item-main videos-item-main">
+	
+			<div class="article-title">
+
+							<h3 itemprop="name">
+											<a href="/index.php/teline-v-videos/51-videos/394-meghan-trainor-lips-are-movin" itemprop="url">
+						Meghan Trainor - Lips Are Movin</a>
+									</h3>
+			
+						
+					</div>
+	
+					
+	
+	</div>
+						</div>
+													</div>
+											
+				
+			</div>
+							<div class="load-more">
+					<button class="btn btn-default btn-info" data-link="https://ja-teline-v.demo.joomlart.com/index.php/teline-v-videos" data-maxpage="3" onclick="jActions.loadModuleNextPage(this, 183, 'magazine-category-module-183', function(){JAVideoPlayer.playlist();}); return false;" title="Load More">
+						Load More						<span class="fa fa-spin fa-circle-o-notch" style="display: none"></span>
+					</button>
+				</div>
+				</div>
+	<!-- //MAGAZINE LISTING -->
+
+	
+</div>
+
+      <!-- //MAIN CONTENT -->
+
+  </div> 
+
+	
+
+</div>
+
+
+  
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+  <div class="container">
+
+  <section class="t3-footer-links">
+    <div class="row">
+
+      <div class="col-md-4">
+        <!-- LOGO -->
+        <div class="logo">
+          <div class="logo-image">
+            <a href="/index.php/teline-v-videos" title="Teline V">
+                              <img class="logo-img" src="/images/stories/joomlart/logo_white.png" alt="Teline V" />
+                            <span>Teline V</span>
+            </a>
+            <small class="site-slogan">Best News Template For Joomla</small>
+          </div>
+        </div>
+        <!-- //LOGO -->
+
+        <!-- NEWSLETTER -->
+        <div class="acy-email-footer">
+            	<div class="acym_module " id="acym_module_formAcym94981">
+		<div class="acym_fulldiv" id="acym_fulldiv_formAcym94981" >
+			<form enctype="multipart/form-data"
+				  id="formAcym94981"
+				  name="formAcym94981"
+				  method="POST"
+				  action="/index.php/component/acym/frontusers?tmpl=component"
+				  onsubmit="return submitAcymForm('subscribe','formAcym94981', 'acymSubmitSubForm')">
+				<div class="acym_module_form">
+                    <div class="acym_introtext">Sign up via our free email subscription service to receive notifications when new information is available.</div>
+<table class="acym_form">
+	<tr>
+        <td class="onefield acyfield_1 acyfield_text"><input  name="user[name]" placeholder="Name" value="" data-authorized-content="{&quot;0&quot;:&quot;all&quot;,&quot;regex&quot;:&quot;&quot;,&quot;message&quot;:&quot;Incorrect value for the field Name&quot;}" type="text" class="cell  "><div class="acym__field__error__block" data-acym-field-id="1"></div></td></tr><tr><td class="onefield acyfield_2 acyfield_text"><input id="email_field_590"  name="user[email]" placeholder="Email" value="" data-authorized-content="{&quot;0&quot;:&quot;all&quot;,&quot;regex&quot;:&quot;&quot;,&quot;message&quot;:&quot;Incorrect value for the field Email&quot;}" required type="email" class="cell acym__user__edit__email  "><div class="acym__field__error__block" data-acym-field-id="2"></div></td></tr><tr>
+		<td  class="acysubbuttons">
+			<noscript>
+                Please enable the javascript to submit this form			</noscript>
+			<input type="button"
+				   class="btn btn-primary button subbutton"
+				   value="Subscribe"
+				   name="Submit"
+				   onclick="try{ return submitAcymForm('subscribe','formAcym94981', 'acymSubmitSubForm'); }catch(err){alert('The form could not be submitted '+err);return false;}" />
+            		</td>
+	</tr>
+</table>
+				</div>
+
+				<input type="hidden" name="ctrl" value="frontusers" />
+				<input type="hidden" name="task" value="notask" />
+				<input type="hidden" name="option" value="com_acym" />
+
+                
+				<input type="hidden" name="ajax" value="1" />
+				<input type="hidden" name="successmode" value="replace" />
+				<input type="hidden" name="acy_source" value="Module n°220" />
+				<input type="hidden" name="hiddenlists" value="1" />
+				<input type="hidden" name="fields" value="name,email" />
+				<input type="hidden" name="acyformname" value="formAcym94981" />
+				<input type="hidden" name="acysubmode" value="mod_acym" />
+				<input type="hidden" name="confirmation_message" value="" />
+
+                			</form>
+		</div>
+	</div>
+
+        </div>
+        <!-- //NEWSLETTER -->
+      </div>
+
+      <div class="col-md-8">
+      	      	<!-- FOOT NAVIGATION -->
+      			<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footnav  row">
+					<div class=" col-lg-3 col-md-3  col-sm-3 hidden-sm   col-xs-6 hidden-xs ">
+								<div class="t3-module module " id="Mod130"><div class="module-inner"><h3 class="module-title "><span>Joomla Users</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-208"><a href="/index.php/login" class="">Login</a></li><li class="item-207"><a href="/index.php/registration" class="">Registration</a></li><li class="item-213"><a href="/index.php/user-profile" class="">User Profile</a></li></ul>
+</div></div></div><div class="t3-module module " id="Mod178"><div class="module-inner"><h3 class="module-title "><span>Explore</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-160"><a href="http://www.joomlart.com/buddies/" class="">Partners </a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-3 col-md-3  col-sm-4 hidden-sm   col-xs-6 hidden-xs ">
+								<div class="t3-module module " id="Mod131"><div class="module-inner"><h3 class="module-title "><span>Systems</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-212"><a href="/index.php/tags" class="">Tags</a></li></ul>
+</div></div></div><div class="t3-module module " id="Mod179"><div class="module-inner"><h3 class="module-title "><span>Help</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-167"><a href="/index.php/all-contacts" class="">All Contacts</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-3 col-md-3  col-sm-6 hidden-sm   col-xs-6 hidden-xs ">
+								<div class="t3-module module " id="Mod132"><div class="module-inner"><h3 class="module-title "><span>Articles</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-217"><a href="/index.php/single-article" class="">Single Article</a></li><li class="item-218"><a href="/index.php/featured-articles" class="">Featured Articles</a></li><li class="item-158"><a href="http://www.joomlart.com/magento/themes" class="">Showcase </a></li><li class="item-219"><a href="/index.php/new-feeds" class="">New Feeds</a></li></ul>
+</div></div></div><div class="t3-module module " id="Mod180"><div class="module-inner"><h3 class="module-title "><span>Resources</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-164"><a href="http://www.joomlart.com/documentation" class="">JA Wiki </a></li><li class="item-165"><a href="http://update.joomlart.com/" class="">Updates </a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-3 col-md-3 col-sm-12 col-xs-12">
+								<div class="t3-module moduleja-social " id="Mod181"><div class="module-inner"><h3 class="module-title "><span>Social</span></h3><div class="module-ct">
+<div id="mod-custom181" class="mod-custom custom">
+    <ul class="nav">
+<li>
+<a href="https://www.facebook.com/joomlart"><i class="fa fa-facebook"> </i>Facebook</a></li>
+<li>
+<a href="https://twitter.com/joomlart"><i class="fa fa-twitter"> </i>Twitter</a></li>
+<li>
+<a href="https://plus.google.com/+JoomlArt/posts"><i class="fa fa-google-plus"> </i>Google+</a></li>
+<li>
+<a href="http://pinterest.com/joomlart/"><i class="fa fa-pinterest"> </i>Pinterest</a></li>
+<li>
+<a href="https://www.youtube.com/user/JoomlArt"><i class="fa fa-youtube"> </i>Youtube</a></li>
+<li>
+<a href="http://instagram.com/joomlart"><i class="fa fa-instagram"> </i>Instagram</a></li>
+<li>
+<a href="http://feeds.feedburner.com/joomlart/joomla"><i class="fa fa-rss"> </i>RSS</a></li>
+</ul></div>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+      	<!-- //FOOT NAVIGATION -->
+      	          <div class="footer-banner">
+              <div class="mod-banners bannergroup">
+
+    <div class="mod-banners__item banneritem">
+                                                                                                                                                                                                                                                                            <a
+                            href="/index.php/component/banners/click/8" target="_blank" rel="noopener noreferrer"
+                            title="Footer Home Banner">
+                            <img
+                                src="https://ja-teline-v.demo.joomlart.com/images/stories/joomlart/banners/footer-banner.jpg"
+                                alt="Footer Home Banner"
+                                                                                            >
+                        </a>
+                                                            </div>
+
+</div>
+
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="t3-copyright">
+  	<div class="row">
+  		<div class="col-md-8 copyright ">
+  			
+        <small>Copyright &copy; 2026 Joomla!. All Rights Reserved. Powered by <a href="/" title="Teline V" rel="nofollow">Teline V</a> - Designed by JoomlArt.com.</small>
+        <small>
+          <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
+        </small>
+        <small>
+          <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a> font licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>.
+        </small>
+  		</div>
+  		  			<div class="col-md-4 poweredby text-hide">
+  				<a class="t3-logo t3-logo-light" href="http://t3-framework.org" title="Powered By T3 Framework"
+  				   target="_blank" rel="nofollow">Powered By <strong>T3 Framework</strong></a>
+  			</div>
+  		  	</div>
+  </section>
+
+  </div>
+</footer>
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+<div id="back-to-top" data-spy="affix" data-offset-top="200" class="back-to-top hidden-xs hidden-sm affix-top">
+  <button class="btn btn-primary" title="Back to Top"><span class="fa fa-angle-up"></span></button>
+</div>
+
+<script type="text/od-defused-script" type="text/javascript">
+(function($) {
+  // Back to top
+  $('#back-to-top').on('click', function(){
+    $("html, body").animate({scrollTop: 0}, 500);
+    return false;
+  });
+})(jQuery);
+</script>
+<!-- BACK TO TOP BUTTON -->
+
+</div>
+
+
+</body>
+</html>

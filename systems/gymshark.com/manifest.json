@@ -1,0 +1,33 @@
+{
+  "id": "brand:gymshark.com",
+  "host": "gymshark.com",
+  "kind": "reference",
+  "slug": "us-checkout-gymshark-com",
+  "name": "us.checkout.gymshark.com",
+  "category": "Reference",
+  "description": "",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://gymshark.com/",
+    "finalUrl": "https://us.checkout.gymshark.com/",
+    "extractedAt": "2026-09-06T09:30:58.261Z",
+    "thin": true,
+    "blocked": false
+  },
+  "refined": [
+    "name: \"Us\" → \"us.checkout.gymshark.com\" (the title is a sentence; using the hostname)",
+    "accent: #000000 has no hue → #bf2e35 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "colors": 19,
+    "fonts": 9,
+    "logos": 6,
+    "imagery": 1,
+    "fonts_files": 8,
+    "headings": 0,
+    "engineFiles": 18,
+    "slots": 151
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "brand:travelfiji.com.au",
+  "host": "travelfiji.com.au",
+  "kind": "own",
+  "slug": "travel-fiji",
+  "name": "Travel Fiji",
+  "category": "Your brand",
+  "description": "Experience the ultimate adventure in Fiji with Travel Fiji - your go-to source for immersive travel experiences. Explore the beautiful island and its culture, from luxurious resorts to thrilling activities. Plan your dream getaway with us today!",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://travelfiji.com.au/",
+    "finalUrl": "https://travelfiji.com.au/",
+    "extractedAt": "2026-09-06T09:32:27.990Z",
+    "thin": false,
+    "blocked": false
+  },
+  "refined": [
+    "font: \"Glyphicons Halflings\" is an icon or code face → \"Poppins\"",
+    "accent: #000000 has no hue → #337ab7 (most-used chromatic colour)",
+    "fonts: 4 faces self-hosted from Google Fonts (Poppins)"
+  ],
+  "counts": {
+    "colors": 19,
+    "fonts": 4,
+    "logos": 2,
+    "imagery": 1,
+    "fonts_files": 4,
+    "headings": 2,
+    "engineFiles": 18,
+    "slots": 151
+  }
+}

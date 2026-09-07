@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="//www.joomlart.com/templates/ja-v4/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="//www.joomlart.com/templates/ja-v4/favicon.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+	<title>JoomlArt Product Update | Joomla 5 update status</title>
+	<link rel="stylesheet" href="assets/style.css">
+	<script type="text/od-defused-script">
+		document.addEventListener('DOMContentLoaded', () => {
+			const $input = document.querySelector('.product-search');
+
+			// $input.focus();
+			$input.addEventListener('input', event => {
+				const value = $input.value.toLowerCase();
+
+				document.querySelectorAll('.product-title').forEach($el => {
+					const $parent = $el.parentNode;
+					const title = $el.textContent.toLowerCase();
+
+					if (title.indexOf(value) === -1) {
+						$parent.classList.add('hide');
+					} else {
+						$parent.classList.remove('hide');
+					}
+				})
+			});
+		})
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<ul class="menu">
+									<li><a class="btn active" href="index.php?group=jatc">JA Template</a></li>
+									<li><a class="btn" href="index.php?group=jaec">JA Extension</a></li>
+									<li><a class="btn" href="index.php?group=gavick">Gavick</a></li>
+									<li><a class="btn" href="index.php?group=js">JomSocial</a></li>
+									<li><a class="btn" href="index.php?group=ijoomla">iJoomla</a></li>
+							</ul>
+		</div>
+	</div>
+
+	<div id="main">
+		<!-- Search form -->
+		<div id="frm-search">
+			<div class="container">
+				<label>Search:</label>
+				<input type="text" name="product" class="product-search" value="" placeholder="Search by product name" size="30" />
+			</div>
+		</div>
+		<!-- // Search form -->
+
+		<div class="product-wrapper">
+
+							<table class="product-list" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="200px" class="text-left">Product Name</th>
+							<th width="200px" class="">Product Type</th>
+															<!-- <th width="200px" class="text-left">Framework</th> -->
+														<th width="200px" class="col-status j5-status"><div class="product-name">Joomla 6<sup class="badge">New</sup></div></th>
+							<th width="200px" class="col-status"><div class="product-name">Joomla 5</div></th>
+							<!-- <th width="200px" class="col-version">Version</th> -->
+						</tr>
+					</thead>
+					<tbody>
+													<tr class="product">
+								<td class="product-title">JA Voyara</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Nexora</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Stratum</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Spark</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">T4 Framework</td>
+								<td class="product-type type-framework">
+									<div class="product-type-wrap">
+										<span class="badge type-framework">f</span>
+										<span class="label">framework</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">T3 Framework</td>
+								<td class="product-type type-framework">
+									<div class="product-type-wrap">
+										<span class="badge type-framework">f</span>
+										<span class="label">framework</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Titan</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Vega</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Trip</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Fresco</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Vogue</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Prodex</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Boxing</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Agrivita</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Impact</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Nova</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Essence</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Vitality</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Podcast</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Purity IV</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Seven</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Colab</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Festival</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Comics</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Sport</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Athena</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA FindUs</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Phio</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA GameX</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Rights</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Coach</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Stark</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Ego</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Candidate</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Blockk</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Atoms</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Educatsy</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Alpha</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Tour</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Spa</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Vital</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Helple</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Artsy</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Resort</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Event Camp</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Beauty</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Flix</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Justitia</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Landscape</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Symphony</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Campaign</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t4-framework">
+										<span>T4 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Morgan</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Kids Corner</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Property</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Good</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA MixStore</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Aiga</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Sensei</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Space</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Autoshop</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Diner</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Donate</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Insight</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Fit</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA City Guide</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Lawfirm </td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Mason</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Play School</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Conf</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Shoe</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Allure</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Focus</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Healthcare</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Smallbiz</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Social II</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Mood</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Company</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Alumni</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Oslo</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Brickstore</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Restaurant</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Intranet</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Megastore</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Resume</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Moviemax</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Elicyon</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Playstore</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Platon</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Events II</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Teline V</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA University T3</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Mono</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Magz II</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Rent</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Techzone</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Directory</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Charity
+</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">Uber</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-planned">
+									<span>Planned</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">Purity III</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-stable">
+									<span>Stable</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Cagox</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Hotel</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Edenite II</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-stable">
+									<span>Stable</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Jason</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Neuvo</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Playmag</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Medicare</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Sugite</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Decor</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="t3-framework">
+										<span>T3 Framework</span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+													<tr class="product">
+								<td class="product-title">JA Simpli</td>
+								<td class="product-type type-template">
+									<div class="product-type-wrap">
+										<span class="badge type-template">t</span>
+										<span class="label">template</span>
+									</div>
+								</td>
+																	<!-- <td class="">
+										<span></span>
+									</td> -->
+																<td class="col-status j5-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								<td class="col-status j4-status status-not-support">
+									<span>Not Support</span>
+								</td>
+								
+								<!-- <td class="col-version"></td> -->
+							</tr>
+											</tbody>
+				</table>
+					</div>
+
+	</div>
+
+</body>
+
+</html>

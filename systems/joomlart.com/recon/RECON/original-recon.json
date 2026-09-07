@@ -1,0 +1,5731 @@
+{
+  "label": "original",
+  "url": "https://www.joomlart.com/",
+  "capturedAt": "2026-09-06T15:03:35.495Z",
+  "console": {
+    "errors": [],
+    "warnings": [],
+    "pageErrors": []
+  },
+  "navigation": [
+    {
+      "viewport": 1440,
+      "recovered": false,
+      "url": "https://www.joomlart.com/",
+      "readyState": "interactive"
+    },
+    {
+      "viewport": 768,
+      "recovered": false,
+      "url": "https://www.joomlart.com/",
+      "readyState": "interactive"
+    },
+    {
+      "viewport": 390,
+      "recovered": false,
+      "url": "https://www.joomlart.com/",
+      "readyState": "interactive"
+    }
+  ],
+  "captures": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-1440.png",
+      "signals": {
+        "href": "https://www.joomlart.com/",
+        "title": "Responsive Joomla Templates and Premium Joomla templates club | JoomlArt",
+        "lang": "en-gb",
+        "bodyTextChars": 4817,
+        "scrollHeight": 7855,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "h1": [
+          "Powerful tools, exceptional design — the all-in-one Joomla platform."
+        ],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Quick Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Site navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Latest post"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "Dark Mode Roll-out Continues: 4 More Templates Updated"
+          },
+          {
+            "tag": "h1",
+            "text": "Powerful tools, exceptional design — the all-in-one Joomla platform."
+          },
+          {
+            "tag": "h2",
+            "text": "Unlock Powerful Tools for Your Joomla Websites"
+          },
+          {
+            "tag": "h2",
+            "text": "Craft beautiful Joomla! websites without limits Trusted by 300,000+ websites"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Voyara Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Nexora Modern Joomla for AI, SaaS & Technology"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Stratum SaaS Joomla Template for Startups"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Spark Modern Multipurpose Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Titan Joomla News & Magazine Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Vega Joomla Template for Business and Corporate"
+          },
+          {
+            "tag": "h2",
+            "text": "Build your website, your way with a free & powerful suite of tools"
+          },
+          {
+            "tag": "h2",
+            "text": "Build visually T4 Page Builder"
+          },
+          {
+            "tag": "h2",
+            "text": "Customize everything T4 Joomla! Framework"
+          },
+          {
+            "tag": "h2",
+            "text": "Empowering your website with Reliable Joomla! extensions"
+          },
+          {
+            "tag": "h3",
+            "text": "JomSocial The best Joomla community software"
+          },
+          {
+            "tag": "h3",
+            "text": "Guru #1 Joomla LMS extension!"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Component #1 Joomla advertising extension!"
+          },
+          {
+            "tag": "h2",
+            "text": "Trusted by the best 300,000+ and non-stop counting members love us."
+          },
+          {
+            "tag": "h2",
+            "text": "Read the latestResources & Blog"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Support"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          },
+          {
+            "tag": "h3",
+            "text": "Programs"
+          },
+          {
+            "tag": "h3",
+            "text": "Subscribe to our newsletter"
+          },
+          {
+            "tag": "h3",
+            "text": "Connect with Us"
+          },
+          {
+            "tag": "h2",
+            "text": "Posts navigation"
+          }
+        ],
+        "metaDescription": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
+        "counts": {
+          "links": 129,
+          "images": 42,
+          "video": 0,
+          "canvas": 0,
+          "sections": 9,
+          "forms": 1,
+          "buttons": 4,
+          "inputs": 5,
+          "interactive": 140,
+          "scripts": 31,
+          "stylesheets": 23
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://connect.facebook.net/signals/config/1535331143452409?v=2.9.393&r=stable&domain=www.joomlart.com&hme=118644ce20ff837cfc6c6ee441987e9e11b8b9fb8ec6bc04b15a3c516441ba07&ex_m=115%2C226%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C193%2C240%2C82%2C254%2C253%2C252%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C303%2C304%2C305%2C302%2C318%2C340%2C233%2C222%2C68%2C223%2C221%2C343%2C334%2C58%2C234%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183",
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1&cx=c&gtm=4e6921",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P86FFWG",
+          "https://pixel.nudgify.com/pixel.js",
+          "https://client.crisp.chat/l.js",
+          "https://static.joomlart.com/ecosys/scripts/topbar/script.js?site=joomlart&v=106",
+          "https://www.googletagmanager.com/gtag/js?id=G-GJKTCZ5GP2",
+          "https://www.joomlart.com/media/system/js/core.min.js?a3d8f8",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery-noconflict.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/bootstrap/js/popover.min.js?5.3.8",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.tap.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/off-canvas.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/script.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/menu.js",
+          "https://www.joomlart.com/templates/ja_v5/js/script.js",
+          "https://www.joomlart.com/templates/ja_v5/js/right-height.js",
+          "https://www.joomlart.com/templates/ja_v5/js/aos.js",
+          "https://www.joomlart.com/templates/ja_v5/js/owl.carousel.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.ckie.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/hogan.common.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/jquery.autocomplete.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/elastic.site.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.jquery.min.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/index.umd.min.js",
+          "https://www.joomlart.com/member/usercp/",
+          "https://cdn.popupsmart.com/bundle.js"
+        ],
+        "stylesheets": [
+          "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css",
+          "https://www.joomlart.com/templates/system/css/system.css",
+          "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/template.css?144",
+          "https://www.joomlart.com/templates/ja_v5/local/css/megamenu.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/off-canvas.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/balloon.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/aos.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.carousel.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.theme.default.min.css",
+          "https://fonts.googleapis.com/css2?family=Courgette",
+          "https://www.joomlart.com/templates/ja_v5/css/custom.css",
+          "https://www.joomlart.com/templates/ja_v5/css/prettify.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/style.min.css",
+          "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/css/style.css",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.min.css",
+          "https://static.joomlart.com/ecosys/scripts/topbar/style.css?v=106",
+          "https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/prettify.css",
+          "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+        ],
+        "sections": [
+          {
+            "tag": "header",
+            "id": "ja-header",
+            "className": "",
+            "text": "Ad Agency Pro 8.0.0 Now Ready for Joomla 6 View Details Navigation JoomlArt Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framewor",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1432,
+              "height": 189
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "t3-navbar navbar-collapse collapse",
+            "text": "Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framework Joomla 6 UpdateJoomla 6 templates & extensions Tracy All Demos Support Doc",
+            "rect": {
+              "x": 372,
+              "y": 60,
+              "width": 670,
+              "height": 128
+            },
+            "style": {
+              "display": "block",
+              "position": "relative",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "rect": {
+              "x": 172,
+              "y": 6798,
+              "width": 307,
+              "height": 78
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "rect": {
+              "x": 563,
+              "y": 6798,
+              "width": 307,
+              "height": 52
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "rect": {
+              "x": 953,
+              "y": 6798,
+              "width": 307,
+              "height": 52
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "t3-footer",
+            "className": "wrap t3-footer",
+            "text": "Products Joomla Templates T4 Pagebuilder T4 Framework Extensions All demos Support Forums Documentation Videos tutorials Joomla Glossary Support Policy Company Terms of UsePrivacyRefund PolicyLicensesContact Us Programs 100% Money Back Guar",
+            "rect": {
+              "x": 0,
+              "y": 6980,
+              "width": 1432,
+              "height": 875
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgb(249, 249, 252)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "14px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "search-elastic-page-header",
+            "text": "Search",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "search",
+            "text": "Filter by type: All Document Blog Product In site: All JoomlArt Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "navigation pagination-wrap",
+            "text": "Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--fa-animation-direction",
+            "reverse"
+          ],
+          [
+            "--fa",
+            "\"0\""
+          ],
+          [
+            "--fa",
+            "\"1\""
+          ],
+          [
+            "--fa",
+            "\"2\""
+          ],
+          [
+            "--fa",
+            "\"3\""
+          ],
+          [
+            "--fa",
+            "\"4\""
+          ],
+          [
+            "--fa",
+            "\"5\""
+          ],
+          [
+            "--fa",
+            "\"6\""
+          ],
+          [
+            "--fa",
+            "\"7\""
+          ],
+          [
+            "--fa",
+            "\"8\""
+          ],
+          [
+            "--fa",
+            "\"9\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"@\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"K\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"W\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"*\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ]
+        ],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "header": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(242, 242, 247)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "main": null,
+          "footer": {
+            "backgroundColor": "rgb(249, 249, 252)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "I Accept",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "×",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Navigation",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "All Demos",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Pricing",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Check it now",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Browse our themes",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Try it for free",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 3
+        },
+        "fonts": [
+          "Glyphicons Halflings",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Brands",
+          "FontAwesome",
+          "Font Awesome 5 Brands",
+          "Font Awesome 5 Duotone",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Courgette",
+          "Courgette",
+          "Pe-icon-7-stroke",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter"
+        ],
+        "fontFaces": [
+          {
+            "family": "Glyphicons Halflings",
+            "weight": "",
+            "style": "",
+            "srcUrls": [
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Glyphicons Halflings\"; src: url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2\") format(\"woff2\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/fontawesome-webfont.woff2?v=4.7.0",
+              "../fonts/fontawesome-webfont.woff?v=4.7.0",
+              "../fonts/fontawesome-webfont.ttf?v=4.7.0"
+            ],
+            "cssText": "@font-face { font-family: FontAwesome; src: url(\"../fonts/fontawesome-webfont.woff2?v=4.7.0\") format(\"woff2\"), url(\"../fonts/fontawesome-webfont.woff?v=4.7.0\") format(\"woff\"), url(\"../fonts/fontawesome-webfont.ttf?v=4.7.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-brands-400.woff2",
+              "../webfonts/fa-brands-400.woff",
+              "../webfonts/fa-brands-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.woff\") format(\"woff\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-duotone-900.woff2",
+              "../webfonts/fa-duotone-900.woff",
+              "../webfonts/fa-duotone-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Duotone\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-duotone-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-duotone-900.woff\") format(\"woff\"), url(\"../webfonts/fa-duotone-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "300",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-light-300.woff2",
+              "../webfonts/fa-light-300.woff",
+              "../webfonts/fa-light-300.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 300; font-display: block; src: url(\"../webfonts/fa-light-300.woff2\") format(\"woff2\"), url(\"../webfonts/fa-light-300.woff\") format(\"woff\"), url(\"../webfonts/fa-light-300.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-regular-400.woff2",
+              "../webfonts/fa-regular-400.woff",
+              "../webfonts/fa-regular-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.woff\") format(\"woff\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-solid-900.woff2",
+              "../webfonts/fa-solid-900.woff",
+              "../webfonts/fa-solid-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.woff\") format(\"woff\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Pe-icon-7-stroke",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/Pe-icon-7-stroke.woff?d7yf1v",
+              "../fonts/Pe-icon-7-stroke.ttf?d7yf1v"
+            ],
+            "cssText": "@font-face { font-family: Pe-icon-7-stroke; src: url(\"../fonts/Pe-icon-7-stroke.woff?d7yf1v\") format(\"woff\"), url(\"../fonts/Pe-icon-7-stroke.ttf?d7yf1v\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+          }
+        ],
+        "resources": {
+          "images": [
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/images/cover-recap-july.png",
+            "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "https://www.joomlart.com/images/newsletter/cover2.png",
+            "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-4.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-1.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-3.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/world-map.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/paypal.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/stripe.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/master.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/visa.png",
+            "https://www.google.de/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-GJKTCZ5GP2&cid=502356714.1788706976&gtm=45je6921v9118536018za200zd9118536018&rcb=6&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=115616985~115938466~115938469~117227715~118897920~118897930~120213116~120385422~120420416~120469145~120469153&z=181888552",
+            "https://www.joomlart.com/templates/ja_v5/favicon.ico",
+            "https://www.joomlart.com/templates/ja_v5/favicon-32x32.png",
+            "https://www.joomlart.com/index.php/_wblapi?nolangfilter=1&_wblapi=/forseo/v1/cron/image/78179823846741319053717809662806.svg"
+          ],
+          "fonts": [
+            "https://www.joomlart.com/media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-duotone-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-solid-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-regular-400.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+          ],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 900,
+            "height": 622
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "srcset": "",
+            "alt": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template",
+            "width": 900,
+            "height": 600
+          },
+          {
+            "src": "https://www.joomlart.com/images/newsletter/cover2.png",
+            "srcset": "",
+            "alt": "Dark Mode Roll-out Continues: 4 More Templates Updated",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "srcset": "",
+            "alt": "Joomla business Template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "srcset": "",
+            "alt": "JA Atoms ecommerce joomla template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "srcset": "",
+            "alt": "JA Tour Joomla travel template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "srcset": "",
+            "alt": "JA Spa joomla beauty spa template",
+            "width": 318,
+            "height": 199
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "srcset": "",
+            "alt": "Shape",
+            "width": 163,
+            "height": 159
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "srcset": "",
+            "alt": "Travel Agency Joomla Template - JA Voyara",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "srcset": "",
+            "alt": "Modern AI SaaS Joomla Template - JA Nexora",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "srcset": "",
+            "alt": "Business Joomla Template - JA Stratum",
+            "width": 405,
+            "height": 245
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "srcset": "",
+            "alt": "Modern Multipurpose Joomla Template - JA Spark",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "srcset": "",
+            "alt": "Joomla News & Magazine Template - JA Titan",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "srcset": "",
+            "alt": "Joomla Template for Business - JA Vega",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "srcset": "",
+            "alt": "Joomla drag and drop page builder - t4 page builder",
+            "width": 810,
+            "height": 620
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "srcset": "",
+            "alt": "responsive joomla template framework - t4 framework",
+            "width": 850,
+            "height": 650
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "srcset": "",
+            "alt": "The best Joomla community software",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "srcset": "",
+            "alt": "Joomla LMS extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "srcset": "",
+            "alt": "Joomla advertising extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "srcset": "",
+            "alt": "Mark Lee",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "srcset": "",
+            "alt": "Peter Bui",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "srcset": "",
+            "alt": "Tessa Mero",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "srcset": "",
+            "alt": "Shyam",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 131,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 186,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 359,
+            "height": 182
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          }
+        ],
+        "canvases": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-768.png",
+      "signals": {
+        "href": "https://www.joomlart.com/",
+        "title": "Responsive Joomla Templates and Premium Joomla templates club | JoomlArt",
+        "lang": "en-gb",
+        "bodyTextChars": 4746,
+        "scrollHeight": 12816,
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "h1": [
+          "Powerful tools, exceptional design — the all-in-one Joomla platform."
+        ],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Quick Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Site navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Latest post"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "Dark Mode Roll-out Continues: 4 More Templates Updated"
+          },
+          {
+            "tag": "h1",
+            "text": "Powerful tools, exceptional design — the all-in-one Joomla platform."
+          },
+          {
+            "tag": "h2",
+            "text": "Unlock Powerful Tools for Your Joomla Websites"
+          },
+          {
+            "tag": "h2",
+            "text": "Craft beautiful Joomla! websites without limits Trusted by 300,000+ websites"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Voyara Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Nexora Modern Joomla for AI, SaaS & Technology"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Stratum SaaS Joomla Template for Startups"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Spark Modern Multipurpose Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Titan Joomla News & Magazine Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Vega Joomla Template for Business and Corporate"
+          },
+          {
+            "tag": "h2",
+            "text": "Build your website, your way with a free & powerful suite of tools"
+          },
+          {
+            "tag": "h2",
+            "text": "Build visually T4 Page Builder"
+          },
+          {
+            "tag": "h2",
+            "text": "Customize everything T4 Joomla! Framework"
+          },
+          {
+            "tag": "h2",
+            "text": "Empowering your website with Reliable Joomla! extensions"
+          },
+          {
+            "tag": "h3",
+            "text": "JomSocial The best Joomla community software"
+          },
+          {
+            "tag": "h3",
+            "text": "Guru #1 Joomla LMS extension!"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Component #1 Joomla advertising extension!"
+          },
+          {
+            "tag": "h2",
+            "text": "Trusted by the best 300,000+ and non-stop counting members love us."
+          },
+          {
+            "tag": "h2",
+            "text": "Read the latestResources & Blog"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Support"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          },
+          {
+            "tag": "h3",
+            "text": "Programs"
+          },
+          {
+            "tag": "h3",
+            "text": "Subscribe to our newsletter"
+          },
+          {
+            "tag": "h3",
+            "text": "Connect with Us"
+          },
+          {
+            "tag": "h2",
+            "text": "Posts navigation"
+          }
+        ],
+        "metaDescription": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
+        "counts": {
+          "links": 129,
+          "images": 42,
+          "video": 0,
+          "canvas": 0,
+          "sections": 9,
+          "forms": 1,
+          "buttons": 4,
+          "inputs": 5,
+          "interactive": 140,
+          "scripts": 31,
+          "stylesheets": 23
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://connect.facebook.net/signals/config/1535331143452409?v=2.9.393&r=stable&domain=www.joomlart.com&hme=118644ce20ff837cfc6c6ee441987e9e11b8b9fb8ec6bc04b15a3c516441ba07&ex_m=115%2C226%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C193%2C240%2C82%2C254%2C253%2C252%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C303%2C304%2C305%2C302%2C318%2C340%2C233%2C222%2C68%2C223%2C221%2C343%2C334%2C58%2C234%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183",
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1&cx=c&gtm=4e6921",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P86FFWG",
+          "https://pixel.nudgify.com/pixel.js",
+          "https://client.crisp.chat/l.js",
+          "https://static.joomlart.com/ecosys/scripts/topbar/script.js?site=joomlart&v=106",
+          "https://www.googletagmanager.com/gtag/js?id=G-GJKTCZ5GP2",
+          "https://www.joomlart.com/media/system/js/core.min.js?a3d8f8",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery-noconflict.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/bootstrap/js/popover.min.js?5.3.8",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.tap.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/off-canvas.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/script.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/menu.js",
+          "https://www.joomlart.com/templates/ja_v5/js/script.js",
+          "https://www.joomlart.com/templates/ja_v5/js/right-height.js",
+          "https://www.joomlart.com/templates/ja_v5/js/aos.js",
+          "https://www.joomlart.com/templates/ja_v5/js/owl.carousel.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.ckie.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/hogan.common.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/jquery.autocomplete.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/elastic.site.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.jquery.min.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/index.umd.min.js",
+          "https://www.joomlart.com/member/usercp/",
+          "https://cdn.popupsmart.com/bundle.js"
+        ],
+        "stylesheets": [
+          "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css",
+          "https://www.joomlart.com/templates/system/css/system.css",
+          "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/template.css?144",
+          "https://www.joomlart.com/templates/ja_v5/local/css/megamenu.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/off-canvas.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/balloon.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/aos.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.carousel.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.theme.default.min.css",
+          "https://fonts.googleapis.com/css2?family=Courgette",
+          "https://www.joomlart.com/templates/ja_v5/css/custom.css",
+          "https://www.joomlart.com/templates/ja_v5/css/prettify.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/style.min.css",
+          "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/css/style.css",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.min.css",
+          "https://static.joomlart.com/ecosys/scripts/topbar/style.css?v=106",
+          "https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/prettify.css",
+          "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+        ],
+        "sections": [
+          {
+            "tag": "header",
+            "id": "ja-header",
+            "className": "",
+            "text": "Ad Agency Pro 8.0.0 Now Ready for Joomla 6 View Details Navigation JoomlArt Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framewor",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 760,
+              "height": 125
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "t3-navbar navbar-collapse collapse",
+            "text": "Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framework Joomla 6 UpdateJoomla 6 templates & extensions Tracy All Demos Support Doc",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "none",
+              "position": "relative",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "rect": {
+              "x": 56,
+              "y": 10327,
+              "width": 600,
+              "height": 26
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "rect": {
+              "x": 56,
+              "y": 10647,
+              "width": 484,
+              "height": 26
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "rect": {
+              "x": 56,
+              "y": 10967,
+              "width": 573,
+              "height": 26
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "t3-footer",
+            "className": "wrap t3-footer",
+            "text": "Products Joomla Templates T4 Pagebuilder T4 Framework Extensions All demos Support Forums Documentation Videos tutorials Joomla Glossary Support Policy Company Terms of UsePrivacyRefund PolicyLicensesContact Us Programs 100% Money Back Guar",
+            "rect": {
+              "x": 0,
+              "y": 11071,
+              "width": 760,
+              "height": 1745
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgb(249, 249, 252)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "14px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "search-elastic-page-header",
+            "text": "Search",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "search",
+            "text": "Filter by type: All Document Blog Product In site: All JoomlArt Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "navigation pagination-wrap",
+            "text": "Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--fa-animation-direction",
+            "reverse"
+          ],
+          [
+            "--fa",
+            "\"0\""
+          ],
+          [
+            "--fa",
+            "\"1\""
+          ],
+          [
+            "--fa",
+            "\"2\""
+          ],
+          [
+            "--fa",
+            "\"3\""
+          ],
+          [
+            "--fa",
+            "\"4\""
+          ],
+          [
+            "--fa",
+            "\"5\""
+          ],
+          [
+            "--fa",
+            "\"6\""
+          ],
+          [
+            "--fa",
+            "\"7\""
+          ],
+          [
+            "--fa",
+            "\"8\""
+          ],
+          [
+            "--fa",
+            "\"9\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"@\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"K\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"W\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"*\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ]
+        ],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "header": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(242, 242, 247)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "main": null,
+          "footer": {
+            "backgroundColor": "rgb(249, 249, 252)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "I Accept",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "×",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Navigation",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "All Demos",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Pricing",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Check it now",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Browse our themes",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Try it for free",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 3
+        },
+        "fonts": [
+          "Glyphicons Halflings",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Brands",
+          "FontAwesome",
+          "Font Awesome 5 Brands",
+          "Font Awesome 5 Duotone",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Courgette",
+          "Courgette",
+          "Pe-icon-7-stroke",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter"
+        ],
+        "fontFaces": [
+          {
+            "family": "Glyphicons Halflings",
+            "weight": "",
+            "style": "",
+            "srcUrls": [
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Glyphicons Halflings\"; src: url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2\") format(\"woff2\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/fontawesome-webfont.woff2?v=4.7.0",
+              "../fonts/fontawesome-webfont.woff?v=4.7.0",
+              "../fonts/fontawesome-webfont.ttf?v=4.7.0"
+            ],
+            "cssText": "@font-face { font-family: FontAwesome; src: url(\"../fonts/fontawesome-webfont.woff2?v=4.7.0\") format(\"woff2\"), url(\"../fonts/fontawesome-webfont.woff?v=4.7.0\") format(\"woff\"), url(\"../fonts/fontawesome-webfont.ttf?v=4.7.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-brands-400.woff2",
+              "../webfonts/fa-brands-400.woff",
+              "../webfonts/fa-brands-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.woff\") format(\"woff\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-duotone-900.woff2",
+              "../webfonts/fa-duotone-900.woff",
+              "../webfonts/fa-duotone-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Duotone\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-duotone-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-duotone-900.woff\") format(\"woff\"), url(\"../webfonts/fa-duotone-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "300",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-light-300.woff2",
+              "../webfonts/fa-light-300.woff",
+              "../webfonts/fa-light-300.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 300; font-display: block; src: url(\"../webfonts/fa-light-300.woff2\") format(\"woff2\"), url(\"../webfonts/fa-light-300.woff\") format(\"woff\"), url(\"../webfonts/fa-light-300.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-regular-400.woff2",
+              "../webfonts/fa-regular-400.woff",
+              "../webfonts/fa-regular-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.woff\") format(\"woff\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-solid-900.woff2",
+              "../webfonts/fa-solid-900.woff",
+              "../webfonts/fa-solid-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.woff\") format(\"woff\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Pe-icon-7-stroke",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/Pe-icon-7-stroke.woff?d7yf1v",
+              "../fonts/Pe-icon-7-stroke.ttf?d7yf1v"
+            ],
+            "cssText": "@font-face { font-family: Pe-icon-7-stroke; src: url(\"../fonts/Pe-icon-7-stroke.woff?d7yf1v\") format(\"woff\"), url(\"../fonts/Pe-icon-7-stroke.ttf?d7yf1v\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+          }
+        ],
+        "resources": {
+          "images": [
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/images/cover-recap-july.png",
+            "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "https://www.joomlart.com/images/newsletter/cover2.png",
+            "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-4.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-1.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-3.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/world-map.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/paypal.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/stripe.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/master.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/visa.png",
+            "https://www.googleadservices.com/ccm/conversion/11399105327/?random=1788706993657&cv=11&fst=1788706993657&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45je6921v9118536018za200zd9118536018xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=115938465~115938468~117227715~118897920~118897930~120213116~120385423~120469145~120469153~120914214&u_w=800&u_h=600&url=https%3A%2F%2Fwww.joomlart.com%2F&rcb=18&label=R8FZCLn8vvMYEK-Wwrsq&gtm_ee=1&frm=0&tiba=Responsive%20Joomla%20Templates%20and%20Premium%20Joomla%20templates%20club%20%7C%20JoomlArt&hn=www.googleadservices.com&npa=1&pscdl=noapi&auid=233026822.1788706976&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&oid=68150603.1788706994&oidsrc=3&ecsid2=1915281218.1788706977&_tu=ABA&gcl_ctr=2~0~0~0&data=event%3Dconversion&em=tv.1&emd=tvd.1",
+            "https://www.joomlart.com/templates/ja_v5/favicon.ico",
+            "https://www.joomlart.com/index.php/_wblapi?nolangfilter=1&_wblapi=/forseo/v1/cron/image/473526468133534053474794118750718.svg"
+          ],
+          "fonts": [
+            "https://www.joomlart.com/media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-solid-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-duotone-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-regular-400.woff2"
+          ],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 900,
+            "height": 622
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "srcset": "",
+            "alt": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template",
+            "width": 900,
+            "height": 600
+          },
+          {
+            "src": "https://www.joomlart.com/images/newsletter/cover2.png",
+            "srcset": "",
+            "alt": "Dark Mode Roll-out Continues: 4 More Templates Updated",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "srcset": "",
+            "alt": "Joomla business Template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "srcset": "",
+            "alt": "JA Atoms ecommerce joomla template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "srcset": "",
+            "alt": "JA Tour Joomla travel template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "srcset": "",
+            "alt": "JA Spa joomla beauty spa template",
+            "width": 318,
+            "height": 199
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "srcset": "",
+            "alt": "Shape",
+            "width": 163,
+            "height": 159
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "srcset": "",
+            "alt": "Travel Agency Joomla Template - JA Voyara",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "srcset": "",
+            "alt": "Modern AI SaaS Joomla Template - JA Nexora",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "srcset": "",
+            "alt": "Business Joomla Template - JA Stratum",
+            "width": 405,
+            "height": 245
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "srcset": "",
+            "alt": "Modern Multipurpose Joomla Template - JA Spark",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "srcset": "",
+            "alt": "Joomla News & Magazine Template - JA Titan",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "srcset": "",
+            "alt": "Joomla Template for Business - JA Vega",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "srcset": "",
+            "alt": "Joomla drag and drop page builder - t4 page builder",
+            "width": 810,
+            "height": 620
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "srcset": "",
+            "alt": "responsive joomla template framework - t4 framework",
+            "width": 850,
+            "height": 650
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "srcset": "",
+            "alt": "The best Joomla community software",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "srcset": "",
+            "alt": "Joomla LMS extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "srcset": "",
+            "alt": "Joomla advertising extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "srcset": "",
+            "alt": "Mark Lee",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "srcset": "",
+            "alt": "Peter Bui",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "srcset": "",
+            "alt": "Tessa Mero",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "srcset": "",
+            "alt": "Shyam",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 131,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 186,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 536,
+            "height": 182
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          }
+        ],
+        "canvases": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-390.png",
+      "signals": {
+        "href": "https://www.joomlart.com/",
+        "title": "Responsive Joomla Templates and Premium Joomla templates club | JoomlArt",
+        "lang": "en-gb",
+        "bodyTextChars": 4746,
+        "scrollHeight": 14745,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "h1": [
+          "Powerful tools, exceptional design — the all-in-one Joomla platform."
+        ],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Quick Navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Site navigation"
+          },
+          {
+            "tag": "h3",
+            "text": "Latest post"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "Dark Mode Roll-out Continues: 4 More Templates Updated"
+          },
+          {
+            "tag": "h1",
+            "text": "Powerful tools, exceptional design — the all-in-one Joomla platform."
+          },
+          {
+            "tag": "h2",
+            "text": "Unlock Powerful Tools for Your Joomla Websites"
+          },
+          {
+            "tag": "h2",
+            "text": "Craft beautiful Joomla! websites without limits Trusted by 300,000+ websites"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Voyara Travel Agency Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Nexora Modern Joomla for AI, SaaS & Technology"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Stratum SaaS Joomla Template for Startups"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Spark Modern Multipurpose Joomla Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Titan Joomla News & Magazine Template"
+          },
+          {
+            "tag": "h3",
+            "text": "JA Vega Joomla Template for Business and Corporate"
+          },
+          {
+            "tag": "h2",
+            "text": "Build your website, your way with a free & powerful suite of tools"
+          },
+          {
+            "tag": "h2",
+            "text": "Build visually T4 Page Builder"
+          },
+          {
+            "tag": "h2",
+            "text": "Customize everything T4 Joomla! Framework"
+          },
+          {
+            "tag": "h2",
+            "text": "Empowering your website with Reliable Joomla! extensions"
+          },
+          {
+            "tag": "h3",
+            "text": "JomSocial The best Joomla community software"
+          },
+          {
+            "tag": "h3",
+            "text": "Guru #1 Joomla LMS extension!"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Component #1 Joomla advertising extension!"
+          },
+          {
+            "tag": "h2",
+            "text": "Trusted by the best 300,000+ and non-stop counting members love us."
+          },
+          {
+            "tag": "h2",
+            "text": "Read the latestResources & Blog"
+          },
+          {
+            "tag": "h3",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements"
+          },
+          {
+            "tag": "h3",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6"
+          },
+          {
+            "tag": "h3",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP"
+          },
+          {
+            "tag": "h3",
+            "text": "Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Support"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          },
+          {
+            "tag": "h3",
+            "text": "Programs"
+          },
+          {
+            "tag": "h3",
+            "text": "Subscribe to our newsletter"
+          },
+          {
+            "tag": "h3",
+            "text": "Connect with Us"
+          },
+          {
+            "tag": "h2",
+            "text": "Posts navigation"
+          }
+        ],
+        "metaDescription": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
+        "counts": {
+          "links": 129,
+          "images": 42,
+          "video": 0,
+          "canvas": 0,
+          "sections": 9,
+          "forms": 1,
+          "buttons": 4,
+          "inputs": 5,
+          "interactive": 140,
+          "scripts": 31,
+          "stylesheets": 23
+        },
+        "frameworks": {
+          "react": false,
+          "next": false,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://connect.facebook.net/signals/config/1535331143452409?v=2.9.393&r=stable&domain=www.joomlart.com&hme=118644ce20ff837cfc6c6ee441987e9e11b8b9fb8ec6bc04b15a3c516441ba07&ex_m=115%2C226%2C166%2C26%2C80%2C81%2C158%2C76%2C75%2C11%2C176%2C100%2C20%2C150%2C138%2C45%2C83%2C88%2C146%2C171%2C178%2C31%2C17%2C30%2C18%2C32%2C33%2C34%2C36%2C54%2C159%2C85%2C123%2C22%2C24%2C50%2C46%2C48%2C47%2C93%2C102%2C106%2C121%2C157%2C160%2C52%2C122%2C28%2C25%2C130%2C77%2C42%2C162%2C161%2C163%2C154%2C152%2C29%2C41%2C65%2C120%2C173%2C78%2C21%2C125%2C91%2C74%2C23%2C95%2C96%2C127%2C94%2C148%2C147%2C151%2C107%2C172%2C175%2C40%2C55%2C124%2C53%2C8%2C4%2C5%2C7%2C6%2C3%2C101%2C112%2C179%2C193%2C240%2C82%2C254%2C253%2C252%2C14%2C27%2C39%2C61%2C114%2C67%2C10%2C71%2C108%2C109%2C110%2C116%2C141%2C37%2C35%2C143%2C144%2C145%2C140%2C139%2C167%2C84%2C170%2C168%2C169%2C56%2C66%2C134%2C19%2C174%2C51%2C303%2C304%2C305%2C302%2C318%2C340%2C233%2C222%2C68%2C223%2C221%2C343%2C334%2C58%2C234%2C118%2C142%2C90%2C132%2C60%2C131%2C137%2C136%2C64%2C72%2C70%2C164%2C86%2C87%2C126%2C43%2C38%2C59%2C62%2C111%2C177%2C1%2C135%2C16%2C133%2C12%2C2%2C63%2C103%2C15%2C73%2C69%2C129%2C99%2C98%2C181%2C182%2C104%2C105%2C9%2C113%2C180%2C57%2C155%2C97%2C89%2C79%2C128%2C117%2C49%2C156%2C0%2C92%2C149%2C153%2C165%2C44%2C119%2C13%2C183",
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1&cx=c&gtm=4e6921",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P86FFWG",
+          "https://pixel.nudgify.com/pixel.js",
+          "https://client.crisp.chat/l.js",
+          "https://static.joomlart.com/ecosys/scripts/topbar/script.js?site=joomlart&v=106",
+          "https://www.googletagmanager.com/gtag/js?id=G-GJKTCZ5GP2",
+          "https://www.joomlart.com/media/system/js/core.min.js?a3d8f8",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/jquery/js/jquery-noconflict.min.js?3.7.1",
+          "https://www.joomlart.com/media/vendor/bootstrap/js/popover.min.js?5.3.8",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.tap.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/off-canvas.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/script.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/menu.js",
+          "https://www.joomlart.com/templates/ja_v5/js/script.js",
+          "https://www.joomlart.com/templates/ja_v5/js/right-height.js",
+          "https://www.joomlart.com/templates/ja_v5/js/aos.js",
+          "https://www.joomlart.com/templates/ja_v5/js/owl.carousel.min.js",
+          "https://www.joomlart.com/plugins/system/t3/base-bs3/js/jquery.ckie.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/hogan.common.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/jquery.autocomplete.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/js/elastic.site.js",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.jquery.min.js",
+          "https://www.googletagmanager.com/gtag/js?id=UA-243376-1",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/index.umd.min.js",
+          "https://www.joomlart.com/member/usercp/",
+          "https://cdn.popupsmart.com/bundle.js"
+        ],
+        "stylesheets": [
+          "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css",
+          "https://www.joomlart.com/templates/system/css/system.css",
+          "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/template.css?144",
+          "https://www.joomlart.com/templates/ja_v5/local/css/megamenu.css",
+          "https://www.joomlart.com/templates/ja_v5/local/css/off-canvas.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/balloon.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/aos.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.carousel.min.css",
+          "https://www.joomlart.com/templates/ja_v5/css/owl-carousel/owl.theme.default.min.css",
+          "https://fonts.googleapis.com/css2?family=Courgette",
+          "https://www.joomlart.com/templates/ja_v5/css/custom.css",
+          "https://www.joomlart.com/templates/ja_v5/css/prettify.css",
+          "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
+          "https://cdn.jsdelivr.net/npm/chatbot-ai-sdk-client/dist/style.min.css",
+          "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/css/style.css",
+          "https://www.joomlart.com/plugins/system/jaelasticsearch/assets/chosen/chosen.min.css",
+          "https://static.joomlart.com/ecosys/scripts/topbar/style.css?v=106",
+          "https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/prettify.css",
+          "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+        ],
+        "sections": [
+          {
+            "tag": "header",
+            "id": "ja-header",
+            "className": "",
+            "text": "Ad Agency Pro 8.0.0 Now Ready for Joomla 6 View Details Navigation JoomlArt Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framewor",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 382,
+              "height": 125
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "t3-navbar navbar-collapse collapse",
+            "text": "Home Products Joomla Templates200+ Joomla Templates T4 Page Builder#1 Joomla Page Builder ExtensionsExtend Joomla Functionality T4 FrameworkThe Best Joomla Framework Joomla 6 UpdateJoomla 6 templates & extensions Tracy All Demos Support Doc",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "none",
+              "position": "relative",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "rect": {
+              "x": 42,
+              "y": 12023,
+              "width": 298,
+              "height": 78
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "rect": {
+              "x": 42,
+              "y": 12395,
+              "width": 298,
+              "height": 52
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "article-header clearfix",
+            "text": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "rect": {
+              "x": 42,
+              "y": 12741,
+              "width": 298,
+              "height": 52
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "footer",
+            "id": "t3-footer",
+            "className": "wrap t3-footer",
+            "text": "Products Joomla Templates T4 Pagebuilder T4 Framework Extensions All demos Support Forums Documentation Videos tutorials Joomla Glossary Support Policy Company Terms of UsePrivacyRefund PolicyLicensesContact Us Programs 100% Money Back Guar",
+            "rect": {
+              "x": 0,
+              "y": 12871,
+              "width": 382,
+              "height": 1874
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgb(249, 249, 252)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "14px"
+            }
+          },
+          {
+            "tag": "header",
+            "id": "",
+            "className": "search-elastic-page-header",
+            "text": "Search",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "search",
+            "text": "Filter by type: All Document Blog Product In site: All JoomlArt Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "navigation pagination-wrap",
+            "text": "Posts navigation",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "style": {
+              "display": "block",
+              "position": "static",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 28, 30)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--fa-animation-direction",
+            "reverse"
+          ],
+          [
+            "--fa",
+            "\"0\""
+          ],
+          [
+            "--fa",
+            "\"1\""
+          ],
+          [
+            "--fa",
+            "\"2\""
+          ],
+          [
+            "--fa",
+            "\"3\""
+          ],
+          [
+            "--fa",
+            "\"4\""
+          ],
+          [
+            "--fa",
+            "\"5\""
+          ],
+          [
+            "--fa",
+            "\"6\""
+          ],
+          [
+            "--fa",
+            "\"7\""
+          ],
+          [
+            "--fa",
+            "\"8\""
+          ],
+          [
+            "--fa",
+            "\"9\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"@\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"K\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"W\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"*\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ],
+          [
+            "--fa",
+            "\"\""
+          ]
+        ],
+        "rootVariables": [],
+        "palette": {
+          "body": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "header": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "nav": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(242, 242, 247)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "main": null,
+          "footer": {
+            "backgroundColor": "rgb(249, 249, 252)",
+            "color": "rgb(28, 28, 30)",
+            "borderColor": "rgb(28, 28, 30)",
+            "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "backgroundImage": ""
+          },
+          "buttons": [
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "I Accept",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "×",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Navigation",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "All Demos",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(99, 99, 102)",
+              "borderColor": "rgb(99, 99, 102)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Pricing",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Check it now",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Browse our themes",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgb(0, 122, 255)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Try it for free",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 122, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            },
+            {
+              "text": "Explore All Features",
+              "backgroundColor": "rgb(0, 122, 255)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "backgroundImage": ""
+            }
+          ]
+        },
+        "motion": {
+          "htmlScrollBehavior": "auto",
+          "scrollSnapRules": 0,
+          "smoothScrollRules": 0,
+          "stickyOrFixedCount": 2
+        },
+        "fonts": [
+          "Glyphicons Halflings",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Free",
+          "Font Awesome 6 Brands",
+          "FontAwesome",
+          "Font Awesome 5 Brands",
+          "Font Awesome 5 Duotone",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Font Awesome 5 Pro",
+          "Courgette",
+          "Courgette",
+          "Pe-icon-7-stroke",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter",
+          "Inter"
+        ],
+        "fontFaces": [
+          {
+            "family": "Glyphicons Halflings",
+            "weight": "",
+            "style": "",
+            "srcUrls": [
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff",
+              "../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Glyphicons Halflings\"; src: url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff2\") format(\"woff2\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"../../../../plugins/system/t3/plugins/system/t3/base-bs3/bootstrap/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/local/css/bootstrap.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.woff2?v=896727\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-regular-400.ttf?v=262525\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Free",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Free\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2?v=4a6591\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf?v=269f97\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "Font Awesome 6 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+              "../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 6 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42\") format(\"woff2\"), url(\"../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf?v=15d54d\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/media/system/css/joomla-fontawesome.min.css"
+          },
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/fontawesome-webfont.woff2?v=4.7.0",
+              "../fonts/fontawesome-webfont.woff?v=4.7.0",
+              "../fonts/fontawesome-webfont.ttf?v=4.7.0"
+            ],
+            "cssText": "@font-face { font-family: FontAwesome; src: url(\"../fonts/fontawesome-webfont.woff2?v=4.7.0\") format(\"woff2\"), url(\"../fonts/fontawesome-webfont.woff?v=4.7.0\") format(\"woff\"), url(\"../fonts/fontawesome-webfont.ttf?v=4.7.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome/css/font-awesome.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-brands-400.woff2",
+              "../webfonts/fa-brands-400.woff",
+              "../webfonts/fa-brands-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Brands\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.woff\") format(\"woff\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-duotone-900.woff2",
+              "../webfonts/fa-duotone-900.woff",
+              "../webfonts/fa-duotone-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Duotone\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-duotone-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-duotone-900.woff\") format(\"woff\"), url(\"../webfonts/fa-duotone-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "300",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-light-300.woff2",
+              "../webfonts/fa-light-300.woff",
+              "../webfonts/fa-light-300.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 300; font-display: block; src: url(\"../webfonts/fa-light-300.woff2\") format(\"woff2\"), url(\"../webfonts/fa-light-300.woff\") format(\"woff\"), url(\"../webfonts/fa-light-300.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "400",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-regular-400.woff2",
+              "../webfonts/fa-regular-400.woff",
+              "../webfonts/fa-regular-400.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 400; font-display: block; src: url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.woff\") format(\"woff\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "900",
+            "style": "normal",
+            "srcUrls": [
+              "../webfonts/fa-solid-900.woff2",
+              "../webfonts/fa-solid-900.woff",
+              "../webfonts/fa-solid-900.ttf"
+            ],
+            "cssText": "@font-face { font-family: \"Font Awesome 5 Pro\"; font-style: normal; font-weight: 900; font-display: block; src: url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.woff\") format(\"woff\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\"); }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/css/all.min.css"
+          },
+          {
+            "family": "Pe-icon-7-stroke",
+            "weight": "normal",
+            "style": "normal",
+            "srcUrls": [
+              "../fonts/Pe-icon-7-stroke.woff?d7yf1v",
+              "../fonts/Pe-icon-7-stroke.ttf?d7yf1v"
+            ],
+            "cssText": "@font-face { font-family: Pe-icon-7-stroke; src: url(\"../fonts/Pe-icon-7-stroke.woff?d7yf1v\") format(\"woff\"), url(\"../fonts/Pe-icon-7-stroke.ttf?d7yf1v\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+            "sheetHref": "https://www.joomlart.com/templates/ja_v5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+          }
+        ],
+        "resources": {
+          "images": [
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/images/cover-recap-july.png",
+            "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "https://www.joomlart.com/images/newsletter/cover2.png",
+            "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-4.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-1.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/bg-gradient-3.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/world-map.svg",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/paypal.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/stripe.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/master.png",
+            "https://www.joomlart.com/templates/ja_v5/images/ico/visa.png",
+            "https://www.googleadservices.com/ccm/conversion/11399105327/?random=1788707005998&cv=11&fst=1788707005998&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45je6921v9118536018za200zd9118536018xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=115938465~115938468~117227715~118897920~118897930~120213116~120385422~120469145~120469153&u_w=800&u_h=600&url=https%3A%2F%2Fwww.joomlart.com%2F&rcb=10&label=R8FZCLn8vvMYEK-Wwrsq&gtm_ee=1&frm=0&tiba=Responsive%20Joomla%20Templates%20and%20Premium%20Joomla%20templates%20club%20%7C%20JoomlArt&hn=www.googleadservices.com&npa=1&pscdl=noapi&auid=233026822.1788706976&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&oid=2055035214.1788707006&oidsrc=3&ecsid2=1915281218.1788706977&_tu=ABA&gcl_ctr=3~0~0~0&data=event%3Dconversion&em=tv.1&emd=tvd.1",
+            "https://www.joomlart.com/templates/ja_v5/favicon.ico",
+            "https://www.joomlart.com/index.php/_wblapi?nolangfilter=1&_wblapi=/forseo/v1/cron/image/449452702707974559050875851758712.svg"
+          ],
+          "fonts": [
+            "https://www.joomlart.com/media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2?v=cbcf42",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-duotone-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-solid-900.woff2",
+            "https://www.joomlart.com/templates/ja_v5/fonts/font-awesome5-pro/webfonts/fa-regular-400.woff2"
+          ],
+          "media": []
+        },
+        "images": [
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 900,
+            "height": 622
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg",
+            "srcset": "",
+            "alt": "Introducing JA Voyara: An Elegant Travel Agency Joomla Template",
+            "width": 900,
+            "height": 600
+          },
+          {
+            "src": "https://www.joomlart.com/images/newsletter/cover2.png",
+            "srcset": "",
+            "alt": "Dark Mode Roll-out Continues: 4 More Templates Updated",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/slideshow/ja-vega-joomla-business-template.jpg",
+            "srcset": "",
+            "alt": "Joomla business Template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-impact/slideshow/joomla-ngo-template.jpg",
+            "srcset": "",
+            "alt": "JA Atoms ecommerce joomla template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-fresco/slideshow/ja-fresco-template.jpg",
+            "srcset": "",
+            "alt": "JA Tour Joomla travel template",
+            "width": 650,
+            "height": 750
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/ja_spa.png",
+            "srcset": "",
+            "alt": "JA Spa joomla beauty spa template",
+            "width": 318,
+            "height": 199
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/masshead/shape.png",
+            "srcset": "",
+            "alt": "Shape",
+            "width": 163,
+            "height": 159
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-voyara/slideshow/home-thumb.jpg",
+            "srcset": "",
+            "alt": "Travel Agency Joomla Template - JA Voyara",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-nexora/slideshow/nexora-wide-thumb.jpg",
+            "srcset": "",
+            "alt": "Modern AI SaaS Joomla Template - JA Nexora",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template-26/ja-stratum/slideshow/ja-stratum-template.jpg",
+            "srcset": "",
+            "alt": "Business Joomla Template - JA Stratum",
+            "width": 405,
+            "height": 245
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-spark/slideshow/ja-spark-template.jpg",
+            "srcset": "",
+            "alt": "Modern Multipurpose Joomla Template - JA Spark",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-titan/slideshow/ja-titan-magazine-template.jpg",
+            "srcset": "",
+            "alt": "Joomla News & Magazine Template - JA Titan",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/images/template/ja-vega/ja-vega-business-joomla-template.jpg",
+            "srcset": "",
+            "alt": "Joomla Template for Business - JA Vega",
+            "width": 400,
+            "height": 242
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/t4-joomla-page-builder-component.png",
+            "srcset": "",
+            "alt": "Joomla drag and drop page builder - t4 page builder",
+            "width": 810,
+            "height": 620
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/responsive-joomla-template-framework-t4-framework.png",
+            "srcset": "",
+            "alt": "responsive joomla template framework - t4 framework",
+            "width": 850,
+            "height": 650
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/joomsocial-logo.png",
+            "srcset": "",
+            "alt": "The best Joomla community software",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/guru-logo.png",
+            "srcset": "",
+            "alt": "Joomla LMS extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/adagency-logo.png",
+            "srcset": "",
+            "alt": "Joomla advertising extension",
+            "width": 440,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/mark.jpg",
+            "srcset": "",
+            "alt": "Mark Lee",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/pete-bui.jpeg",
+            "srcset": "",
+            "alt": "Peter Bui",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/tessa-more.jpg",
+            "srcset": "",
+            "alt": "Tessa Mero",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://www.joomlart.com/images/joomlart/avatars/shyam-rbsl.jpg",
+            "srcset": "",
+            "alt": "Shyam",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Support.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Document.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 131,
+            "height": 150
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/joomlart/Update.svg",
+            "srcset": "",
+            "alt": "",
+            "width": 186,
+            "height": 150
+          },
+          {
+            "src": "https://www.joomlart.com/images/blog/the-best-joomla-page-builder-t4-page-builder.jpg#joomlaImage://local-images/blog/the-best-joomla-page-builder-t4-page-builder.jpg?width=1480&height=1230",
+            "srcset": "",
+            "alt": "T4 Page Builder 2.3.0 Released: Security Hardening and Admin Improvements",
+            "width": 1480,
+            "height": 1230
+          },
+          {
+            "src": "https://www.joomlart.com/images/stories/images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg#joomlaImage://local-images/blog/adagency-8/joomla-6-ready-ad-agency-pro-dashboard.jpg?width=900&height=622",
+            "srcset": "",
+            "alt": "Ad Agency Pro 8.0.0 Released: Fully Compatible with Joomla 6",
+            "width": 350,
+            "height": 182
+          },
+          {
+            "src": "https://www.joomlart.com/images/cover-recap-july.png",
+            "srcset": "",
+            "alt": "July 2026 Recap: 3 New Templates, Dark Mode for 10 More & Joomla MCP",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/joomlart.svg",
+            "srcset": "",
+            "alt": "JoomlArt Joomla template club",
+            "width": 300,
+            "height": 24
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/gavick.svg",
+            "srcset": "",
+            "alt": "Gavick Joomla template club",
+            "width": 300,
+            "height": 20
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/shape5.svg",
+            "srcset": "",
+            "alt": "shape5 Joomla template club",
+            "width": 300,
+            "height": 90
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/jomsocial.svg",
+            "srcset": "",
+            "alt": "jomsocial Extension Club",
+            "width": 300,
+            "height": 64
+          },
+          {
+            "src": "https://static.joomlart.com/ecosys/images/brands/logo/color/ijoomla.svg",
+            "srcset": "",
+            "alt": "ijoomla Extension Club",
+            "width": 300,
+            "height": 52
+          }
+        ],
+        "canvases": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Montserrat",
+      "weight": "400",
+      "style": "normal",
+      "file": "montserrat-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Montserrat-Regular.woff2",
+      "bytes": 28800
+    },
+    {
+      "family": "Montserrat",
+      "weight": "500",
+      "style": "normal",
+      "file": "montserrat-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Montserrat-Medium.woff2",
+      "bytes": 19272
+    },
+    {
+      "family": "Montserrat",
+      "weight": "600",
+      "style": "normal",
+      "file": "montserrat-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Montserrat-Semi-Bold.woff2",
+      "bytes": 19264
+    },
+    {
+      "family": "Montserrat",
+      "weight": "700",
+      "style": "normal",
+      "file": "montserrat-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Montserrat-Bold.woff2",
+      "bytes": 19480
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Roboto-Regular.woff2",
+      "bytes": 22376
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "file": "roboto-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Roboto-Medium.woff2",
+      "bytes": 15920
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "file": "roboto-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://cdn.gymshark.com/fonts/Roboto-Bold.woff2",
+      "bytes": 22564
+    },
+    {
+      "family": "digital-7_monomono",
+      "weight": "400",
+      "style": "normal",
+      "file": "digital-7-monomono-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://us.checkout.gymshark.com/cdn/shop/t/354/assets/digital-7_mono-webfont.woff2?v=174011228140714025901687860744",
+      "bytes": 6940
+    }
+  ]
+}
