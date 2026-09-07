@@ -1,0 +1,32 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "file": "inter-100-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://tracy.ai/wp-content/themes/tracy/assets/fonts/inter-variable.woff2",
+      "bytes": 73016
+    },
+    {
+      "family": "Archivo",
+      "weight": "100 900",
+      "style": "normal",
+      "file": "archivo-100-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://tracy.ai/wp-content/themes/tracy/assets/fonts/archivo-variable.woff2",
+      "bytes": 90096
+    },
+    {
+      "family": "Cardo",
+      "weight": "400",
+      "style": "normal",
+      "file": "cardo-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://tracy.ai/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2",
+      "bytes": 146060
+    }
+  ]
+}

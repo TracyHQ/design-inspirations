@@ -10,13 +10,13 @@
   "nav": "top-left",
   "hero": "centered",
   "source": {
-    "url": "https://www.joomlart.com/",
-    "finalUrl": "https://www.joomlart.com/",
-    "extractedAt": "2026-09-06T15:04:52.936Z",
+    "url": "https://joomlart.com/",
+    "finalUrl": "https://joomlart.com/",
+    "extractedAt": "2026-09-07T16:30:56.643Z",
     "thin": false,
     "blocked": false,
     "pages": true,
-    "recon": "done"
+    "recon": "skipped:no-browser"
   },
   "refined": [
     "font: \"Font Awesome 6 Free\" is an icon or code face → \"Inter\""

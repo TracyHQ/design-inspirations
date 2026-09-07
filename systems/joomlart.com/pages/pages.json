@@ -1,11 +1,11 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
-  "url": "https://www.joomlart.com/",
-  "crawledAt": "2026-09-06T15:02:50.985Z",
+  "url": "https://joomlart.com/",
+  "crawledAt": "2026-09-07T16:30:53.628Z",
   "truncated": true,
   "pages": [
     {
-      "url": "https://www.joomlart.com/",
+      "url": "https://joomlart.com/",
       "file": "pages/01-home.html",
       "title": "Responsive Joomla Templates and Premium Joomla templates club | JoomlArt",
       "h1": "Powerful tools, exceptional design — the all-in-one Joomla platform.",
@@ -53,8 +53,16 @@
       "status": 200
     },
     {
+      "url": "https://www.joomlart.com/",
+      "file": "pages/07-home.html",
+      "title": "Responsive Joomla Templates and Premium Joomla templates club | JoomlArt",
+      "h1": "Powerful tools, exceptional design — the all-in-one Joomla platform.",
+      "depth": 1,
+      "status": 200
+    },
+    {
       "url": "https://www.joomlart.com/joomla/templates/",
-      "file": "pages/07-joomla-templates.html",
+      "file": "pages/08-joomla-templates.html",
       "title": "200+ Professional Joomla Templates Collection | JoomlArt",
       "h1": "Joomla Templates",
       "depth": 1,
@@ -62,7 +70,7 @@
     },
     {
       "url": "https://www.joomlart.com/t4-builder/t4-joomla-page-builder",
-      "file": "pages/08-t4-builder-t4-joomla-page-builder.html",
+      "file": "pages/09-t4-builder-t4-joomla-page-builder.html",
       "title": "T4 Page Builder - The world's leading Joomla page builder | JoomlArt",
       "h1": "The World’s Leading Joomla Page Builder",
       "depth": 1,
@@ -70,7 +78,7 @@
     },
     {
       "url": "https://www.joomlart.com/joomla/extensions/",
-      "file": "pages/09-joomla-extensions.html",
+      "file": "pages/10-joomla-extensions.html",
       "title": "40+ Joomla Extensions to empower your Joomla websites | JoomlArt",
       "h1": "Joomla Extensions",
       "depth": 1,
@@ -78,7 +86,7 @@
     },
     {
       "url": "https://www.joomlart.com/t4-framework",
-      "file": "pages/10-t4-framework.html",
+      "file": "pages/11-t4-framework.html",
       "title": "T4 Framework - The best Joomla template framework | JoomlArt",
       "h1": "T4 Template Framework",
       "depth": 1,
@@ -86,7 +94,7 @@
     },
     {
       "url": "https://www.joomlart.com/joomla-status/",
-      "file": "pages/11-joomla-status.html",
+      "file": "pages/12-joomla-status.html",
       "title": "JoomlArt Product Update | Joomla 5 update status",
       "h1": "",
       "depth": 1,
@@ -94,7 +102,7 @@
     },
     {
       "url": "https://www.joomlart.com/video-tutorials/",
-      "file": "pages/12-video-tutorials.html",
+      "file": "pages/13-video-tutorials.html",
       "title": "Joomla video tutorialsJoomla video tutorials, Joomla 3 video tutorials | JoomlArt",
       "h1": "Video Tutorials",
       "depth": 1,
@@ -102,7 +110,7 @@
     },
     {
       "url": "https://www.joomlart.com/glossary-joomla/",
-      "file": "pages/13-glossary-joomla.html",
+      "file": "pages/14-glossary-joomla.html",
       "title": "Joomla Glossary | JoomlArt",
       "h1": "",
       "depth": 1,
@@ -110,7 +118,7 @@
     },
     {
       "url": "https://www.joomlart.com/joomlart/support-policy",
-      "file": "pages/14-joomlart-support-policy.html",
+      "file": "pages/15-joomlart-support-policy.html",
       "title": "Support Policy | JoomlArt",
       "h1": "Support Policy",
       "depth": 1,
@@ -118,7 +126,7 @@
     },
     {
       "url": "https://www.joomlart.com/blog/",
-      "file": "pages/15-blog.html",
+      "file": "pages/16-blog.html",
       "title": "Blog - Joomla & Magento Tutorials, Info, Discussion, Tips | JoomlArt",
       "h1": "JoomlArt's Blog",
       "depth": 1,
@@ -126,7 +134,7 @@
     },
     {
       "url": "https://www.joomlart.com/blog/joomla-templates/",
-      "file": "pages/16-blog-joomla-templates.html",
+      "file": "pages/17-blog-joomla-templates.html",
       "title": "Joomla template updates and Joomla tutorials | JoomlArt",
       "h1": "",
       "depth": 1,
@@ -134,7 +142,7 @@
     },
     {
       "url": "https://www.joomlart.com/blog/t4-framework/",
-      "file": "pages/17-blog-t4-framework.html",
+      "file": "pages/18-blog-t4-framework.html",
       "title": "Powerful and advanced Joomla template framework - T4 Joomla framework | JoomlArt",
       "h1": "",
       "depth": 1,
@@ -142,7 +150,7 @@
     },
     {
       "url": "https://www.joomlart.com/blog/t4-joomla-page-builder/",
-      "file": "pages/18-blog-t4-joomla-page-builder.html",
+      "file": "pages/19-blog-t4-joomla-page-builder.html",
       "title": "T4 Joomla Page Builder - The World's Leading Joomla Page Builder | JoomlArt",
       "h1": "",
       "depth": 1,
@@ -150,17 +158,9 @@
     },
     {
       "url": "https://www.joomlart.com/blog/geo/",
-      "file": "pages/19-blog-geo.html",
+      "file": "pages/20-blog-geo.html",
       "title": "GEO Blog – AI Visibility & Local SEO Insights for Agencies | JoomlArt",
       "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.joomlart.com/geo-report",
-      "file": "pages/20-geo-report.html",
-      "title": "Geo Report | JoomlArt",
-      "h1": "Your JoomlArt subscription now includes GeoReport",
       "depth": 1,
       "status": 200
     }

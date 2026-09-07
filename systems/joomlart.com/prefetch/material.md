@@ -1,4 +1,4 @@
-# Brand material — https://www.joomlart.com/
+# Brand material — https://joomlart.com/
 
 - site name: JoomlArt
 - title: Responsive Joomla Templates and Premium Joomla templates club | JoomlArt
@@ -59,11 +59,11 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 ## Logo candidates (downloaded into ./logos/)
 
-- logos/favicon-0.ico — favicon, 1150 bytes, from https://www.joomlart.com/templates/ja_v5/favicon.ico
-- logos/apple-touch-icon-1.png — apple-touch-icon, 2562 bytes, from https://www.joomlart.com/templates/ja_v5/apple-touch-icon.png
-- logos/favicon-2.png — favicon, 1056 bytes, from https://www.joomlart.com/templates/ja_v5/favicon-32x32.png
-- logos/favicon-3.png — favicon, 721 bytes, from https://www.joomlart.com/templates/ja_v5/favicon-16x16.png
-- logos/favicon-4.svg — favicon, 1164 bytes, from https://www.joomlart.com/templates/ja_v5/safari-pinned-tab.svg
+- logos/favicon-0.ico — favicon, 1150 bytes, from https://joomlart.com/templates/ja_v5/favicon.ico
+- logos/apple-touch-icon-1.png — apple-touch-icon, 2562 bytes, from https://joomlart.com/templates/ja_v5/apple-touch-icon.png
+- logos/favicon-2.png — favicon, 1056 bytes, from https://joomlart.com/templates/ja_v5/favicon-32x32.png
+- logos/favicon-3.png — favicon, 721 bytes, from https://joomlart.com/templates/ja_v5/favicon-16x16.png
+- logos/favicon-4.svg — favicon, 1164 bytes, from https://joomlart.com/templates/ja_v5/safari-pinned-tab.svg
 - logos/og-image-5.jpg — og-image, 199654 bytes, from https://static.joomlart.com/images/template-26/ja-voyara/feature/01-ja-voyara-homepage-layouts.jpg
 
 ## Copy harvested from the site (for voice & tone analysis)

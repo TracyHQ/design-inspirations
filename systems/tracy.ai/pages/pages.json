@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://tracy.ai/",
+  "crawledAt": "2026-09-07T02:53:48.142Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://tracy.ai/",
+      "file": "pages/01-home.html",
+      "title": "Tracy &#8211; AI workstation for website operations",
+      "h1": "One desk for every site you run.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/",
+      "file": "pages/02-skills.html",
+      "title": "Skills &#038; Bundles &#8211; Tracy",
+      "h1": "Claude Skills for the sites you run",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/mcp/",
+      "file": "pages/03-mcp.html",
+      "title": "MCP servers for the sites you run – Tracy",
+      "h1": "MCP servers for the sites you run",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/learn/",
+      "file": "pages/04-learn.html",
+      "title": "Learn &#8211; Tracy",
+      "h1": "Skills, MCP servers, and what actually connects them",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/pricing/",
+      "file": "pages/05-pricing.html",
+      "title": "Pricing &#8211; Tracy",
+      "h1": "Per person. Not per site.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/download/",
+      "file": "pages/06-download.html",
+      "title": "Download &#8211; Tracy",
+      "h1": "Get Tracy Desktop",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/joomla/",
+      "file": "pages/07-skills-joomla.html",
+      "title": "Joomla &#8211; Tracy",
+      "h1": "Run Joomla like the team that has run it for 20 years.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/wordpress/",
+      "file": "pages/08-skills-wordpress.html",
+      "title": "WordPress &#8211; Tracy",
+      "h1": "An operator for WordPress — not another plugin.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/woocommerce/",
+      "file": "pages/09-skills-woocommerce.html",
+      "title": "WooCommerce &#8211; Tracy",
+      "h1": "AI for your store that asks before it touches anything.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/shopify/",
+      "file": "pages/10-skills-shopify.html",
+      "title": "Shopify &#8211; Tracy",
+      "h1": "Your Shopify copilot — answering to you, not the platform.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/seo/",
+      "file": "pages/11-skills-seo.html",
+      "title": "SEO &#8211; Tracy",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skills/store/",
+      "file": "pages/12-skills-store.html",
+      "title": "Store &#8211; Tracy",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/mcp/wordpress/",
+      "file": "pages/13-mcp-wordpress.html",
+      "title": "MCP servers for WordPress plugins – Tracy",
+      "h1": "MCP servers for WordPress plugins",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/mcp/shopify/",
+      "file": "pages/14-mcp-shopify.html",
+      "title": "MCP servers for Shopify apps – Tracy",
+      "h1": "MCP servers for Shopify apps",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/mcp/joomla/",
+      "file": "pages/15-mcp-joomla.html",
+      "title": "MCP servers for Joomla extensions – Tracy",
+      "h1": "MCP servers for the sites you run",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/install/",
+      "file": "pages/16-install.html",
+      "title": "Install &#8211; Tracy",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skill/tracyhq-content-strategist/",
+      "file": "pages/17-skill-tracyhq-content-strategist.html",
+      "title": "content-strategist &#8211; Tracy",
+      "h1": "content-strategist",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skill/tracyhq-design-qa/",
+      "file": "pages/18-skill-tracyhq-design-qa.html",
+      "title": "design-qa &#8211; Tracy",
+      "h1": "design-qa",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skill/tracyhq-discoverability-engineer/",
+      "file": "pages/19-skill-tracyhq-discoverability-engineer.html",
+      "title": "discoverability-engineer &#8211; Tracy",
+      "h1": "discoverability-engineer",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://tracy.ai/skill/tracyhq-find-skills/",
+      "file": "pages/20-skill-tracyhq-find-skills.html",
+      "title": "find-skills &#8211; Tracy",
+      "h1": "find-skills",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}
