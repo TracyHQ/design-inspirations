@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://mozilla.org/",
+  "crawledAt": "2026-09-07T23:37:59.667Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://mozilla.org/",
+      "file": "pages/01-en-us.html",
+      "title": "Mozilla - Internet for people, not profit (US)",
+      "h1": "Welcome to Mozilla",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/privacy/websites/cookie-settings/",
+      "file": "pages/02-en-us-privacy-websites-cookie-settings.html",
+      "title": "Cookie settings — Mozilla",
+      "h1": "Cookie settings",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/",
+      "file": "pages/03-en-us.html",
+      "title": "Mozilla - Internet for people, not profit (US)",
+      "h1": "Welcome to Mozilla",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/products/",
+      "file": "pages/04-en-us-products.html",
+      "title": "Mozilla’s products — Mozilla (US) — Mozilla",
+      "h1": "Products",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/products/vpn/",
+      "file": "pages/05-en-us-products-vpn.html",
+      "title": "Get Mozilla VPN — Mozilla (US)",
+      "h1": "Powerful privacy for peace of mind",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/products/monitor/",
+      "file": "pages/06-en-us-products-monitor.html",
+      "title": "Mozilla Monitor",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/",
+      "file": "pages/07-en-us-about.html",
+      "title": "Learn about Mozilla",
+      "h1": "Guard the Open Internet",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/manifesto/",
+      "file": "pages/08-en-us-about-manifesto.html",
+      "title": "The Mozilla Manifesto",
+      "h1": "The Mozilla Manifesto",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/contribute/",
+      "file": "pages/09-en-us-contribute.html",
+      "title": "Volunteer Opportunities at Mozilla — Mozilla",
+      "h1": "Your talents are needed for a better internet",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/advertising/",
+      "file": "pages/10-en-us-advertising.html",
+      "title": "Advertising — Mozilla",
+      "h1": "Add trust to your ad buy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/privacy/websites/",
+      "file": "pages/11-en-us-privacy-websites.html",
+      "title": "Websites, Communications & Cookies Privacy Notice — Mozilla",
+      "h1": "Websites, Communications & Cookies Privacy Notice",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/leadership/",
+      "file": "pages/12-en-us-about-leadership.html",
+      "title": "Mozilla Leadership — Mozilla",
+      "h1": "Mozilla Leadership",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/careers/",
+      "file": "pages/13-en-us-careers.html",
+      "title": "Mozilla Careers — Feel good about your work again.",
+      "h1": "Feel good about your work",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/contact/",
+      "file": "pages/14-en-us-contact.html",
+      "title": "Contacts, Spaces and Communities — Contact us — Mozilla",
+      "h1": "Where is Mozilla?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/security/",
+      "file": "pages/15-en-us-security.html",
+      "title": "Mozilla Security",
+      "h1": "Mozilla Security",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/locales/",
+      "file": "pages/16-locales.html",
+      "title": "Choose your language or locale to browse Mozilla.org — Mozilla",
+      "h1": "Choose your language",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/foundation/licensing/website-content/",
+      "file": "pages/17-en-us-foundation-licensing-website-conte.html",
+      "title": "Mozilla.org Site Licensing Policies",
+      "h1": "Mozilla Foundation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/legal/",
+      "file": "pages/18-en-us-about-legal.html",
+      "title": "Legal — Mozilla",
+      "h1": "Legal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/governance/policies/participation/",
+      "file": "pages/19-en-us-about-governance-policies-particip.html",
+      "title": "Community Participation Guidelines — Mozilla",
+      "h1": "Mozilla Community Participation Guidelines",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/about/this-site/",
+      "file": "pages/20-en-us-about-this-site.html",
+      "title": "About this site — Mozilla",
+      "h1": "About this site",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

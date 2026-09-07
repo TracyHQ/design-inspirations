@@ -1,0 +1,97 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Mozilla Headline",
+      "weight": "400",
+      "style": "normal",
+      "file": "mozilla-headline-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-headline/MozillaHeadline-Regular.f0e5390a8c6a.woff2",
+      "bytes": 28536
+    },
+    {
+      "family": "Mozilla Headline",
+      "weight": "600",
+      "style": "normal",
+      "file": "mozilla-headline-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-headline/MozillaHeadline-SemiBold.bccc6c46c123.woff2",
+      "bytes": 28720
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "400",
+      "style": "normal",
+      "file": "mozilla-text-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-Regular.71c103450d6d.woff2",
+      "bytes": 26384
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "600",
+      "style": "normal",
+      "file": "mozilla-text-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-SemiBold.b126cc23eddf.woff2",
+      "bytes": 26344
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "600",
+      "style": "italic",
+      "file": "mozilla-text-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-SemiBoldItalic.191385119d88.woff2",
+      "bytes": 28208
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "700",
+      "style": "normal",
+      "file": "mozilla-text-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-Bold.4af7ce689fd6.woff2",
+      "bytes": 26444
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "400",
+      "style": "italic",
+      "file": "mozilla-text-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-Italic.d9950775be39.woff2",
+      "bytes": 28044
+    },
+    {
+      "family": "Mozilla Text",
+      "weight": "700",
+      "style": "italic",
+      "file": "mozilla-text-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-BoldItalic.b4bbc5d27cd4.woff2",
+      "bytes": 28300
+    },
+    {
+      "family": "Mozilla Headline",
+      "weight": "500",
+      "style": "normal",
+      "file": "mozilla-headline-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGY4z-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYTHDYMV0JlnG0VI.woff2",
+      "bytes": 10016,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Mozilla Headline",
+      "weight": "700",
+      "style": "normal",
+      "file": "mozilla-headline-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGY4z-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYTHDYMV0JlnG0VI.woff2",
+      "bytes": 10016,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    }
+  ]
+}

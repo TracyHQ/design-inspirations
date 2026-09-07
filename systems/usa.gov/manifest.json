@@ -1,0 +1,36 @@
+{
+  "id": "brand:usa.gov",
+  "host": "usa.gov",
+  "kind": "reference",
+  "slug": "usagov",
+  "name": "USAGov",
+  "category": "Reference",
+  "description": "Find government benefits, services, agencies, and information at USA.gov. Contact elected officials. Learn about passports, Social Security, taxes, and more.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://usa.gov/",
+    "finalUrl": "https://usa.gov/",
+    "extractedAt": "2026-09-07T23:38:54.867Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Making government services easier to find | USAGov\" → \"USAGov\" (from the shortest title segment)",
+    "accent: #1b1b1b has no hue → #1a4480 (most-used chromatic colour)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 20,
+    "fonts": 3,
+    "logos": 5,
+    "imagery": 8,
+    "fonts_files": 16,
+    "headings": 28,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

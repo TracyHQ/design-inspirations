@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://who.int/",
+  "crawledAt": "2026-09-07T23:39:54.697Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://who.int/",
+      "file": "pages/01-home.html",
+      "title": "World Health Organization (WHO)",
+      "h1": "Emergency guidance on use of licensed Ebola vaccine during current outbreak",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/",
+      "file": "pages/02-home.html",
+      "title": "World Health Organization (WHO)",
+      "h1": "Emergency guidance on use of licensed Ebola vaccine during current outbreak",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/southeastasia",
+      "file": "pages/03-southeastasia.html",
+      "title": "World Health Organization South-East Asia (WHO) - Home",
+      "h1": "Standing with Nepal through the floods",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/europe/",
+      "file": "pages/04-europe-home.html",
+      "title": "WHO/Europe | Home",
+      "h1": "Heatwaves",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/westernpacific/",
+      "file": "pages/05-westernpacific.html",
+      "title": "WHO Western Pacific | World Health Organization",
+      "h1": "World Suicide Prevention Day 2026",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics",
+      "file": "pages/06-health-topics.html",
+      "title": "Health topics",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/health-topics/",
+      "file": "pages/07-health-topics.html",
+      "title": "Health topics",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources",
+      "file": "pages/08-resources.html",
+      "title": "Resources",
+      "h1": "Resources",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/fact-sheets",
+      "file": "pages/09-news-room-fact-sheets.html",
+      "title": "Fact sheets",
+      "h1": "Fact sheets",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/facts-in-pictures",
+      "file": "pages/10-news-room-facts-in-pictures.html",
+      "title": "Facts in pictures",
+      "h1": "Facts in pictures",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/multimedia",
+      "file": "pages/11-multi-media.html",
+      "title": "Multimedia",
+      "h1": "Multimedia",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/podcasts",
+      "file": "pages/12-podcasts.html",
+      "title": "Podcasts",
+      "h1": "Podcasts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/publications",
+      "file": "pages/13-publications.html",
+      "title": "Publications",
+      "h1": "Publications",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/questions-and-answers",
+      "file": "pages/14-news-room-questions-and-answers.html",
+      "title": "Questions and answers",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/resources/tools-and-toolkits",
+      "file": "pages/15-tools.html",
+      "title": "Tools and toolkits | World Health Organization",
+      "h1": "Tools & toolkits",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/popular",
+      "file": "pages/16-health-topics.html",
+      "title": "Health topics",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/popular/dengue",
+      "file": "pages/17-news-room-fact-sheets-detail-dengue-and-.html",
+      "title": "Dengue",
+      "h1": "Dengue",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/popular/endometriosis",
+      "file": "pages/18-news-room-fact-sheets-detail-endometrios.html",
+      "title": "Endometriosis",
+      "h1": "Endometriosis",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/popular/excessive-heat",
+      "file": "pages/19-news-room-fact-sheets-detail-climate-cha.html",
+      "title": "Heat and health",
+      "h1": "Heat and health",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.who.int/mega-menu/health-topics/popular/herpes",
+      "file": "pages/20-news-room-fact-sheets-detail-herpes-simp.html",
+      "title": "Herpes simplex virus",
+      "h1": "Herpes simplex virus",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

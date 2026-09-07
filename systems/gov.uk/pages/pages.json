@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://gov.uk/",
+  "crawledAt": "2026-09-07T23:39:03.480Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://gov.uk/",
+      "file": "pages/01-home.html",
+      "title": "Welcome to GOV.UK",
+      "h1": "The best place to find government services and information",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/help/cookies",
+      "file": "pages/02-help-cookies.html",
+      "title": "Cookies on GOV.UK - GOV.UK",
+      "h1": "Cookies on GOV.UK",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/",
+      "file": "pages/03-home.html",
+      "title": "Welcome to GOV.UK",
+      "h1": "The best place to find government services and information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse",
+      "file": "pages/04-browse.html",
+      "title": "Services and information - GOV.UK",
+      "h1": "Services and information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/benefits",
+      "file": "pages/05-browse-benefits.html",
+      "title": "Benefits - GOV.UK",
+      "h1": "Benefits",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/births-deaths-marriages",
+      "file": "pages/06-browse-births-deaths-marriages.html",
+      "title": "Births, deaths, marriages and care - GOV.UK",
+      "h1": "Births, deaths, marriages and care",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/business",
+      "file": "pages/07-browse-business.html",
+      "title": "Business and self-employed - GOV.UK",
+      "h1": "Business and self-employed",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/childcare-parenting",
+      "file": "pages/08-browse-childcare-parenting.html",
+      "title": "Childcare and parenting - GOV.UK",
+      "h1": "Childcare and parenting",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/citizenship",
+      "file": "pages/09-browse-citizenship.html",
+      "title": "Citizenship and living in the UK - GOV.UK",
+      "h1": "Citizenship and living in the UK",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/justice",
+      "file": "pages/10-browse-justice.html",
+      "title": "Crime, justice and the law - GOV.UK",
+      "h1": "Crime, justice and the law",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/disabilities",
+      "file": "pages/11-browse-disabilities.html",
+      "title": "Disabled people - GOV.UK",
+      "h1": "Disabled people",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/driving",
+      "file": "pages/12-browse-driving.html",
+      "title": "Driving and transport - GOV.UK",
+      "h1": "Driving and transport",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/education",
+      "file": "pages/13-browse-education.html",
+      "title": "Education and learning - GOV.UK",
+      "h1": "Education and learning",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/employing-people",
+      "file": "pages/14-browse-employing-people.html",
+      "title": "Employing people - GOV.UK",
+      "h1": "Employing people",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/environment-countryside",
+      "file": "pages/15-browse-environment-countryside.html",
+      "title": "Environment and countryside - GOV.UK",
+      "h1": "Environment and countryside",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/housing-local-services",
+      "file": "pages/16-browse-housing-local-services.html",
+      "title": "Housing and local services - GOV.UK",
+      "h1": "Housing and local services",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/tax",
+      "file": "pages/17-browse-tax.html",
+      "title": "Money and tax - GOV.UK",
+      "h1": "Money and tax",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/abroad",
+      "file": "pages/18-browse-abroad.html",
+      "title": "Passports, travel and living abroad - GOV.UK",
+      "h1": "Passports, travel and living abroad",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/visas-immigration",
+      "file": "pages/19-browse-visas-immigration.html",
+      "title": "Visas and immigration - GOV.UK",
+      "h1": "Visas and immigration",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gov.uk/browse/working",
+      "file": "pages/20-browse-working.html",
+      "title": "Working, jobs and pensions - GOV.UK",
+      "h1": "Working, jobs and pensions",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

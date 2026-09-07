@@ -1,0 +1,149 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "300",
+      "style": "normal",
+      "file": "source-sans-pro-web-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-light-webfont.woff2",
+      "bytes": 20412
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "source-sans-pro-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2",
+      "bytes": 20540
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "600",
+      "style": "normal",
+      "file": "source-sans-pro-web-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2",
+      "bytes": 20500
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "700",
+      "style": "normal",
+      "file": "source-sans-pro-web-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2",
+      "bytes": 20368
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "300",
+      "style": "italic",
+      "file": "source-sans-pro-web-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-lightitalic-webfont.woff2",
+      "bytes": 16316
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "400",
+      "style": "italic",
+      "file": "source-sans-pro-web-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2",
+      "bytes": 16372
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "600",
+      "style": "italic",
+      "file": "source-sans-pro-web-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-semibolditalic-webfont.woff2",
+      "bytes": 16404
+    },
+    {
+      "family": "Source Sans Pro Web",
+      "weight": "700",
+      "style": "italic",
+      "file": "source-sans-pro-web-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/source-sans-pro/sourcesanspro-bolditalic-webfont.woff2",
+      "bytes": 16416
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "300",
+      "style": "normal",
+      "file": "merriweather-web-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-Light.woff2",
+      "bytes": 21260
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "merriweather-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-Regular.woff2",
+      "bytes": 21692
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "700",
+      "style": "normal",
+      "file": "merriweather-web-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-Bold.woff2",
+      "bytes": 21308
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "300",
+      "style": "italic",
+      "file": "merriweather-web-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-LightItalic.woff2",
+      "bytes": 18976
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "400",
+      "style": "italic",
+      "file": "merriweather-web-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-Italic.woff2",
+      "bytes": 19252
+    },
+    {
+      "family": "Merriweather Web",
+      "weight": "700",
+      "style": "italic",
+      "file": "merriweather-web-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/merriweather/Latin-Merriweather-BoldItalic.woff2",
+      "bytes": 19568
+    },
+    {
+      "family": "Roboto Mono Web",
+      "weight": "300",
+      "style": "normal",
+      "file": "roboto-mono-web-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/roboto-mono/roboto-mono-v5-latin-300.woff2",
+      "bytes": 16380
+    },
+    {
+      "family": "Roboto Mono Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-mono-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://usa.gov/themes/custom/usagov/fonts/roboto-mono/roboto-mono-v5-latin-regular.woff2",
+      "bytes": 16028
+    }
+  ]
+}

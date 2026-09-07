@@ -1,0 +1,36 @@
+{
+  "id": "brand:worldbank.org",
+  "host": "worldbank.org",
+  "kind": "reference",
+  "slug": "world-bank-group",
+  "name": "World Bank Group",
+  "category": "Reference",
+  "description": "With 189 member countries, the World Bank Group is a unique global partnership fighting poverty worldwide through sustainable solutions.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://worldbank.org/",
+    "finalUrl": "https://worldbank.org/",
+    "extractedAt": "2026-09-07T23:40:10.622Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"World Bank Group - International Development, Poverty and Sustainability\" → \"World Bank Group\" (from the shortest title segment)",
+    "fonts: 4 faces self-hosted from Google Fonts (Open Sans)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 4,
+    "logos": 2,
+    "imagery": 0,
+    "fonts_files": 4,
+    "headings": 10,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

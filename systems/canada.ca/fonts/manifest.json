@@ -1,0 +1,105 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "italic",
+      "file": "lato-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v22/S6u8w4BMUTPHjxsAUi-qJCY.woff2",
+      "bytes": 5600,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "italic",
+      "file": "lato-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v22/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2",
+      "bytes": 5616,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "normal",
+      "file": "lato-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjxAwXjeu.woff2",
+      "bytes": 5472,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "normal",
+      "file": "lato-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lato/v22/S6u9w4BMUTPHh6UVSwaPGR_p.woff2",
+      "bytes": 5368,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "400",
+      "style": "italic",
+      "file": "noto-sans-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosans/v25/o-0OIpQlx3QUlC5A4PNr4ARMQ_m87A.woff2",
+      "bytes": 28396,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "700",
+      "style": "italic",
+      "file": "noto-sans-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosans/v25/o-0TIpQlx3QUlC5A4PNr4Az5ZuyNzW1aPQ.woff2",
+      "bytes": 30084,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "400",
+      "style": "normal",
+      "file": "noto-sans-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosans/v25/o-0IIpQlx3QUlC5A4PNr6zRAW_0.woff2",
+      "bytes": 32504,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "700",
+      "style": "normal",
+      "file": "noto-sans-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosans/v25/o-0NIpQlx3QUlC5A4PNjXhFVatyB1Wk.woff2",
+      "bytes": 32876,
+      "unicodeRange": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
+    },
+    {
+      "family": "Noto Sans Canadian Aboriginal",
+      "weight": "400",
+      "style": "normal",
+      "file": "noto-sans-canadian-aboriginal-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanscanadianaboriginal/v28/4C_gLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlx15whAXAg.woff2",
+      "bytes": 66676,
+      "unicodeRange": "U+1400-167F,U+18B0-18FF,U+11AB0-11ABF"
+    },
+    {
+      "family": "Noto Sans Canadian Aboriginal",
+      "weight": "700",
+      "style": "normal",
+      "file": "noto-sans-canadian-aboriginal-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanscanadianaboriginal/v28/4C_gLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlx15whAXAg.woff2",
+      "bytes": 66676,
+      "unicodeRange": "U+1400-167F,U+18B0-18FF,U+11AB0-11ABF"
+    }
+  ]
+}

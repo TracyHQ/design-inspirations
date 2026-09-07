@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://worldbank.org/",
+  "crawledAt": "2026-09-07T23:40:02.563Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://worldbank.org/",
+      "file": "pages/01-ext-en-home.html",
+      "title": "World Bank Group - International Development, Poverty and Sustainability",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/news/feature/2026/09/03/preparing-better-for-monsoons-lessons-from-the-2025-flash-floods-in-pakistan",
+      "file": "pages/02-en-news-feature-2026-09-03-preparing-bet.html",
+      "title": "Preparing Better for Monsoons: Lessons from the 2025 Flash Floods in Pakistan",
+      "h1": "Story Highlights",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/news/feature/2026/08/27/small-ai-transforms-farming-in-india",
+      "file": "pages/03-en-news-feature-2026-08-27-small-ai-tran.html",
+      "title": "Small AI Transforms Farming in India",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/jobs",
+      "file": "pages/04-ext-en-jobs.html",
+      "title": "Creating Jobs for a Better Future | World Bank Group",
+      "h1": "Jobs create dignity hope resilience futures",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/energizingafrica",
+      "file": "pages/05-ext-en-energizingafrica.html",
+      "title": "Mission 300 | Electricity to Power Africa and its Economy",
+      "h1": "Electricity is health education dignity jobs power",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/health-works",
+      "file": "pages/06-ext-en-health-works.html",
+      "title": "Health Works: Quality, Affordable Health Care by 2030 | World Bank Group",
+      "h1": "When health works, economies women children workers thrive",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/agriconnect",
+      "file": "pages/07-ext-en-agriconnect.html",
+      "title": "AgriConnect: Agribusiness, Jobs &#x26; Subsistence Farming",
+      "h1": "AgriConnect generates more food jobs growth stability",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/gender",
+      "file": "pages/08-ext-en-gender.html",
+      "title": "Unlocking Women’s Economic Potential | World Bank Group",
+      "h1": "Unlocking women’s potential strengthens families communities businesses nations economies",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/water",
+      "file": "pages/09-ext-en-water.html",
+      "title": "Water Forward: Driving Jobs and Prosperity",
+      "h1": "It’s time to put Water Forward. Water for People Food The Planet",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/research",
+      "file": "pages/10-en-research.html",
+      "title": "Research | World Bank",
+      "h1": "Research and Publications",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/publication/wdr2026",
+      "file": "pages/11-en-publication-wdr2026.html",
+      "title": "WDR 2026: The Promise of Artificial Intelligence",
+      "h1": "World Development Report 2026",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+      "file": "pages/12-en-publication-global-economic-prospects.html",
+      "title": "Global Economic Prospects",
+      "h1": "Global Economic Prospects",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/results/2026/07/21/growing-jobs-protecting-forests-a-decade-of-transformational-change-in-the-amazon",
+      "file": "pages/13-en-results-2026-07-21-growing-jobs-prote.html",
+      "title": "Growing Jobs, Protecting Forests: A Decade of Transformational Change in the Amazon",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/results/2026/06/30/from-classrooms-to-careers-guyana-s-youth-gain-skills-for-real-jobs-in-growing-ind",
+      "file": "pages/14-en-results-2026-06-30-from-classrooms-to.html",
+      "title": "From Classrooms to Careers: Guyana’s Youth Gain Skills for Real Jobs in Growing Industries",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/results/2026/07/02/artificial-intelligence-in-action-in-latin-america-s-schools-evidence-from-peru",
+      "file": "pages/15-en-results-2026-07-02-artificial-intelli.html",
+      "title": "La inteligencia artificial en acción en las escuelas de América Latina: evidencia de Perú",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/work-with-us/partnerships",
+      "file": "pages/16-ext-en-work-with-us-partnerships.html",
+      "title": "Partnerships | World Bank Group",
+      "h1": "Partnerships",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/what-we-do/project-procurement",
+      "file": "pages/17-ext-en-what-we-do-project-procurement.html",
+      "title": "Project Procurement | World Bank Group",
+      "h1": "Project Procurement",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/home",
+      "file": "pages/18-ext-en-home.html",
+      "title": "World Bank Group - International Development, Poverty and Sustainability",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/ext/en/news",
+      "file": "pages/19-ext-en-news.html",
+      "title": "News | World Bank Group",
+      "h1": "News",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.worldbank.org/en/news/feature",
+      "file": "pages/20-en-news-feature.html",
+      "title": "Feature Stories | World Bank Group",
+      "h1": "Feature Stories",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

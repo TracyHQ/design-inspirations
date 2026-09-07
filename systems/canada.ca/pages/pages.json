@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://canada.ca/",
+  "crawledAt": "2026-09-07T23:39:48.543Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://canada.ca/",
+      "file": "pages/01-home.html",
+      "title": "Canada.ca",
+      "h1": "Canada.ca",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "file": "pages/02-en.html",
+      "title": "Home - Canada.ca",
+      "h1": "Canada.ca",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/fr.html",
+      "file": "pages/03-fr.html",
+      "title": "Accueil - Canada.ca",
+      "h1": "Canada.ca",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "file": "pages/04-en-transparency-terms.html",
+      "title": "Terms and conditions - Canada.ca",
+      "h1": "Terms and conditions",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/fr/transparence/avis.html",
+      "file": "pages/05-fr-transparence-avis.html",
+      "title": "Avis - Canada.ca",
+      "h1": "Avis",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "file": "pages/06-en-services-jobs.html",
+      "title": "Jobs - Canada.ca",
+      "h1": "Jobs",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "file": "pages/07-en-services-immigration-citizenship.html",
+      "title": "Immigration and citizenship - Canada.ca",
+      "h1": "Immigration and citizenship",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "file": "pages/08-en-services-business.html",
+      "title": "Business and industry - Canada.ca",
+      "h1": "Business and industry",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "file": "pages/09-en-services-benefits.html",
+      "title": "Benefits - Canada.ca",
+      "h1": "Benefits",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "file": "pages/10-en-services-health.html",
+      "title": "Health - Canada.ca",
+      "h1": "Health",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "file": "pages/11-en-services-taxes.html",
+      "title": "Taxes - Canada.ca",
+      "h1": "Taxes",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "file": "pages/12-en-services-environment.html",
+      "title": "Environment and natural resources - Canada.ca",
+      "h1": "Environment and natural resources",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "file": "pages/13-en-services-defence.html",
+      "title": "National security and defence - Canada.ca",
+      "h1": "National security and defence",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "file": "pages/14-en-services-culture.html",
+      "title": "Culture, history and sport - Canada.ca",
+      "h1": "Culture, history and sport",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "file": "pages/15-en-services-policing.html",
+      "title": "Policing, justice and emergencies - Canada.ca",
+      "h1": "Policing, justice and emergencies",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "file": "pages/16-en-services-transport.html",
+      "title": "Transport and infrastructure - Canada.ca",
+      "h1": "Transport and infrastructure",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "file": "pages/17-en-services-finance.html",
+      "title": "Money and finances - Canada.ca",
+      "h1": "Money and finances",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "file": "pages/18-en-services-science.html",
+      "title": "Science and innovation - Canada.ca",
+      "h1": "Science and innovation",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/services/life-events.html",
+      "file": "pages/19-en-services-life-events.html",
+      "title": "Manage life events - Canada.ca",
+      "h1": "Manage life events",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.canada.ca/en/government/sign-in-online-account.html",
+      "file": "pages/20-en-government-sign-in-online-account.html",
+      "title": "Sign in to a Government of Canada online account - Canada.ca",
+      "h1": "Sign in to a Government of Canada online account",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

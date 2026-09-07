@@ -1,0 +1,33 @@
+{
+  "id": "brand:who.int",
+  "host": "who.int",
+  "kind": "reference",
+  "slug": "world-health-organization-who",
+  "name": "World Health Organization (WHO)",
+  "category": "Reference",
+  "description": "The United Nations agency working to promote health, keep the world safe and serve the vulnerable.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://who.int/",
+    "finalUrl": "https://who.int/",
+    "extractedAt": "2026-09-07T23:39:58.317Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 27,
+    "fonts": 9,
+    "logos": 5,
+    "imagery": 8,
+    "fonts_files": 3,
+    "headings": 32,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}
