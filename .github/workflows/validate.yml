@@ -1,0 +1,22 @@
+# Three checks, in the order that makes a failure readable: is every entry whole, is the generated
+# index what `systems/` says it should be, and is Tracy's own prose English. The language gate runs
+# LAST, after the index is built, because a generated file is exactly the kind that escapes a gate
+# placed before the thing that writes it.
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate.mjs
+      - run: node scripts/build-catalog.mjs --check
+      - run: node scripts/check-language.mjs

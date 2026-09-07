@@ -1,0 +1,5 @@
+# An extraction still running, and the folder it steps aside into.
+systems/.deep/
+systems/*.quick/
+node_modules/
+.DS_Store

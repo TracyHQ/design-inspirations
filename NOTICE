@@ -1,0 +1,18 @@
+Design inspirations
+===================
+
+Produced by Tracy's brand engine (https://tracy.ai) from public web pages. Each folder under
+`systems/` is one hostname, measured once and re-measured when someone asks for it again.
+
+Two licences, and the line between them is who made the file:
+
+  · Tracy's measurements and everything derived from them  — CC BY 4.0, see LICENSE-DATA
+  · The code in scripts/ and .github/                      — MIT, see LICENSE
+  · Files downloaded from the sites themselves             — NOT Tracy's, no licence granted:
+      systems/<host>/logos/    systems/<host>/imagery/
+      systems/<host>/fonts/    systems/<host>/pages/
+
+Trade marks, brand names, logos and page content belong to their owners. Listing a site here is
+neither a claim over its brand nor a sign of any relationship with it.
+
+To have an entry removed, open an issue naming the host. No reason is needed.

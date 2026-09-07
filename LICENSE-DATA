@@ -1,0 +1,41 @@
+# Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Tracy
+
+## What this covers
+
+Tracy's own contribution to the data in this repository:
+
+- `catalog.json` — the index, and every classification in it
+- Within `systems/<host>/`: `manifest.json`, `brand.json`, `DESIGN.md`, `tokens.css`,
+  `components.html`, `slots.json`, `artifact-slots.json`, `artifact-slots/`, `system/`, and
+  `prefetch/material.md`
+
+Those files are measurements of a public page and the design system derived from them. They are
+Tracy's work, and this licence is Tracy's grant over that work: use them, change them, build on
+them, commercially or not, as long as Tracy is credited.
+
+## What this does NOT cover
+
+Files under `systems/<host>/logos/`, `imagery/`, `fonts/` and `pages/` were **downloaded from the
+site named by the folder**. They are not Tracy's work and Tracy grants no licence over them. They
+are kept because a measurement you cannot check against its source is not a measurement.
+
+Trade marks, brand names, logos, photographs, typefaces and page content belong to their owners.
+Nothing here is a claim of ownership, a licence to use someone's brand, or a sign of any
+relationship with or endorsement by the sites listed.
+
+A typeface file in `fonts/` carries its own licence from whoever published it. Most are Google
+Fonts under the SIL Open Font Licence; some are not. Check before redistributing one.
+
+## Attribution
+
+"Design inspirations by Tracy — https://github.com/TracyHQ/design-inspirations", with a link to
+this repository, satisfies the attribution requirement.
+
+## Removal
+
+If you speak for a site listed here and want its folder gone, open an issue naming the host. It is
+removed and not re-published. No reason is needed.
+
+The full licence text is at https://creativecommons.org/licenses/by/4.0/legalcode
