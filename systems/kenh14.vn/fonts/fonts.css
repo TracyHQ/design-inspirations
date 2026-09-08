@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "SFD-Bold";
+  src: url("./sfd-bold-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SFD-Medium";
+  src: url("./sfd-medium-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SFD-SemiBold";
+  src: url("./sfd-semibold-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SFD-Heavy";
+  src: url("./sfd-heavy-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SFD-Light";
+  src: url("./sfd-light-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

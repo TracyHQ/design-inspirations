@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://sqlite.org/",
+  "crawledAt": "2026-09-07T23:53:42.485Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://sqlite.org/",
+      "file": "pages/01-home.html",
+      "title": "SQLite Home Page",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/index.html",
+      "file": "pages/02-index.html",
+      "title": "SQLite Home Page",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/about.html",
+      "file": "pages/03-about.html",
+      "title": "About SQLite",
+      "h1": "About SQLite",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/docs.html",
+      "file": "pages/04-docs.html",
+      "title": "SQLite Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/download.html",
+      "file": "pages/05-download.html",
+      "title": "SQLite Download Page",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/copyright.html",
+      "file": "pages/06-copyright.html",
+      "title": "SQLite Copyright",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/support.html",
+      "file": "pages/07-support.html",
+      "title": "SQLite Support Options",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/prosupport.html",
+      "file": "pages/08-prosupport.html",
+      "title": "SQLite Pro Support",
+      "h1": "Professional Support & Extension Products",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/features.html",
+      "file": "pages/09-features.html",
+      "title": "Features Of SQLite",
+      "h1": "Features Of SQLite",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/whentouse.html",
+      "file": "pages/10-whentouse.html",
+      "title": "Appropriate Uses For SQLite",
+      "h1": "1. Situations Where SQLite Works Well",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/quickstart.html",
+      "file": "pages/11-quickstart.html",
+      "title": "SQLite In 5 Minutes Or Less",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/fiddle",
+      "file": "pages/12-fiddle-index.html",
+      "title": "SQLite3 Fiddle",
+      "h1": "About SQLite Fiddle close",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/lang.html",
+      "file": "pages/13-lang.html",
+      "title": "Query Language Understood by SQLite",
+      "h1": "SQL As Understood By SQLite",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/pragma.html",
+      "file": "pages/14-pragma.html",
+      "title": "Pragma statements supported by SQLite",
+      "h1": "PRAGMA Statements",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/lang_corefunc.html",
+      "file": "pages/15-lang-corefunc.html",
+      "title": "Built-In Scalar SQL Functions",
+      "h1": "1. Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/lang_datefunc.html",
+      "file": "pages/16-lang-datefunc.html",
+      "title": "Date And Time Functions",
+      "h1": "1. Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/lang_aggfunc.html",
+      "file": "pages/17-lang-aggfunc.html",
+      "title": "Built-in Aggregate Functions",
+      "h1": "1. Syntax",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/windowfunctions.html",
+      "file": "pages/18-windowfunctions.html",
+      "title": "Window Functions",
+      "h1": "1. Introduction to Window Functions",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/lang_mathfunc.html",
+      "file": "pages/19-lang-mathfunc.html",
+      "title": "Built-In Mathematical SQL Functions",
+      "h1": "1. Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://sqlite.org/json1.html",
+      "file": "pages/20-json1.html",
+      "title": "JSON Functions And Operators",
+      "h1": "1. Overview",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

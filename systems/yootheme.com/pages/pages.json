@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://yootheme.com/",
+  "crawledAt": "2026-09-07T23:58:38.493Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://yootheme.com/",
+      "file": "pages/01-home.html",
+      "title": "YOOtheme Pro: The ultimate website builder for WordPress and Joomla",
+      "h1": "The website builder for Joomla and WordPress",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/features",
+      "file": "pages/02-features.html",
+      "title": "YOOtheme Pro features",
+      "h1": "Features",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/joomla-templates",
+      "file": "pages/03-joomla-templates.html",
+      "title": "Premium Joomla templates - YOOtheme",
+      "h1": "Premium Joomla templates",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/wordpress-themes",
+      "file": "pages/04-wordpress-themes.html",
+      "title": "Premium WordPress themes - YOOtheme",
+      "h1": "Premium WordPress themes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/updates",
+      "file": "pages/05-updates.html",
+      "title": "Latest YOOtheme Pro updates",
+      "h1": "Updates",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/widgetkit",
+      "file": "pages/06-widgetkit.html",
+      "title": "Widgetkit: Joomla and WordPress Gallery and Slider - YOOtheme",
+      "h1": "Widgetkit",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/zoo",
+      "file": "pages/07-zoo.html",
+      "title": "ZOO: Joomla CCK and Content Builder - YOOtheme",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/blog/2026/01/13/yootheme-pro-5.0-cookie-consent-manager-date-filter-and-on-click-loading-videos",
+      "file": "pages/08-blog-2026-01-13-yootheme-pro-5-0-cookie-.html",
+      "title": "YOOtheme Pro 5 – Cookie Consent Manager, Date Filter and On-Click Loading Videos - YOOtheme",
+      "h1": "YOOtheme Pro 5 – Cookie Consent Manager, Date Filter and On-Click Loading Videos",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/extensions",
+      "file": "pages/09-extensions.html",
+      "title": "Third-Party Extensions for YOOtheme Pro",
+      "h1": "Community extensions",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/experts",
+      "file": "pages/10-experts.html",
+      "title": "Hire an Independent YOOtheme Expert",
+      "h1": "Independent YOOtheme experts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/support",
+      "file": "pages/11-support.html",
+      "title": "YOOtheme Support",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/docs/joomla/introduction",
+      "file": "pages/12-docs-joomla-introduction.html",
+      "title": "Introduction - YOOtheme Pro Joomla Documentation",
+      "h1": "Introduction",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/help-videos",
+      "file": "pages/13-help-videos.html",
+      "title": "YOOtheme Pro Help Videos",
+      "h1": "Help Videos",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/changelog",
+      "file": "pages/14-changelog.html",
+      "title": "YOOtheme Pro Changelog",
+      "h1": "YOOtheme Pro Changelog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/support/question/103519",
+      "file": "pages/15-support-question-103519.html",
+      "title": "🚀 Roadmap for YOOtheme Pro - YOOtheme Support",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/wallpapers",
+      "file": "pages/16-wallpapers.html",
+      "title": "Get a YOOtheme wallpaper for your screen",
+      "h1": "YOOtheme wallpapers",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/hosting",
+      "file": "pages/17-hosting.html",
+      "title": "Recommended Joomla and WordPress Hosting",
+      "h1": "Recommended hosting",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/about",
+      "file": "pages/18-about.html",
+      "title": "About YOOtheme",
+      "h1": "About Us",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/careers",
+      "file": "pages/19-careers.html",
+      "title": "Careers at YOOtheme",
+      "h1": "Open Job Positions",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://yootheme.com/blog/2026/01/23/2022-2025-in-review-check-out-all-the-yootheme-highlights",
+      "file": "pages/20-blog-2026-01-23-2022-2025-in-review-chec.html",
+      "title": "2022-2025 in Review – Check Out All the YOOtheme Highlights - YOOtheme",
+      "h1": "2022-2025 in Review – Check Out All the YOOtheme Highlights",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>PostgreSQL: PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/xhtml; charset=utf-8" />
+   
+  <meta name="theme-color" content="#336791"/>
+  <meta name="copyright" content="The PostgreSQL Global Development Group" />
+  <meta property="og:url" content="https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/" />
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="PostgreSQL Global Development Group" />
+  <meta property="article:published_time" content="2026-08-13T00:00:00" />
+  <meta property="og:image" content="https://www.postgresql.org/media/img/about/press/elephant.png" />
+  <meta property="og:title" content="PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!" />
+  <meta property="og:description" content="The PostgreSQL Global Development Group has released an update to all supported versions of PostgreSQL, including 18.6, 17.11, 16.15, 15.19, …" />
+  <meta property="og:site_name" content="PostgreSQL News" />
+  <link href="/media/css/fontawesome.css?e5c079de" rel="stylesheet">
+  <link rel="stylesheet" href="/media/css/bootstrap-4.4.1.min.css">
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="All PostgreSQL News" href="/news.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Community" href="/news/community.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Community Conferences" href="/news/conferences.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Other Conferences" href="/news/otherconferences.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about PostgreSQL Project" href="/news/pgsql.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Related Proprietary" href="/news/proprietary.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about PWN" href="/news/pwn.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Related Open Source" href="/news/related.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Security" href="/news/security.rss" />
+  
+    <link rel="alternate" type="application/rss+xml" title="PostgreSQL News about Usergroups" href="/news/usergroups.rss" />
+  
+  <link rel="alternate" type="application/rss+xml" title="PostgreSQL Events" href="/events.rss" />
+  
+  <link rel="stylesheet" type="text/css" href="/dyncss/base.css?e5c079de">
+
+  <script type="text/od-defused-script" src="/media/js/theme.js?e5c079de"></script>
+
+  
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col">
+          <!-- Header -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand p-0" href="/">
+              <img class="logo" src="/media/img/about/press/elephant.png" alt="PostgreSQL Elephant Logo">
+            </a>
+            <input type="checkbox" id="navbar-toggler" aria-controls="pgNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <label for="navbar-toggler" id="navbar-toggler-label" class="navbar-toggler" tabindex="0"><span class="navbar-toggler-icon"></span></label>
+            <div class="navbar-collapse" id="pgNavbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item p-2"><a href="/" title="Home">Home</a></li>
+                <li class="nav-item p-2"><a href="/about/" title="About">About</a></li>
+                <li class="nav-item p-2"><a href="/download/" title="Download">Download</a></li>
+                <li class="nav-item p-2"><a href="/docs/" title="Documentation">Documentation</a></li>
+                <li class="nav-item p-2"><a href="/community/" title="Community">Community</a></li>
+                <li class="nav-item p-2"><a href="/developer/" title="Developers">Developers</a></li>
+                <li class="nav-item p-2"><a href="/support/" title="Support">Support</a></li>
+                <li class="nav-item p-2"><a href="/about/donate/" title="Donate">Donate</a></li>
+                <li class="nav-item p-2"><a href="/account/" title="Your account">Your account</a></li>
+              </ul>
+              <form role="search" method="get" action="/search/">
+                <div class="input-group">
+                  <input id="q" name="q" type="text" size="20" maxlength="255" accesskey="s"  class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                  </span>
+                </div><!-- /input-group -->
+              </form>
+              <form id="form-theme" class="form-inline d-none">
+                <button id="btn-theme" class="btn btn-default ml-1" type="button"></button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row justify-content-center pg-shout-box">
+        <div class="col text-white text-center">August 13, 2026: <a href="/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/">PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!</a>
+
+</div>
+      </div>
+    </div>
+    
+<div class="container-fluid margin">
+  <div class="row">
+    <div class="col-lg-2">
+      <div id="pgSideWrap">
+       
+       <div id="pgSideNav">
+         <h2>Quick Links</h2>
+
+         <ul>
+           
+           
+           <li><a href="/about/">About</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/governance/">Governance</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/policies/">Policies</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/featurematrix/">Feature Matrix</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/donate/">Donate</a>
+            
+            
+           
+           </li>
+           <li><a href="/docs/current/history.html">History</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/sponsors/">Sponsors</a>
+            
+             <ul>
+             
+              <li><a href="/about/contributing/">Contributing</a></li>
+             
+              <li><a href="/about/financial/">Financial</a></li>
+             
+              <li class="last-child"><a href="/about/servers/">Servers</a></li>
+             
+             </ul>
+            
+            
+           
+           </li>
+           <li><a href="/about/newsarchive/">Latest News</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/events/">Upcoming Events</a>
+            
+             <ul>
+             
+              <li class="last-child"><a href="/about/eventarchive/">Past events</a></li>
+             
+             </ul>
+            
+            
+           
+           </li>
+           <li><a href="/about/press/">Press</a>
+            
+            
+           
+           </li>
+           <li class="last-child"><a href="/about/licence/">Licence</a>
+            
+            
+           </li>
+            
+           
+        </ul>
+
+       </div>
+       
+      </div> <!-- pgSideWrap -->
+    </div>
+    <div class="col-lg-10">
+      <div id="pgContentWrap">
+        
+<h1>PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!</h1>
+<div class="newsdate">Posted on <strong>2026-08-13</strong> by PostgreSQL Global Development Group</div>
+<div class="newstags newsdate">
+<span class="badge badge-pill badge-secondary"><i class="fa fa-tag"></i> PostgreSQL Project</span>
+
+<span class="badge badge-pill badge-secondary"><i class="fa fa-tag"></i> Security</span>
+
+</div>
+
+<p>The PostgreSQL Global Development Group has released an update to all
+supported versions of PostgreSQL, including 18.6, 17.11, 16.15, 15.19, and 14.24,
+as well as the third beta release of PostgreSQL 19. This release fixes 28
+security vulnerabilities and over 110 bugs reported over the last several
+months.</p>
+<p>This release skips PostgreSQL 18 versions from PostgreSQL 18.4 to 18.6.
+18.5 was not shipped due to a regression.</p>
+<p>There are three issues that may require you to take extra steps after updating,
+which are described in detail below. These issues are related to:</p>
+<ul>
+<li>Parallel GIN index builds</li>
+<li><a href="https://www.postgresql.org/docs/current/btree-gist.html"><code>btree_gist</code></a></li>
+<li><a href="https://www.postgresql.org/docs/current/ltree.html"><code>ltree</code></a></li>
+</ul>
+<p>For the full list of changes, please review the <a href="https://www.postgresql.org/docs/release/">release
+notes</a>.</p>
+<h2>PostgreSQL 14 EOL Notice</h2>
+<p>PostgreSQL 14 will stop receiving fixes on November 12, 2026. If you are
+running PostgreSQL 14 in a production environment, we suggest that you make
+plans to upgrade to a newer, supported version of PostgreSQL. Please see our
+<a href="https://www.postgresql.org/support/versioning/">versioning policy</a> for more
+information.</p>
+<h2>Security Issues</h2>
+<p>The following security vulnerabilities are closed across in this update release.
+You can find more details about the vulnerabilities and their affected versions
+in the links below:</p>
+<ul>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-6464/">CVE-2026-6464</a>: psql COPY FROM STDIN early failure processes data lines as psql commands (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H">8.1</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-6469/">CVE-2026-6469</a>: ALTER TABLE ALTER TYPE resets extended statistics ownership (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L">3.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-6470/">CVE-2026-6470</a>: Fails to check type USAGE privilege (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L">4.3</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-6471/">CVE-2026-6471</a>: Logical decoding can dlopen arbitrary file (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H">7.2</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14662/">CVE-2026-14662</a>: tsvector and tsquery undersize allocations, via integer wraparound (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14663/">CVE-2026-14663</a>: pgcrypto, for OpenSSL-disabled ciphers, silently encrypts to and decrypts from cleartext (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N">6.5</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14664/">CVE-2026-14664</a>: Regexp heap buffer overflow executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14666/">CVE-2026-14666</a>: Row security caching disregards role modifications (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N">4.2</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14668/">CVE-2026-14668</a>: ctid type confusion in selectivity estimator discloses derivative of arbitrary read (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H">8.1</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14669/">CVE-2026-14669</a>: to_char heap buffer overflow executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14670/">CVE-2026-14670</a>: plperl tied object heap buffer overflow executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14671/">CVE-2026-14671</a>: refint plan cache type confusion executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14672/">CVE-2026-14672</a>: Observable response discrepancy with non-default scram_iterations provides user existence oracle (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N">5.3</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14673/">CVE-2026-14673</a>: amcheck does not clear untrusted search path (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N">3.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14676/">CVE-2026-14676</a>: pg_stat_statements heap buffer overflow executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14677/">CVE-2026-14677</a>: 32-bit pltcl and plperl undersize allocations, via integer wraparound (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14678/">CVE-2026-14678</a>: pg_trgm picksplit reads past end of buffer (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N">4.3</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14679/">CVE-2026-14679</a>: Stack buffer overflow in argument match writes 0x0 and 0x1 to server memory (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H">8.2</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14680/">CVE-2026-14680</a>: Type confusion via "internal" arguments (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-14681/">CVE-2026-14681</a>: Improper enforcement of GSSAPI encryption when coupled with SSL (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N">4.2</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-15741/">CVE-2026-15741</a>: Expression deparse allows SQL injection via EXTRACT argument (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-15742/">CVE-2026-15742</a>: fuzzystrmatch writes effectively-arbitrary addresses, via integer wraparound (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-16238/">CVE-2026-16238</a>: Type confusion in pg_restore_attribute_stats() executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-16239/">CVE-2026-16239</a>: Type confusion in cursor CLOSE + DECLARE executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-16241/">CVE-2026-16241</a>: ECPG integer underflow can crash the client (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L">3.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-18024/">CVE-2026-18024</a>: ascii() function reads past end of buffer (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N">4.3</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-18408/">CVE-2026-18408</a>: psql \unrestrict lets superuser of pg_dump origin server execute arbitrary code in psql client (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H">8.8</a>)</li>
+<li><a href="https://www.postgresql.org/support/security/CVE-2026-19385/">CVE-2026-19385</a>: pg_dump heap buffer overflow executes arbitrary code (CVSS v3.1: <a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H">8.8</a>)</li>
+</ul>
+<h2>Bug Fixes and Improvements</h2>
+<p>This update fixes over 110 bugs that were reported in the last several
+months.</p>
+<p>This specific issue only affects PostgreSQL 14, 15, and 16, but we're
+highlighting it in the release announcement due to its severity:</p>
+<ul>
+<li>Fix a self-deadlock that could occur while replaying WAL generated by an older
+minor version. This regression, introduced in the previous set of minor
+releases, could cause a standby server following a primary running an older
+minor version to become stuck.</li>
+</ul>
+<p>The remainder of issues listed below affect PostgreSQL 18. Many of these issues
+also affect other supported versions of PostgreSQL.</p>
+<ul>
+<li>Fix parallel <a href="https://www.postgresql.org/docs/current/gin.html">GIN</a> index
+builds to correctly update the table's <code>reltuples</code> value in <code>pg_class</code>.
+Previously, a parallel worker could report an uninitialized row count, leaving
+<code>reltuples</code> set to a bogus value (including <code>Infinity</code> or <code>NaN</code>). Such a
+value can cause autovacuum and autoanalyze to not process the table, and this
+situation will not self-correct. If you have any tables with GIN indexes,
+we recommend checking that their <code>reltuples</code> values look reasonable after
+updating. See the "Updating" section for how to identify and repair affected
+tables.</li>
+<li>Several fixes to
+<a href="https://www.postgresql.org/docs/current/btree-gist.html"><code>btree_gist</code></a>,
+including for <code>NaN</code> handling for <code>float4</code>/<code>float8</code> that could give wrong
+answers for columns containing <code>NaN</code> and correct sorting of <code>bit</code>/<code>bit varying</code>
+values during index building. You may need to reindex <code>btree_gist</code>
+indexes on <code>float</code> or <code>bit</code> columns after updating. See the "Updating" section.</li>
+<li>Fix an integer overflow in
+<a href="https://www.postgresql.org/docs/current/ltree.html"><code>ltree</code></a> comparisons.
+<code>ltree</code> values containing more than about 14,653 labels could compare
+incorrectly, which could present as a corrupt B-tree index. If you use <code>ltree</code>,
+you may need to reindex affected indexes after updating. See the "Updating"
+section.</li>
+<li>Fix <a href="https://www.postgresql.org/docs/current/ddl-partitioning.html#DDL-PARTITION-PRUNING">partition
+pruning</a>
+for <code>RANGE</code>-partitioned tables so the <code>DEFAULT</code> partition is no longer skipped in
+cases where it should be scanned. Previously this could cause rows to be missing
+from query results.</li>
+<li>Several fixes for partitioned tables that have foreign-table
+partitions, including when run-time partition pruning determined that some
+partitions don't need to be scanned, in-flight requests to foreign servers were
+not always handled correctly, leading to failures.</li>
+<li>Several fixes to
+<a href="https://www.postgresql.org/docs/current/dml-returning.html"><code>RETURNING</code></a> with
+<code>OLD</code> and <code>NEW</code>.</li>
+<li>Improve hash join performance when there are multiple join keys and many
+<code>NULL</code> values.</li>
+<li>Several fixes to the planner that could produce wrong query results, including
+<code>value IN (array)</code> tests where the array might be empty, and <code>COUNT()</code> window
+functions that use an <code>EXCLUDE</code> clause or lack <code>ORDER BY</code>.</li>
+<li>Add missing checks for the hashability of equality comparisons on container
+types (<a href="https://www.postgresql.org/docs/current/arrays.html">arrays</a>,
+<a href="https://www.postgresql.org/docs/current/rowtypes.html">composite types</a>, and
+<a href="https://www.postgresql.org/docs/current/rangetypes.html">ranges</a>). Without these
+checks, the planner could choose a hash-based plan that then failed at execution
+with a "could not identify a hash function" error.</li>
+<li>Fix attaching partitions of indexes that are <a href="https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-EXCLUSION">exclusion
+constraints</a>,
+which also fixes dump/restore of partitioned exclusion constraints.</li>
+<li>Fix <a href="https://www.postgresql.org/docs/current/sql-reindex.html"><code>REINDEX
+CONCURRENTLY</code></a> on an
+index backing a deferred uniqueness constraint, which could cause false
+constraint-violation reports.</li>
+<li>Restore an index-scan optimization that converts a
+<a href="https://www.postgresql.org/docs/current/functions-matching.html"><code>LIKE</code></a> or
+regular-expression exact-match pattern into an equality index condition when the
+index and expression collations differ.</li>
+<li>Several fixes to
+<a href="https://www.postgresql.org/docs/current/functions-json.html#FUNCTIONS-SQLJSON-PATH"><code>jsonpath</code></a>,
+including that the <code>@?</code> and <code>@@</code> operators now correctly raise an error for an
+undefined variable in the path expression. Previously, because these operators
+cannot supply variable values, an undefined variable was treated as a JSON
+<code>null</code> rather than an error, which could also lead to unbounded memory
+consumption.</li>
+<li>Ensure access is blocked to other sessions' temporary tables, which could
+lead to silently incorrect results.</li>
+<li>Fix <code>"no empty local buffer available"</code> errors during temporary table access
+when a large <a href="https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-EFFECTIVE-IO-CONCURRENCY"><code>effective_io_concurrency</code></a>
+setting could allow a single read stream to consume all local buffers.</li>
+<li>Prevent <a href="https://www.postgresql.org/docs/current/routine-vacuuming.html#AUTOVACUUM">autovacuum</a>
+from processing databases in the wrong order (lowest-priority first instead of
+highest).</li>
+<li>Restore <a href="https://www.postgresql.org/docs/current/sql-vacuum.html"><code>VACUUM</code></a>'s
+wraparound failsafe mode to use the full shared buffer pool as intended, which
+had slowed down emergency vacuuming.</li>
+<li>Fix possible incorrect decoding of index tuples during GiST and SP-GiST
+<a href="https://www.postgresql.org/docs/current/indexes-index-only-scans.html">index-only
+scans</a>,
+which could emit corrupted data.</li>
+<li>Fix a race condition in conflict detection under
+<a href="https://www.postgresql.org/docs/current/transaction-iso.html#XACT-SERIALIZABLE"><code>SERIALIZABLE</code></a>
+isolation. A conflict could be missed when examining an initially-empty btree
+index, allowing conflicting transactions to commit and breaking serializability.</li>
+<li>Fix WAL logging of operations that clear bits in table <a href="https://www.postgresql.org/docs/current/storage-vm.html">visibility
+maps</a>. This could
+lead to producing incorrect incremental backups or potentially leaving torn-page
+writes uncorrected.</li>
+<li>Fix <a href="https://www.postgresql.org/docs/current/logicaldecoding.html">logical
+decoding</a> of empty
+prepared transactions. A prepared transaction with no decodable changes could
+send <code>COMMIT PREPARED</code> or <code>ROLLBACK PREPARED</code> to the output plugin with no
+preceding <code>PREPARE</code>, which breaks replication for the built-in subscriber.</li>
+<li>Several fixes to <a href="https://www.postgresql.org/docs/current/libpq.html"><code>libpq</code></a>,
+including ensuring it drains all pending bytes from the SSL or GSS decryption
+buffer when reading data, avoiding cases where a client waits for data that has
+already arrived.</li>
+<li>Fix
+<a href="https://www.postgresql.org/docs/current/app-pgcreatesubscriber.html"><code>pg_createsubscriber</code></a>
+to clean up objects left on a publisher after failure, including a replication
+slot.</li>
+<li>Fix <a href="https://www.postgresql.org/docs/current/app-pgrestore.html"><code>pg_restore</code></a>
+with <code>--statistics</code> or <code>--statistics-only</code> so that, when combined with other
+selective-restore options such as <code>--schema</code>, it restores the expected items,
+matching the behavior of <code>pg_dump</code>.</li>
+</ul>
+<p>This release also updates time zone data files to tzdata release 2026c, in which
+Alberta (America/Edmonton) will be on year-round UTC-06 (effectively, permanent
+DST) beginning in November 2026. This release assumes that their TZ abbreviation
+will be CST from that time forward (though this could change). It also reflects
+that Morocco (Africa/Casablanca) will move to permanent UTC+00, without daylight
+saving transitions, on September 20, 2026.</p>
+<h2>Updating</h2>
+<p>All PostgreSQL update releases are cumulative. As with other minor releases,
+users are not required to dump and reload their database or use <code>pg_upgrade</code>
+in order to apply this update release; you may simply stop PostgreSQL and
+update its binaries.</p>
+<p>If you have any tables with GIN indexes, we recommend checking their <code>reltuples</code>
+values after updating. A prior bug in parallel GIN index builds could have left
+<code>reltuples</code> set to a bogus value (including <code>Infinity</code> or <code>NaN</code>) that prevents
+autovacuum and autoanalyze from ever processing the table. The following query
+lists the tables that have a GIN index, along with their current <code>reltuples</code>:</p>
+<p><code>SELECT DISTINCT t.oid::regclass, t.reltuples
+FROM pg_class t
+JOIN pg_index i ON t.oid = i.indrelid
+JOIN pg_class ic ON i.indexrelid = ic.oid
+WHERE t.relhasindex AND ic.relam = 2742;</code></p>
+<p>For any table whose <code>reltuples</code> value looks incorrect, run
+<a href="https://www.postgresql.org/docs/current/sql-analyze.html"><code>ANALYZE</code></a> on it (or
+create another index) to reset the value.</p>
+<p>If you use <code>btree_gist</code>, you should reindex <code>btree_gist</code> indexes on <code>float4</code> or
+<code>float8</code> columns that might contain <code>NaN</code> values, as well as <code>btree_gist</code> indexes
+on <code>bit</code> or <code>bit varying</code> columns, for example:</p>
+<p><code>REINDEX INDEX your_index_name;</code></p>
+<p>If you use <code>ltree</code> and have btree indexes over <code>ltree</code> values with very many
+labels (more than about 14,653), you should
+<a href="https://www.postgresql.org/docs/current/sql-reindex.html">reindex</a> those
+indexes, since they may be corrupt, for example:</p>
+<p><code>REINDEX INDEX your_index_name;</code></p>
+<p>Users who have skipped one or more update releases may need to run additional
+post-update steps; please see the release notes from earlier versions for
+details.</p>
+<p>For more details, please see the <a href="https://www.postgresql.org/docs/release/">release notes</a>.</p>
+<h2>A Note on the PostgreSQL 19 Beta</h2>
+<p>This release marks the third beta release of PostgreSQL 19.</p>
+<p>In the spirit of the open source PostgreSQL community, we strongly encourage you
+to test the new features of PostgreSQL 19 on your systems to help us eliminate
+bugs and other issues. While we do not advise you to run PostgreSQL 19 Beta 3 in
+production environments, we encourage you to find ways to run your typical
+application workloads against this beta release.</p>
+<p>Your testing and feedback helps the community ensure that PostgreSQL 19
+upholds our standards of delivering a stable, reliable release of the
+world's most advanced open source relational database. Please read more about
+our <a href="https://www.postgresql.org/developer/beta/">beta testing process</a> and how
+you can contribute:</p>
+<p><a href="https://www.postgresql.org/developer/beta/">https://www.postgresql.org/developer/beta/</a></p>
+<h2>Upgrading to PostgreSQL 19 Beta 3</h2>
+<p>To upgrade to PostgreSQL 19 Beta 3 from an earlier version of PostgreSQL,
+you will need to use a strategy similar to upgrading between major versions of
+PostgreSQL (e.g. <code>pg_upgrade</code> or <code>pg_dump</code> / <code>pg_restore</code>). For more
+information, please visit the documentation section on
+<a href="https://www.postgresql.org/docs/19/static/upgrading.html">upgrading</a>.</p>
+<h2>Changes Since Beta 2</h2>
+<p>Fixes and changes in PostgreSQL 19 Beta 3 include:</p>
+<ul>
+<li>Revert <code>GROUP BY ALL</code>.</li>
+<li>Several fixes for the new <code>FOR PORTION OF</code> temporal table syntax.</li>
+<li>Several fixes for the new logical replication sequence synchronization
+feature, including a race involving <code>REFRESH SEQUENCES</code>.</li>
+<li>Fix an "unexpected logical decoding status change" error that could occur when
+logical decoding is activated concurrently.</li>
+<li>Fix issues around ownership changes for subscriptions.</li>
+<li>Fix wrong query results from <code>postgres_fdw</code> when pushing down an array
+comparison such as <code>field = ANY($1)</code> that involves an implicit type coercion.</li>
+<li>Fix a crash during foreign-key checks involving a nullable <code>UNIQUE</code> constraint.</li>
+<li>Fix <code>pg_plan_advice</code> parsing of underscores in numeric literals.</li>
+<li>Fix a missing <code>FORMAT</code> clause when deparsing <code>JSON_ARRAY(query)</code>.</li>
+</ul>
+<p>Please see the <a href="https://www.postgresql.org/docs/19/release-19.html">release notes</a>
+for a complete list of new and changed features:</p>
+<p><a href="https://www.postgresql.org/docs/19/release-19.html">https://www.postgresql.org/docs/19/release-19.html</a></p>
+<h2>Testing for Bugs &amp; Compatibility</h2>
+<p>The stability of each PostgreSQL release greatly depends on you, the community,
+to test the upcoming version with your workloads and testing tools to find bugs
+and regressions before the general availability of PostgreSQL 19. As this is a
+Beta, minor changes to database behaviors, feature details, and APIs are still
+possible. Your feedback and testing will help determine the final tweaks on the
+new features, so please test in the near future. The quality of user testing
+helps determine when we can make a final release.</p>
+<p>A list of <a href="https://wiki.postgresql.org/wiki/PostgreSQL_19_Open_Items">open issues</a>
+is publicly available in the PostgreSQL wiki.  You can
+<a href="https://www.postgresql.org/account/submitbug/">report bugs</a> using this form on
+the PostgreSQL website:</p>
+<p><a href="https://www.postgresql.org/account/submitbug/">https://www.postgresql.org/account/submitbug/</a></p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://www.postgresql.org/download/">Download</a></li>
+<li><a href="https://www.postgresql.org/docs/release/">Release Notes</a></li>
+<li><a href="https://www.postgresql.org/support/security/">Security</a></li>
+<li><a href="https://www.postgresql.org/support/versioning/">Versioning Policy</a></li>
+<li><a href="https://www.postgresql.org/developer/beta/">Beta Testing Information</a></li>
+<li><a href="https://www.postgresql.org/docs/19/release-19.html">PostgreSQL 19 Beta Release Notes</a></li>
+<li><a href="https://wiki.postgresql.org/wiki/PostgreSQL_19_Open_Items">PostgreSQL 19 Open Issues</a></li>
+<li><a href="https://www.postgresql.org/account/submitbug/">Submit a Bug</a></li>
+<li><a href="https://www.postgresql.org/about/donate/">Donate</a></li>
+</ul>
+<p>If you have corrections or suggestions for this release announcement, please send them to the <em>pgsql-www@lists.postgresql.org</em> public <a href="https://www.postgresql.org/list/">mailing list</a>.</p>
+
+
+      </div> <!-- pgContentWrap -->
+    </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <!-- Copyright -->
+      <div class="container">
+        <a href="/about/policies/">Policies</a> |
+        <a href="/about/policies/coc/">Code of Conduct</a> |
+        <a href="/about/">About PostgreSQL</a> |
+        <a href="/about/contact/">Contact</a><br/>
+        <p>Copyright &copy; 1996-2026 The PostgreSQL Global Development Group</p>
+      </div>
+    </footer>
+    <script type="text/od-defused-script" src="/media/js/main.js?e5c079de"></script>
+
+  </body>
+</html>

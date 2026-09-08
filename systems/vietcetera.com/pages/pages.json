@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://vietcetera.com/",
+  "crawledAt": "2026-09-07T23:52:06.023Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://vietcetera.com/",
+      "file": "pages/01-home.html",
+      "title": "Vietcetera - Bringing Vietnam To The World",
+      "h1": "Vietcetera",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/en",
+      "file": "pages/02-en.html",
+      "title": "Vietcetera - Bringing Vietnam To The World",
+      "h1": "Vietcetera",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/en/event/credential",
+      "file": "pages/03-en-event-credential.html",
+      "title": "Event Credential | Vietcetera",
+      "h1": "Event Credential",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/video",
+      "file": "pages/04-vn-video.html",
+      "title": "Xem Video | Vietcetera",
+      "h1": "Video",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/podcast",
+      "file": "pages/05-vn-podcast.html",
+      "title": "Podcast Vietcetera Chuyện Trò Về Một Việt Nam Hiện Đại | Vietcetera",
+      "h1": "Nghe Podcast Vietcetera",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/dang-nhap",
+      "file": "pages/06-vn-dang-nhap.html",
+      "title": "Đăng nhập | Vietcetera",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/dang-ky",
+      "file": "pages/07-vn-dang-ky.html",
+      "title": "Đăng ký | Vietcetera",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/kinh-doanh",
+      "file": "pages/08-vn-chuyen-muc-kinh-doanh.html",
+      "title": "Chuyên mục Kinh Doanh | Vietcetera",
+      "h1": "Kinh Doanh",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/van-hoa",
+      "file": "pages/09-vn-chuyen-muc-van-hoa.html",
+      "title": "Chuyên mục Văn Hóa | Vietcetera",
+      "h1": "Văn Hóa",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/du-lich",
+      "file": "pages/10-vn-chuyen-muc-du-lich.html",
+      "title": "Chuyên mục Du Lịch | Vietcetera",
+      "h1": "Du Lịch",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/thuong-thuc",
+      "file": "pages/11-vn-chuyen-muc-thuong-thuc.html",
+      "title": "Chuyên mục Thưởng Thức | Vietcetera",
+      "h1": "Thưởng Thức",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/cuoc-song",
+      "file": "pages/12-vn-chuyen-muc-cuoc-song.html",
+      "title": "Chuyên mục Cuộc Sống | Vietcetera",
+      "h1": "Cuộc Sống",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chuyen-muc/nghe-nghiep",
+      "file": "pages/13-vn-chuyen-muc-nghe-nghiep.html",
+      "title": "Chuyên mục Nghề nghiệp | Vietcetera",
+      "h1": "Nghề nghiệp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/lien-he",
+      "file": "pages/14-vn-lien-he.html",
+      "title": "",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/vi-sao-chung-ta-cuoi-tren-noi-dau-cua-nguoi-khac-tam-ly-hoc-giai-thich",
+      "file": "pages/15-vn-vi-sao-chung-ta-cuoi-tren-noi-dau-cua.html",
+      "title": "Vì sao chúng ta… cười trên nỗi đau của người khác? Tâm lý học giải thích | Vietcetera",
+      "h1": "Vì sao chúng ta… cười trên nỗi đau của người khác? Tâm lý học giải thích",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chu-de/tam-ly-hoc",
+      "file": "pages/16-vn-chu-de-tam-ly-hoc.html",
+      "title": "Tâm Lý Học | Vietcetera",
+      "h1": "Tâm Lý Học",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/thong-tin-ca-nhan/minh-trang-1631259013873",
+      "file": "pages/17-vn-thong-tin-ca-nhan-minh-trang-16312590.html",
+      "title": "Trang cá nhân của Minh Trang tại Vietcetera. | Vietcetera",
+      "h1": "Minh Trang",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/3-loi-khuyen-cung-ban-len-giay-cot-tinh-than-cho-nam-hoc-moi",
+      "file": "pages/18-vn-3-loi-khuyen-cung-ban-len-giay-cot-ti.html",
+      "title": "3 Lời khuyên cùng bạn lên giây cót tinh thần cho năm học mới | Vietcetera",
+      "h1": "3 Lời khuyên cùng bạn lên giây cót tinh thần cho năm học mới",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/chu-de/doi-song",
+      "file": "pages/19-vn-chu-de-doi-song.html",
+      "title": "Đời sống | Vietcetera",
+      "h1": "Đời sống",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vietcetera.com/vn/ho-linh-trang-si-trang-ca-lich-su-bung-sang-giua-nhung-not-tram-dang-do",
+      "file": "pages/20-vn-ho-linh-trang-si-trang-ca-lich-su-bun.html",
+      "title": "Hộ Linh Tráng Sĩ: Tráng ca lịch sử bừng sáng giữa những nốt trầm dang dở | Vietcetera",
+      "h1": "Hộ Linh Tráng Sĩ: Tráng ca lịch sử bừng sáng giữa những nốt trầm dang dở",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

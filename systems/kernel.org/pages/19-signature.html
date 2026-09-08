@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Linux kernel releases PGP signatures</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="https://www.kernel.org/theme/images/logos/favicon.png" />
+        <link rel="stylesheet" href="https://www.kernel.org/theme/css/main.css" type="text/css" />
+        <link href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Linux Kernel Archives Atom Feed" />
+
+        <link href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate" title="Latest Linux Kernel Releases" />
+
+        <!--[if IE]>
+                <script type="text/od-defused-script" src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie.css"/>
+                <script type="text/od-defused-script" src="https://www.kernel.org/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+	        <div id="tux-gear"></div>
+                <h1><a href="https://www.kernel.org/">The Linux Kernel Archives </a></h1>
+                <nav><ul>
+                    <li ><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li ><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li ><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li ><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li class="active"><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li ><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        <header id="mobile-banner" class="body">
+                <div id="mobile-tux-gear"></div>
+                <h1 class="mobile-site-title"><a href="https://www.kernel.org/">The Linux Kernel Archives</a></h1>
+                <input type="checkbox" id="mobile-nav-toggle" class="mobile-nav-checkbox" aria-label="Navigation menu" />
+                <label for="mobile-nav-toggle" class="hamburger-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </label>
+
+                <label for="mobile-nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+
+                <nav id="mobile-drawer" role="navigation" aria-label="Mobile navigation">
+                <label for="mobile-nav-toggle" class="close-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </label>
+                <ul>
+                    <li><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul>
+                <a href="https://www.kernel.org/"><div id="drawer-tux"></div></a>
+                </nav><!-- /#mobile-drawer -->
+        </header><!-- /#mobile-banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://www.kernel.org/signature.html" rel="bookmark"
+           title="Permalink to Linux kernel releases PGP signatures">Linux kernel releases PGP signatures</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-02-15T00:00:00+00:00">
+                2018-02-15
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/signatures.html">Signatures</a>. </p>
+
+</footer><!-- /.post-info -->      <p>All kernel releases are cryptographically signed using OpenPGP-compliant
+signatures. Everyone is strongly encouraged to verify the integrity of
+downloaded kernel releases by verifying the corresponding signatures.</p>
+<div class="section" id="basic-concepts">
+<h2>Basic concepts</h2>
+<p>Every kernel release comes with a cryptographic signature from the
+person making the release. This cryptographic signature allows anyone to
+verify whether the files have been modified or otherwise tampered with
+after the developer created and signed them. The signing and
+verification process uses public-key cryptography and it is next to
+impossible to forge a PGP signature without first gaining access to the
+developer's private key. If this does happen, the developers will revoke
+the compromised key and will re-sign all their previously signed
+releases with the new key.</p>
+<p>To learn more about the way PGP works, please consult <a class="reference external" href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#How_PGP_encryption_works">Wikipedia</a>.</p>
+</div>
+<div class="section" id="kernel-org-web-of-trust">
+<h2>Kernel.org web of trust</h2>
+<p>PGP keys used by members of kernel.org are cross-signed by other members
+of the Linux kernel development community (and, frequently, by many
+other people). If you wanted to verify the validity of any key belonging
+to a member of kernel.org, you could review the list of signatures on
+their public key and then make a decision whether you trust that key or
+not. See the <a class="reference external" href="https://en.wikipedia.org/wiki/Web_of_trust">Wikipedia article</a> on the subject of the Web of Trust.</p>
+</div>
+<div class="section" id="using-the-web-key-directory">
+<h2>Using the Web Key Directory</h2>
+<p>If the task of maintaining your own web of trust is too daunting to you,
+you can opt to shortcut this process by using the &quot;Trust on First Use&quot;
+(TOFU) approach and rely on the kernel.org Web Key Directory (WKD).</p>
+<p>To import keys belonging to many kernel developers, you can use the
+following command:</p>
+<pre class="literal-block">
+$ gpg2 --locate-keys [username]&#64;kernel.org
+</pre>
+<p>For example, to import keys belonging to Linus Torvalds and Greg
+Kroah-Hartman, you would use:</p>
+<pre class="literal-block">
+$ gpg2 --locate-keys torvalds&#64;kernel.org gregkh&#64;kernel.org
+</pre>
+<p>This command will verify the TLS certificate presented by kernel.org
+before importing these keys into your keyring.</p>
+</div>
+<div class="section" id="using-gnupg-to-verify-kernel-signatures">
+<h2>Using GnuPG to verify kernel signatures</h2>
+<p>All software released via kernel.org has detached PGP signatures you can
+use to verify the integrity of your downloads.</p>
+<p>To illustrate the verification process, let's use Linux 4.6.6 release as
+a walk-through example. First, use &quot;<tt class="docutils literal">curl</tt>&quot; to download the release
+and the corresponding signature:</p>
+<pre class="literal-block">
+$ curl -OL https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.6.tar.xz
+$ curl -OL https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.6.tar.sign
+</pre>
+<p>You will notice that the signature is made against the uncompressed
+version of the archive. This is done so there is only one signature
+required for .gz and .xz compressed versions of the release. Start
+by uncompressing the archive, using <tt class="docutils literal">unxz</tt> in our case:</p>
+<pre class="literal-block">
+$ unxz linux-4.6.6.tar.xz
+</pre>
+<p>Now verify the .tar archive against the signature:</p>
+<pre class="literal-block">
+$ gpg2 --verify linux-4.6.6.tar.sign
+</pre>
+<p>You can combine these steps into a one-liner:</p>
+<pre class="literal-block">
+$ xz -cd linux-4.6.6.tar.xz | gpg2 --verify linux-4.6.6.tar.sign -
+</pre>
+<p>It's possible that you get a &quot;No public key error&quot;:</p>
+<pre class="literal-block">
+gpg: Signature made Wed 10 Aug 2016 06:55:15 AM EDT using RSA key ID 38DBBDC86092693E
+gpg: Can't check signature: No public key
+</pre>
+<p>Please use the &quot;<tt class="docutils literal">gpg2 <span class="pre">--locate-keys</span></tt>&quot; command listed above to download
+the key for Greg Kroah-Hartman and Linus Torvalds and then try again:</p>
+<pre class="literal-block">
+$ gpg2 --locate-keys torvalds&#64;kernel.org gregkh&#64;kernel.org
+$ gpg2 --verify linux-4.6.6.tar.sign
+gpg: Signature made Wed 10 Aug 2016 06:55:15 AM EDT
+gpg:                using RSA key 38DBBDC86092693E
+gpg: Good signature from &quot;Greg Kroah-Hartman &lt;gregkh&#64;kernel.org&gt;&quot; [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 647F 2865 4894 E3BD 4571  99BE 38DB BDC8 6092 693E
+</pre>
+<p>To make the &quot;<tt class="docutils literal">WARNING</tt>&quot; message go away you can indicate that you
+choose to trust that key using TOFU:</p>
+<pre class="literal-block">
+$ gpg2 --tofu-policy good 38DBBDC86092693E
+$ gpg2 --trust-model tofu --verify linux-4.6.6.tar.sign
+gpg: Signature made Wed 10 Aug 2016 06:55:15 AM EDT
+gpg:                using RSA key 38DBBDC86092693E
+gpg: Good signature from &quot;Greg Kroah-Hartman &lt;gregkh&#64;kernel.org&gt;&quot; [full]
+gpg: gregkh&#64;kernel.org: Verified 1 signature in the past 53 seconds.  Encrypted
+     0 messages.
+</pre>
+<p>Note that you may have to pass &quot;<tt class="docutils literal"><span class="pre">--trust-model</span> tofu</tt>&quot; the first time
+you run the verify command, but it should not be necessary after that.</p>
+<div class="section" id="the-scripted-version">
+<h3>The scripted version</h3>
+<p>If you need to perform this task in an automated environment or simply
+prefer a more convenient tool, you can use the following helper script
+to properly download and verify Linux kernel tarballs:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="reference external" href="https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/tree/get-verified-tarball">get-verified-tarball</a></li>
+</ul>
+</blockquote>
+<p>Please review the script before adopting it for your needs.</p>
+</div>
+</div>
+<div class="section" id="important-fingerprints">
+<h2>Important fingerprints</h2>
+<p>Here are key fingerprints for Linus Torvalds, Greg Kroah-Hartman, Sasha
+Levin, and Ben Hutchings, who are most likely to be releasing kernels:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Developer</th>
+<th class="head">Fingerprint</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Linus Torvalds</td>
+<td><tt class="docutils literal">ABAF 11C6 5A29 70B1 30AB&nbsp; E3C4 79BE 3E43 0041 1886</tt></td>
+</tr>
+<tr><td>Greg Kroah-Hartman</td>
+<td><tt class="docutils literal">647F 2865 4894 E3BD 4571&nbsp; 99BE 38DB BDC8 6092 693E</tt></td>
+</tr>
+<tr><td>Sasha Levin</td>
+<td><tt class="docutils literal">E27E 5D8A 3403 A2EF 6687&nbsp; 3BBC DEA6 6FF7 9777 2CDC</tt></td>
+</tr>
+<tr><td>Ben Hutchings</td>
+<td><tt class="docutils literal">AC2B 29BD 34A6 AFDD B3F6&nbsp; 8F35 E7BF C8EC 9586 1109</tt></td>
+</tr>
+</tbody>
+</table>
+<p>Please verify the TLS certificate for this site in your browser before
+trusting the above information.</p>
+</div>
+<div class="section" id="if-you-get-bad-signature">
+<h2>If you get &quot;BAD signature&quot;</h2>
+<p>If at any time you see &quot;BAD signature&quot; output from &quot;<tt class="docutils literal">gpg2 <span class="pre">--verify</span></tt>&quot;,
+please first check the following first:</p>
+<ol class="arabic simple">
+<li><strong>Make sure that you are verifying the signature against the .tar
+version of the archive, not the compressed (.tar.xz) version.</strong></li>
+<li>Make sure the the downloaded file is correct and not truncated or
+otherwise corrupted.</li>
+</ol>
+<p>If you repeatedly get the same &quot;BAD signature&quot; output, please email
+<a class="reference external" href="mailto:helpdesk&#64;kernel.org">helpdesk&#64;kernel.org</a>, so we can investigate the problem.</p>
+</div>
+<div class="section" id="kernel-org-checksum-autosigner-and-sha256sums-asc">
+<h2>Kernel.org checksum autosigner and sha256sums.asc</h2>
+<p>We have a dedicated off-the-network system that connects directly to our
+central attached storage and calculates checksums for all uploaded
+software releases. The generated <tt class="docutils literal">sha256sums.asc</tt> file is then signed
+with a PGP key generated for this purpose and that doesn't exist outside
+of that system.</p>
+<p>These checksums are <strong>NOT</strong> intended to replace developer signatures. It
+is merely a way for someone to quickly verify whether contents on one of
+the many kernel.org mirrors match the contents on the master mirror.
+While you may use them to quickly verify whether what you have
+downloaded matches what we have on our central storage system, you
+should continue to use developer signatures for best assurance.</p>
+</div>
+<div class="section" id="kernel-releases-prior-to-september-2011">
+<h2>Kernel releases prior to September, 2011</h2>
+<p>Prior to September, 2011 all kernel releases were signed automatically by
+the same PGP key:</p>
+<pre class="literal-block">
+pub   1024D/517D0F0E 2000-10-10 [revoked: 2011-12-11]
+      Key fingerprint = C75D C40A 11D7 AF88 9981  ED5B C86B A06A 517D 0F0E
+uid                  Linux Kernel Archives Verification Key &lt;ftpadmin&#64;kernel.org&gt;
+</pre>
+<p>Due to the kernel.org systems compromise, this key has been retired and
+revoked. <strong>It will no longer be used to sign future releases and you
+should NOT use this key to verify the integrity of any archives. It is
+almost certain that this key has fallen into malicious hands.</strong></p>
+<p>All kernel releases that were previously signed with this key were
+cross-checked and signed with another key, created specifically
+for this purpose:</p>
+<pre class="literal-block">
+pub   3072R/C4790F9D 2013-08-08
+      Key fingerprint = BFA7 DD3E 0D42 1C9D B6AB  6527 0D3B 3537 C479 0F9D
+uid   Linux Kernel Archives Verification Key
+      (One-off resigning of old releases) &lt;ftpadmin&#64;kernel.org&gt;
+</pre>
+<p>The private key used for this purpose has been destroyed and cannot be
+used to sign any releases produced after 2011.</p>
+</div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>Other resources</h2>
+                        <ul>
+                            <li><a href="https://git.kernel.org/">Git Trees</a></li>
+                            <li><a href="https://docs.kernel.org/">Documentation</a></li>
+                            <li><a href="https://lore.kernel.org/">Kernel Mailing Lists</a></li>
+                            <li><a href="https://patchwork.kernel.org/">Patchwork</a></li>
+                            <li><a href="https://www.wiki.kernel.org/">Wikis</a></li>
+                            <li><a href="https://bugzilla.kernel.org/">Bugzilla</a></li>
+                            <li><a href="https://mirrors.kernel.org/">Mirrors</a></li>
+                            <li><a href="https://www.linux.com/">Linux.com</a></li>
+                            <li><a href="https://www.linuxfoundation.org/">Linux Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">Site Atom feed</a></li>
+                            <li><a href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate">Releases Atom Feed</a></li>
+
+                            <li><a href="https://planet.kernel.org/">Kernel Planet</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                    This site is operated by the Linux Kernel Organization, a <a href="https://www.kernel.org/nonprofit.html">501(c)3 nonprofit corporation</a>, with support from the following sponsors.
+                </address><!-- /#about -->
+
+                <address id="donors">
+                  <a href="https://www.akamai.com/"><img src="https://www.kernel.org/theme/images/logos/akamai.png"
+                  alt="Akamai" height="55" width="135" id="logo-akamai"/></a>
+                  &nbsp;
+                  <a href="https://www.constellix.com/"><img src="https://www.kernel.org/theme/images/logos/constellix-green-logo.png"
+                  alt="Constellix" width="193" height="21" id="logo-constellix" /></a>
+                  &nbsp;
+                  <a href="https://www.fastly.com/"><img src="https://www.kernel.org/theme/images/logos/fastly-logo.png"
+                  alt="Fastly" width="91" height="35" id="logo-fastly" /></a>
+                  &nbsp;
+                  <a href="https://servers.com/"><img src="https://www.kernel.org/theme/images/logos/serverscom.svg"
+                  alt="servers.com" width="195" height="40" id="logo-serverscom" /></a>
+                  <br />
+                  <a href="https://www.google.com/"><img src="https://www.kernel.org/theme/images/logos/google.png"
+                  alt="Google" height="42" width="128" id="logo-google" /></a>
+                  &nbsp;
+                  <a href="https://www.redhat.com/"><img src="https://www.kernel.org/theme/images/logos/redhat-community.png"
+                  alt="Red Hat" height="36" width="150" id="logo-redhat" /></a>
+                  <br/>&nbsp;<br/>
+                  <a href="https://www.linuxfoundation.org/"><img src="https://www.kernel.org/theme/images/logos/thelinuxfoundation.png"
+                  alt="The Linux Foundation" width="137" height="45" id="logo-lf" /></a>
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

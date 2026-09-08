@@ -1,0 +1,23 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "PolySans-Median",
+      "weight": "400",
+      "style": "normal",
+      "file": "polysans-median-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://themeforest.net/storefront/assets/PolySans-Family/PolySans-Median-9224522959aeeddcc9a3fe9fd1323436adbdbd5b81b24bc9c8f99e81af6672d7.otf",
+      "bytes": 41932
+    },
+    {
+      "family": "PolySans-Neutral",
+      "weight": "400",
+      "style": "normal",
+      "file": "polysans-neutral-400.otf",
+      "format": "opentype",
+      "sourceUrl": "https://themeforest.net/storefront/assets/PolySans-Family/PolySans-Neutral-007257906fb4315862201a60d5cfeb1abfdb3497e68fc91f688f3f80c4eb93ce.otf",
+      "bytes": 40084
+    }
+  ]
+}

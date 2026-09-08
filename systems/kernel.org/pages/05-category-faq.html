@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>The Linux Kernel Archives - FAQ</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="https://www.kernel.org/theme/images/logos/favicon.png" />
+        <link rel="stylesheet" href="https://www.kernel.org/theme/css/main.css" type="text/css" />
+        <link href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Linux Kernel Archives Atom Feed" />
+
+        <link href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate" title="Latest Linux Kernel Releases" />
+
+        <!--[if IE]>
+                <script type="text/od-defused-script" src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie.css"/>
+                <script type="text/od-defused-script" src="https://www.kernel.org/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+	        <div id="tux-gear"></div>
+                <h1><a href="https://www.kernel.org/">The Linux Kernel Archives </a></h1>
+                <nav><ul>
+                    <li ><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li ><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li class="active"><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li ><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li ><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li ><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        <header id="mobile-banner" class="body">
+                <div id="mobile-tux-gear"></div>
+                <h1 class="mobile-site-title"><a href="https://www.kernel.org/">The Linux Kernel Archives</a></h1>
+                <input type="checkbox" id="mobile-nav-toggle" class="mobile-nav-checkbox" aria-label="Navigation menu" />
+                <label for="mobile-nav-toggle" class="hamburger-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </label>
+
+                <label for="mobile-nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+
+                <nav id="mobile-drawer" role="navigation" aria-label="Mobile navigation">
+                <label for="mobile-nav-toggle" class="close-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </label>
+                <ul>
+                    <li><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul>
+                <a href="https://www.kernel.org/"><div id="drawer-tux"></div></a>
+                </nav><!-- /#mobile-drawer -->
+        </header><!-- /#mobile-banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://www.kernel.org/faq.html">Frequently asked questions</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2024-08-06T19:40:29.037681+00:00">
+                2024-08-06
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/faq.html">FAQ</a>. </p>
+
+</footer><!-- /.post-info --><p>If you have questions, comments or concerns about the F.A.Q. please
+contact us at <a class="reference external" href="mailto:helpdesk&#64;kernel.org">helpdesk&#64;kernel.org</a>.</p>
+<div class="section" id="is-linux-kernel-free-software">
+<h2>Is Linux Kernel Free Software?</h2>
+<p>Linux kernel is released under the terms of GNU GPL version 2 and is
+therefore Free Software as defined by the <a class="reference external" href="https://www.fsf.org/">Free Software Foundation</a>.</p>
+<p>For more information, please consult the documentation:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.kernel.org/process/license-rules.html">Linux kernel licensing rules</a></li>
+</ul>
+</div>
+<div class="section" id="i-heard-that-linux-ships-with-non-free-blobs">
+<h2>I heard that Linux ships with non-free &quot;blobs&quot;</h2>
+<p>Before many devices are able to communicate with the OS, they must first
+be initialized with the &quot;firmware&quot; provided by the device manufacturer.
+This firmware is not part of Linux and isn't &quot;executed&quot; by the kernel --
+it is merely uploaded to the device during the driver initialization
+stage.</p>
+<p>While some firmware images are built from free software, a large subset
+of it is only available for redistribution in binary-only form. To
+avoid any licensing confusion, firmware blobs were moved from the main
+Linux tree into a separate repository called <a class="reference external" href="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/">linux-firmware</a>.</p>
+<p>It is possible to use Linux without any non-free firmware binaries, but
+usually at the cost of rendering a lot of hardware inoperable.
+Furthermore, many devices that do not require a firmware blob during
+driver initialization simply already come with non-free firmware
+preinstalled on them. If your goal is to run a 100% free-as-in-freedom
+setup, you will often need to go a lot further than just avoiding
+loadable binary-only firmware blobs.</p>
+</div>
+<div class="section" id="can-i-use-the-word-linux-or-the-tux-logo">
+<h2>Can I use the word &quot;Linux&quot; or the Tux logo?</h2>
+<p>Linux is a registered trademark of Linus Torvalds and its use is
+governed by the Linux Trademark Institute. Please consult the following
+page for further information:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a></li>
+</ul>
+<p>The Tux penguin logo was created by Larry Ewing using Gimp software. It
+is free to use, including commercially, as long as you give Larry Ewing
+proper credit (&quot;if someone asks&quot;). For any other permissions, please
+reach out to Mr. Larry Ewing directly.</p>
+</div>
+<div class="section" id="what-does-stable-eol-and-longterm-mean">
+<h2>What does &quot;stable/EOL&quot; and &quot;longterm&quot; mean?</h2>
+<p>As kernels move from the &quot;mainline&quot; into the &quot;stable&quot; category, two
+things can happen:</p>
+<ol class="arabic simple">
+<li>They can reach &quot;End of Life&quot; after a few bugfix revisions, which
+means that kernel maintainers will release no more bugfixes for this
+kernel version, or</li>
+<li>They can be put into &quot;longterm&quot; maintenance, which means that
+maintainers will provide bugfixes for this kernel revision for a
+much longer period of time.</li>
+</ol>
+<p>If the kernel version you are using is marked &quot;EOL,&quot; you should consider
+upgrading to the next major version as there will be no more bugfixes
+provided for the kernel version you are using.</p>
+<p>Please check the <a class="reference external" href="https://www.kernel.org/releases.html">Releases</a> page for more info.</p>
+</div>
+<div class="section" id="why-is-an-lts-kernel-marked-as-stable-on-the-front-page">
+<h2>Why is an LTS kernel marked as &quot;stable&quot; on the front page?</h2>
+<p>Long-term support (&quot;LTS&quot;) kernels announced on the <a class="reference external" href="https://www.kernel.org/releases.html">Releases</a> page will
+be marked as &quot;stable&quot; on the front page if there are no other current
+stable kernel releases. This is done to avoid breaking automated parsers
+monitoring kernel.org with an expectation that there will always be a
+kernel release marked as &quot;stable.&quot;</p>
+</div>
+<div class="section" id="linus-has-tagged-a-new-release-but-it-s-not-listed-on-the-front-page">
+<h2>Linus has tagged a new release, but it's not listed on the front page!</h2>
+<p>Linus Torvalds PGP-signs git repository tags for all new mainline kernel
+releases, however a separate set of PGP signatures needs to be generated
+by the stable release team in order to create downloadable tarballs. Due
+to timezone differences between Linus and the members of the stable
+team, there is usually a delay of several hours between when the new
+mainline release is tagged and when PGP-signed tarballs become
+available. The front page is updated once that process is completed.</p>
+</div>
+<div class="section" id="is-there-an-rss-feed-for-the-latest-kernel-version">
+<h2>Is there an RSS feed for the latest kernel version?</h2>
+<p>Yes, and you can find it at <a class="reference external" href="https://www.kernel.org/feeds/kdist.xml">https://www.kernel.org/feeds/kdist.xml</a>.</p>
+<p>We also publish a .json file with the latest release information, which
+you can pull from here: <a class="reference external" href="https://www.kernel.org/releases.json">https://www.kernel.org/releases.json</a>.</p>
+</div>
+<div class="section" id="where-can-i-find-kernel-3-10-0-1160-45-1-foo">
+<h2>Where can I find kernel 3.10.0-1160.45.1.foo?</h2>
+<p>Kernel versions that have a dash in them are packaged by distributions
+and are often extensively modified. Please contact the relevant
+distribution to obtain the exact kernel source.</p>
+<p>See the <a class="reference external" href="https://www.kernel.org/releases.html">Releases</a> page for more info on distribution kernels.</p>
+</div>
+<div class="section" id="how-do-i-report-a-problem-with-the-kernel">
+<h2>How do I report a problem with the kernel?</h2>
+<p>If you are running a kernel that came with your Linux distribution, then
+the right place to start is by reporting the problem through your
+distribution support channels. Here are a few popular choices:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://help.ubuntu.com/stable/ubuntu-help/report-ubuntu-bug.html.en">Ubuntu</a></li>
+<li><a class="reference external" href="https://docs.fedoraproject.org/en-US/quick-docs/howto-file-a-bug/">Fedora Project</a></li>
+<li><a class="reference external" href="https://bugs.archlinux.org/">Arch Linux</a></li>
+<li><a class="reference external" href="https://projects.linuxmint.com/reporting-an-issue.html">Linux Mint</a></li>
+<li><a class="reference external" href="https://www.debian.org/Bugs/Reporting">Debian GNU/Linux</a></li>
+<li><a class="reference external" href="https://bugzilla.redhat.com/">Red Hat</a></li>
+<li><a class="reference external" href="https://bugzilla.opensuse.org/">OpenSUSE</a></li>
+<li><a class="reference external" href="https://bugzilla.suse.com/">SUSE</a></li>
+</ul>
+<p>If you are sure that the problem is with the upstream kernel, please
+refer to the following document that describes how to report bugs and
+regressions to the developers:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.kernel.org/admin-guide/reporting-issues.html">Reporting issues</a></li>
+</ul>
+</div>
+<div class="section" id="how-do-i-get-involved-with-linux-kernel-development">
+<h2>How do I get involved with Linux Kernel development?</h2>
+<p>A good place to start is the <a class="reference external" href="http://kernelnewbies.org/">Kernel Newbies</a> website.</p>
+</div>
+<div class="section" id="can-i-get-an-account-on-kernel-org">
+<h2>Can I get an account on kernel.org?</h2>
+<p>Kernel.org accounts are usually reserved for subsystem maintainers or
+high-profile developers. It is absolutely not necessary to have an
+account on kernel.org to contribute to the development of the Linux
+kernel, unless you submit pull requests directly to Linus Torvalds.</p>
+<p>If you are listed in the MAINTAINERS file or have reasons to believe you
+should have an account on kernel.org because of the amount of your
+contributions, please refer to the <a class="reference external" href="https://korg.docs.kernel.org/accounts.html">accounts page</a> for the
+procedure to follow.</p>
+</div>
+                </article>
+<nav>
+  <ul>
+    <li>Page 1 / 1</li>
+  </ul>
+</nav>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>Other resources</h2>
+                        <ul>
+                            <li><a href="https://git.kernel.org/">Git Trees</a></li>
+                            <li><a href="https://docs.kernel.org/">Documentation</a></li>
+                            <li><a href="https://lore.kernel.org/">Kernel Mailing Lists</a></li>
+                            <li><a href="https://patchwork.kernel.org/">Patchwork</a></li>
+                            <li><a href="https://www.wiki.kernel.org/">Wikis</a></li>
+                            <li><a href="https://bugzilla.kernel.org/">Bugzilla</a></li>
+                            <li><a href="https://mirrors.kernel.org/">Mirrors</a></li>
+                            <li><a href="https://www.linux.com/">Linux.com</a></li>
+                            <li><a href="https://www.linuxfoundation.org/">Linux Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">Site Atom feed</a></li>
+                            <li><a href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate">Releases Atom Feed</a></li>
+
+                            <li><a href="https://planet.kernel.org/">Kernel Planet</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                    This site is operated by the Linux Kernel Organization, a <a href="https://www.kernel.org/nonprofit.html">501(c)3 nonprofit corporation</a>, with support from the following sponsors.
+                </address><!-- /#about -->
+
+                <address id="donors">
+                  <a href="https://www.akamai.com/"><img src="https://www.kernel.org/theme/images/logos/akamai.png"
+                  alt="Akamai" height="55" width="135" id="logo-akamai"/></a>
+                  &nbsp;
+                  <a href="https://www.constellix.com/"><img src="https://www.kernel.org/theme/images/logos/constellix-green-logo.png"
+                  alt="Constellix" width="193" height="21" id="logo-constellix" /></a>
+                  &nbsp;
+                  <a href="https://www.fastly.com/"><img src="https://www.kernel.org/theme/images/logos/fastly-logo.png"
+                  alt="Fastly" width="91" height="35" id="logo-fastly" /></a>
+                  &nbsp;
+                  <a href="https://servers.com/"><img src="https://www.kernel.org/theme/images/logos/serverscom.svg"
+                  alt="servers.com" width="195" height="40" id="logo-serverscom" /></a>
+                  <br />
+                  <a href="https://www.google.com/"><img src="https://www.kernel.org/theme/images/logos/google.png"
+                  alt="Google" height="42" width="128" id="logo-google" /></a>
+                  &nbsp;
+                  <a href="https://www.redhat.com/"><img src="https://www.kernel.org/theme/images/logos/redhat-community.png"
+                  alt="Red Hat" height="36" width="150" id="logo-redhat" /></a>
+                  <br/>&nbsp;<br/>
+                  <a href="https://www.linuxfoundation.org/"><img src="https://www.kernel.org/theme/images/logos/thelinuxfoundation.png"
+                  alt="The Linux Foundation" width="137" height="45" id="logo-lf" /></a>
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

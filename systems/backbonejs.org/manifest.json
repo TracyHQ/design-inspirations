@@ -1,0 +1,33 @@
+{
+  "id": "brand:backbonejs.org",
+  "host": "backbonejs.org",
+  "kind": "reference",
+  "slug": "backbone-js",
+  "name": "Backbone.js",
+  "category": "Reference",
+  "description": "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://backbonejs.org/",
+    "finalUrl": "https://backbonejs.org/",
+    "extractedAt": "2026-09-07T23:55:23.352Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 6,
+    "colors": 17,
+    "fonts": 2,
+    "logos": 1,
+    "imagery": 1,
+    "fonts_files": 0,
+    "headings": 60,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://tiki.vn/",
+  "crawledAt": "2026-09-07T23:56:35.737Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://tiki.vn/",
+      "file": "pages/01-home.html",
+      "title": "Tiki - Mua hàng online giá tốt, hàng chuẩn, ship nhanh",
+      "h1": "Tiki - Thật nhanh, thật chất lượng, thật rẻ",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/khuyen-mai/ngay-hoi-freeship",
+      "file": "pages/02-khuyen-mai-ngay-hoi-freeship.html",
+      "title": "Tiki | Freeship Xtra 100K - TikiNow Giao nhanh 2H | Tiki",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/dien-gia-dung/c1882",
+      "file": "pages/03-dien-gia-dung-c1882.html",
+      "title": "Điện gia dụng chính hãng, giá tốt, trả góp 0% | tiki.vn",
+      "h1": "Thiết Bị Điện Gia Dụng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/o-to-xe-may-xe-dap/c8594",
+      "file": "pages/04-o-to-xe-may-xe-dap-c8594.html",
+      "title": "Mua bán ô tô, xe máy, xe đạp chính hãng giá tốt | tiki.vn",
+      "h1": "Ô Tô - Xe Máy - Xe Đạp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/do-choi-me-be/c2549",
+      "file": "pages/05-do-choi-me-be-c2549.html",
+      "title": "Đồ Chơi Cho Bé An Toàn, Chính Hãng, Giá Tốt | tiki.vn",
+      "h1": "Đồ Chơi An Toàn Cho Bé",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/lam-dep-suc-khoe/c1520",
+      "file": "pages/06-lam-dep-suc-khoe-c1520.html",
+      "title": "Mỹ Phẩm, Thực Phẩm Chức Năng Chính Hãng Giá Tốt | tiki.vn",
+      "h1": "Chăm Sóc Sắc Đẹp và Sức Khỏe",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/nha-cua-doi-song/c1883",
+      "file": "pages/07-nha-cua-doi-song-c1883.html",
+      "title": "Mua Sắm Đồ Dùng Nhà Cửa Đời Sống Online Giá Tốt | tiki.vn",
+      "h1": "Nhà Cửa - Đời Sống",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/nha-sach-tiki/c8322",
+      "file": "pages/08-nha-sach-tiki-c8322.html",
+      "title": "Nhà Sách Online Tiki Freeship, Giảm Giá Đến 50% | tiki.vn",
+      "h1": "Nhà Sách Online Tiki",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/the-thao-da-ngoai/c1975",
+      "file": "pages/09-the-thao-da-ngoai-c1975.html",
+      "title": "Thể Thao - Dã Ngoại gíá tốt, hàng chính hãng, giao nhanh | tiki.vn",
+      "h1": "Thể Thao - Dã Ngoại",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/thong-tin/tiki-doi-tra-de-dang-an-tam-mua-sam",
+      "file": "pages/10-thong-tin-tiki-doi-tra-de-dang-an-tam-mu.html",
+      "title": "Đổi ý miễn phí trong 30 ngày - Hoàn ngay 200% nếu hàng giả | Tiki",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/dien-thoai-may-tinh-bang/c1789",
+      "file": "pages/11-dien-thoai-may-tinh-bang-c1789.html",
+      "title": "Điện Thoại, Máy Tính Bảng Chính Hãng, Trả Góp 0% | tiki.vn",
+      "h1": "Điện Thoại & Máy Tính Bảng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/thiet-bi-kts-phu-kien-so/c1815",
+      "file": "pages/12-thiet-bi-kts-phu-kien-so-c1815.html",
+      "title": "Thiết bị số, phụ kiện chính hãng, giá tốt, sale lớn | tiki.vn",
+      "h1": "Thiết Bị Số - Phụ Kiện Số",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/thoi-trang-nu/c931",
+      "file": "pages/13-thoi-trang-nu-c931.html",
+      "title": "Thời Trang Nữ Đẹp, Hàng Hiệu, Xu Hướng Mới Nhất | tiki.vn",
+      "h1": "Thời Trang Nữ Thiết Kế Cao Cấp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/bach-hoa-online/c4384",
+      "file": "pages/14-bach-hoa-online-c4384.html",
+      "title": "Bách Hóa Online TikiNGON Giao Nhanh, Giá Tốt | tiki.vn",
+      "h1": "Bách Hóa Online - Đi Chợ Tại Nhà",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/thoi-trang-nam/c915",
+      "file": "pages/15-thoi-trang-nam-c915.html",
+      "title": "Thời trang nam chính hãng đa dạng phong cách, giá tốt | tiki.vn",
+      "h1": "Thời Trang Nam Cao Cấp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/cross-border-hang-quoc-te/c17166",
+      "file": "pages/16-cross-border-hang-quoc-te-c17166.html",
+      "title": "Cross Border - Hàng Quốc Tế gíá tốt, hàng chính hãng, giao nhanh | tiki.vn",
+      "h1": "Cross Border - Hàng Quốc Tế",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/laptop-may-vi-tinh-linh-kien/c1846",
+      "file": "pages/17-laptop-may-vi-tinh-linh-kien-c1846.html",
+      "title": "Laptop, Máy Tính, Linh Kiện Chính Hãng, Trả Góp 0% | tiki.vn",
+      "h1": "Laptop, Máy Tính & Linh Kiện",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/giay-dep-nam/c1686",
+      "file": "pages/18-giay-dep-nam-c1686.html",
+      "title": "Giày Dép Nam Hàng Hiệu, Bền Đẹp, Giá Tốt Nhất | tiki.vn",
+      "h1": "Giày Dép Nam Thời Trang",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/dien-tu-dien-lanh/c4221",
+      "file": "pages/19-dien-tu-dien-lanh-c4221.html",
+      "title": "Điện Tử, Điện Lạnh Chính Hãng, Trả Góp 0%, Giá Rẻ | tiki.vn",
+      "h1": "Điện Tử - Điện Lạnh",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tiki.vn/giay-dep-nu/c1703",
+      "file": "pages/20-giay-dep-nu-c1703.html",
+      "title": "Giày Dép Nữ Đẹp, Mẫu Mới, Hàng Hiệu Giá Tốt | tiki.vn",
+      "h1": "Giày Dép Nữ Xinh Xắn",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

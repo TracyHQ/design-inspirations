@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://nuxt.com/",
+  "crawledAt": "2026-09-07T23:55:07.801Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://nuxt.com/",
+      "file": "pages/01-home.html",
+      "title": "Nuxt: The Full-Stack Vue Framework",
+      "h1": "The Full-Stack Vue Framework",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/docs/4.x",
+      "file": "pages/02-docs-4-x-getting-started-introduction.html",
+      "title": "Introduction · Get Started with Nuxt v4",
+      "h1": "Introduction",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules",
+      "file": "pages/03-modules.html",
+      "title": "Nuxt Modules",
+      "h1": "Build faster with 318+ Nuxt Modules",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/templates",
+      "file": "pages/04-templates.html",
+      "title": "Nuxt Templates",
+      "h1": "Nuxt Templates",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/showcase",
+      "file": "pages/05-showcase.html",
+      "title": "Nuxt Showcase",
+      "h1": "Real-world Web Applications built with Nuxt",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/enterprise",
+      "file": "pages/06-enterprise-agencies.html",
+      "title": "Nuxt Partner Agencies",
+      "h1": "Nuxt Agencies",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/blog",
+      "file": "pages/07-blog.html",
+      "title": "Nuxt Blog",
+      "h1": "The Nuxt Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/blog/v4-5-security",
+      "file": "pages/08-blog-v4-5-security.html",
+      "title": "Nuxt Security Patch Releases · Nuxt Blog",
+      "h1": "Nuxt Security Patch Releases",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/docs/getting-started/installation",
+      "file": "pages/09-docs-getting-started-installation.html",
+      "title": "",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/docs",
+      "file": "pages/10-docs-getting-started-introduction.html",
+      "title": "",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/ui",
+      "file": "pages/11-modules-ui.html",
+      "title": "@nuxt&#x2F;ui · Nuxt Modules",
+      "h1": "@nuxt/ui",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/content",
+      "file": "pages/12-modules-content.html",
+      "title": "@nuxt&#x2F;content · Nuxt Modules",
+      "h1": "@nuxt/content",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/devtools",
+      "file": "pages/13-modules-devtools.html",
+      "title": "@nuxt&#x2F;devtools · Nuxt Modules",
+      "h1": "@nuxt/devtools",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/image",
+      "file": "pages/14-modules-image.html",
+      "title": "@nuxt&#x2F;image · Nuxt Modules",
+      "h1": "@nuxt/image",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/icon",
+      "file": "pages/15-modules-icon.html",
+      "title": "@nuxt&#x2F;icon · Nuxt Modules",
+      "h1": "@nuxt/icon",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/eslint",
+      "file": "pages/16-modules-eslint.html",
+      "title": "@nuxt&#x2F;eslint · Nuxt Modules",
+      "h1": "@nuxt/eslint",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/fonts",
+      "file": "pages/17-modules-fonts.html",
+      "title": "@nuxt&#x2F;fonts · Nuxt Modules",
+      "h1": "@nuxt/fonts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/scripts",
+      "file": "pages/18-modules-scripts.html",
+      "title": "@nuxt&#x2F;scripts · Nuxt Modules",
+      "h1": "@nuxt/scripts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/test-utils",
+      "file": "pages/19-modules-test-utils.html",
+      "title": "@nuxt&#x2F;test-utils · Nuxt Modules",
+      "h1": "@nuxt/test-utils",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nuxt.com/modules/hints",
+      "file": "pages/20-modules-hints.html",
+      "title": "@nuxt&#x2F;hints · Nuxt Modules",
+      "h1": "@nuxt/hints",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

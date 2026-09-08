@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://elementor.com/",
+  "crawledAt": "2026-09-07T23:58:52.192Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://elementor.com/",
+      "file": "pages/01-home.html",
+      "title": "Website builder: Create a Website Now | Elementor",
+      "h1": "The most powerful website builder? You.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/one/",
+      "file": "pages/02-one.html",
+      "title": "One | Elementor",
+      "h1": "Elementor One",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/website-builder/",
+      "file": "pages/03-products-website-builder.html",
+      "title": "Editor: Website Builder for WordPress: 21M+ sites | Elementor",
+      "h1": "Website builder for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/ai-page-builder/",
+      "file": "pages/04-ai-page-builder.html",
+      "title": "AI tools for WordPress website creation | Elementor",
+      "h1": "AI website builder for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/hello-theme/",
+      "file": "pages/05-hello-theme.html",
+      "title": "Hello: The best & fastest theme for WordPress | Elementor",
+      "h1": "Hello theme for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/ecommerce-builder/",
+      "file": "pages/06-ecommerce-builder.html",
+      "title": "Builder for WooCommerce: Design a store that sells",
+      "h1": "The #1 builder for WooCommerce",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/image-optimizer/",
+      "file": "pages/07-products-image-optimizer.html",
+      "title": "Image Optimizer: PNG, JPG & GIFs, convert to WebP & AVIF",
+      "h1": "Image optimization for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/ally-web-accessibility/",
+      "file": "pages/08-products-ally-web-accessibility.html",
+      "title": "Ally: Web accessibility plugin for WordPress | Elementor",
+      "h1": "Web Accessibility for WordPress sites",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/speed-performance/",
+      "file": "pages/09-speed-performance.html",
+      "title": "Speed Performance | Elementor",
+      "h1": "Optimize website performance",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/cookie-consent/",
+      "file": "pages/10-products-cookie-consent.html",
+      "title": "Cookie Consent for WordPress | Elementor",
+      "h1": "Cookie Consent for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/hosting/",
+      "file": "pages/11-hosting.html",
+      "title": "Hosting for WordPress: ultra fast, cloud, managed & secure",
+      "h1": "Cloud hosting for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/domains/",
+      "file": "pages/12-domains.html",
+      "title": "Buy a Domain Name | Register domain names with Elementor",
+      "h1": "Elementor domains",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/site-mailer/",
+      "file": "pages/13-products-site-mailer.html",
+      "title": "Site Mailer: SMTP replacement, email deliverability & logs",
+      "h1": "Email delivery for WordPress sites",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/manage/",
+      "file": "pages/14-products-manage.html",
+      "title": "Manage multiple WordPress sites from one dashboard",
+      "h1": "Site Management for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/products/angie-ai-for-wordpress/",
+      "file": "pages/15-products-angie-ai-for-wordpress.html",
+      "title": "Angie: AI for WordPress creation & management | Elementor",
+      "h1": "Agentic AI for WordPress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/solutions/agency/",
+      "file": "pages/16-solutions-agency.html",
+      "title": "Website builder for agencies | Elementor",
+      "h1": "Build client sites. Not bottlenecks.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/solutions/enterprise/",
+      "file": "pages/17-solutions-enterprises.html",
+      "title": "Website builder for enterprises | Elementor",
+      "h1": "Elementor solutions for enterprises",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/pricing/",
+      "file": "pages/18-pricing.html",
+      "title": "Elementor Website Builder Pricing Plans | Choose Your Plan",
+      "h1": "Elementor website builder pricing",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/solutions/enterprises/",
+      "file": "pages/19-solutions-enterprises.html",
+      "title": "Website builder for enterprises | Elementor",
+      "h1": "Elementor solutions for enterprises",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://elementor.com/help/connect-your-domain-to-a-website/",
+      "file": "pages/20-help-connect-your-domain-to-a-website.html",
+      "title": "Connect your domain to a website | Elementor",
+      "h1": "Connect your domain to a website",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

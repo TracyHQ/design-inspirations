@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://backbonejs.org/",
+  "crawledAt": "2026-09-07T23:55:22.822Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://backbonejs.org/",
+      "file": "pages/01-home.html",
+      "title": "Backbone.js",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://backbonejs.org/docs/backbone.html",
+      "file": "pages/02-docs-backbone.html",
+      "title": "backbone.js",
+      "h1": "backbone.js",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://backbonejs.org/test/",
+      "file": "pages/03-test.html",
+      "title": "Backbone Test Suite",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://backbonejs.org/examples/todos/index.html",
+      "file": "pages/04-examples-todos-index.html",
+      "title": "Backbone.js Todos",
+      "h1": "Todos",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://backbonejs.org/docs/examples/todos/todos.html",
+      "file": "pages/05-docs-examples-todos-todos.html",
+      "title": "todos.js",
+      "h1": "todos.js",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://backbonejs.org/docs/examples/backbone.localStorage.html",
+      "file": "pages/06-docs-examples-backbone-localstorage.html",
+      "title": "backbone.localStorage.js",
+      "h1": "backbone.localStorage.js",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

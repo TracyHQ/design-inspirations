@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" vocab="http://schema.org/">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ZOO: Joomla CCK and Content Builder - YOOtheme</title>
+<meta property="og:image" content="https://yootheme.com/media/meta-zoo.jpg">
+<meta property="twitter:card" content="summary_large_image">
+<link href="https://yootheme.com/zoo" rel="canonical">
+<meta name="description" content="ZOO is a flexible and powerful Joomla CCK and content builder, and create your very own content types with advanced custom fields.">
+<meta property="og:site_name" content="YOOtheme">
+<meta property="og:url" content="https://yootheme.com/zoo">
+<meta property="twitter:site" content="@yootheme">
+<meta property="og:title" name="twitter:title" content="ZOO: Joomla CCK and Content Builder - YOOtheme">
+<meta property="og:description" name="twitter:description" content="ZOO is a flexible and powerful Joomla CCK and content builder, and create your very own content types with advanced custom fields.">        <link href="/manifest.json?1784120272" rel="manifest">
+        <link href="/media/favicon.png?1784120274" rel="icon" sizes="any">
+        <link href="/media/favicon.svg?1784120274" rel="icon" type="image/svg+xml">
+        <link href="/media/icon-192.png?1784120274" rel="apple-touch-icon">
+        <link href="/assets/css/theme.css?1788773496" rel="stylesheet">
+        <script type="text/od-defused-script" src="/assets/uikit/dist/js/uikit.min.js?1783950287"></script>
+        <script type="text/od-defused-script" src="/assets/uikit/dist/js/uikit-icons.min.js?1783950287" defer></script>
+        <script type="text/od-defused-script" src="/assets/js/preview-modal.js?1787042994" type="module"></script>
+        <script type="text/od-defused-script" src="/assets/js/button-cart.js?1787042994" type="module"></script>
+        <script type="text/od-defused-script" src="https://stats.yootheme.com/script.js" defer data-website-id="72d423b9-00ca-4e9f-8be3-8036d524800a"></script>
+        <script type="text/od-defused-script">var $app = {"xsrf":"1ea3f9262aee43a3a3fe1286ac1bf9d84cb9660e","url":"","api":"https://api.yootheme.com/v1"};</script>
+        <script type="text/od-defused-script" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"YOOtheme","url":"https://yootheme.com"}</script>
+    </head>
+    <body>
+        <div uk-sticky="target-offset: 0; show-on-up: true; animation: uk-animation-slide-top; cls-active: uk-navbar-sticky; sel-target: .uk-navbar-container;">
+    <div class="uk-navbar-container ">
+        <div class="uk-container uk-container-expand">
+            <nav uk-navbar="align: center; mode: hover; container: body > [uk-sticky]">
+
+                <div class="uk-navbar-left">
+
+                    <a class="uk-navbar-item uk-logo" href="/" aria-label="Back to the homepage">
+                        <img src="/media/yootheme-logo.svg" width="134" height="30" alt="YOOtheme Logo" uk-svg>
+                    </a>
+
+                </div>
+
+                <div class="uk-navbar-center uk-visible@l">
+
+                    <ul class="uk-navbar-nav">
+
+                        <li>
+                            <a href>Products<img class="uk-icon uk-navbar-parent-icon" src="/media/navbar/navbar-parent-icon.svg" alt loading="lazy" width="9" height="6" uk-svg></a>
+                            <div class="uk-navbar-dropdown tm-width-subtitle-3">
+
+                                <div class="uk-grid uk-grid-small uk-grid-divider tm-navbar-dropdown-grid" uk-grid>
+                                    <div class="uk-width-2-3">
+
+                                        <div class="uk-grid uk-grid-small uk-child-width-1-2">
+                                            <div>
+
+                                                <ul class="uk-nav uk-nav-secondary">
+                                                    <li class="uk-nav-header">YOOtheme Pro</li>
+                                                    <li>
+                                                        <a href="/features" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-features.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Features</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">See all builder features</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/joomla-templates" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-joomla-templates.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Joomla Templates</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Start with a real website</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/wordpress-themes" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-wordpress-themes.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">WordPress Themes</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Start with a real website</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/updates" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-updates.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Updates</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">See what's new</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                            <div>
+
+                                                <ul class="uk-nav uk-nav-secondary">
+                                                    <li class="uk-nav-header">Other Extensions</li>
+                                                    <li>
+                                                        <a href="/widgetkit" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-widgetkit.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Widgetkit</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Galleries and sliders</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/zoo" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-zoo.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">ZOO for Joomla</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">CCK and content builder</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="uk-nav-header">Open Source</li>
+                                                    <li>
+                                                        <a href="https://getuikit.com" target="_blank" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-uikit.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">UIkit</span>
+                                                                    <span class="tm-transition-link-external" uk-icon="icon: link-external"></span>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">The front-end framework</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="uk-width-1-3">
+
+                                        <div class="uk-nav uk-nav-secondary uk-margin-small-bottom">
+                                            <div class="uk-nav-header">Latest Update</div>
+                                        </div>
+
+                                        <a href="/blog/2026/01/13/yootheme-pro-5.0-cookie-consent-manager-date-filter-and-on-click-loading-videos">
+                                            <picture><source type="image/webp" srcset="/cache/images/b3/yootheme-pro-5.0-b33a1439.webp 487w, /cache/images/27/yootheme-pro-5.0-272e412e.webp 609w, /cache/images/97/yootheme-pro-5.0-97449e42.webp 1218w" sizes="100vw"><img src="/cache/images/c2/yootheme-pro-5.0-c206329c.jpeg" width="609" height="380" alt="YOOtheme Pro 5 – Cookie Consent Manager, Date Filter and On-Click Loading Videos" loading="lazy"></picture>
+                                        </a>
+
+                                        <ul class="uk-nav uk-nav-secondary tm-nav-secondary-no-hover uk-margin-top">
+                                            <li>
+                                                <a href="/blog/2026/01/13/yootheme-pro-5.0-cookie-consent-manager-date-filter-and-on-click-loading-videos">
+                                                    <div>YOOtheme Pro 5                                                        <div class="uk-nav-subtitle">Learn everything about the release</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href>Resources<img class="uk-icon uk-navbar-parent-icon" src="/media/navbar/navbar-parent-icon.svg" alt loading="lazy" width="9" height="6" uk-svg></a>
+                            <div class="uk-navbar-dropdown tm-width-subtitle-3">
+
+                                <div class="uk-grid uk-grid-small uk-grid-divider tm-navbar-dropdown-grid" uk-grid>
+                                    <div class="uk-width-2-3">
+
+                                        <div class="uk-grid uk-grid-small uk-child-width-1-2">
+                                            <div>
+
+                                                <ul class="uk-nav uk-nav-secondary">
+                                                    <li class="uk-nav-header">Explore & Discover</li>
+                                                    <li>
+                                                        <a href="/extensions" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-extensions.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Extensions</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Get more features</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/experts" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-experts.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Experts</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Hire trusted professionals</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://discord.gg/qS9wWRC" rel="noopener" target="_blank" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-community-chat.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Community Chat</span>
+                                                                    <span class="tm-transition-link-external" uk-icon="icon: link-external"></span>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Join the conversation</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                            <div>
+
+                                                <ul class="uk-nav uk-nav-secondary">
+                                                    <li class="uk-nav-header">Learn & Get Help</li>
+                                                    <li>
+                                                        <a href="/support" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-support.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Support</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Get help quickly</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs/joomla/introduction" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-documentation.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Documentation</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Learn everything</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/help-videos" class="uk-transition-toggle">
+                                                            <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                                <div class="uk-width-auto">
+                                                                    <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-help-videos.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                                </div>
+                                                                <div class="uk-width-expand">
+                                                                    <span class="uk-text-middle">Help Videos</span>
+                                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                                    <div class="uk-nav-subtitle uk-text-truncate">Watch video tutorials</div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="uk-width-1-3">
+
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-nav-header">Build & Participate</li>
+                                            <li>
+                                                <a href="https://github.com/yootheme/starter-plugin" target="_blank" class="uk-transition-toggle">
+                                                    <div>
+                                                        <span class="uk-text-middle">Starter Plugin</span>
+                                                        <span class="tm-transition-link-external" uk-icon="icon: link-external"></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://translate.yootheme.com" target="_blank" class="uk-transition-toggle">
+                                                    <div>
+                                                        <span class="uk-text-middle">Translate</span>
+                                                        <span class="tm-transition-link-external" uk-icon="icon: link-external"></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/changelog" class="uk-transition-toggle">
+                                                    <div>
+                                                        <span class="uk-text-middle">Changelog</span>
+                                                        <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/support/question/103519" class="uk-transition-toggle">
+                                                <div>
+                                                    <span class="uk-text-middle">Feature Requests</span>
+                                                    <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                </div>
+                                                </a>
+                                            </li>
+                                             <li>
+                                                <a href="/wallpapers" class="uk-transition-toggle">
+                                                    <div>
+                                                        <span class="uk-text-middle">Wallpapers</span>
+                                                        <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/hosting" class="uk-transition-toggle">
+                                                    <div>
+                                                        <span class="uk-text-middle">Hosting</span>
+                                                        <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href>Company<img class="uk-icon uk-navbar-parent-icon" src="/media/navbar/navbar-parent-icon.svg" alt loading="lazy" width="9" height="6" uk-svg></a>
+                            <div class="uk-navbar-dropdown tm-width-subtitle-2">
+
+                                <div class="uk-grid uk-grid-small uk-grid-divider tm-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+
+                                        <ul class="uk-nav uk-nav-secondary">
+                                            <li class="uk-nav-header">Inside YOOtheme</li>
+                                            <li>
+                                                <a href="/about" class="uk-transition-toggle">
+                                                    <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                        <div class="uk-width-auto">
+                                                            <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-about.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <span class="uk-text-middle">About</span>
+                                                            <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                            <div class="uk-nav-subtitle uk-text-truncate">The company</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/careers" class="uk-transition-toggle">
+                                                    <div class="uk-width-1-1 uk-grid uk-grid-small uk-flex-middle">
+                                                        <div class="uk-width-auto">
+                                                            <div class="tm-navbar-dropdown-icon"><img src="/media/navbar/icon-careers.svg" alt loading="lazy" width="26" height="26" uk-svg></div>
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <span class="uk-text-middle">Careers</span>
+                                                            <img class="tm-transition-slide-left" src="/media/navbar/arrow-right.svg" alt loading="lazy" width="10" height="7" uk-svg>
+                                                            <div class="uk-nav-subtitle uk-text-truncate">Join the team</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div>
+
+                                        <div class="uk-nav uk-nav-secondary uk-margin-small-bottom">
+                                            <div class="uk-nav-header">Latest News</div>
+                                        </div>
+
+                                        <a href="/blog/2026/01/23/2022-2025-in-review-check-out-all-the-yootheme-highlights">
+                                            <picture><source type="image/webp" srcset="/cache/images/0d/review-2022-2025-0d56f3f0.webp 487w, /cache/images/99/review-2022-2025-9942a6e7.webp 609w, /cache/images/1b/review-2022-2025-1b5e8966.webp 1218w" sizes="100vw"><img src="/cache/images/83/review-2022-2025-83e9160b.jpeg" width="609" height="380" alt="2022-2025 in Review – Check Out All the YOOtheme Highlights" loading="lazy"></picture>
+                                        </a>
+
+                                        <ul class="uk-nav uk-nav-secondary tm-nav-secondary-no-hover uk-margin-top">
+                                            <li><a href="/blog/2026/01/23/2022-2025-in-review-check-out-all-the-yootheme-highlights">2022-2025 in Review – Check Out All the YOOtheme Highlights</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-navbar-right">
+
+                                        <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="/shop/my-account/">Sign In</a>
+                        </li>
+                    </ul>
+                    
+                    
+                                        <div class="uk-navbar-item uk-visible@m">
+                        <a class="uk-button uk-button-primary" href="/pricing">Sign Up</a>
+                    </div>
+                    <div class="uk-navbar-item uk-hidden@m">
+                        <a class="uk-button uk-button-primary uk-button-small" href="/pricing">Sign Up</a>
+                    </div>
+                    
+                    <div class="uk-navbar-item" data-cart="/shop/cart/"></div>
+
+                    <a class="uk-navbar-toggle uk-hidden@l" href="#offcanvas-mobile" uk-navbar-toggle-icon uk-toggle></a>
+
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+<main class="tm-page">
+    <section class="uk-section tm-section-zoo uk-section-large uk-light uk-flex uk-flex-middle" uk-height-viewport="offset-top: true">
+    <div class="uk-width-1-1">
+        <div class="uk-container uk-text-center">
+
+            <img src="/media/zoo/zoo.svg" width="1100" height="404" alt="ZOO - Joomla CCK and Content Builder" title="ZOO - Joomla CCK and Content Builder">
+
+            <div class=" uk-margin" uk-lightbox="toggle: a#video; video-autoplay: true;">
+
+                <p class="tm-text-lead uk-width-2xlarge uk-margin-auto uk-margin-medium-bottom">A flexible and powerful Joomla CCK and Content Builder which allows you to create your very own content types with advanced custom fields.</p>
+
+                <div>
+                    <a class="uk-button uk-button-primary uk-button-large uk-visible@s" href="/zoo/pricing">Buy Now</a>
+                    <a class="uk-button uk-button-primary uk-hidden@s" href="/zoo/pricing">Buy Now</a>
+                </div>
+
+                <nav class="uk-margin-medium">
+                    <ul class="uk-subnav uk-flex-center uk-flex-middle uk-margin-remove-bottom">
+                        <li>
+                            <a id="video" href="/media/zoo/zoo_video_tour.mp4">
+                                <img src="/media/play-light.svg" width="34" height="34" class="uk-margin-small-right" alt="Play Video Icon" uk-svg>
+                                Play Video
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://demo.yootheme.com/joomla/zoo/kitchen-daily" data-preview>Show Demos</a>
+                        </li>
+                        <li>
+                            <a href="/zoo/docs">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="/support/zoo/changelog">Changelog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="apps" class="uk-section uk-section-default uk-section-xlarge">
+    <div class="uk-container uk-container-large">
+
+        <div class="uk-width-2xlarge uk-margin-auto uk-text-center uk-margin-large-bottom">
+            <h2 class="uk-h6">The ZOO Apps</h2>
+            <p class="uk-h1 uk-margin">Managing Content Types</p>
+                <p class="uk-text-lead">Start with one of the 14 prebuilt apps to manage your content types. Choose between apps rendered with the YOOtheme Pro page builder or stand-alone apps which have their own layouts.</p>
+        </div>
+
+        <ul class="uk-tab uk-flex-center uk-margin-large-bottom" uk-switcher="animation: uk-animation-fade">
+            <li><a href>YOOtheme Pro Apps</a></li>
+            <li><a href>Stand-Alone Apps</a></li>
+        </ul>
+
+        <ul class="uk-switcher uk-margin uk-margin-medium-bottom">
+            <li>
+    
+                <ul class="uk-grid uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center">
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/kitchen-daily" data-preview>
+                            <img src="/media/zoo/apps/kitchen-daily.svg" alt="ZOO Kitchen Daily App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Kitchen Daily</h3>
+                            <p>Publish your recipes, cooking videos and daily tips.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/creative-hub" data-preview>
+                            <img src="/media/zoo/apps/creative-hub.svg" alt="ZOO Creative Hub App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Creative Hub</h3>
+                            <p>Showcase companies with their projects and clients.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/tech-space" data-preview>
+                            <img src="/media/zoo/apps/tech-space.svg" alt="ZOO Tech Space App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Tech Space</h3>
+                            <p>Create a product catalog or an E-commerce shop for your products.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/framerate" data-preview>
+                            <img src="/media/zoo/apps/framerate.svg" alt="ZOO Framerate App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Framerate</h3>
+                            <p>Present movie and TV show reviews along with their actors.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/design-bites" data-preview>
+                            <img src="/media/zoo/apps/design-bites.svg" alt="ZOO Design Bites App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Design Bites</h3>
+                            <p>Create a download directory to share your design resources.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="uk-display-block uk-link-reset uk-card uk-card-hover uk-card-body" href="https://demo.yootheme.com/joomla/zoo/design-bites/blog" data-preview>
+                            <img src="/media/zoo/apps/blog-pro.svg" alt="ZOO Blog Pro App" width="100" height="100" loading="lazy">
+                            <h3 class="uk-card-title uk-margin">Blog Pro</h3>
+                            <p>Create a blog to showcase your daily news and inspirations.</p>
+                        </a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+
+                <ul class="uk-grid uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center">
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/29/blog-29902248.webp 100w, /cache/images/5a/blog-5a505eaa.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/64/blog-6466f6fc.png" width="100" height="100" alt="ZOO Blog" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Blog</h3>
+                            <p>Easily build your own blog with comments, tags and social buttons.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/0a/product-catalog-0ac808e5.webp 100w, /cache/images/40/product-catalog-4011b4cb.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/54/product-catalog-54b11e79.png" width="100" height="100" alt="ZOO Product Catalog" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Product Catalog</h3>
+                            <p>Create a clearly arranged catalog with lots of built-in features.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/c7/cookbook-c7d4c4d4.webp 100w, /cache/images/20/cookbook-206a882d.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/a8/cookbook-a88faa4d.png" width="100" height="100" alt="ZOO Cookbook" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Cookbook</h3>
+                            <p>Build a tasty recipe database, tag and rate your favorite meals.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/ac/movie-database-ac0e4d5e.webp 100w, /cache/images/2e/movie-database-2edc104c.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/f2/movie-database-f2cbcbc1.png" width="100" height="100" alt="ZOO Movie Database" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Movie Database</h3>
+                            <p>Create a review resource of your favorite movies and actors.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/1c/business-directory-1c6ca580.webp 100w, /cache/images/4a/business-directory-4a3d2095.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/95/business-directory-956428df.png" width="100" height="100" alt="ZOO Business Directory" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Business Directory</h3>
+                            <p>Manage companies, addresses and employees with ease.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/33/download-archive-330200e5.webp 100w, /cache/images/42/download-archive-422b2f77.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/b8/download-archive-b8d637a6.png" width="100" height="100" alt="ZOO Download Archive" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Download Archive</h3>
+                            <p>Provide downloads that are protected from direct linking.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/c5/documentation-c577f30d.webp 100w, /cache/images/5a/documentation-5a00c3d9.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/7f/documentation-7f071a24.png" width="100" height="100" alt="ZOO Documentation" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Documentation</h3>
+                            <p>Create complex documentations with syntax highlighting.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-body">
+                            <picture><source type="image/webp" srcset="/cache/images/d7/pages-d70cf915.webp 100w, /cache/images/5c/pages-5ca90b0d.webp 200w" sizes="(min-width: 100px) 100px"><img src="/cache/images/16/pages-1605afc5.png" width="100" height="100" alt="ZOO Pages" loading="lazy"></picture>
+                            <h3 class="uk-card-title uk-margin">Pages</h3>
+                            <p>You need to create simple static content pages? Here you go!</p>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<section id="user-interface" class="uk-section uk-section-muted uk-section-large uk-text-center">
+    <div class="uk-container uk-container-xlarge">
+
+        <div class="uk-width-2xlarge uk-margin-auto uk-margin-large-bottom">
+            <h2 class="uk-h6">User Interface</h2>
+            <p class="uk-h1 uk-margin">Content Management Made Easy</p>
+            <p class="uk-text-lead">The ZOO CCK is perfectly integrated into the Joomla user interface. Manage all your<br class="uk-visible@xl"> apps and their content types, categories, tags and comments.</p>
+        </div>
+
+        <ul class="uk-tab uk-flex-center uk-margin-large-bottom" uk-switcher="animation: uk-animation-fade">
+            <li><a href="#">Items</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Comments</a></li>
+        </ul>
+
+        <ul class="uk-switcher">
+            <li>
+
+                <div class="uk-grid uk-grid-large uk-flex-middle">
+                    <div class="uk-width-auto@l">
+
+                        <picture><source type="image/webp" srcset="/cache/images/76/admin-items-76b836b9.webp 700w" sizes="(min-width: 700px) 700px"><img class="uk-box-shadow-xlarge" src="/cache/images/5a/admin-items-5aaebdac.png" width="700" height="450" alt="ZOO User Interface for Managing Items" loading="lazy"></picture>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l uk-flex-first@l">
+
+                        <h3>Your ZOO Apps</h3>
+                        <p>Create any number of apps with<br class="uk-visible@xl"> unlimited content types. It's the ultimate<br class="uk-visible@xl"> Joomla Content Construction Kit.</p>
+
+                        <h3 class="uk-margin-large-top">Easy Navigation</h3>
+                        <p>Quickly access the item, category, frontpage,<br class="uk-visible@xl"> comments, tags or submission manager or the<br class="uk-visible@xl"> app configuration.</p>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l">
+
+                        <h3>Item Manager</h3>
+                        <p>The main place to copy, edit, delete and<br class="uk-visible@xl"> publish items, create new ones and set the<br class="uk-visible@xl"> ordering and access level.</p>
+
+                        <h3 class="uk-margin-large-top">Item Priority</h3>
+                        <p>Besides the default ordering options you<br class="uk-visible@xl"> can prioritize selected items.</p>
+
+                    </div>
+                </div>
+
+            </li>
+            <li>
+
+                <div class="uk-grid uk-grid-large uk-flex-middle">
+                    <div class="uk-width-auto@l">
+
+                        <picture><source type="image/webp" srcset="/cache/images/4e/admin-categories-4e8bcfae.webp 700w" sizes="(min-width: 700px) 700px"><img class="uk-box-shadow-xlarge" src="/cache/images/0a/admin-categories-0a449ad2.png" width="700" height="450" alt="ZOO User Interface for Managing Categories" loading="lazy"></picture>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l uk-flex-first@l">
+
+                        <h3>Category Manager</h3>
+                        <p>Manage nested category trees <br class="uk-visible@xl">conveniently. They can be collapsed and<br class="uk-visible@xl"> expanded with one click.</p>
+
+                        <h3 class="uk-margin-large-top">Drag &amp; Drop</h3>
+                        <p>ZOO allows you to easily sort your<br class="uk-visible@xl"> categories with drag &amp; drop.</p>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l">
+
+                        <h3>Item Count</h3>
+                        <p>Display the item count of each category.<br class="uk-visible@xl"> You can easily view the related items.</p>
+
+                        <h3 class="uk-margin-large-top">Extendable</h3>
+                        <p>Just like items you can extend categories<br class="uk-visible@xl"> with your own custom fields.</p>
+
+                    </div>
+                </div>
+
+            </li>
+            <li>
+
+                <div class="uk-grid uk-grid-large uk-flex-middle">
+                    <div class="uk-width-auto@l">
+
+                        <picture><source type="image/webp" srcset="/cache/images/3e/admin-comments-3e5b2414.webp 700w" sizes="(min-width: 700px) 700px"><img class="uk-box-shadow-xlarge" src="/cache/images/aa/admin-comments-aa95ae86.png" width="700" height="450" alt="ZOO User Interface for Managing Comments" loading="lazy"></picture>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l uk-flex-first@l">
+
+                        <h3>Comments Manager</h3>
+                        <p>Keep track of your site's comments and <br class="uk-visible@xl">edit, reply, approve and delete them.</p>
+
+                        <h3 class="uk-margin-large-top">Social Connect</h3>
+                        <p>Let users authenticate with their Twitter <br class="uk-visible@xl">or Facebook accounts to comment.</p>
+
+                    </div>
+                    <div class="uk-width-1-2 uk-width-expand@l">
+
+                        <h3>Filter</h3>
+                        <p>Use filters like pending, approved <br class="uk-visible@xl">and spam to find exactly the comments <br class="uk-visible@xl">you are looking for.</p>
+
+                        <h3 class="uk-margin-large-top">Spam Protection</h3>
+                        <p>The Akismet service is <br class="uk-visible@xl">integrated to detect spam.</p>
+
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<div id="custom-fields" class="uk-section uk-section-default uk-section-xlarge">
+
+    <section>
+
+        <div class="uk-container uk-container-large">
+
+            <div class="uk-grid uk-grid-large uk-flex-middle">
+                <div class="uk-width-2-5@m uk-text-center uk-text-left@m">
+
+                    <div class="uk-inline uk-width-large">
+                        <h2 class="uk-h6">Custom Fields</h2>
+                        <p class="uk-h1 uk-margin-remove">Add Your Content Types</p>
+                        <p class="uk-text-lead uk-margin-medium-bottom">The content builder is used to create custom content types. Any combination of custom fields is possible to build the content type you need.</p>
+                        <button class="uk-button uk-button-primary" type="button" uk-toggle="target: .js-elements; animation: uk-animation-fade">Show all Custom Fields</button>
+                    </div>
+
+                </div>
+                <div class="uk-width-3-5@m uk-text-center">
+
+                    <picture><source type="image/webp" srcset="/cache/images/14/custom-fields-14c5602a.webp 792w, /cache/images/49/custom-fields-497a20e6.webp 1584w" sizes="(min-width: 792px) 792px"><img src="/cache/images/64/custom-fields-64df1193.png" width="792" height="543" alt="ZOO User Interface for Advanced Custom Fields" loading="lazy"></picture>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="js-elements uk-container uk-container-small uk-margin-xlarge" hidden>
+
+            <div class="uk-width-xlarge uk-margin-auto uk-margin-medium-bottom uk-text-center">
+                <h3 class="uk-h2">
+                    <img class="uk-margin-small-right" src="/media/zoo/content-elements/form.svg" alt="Form Elements Icon" width="32" height="40" loading="lazy">
+                    Form Elements
+                </h3>
+                <p>Form elements are the essential part of content type construction. They save all text information to be displayed in the frontend of your website.</p>
+            </div>
+
+            <table class="uk-table uk-table-divider">
+                <thead>
+                    <tr>
+                        <th class="uk-width-small">Name</th>
+                        <th class="uk-table-expand">Description</th>
+                        <th class="uk-width-small uk-text-center">Repeatable</th>
+                        <th class="uk-width-small uk-text-center">Submittable</th>
+                        <th class="uk-width-small uk-text-center">Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Text</td>
+                        <td>Single line input field</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-text">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Textarea</td>
+                        <td>Multi-column text field</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-textarea">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Radio</td>
+                        <td>Group of radio buttons</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-radio">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select</td>
+                        <td>Dropdown select box with optional multiple selections</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-select">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Checkbox</td>
+                        <td>Group of checkboxes</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-checkbox">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Link</td>
+                        <td>Link with options for the title, target and rel attribute</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-link">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>Email with optional subject or body – supports email cloaking</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-email">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>Display dates and allow selection through a date picker.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-date">View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="uk-width-2xlarge uk-margin-auto uk-margin-xlarge-top uk-margin-medium-bottom uk-text-center">
+                <h3 class="uk-h2">
+                    <img class="uk-margin-small-right" src="/media/zoo/content-elements/media.svg" alt="Media Elements Icon" width="32" height="40" loading="lazy">
+                    Media Elements
+                </h3>
+                <p>ZOO offers various elements to display all kinds of media. For example, you can display single images or galleries with lightboxes, slideshows and integrated thumbnail creation.</p>
+            </div>
+
+            <table class="uk-table uk-table-divider">
+                <thead>
+                    <tr>
+                        <th class="uk-width-small">Name</th>
+                        <th class="uk-table-expand">Description</th>
+                        <th class="uk-width-small uk-text-center">Submittable</th>
+                        <th class="uk-width-small uk-text-center">Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Image</td>
+                        <td>Display an image which can be resized – supports custom links and titles.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-image">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Media</td>
+                        <td>Display HTML5 video and audio formats and videos from YouTube and Vimeo.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-media">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Download</td>
+                        <td>Display a downloadable file which can be protected from direct linking.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-download">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gallery</td>
+                        <td>Image gallery based on the Widgetkit Gallery with Slideshow, Spotlight and Lightbox.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-gallery">View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="uk-width-2xlarge uk-margin-auto uk-margin-xlarge-top uk-margin-medium-bottom uk-text-center">
+                <h3 class="uk-h2">
+                    <img class="uk-margin-small-right" src="/media/zoo/content-elements/social.svg" alt="Social Elements Icon" width="32" height="40" loading="lazy">
+                    Social Elements
+                </h3>
+                <p>Social elements allow your users to communicate and interact with you and each other through your website. These elements are typically used for blogs but can also add a social feel to any type of app.</p>
+            </div>
+
+            <table class="uk-table uk-table-divider">
+                <thead>
+                    <tr>
+                        <th class="uk-width-small">Name</th>
+                        <th class="uk-table-expand">Description</th>
+                        <th class="uk-width-small uk-text-center">Submittable</th>
+                        <th class="uk-width-small uk-text-center">Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rating</td>
+                        <td>Display an ajaxed based rating system between 3 and 10 stars.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-rating">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Social Buttons</td>
+                        <td>Display Facebook Like and Twitter Tweet buttons.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-social-buttons">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Social Bookmarks</td>
+                        <td>Display icons for Google, Facebook, Reddit, Twitter and Email to share items.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-social-bookmarks">View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="uk-width-2xlarge uk-margin-auto uk-margin-xlarge-top uk-margin-medium-bottom uk-text-center">
+                <h3 class="uk-h2">
+                    <img class="uk-margin-small-right" src="/media/zoo/content-elements/web.svg" alt="Web Services Elements Icon" width="32" height="40" loading="lazy">
+                    Web Service Elements
+                </h3>
+                <p>These elements implement 3rd party web applications for various purposes – most of them are social web services. Usually, you must have an account at the respective third-party website to use their service.</p>
+            </div>
+
+            <table class="uk-table uk-table-divider">
+                <thead>
+                    <tr>
+                        <th class="uk-width-small">Name</th>
+                        <th class="uk-table-expand">Description</th>
+                        <th class="uk-width-small uk-text-center">Submittable</th>
+                        <th class="uk-width-small uk-text-center">Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google Maps</td>
+                        <td>Display any item on Google Maps.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-google-maps">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Disqus</td>
+                        <td>Integrate Disqus comment service.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-disqus">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Flickr</td>
+                        <td>Integrate Flickr photo sharing service.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-flickr">View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="uk-width-2xlarge uk-margin-auto uk-margin-xlarge-top uk-margin-medium-bottom uk-text-center">
+                <h3 class="uk-h2">
+                    <img class="uk-margin-small-right" src="/media/zoo/content-elements/others.svg" alt="Further Elements Icon" width="32" height="40" loading="lazy">
+                    Other Elements
+                </h3>
+                <p>This set of elements extends your item’s functionality and also the way your content relates.</p>
+            </div>
+
+            <table class="uk-table uk-table-divider">
+                <thead>
+                    <tr>
+                        <th class="uk-width-small">Name</th>
+                        <th class="uk-table-expand">Description</th>
+                        <th class="uk-width-small uk-text-center">Submittable</th>
+                        <th class="uk-width-small uk-text-center">Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Group</td>
+                        <td>Display repeatable groups of text, textarea and image fields.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-country">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Related Items</td>
+                        <td>Display related items from any ZOO app.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-related-items">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Related Categories</td>
+                        <td>Display any related categories.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-related-categories">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Joomla Module</td>
+                        <td>Display any Joomla module in the item.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-joomla-module">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>Display a dropdown select box of all countries with optional multiple selections.</td>
+                        <td class="uk-text-center uk-text-success"><span uk-icon="icon: check; ratio: 1.2"></span></td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-country">View</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Widgetkit</td>
+                        <td>Display Widgetkit widgets anywhere in ZOO.</td>
+                        <td class="uk-text-center">-</td>
+                        <td class="uk-text-center"><a class="uk-link-text" href="zoo/docs/element-widgetkit">View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+    <section class="uk-container uk-container-large uk-margin-xlarge-top">
+
+        <hr class="uk-margin-xlarge">
+
+        <div id="features" class="uk-width-2xlarge uk-margin-auto uk-margin-large-bottom uk-text-center">
+            <h2 class="uk-h6">Powerful CCK Features</h2>
+            <p class="uk-h1 uk-margin uk-margin-remove-bottom">Get Everything You Need for Building Amazing Websites</p>
+        </div>
+
+        <div class="uk-grid uk-grid-large uk-child-width-1-2@s uk-child-width-1-3@m">
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/92/features-usability-92998ef2.webp 413w, /cache/images/05/features-usability-05bdcead.webp 609w, /cache/images/9d/features-usability-9d9bc498.webp 826w, /cache/images/55/features-usability-555705eb.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/40/features-usability-406f63bc.png" width="609" height="287" alt="ZOO Custom Types" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Custom Types</h3>
+                    <p>Use your custom content types to create all the items you need, e.g. articles, movies or different product types.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/bf/features-elements-bf795a32.webp 413w, /cache/images/26/features-elements-2661d8e9.webp 609w, /cache/images/b0/features-elements-b07b1058.webp 826w, /cache/images/78/features-elements-78b7d12b.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/14/features-elements-14ef4165.png" width="609" height="287" alt="ZOO Element Library" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Element Library</h3>
+                    <p>Choose from a rich set of elements like forms, images, videos, ratings and more to build custom types.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/fb/features-categories-fbc3e428.webp 413w, /cache/images/e4/features-categories-e4f7a2b6.webp 609w, /cache/images/f4/features-categories-f4c1ae42.webp 826w, /cache/images/3c/features-categories-3c0d6f31.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/1a/features-categories-1aa3459e.png" width="609" height="287" alt="ZOO Template Manager" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Template Manager</h3>
+                    <p>Arrange your content via drag &amp; drop! Just assign the elements to lay out positions in pre-built templates.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/8c/features-widgetkit-8c91a8fc.webp 413w, /cache/images/d5/features-widgetkit-d5c11275.webp 609w, /cache/images/83/features-widgetkit-8393e296.webp 826w, /cache/images/4b/features-widgetkit-4b5f23e5.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/8d/features-widgetkit-8d9906da.png" width="609" height="287" alt="ZOO Widgetkit Integration" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Widgetkit Integration</h3>
+                    <p>Combine the power of ZOO and Widgetkit to create slideshows, galleries and more based on ZOO items.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/31/features-comments-31b98402.webp 413w, /cache/images/08/features-comments-08ab54cf.webp 609w, /cache/images/3e/features-comments-3ebbce68.webp 826w, /cache/images/f6/features-comments-f6770f1b.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/1c/features-comments-1ce06d78.png" width="609" height="287" alt="ZOO Comment System" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Comment System</h3>
+                    <p>Nested comments with spam protection and support for Gravatar, Twitter and Facebook are included.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/a4/features-tags-a4709aba.webp 413w, /cache/images/16/features-tags-16369800.webp 609w, /cache/images/ab/features-tags-ab72d0d0.webp 826w, /cache/images/63/features-tags-63be11a3.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/fd/features-tags-fd950b13.png" width="609" height="287" alt="ZOO Tag System" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Tag System</h3>
+                    <p>Managing your tags is a breeze with text suggestions, auto completion and multiple selections.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/06/features-frontendsubmission-0605a0f1.webp 413w, /cache/images/2f/features-frontendsubmission-2fef5a52.webp 609w, /cache/images/09/features-frontendsubmission-0907ea9b.webp 826w, /cache/images/c1/features-frontendsubmission-c1cb2be8.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/d3/features-frontendsubmission-d37fede3.png" width="609" height="287" alt="ZOO Frontend Submission" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Frontend Submission</h3>
+                    <p>Use our drag &amp; drop form builder to let your users submit content from the frontend of your website.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/f5/features-frontendediting-f5102517.webp 413w, /cache/images/0c/features-frontendediting-0c478570.webp 609w, /cache/images/fa/features-frontendediting-fa126f7d.webp 826w, /cache/images/32/features-frontendediting-32deae0e.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/81/features-frontendediting-815b9241.png" width="609" height="287" alt="ZOO Frontend Editing" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Frontend Editing</h3>
+                    <p>Trusted authors can review and manage created content directly from the frontend of your website.</p>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="uk-panel">
+                    <picture><source type="image/webp" srcset="/cache/images/80/features-importers-80d1f5ab.webp 413w, /cache/images/3d/features-importers-3d1acf2c.webp 609w, /cache/images/8f/features-importers-8fd3bfc1.webp 826w, /cache/images/47/features-importers-471f7eb2.webp 849w" sizes="(min-width: 960px) 413px,(min-width: 640px) calc((100vw - 100px) / 2),100vw"><img src="/cache/images/76/features-importers-761b5f1d.png" width="609" height="287" alt="ZOO Importers" uk-img></picture>
+                    <h3 class="uk-h4 uk-margin">Importers</h3>
+                    <p>Automatically import your content from Joomla, CSV files and popular Joomla components.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <h3 class="uk-h2 uk-text-center uk-margin-xlarge-top uk-margin-large-bottom">More Features</h3>
+
+        <div class="uk-grid uk-grid-large uk-child-width-1-2@s uk-child-width-1-3@m">
+            <div>
+
+                <ul class="uk-list">
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Unlimited Apps and Content Types</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Extendible App Parameters</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Pre-built Template Layouts</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Lots of Style Settings</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Automatic Image Sizing and Caching</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Render Templates for Elements</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Repeat Functionality for Elements</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Powerful Related Items Element</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Drag &amp; Drop Category Sorting</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Extend Categories With Fields</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Multiple Category Item Assignment</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Advanced Item Ordering</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Automatically Generated Slugs</li>
+                </ul>
+
+            </div>
+            <div>
+
+                <ul class="uk-list">
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Easy Upgrades That Preserve Settings</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Support &amp; Regular Updates</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> jQuery for All Scripts</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Built for Developers</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Use Events to Hook Into ZOO</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Email Notification for Comments</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Akismet Spam Protection</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Avatars Provided by Gravatar Service</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Black List Comments by IP &amp; more</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Automatic URL Linking in Comments</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Highlighted Author Comments</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> UTF-8 Characters in Alpha Index</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Alpha Index for Categories &amp; Items</li>
+                </ul>
+
+            </div>
+            <div>
+
+                <ul class="uk-list">
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Blog Template for Warp Themes</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Google Maps Integration</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Item Module With Its Own Layouts</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Tag Cloud Module</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Latest Comments Module</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Joomla Search Plugin</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Natural Language Search</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Fast Search Index</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Admin Quick Icon Module</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Shortcodes Show Content Anywhere</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Native Joomla SEF Support</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Joomla Plugins Work Inside ZOO</li>
+                    <li><span class="uk-text-success uk-margin-small-right" uk-icon="check"></span> Email Notification for Submissions</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+</div>
+
+<section class="uk-section-secondary uk-position-relative">
+    <div class="uk-section uk-section-xlarge uk-background-cover" uk-parallax="bgy: -140" data-src="/cache/images/8e/zoo-bg-8eda71df.jpeg" data-sources="[{&quot;type&quot;:&quot;image\/webp&quot;,&quot;srcset&quot;:&quot;\/cache\/images\/f1\/zoo-bg-f1d28470.webp 2449w, \/cache\/images\/a5\/zoo-bg-a5f7fe73.webp 2560w&quot;,&quot;sizes&quot;:&quot;(max-width: 959px) 2449px, 100vw&quot;}]" uk-img>
+
+        <div class="uk-position-cover tm-background-gradient"></div>
+
+        <div class="uk-container uk-container-large uk-position-relative">
+
+            <div class="uk-grid uk-text-center uk-text-left@m">
+                <div class="uk-width-expand@m">
+
+                    <h2 class="uk-h1">Get the ZOO extension for Joomla</h2>
+                    <p class="uk-text-lead uk-width-large@m">Join a global community of web professionals, risk-free with a 30-day money-back guarantee.</p>
+                    <p class="uk-margin-medium">
+                        <a class="uk-button tm-button-primary uk-button-large" href="/zoo/pricing">Buy ZOO</a>
+                    </p>
+
+                </div>
+                <div class="uk-width-auto@m uk-text-right@m">
+
+                    <div>Starting at</div>
+                    <div class="uk-heading-xlarge uk-margin-remove">159€</div>
+                    <div>per year</div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    <section class="uk-section uk-section-default tm-footer">
+    <div class="uk-container uk-container-large">
+
+        <div class="uk-grid uk-grid-column-large">
+            <div class="uk-width-large@l">
+
+                <a class="uk-logo" href="/" aria-label="Back to the homepage">
+                    <img src="/media/yootheme-logo.svg" width="190" height="43" alt="YOOtheme Logo" uk-svg>
+                </a>
+
+                <p class="uk-text-small uk-width-xlarge">YOOtheme Pro is a complete WordPress and Joomla website builder for agencies, freelancers and developers to build professional websites and WooCommerce shops.</p>
+
+                <div class="uk-margin">
+                    <ul class="uk-grid-small uk-flex-middle uk-grid">
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: youtube" href="https://www.youtube.com/yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on YouTube; delay: 500" aria-label="Follow us on YouTube"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: discord" href="https://discord.gg/qS9wWRC" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Discord; delay: 500" aria-label="Follow us on Discord"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: x" href="https://x.com/yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on X; delay: 500" aria-label="Follow us on X"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: facebook" href="https://facebook.com/yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Facebook; delay: 500" aria-label="Follow us on Facebook"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: instagram" href="https://instagram.com/yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Instagram; delay: 500" aria-label="Follow us on Instagram"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: linkedin" href="https://www.linkedin.com/company/yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on LinkedIn; delay: 500" aria-label="Follow us on LinkedIn"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: tiktok" href="https://www.tiktok.com/@yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on TikTok; delay: 500" aria-label="Follow us on TikTok"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: bluesky" href="https://bsky.app/profile/yootheme.bsky.social" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Bluesky; delay: 500" aria-label="Follow us on Bluesky"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: threads" href="https://www.threads.net/@yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Threads; delay: 500" aria-label="Follow us on Threads"></a></li>
+                        <li><a class="uk-link-reset" uk-icon="ratio: 1.1; icon: mastodon" href="https://mastodon.social/@yootheme" rel="noopener" target="_blank" uk-tooltip="title: Follow us on Mastodon; delay: 500" aria-label="Follow us on Mastodon"></a></li>
+                    </ul>
+                </div>
+
+                <form class="js-newsletter uk-form-stacked uk-margin-medium-top" method="POST" action="https://a8e0209e.sibforms.com/serve/MUIFAFOC4myPCNA5KoHArdXSdve6oEmKjXaBLATrcz5RsWAF6Lawn6XmcUbtT6nBRl9oTm2omJ9ztTbG4rymCMq_kvIVQGpObL9nCq8j1i5GeWE6R16xAzu_odluisDM0KIoUAmT1RlEbDjtfS3gbvZXA8lyL0VXwuRgrMW61uer3adIiVZmYAW9_AZG9SrIElkQfbnm225PnOau">
+
+                    <label class="uk-form-label" for="form-email">
+                        <span class="js-form-prompt">Subscribe to our newsletter</span>
+                        <span class="js-form-success uk-text-success uk-hidden">Thanks! Check your email to confirm the subscription.</span>
+                    </label>
+
+                    <div class="uk-inline">
+                        <button class="uk-form-icon uk-form-icon-flip" type="submit" uk-icon="icon: arrow-right" aria-label="Subscribe"></button>
+                        <input class="uk-input uk-width-large" type="email" id="form-email" name="EMAIL" placeholder="Enter your email" autocomplete="off" required>
+                    </div>
+
+                    <input type="hidden" name="email_address_check" value="">
+                    <input type="hidden" name="locale" value="en">
+                    <input type="hidden" name="html_type" value="simple">
+
+                    <p class="uk-text-small uk-margin-small">By providing your email, you agree to our <a class="uk-link-muted" href="/privacy">Privacy Policy</a>.</p>
+
+                </form>
+
+                <p class="uk-text-small uk-margin-medium">Copyright © YOOtheme. All rights reserved.</p>
+
+            </div>
+            <div class="uk-width-expand@l">
+
+                <nav class="uk-grid uk-child-width-1-2 uk-child-width-1-4@s uk-margin-small-top">
+                    <div>
+
+                        <h3 class="uk-h5">YOOtheme Pro</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/features">Features</a></li>
+                            <li><a href="/joomla-templates">Joomla Templates</a></li>
+                            <li><a href="/wordpress-themes">WordPress Themes</a></li>
+                            <li><a href="/updates">Updates</a></li>
+                            <li><a href="/pricing">Pricing</a></li>
+                            <li><a href="/pricing#pre-sales-faq">Pre-sale FAQ</a></li>
+                        </ul>
+
+                        <h3 class="uk-h5">Other Products</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/widgetkit">Widgetkit</a></li>
+                            <li><a href="/zoo">ZOO</a></li>
+                            <li><a href="https://getuikit.com" target="_blank"><span class="uk-text-middle">UIkit</span><span class="uk-margin-xsmall-left" uk-icon="icon: link-external; ratio: 0.8"></span></a></li>
+                        </ul>
+
+                    </div>
+                    <div>
+
+                        <h3 class="uk-h5">Ecosystem</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/extensions">Extensions</a></li>
+                            <li><a href="/experts">Experts</a></li>
+                            <li><a href="https://discord.gg/qS9wWRC" rel="noopener" target="_blank"><span class="uk-text-middle">Community Chat</span><span class="uk-margin-xsmall-left" uk-icon="icon: link-external; ratio: 0.8"></span></a></li>
+                        </ul>
+
+                        <h3 class="uk-h5">Other Resources</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/wallpapers">Wallpapers</a></li>
+                            <li><a href="/hosting">Hosting</a></li>
+                        </ul>
+
+                    </div>
+                    <div>
+
+                        <h3 class="uk-h5">Help Center</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/support">Support</a></li>
+                            <li><a href="/docs/joomla/introduction">Documentation</a></li>
+                            <li><a href="/help-videos">Help Videos</a></li>
+                        </ul>
+
+                        <h3 class="uk-h5">Developers</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="https://github.com/yootheme/starter-plugin" target="_blank"><span class="uk-text-middle">Starter Plugin</span><span class="uk-margin-xsmall-left" uk-icon="icon: link-external; ratio: 0.8"></span></a></li>
+                            <li><a href="https://translate.yootheme.com" target="_blank"><span class="uk-text-middle">Translate</span><span class="uk-margin-xsmall-left" uk-icon="icon: link-external; ratio: 0.8"></span></a></li>
+                            <li><a href="/changelog">Changelog</a></li>
+                            <li><a href="/support/question/103519">Feature Requests</a></li>
+                        </ul>
+
+                    </div>
+                    <div>
+
+                        <h3 class="uk-h5">Company</h3>
+
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/about#contact">Contact</a></li>
+                            <li><a href="/terms">Terms of Service</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/imprint">Imprint</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script type="text/od-defused-script">
+
+    document.querySelectorAll('form.js-newsletter').forEach((form) => {
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            try {
+                const res = await fetch(form.action + '?isAjax=1', { method: form.method, body: new FormData(form) });
+                const input = form.querySelector('input[type=email]');
+                const prompt = form.querySelector('.js-form-prompt');
+                const success = form.querySelector('.js-form-success');
+
+                if (res.ok) {
+                    input.value = '';
+                    prompt.classList.add('uk-hidden');
+                    success.classList.remove('uk-hidden');
+                }
+
+            } catch (error) {
+            }
+        });
+    });
+
+</script>
+</main>
+
+<div id="offcanvas-mobile" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <div class="uk-margin-bottom">
+            <a class="uk-logo" href="/" aria-label="Back to the homepage"><img src="/media/yootheme-logo.svg" width="134" height="30" alt="YOOtheme Logo" uk-svg></a>
+        </div>
+
+        <ul class="uk-nav uk-nav-primary uk-margin-small-bottom">
+            <li><a href="/features">Features</a></li>
+            <li><a href="/joomla-templates">Joomla Templates</a></li>
+            <li><a href="/wordpress-themes">WordPress Themes</a></li>
+            <li><a href="/updates">Updates</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+
+        
+            <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="/pricing">Start Today</a>
+
+        
+        <hr class="uk-margin-medium">
+
+        <div class="uk-h4 uk-margin-remove-top uk-margin-small-bottom">Other Products</div>
+
+        <ul class="uk-nav uk-nav-default uk-margin-small-bottom">
+            <li><a href="/widgetkit">Widgetkit</a></li>
+            <li><a href="/zoo">ZOO</a></li>
+        </ul>
+
+        <div class="uk-h4 uk-margin-remove-top uk-margin-small-bottom">Resources</div>
+
+        <ul class="uk-nav uk-nav-default uk-margin-small-bottom">
+            <li><a href="/extensions">Extensions</a></li>
+            <li><a href="/experts">Experts</a></li>
+            <li><a href="https://discord.gg/qS9wWRC" rel="noopener" target="_blank"><span class="uk-text-middle">Community Chat</span><span class="uk-margin-xsmall-left" uk-icon="icon: link-external; ratio: 0.8"></span></a></li>
+            <li><a href="/support">Support</a></li>
+            <li><a href="/docs/joomla/introduction">Documentation</a></li>
+            <li><a href="/help-videos">Help Videos</a></li>
+        </ul>
+
+    </div>
+</div>
+    </body>
+</html>

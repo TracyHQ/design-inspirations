@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://glossier.com/",
+  "crawledAt": "2026-09-07T23:56:04.887Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://glossier.com/",
+      "file": "pages/01-home.html",
+      "title": "Glossier",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/",
+      "file": "pages/02-home.html",
+      "title": "Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/labor-day-sale",
+      "file": "pages/03-collections-labor-day-sale.html",
+      "title": "Labor Day Sale &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/products/balm-dotcom-quintet",
+      "file": "pages/04-products-balm-dotcom-quintet.html",
+      "title": "The Balm Dotcom Quintet &ndash; Glossier",
+      "h1": "The Balm Dotcom Quintet",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/products/balm-dotcom-trio",
+      "file": "pages/05-products-balm-dotcom-trio.html",
+      "title": "Balm Dotcom Trio &ndash; Glossier",
+      "h1": "Balm Dotcom Trio",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/skincare",
+      "file": "pages/06-collections-skincare.html",
+      "title": "All Skincare &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/makeup",
+      "file": "pages/07-collections-makeup.html",
+      "title": "Makeup &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/balms",
+      "file": "pages/08-collections-balms.html",
+      "title": "Balms &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/body",
+      "file": "pages/09-collections-body.html",
+      "title": "All Body &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/fragrance",
+      "file": "pages/10-collections-fragrance.html",
+      "title": "Fragrance &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/glossiwear",
+      "file": "pages/11-collections-glossiwear.html",
+      "title": "Glossier Goods",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/sets",
+      "file": "pages/12-collections-sets.html",
+      "title": "All Sets &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/all",
+      "file": "pages/13-collections-all.html",
+      "title": "Shop All &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/pages/locations",
+      "file": "pages/14-pages-locations.html",
+      "title": "Locations &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/best-sellers",
+      "file": "pages/15-collections-best-sellers.html",
+      "title": "Best-sellers &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/products/gift-card",
+      "file": "pages/16-products-gift-card.html",
+      "title": "Digital Gift Card &ndash; Glossier",
+      "h1": "Digital Gift Card",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/pages/i-love-ny",
+      "file": "pages/17-pages-i-love-ny.html",
+      "title": "I Love NY &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/back-to-school-edit",
+      "file": "pages/18-collections-back-to-school-edit.html",
+      "title": "Back to School Edit &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/cleansers",
+      "file": "pages/19-collections-cleansers.html",
+      "title": "Cleansers &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.glossier.com/collections/treatments",
+      "file": "pages/20-collections-treatments.html",
+      "title": "Treatments &ndash; Glossier",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

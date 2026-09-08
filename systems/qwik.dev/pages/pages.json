@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://qwik.dev/",
+  "crawledAt": "2026-09-07T23:55:14.090Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://qwik.dev/",
+      "file": "pages/01-home.html",
+      "title": "Framework reimagined for the edge! 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/",
+      "file": "pages/02-docs.html",
+      "title": "Overview | Introduction 📚 Qwik Documentation",
+      "h1": "Welcome to Qwik",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/ecosystem/",
+      "file": "pages/03-ecosystem.html",
+      "title": "Qwik Ecosystem 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/tutorial/welcome/overview/",
+      "file": "pages/04-tutorial-welcome-overview.html",
+      "title": "Welcome to Qwik Tutorials 📚 Qwik Documentation",
+      "h1": "Qwik Tutorial Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/examples/introduction/hello-world/",
+      "file": "pages/05-examples-introduction-hello-world.html",
+      "title": "Hello World 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/blog/",
+      "file": "pages/06-blog.html",
+      "title": "Qwik Blog 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/chat",
+      "file": "pages/07-invite-tsncmd6ugw.html",
+      "title": "Qwik",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/concepts/resumable/",
+      "file": "pages/08-docs-concepts-resumable.html",
+      "title": "Resumable | Concepts 📚 Qwik Documentation",
+      "h1": "Resumable vs. Hydration",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/concepts/progressive/",
+      "file": "pages/09-docs-concepts-progressive.html",
+      "title": "Progressive | Concepts 📚 Qwik Documentation",
+      "h1": "Progressive",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/showcase/",
+      "file": "pages/10-showcase.html",
+      "title": "Qwik Sites Showcase 📚 Qwik Documentation",
+      "h1": "Showcase",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/examples/introduction/hello-world",
+      "file": "pages/11-examples-introduction-hello-world.html",
+      "title": "Hello World 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/ecosystem",
+      "file": "pages/12-ecosystem.html",
+      "title": "Qwik Ecosystem 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/qwikcity/",
+      "file": "pages/13-docs-qwikcity.html",
+      "title": "Overview | Qwik City 📚 Qwik Documentation",
+      "h1": "Qwik City",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/playground/",
+      "file": "pages/14-playground.html",
+      "title": "Playground 📚 Qwik Documentation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/press/",
+      "file": "pages/15-press.html",
+      "title": "Qwik - Framework reimagined for the edge",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/getting-started/",
+      "file": "pages/16-docs-getting-started.html",
+      "title": "Getting Started | Introduction 📚 Qwik Documentation",
+      "h1": "Getting Started Qwikly",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/project-structure/",
+      "file": "pages/17-docs-project-structure.html",
+      "title": "Project Structure | Qwik City 📚 Qwik Documentation",
+      "h1": "Project Structure",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/faq/",
+      "file": "pages/18-docs-faq.html",
+      "title": "Frequently Asked Questions | Introduction 📚 Qwik Documentation",
+      "h1": "FAQ",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/core/overview/",
+      "file": "pages/19-docs-core-overview.html",
+      "title": "Overview | Components 📚 Qwik Documentation",
+      "h1": "Components",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://qwik.dev/docs/core/state/",
+      "file": "pages/20-docs-core-state.html",
+      "title": "State | Components 📚 Qwik Documentation",
+      "h1": "State",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

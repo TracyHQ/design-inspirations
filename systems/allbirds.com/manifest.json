@@ -1,0 +1,35 @@
+{
+  "id": "brand:allbirds.com",
+  "host": "allbirds.com",
+  "kind": "reference",
+  "slug": "allbirds",
+  "name": "Allbirds",
+  "category": "Reference",
+  "description": "Allbirds: The world’s most comfortable shoes, flats, and clothing made with natural materials like merino wool and eucalyptus. FREE shipping & returns.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://allbirds.com/",
+    "finalUrl": "https://allbirds.com/",
+    "extractedAt": "2026-09-07T23:55:49.536Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "accent: #000000 has no hue and the site has no chromatic colour; kept (monochrome brand)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 17,
+    "fonts": 5,
+    "logos": 2,
+    "imagery": 8,
+    "fonts_files": 0,
+    "headings": 56,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

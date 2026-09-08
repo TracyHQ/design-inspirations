@@ -1,0 +1,463 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Debian -- Debian Website in different Languages </title>
+  <link rel="author" href="mailto:webmaster@debian.org">
+  <meta name="Generator" content="WML 2.32.0">
+  <meta name="Modified" content="2026-08-07 11:40:08">
+  <meta name="viewport" content="width=device-width">
+  <meta name="mobileoptimized" content="300">
+  <meta name="HandheldFriendly" content="true">
+<link href="../debhome.css" rel="stylesheet" type="text/css">
+   <link href="../startpage.css" rel="stylesheet" type="text/css">
+   <link href="../5img-carousel-slider.css" rel="stylesheet" type="text/css">
+  <link href="../debian-en.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="Keywords" content="debian, GNU, linux, unix, open source, free, DFSG">
+<link rel="search" type="application/opensearchdescription+xml" title="Debian website search" href="../search.en.xml">
+</head>
+<body>
+<div id="header">
+  <div id="upperheader">
+    <div id="logo">
+    <a href="../" title="Debian Home"><img src="../Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a>
+    </div> <!-- end logo -->
+    <div id="searchbox">
+      <form name="p" method="get" action="https://search.debian.org/cgi-bin/omega">
+      <p>
+<input type="hidden" name="DB" value="en">
+        <input name="P" value="" size="14">
+        <input type="submit" value="Search">
+      </p>
+      </form>
+    </div>   <!-- end sitetools -->
+  </div> <!-- end upperheader -->
+  <!--UdmComment-->
+  <div id="navbar">
+    <p class="hidecss"><a href="#content">Skip Quicknav</a></p>
+    <ul>
+      <!-- Link to Debian's own Social Media resources -->
+      <li><a href="https://bits.debian.org/" title="Bits from Debian">Blog</a></li>
+      <li><a href="https://micronews.debian.org" title="Micronews from Debian">Micronews</a></li>
+      <li><a href="https://planet.debian.org/" title="The Planet of Debian">Planet</a></li>
+      <li><a href="https://wiki.debian.org/" title="The Debian Wiki">Wiki</a></li>
+    </ul>
+  </div> <!-- end navbar -->
+  <p id="breadcrumbs">&nbsp; </p>
+</div> <!-- end header -->
+<!--/UdmComment-->
+<div id="content">
+<h1>Debian Website in different Languages</h1>
+<link href="../font-awesome.css" rel="stylesheet" type="text/css">
+<div id="toc">
+  <ul class="toc">
+    <li><a href="#intro">Content Negotiation</a></li>
+    <li><a href="#howtoset">How to set a Web Browser's Language</a></li>
+    <li><a href="#override">How to override the Settings</a></li>
+    <li><a href="#fix">Troubleshooting</a></li>
+  </ul>
+</div>
+<h2><a id="intro">Content Negotiation</a></h2>
+<p>
+A team of <a href="../devel/website/translating">translators</a>
+works on the Debian website to convert it for a growing
+number of different languages. But how does the language
+switch in the web browser work? A standard called
+<a href="../devel/website/content_negotiation">content negotiation</a>
+allows users to set their preferred language(s) for web content. The
+version they see is negotiated between the web browser and the web server:
+the browser sends the preferences to the server, and the server then
+decides which version to deliver (based on the users' preferences and
+the available versions).
+</p>
+<p style="text-align:center"><button type="button"><span class="fas fa-book-open fa-2x"></span> <a href="http://www.w3.org/International/questions/qa-lang-priorities">Read more at W3C</a></button></p>
+<p>
+Not everyone knows about content negotiation, so links at the bottom
+of every Debian page point to other available versions. Please note
+that selecting a different language from this list will only affect
+the current page. It doesn't change the default language of your web
+browser. If you follow another link to a different page, you will see
+it in the default language again.
+</p>
+<p>
+In order to change your default language, you have two options:
+</p>
+<ul>
+  <li><a href="#howtoset">Configure your web browser</a></li>
+  <li><a href="#override">Override your browser's language preferences</a></li>
+</ul>
+<p>
+Jump straight to the configuration instructions for these web browsers:</p>
+<p>
+  [<a href="#chromium">Chrome/Chromium</a>]
+  [<a href="#elinks">ELinks</a>]
+  [<a href="#epiphany">Epiphany</a>]
+  [<a href="#mozillafirefox">Firefox</a>]
+  [<a href="#ibrowse">IBrowse</a>]
+  [<a href="#icab">iCab</a>]
+  [<a href="#iceweasel">IceCat (Iceweasel)</a>]
+  [<a href="#ie">Internet Explorer</a>]
+  [<a href="#konqueror">Konqueror</a>]
+  [<a href="#lynx">Lynx</a>]
+  [<a href="#edge">Microsoft Edge</a>]
+  [<a href="#opera">Opera</a>]
+  [<a href="#safari">Safari</a>]
+  [<a href="#w3m">W3M</a>]
+  [<a href="#vivaldi">Vivaldi</a>]
+</p>
+<aside>
+<p><span class="fas fa-caret-right fa-3x"></span> The original language of the Debian website is English. Therefore, it's a good idea to add English (<code>en</code>) at the bottom of your language list. This works as a backup in case a page hasn't yet been translated into any of your preferred languages.</p>
+</aside>
+<h2><a id="howtoset">How to set a Web Browser's Language</a></h2>
+<p>
+Before we describe how to configure the language settings in different
+web browsers, some general remarks. Firstly, it's a good idea to include
+all languages you speak to your list of preferred languages. For example,
+if you're a native French speaker, you can choose <code>fr</code> as your
+first language, followed by English with the language code <code>en</code>.
+</p>
+<p>
+Secondly, in some browsers you can enter language codes instead of
+choosing from a menu. If that's the case, keep in mind that creating
+a list like <code>fr, en</code> doesn't define your preference. Instead,
+it will define equally ranked options, and the web server can decide
+to ignore the order and just pick one of the languages. If you want to
+specify a real preference, you have to work with so-called quality values,
+i.e. floating point values between 0 and 1. A higher value indicates a
+higher priority. If we go back to the example with French and English
+language, you can modify the above example like this:
+</p>
+<pre>
+fr; q=1.0, en; q=0.5
+</pre>
+<h3>Be careful with Country Codes</h3>
+<p>
+A web server which receives a request for a document with the preferred
+language <code>en-GB, fr</code> does <strong>not always</strong> serve the
+English version before the French one. It will only do so if a page
+with the language extension <code>en-gb</code> exists. It does work the
+other way around, though: a server can return a <code>en-us</code> page if
+just <code>en</code> is included in the preferred languages list.
+</p>
+<p>
+We therefore recommend not to add two-letter country codes like
+<code>en-GB</code> or <code>en-US</code>, unless you have a very good reason. If
+you do add one, make sure to include the language code without the
+extension as well: <code>en-GB, en, fr</code>
+</p>
+<p style="text-align:center"><button type="button"><span class="fas fa-book-open fa-2x"></span> <a href="https://httpd.apache.org/docs/current/content-negotiation.html">More about Content Negotiation</a></button></p>
+<h3>Instructions for different Web Browsers</h3>
+<p>
+We've compiled a list of popular web browsers and some instructions on how to
+change the preferred language for web content in their settings:
+</p>
+<div class="row">
+  <!-- left column -->
+  <div class="column column-left">
+    <div style="text-align: left">
+      <ul>
+        <li><strong>
+<a name="chromium" id="chromium">Chrome/Chromium</a>
+</strong><br>
+  At the top right, open the menu and click <em>Settings</em> -&gt; <em>Advanced</em> -&gt; <em>Languages</em>. Open the <em>Language</em> menu to see a list of languages. Click on the three dots next to an entry to change the order. You can also add new languages if necessary.</li>
+        <li><strong>
+<a name="elinks" id="elinks">ELinks</a>
+</strong><br>
+  Setting the default language via <em>Setup</em> -&gt; <em>Language</em> will also change the requested language from web sites. You can change this behavior and fine-tune the <em>Accept-Language header</em> at <em>Setup</em> -&gt; <em>Options manager</em> -&gt; <em>Protocols</em> -&gt; <em>HTTP</em></li>
+        <li><strong>
+<a name="epiphany" id="epiphany">Epiphany</a>
+</strong><br>
+  Open <em>Preferences</em> from the main menu and switch to the <em>Language</em> tab. Here you can add, remove and arrange languages.</li>
+        <li><strong>
+<a name="mozillafirefox" id="mozillafirefox">Firefox</a>
+</strong><br>
+  In the menu bar at the top open <em>Preferences</em>. Scroll down to <em>Language and appearance</em> -&gt; <em>Language</em> in the <em>General</em> panel. Click the button <em>Choose</em> to set your preferred language for displaying websites. In the same dialog you can also add, remove and reorder languages.</li>
+        <li><strong>
+<a name="ibrowse" id="ibrowse">IBrowse</a>
+</strong><br>
+  Go into <em>Preferences</em> -&gt; <em>Settings</em> -&gt; <em>Network</em>. <em>Accept language</em> probably shows a * which is the default. If you click on the <em>Locale</em> button, you should be able to add your preferred language. If not, you can enter it manually.</li>
+        <li><strong>
+<a name="icab" id="icab">iCab</a>
+</strong><br>
+  <em>Edit</em> -&gt; <em>Preferences</em> -&gt; <em>Browser</em> -&gt; <em>Fonts, Languages</em></li>
+        <li><strong>
+<a name="iceweasel" id="iceweasel">IceCat (Iceweasel)</a>
+</strong><br>
+  <em>Edit</em> -&gt; <em>Preferences</em> -&gt; <em>Content</em> -&gt; <em>Languages</em> -&gt; <em>Choose</em></li>
+        <li><strong>
+<a name="ie" id="ie">Internet Explorer</a>
+</strong><br>
+  Click the <em>Tools</em> icon, select <em>Internet options</em>, switch to the <em>General</em> tab, and click the <em>Languages</em> button. Click <em>Set Language Preferences</em>, and in the following dialog you can add, remove and re-order languages.</li>
+      </ul>
+    </div>
+  </div>
+<!-- right column -->
+  <div class="column column-right">
+    <div style="text-align: left">
+      <ul>
+        <li><strong>
+<a name="konqueror" id="konqueror">Konqueror</a>
+</strong><br>
+        Edit the file <em>~/.kde/share/config/kio_httprc</em> and include the following new line:<br>
+        <code>Languages=fr;q=1.0, en;q=0.5</code></li>
+        <li><strong>
+<a name="lynx" id="lynx">Lynx</a>
+</strong><br>
+        Edit the file <em>~/.lynxrc</em> and enter the following line:<br>
+        <code>preferred_language=fr; q=1.0, en; q=0.5</code><br>
+        Alternatively, you can open the browser's settings by pressing [O]. Scroll down to <em>Preferred language</em> and add the above.</li>
+        <li><strong>
+<a name="edge" id="edge">Microsoft Edge</a>
+</strong><br>
+        <em>Settings and more</em>  -&gt; <em>Settings</em> -&gt; <em>Languages</em> -&gt; <em>Add languages</em><br>
+        Click the three-dotted button next to a language entry for more options and to change the order.</li>
+        <li><strong>
+<a name="opera" id="opera">Opera</a>
+</strong><br>
+        <em>Settings</em> -&gt; <em>Browser</em> -&gt; <em>Languages</em> -&gt; <em>Preferred languages</em></li>
+        <li><strong>
+<a name="safari" id="safari">Safari</a>
+</strong><br>
+        Safari uses the system-wide settings on macOS and iOS, so in order to define your preferred language, please open <em>System Preferences</em> (macOS) or <em>Settings</em> (iOS).</li>
+        <li><strong>
+<a name="w3m" id="w3m">W3M</a>
+</strong><br>
+        Press [O] to open the <em>Option Setting Panel</em>, scroll down to <em>Network Settings</em> -&gt; <em>Accept-Language header</em>. Press [Enter] to change the settings (for example <code>fr; q=1.0, en; q=0.5</code>) and confirm with [Enter]. Scroll all the way down to [OK] to save your settings.</li>
+        <li><strong>
+<a name="vivaldi" id="vivaldi">Vivaldi</a>
+</strong><br>
+        Go to <em>Settings</em> -&gt; <em>General</em> -&gt; <em>Language</em> -&gt; <em>Accepted Languages</em>, click <em>Add Language</em> and choose one from the menu. Use the arrows to change the order of your preferences.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<aside>
+<p><span class="fas fa-caret-right fa-3x"></span> While it's always better to select your preferred language in the browser configuration, there is an option to override the settings with a cookie.</p>
+</aside>
+<h2><a id="override">How to override the Settings</a></h2>
+<p>
+If for whatever reason you're not able to define your preferred language
+in the browser's settings, device or computing environment, you can
+override the preferences using a cookie as a last resort. Click one of
+the buttons below to put a single language on top of the list.
+</p>
+<p>
+Please note that this will set a <a
+href="https://en.wikipedia.org/wiki/HTTP_cookie">cookie</a>. Your
+browser will automatically delete it if you don't visit this website
+for a month. Of course, you can always delete the cookie manually in
+your web browser or by clicking the button <em>Browser default</em>.
+</p>
+<form style="display: inline;" method="POST" action="/intro/cn/unsetlang/intro/cn">
+<div><input value="Browser default" title="Unset the language override cookie" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ar/intro/cn">
+<div><input value="&#1593;&#1585;&#1576;&#1610;&#1577;&nbsp;(Arabiya)" title="Arabic" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/bg/intro/cn">
+<div><input value="&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;&nbsp;(B&#601;lgarski)" title="Bulgarian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ca/intro/cn">
+<div><input value="catal&agrave;" title="Catalan" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/cs/intro/cn">
+<div><input value="&#269;esky" title="Czech" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/da/intro/cn">
+<div><input value="dansk" title="Danish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/de/intro/cn">
+<div><input value="Deutsch" title="German" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/el/intro/cn">
+<div><input value="&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;&nbsp;(Ellinika)" title="Greek" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/en/intro/cn">
+<div><input value="English" title="English" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/es/intro/cn">
+<div><input value="espa&ntilde;ol" title="Spanish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/fa/intro/cn">
+<div><input value="&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&nbsp;(Farsi)" title="Persian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/fr/intro/cn">
+<div><input value="fran&ccedil;ais" title="French" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/gl/intro/cn">
+<div><input value="Galego" title="Galician" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/hr/intro/cn">
+<div><input value="hrvatski" title="Croatian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/id/intro/cn">
+<div><input value="Indonesia" title="Indonesian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/it/intro/cn">
+<div><input value="Italiano" title="Italian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ko/intro/cn">
+<div><input value="&#54620;&#44397;&#50612;&nbsp;(Korean)" title="Korean" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/hu/intro/cn">
+<div><input value="magyar" title="Hungarian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/nl/intro/cn">
+<div><input value="Nederlands" title="Dutch" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ja/intro/cn">
+<div><input value="&#26085;&#26412;&#35486;&nbsp;(Nihongo)" title="Japanese" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/nb/intro/cn">
+<div><input value="norsk&nbsp;(bokm&aring;l)" title="Norwegian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/pl/intro/cn">
+<div><input value="polski" title="Polish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/pt/intro/cn">
+<div><input value="Portugu&ecirc;s" title="Portuguese" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ro/intro/cn">
+<div><input value="rom&acirc;n&#259;" title="Romanian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/ru/intro/cn">
+<div><input value="&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&nbsp;(Russkij)" title="Russian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/sk/intro/cn">
+<div><input value="slovenčina" title="Slovak" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/fi/intro/cn">
+<div><input value="suomi" title="Finnish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/sv/intro/cn">
+<div><input value="svenska" title="Swedish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/vi/intro/cn">
+<div><input value="Ti&#7871;ng Vi&#7879;t" title="Vietnamese" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/tr/intro/cn">
+<div><input value="T&uuml;rk&ccedil;e" title="Turkish" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/uk/intro/cn">
+<div><input value="&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;&nbsp;(ukrajins'ka)" title="Ukrainian" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/zh/intro/cn">
+<div><input value="&#20013;&#25991;(&#31616;)" title="Chinese (China)" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/zh/intro/cn">
+<div><input value="&#20013;&#25991;(HK)" title="Chinese (Hong Kong)" type="submit"></div>
+</form>
+<form style="display: inline;" method="POST" action="/intro/cn/setlang/zh/intro/cn">
+<div><input value="&#20013;&#25991;(&#32321;)" title="Chinese (Taiwan)" type="submit"></div>
+</form>
+<h2><a id="fix">Troubleshooting</a></h2>
+<p>
+Sometimes the Debian website appears in the wrong language despite
+all efforts to set a preferred language. Our first suggestion is
+to clean out the local cache (both disk and memory) in your browser
+before trying to reload the website. If you're absolutely sure that
+you've <a href="#howtoset">configured your browser</a> properly, then a
+broken or a misconfigured cache might be the problem. This is becoming
+a serious issue these days, as more and more ISPs see caching as a way
+of decreasing their net traffic. Read the <a href="#cache">section</a>
+about proxy servers even if you don't think you're using one.
+</p>
+<p>
+<a href="https://manytools.org/http-html-text/browser-language/">Display the list of languages</a> your browser says you prefer.
+</p>
+<p>
+By all means, it's always possible that there is a problem with <a
+href="https://www.debian.org/">www.debian.org</a>. While only a
+handful of language problems reported in the last years were caused
+by a bug on our end, it is entirely possible. We therefore suggest
+that you investigate your own settings and a potential caching issue
+first, before you <a href="../contact">get in touch</a> with us. If <a
+href="https://www.debian.org/">https://www.debian.org/</a> is working,
+but one of the <a href="https://www.debian.org/mirror/list">mirrors</a>
+is not, please report this so we can contact the mirror maintainers.
+</p>
+<h3><a name="cache">Potential Problems with Proxy Servers</a></h3>
+<p>
+Proxy servers are essentially web servers that have no content of
+their own. They sit in the middle between users and real web servers,
+grab the requests for web pages, and fetch the pages. After that, they
+forward the content to the users' web browsers, but also make a local,
+cached copy which is used for later requests. This can really cut down
+on network traffic when many users request the same page.
+</p>
+<p>
+While this can be a good idea most of the time, it also causes failures
+when the cache is buggy. In particular, some older proxy servers do not
+understand content negotiation. This results in them caching a page in
+one language and serving that, even if a different language is requested
+later. The only solution is to upgrade or replace the caching software.
+</p>
+<p>
+Historically, proxy servers were only used when people configured their
+web browser accordingly. However, this is no longer the case. Your ISP
+may be redirecting all HTTP requests through a transparent proxy. If
+the proxy doesn't handle content negotiation properly, then users can
+receive cached pages in the wrong language. The only way you can fix
+this is to complain to your ISP in order for them to upgrade or replace
+their software.
+</p>
+<div class="clr"></div>
+</div> <!-- end content -->
+<div id="footer">
+<hr class="hidecss">
+<p>Back to the <a href="../">Debian Project homepage</a>.</p>
+<hr>
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+This page is also available in the following languages:
+<div id="langContainer">
+<select onchange="location = this.value;">
+<option value="" disabled selected>Select your language</option>
+ <option value="cn.ca.html" title="Catalan" lang="ca">catal&agrave;</option>
+ <option value="cn.da.html" title="Danish" lang="da">dansk</option>
+ <option value="cn.de.html" title="German" lang="de">Deutsch</option>
+ <option value="cn.es.html" title="Spanish" lang="es">espa&ntilde;ol</option>
+ <option value="cn.fr.html" title="French" lang="fr">fran&ccedil;ais</option>
+ <option value="cn.gl.html" title="Galician" lang="gl">Galego</option>
+ <option value="cn.it.html" title="Italian" lang="it">Italiano</option>
+ <option value="cn.hu.html" title="Hungarian" lang="hu">magyar</option>
+ <option value="cn.nl.html" title="Dutch" lang="nl">Nederlands</option>
+ <option value="cn.nb.html" title="Norwegian" lang="nb">norsk&nbsp;(bokm&aring;l)</option>
+ <option value="cn.pl.html" title="Polish" lang="pl">polski</option>
+ <option value="cn.pt.html" title="Portuguese" lang="pt">Portugu&ecirc;s</option>
+ <option value="cn.ro.html" title="Romanian" lang="ro">rom&acirc;n&#259;</option>
+ <option value="cn.sk.html" title="Slovak" lang="sk">slovenčina</option>
+ <option value="cn.fi.html" title="Finnish" lang="fi">suomi</option>
+ <option value="cn.sv.html" title="Swedish" lang="sv">svenska</option>
+ <option value="cn.bg.html" title="Bulgarian" lang="bg">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</option>
+ <option value="cn.ru.html" title="Russian" lang="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</option>
+ <option value="cn.uk.html" title="Ukrainian" lang="uk">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</option>
+ <option value="cn.zh-cn.html" title="Chinese (China)" lang="zh-CN">&#20013;&#25991;(&#31616;)</option>
+ <option value="cn.zh-hk.html" title="Chinese (Hong Kong)" lang="zh-HK">&#20013;&#25991;(HK)</option>
+ <option value="cn.zh-tw.html" title="Chinese (Taiwan)" lang="zh-TW">&#20013;&#25991;(&#32321;)</option>
+ <option value="cn.ja.html" title="Japanese" lang="ja">&#26085;&#26412;&#35486; (Nihongo)</option>
+ <option value="cn.ko.html" title="Korean" lang="ko">&#54620;&#44397;&#50612; (Korean)</option>
+ <option value="cn.el.html" title="Greek" lang="el">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Ellinika)</option>
+</select>
+</div>
+How to set <a href="../intro/cn">the default document language</a>
+</div></div><!--/UdmComment-->
+<hr>
+<div id="fineprint">
+<!--UdmComment-->
+  <p>See our <a href="../contact">contact page</a> to get in touch. Web site source code is <a href="https://salsa.debian.org/webmaster-team/webwml">available</a>.</p>
+<p>
+Last Modified: Tue, Oct 3 14:54:24 UTC 2023
+&emsp;
+Last Built: Fri, Aug 7 11:40:08 UTC 2026
+  <br>
+  Copyright &copy; 1997-2023 <a href="https://www.spi-inc.org/">SPI</a> and others; See <a href="../license" rel="copyright">license terms</a><br>
+  Debian is a registered <a href="../trademark">trademark</a> of Software in the Public Interest, Inc.
+</p>
+<!--/UdmComment-->
+</div>
+</div> <!-- end footer -->
+</body>
+</html>

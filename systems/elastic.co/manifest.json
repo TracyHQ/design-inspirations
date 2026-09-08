@@ -1,0 +1,33 @@
+{
+  "id": "brand:elastic.co",
+  "host": "elastic.co",
+  "kind": "reference",
+  "slug": "elastic",
+  "name": "Elastic",
+  "category": "Reference",
+  "description": "Power insights and outcomes with The Elasticsearch Platform. See into your data and find answers that matter with enterprise solutions designed to help you accelerate time to insight. Try Elastic toda...",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://elastic.co/",
+    "finalUrl": "https://elastic.co/",
+    "extractedAt": "2026-09-07T23:54:05.562Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 23,
+    "fonts": 7,
+    "logos": 6,
+    "imagery": 8,
+    "fonts_files": 8,
+    "headings": 31,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

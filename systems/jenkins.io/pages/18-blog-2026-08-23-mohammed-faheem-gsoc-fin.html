@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/blog/2026/08/23/mohammed-faheem-gsoc-finalterm-blogpost/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth' name='twitter:title'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/gsoc/opengraph.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/blog/2026/08/23/mohammed-faheem-gsoc-finalterm-blogpost/' property='og:url'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' property='og:description'>
+<meta content='GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth' property='og:site_name'>
+<meta content='/images/gsoc/opengraph.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<style>
+  .videoblock iframe {
+      aspect-ratio: 16 / 9;
+      max-width: 100%;
+      height: auto;
+  }
+</style>
+<script type="text/od-defused-script">
+  window.addEventListener('DOMContentLoaded', function () {
+    for (var i = 1 ; i <= 6 ; i ++) {
+      anchors.add('.app-post-page h' + i);
+    }
+  })
+</script>
+
+<article class='app-container app-post-page'>
+<div class='app-!-display-flex'>
+<a class='app-back-link' href='/blog/'>
+Back to blog
+</a>
+</div>
+<h1>
+GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth
+</h1>
+<div class='post-attrs'>
+<a class="app-author-link" data-user-name="Mohammed Faheem" href="/blog/authors/faheem12005/"><div class="app-avatar"></div><span>Mohammed Faheem</span></a>
+August 23, 2026
+<span>⏱︎ 6 min read</span>
+<div class='app-social-media-buttons__container share-buttons__container'>
+<span>
+Share
+</span>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/intent/tweet?text=GSoC+2026+Final+Update+-+Jenkins+Email+Notifications+using+Outlook+SMTP+with+OAuth&amp;url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F23%2Fmohammed-faheem-gsoc-finalterm-blogpost%2F' rel='noreferrer nofollow'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F23%2Fmohammed-faheem-gsoc-finalterm-blogpost%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-mastodon' data-tooltip='Mastodon' href='https://mastodon.social/share?text=GSoC+2026+Final+Update+-+Jenkins+Email+Notifications+using+Outlook+SMTP+with+OAuth+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F23%2Fmohammed-faheem-gsoc-finalterm-blogpost%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="currentColor"
+    d="M480 173.59c0-104.13-68.26-134.65-68.26-134.65C377.3 23.15 318.2 16.5 256.8 16h-1.51c-61.4.5-120.46 7.15-154.88 22.94 0 0-68.27 30.52-68.27 134.65 0 23.85-.46 52.35.29 82.59C34.91 358 51.11 458.37 145.32 483.29c43.43 11.49 80.73 13.89 110.76 12.24 54.47-3 85-19.42 85-19.42l-1.79-39.5s-38.93 12.27-82.64 10.77c-43.31-1.48-89-4.67-96-57.81a108.44 108.44 0 01-1-14.9 558.91 558.91 0 0096.39 12.85c32.95 1.51 63.84-1.93 95.22-5.67 60.18-7.18 112.58-44.24 119.16-78.09 10.42-53.34 9.58-130.17 9.58-130.17zm-80.54 134.16h-50V185.38c0-25.8-10.86-38.89-32.58-38.89-24 0-36.06 15.53-36.06 46.24v67h-49.66v-67c0-30.71-12-46.24-36.06-46.24-21.72 0-32.58 13.09-32.58 38.89v122.37h-50V181.67q0-38.65 19.75-61.39c13.6-15.15 31.4-22.92 53.51-22.92 25.58 0 44.95 9.82 57.75 29.48L256 147.69l12.45-20.85c12.81-19.66 32.17-29.48 57.75-29.48 22.11 0 39.91 7.77 53.51 22.92q19.79 22.72 19.75 61.39z"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-bluesky' data-tooltip='Bluesky' href='https://bsky.app/intent/compose?text=GSoC+2026+Final+Update+-+Jenkins+Email+Notifications+using+Outlook+SMTP+with+OAuth+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F23%2Fmohammed-faheem-gsoc-finalterm-blogpost%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 568 501">
+  <path fill="currentColor"
+    d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.21C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.333 453.32c-119.86 122.992-172.272-30.859-185.702-70.281-2.462-7.227-3.614-10.608-3.631-7.733-.017-2.875-1.169.506-3.631 7.733-13.43 39.422-65.842 193.273-185.702 70.281-63.111-64.76-33.89-129.52 80.986-149.071-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.659 0 75.291 0 57.946 0-28.906 76.135-1.612 123.121 33.664Z"></path>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='blog-content'>
+<div class="paragraph">
+<p>Hey everyone!</p>
+</div>
+<div class="paragraph">
+<p>This post marks the end of my Google Summer of Code 2026 project, <a href="/projects/gsoc/2026/projects/jenkins-email-notifications-using-outlook-smtp-with-oath/">Jenkins email notifications using Outlook SMTP with OAuth</a>. It&#8217;s been a great few months working across the <code>email-ext</code>, <code>oauth-credentials</code>, and <code>entra-oauth</code> plugins with my mentors <a href="/blog/authors/slide_o_mix">Alex Earl</a> and <a href="/blog/authors/krisstern">Kris Stern</a>. If you want the first half of the story, my <a href="/blog/2026/07/09/mohammed-faheem-gsoc-midterm-update-blog-post/">midterm update</a> has it.</p>
+</div>
+<div class="sect1">
+<h2 id="table-of-contents"><a class="anchor" href="#table-of-contents"></a>Table of Contents</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="#about-the-project">About the Project</a></p>
+</li>
+<li>
+<p><a href="#recap-where-things-stood-at-midterm">Recap: Where Things Stood at Midterm</a></p>
+</li>
+<li>
+<p><a href="#progress-after-midterm">Progress After Midterm</a></p>
+</li>
+<li>
+<p><a href="#what-still-needs-fixing">What Still Needs Fixing</a></p>
+</li>
+<li>
+<p><a href="#all-the-prs">All the PRs</a></p>
+</li>
+<li>
+<p><a href="#what-ive-learned">What I&#8217;ve Learned</a></p>
+</li>
+<li>
+<p><a href="#acknowledgements">Acknowledgements</a></p>
+</li>
+<li>
+<p><a href="#follow-along">Follow Along</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="about-the-project"><a class="anchor" href="#about-the-project"></a>About the Project</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>email-ext</code> only supported username/password-based SMTP authentication, which doesn&#8217;t work for Google Workspace or Microsoft Entra environments that require OAuth 2.0. This project adds OAuth 2.0 SMTP authentication support to <code>email-ext</code>, alongside the existing username/password flow.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="recap-where-things-stood-at-midterm"><a class="anchor" href="#recap-where-things-stood-at-midterm"></a>Recap: Where Things Stood at Midterm</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By midterm, OAuth 2.0 SMTP auth was working end-to-end, validated using Google Workspace in <code>email-ext</code>, alongside the existing username/password flow. We&#8217;d also just gotten maintainer rights on <code>oauth-credentials-plugin</code>, which let us fix a design issue regarding scope requirements.</p>
+</div>
+<div class="paragraph">
+<p>The existing design had ScopeRequirement objects defined locally within each OAuth provider plugin. This meant the consumer had to add the corresponding provider plugin as a development dependency simply to construct and use its ScopeRequirement object. This made it difficult to build provider-agnostic functionality. Our work in oauth-credentials-plugin addressed this by providing a resolver API that could operate on these requirements without requiring consumers to depend directly on a provider plugin.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="progress-after-midterm"><a class="anchor" href="#progress-after-midterm"></a>Progress After Midterm</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="the-capability-scope-resolver"><a class="anchor" href="#the-capability-scope-resolver"></a>The Capability &amp; Scope Resolver</h3>
+<div class="paragraph">
+<p>This was the main feature for this half. Up to this point, if a plugin like <code>email-ext</code> wanted to request OAuth scopes through <code>oauth-credentials</code>, it had to hard-depend on each concrete provider plugin (Google, Entra, etc) just to build an <code>OAuth2ScopeRequirement</code>. That works fine for one provider, but it doesn&#8217;t scale if a plugin wants to support multiple providers.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/jenkinsci/oauth-credentials-plugin/pull/47">PR #47</a> adds a capability &amp; scope resolver API to <code>oauth-credentials-plugin</code>. Instead of asking for a concrete requirement type, a consuming plugin now just asks for a capability like <code>"send email"</code> as a plain string, and each provider supplies its own resolver class that maps that string to whatever scopes it actually needs under the hood. <code>email-ext</code> doesn&#8217;t need to know any scope-specific information regarding OAuth providers anymore.</p>
+</div>
+<div class="paragraph">
+<p>The Entra implementation of this is in <a href="https://github.com/jenkinsci/entra-oauth-plugin/pull/21">entra-oauth-plugin #21</a>, which implements the resolver for Entra so it plugs into the new API.</p>
+</div>
+<div class="paragraph">
+<p>Alongside that, <a href="https://github.com/jenkinsci/email-ext-plugin/pull/1600">PR #1600</a> adds a test-email button to the mail account section of the system configuration page, so admins can check their SMTP setup actually works without saving the config and configuring a real build to trigger a notification.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-still-needs-fixing"><a class="anchor" href="#what-still-needs-fixing"></a>What Still Needs Fixing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>So far, OAuth flow has only been validated end to end against a real Google Workspace environment - I haven&#8217;t had the chance to run it against a real Entra environment, so that&#8217;s still an open gap before I&#8217;d call the Entra path equally proven out. Another thing that could warrant further discussion is the  <code>getAccessToken()</code> function signature from the <code>oauth-credentials-plugin</code>. It returns <code>null</code> in failure cases instead of surfacing an error, which makes debugging a broken credential difficult from the provider side.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="all-the-prs"><a class="anchor" href="#all-the-prs"></a>All the PRs</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here&#8217;s everything from this GSoC period organised by repo for a paper trail.</p>
+</div>
+<div class="paragraph">
+<p><strong>email-ext-plugin</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1600">#1600</a> - Add test email feature</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1593">#1593</a> - Unit tests for the authenticator and OAuth retry logic</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1592">#1592</a> - Handle authentication failures more explicitly instead of swallowing them</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1590">#1590</a> - Tests for <code>ExtendedEmailPublisherDescriptor</code></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1589">#1589</a> - Single-attempt retry logic added to the authenticator</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1587">#1587</a> - Modified the authenticator to actually support OAuth2 credentials</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1586">#1586</a> - Report errors properly even when not in debug mode</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1583">#1583</a> - Added a Test OAuth2 Credentials class for unit/integration tests</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1581">#1581</a> - Added OAuth2 credential selection to the MailAccount dropdown</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1579">#1579</a> - Restored <code>ACL.SYSTEM</code> for credential lookup on the config page</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/email-ext-plugin/pull/1557">#1557</a> - Expanded tests to verify multipart structure and body content</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>oauth-credentials-plugin</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/jenkinsci/oauth-credentials-plugin/pull/47">#47</a> - Capability &amp; scope resolver API (the big one, see above)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>entra-oauth-plugin</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/jenkinsci/entra-oauth-plugin/pull/21">#21</a> - Entra capability-based scope resolver for provider-agnostic OAuth handling</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/entra-oauth-plugin/pull/15">#15</a> - Display Entra errors in <code>doTestConnection</code> in the UI</p>
+</li>
+<li>
+<p><a href="https://github.com/jenkinsci/entra-oauth-plugin/pull/8">#8</a> - Add scope validation before calling the endpoint</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-ive-learned"><a class="anchor" href="#what-ive-learned"></a>What I&#8217;ve Learned</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Working across email-ext, oauth-credentials, and entra-oauth gave me hands-on experience with OAuth 2.0, SMTP authentication, API design, testing, and error handling.</p>
+</div>
+<div class="paragraph">
+<p>Beyond the technical side, working with my mentors and the Jenkins community helped me improve how I approach problems, respond to code reviews, and think about long-term maintainability rather than just making something work.</p>
+</div>
+<div class="paragraph">
+<p>Overall, this experience made me a more confident developer and open source contributor, while giving me a much better understanding of how large open source projects are designed and maintained.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="acknowledgements"><a class="anchor" href="#acknowledgements"></a>Acknowledgements</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Thanks again to my mentors, <a href="/blog/authors/slide_o_mix">Alex Earl</a> and <a href="/blog/authors/krisstern">Kris Stern</a>, for their guidance through both halves of this project, and to the Jenkins community for being so welcoming to a first-time contributor.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="follow-along"><a class="anchor" href="#follow-along"></a>Follow Along</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can reach me here:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/Faheem12005">GitHub</a></p>
+</li>
+<li>
+<p><a href="https://www.linkedin.com/in/mohdfaheem2005/">LinkedIn</a></p>
+</li>
+<li>
+<p><a href="mailto:mohdfaheem.1205@gmail.com">Gmail</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Thanks for reading along this summer!</p>
+</div>
+</div>
+</div>
+</div>
+<ul class='app-tags'>
+<li>
+<a class='app-tags__tag' href='/blog/tags/gsoc/'>
+gsoc
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/gsoc2026/'>
+gsoc2026
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/jenkins.io'>
+jenkins.io
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/email/'>
+email
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/oauth/'>
+oauth
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/security/'>
+security
+</a>
+</li>
+</ul>
+<h2>
+About the author
+</h2>
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar' style='min-width: 64px; width: 25vw; max-width: 128px'></div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>
+<a href='/blog/authors/faheem12005/'>
+Mohammed Faheem
+</a>
+</p>
+<div class="paragraph">
+<p>Mohammed Faheem is a software engineering student at Vellore Institute of Technology (VIT), Chennai, with a strong interest in backend systems, developer tooling, and open-source software. He enjoys building practical applications and experimenting with technologies across the stack, with experience in Java, Python, Rust, and modern web development frameworks. In 2026, he was selected as a Google Summer of Code contributor under the Jenkins project, where he is working on the <a href="/projects/gsoc/2026/projects/jenkins-email-notifications-using-outlook-smtp-with-oath/">Jenkins Email Notifications using Outlook SMTP with OAuth</a> project. Outside of programming, Faheem enjoys solving algorithmic problems on LeetCode, exploring new technologies, watching movies, and playing video games.</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/Faheem12005'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/mohdfaheem2005'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+</article>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/blog/2026/08/2026-08-23-mohammed-faheem-gsoc-finalterm-blogpost.adoc'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

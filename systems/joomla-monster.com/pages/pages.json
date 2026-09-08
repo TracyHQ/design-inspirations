@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://joomla-monster.com/",
+  "crawledAt": "2026-09-07T23:58:24.357Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://joomla-monster.com/",
+      "file": "pages/01-home.html",
+      "title": "Joomla Templates and Joomla Extensions",
+      "h1": "Joomla 6 Templates for Your Website",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog",
+      "file": "pages/02-blog.html",
+      "title": "Blog",
+      "h1": "Joomla Monster Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news",
+      "file": "pages/03-blog-news.html",
+      "title": "News",
+      "h1": "Joomla Monster Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/web-development",
+      "file": "pages/04-blog-web-development.html",
+      "title": "Web Development",
+      "h1": "Joomla Monster Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-mediatools-2-21-released-enhanced-stability-and-official-video-api-integration",
+      "file": "pages/05-blog-news-dj-mediatools-2-21-released-en.html",
+      "title": "DJ-MediaTools Updated to Version 2.21 I Joomla",
+      "h1": "DJ-MediaTools 2.21 Released: Enhanced Stability and Official Video API Integration",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/web-development/web-development-trends-ai-driven-personalization-in-joomla-stores",
+      "file": "pages/06-blog-web-development-web-development-tre.html",
+      "title": "Black Friday 2025 – 50% OFF DJ-Extensions for Joomla Users",
+      "h1": "Web Development Trends: AI-Driven Personalization In Joomla Stores",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/black-friday-2025-50-off-all-dj-extensions-products",
+      "file": "pages/07-blog-news-black-friday-2025-50-off-all-d.html",
+      "title": "Black Friday 2025 – 50% OFF DJ-Extensions for Joomla Users",
+      "h1": "Black Friday 2025 – 50% OFF All DJ-Extensions Products",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-extensions-components-and-modules-now-compatible-with-joomla-6",
+      "file": "pages/08-blog-news-dj-extensions-components-and-m.html",
+      "title": "Components & Modules Compatible with Joomla 6",
+      "h1": "DJ-Extensions Components and Modules Now Compatible with Joomla 6",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-classifieds-3-11-released-with-joomla-6-support",
+      "file": "pages/09-blog-news-dj-classifieds-3-11-released-w.html",
+      "title": "DJ-Classifieds 3.11 Released with Joomla 6 Support",
+      "h1": "DJ-Classifieds 3.11 Released with Joomla 6 Support",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/new-translation-platform-for-joomla-wordpress-plugins-now-live",
+      "file": "pages/10-blog-news-new-translation-platform-for-j.html",
+      "title": "New DJ-Extensions Translation Platform for Joomla & WordPress",
+      "h1": "New Translation Platform for Joomla & WordPress Plugins Now Live",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/whats-new-in-dj-catalog2-5-3-6-and-6-0-2",
+      "file": "pages/11-blog-news-whats-new-in-dj-catalog2-5-3-6.html",
+      "title": "DJ-Catalog2 5.3.6 & 6.0.2 I Key Fixes & Joomla 6 Compatibility",
+      "h1": "What’s New in DJ-Catalog2 5.3.6 and 6.0.2?",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/freshen-up-your-website-this-autumn-save-30-on-all-dj-extensions-products",
+      "file": "pages/12-blog-news-freshen-up-your-website-this-a.html",
+      "title": "Autumn Sale: Get 30% Off All DJ-Extensions Products",
+      "h1": "Freshen Up Your Website This Autumn – Save 30% on All DJ-Extensions Products",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/joomla-6-is-here-why-you-should-plan-your-migration-now",
+      "file": "pages/13-blog-news-joomla-6-is-here-why-you-shoul.html",
+      "title": "Upgrade to Joomla 6 I Future-Proof Your Website",
+      "h1": "Joomla 6 Is Here. Why You Should Plan Your Migration Now?",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-catalog2-payment-paypal-v-2-beta-released-for-joomla-5",
+      "file": "pages/14-blog-news-dj-catalog2-payment-paypal-v-2.html",
+      "title": "DJ-Catalog2 PayPal v.2 (Beta) I New Payment Plugin for Joomla 5",
+      "h1": "DJ-Catalog2 Payment PayPal v.2 (Beta) Released for Joomla 5",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-catalog2-6-0-0-beta-ready-for-joomla-6",
+      "file": "pages/15-blog-news-dj-catalog2-6-0-0-beta-ready-f.html",
+      "title": "DJ-Catalog2 6.0.0 (Beta) Fully Compatible with Joomla 6",
+      "h1": "DJ-Catalog2 6.0.0 (Beta) Ready for Joomla 6",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/joomla-6-is-coming-what-to-expect-and-how-to-prepare-for-the-update",
+      "file": "pages/16-blog-news-joomla-6-is-coming-what-to-exp.html",
+      "title": "Joomla 6: What’s New and How to Prepare for the Next Release?s",
+      "h1": "Joomla 6 Is Coming – What to Expect and How to Prepare for the Update",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/dj-catalog2-5-3-4-new-features-for-smarter-store-management",
+      "file": "pages/17-blog-news-dj-catalog2-5-3-4-new-features.html",
+      "title": "DJ-Catalog2 5.3.4 Update – Multilingual Emails & New Checkout",
+      "h1": "DJ-Catalog2 5.3.4 – New Features for Smarter Store Management",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/all-in-one-dj-extensions-customer-panel-easier-product-subscription-management",
+      "file": "pages/18-blog-news-all-in-one-dj-extensions-custo.html",
+      "title": "New Customer Panel | Manage Subscriptions, Products & Invoices",
+      "h1": "All-in-One DJ-Extensions Customer Panel – Easier Product & Subscription Management",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/ending-joomla-3-only-extensions-and-templates",
+      "file": "pages/19-blog-news-ending-joomla-3-only-extension.html",
+      "title": "DJ-ContentFilters 1.7: Enhanced Search Features for Joomla 5",
+      "h1": "Ending Joomla 3-Only Extensions and Templates",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://joomla-monster.com/blog/news/new-plugin-alert-meet-dj-catalog2-sync-api",
+      "file": "pages/20-blog-news-new-plugin-alert-meet-dj-catal.html",
+      "title": "DJ-ContentFilters 1.7: Enhanced Search Features for Joomla 5",
+      "h1": "New Plugin Alert: Meet DJ-Catalog2 Sync API",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

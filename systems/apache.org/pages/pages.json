@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://apache.org/",
+  "crawledAt": "2026-09-07T23:52:39.994Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://apache.org/",
+      "file": "pages/01-home.html",
+      "title": "Welcome to The Apache Software Foundation | Apache Software Foundation",
+      "h1": "Software For The Public Good &para;",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/policies/conduct",
+      "file": "pages/02-foundation-policies-conduct.html",
+      "title": "Code of Conduct | Apache Software Foundation",
+      "h1": "Code of Conduct",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/community-resources/",
+      "file": "pages/03-community-resources.html",
+      "title": "Community Connect & Mentor | Apache Software Foundation",
+      "h1": "Community Resources",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/projects",
+      "file": "pages/04-projects.html",
+      "title": "ASF Open Source Projects | Apache Software Foundation",
+      "h1": "ASF Open Source Projects",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/mailinglists",
+      "file": "pages/05-foundation-mailinglists.html",
+      "title": "Mailing Lists | Apache Software Foundation",
+      "h1": "Mailing Lists",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/security",
+      "file": "pages/06-security.html",
+      "title": "ASF Security Team | Apache Software Foundation",
+      "h1": "ASF Security Team",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/how-it-works",
+      "file": "pages/07-foundation-how-it-works.html",
+      "title": "How the ASF works | Apache Software Foundation",
+      "h1": "How the ASF works",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/theapacheway/",
+      "file": "pages/08-theapacheway.html",
+      "title": "Briefing: The Apache Way | Apache Software Foundation",
+      "h1": "Briefing: The Apache Way",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/legal/",
+      "file": "pages/09-legal.html",
+      "title": "ASF Legal & Trademark | Apache Software Foundation",
+      "h1": "ASF Legal & Trademark",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/licenses",
+      "file": "pages/10-licenses.html",
+      "title": "Licenses | Apache Software Foundation",
+      "h1": "Licenses",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/glossary",
+      "file": "pages/11-foundation-glossary.html",
+      "title": "ASF Glossary | Apache Software Foundation",
+      "h1": "ASF Glossary",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/faq",
+      "file": "pages/12-foundation-faq.html",
+      "title": "Frequently Asked Questions | Apache Software Foundation",
+      "h1": "How can we help?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/dev/",
+      "file": "pages/13-dev.html",
+      "title": "Developer Information | Apache Software Foundation",
+      "h1": "Developer Information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/press/kit/",
+      "file": "pages/14-foundation-press-kit.html",
+      "title": "Brand Guidelines | Apache Software Foundation",
+      "h1": "ASF Brand Guidelines",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/logos/",
+      "file": "pages/15-logos.html",
+      "title": "Apache Project logos",
+      "h1": "Apache Project Logos",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/",
+      "file": "pages/16-foundation.html",
+      "title": "About the ASF | Apache Software Foundation",
+      "h1": "Software for the Public Good",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/sponsors",
+      "file": "pages/17-foundation-sponsors.html",
+      "title": "Our Sponsors | Apache Software Foundation",
+      "h1": "Our Sponsors",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/sponsorship",
+      "file": "pages/18-foundation-sponsorship.html",
+      "title": "ASF Sponsorship | Apache Software Foundation",
+      "h1": "Our Sponsorship Program",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/individual-supporters",
+      "file": "pages/19-foundation-individual-supporters.html",
+      "title": "Individual Supporters | Apache Software Foundation",
+      "h1": "Support ASF: Individual Giving Programs",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://apache.org/foundation/leadership",
+      "file": "pages/20-foundation-leadership.html",
+      "title": "ASF Leadership | Apache Software Foundation",
+      "h1": "ASF Leadership",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

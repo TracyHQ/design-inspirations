@@ -1,0 +1,35 @@
+{
+  "id": "brand:shopee.vn",
+  "host": "shopee.vn",
+  "kind": "reference",
+  "slug": "shopee-vn",
+  "name": "shopee.vn",
+  "category": "Reference",
+  "description": "",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://shopee.vn/",
+    "finalUrl": "https://shopee.vn/",
+    "extractedAt": "2026-09-07T23:56:55.108Z",
+    "thin": true,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Shopee\" → \"shopee.vn\" (the title is a sentence; using the hostname)"
+  ],
+  "counts": {
+    "pages": 1,
+    "colors": 19,
+    "fonts": 5,
+    "logos": 4,
+    "imagery": 0,
+    "fonts_files": 16,
+    "headings": 0,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

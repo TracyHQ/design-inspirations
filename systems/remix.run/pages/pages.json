@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://remix.run/",
+  "crawledAt": "2026-09-07T23:54:58.098Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://remix.run/",
+      "file": "pages/01-home.html",
+      "title": "Remix - The Fully-Stacked Web Framework",
+      "h1": "The fully-stacked web framework",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://remix.run/discord",
+      "file": "pages/02-invite-xwx7mmzvka.html",
+      "title": "Remix",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

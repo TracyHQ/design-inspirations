@@ -1,0 +1,35 @@
+{
+  "id": "brand:vuejs.org",
+  "host": "vuejs.org",
+  "kind": "reference",
+  "slug": "vue-js",
+  "name": "Vue.js",
+  "category": "Reference",
+  "description": "Vue.js - The Progressive JavaScript Framework",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://vuejs.org/",
+    "finalUrl": "https://vuejs.org/",
+    "extractedAt": "2026-09-07T23:54:49.076Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 22,
+    "fonts": 3,
+    "logos": 2,
+    "imagery": 0,
+    "fonts_files": 8,
+    "headings": 6,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

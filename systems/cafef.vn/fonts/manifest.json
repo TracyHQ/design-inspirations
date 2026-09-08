@@ -1,0 +1,152 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Roboto-Bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-bold-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Bold.woff2",
+      "bytes": 66004,
+      "unicodeRange": "U+0000-1EF9,U+2013-204A"
+    },
+    {
+      "family": "Roboto-Medium",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-medium-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Medium.woff2",
+      "bytes": 66708,
+      "unicodeRange": "U+0000-1EF9,U+2013-204A"
+    },
+    {
+      "family": "Roboto-Regular",
+      "weight": "400",
+      "style": "normal",
+      "file": "roboto-regular-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Roboto-Regular.woff2",
+      "bytes": 65764,
+      "unicodeRange": "U+0000-1EF9,U+2013-204A"
+    },
+    {
+      "family": "SF Pro Display",
+      "weight": "400",
+      "style": "normal",
+      "file": "sf-pro-display-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Regular.woff2",
+      "bytes": 89544
+    },
+    {
+      "family": "SF Pro Display",
+      "weight": "500",
+      "style": "normal",
+      "file": "sf-pro-display-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Medium.woff2",
+      "bytes": 99788
+    },
+    {
+      "family": "SF Pro Display",
+      "weight": "600",
+      "style": "normal",
+      "file": "sf-pro-display-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Semibold.woff2",
+      "bytes": 100384
+    },
+    {
+      "family": "SF Pro Display",
+      "weight": "700",
+      "style": "normal",
+      "file": "sf-pro-display-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFProDisplay-Bold.woff2",
+      "bytes": 98704
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "file": "inter-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Regular.woff2",
+      "bytes": 91944
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "file": "inter-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Medium.woff2",
+      "bytes": 102052
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "file": "inter-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-SemiBold.woff2",
+      "bytes": 99748
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "file": "inter-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Bold.woff2",
+      "bytes": 100096
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "file": "inter-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/Inter-Black.woff2",
+      "bytes": 97120
+    },
+    {
+      "family": "SFD-Bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-bold-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFD-Bold.woff2",
+      "bytes": 46240
+    },
+    {
+      "family": "SFD-Bold",
+      "weight": "700",
+      "style": "normal",
+      "file": "sfd-bold-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFD-Bold.woff2",
+      "bytes": 46240
+    },
+    {
+      "family": "SFD-Medium",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-medium-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFD-Medium.woff2",
+      "bytes": 46560
+    },
+    {
+      "family": "SFD-Medium",
+      "weight": "500",
+      "style": "normal",
+      "file": "sfd-medium-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static.mediacdn.vn/fonts/SFD-Medium.woff2",
+      "bytes": 46560
+    }
+  ]
+}

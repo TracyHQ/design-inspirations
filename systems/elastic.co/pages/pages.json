@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://elastic.co/",
+  "crawledAt": "2026-09-07T23:54:01.562Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://elastic.co/",
+      "file": "pages/01-home.html",
+      "title": "Elastic — The Search AI Company | Elastic",
+      "h1": "Better retrieval. Better answers.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/",
+      "file": "pages/02-home.html",
+      "title": "Elastic — The Search AI Company | Elastic",
+      "h1": "Better retrieval. Better answers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/resources/security/report/forrester-xdr-wave",
+      "file": "pages/03-resources-security-report-forrester-xdr-.html",
+      "title": "Elastic named a Strong Performer in The Forrester Wave™: Extended Detection And Response Platforms, Q2 2026 | Elastic",
+      "h1": "Elastic Security named a Strong Performer",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/about",
+      "file": "pages/04-about.html",
+      "title": "Hi, we&#x27;re Elastic | Elastic",
+      "h1": "Hi, we&#x27;re Elastic",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/partners",
+      "file": "pages/05-partners.html",
+      "title": "Elastic partners and partner program | Elastic",
+      "h1": "Drive growth as an Elastic partner",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/support",
+      "file": "pages/06-support.html",
+      "title": "Elastic Support and Customer Service | Elastic",
+      "h1": "Self-serve answers in real time with Support Assistant",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch/context-engineering",
+      "file": "pages/07-elasticsearch-context-engineering.html",
+      "title": "Context engineering for AI agents | Elastic",
+      "h1": "Context engineering for AI agents that always know what to do",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch/vector-database",
+      "file": "pages/08-elasticsearch-vector-database.html",
+      "title": "Vector Database | #1 Most Downloaded | Elasticsearch | Elastic",
+      "h1": "The most widely deployed, open source vector database",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/enterprise-search/search-applications",
+      "file": "pages/09-enterprise-search-search-applications.html",
+      "title": "Search applications - Search API & toolkit for developers | Elastic",
+      "h1": "The most extensive search toolkit for developers",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/observability/log-monitoring",
+      "file": "pages/10-observability-log-monitoring.html",
+      "title": "Log analytics | Elastic",
+      "h1": "Search, analyze, and act with log analytics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/security/investigation-response",
+      "file": "pages/11-security-investigation-response.html",
+      "title": "Cyber Investigation & Incident Response | Elastic",
+      "h1": "Elastic Security for investigation and incident response",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch/workflows",
+      "file": "pages/12-elasticsearch-workflows.html",
+      "title": "Native workflow automation where your data lives | Elastic",
+      "h1": "Native automation where your data lives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch",
+      "file": "pages/13-elasticsearch.html",
+      "title": "Elasticsearch: The Official Distributed Search & Analytics Engine | Elastic",
+      "h1": "Elasticsearch",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/kibana",
+      "file": "pages/14-kibana.html",
+      "title": "Kibana: Visualize, explore, and manage data in Elasticsearch | Elastic",
+      "h1": "Kibana: Your window into all of your data",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch/agent-builder",
+      "file": "pages/15-elasticsearch-agent-builder.html",
+      "title": "Elastic Agent Builder | Production-ready AI agents | Elastic",
+      "h1": "Build and deploy custom AI agents fast with Elastic Agent Builder",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/platform/autoops",
+      "file": "pages/16-platform-autoops.html",
+      "title": "AutoOps: Cluster management utility | Elastic",
+      "h1": "Elastic AutoOps",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch/piped-query-language",
+      "file": "pages/17-elasticsearch-piped-query-language.html",
+      "title": "Elasticsearch Piped Query Language (ES|QL) | Elastic",
+      "h1": "Simplify data investigation: Elasticsearch Piped Query Language (ES|QL)",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/jina-search-models",
+      "file": "pages/18-jina-search-models.html",
+      "title": "Multilingual semantic search with Jina models | Elastic",
+      "h1": "State-of-the-art models for each stage of the retrieval pipeline",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/cloud/serverless",
+      "file": "pages/19-cloud-serverless.html",
+      "title": "Serve more with Elastic Cloud Serverless and Search AI Lake | Elastic",
+      "h1": "Start faster — no nodes, no shards, no stress",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.elastic.co/cloud",
+      "file": "pages/20-cloud.html",
+      "title": "Elastic Cloud: Hosted Elasticsearch, Hosted Search | Elastic",
+      "h1": "Elastic Cloud",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

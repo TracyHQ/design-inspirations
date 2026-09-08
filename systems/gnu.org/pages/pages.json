@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://gnu.org/",
+  "crawledAt": "2026-09-07T23:52:45.930Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://gnu.org/",
+      "file": "pages/01-home.html",
+      "title": "The GNU Operating System and the Free Software Movement",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/",
+      "file": "pages/02-home.html",
+      "title": "The GNU Operating System and the Free Software Movement",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/cgi-bin/estseek.cgi",
+      "file": "pages/03-cgi-bin-estseek.html",
+      "title": "Hyper Estraier @ www.gnu.org",
+      "h1": "Hyper Estraier",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/gnu/gnu.html",
+      "file": "pages/04-gnu-gnu.html",
+      "title": "About GNU - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/philosophy/philosophy.html",
+      "file": "pages/05-philosophy-philosophy.html",
+      "title": "Philosophy of the GNU Project - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/licenses/licenses.html",
+      "file": "pages/06-licenses-licenses.html",
+      "title": "Licenses - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/education/education.html",
+      "file": "pages/07-education-education.html",
+      "title": "Free Software and Education - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/software/software.html",
+      "file": "pages/08-software-software.html",
+      "title": "Software - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/distros/distros.html",
+      "file": "pages/09-distros-distros.html",
+      "title": "GNU/Linux Distros - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/doc/doc.html",
+      "file": "pages/10-doc-doc.html",
+      "title": "Documentation of the GNU Project - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/proprietary/proprietary.html",
+      "file": "pages/11-proprietary-proprietary.html",
+      "title": "Proprietary Software - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/help/help.html",
+      "file": "pages/12-help-help.html",
+      "title": "Helping the GNU Project and the Free Software Movement - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/audio-video/audio-video.html",
+      "file": "pages/13-audio-video-audio-video.html",
+      "title": "Audio/Video - GNU Project - Free-Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/graphics/graphics.html",
+      "file": "pages/14-graphics-graphics.html",
+      "title": "The GNU Art Gallery - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/fun/humor.html",
+      "file": "pages/15-fun-humor.html",
+      "title": "Laugh along with GNU - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/people/people.html",
+      "file": "pages/16-people-people.html",
+      "title": "GNU's Who - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/server/sitemap.html",
+      "file": "pages/17-server-sitemap.html",
+      "title": "Site map of www.gnu.org - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/philosophy/free-sw.html",
+      "file": "pages/18-philosophy-free-sw.html",
+      "title": "What is Free Software? - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/distros/free-distros.html",
+      "file": "pages/19-distros-free-distros.html",
+      "title": "List of Free GNU/Linux Distributions - GNU Project - Free Software Foundation",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.gnu.org/home.en.html",
+      "file": "pages/20-home-en.html",
+      "title": "The GNU Operating System and the Free Software Movement",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

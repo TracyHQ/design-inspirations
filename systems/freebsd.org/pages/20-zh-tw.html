@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+	<meta name="generator" content="Hugo 0.161.1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="  ">
+  <meta name="keywords" content="">
+  <meta name="copyright" content="1995-2026 The FreeBSD Project">
+  <link rel="canonical" href="https://www.freebsd.org/zh-tw/">
+
+  <title>
+    
+    The FreeBSD Project
+  </title>
+
+  <meta name="theme-color" content="#790000">
+  <meta name="color-scheme" content="system light dark high-contrast">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/styles/main.min.css">
+  <link rel="stylesheet" href="/css/font-awesome-min.css">
+
+  <meta property="og:title" content="  " >
+  <meta property="og:description" content="  " >
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.ico">
+  <meta property="og:image:alt" content="FreeBSD Logo">
+  <meta property="og:locale" content="zh-tw" >
+  <meta property="og:url" content="https://www.freebsd.org/zh-tw/">
+  <meta property="og:site_name" content="The FreeBSD Project">
+  <script type="text/od-defused-script" type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "url": "https:\/\/www.freebsd.org\/zh-tw\/",
+      "name": "The FreeBSD Project",
+      "headline": "The FreeBSD Project",
+      "description": ""
+    }
+  </script>
+  
+  <script type="text/od-defused-script" defer src="/js/theme-chooser.min.js"></script>
+    <script type="text/od-defused-script" async src="https://plausible.io/js/pa-QLSHWxEIso-L-cKLRNOUO.js" ></script>
+    <script type="text/od-defused-script">
+      ((window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          }));
+      plausible.init();
+    </script></head>
+
+  <body>
+    <input type="checkbox" class="theme-switch" id="theme-switch">
+    <div id="page">
+      
+<header>
+  <div class="header-container">
+    <div class="logo-menu-bars-container">
+      <a href="/zh-tw/" class="logo">
+        <img src="/images/FreeBSD-monochromatic.svg" width="160" height="50" alt="FreeBSD logo">
+      </a>
+      <label class="menu-bars" for="menu-bars">
+        <span class="menu-bars-icon" aria-hidden="true"></span>
+      </label>
+    </div>
+    <input id="menu-bars" type="checkbox">
+    <nav>
+      <ul class="menu">
+        <li class="menu-item">
+          <input id="about" type="checkbox">
+          <a href="#" aria-label="Navigate to About section">
+            <label class="menu-item-description" for="about">
+              關於
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/zh-tw/about">關於</a>
+            </li>
+            <li>
+              <a href="/zh-tw/projects/newbies">簡介</a>
+            </li>
+            <li>
+              <a href="/zh-tw/features">特色</a>
+            </li>
+            <li>
+              <a href="/zh-tw/privacy">隱私權政策</a>
+            </li>
+            <li>
+              <a href="/zh-tw/projects">專案</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="download" type="checkbox">
+          <a href="#" aria-label="Navigate to get FreeBSD section">
+            <label class="menu-item-description" for="download">
+              取得 FreeBSD
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/zh-tw/where">取得 FreeBSD</a>
+            </li>
+            <li>
+              <a href="/zh-tw/releases">版本資訊</a>
+            </li>
+            <li>
+              <a href="/zh-tw/releng">版本工程</a>
+            </li>
+            <li>
+              <a href=/zh-tw/ports>Ported Applications</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="documentation" type="checkbox">
+          <a href="#" aria-label="Navigate to get Documentation section">
+            <label class="menu-item-description" for="documentation">
+              文件
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="https://docs.FreeBSD.org/zh-tw/">文件</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/books/handbook/">FreeBSD 手冊</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/books/faq/">FAQ</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/books/porters-handbook/">Ports 開發者手冊</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/books/fdp-primer">文件專案手冊</a>
+            </li>
+            <li>
+              <a href="https://man.FreeBSD.org">手冊頁</a>
+            </li>
+            <li>
+              <a href="https://papers.FreeBSD.org">簡報與論文</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/books">書籍</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/zh-tw/articles">文章</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="community" type="checkbox">
+          <a href="#" aria-label="Navigate to get Community section">
+            <label class="menu-item-description" for="community">
+              社群
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/zh-tw/community">社群</a>
+            </li>
+            <li>
+              <a href="/zh-tw/community/mailinglists">郵件論壇</a>
+            </li>
+            <li>
+              <a href="https://forums.FreeBSD.org">論壇</a>
+            </li>
+            <li>
+              <a href="/zh-tw/usergroups">使用者群組</a>
+            </li>
+            <li>
+              <a href="/zh-tw/events">活動</a>
+            </li>
+            <li>
+              <a href="https://freebsdfoundation.org/our-work/journal/">FreeBSD Journal</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="developers" type="checkbox">
+          <a href="#" aria-label="Navigate to get Developers section">
+            <label class="menu-item-description" for="developers">
+              開發者
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/zh-tw/projects">開發者</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org/IdeasPage">專案構想</a>
+            </li>
+            <li>
+              <a href="https://cgit.FreeBSD.org">Git 儲存庫</a>
+            </li>
+            <li>
+              <a href="https://github.com/freebsd">GitHub 鏡像</a>
+            </li>
+            <li>
+              <a href="https://reviews.FreeBSD.org">程式碼審查（Phabricator）</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org">Wiki</a>
+            </li>
+            <li>
+              <a href="https://ci.FreeBSD.org">持續整合服務</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="support" type="checkbox">
+          <a href="#" aria-label="Navigate to get Support section">
+            <label class="menu-item-description" for="support">
+              支援
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/zh-tw/support">支援</a>
+            </li>
+            <li>
+              <a href="/zh-tw/commercial">供應商</a>
+            </li>
+            <li>
+              <a href="/zh-tw/security">安全資訊</a>
+            </li>
+            <li>
+              <a href="https://bugs.FreeBSD.org/search/">錯誤回報</a>
+            </li>
+            <li>
+              <a href="/zh-tw/support">提交錯誤回報</a>
+            </li>
+            <li>
+              <a href="/zh-tw/support/webresources">網路資源</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-donate-container">
+      
+      <form
+        class="search"
+        method="get"
+        id="search-header-form"
+        action="https://duckduckgo.com"
+        name="search-header-form"
+        onsubmit="document.getElementById('words').value+=' site:FreeBSD.org'">
+        <input type="hidden" name="DB" value="zh-tw">
+        <input type="hidden" name="ka" value="v">
+        <input type="hidden" name="kt" value="v">
+        <input type="hidden" name="kh" value="1">
+        <input type="hidden" name="kj" value="r2">
+        <input
+          id="words"
+          name="q"
+          type="text"
+          size="20"
+          maxlength="25"
+          onfocus="if( this.value==this.defaultValue ) this.value='';"
+          value=""
+          placeholder="">
+        <button>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <details class="i18n">
+        <summary class="lang-toggle">
+          <img src="/images/language.png" class="language-image" alt="" />
+        </summary>
+        <ul class="lang-dropdown">
+          <li>
+            <a href="/zh-tw/" class="current-lang" aria-current="page">繁體中文</a>
+          </li>
+          
+            <li>
+              <a href="/" lang="en">English</a>
+            </li>
+          
+            <li>
+              <a href="/ru/" lang="ru">Russian</a>
+            </li>
+          
+        </ul>
+      </details>
+      <div class="donate">
+        <a href="https://freebsdfoundation.org/donate/">
+          <span class="heart">❤️</span>
+          捐款
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main>
+        <section class="front-page-band-content">
+    <section class="main-section">
+      <div class="logo-box freebsd-horizontal front-page-logo">
+        <div class="logo-box-image"></div>
+      </div>
+      <div class="front-page-tagline">強大且開源的<br />作業系統</div>
+      <section class="downloads-container">
+        <section class="downloads download-section">
+          <div class="download-section-title">下載 FreeBSD 15.1</div>
+          <div>
+            <a class="download-button-release" href="https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/15.1/">amd64</a>
+            <a class="download-button-release" href="https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/15.1/">aarch64</a>
+            <a class="download-button-release" href="/where/#download">其他</a>
+          </div>
+          <div class="download-links">
+            <a href="/releases/15.1R/announce/">公告</a>,
+            <a href="/releases/15.1R/relnotes/">說明</a>
+          </div>
+        </section>
+      </section>
+    </section>
+  </section>
+  <div class="front-page-band-on">
+    <section class="front-page-band-content">
+      <section class="why-freebsd-flex">
+        <section class="why-freebsd-flex-item">
+          <h3>原生 ZFS</h3>
+          <div class="logo-box openzfs">
+            <div class="logo-box-image"></div>
+          </div>
+          <p>
+            <a href="https://openzfs.github.io/openzfs-docs/" target="_blank">OpenZFS</a> 將檔案系統與磁碟區管理整合為單一可靠的儲存平台。在 FreeBSD 中，它已完整整合至作業系統。
+          </p>
+        </section>
+        <section class="why-freebsd-flex-item">
+          <h3>虛擬化</h3>
+          <div class="logo-box bhyve">
+            <div class="logo-box-image"></div>
+          </div>
+          <p><a href="https://bhyve.org" target="_blank">bhyve</a> 是 FreeBSD 的現代化虛擬機管理程式，支援 virtio、PCI passthrough 與高速 NVMe 模擬。</p>
+        </section>
+        <section class="why-freebsd-flex-item">
+          <h3>Jails</h3>
+          <div class="logo-box jails">
+            <div class="logo-box-image"></div>
+          </div>
+          <p>FreeBSD jails 為服務與應用程式提供隔離環境。每個 jail 都能擁有自己的檔案系統、網路與設定。</p>
+        </section>
+        <section class="why-freebsd-flex-item">
+          <h3>網路</h3>
+          <div class="logo-box network">
+            <div class="logo-box-image"></div>
+          </div>
+          <p>FreeBSD 以優異的網路效能與穩定性聞名，支撐全球高負載基礎設施。</p>
+        </section>
+        <section class="why-freebsd-flex-item">
+          <h3>文件</h3>
+          <div class="logo-box docs">
+            <div class="logo-box-image"></div>
+          </div>
+          <p>FreeBSD 提供完整且維護良好的文件。從 Handbook 到手冊頁，文件被視為系統核心的一部分。</p>
+        </section>
+        <section class="why-freebsd-flex-item">
+          <h3>社群</h3>
+          <div class="logo-box community">
+            <div class="logo-box-image"></div>
+          </div>
+          <p>FreeBSD 擁有一個充滿活力且協作性強的社群，從個人貢獻者到大型企業組織皆然。各種團體活躍於不同管道，從即時通訊到郵件列表及新聞群組。</p>
+        </section>
+      </section>
+    </section>
+  </div>
+  <section class="front-page-band-content">
+    <section id="news" class="feed-flex">
+      <section class="feed-flex-item"><h4>最新消息</h4><p>
+        <span>2026-07-23</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-07-23:1">Ports 套件集暫時停用</a>
+      </p><p>
+        <span>2026-06-16</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-06-16:1">FreeBSD 15.1-RELEASE 發布了</a>
+      </p><p>
+        <span>2026-06-06</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-06-06:1">FreeBSD 15.1-RC3 發布了</a>
+      </p><p>
+        <span>2026-05-31</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-05-31:1">FreeBSD 15.1-RC2 發布了</a>
+      </p><p>
+        <span>2026-05-23</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-05-23:1">FreeBSD 15.1-RC1 發布了</a>
+      </p><p>
+        <span>2026-05-16</span>
+        <br />
+        <a href="/zh-tw/news/newsflash/#2026-05-16:1">FreeBSD 15.1-BETA3 發布了</a>
+      </p><div class="feed-source">
+  <a href="/zh-tw/news/newsflash">更多</a> |
+  <a href="/news/feed.xml" title=訂閱>
+    <img class="rssimage" src="/images/rss_icon.png" alt=訂閱 width="27" height="12" />
+  </a>
+</div>
+</section>
+      <section class="feed-flex-item"><h4>即將舉辦的活動</h4><p>
+              <span class="txtdate">2026-09-09-2026-09-13</span>
+              <br />
+              <a href="https://www.freebsd.org/events/#eurobsdcon-2026">EuroBSDCon 2026<br />(Brussels,Belgium)</a>
+            </p><p>
+              <span class="txtdate">2026-12-09-2026-12-10</span>
+              <br />
+              <a href="https://www.freebsd.org/events/#osxp-paris-2026">Open Source Experience Paris 2026<br />(Paris,France)</a>
+            </p><div class="feed-source">
+  <a href="/zh-tw/events">更多</a> |
+  <a href="/events/feed.xml" title=訂閱>
+    <img class="rssimage" src="/images/rss_icon.png" alt=訂閱 width="27" height="12" />
+  </a>
+</div>
+</section>
+      <section class="feed-flex-item"><h4>媒體</h4><p>
+        <span>2026-07</span>
+        <br />
+        <a href="https://www.freebsd.org/press/#2026-07:1">BSDCan 2026 Travel Report – Patrick McEvoy</a>
+      </p><p>
+        <span>2026-07</span>
+        <br />
+        <a href="https://www.freebsd.org/press/#2026-07:2">BSDCan 2026 Trip Report – ShengYi Hung</a>
+      </p><p>
+        <span>2026-07</span>
+        <br />
+        <a href="https://www.freebsd.org/press/#2026-07:3">Understanding the Foundation Board&#39;s Role in the FreeBSD Ecosystem</a>
+      </p><p>
+        <span>2026-07</span>
+        <br />
+        <a href="https://www.freebsd.org/press/#2026-07:4">FreeBSD Foundation Welcomes New Board Member: Dave Cottlehuber</a>
+      </p><p>
+        <span>2026-07</span>
+        <br />
+        <a href="https://www.freebsd.org/press/#2026-07:5">Represent FreeBSD in Your Community</a>
+      </p><div class="feed-source">
+  <a href="/zh-tw/press">更多</a> |
+  <a href="/press/feed.xml" title=訂閱>
+    <img class="rssimage" src="/images/rss_icon.png" alt=訂閱 width="27" height="12" />
+  </a>
+</div>
+</section>
+      <section class="feed-flex-item"><h4>安全公告</h4><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:63.posixshm.asc">FreeBSD-SA-26:63.posixshm</a>
+      </p><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:62.tty.asc">FreeBSD-SA-26:62.tty</a>
+      </p><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:61.openssl.asc">FreeBSD-SA-26:61.openssl</a>
+      </p><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:60.ppp.asc">FreeBSD-SA-26:60.ppp</a>
+      </p><div class="feed-source">
+  <a href="/zh-tw/security/advisories/">更多</a> |
+  <a href="/security/feed.xml" title=訂閱>
+    <img class="rssimage" src="/images/rss_icon.png" alt=訂閱 width="27" height="12" />
+  </a>
+</div>
+<h4>勘誤通知</h4><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-EN-26:21.openssl.asc">FreeBSD-EN-26:21.openssl</a>
+      </p><p>
+        <span>2026-08-25</span>
+        <br />
+        <a href="https://www.freebsd.org/security/advisories/FreeBSD-EN-26:20.microcode.asc">FreeBSD-EN-26:20.microcode</a>
+      </p><div class="feed-source">
+  <a href="/zh-tw/security/notices/">更多</a> |
+  <a href="/security/feed.xml" title=訂閱>
+    <img class="rssimage" src="/images/rss_icon.png" alt=訂閱 width="27" height="12" />
+  </a>
+</div>
+</section>
+    </section>
+  </section>
+      </main>
+      
+<footer>
+  <div class="footer-container">
+    <section class="logo-column">
+      <img src="/images/beastie-right.svg" width="160" height="250" alt="FreeBSD logo" />
+      <div class="theme-container">
+        <label for="theme-switch" class="theme-switch-label" aria-label="Switch color theme">
+          <i class="fa fa-moon-o theme-icon theme-icon-dark" aria-hidden="true"></i>
+          <i class="fa fa-sun-o theme-icon theme-icon-light" aria-hidden="true"></i>
+        </label>
+      </div>
+      </section>
+      <section class="about-column">
+        <h3 class="column-title">關於</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/zh-tw/about" class="column-element">FreeBSD</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/" class="column-element">FreeBSD 基金會</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/our-work/journal/" class="column-element">FreeBSD Journal</a>
+          </li>
+          <li>
+            <a href="/zh-tw/where" class="column-element">取得 FreeBSD</a>
+          </li>
+          <li>
+            <a href="/zh-tw/internal/code-of-conduct" class="column-element">行為準則</a>
+          </li>
+          <li>
+            <a href="/zh-tw/security" class="column-element">安全公告</a>
+          </li>
+        </ul>
+      </section>
+      <section class="documentation-column">
+        <h3 class="column-title">文件</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.freebsd.org" class="column-element">文件入口</a>
+          </li>
+          <li>
+            <a href="https://man.FreeBSD.org" target="_blank" class="column-element">手冊頁</a>
+          </li>
+          <li>
+            <a href="https://ports.freebsd.org" target="_blank" class="column-element">Ported Applications</a>
+          </li>
+          <li>
+            <a href="https://papers.FreeBSD.org" target="_blank" class="column-element">簡報與論文</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/" target="_blank" class="column-element">Wiki</a>
+          </li>
+        </ul>
+      </section>
+      <section class="community-column">
+        <h3 class="column-title">社群</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.FreeBSD.org/zh-tw/articles/contributing" class="column-element">參與方式</a>
+          </li>
+          <li>
+            <a href="https://forums.freebsd.org/" target="_blank" class="column-element">社群論壇</a>
+          </li>
+          <li>
+            <a href="https://lists.freebsd.org/" target="_blank" class="column-element">郵件論壇</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/IRC/Channels" target="_blank" class="column-element">IRC 頻道</a>
+          </li>
+          <li>
+            <a href="https://bugs.freebsd.org/bugzilla/" target="_blank" class="column-element">錯誤追蹤</a>
+          </li>
+        </ul>
+      </section>
+      <section class="legal-column">
+        <h3 class="column-title">法律資訊</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/zh-tw/contact" class="column-element">Contact</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/donate/" target="_blank" class="column-element">捐款</a>
+          </li>
+          <li>
+            <a href="/zh-tw/copyright" class="column-element">授權</a>
+          </li>
+          <li>
+            <a href="/zh-tw/privacy" class="column-element">隱私權政策</a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright-column">
+        <p>&copy; 1994-2026 FreeBSD 專案。保留所有權利</p>
+        <span>由 <span class="heart">❤️</span> FreeBSD 社群打造</span>
+      </section>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

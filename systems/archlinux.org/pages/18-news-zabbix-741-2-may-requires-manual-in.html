@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#08C" />
+    <title>Arch Linux - News: zabbix &gt;= 7.4.1-2 may require manual intervention</title>
+    <link rel="stylesheet" type="text/css" href="/static/archlinux_common_style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/static/archweb.css" media="screen" />
+    <link rel="icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="apple-touch-icon" href="/static/archlinux_common_style/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/archlinux_common_style/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/archlinux_common_style/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/archlinux_common_style/apple-touch-icon-144x144.png" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch/packages/" title="Arch Linux Packages" />
+    
+</head>
+<body class="">
+    <header class="anb-home">
+        <div id="archnavbar">
+	<div id="logo"><a href="/" title="Return to the main page">Arch Linux</a></div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-home"><a href="/" title="Arch news, packages, projects and more">Home</a></li>
+			<li id="anb-packages"><a href="/packages/" title="Arch Package Database">Packages</a></li>
+			<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+			<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+			<li id="anb-gitlab"><a href="https://gitlab.archlinux.org/archlinux" title="GitLab">GitLab</a></li>
+			<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+			<li id="anb-aur"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+			<li id="anb-download"><a href="/download/" title="Get Arch Linux">Download</a></li>
+		</ul>
+	</div>
+</div>
+
+    </header>
+    <div id="content">
+        <div id="archdev-navbar">
+            
+        </div>
+        
+        
+<div itemscope itemtype="http://schema.org/Article" class="news-article box">
+    <h2 itemprop="headline">zabbix &gt;= 7.4.1-2 may require manual intervention</h2>
+    <meta itemprop="dateCreated" content="2025-08-04"/>
+    <meta itemprop="datePublished" content="2025-08-04"/>
+    <meta itemprop="dateModified" content="2025-08-04"/>
+    <meta itemprop="inLanguage" content="en"/>
+    <meta itemprop="wordCount" content="204"/>
+    <div class="itemprop" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="Robin Candau"/>
+    </div>
+    <div class="itemprop" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="Arch Linux"/>
+    </div>
+
+    
+
+    <p class="article-info">2025-08-04 - Robin Candau</p>
+
+    <div class="article-content" itemprop="articleBody"><p>Starting with <code>7.4.1-2</code>, the following Zabbix system user accounts (previously shipped by their related packages) will no longer be used. Instead, all Zabbix components will now rely on a shared <code>zabbix</code> user account (as originally <a href="https://www.zabbix.com/documentation/current/en/manual/installation/install#create-user-account">intended by upstream</a> and done by other distributions):</p>
+<ul>
+<li>zabbix-server</li>
+<li>zabbix-proxy</li>
+<li>zabbix-agent <em>(also used by the <code>zabbix-agent2</code> package)</em></li>
+<li>zabbix-web-service</li>
+</ul>
+<p>This shared <code>zabbix</code> user account is provided by the newly introduced <code>zabbix-common</code> <em>split</em> package, which is now a dependency for all relevant <code>zabbix-*</code> packages.</p>
+<p>The switch to the new user account is handled automatically for the corresponding main configuration files and <code>systemd</code> service units.</p>
+<p>However, <strong>manual intervention may be required</strong> if you created custom files or configurations referencing to and / or being owned by the above deprecated users accounts, for example:</p>
+<ul>
+<li><code>PSK</code> files used for encrypted communication</li>
+<li>Custom scripts for metrics collections or report generations</li>
+<li><code>sudoers</code> rules for metrics requiring elevated privileges to be collected</li>
+<li>...</li>
+</ul>
+<p>Those should therefore be updated to refer to and / or be owned by the new <code>zabbix</code> user account, otherwise some services or user parameters may fail to work properly, or not at all.</p>
+<p>Once migrated, you may <a href="https://wiki.archlinux.org/title/Users_and_groups#Other_examples_of_user_management">remove the obsolete user accounts from your system</a>.</p></div>
+</div>
+
+        <div id="footer">
+            <p>Copyright © 2002-2026 <a href="mailto:jvinet@zeroflux.org"
+                title="Contact Judd Vinet">Judd Vinet</a>, <a href="mailto:aaron@archlinux.org"
+                title="Contact Aaron Griffin">Aaron Griffin</a> and
+                <a href="mailto:anthraxx@archlinux.org" title="Contact Levente Polyák">Levente Polyák</a>.</p>
+
+            <p>The Arch Linux name and logo are recognized
+            <a href="https://terms.archlinux.org/docs/trademark-policy/"
+                title="Arch Linux Trademark Policy">trademarks</a>. Some rights reserved.</p>
+
+            <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+            the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+        </div>
+    </div>
+    <script type="text/od-defused-script" type="application/ld+json">
+    {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "/packages/?q={search_term}",
+         "query-input": "required name=search_term"
+       }
+    }
+    </script>
+    
+</body>
+</html>

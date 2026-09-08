@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="  ">
+  <meta name="keywords" content="">
+  <meta name="copyright" content="1995-2026 The FreeBSD Project">
+  <link rel="canonical" href="https://www.freebsd.org/usergroups/">
+
+  <title>
+    User Groups |
+    The FreeBSD Project
+  </title>
+
+  <meta name="theme-color" content="#790000">
+  <meta name="color-scheme" content="system light dark high-contrast">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/styles/main.min.css">
+  <link rel="stylesheet" href="/css/font-awesome-min.css">
+
+  <meta property="og:title" content=" User Groups " >
+  <meta property="og:description" content="  " >
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.ico">
+  <meta property="og:image:alt" content="FreeBSD Logo">
+  <meta property="og:locale" content="en" >
+  <meta property="og:url" content="https://www.freebsd.org/usergroups/">
+  <meta property="og:site_name" content="The FreeBSD Project">
+  <script type="text/od-defused-script" type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "url": "https:\/\/www.freebsd.org\/usergroups\/",
+      "name": "The FreeBSD Project",
+      "headline": "The FreeBSD Project",
+      "description": ""
+    }
+  </script>
+  
+  <script type="text/od-defused-script" defer src="/js/theme-chooser.min.js"></script>
+    <script type="text/od-defused-script" async src="https://plausible.io/js/pa-QLSHWxEIso-L-cKLRNOUO.js" ></script>
+    <script type="text/od-defused-script">
+      ((window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          }));
+      plausible.init();
+    </script></head>
+
+  <body>
+    <input type="checkbox" class="theme-switch" id="theme-switch">
+    <div id="page">
+      
+<header>
+  <div class="header-container">
+    <div class="logo-menu-bars-container">
+      <a href="/" class="logo">
+        <img src="/images/FreeBSD-monochromatic.svg" width="160" height="50" alt="FreeBSD logo">
+      </a>
+      <label class="menu-bars" for="menu-bars">
+        <span class="menu-bars-icon" aria-hidden="true"></span>
+      </label>
+    </div>
+    <input id="menu-bars" type="checkbox">
+    <nav>
+      <ul class="menu">
+        <li class="menu-item">
+          <input id="about" type="checkbox">
+          <a href="#" aria-label="Navigate to About section">
+            <label class="menu-item-description" for="about">
+              About
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/projects/newbies">Introduction</a>
+            </li>
+            <li>
+              <a href="/features">Features</a>
+            </li>
+            <li>
+              <a href="/privacy">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="download" type="checkbox">
+          <a href="#" aria-label="Navigate to get FreeBSD section">
+            <label class="menu-item-description" for="download">
+              Get FreeBSD
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/where">Get FreeBSD</a>
+            </li>
+            <li>
+              <a href="/releases">Release Information</a>
+            </li>
+            <li>
+              <a href="/releng">Release Engineering</a>
+            </li>
+            <li>
+              <a href=/ports>Ported Applications</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="documentation" type="checkbox">
+          <a href="#" aria-label="Navigate to get Documentation section">
+            <label class="menu-item-description" for="documentation">
+              Documentation
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="https://docs.FreeBSD.org/en/">Documentation</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/handbook/">Handbook</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/faq/">FAQ</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/porters-handbook/">Porter&#39;s Handbook</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/fdp-primer">Documentation Project Primer</a>
+            </li>
+            <li>
+              <a href="https://man.FreeBSD.org">Manual pages</a>
+            </li>
+            <li>
+              <a href="https://papers.FreeBSD.org">Presentations and papers</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books">Books</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/articles">Articles</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="community" type="checkbox">
+          <a href="#" aria-label="Navigate to get Community section">
+            <label class="menu-item-description" for="community">
+              Community
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/community">Community</a>
+            </li>
+            <li>
+              <a href="/community/mailinglists">Mailing lists</a>
+            </li>
+            <li>
+              <a href="https://forums.FreeBSD.org">Forums</a>
+            </li>
+            <li>
+              <a href="/usergroups">User Groups</a>
+            </li>
+            <li>
+              <a href="/events">Events</a>
+            </li>
+            <li>
+              <a href="https://freebsdfoundation.org/our-work/journal/">FreeBSD Journal</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="developers" type="checkbox">
+          <a href="#" aria-label="Navigate to get Developers section">
+            <label class="menu-item-description" for="developers">
+              Developers
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/projects">Developers</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org/IdeasPage">Project Ideas</a>
+            </li>
+            <li>
+              <a href="https://cgit.FreeBSD.org">Git Repository</a>
+            </li>
+            <li>
+              <a href="https://github.com/freebsd">GitHub Mirror</a>
+            </li>
+            <li>
+              <a href="https://reviews.FreeBSD.org">Code Review (Phabricator)</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org">Wiki</a>
+            </li>
+            <li>
+              <a href="https://ci.FreeBSD.org">Continuous Integration Service</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="support" type="checkbox">
+          <a href="#" aria-label="Navigate to get Support section">
+            <label class="menu-item-description" for="support">
+              Support
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/support">Support</a>
+            </li>
+            <li>
+              <a href="/commercial">Vendors</a>
+            </li>
+            <li>
+              <a href="/security">Security Information</a>
+            </li>
+            <li>
+              <a href="https://bugs.FreeBSD.org/search/">Bug Reports</a>
+            </li>
+            <li>
+              <a href="/support">Submitting Bug Reports</a>
+            </li>
+            <li>
+              <a href="/support/webresources">Web Resources</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-donate-container">
+      
+      <form
+        class="search"
+        method="get"
+        id="search-header-form"
+        action="https://duckduckgo.com"
+        name="search-header-form"
+        onsubmit="document.getElementById('words').value+=' site:FreeBSD.org'">
+        <input type="hidden" name="DB" value="en">
+        <input type="hidden" name="ka" value="v">
+        <input type="hidden" name="kt" value="v">
+        <input type="hidden" name="kh" value="1">
+        <input type="hidden" name="kj" value="r2">
+        <input
+          id="words"
+          name="q"
+          type="text"
+          size="20"
+          maxlength="25"
+          onfocus="if( this.value==this.defaultValue ) this.value='';"
+          value=""
+          placeholder="">
+        <button>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <details class="i18n">
+        <summary class="lang-toggle">
+          <img src="/images/language.png" class="language-image" alt="" />
+        </summary>
+        <ul class="lang-dropdown">
+          <li>
+            <a href="/" class="current-lang" aria-current="page">English</a>
+          </li>
+          
+            <li>
+              <a href="/ru/usergroups/" lang="ru">Russian</a>
+            </li>
+          
+        </ul>
+      </details>
+      <div class="donate">
+        <a href="https://freebsdfoundation.org/donate/">
+          <span class="heart">❤️</span>
+          Donate
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main>
+        
+<div id="content">
+  <aside id="sidewrap">
+    <div id="sidenav">
+      
+
+<ul>
+  <li><a href="https://www.bsdnow.tv/" target="_blank">BSD Now</a></li>
+  <li><a href="https://discord.com/invite/freebsd" target="_blank">Discord</a></li>
+  <li><a href=/events></a></li>
+  <li><a href="https://forums.FreeBSD.org/" target="_blank"></a></li>
+  <li><a href="/community/irc/">IRC</a></li>
+  <li><a href="/community/mailinglists/">Mailing Lists</a></li>
+  <li><a href="https://www.reddit.com/r/freebsd/" target="_blank">Reddit</a></li>
+  <li><a href="/usergroups">User Groups</a></li>
+  <li><a href="https://www.youtube.com/FreeBSDProject" target="_blank">YouTube</a></li>
+</ul>
+
+
+    </div>
+  </aside>
+
+  <div id="contentwrap">
+    <h1>User Groups</h1><div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>FreeBSD’s widespread popularity has spawned a number of user groups around the world.</p>
+</div>
+<div class="paragraph">
+<p>If you know of a FreeBSD user group not listed here, please fill out a <a href="../support/bugreports">problem report</a> in category Documentation→Website with the following information:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A URL for the user group’s website.</p>
+</li>
+<li>
+<p>An email contact address of a human in charge, for use by our visitors and website administrators.</p>
+</li>
+<li>
+<p>A short (one paragraph) description of the user group.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>In keeping with the spirit of FreeBSD, we prefer user groups that are active and which conduct their business in public.
+If there is no local group, <a href="https://meetup.com/" class="bare">https://meetup.com/</a> can be used to locate interested individuals near by.</p>
+</div>
+<div class="paragraph">
+<p>Consider forming your own user group!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_regions">Regions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>FreeBSD User Groups can be found worldwide, connecting enthusiasts and professionals who share a passion for this versatile operating system.
+Join a FreeBSD User Group in your region and become part of this vibrant community, networking and learning from fellow FreeBSD enthusiasts near you.</p>
+</div>
+<div class="sect2">
+<h3 id="europe">Europe</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://bsdstammtisch.at/">Wiener BSD Stammtisch</a></dt>
+<dd>
+<p>The Vienna BSD-Stammtisch is an English and German speaking BSD user group located in Austria’s capital.
+We meet once a month to have a show and tell session, discuss and have a beer or two.
+The idea is to improve our skills and meet other BSD enthusiasts.
+Feel free to join!</p>
+</dd>
+<dt class="hdlist1"><a href="https://brmlab.cz/groups/start#prague_bsd_group">Prague BSD Group</a></dt>
+<dd>
+<p>A small BSD user group from Brmlab Prague/Czech Republic Hackerspace.
+We are a group of hobbyists, professionals, and enthusiasts.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bsd-dk.dk/">BSD-DK</a></dt>
+<dd>
+<p>The Danish BSD User Group.
+Promotion and support of the BSD derived Operating Systems in Denmark.
+Mailing lists, lecture and workshops.
+Send mail subscription requests to <a href="mailto:bsd-dk-request@bsd-dk.dk">bsd-dk-request@bsd-dk.dk</a>.
+Located in Denmark.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.AlbaBSD.org">AlbaBUG</a></dt>
+<dd>
+<p>The Albanian BSD Users Group is a group that represents and supports *BSD in Albanian language.
+More information is available at <a href="https://www.AlbaBSD.org">https://www.AlbaBSD.org</a>.
+Located in Prishtina, Kosova.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.augusta.de/">Augusta</a></dt>
+<dd>
+<p>The BSD User Group of the Augsburger Computer Forum e.V. meets every second Saturday at 17.00
+Please visit our <a href="http://www.augusta.de/">web site</a> for more information on dates and our address.
+We have all kinds of BSD, but mainly FreeBSD and Mac OS X. Located in Germany, Augsburg.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bsdhh.org/bsdhh-de-index.html">BSD User Group Hamburg (BSDHH)</a></dt>
+<dd>
+<p>The BSD User Group Hamburg (BSDHH) <a href="https://www.bsdhh.org/bsdhh-de-treffen.html">meets on the first Wednesday of the month at 7.00pm</a> in the Restaurant Shanghai House (Borsteler Chaussee 110, 22453 Hamburg).
+Most members are FreeBSD users, although users of all BSD flavors are welcome.
+Located in Germany, Hamburg.</p>
+</dd>
+<dt class="hdlist1"><a href="https://bsd.nrw/">BSD User Group Düsseldorf/NRW (BSD.NRW)</a></dt>
+<dd>
+<p>BSD.NRW is located in Düsseldorf, NRW, Germany.
+We are open for all people in the Rhein-Ruhr area that are interested in the BSD family.
+We have bi-monthly meetings (always on the second Tuesday of these months).
+Upcoming dates and additional information can be found on the <a href="https://bsd.nrw">BSD.NRW website</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.HappaBSD.de/">HappaBSD Regensburg</a></dt>
+<dd>
+<p>HappaBSD is a regulars&#39; table taking place every month in Regensburg, Bavaria, Germany.
+For more information see the <a href="http://www.HappaBSD.de/">HappaBSD website</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.uugrn.org/">Unix Users Group Rhein-Neckar e.V. (UUGRN e.V.)</a></dt>
+<dd>
+<p>The Unix Users Group Rhein-Neckar e.V. (UUGRN e.V.) provides a regional forum for users of all Unix flavors, with a stress on Linux and BSD.
+<a href="https://stammtisch.uugrn.org/">Meetings (UnixUserStammtisch)</a> are held on the third Monday of each month.
+The <a href="https://fixme.uugrn.org/">Hands-on FIXME meeting</a> happens every first Friday of each month.
+Located in Germany, <a href="https://rhein-neckar-wiki.de/">Rhine-Neckar-Region</a>, Heidelberg.
+All events get announced on X <a href="https://twitter.com/uugrn">@uugrn</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://berklix.org/bim/">Berkeley in Munich (BIM)</a></dt>
+<dd>
+<p>The Berkeley in Munich (BIM) caters for users of BSD based systems in Oberbayern.
+Located in Germany, Munich.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bluefrogs.de/">Bluefrogs e.V.</a></dt>
+<dd>
+<p>Unix and Linux User Group in Bergisch Gladbach (near Cologne), Germany.
+Meetings are held twice a month.
+We are working with all Open Source Unix derivates: FreeBSD, NetBSD, OpenBSD, Linux and others.
+We give workshops, lectures, talks and install parties.
+For more information please email us at: <a href="mailto:info@bluefrogs.de">info@bluefrogs.de</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://bse.42.org/">BSE München</a></dt>
+<dd>
+<p>BSE (BSD Social Event) is located in München (Munich), Germany.
+Feel free to visit our regular meetings (every four weeks) or join the mailing list.
+For more information visit the <a href="http://bse.42.org/">BSE web site</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.fug-fr.org/">FUG-FR</a></dt>
+<dd>
+<p>The FreeBSD User Group France (FUG-FR) is a group of FreeBSD enthusiasts in France currently involved translating marketing papers etc.
+They are also active in helping out FOSDEM (held in Brussels).
+For more information please visit our web page <a href="http://www.fug-fr.org/">http://www.fug-fr.org</a> or contact <a href="mailto:rodrigo@bebik.net">Rodrigo Osorio</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.meetup.com/Dublin-BSD-User-Group/">Dublin BSD User Group</a></dt>
+<dd>
+<p>The Dublin BSD User Group is a collective of individuals who are interested in the application of BSDs in production scenarios.
+We are interested in how the BSDs can help both sysadmins and application developers deploy and manage robust solutions as well as looking at some of the unique features of the BSDs.
+For more information please visit our <a href="https://www.meetup.com/Dublin-BSD-User-Group/">website</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.lissyara.su">Lissyara.su</a></dt>
+<dd>
+<p>We are a Russian FreeBSD community.
+On our site we offer several articles for setting up FreeBSD and various other applications.
+In addition to the articles we also provide a <a href="http://forum.lissyara.su/">user forum</a> where experienced users of FreeBSD are pleased to be able to help other users.</p>
+</dd>
+<dt class="hdlist1"><a href="http://bsdportal.ru">Russian FreeBSD User Group (RFUG)</a></dt>
+<dd>
+<p>The Russian FreeBSD User Group (RFUG) is a Russian language oriented user group for the Russian and ex-USSR users.
+Located in Russia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.ulbsd.ru/">Ulyanovsk FreeBSD Users Group</a></dt>
+<dd>
+<p>The Ulyanovsk FreeBSD Users Group (ULBSD) is for Russian users of ULBSD operating system that is based on FreeBSD.
+We provide free and paid versions of our operating system.
+We also answer many questions of users for free and help them work in the FreeBSD and ULBSD.
+For more information send an email to <a href="mailto:info@ulbsd.ru">info@ulbsd.ru</a> or visit the website at <a href="http://www.ulbsd.ru/">http://www.ulbsd.ru/</a>.
+Located in Ulyanovsk, Russia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.gufi.org/">Gruppo Utenti FreeBSD Italia (GUFI)</a></dt>
+<dd>
+<p>The Gruppo Utenti FreeBSD Italia (GUFI) is a &#34;italian powered&#34; FreeBSD User Group.
+It is intended to help Italian FreeBSD users to find support and articles on/about FreeBSD in the italian language.
+Please follow this <a href="http://www.gufi.org/">link</a> to know more about us.
+Located in Italia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bug.lv">BSD User Group Latvia</a></dt>
+<dd>
+<p>To learn more about the BSD User Group Latvia, please visit our <a href="http://www.bug.lv/">site</a> and our <a href="http://www.bug.lv/">forums</a>.
+Located in Latvia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.nobug.no/">The Norwegian BSD User Group (NOBUG)</a></dt>
+<dd>
+<p>The Norwegian BSD User Group (NOBUG) is a User Group for BSD users and enthusiasts in Norway.
+Meetings are currently held in Oslo and Bergen.
+Visit our website for more information. There is also a Unix User Group (<a href="http://www.nuug.no/">NUUG</a>) with more regular meetings, sometimes even with a BSD subject. Located in Norway.</p>
+</dd>
+<dt class="hdlist1"><a href="https://bsd-pl.org/">Polish BSD User Group</a></dt>
+<dd>
+<p>Our group was created to promote systems from the BSD family in Poland.
+We organize meetings that bring together lovers of Unix systems.
+Located in Warsaw.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.sbug.org/">SBUG</a></dt>
+<dd>
+<p>SBUG is a *BSD user group based in Rzeszow and targeting the Podkarpackie Voivodeship.</p>
+</dd>
+<dt class="hdlist1"><a href="mailto:ptbsd@yahoo.com">The Portuguese *BSD Users Group</a></dt>
+<dd>
+<p>The Portuguese *BSD Users Group is a User Group for Portuguese users of BSD operating systems.
+Contact Rui Pereira <a href="mailto:ptbsd@yahoo.com">ptbsd@yahoo.com</a> for more information.
+Located in Portugal, Amadora.</p>
+</dd>
+<dt class="hdlist1"><a href="https://bsd.si/">BSD User Group Slovenia</a></dt>
+<dd>
+<p>BSD User Group Slovenia connects BSD system users in Slovenia.
+Group members also gather on the ##bsd.si IRC channel on Libera Chat.
+Located in Ljubljana, Slovenia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bsd.hu/">The Hungarian BSD Group</a></dt>
+<dd>
+<p>The Hungarian BSD Group is a group of NetBSD, FreeBSD, and OpenBSD users located in Hungary.
+Their meetings occur on the second Friday of the month.
+The website of the group is <a href="http://www.bsd.hu/">http://www.bsd.hu/</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="https://lists.stacken.kth.se/mailman/listinfo/bus">BSD Users Sweden (BUS)</a></dt>
+<dd>
+<p>The BSD Users Sweden (BUS) maintains a mailing list.
+To join send an email to <a href="mailto:majordomo@stacken.kth.se">majordomo@stacken.kth.se</a> with <code>subscribe bus</code> in the body.
+Located in Sweden.</p>
+</dd>
+<dt class="hdlist1"><a href="https://freebsd.web.tr/">FreeBSD Türkiye</a></dt>
+<dd>
+<p>We are a community of FreeBSD enthusiasts and professionals dedicated to supporting and advancing FreeBSD systems.
+Our group actively engages in writing documentation, contributing code, and conducting research to enhance the FreeBSD ecosystem.
+Whether you’re an experienced developer or just starting with FreeBSD, join us in fostering collaboration and innovation within the Turkey FreeBSD community.</p>
+</dd>
+<dt class="hdlist1"><a href="https://ossmalta.eu/">Open Source Society Malta</a></dt>
+<dd>
+<p>The Open Source Society Malta is a local community for the Open-Source Initiative in Malta supporting open-source enthusiasts and professionals.</p>
+</dd>
+<dt class="hdlist1"><a href="https://unix-freunde.mro.name/">UNIX-Freunde Süd-Ost-Oberbayern</a></dt>
+<dd>
+<p>The monthly pub get-together instead of RTFM between Rosenheim and Salzburg.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="north-america">North America</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="http://sites.google.com/site/bugortn/Home">BSD User Group Oak Ridge (BUGOR)</a></dt>
+<dd>
+<p>BUGOR is an open and free network of BSD users in the Oak Ridge TN area.
+Ideally, professional sysadmins, programmers and grizzled old hackers will meet each week to explore and debate the intricacies of the Unix design philosophy and the art of Unix programming while mentoring neophyte users and rehabilitating WIMP users.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.buug.org">The Berkeley Unix User Group</a></dt>
+<dd>
+<p>The Berkeley Unix User Group is a general Unix Users Group for anyone in the San Fransico Bay Area.
+We meet on a weekly basis in downtown Berkeley.
+Visit the web site or send a message to <a href="mailto:buug-request@weak.org">buug-request@weak.org</a> with <code>subscribe</code> in the body.
+Located in Berkeley, CA.</p>
+</dd>
+<dt class="hdlist1"><a href="http://lists.nycbug.org/mailman/listinfo/cdbug-talk">The Capitals District *BSD Users Group</a></dt>
+<dd>
+<p>The Capitals District *BSD Users Group draws it’s membership from New York’s capital district and the surrounding communities.
+CDBUG was founded in December of 2004 and has a small but growing membership.
+We currently meet on the last Sunday of every month in the Albany area.
+Our mailing list is graciously being hosted by NYCBUG at: <a href="http://lists.nycbug.org/mailman/listinfo/cdbug-talk">http://lists.nycbug.org/mailman/listinfo/cdbug-talk</a>.
+Located in Albany, NY.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.meetup.com/CharmBUG">Baltimore Area BSD Operating System User Group (CharmBUG)</a></dt>
+<dd>
+<p>CharmBUG is a Baltimore Area BSD Operating System User Group, where the focus is on FreeBSD, OpenBSD, NetBSD and DragonFly BSD, including system administration and security across all UNIX like operating systems.
+Please contact <a href="mailto:shirkdog@gmail.com">shirkdog@gmail.com</a> for details.</p>
+</dd>
+<dt class="hdlist1"><a href="http://ufo.chicago.il.us">The Users of Free Operating Systems (UFO Chicago)</a></dt>
+<dd>
+<p>The Users of Free Operating Systems (UFO Chicago) is an open-source Unix User Group that meets twice a month in Chicago.
+For directions and mailing list information, please check our web site <a href="http://ufo.chicago.il.us">http://ufo.chicago.il.us</a>.
+Chicago, IL.</p>
+</dd>
+<dt class="hdlist1"><a href="http://cobug.org">The Colorado BSD Users Group (CoBUG)</a></dt>
+<dd>
+<p>Created in 2014, CoBUG is a completely open BSD community, established with the intention of spreading love for the BSDs.
+Located in Colorado.</p>
+</dd>
+<dt class="hdlist1"><a href="https://hambug.ca">HamBUG</a></dt>
+<dd>
+<p>The Hamilton (Ontario, Canada) BSD User Group meets on the second Tuesday of each month.
+Meetings consist of open discussions, short demonstrations, and question &amp; answer time.
+Users from the entire GTA (Greater Toronto Area), London, and Waterloo regularly attend.</p>
+</dd>
+<dt class="hdlist1"><a href="http://knoxbug.org">KnoxBUG</a></dt>
+<dd>
+<p>The Knoxville, Tennessee BSD User Group (KnoxBUG) meets once a month.
+For more information, please visit <a href="http://knoxbug.org">http://knoxbug.org</a> and/or subscribe to our <a href="http://lists.nycbug.org/mailman/listinfo/knoxbug-talk">mailing list</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="mailto:majordomo@swcp.com">NMLUG</a></dt>
+<dd>
+<p>The NMLUG in Alburquerque meets once a month and supports both BSD and Linux users.
+To join the mailing list, send a message to <a href="mailto:majordomo@swcp.com">majordomo@swcp.com</a> with <code>subscribe nmlug</code> in the body.
+Located in New Mexico.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.nycbug.org">New York City *BSD User Group (NYCBUG)</a></dt>
+<dd>
+<p>The New York City *BSD User Group (NYCBUG) meets the first Wednesday of the month.
+Mailing lists are available at <a href="http://lists.nycbug.org">http://lists.nycbug.org</a>.
+Located in New York, NY.</p>
+</dd>
+<dt class="hdlist1"><a href="mailto:rcarter@consys.com">Yavapai Free Unix Users Group</a></dt>
+<dd>
+<p>The Yavapai Free Unix Users Group is now forming for *BSD/Linux, etc., users in Northern Arizona.
+Please contact Russel Carter (<a href="mailto:rcarter@consys.com">rcarter@consys.com</a>) for details.
+Located in Northern Arizona.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.wplug.org">Western Pennsylvania Linux Users Group (WPLUG)</a></dt>
+<dd>
+<p>The Western Pennsylvania Linux Users Group (WPLUG) has a strong and growing community of BSD users that it supports.
+See our home page (<a href="http://www.wplug.org">http://www.wplug.org</a>) for information on regular meetings and join the mailing lists.
+Located in Pennsylvania.</p>
+</dd>
+<dt class="hdlist1"><a href="https://bsd.pizza">Portland (Oregon) FreeBSD Users Group</a></dt>
+<dd>
+<p>The Portland (Oregon) FreeBSD Users Group meets on the third Thursday of each month.
+If you’re in the area and want to join, search <a href="https://calagator.org/events/search?query=%22bsd+pizza+night%22">&#34;BSD Pizza Night&#34; on Calagator</a>, a website for tech events in Portland.
+Visit <a href="https://bsd.pizza">https://bsd.pizza</a> for contact details.
+Located in Portland, OR.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.rlug.org">Reno Linux Users Group (RLUG)</a></dt>
+<dd>
+<p>The Reno Linux Users Group (RLUG) meets monthly in Reno, Nevada and discusses the use of BSD and Linux.
+Visit <a href="http://www.rlug.org">our website</a> for more information, where you may also join our mailing list.
+Located in Reno, NV.</p>
+</dd>
+<dt class="hdlist1"><a href="https://sdbug.org/">San Diego BSD Users Group (SDBUG)</a></dt>
+<dd>
+<p>The San Diego BSD Users Group meets on the first Thursday of every
+month, usually at AleSmith on Miramar Rd.
+Check the <a href="https://sdbug.org/">website</a> and mailing lists for specifics.
+Located in San Diego, CA.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.tfug.org">Tucson Free Unix Group (TFUG)</a></dt>
+<dd>
+<p>Tucson Free Unix Group, Arizona. Located in Tucson, AZ.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.su3g.org">The Southern Utah Unix Users Group (SU3G)</a></dt>
+<dd>
+<p>The Southern Utah Unix Users Group (SU 3 G, SU^3G, SU3G, or SUUUG) is for users of any version of Unix or Unix-like operating system, commercial or open source.
+So, whether you use FreeBSD, Linux, Mac OS X, BSD/OS, Solaris, OpenBSD, or any other Unix or Unix-like OS, and if you live, work, or associate with someone who lives or works in southwestern Utah, then consider joining the SU 3 G.
+For more information send an email to <a href="mailto:kendall@su3g.org">kendall@su3g.org</a> or visit the website at <a href="http://www.su3g.org/">http://www.su3g.org/</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="http://capbug.org">Capital Area BSD Users Group</a></dt>
+<dd>
+<p>We meet on the last Tuesday of the month.
+Join our <a href="http://groups.google.com/group/capbug">mailing list</a> or visit our web site <a href="http://www.capbug.org">here</a>.
+We meet in Maryland, but welcome anyone from MD, DC or VA.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.kcbug.org">Kansas City Area *BSD User.s Group</a></dt>
+<dd>
+<p>We are a beginning BSD User Group with currently two members.
+If you would like to join, please visit our web site <a href="http://www.kcbug.org/">here</a>.
+Our goals are to have fun, help others to learn about and using *BSD and evangelize the BSD operating systems.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.gtabug.ca">GTABUG</a></dt>
+<dd>
+<p>The GTABUG User Group welcomes all BSD users.
+Monthly meetings give attendees a chance to share ideas, discussion and information.
+Installations and other events help preach the good news of BSD to the community.
+Come drop by for a meeting! Located in Greater Toronto Area, Ontario.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.ocbug.ca/">Ottawa-Carleton Unix Users Group</a></dt>
+<dd>
+<p>We are a small group of hobbyists, users, authors, sysadmins, and hackers that meet monthly to discuss the latest topics in a very informal setting.
+Check our <a href="http://mail.ocbug.ca/mailman/listinfo/ocbug_ocbug.ca">mailing list</a> for the latest information.
+Located in Ottawa, Ontario.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.orlandobsd.org/">The Orlando BSD Users Group</a></dt>
+<dd>
+<p>A small BSD user group from the greater Orlando area in central Florida.
+We are a group of computer hobbyists, I/T professionals, and Makerspace enthusiasts.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="south-america">South America</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="http://www.bsd.cl/">BSD Chile</a></dt>
+<dd>
+<p>The BSD Chile User Group (bsd.cl) maintains mirrors, documents, and mailing lists for the Chilean BSD community.
+The group also provides infrastructure for BSD events in Chile and can be reached on the IRC server irc.bsd.cl #BSD in addition to the <a href="www.bsd.cl">web site</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.fug.com.br/">The Brazilian FreeBSD User Group (FUG-BR)</a></dt>
+<dd>
+<p>The Brazilian FreeBSD User Group (FUG-BR) is a Portuguese language oriented User Group intended to help Brazilian FreeBSD users to find support and articles on and about FreeBSD in the Portuguese language.
+We keep some projects such as the <a href="https://sourceforge.net/projects/livecd/">FreeBSD LiveCD</a>.
+Currently the group has over 800 members and our mailing list has an average traffic of 80 messages per day.
+To join FUG-BR mailing list, visit <a href="https://www.fug.com.br/mailman/listinfo/www" class="bare">https://www.fug.com.br/mailman/listinfo/www</a></p>
+</dd>
+<dt class="hdlist1"><a href="https://bsdsul.com.br">BsdSul - Grupo de Usuários de FreeBSD do Sul do Brasil</a></dt>
+<dd>
+<p>BSDSul, founded in 2006 and reactivated in 2025 after a hiatus of several years, has returned to actively participating in events, particularly in the Southern region of Brazil, helping users discover the world of FreeBSD.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="asia">Asia</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://www.kbug.gr.jp/">The Kansai *BSD Users Group (K*BUG)</a></dt>
+<dd>
+<p>The Kansai *BSD Users Group was established on November 13, 1999.
+It is expected to promote communication of any of the BSD variants&#39; users.
+Some of its activities are to hold friendly parties of the members, and to hold seminars covering wide variety of topics.
+Please e-mail here (<a href="mailto:kbug-admin@kbug.gr.jp">kbug-admin@kbug.gr.jp</a>).
+Located in Kansai, Japan.</p>
+</dd>
+<dt class="hdlist1"><a href="https://www.ebug.jp/">The Echigo BSD Users Group (EBUG)</a></dt>
+<dd>
+<p>The Echigo BSD Users Group is the users group for BSD users around Echigo (aka Niigata).
+For more information on our events and mailing lists, please check the EBUG web site.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.meetbsd.ir">meetBSD Iran</a></dt>
+<dd>
+<p>meetbsd.ir is an Iranian BSD user group that provides conferences, iso, ebooks, and PKGs for BSD local users.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.mybsd.org.my">The MyBSD Malaysia Project</a></dt>
+<dd>
+<p>The MyBSD Malaysia Project is a Kuala Lumpur based User Group for BSD users and open-source in general, promoting and supporting FreeBSD, OpenBSD, NetBSD and open source usage.
+We meet once a month, usually at Universiti Malaya or Restaurant Bahadur Shah.
+One of our projects is to develop a <a href="http://staff.mybsd.org.my/skywizard/bsd-explorer">Unix file manager</a>.
+Visit our web site or contact <a href="mailto:info@mybsd.org.my">info@MyBSD.org.my</a> for more information.</p>
+</dd>
+<dt class="hdlist1"><a href="http://ndbug.in">New Delhi BSD User Group</a></dt>
+<dd>
+<p>The New Delhi BSD User Group (NDBUG) is a group of hobbyists, professionals, and enthusiasts.
+Our members share interests in BSD Unix and free implementations of Unix, as well as other open source software.
+NDBUG was founded to disseminate knowledge of BSD Unix, open source software, and related technologies and interests in India and New Delhi specifically.</p>
+</dd>
+<dt class="hdlist1"><a href="https://bsdtw.org/">BSD Taiwan</a></dt>
+<dd>
+<p>BSD Taiwan is a BSD user group for Taiwanese BSD users, where we can share knowledge, ideas, and seek help.
+For more information please visit our <a href="https://bsdtw.org">website</a>.</p>
+</dd>
+<dt class="hdlist1"><a href="https://ambug.org">Armenia BSD User Group</a></dt>
+<dd>
+<p>We’re a community of BSD Hackers, Unix Sysadmins and Unix-like system users who gather once a month (online and offline) to discuss BSD Unix related topics.</p>
+</dd>
+<dt class="hdlist1"><a href="https://arbian.org">Saudi Arabia BSD User Group</a></dt>
+<dd>
+<p>Arbian open source community in Saudi Arabia, *BSD one of part of the community, represents and supports Arabic language.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="oceania">Oceania</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://www.humbug.org.au/">Home Unix Users Group for Brisbane</a></dt>
+<dd>
+<p>We meet fortnightly at meeting rooms provided by the <a href="http://www.uq.edu.au/">University of Queensland</a>.
+More information, including how to join the mailing lists, is available at <a href="http://www.humbug.org.au/">http://www.humbug.org.au</a>.
+Located in Queensland.</p>
+</dd>
+<dt class="hdlist1"><a href="mailto:majordomo@lemis.com">BUGA, The BSD User Group of Adelaide</a></dt>
+<dd>
+<p>We meet at irregular intervals.
+Join the mailing list by sending a message to <a href="mailto:majordomo@lemis.com">majordomo@lemis.com</a> with the text <code>subscribe BUGA</code> in the body.
+Located in South Australia.</p>
+</dd>
+<dt class="hdlist1"><a href="http://www.bugs.au.FreeBSD.org/">BSD Users Group, Sydney (BUGS)</a></dt>
+<dd>
+<p>The BSD Users Group, Sydney (BUGS) meets occasionally in Sydney and surrounds.
+We have members from all over NSW.
+To join the mailing list or IRC channel, visit <a href="http://www.bugs.au.freebsd.org/">http://www.bugs.au.freebsd.org/</a>.
+Located in New South Wales.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="global">Global</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://freebeersd.de/">FreeBeerSD</a></dt>
+<dd>
+<p>A local-ish, low-drama hangout for people who like FreeBSD, UNIX culture, and building solid systems.</p>
+</dd>
+<dt class="hdlist1"><a href="https://metabug.org/">The Global BSD User Groups</a></dt>
+<dd>
+<p>The Global BSD User Groups organization was founded to help promote local BSD user groups by helping to share ideas and experiences with other BUG organizations.
+Our goals are: We are working on ways to provide remote participation through streaming video of presentations.
+You can check our <a href="https://metabug.org/">website</a> or contact us via <a href="mailto:info@metabug">e-mail</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+
+    <hr />
+    <div>
+      <p><strong>Last modified on</strong>: September 6, 2026 by <a href="https://cgit.freebsd.org/doc/commit/?id=565dd337b0" target="_blank">Alexander Ziaee</a></p>
+    </div>
+    
+  </div>
+</div>
+
+      </main>
+      
+<footer>
+  <div class="footer-container">
+    <section class="logo-column">
+      <img src="/images/beastie-right.svg" width="160" height="250" alt="FreeBSD logo" />
+      <div class="theme-container">
+        <label for="theme-switch" class="theme-switch-label" aria-label="Switch color theme">
+          <i class="fa fa-moon-o theme-icon theme-icon-dark" aria-hidden="true"></i>
+          <i class="fa fa-sun-o theme-icon theme-icon-light" aria-hidden="true"></i>
+        </label>
+      </div>
+      </section>
+      <section class="about-column">
+        <h3 class="column-title">About</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/about" class="column-element">FreeBSD</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/" class="column-element">FreeBSD Foundation</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/our-work/journal/" class="column-element">FreeBSD Journal</a>
+          </li>
+          <li>
+            <a href="/where" class="column-element">Get FreeBSD</a>
+          </li>
+          <li>
+            <a href="/internal/code-of-conduct" class="column-element">Code of Conduct</a>
+          </li>
+          <li>
+            <a href="/security" class="column-element">Security Advisories</a>
+          </li>
+        </ul>
+      </section>
+      <section class="documentation-column">
+        <h3 class="column-title">Documentation</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.freebsd.org" class="column-element">Documentation portal</a>
+          </li>
+          <li>
+            <a href="https://man.FreeBSD.org" target="_blank" class="column-element">Manual pages</a>
+          </li>
+          <li>
+            <a href="https://ports.freebsd.org" target="_blank" class="column-element">Ported Applications</a>
+          </li>
+          <li>
+            <a href="https://papers.FreeBSD.org" target="_blank" class="column-element">Presentations and papers</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/" target="_blank" class="column-element">Wiki</a>
+          </li>
+        </ul>
+      </section>
+      <section class="community-column">
+        <h3 class="column-title">Community</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.FreeBSD.org/en/articles/contributing" class="column-element">Get involved</a>
+          </li>
+          <li>
+            <a href="https://forums.freebsd.org/" target="_blank" class="column-element">Community forum</a>
+          </li>
+          <li>
+            <a href="https://lists.freebsd.org/" target="_blank" class="column-element">Mailing lists</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/IRC/Channels" target="_blank" class="column-element">IRC Channels</a>
+          </li>
+          <li>
+            <a href="https://bugs.freebsd.org/bugzilla/" target="_blank" class="column-element">Bug Tracker</a>
+          </li>
+        </ul>
+      </section>
+      <section class="legal-column">
+        <h3 class="column-title">Legal</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/contact" class="column-element">Contact</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/donate/" target="_blank" class="column-element">Donations</a>
+          </li>
+          <li>
+            <a href="/copyright" class="column-element">Licensing</a>
+          </li>
+          <li>
+            <a href="/privacy" class="column-element">Privacy Policy</a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright-column">
+        <p>&copy; 1994-2026 The FreeBSD Project. All rights reserved</p>
+        <span>Made with <span class="heart">❤️</span> by the FreeBSD Community</span>
+      </section>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

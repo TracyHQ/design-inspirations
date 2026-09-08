@@ -1,0 +1,35 @@
+{
+  "id": "brand:docker.com",
+  "host": "docker.com",
+  "kind": "reference",
+  "slug": "docker",
+  "name": "Docker",
+  "category": "Reference",
+  "description": "Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://docker.com/",
+    "finalUrl": "https://docker.com/",
+    "extractedAt": "2026-09-07T23:54:23.801Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 10,
+    "logos": 4,
+    "imagery": 5,
+    "fonts_files": 9,
+    "headings": 22,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://redis.io/",
+  "crawledAt": "2026-09-07T23:53:48.024Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://redis.io/",
+      "file": "pages/01-home.html",
+      "title": "Redis - Real-time data for agents & apps",
+      "h1": "Inquiring agents want to know:",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/SOCE26/",
+      "file": "pages/02-resources-state-of-context-engineering-2.html",
+      "title": "The state of context engineering 2026",
+      "h1": "The state of context engineering",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/iris/",
+      "file": "pages/03-iris.html",
+      "title": "Redis Iris | Redis",
+      "h1": "Your agents should be getting smarter",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/langcache/",
+      "file": "pages/04-langcache.html",
+      "title": "Redis LangCache",
+      "h1": "Redis LangCache",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/context-retriever-898/",
+      "file": "pages/05-context-retriever-898.html",
+      "title": "Context Retriever | Redis",
+      "h1": "Redis Context Retriever",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/agent-memory/",
+      "file": "pages/06-agent-memory.html",
+      "title": "Redis Agent Memory | Redis",
+      "h1": "Redis Agent Memory",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/data-integration/",
+      "file": "pages/07-data-integration.html",
+      "title": "Redis Data Integration (RDI) — Real-time data, Redis fast",
+      "h1": "Redis Data Integration (RDI)",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/solutions/flex/",
+      "file": "pages/08-solutions-flex.html",
+      "title": "Flex | Redis",
+      "h1": "Flex",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/solutions/caching/",
+      "file": "pages/09-solutions-caching.html",
+      "title": "Fast caching solutions with Redis",
+      "h1": "Your high-performance caching solution",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/solutions/messaging/",
+      "file": "pages/10-solutions-messaging.html",
+      "title": "Fast messaging solutions with Redis",
+      "h1": "Redis for faster messaging",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/solutions/session-management/",
+      "file": "pages/11-solutions-session-management.html",
+      "title": "Fast session management solutions with Redis",
+      "h1": "Session management that keeps up",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/search/",
+      "file": "pages/12-search.html",
+      "title": "Redis Search: real-time search & query at scale",
+      "h1": "Redis Search",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/feature-form/",
+      "file": "pages/13-feature-form.html",
+      "title": "Redis Feature Store",
+      "h1": "Redis Feature Form",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/resources/videos/office-hours-context-engineering/",
+      "file": "pages/14-resources-videos-office-hours-context-en.html",
+      "title": "Office hours: Context engineering",
+      "h1": "Office hours: Why your agents keep losing the plot",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/downloads/",
+      "file": "pages/15-downloads.html",
+      "title": "Download Redis now and learn what fast really means",
+      "h1": "See how fast feels ™ ️",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/cloud/",
+      "file": "pages/16-cloud.html",
+      "title": "Redis Cloud",
+      "h1": "Redis Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/software/",
+      "file": "pages/17-software.html",
+      "title": "Fast software solutions with Redis",
+      "h1": "Redis Software",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/open-source/",
+      "file": "pages/18-open-source.html",
+      "title": "Open source Redis: fast, free, and powerful",
+      "h1": "Redis 8.8 is free. Seriously.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/pricing/",
+      "file": "pages/19-pricing.html",
+      "title": "Pricing | Redis",
+      "h1": "Pricing",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://redis.io/partners/aws/",
+      "file": "pages/20-partners-aws.html",
+      "title": "AWS | Redis",
+      "h1": "Redis on AWS",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

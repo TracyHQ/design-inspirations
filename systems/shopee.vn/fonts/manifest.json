@@ -1,0 +1,151 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "SHPBurmese",
+      "weight": "400",
+      "style": "normal",
+      "file": "shpburmese-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/cb8cb550721c0e4b.woff2",
+      "bytes": 47044,
+      "unicodeRange": "u+1000-109f,u+200c-200d,u+25cc,u+a92e,u+a9e0-a9fe,u+aa60-aa7f,u+116d0-116e3"
+    },
+    {
+      "family": "SHPBurmese",
+      "weight": "500 900",
+      "style": "normal",
+      "file": "shpburmese-500-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/f541c268f1fe1d5e.woff2",
+      "bytes": 51552,
+      "unicodeRange": "u+1000-109f,u+200c-200d,u+25cc,u+a92e,u+a9e0-a9fe,u+aa60-aa7f,u+116d0-116e3"
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "200",
+      "style": "normal",
+      "file": "titillium-web-200.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/5520703b5993e245.woff2",
+      "bytes": 20480
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "200",
+      "style": "italic",
+      "file": "titillium-web-200-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/79f7fcdd171a385b.woff2",
+      "bytes": 23276
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "300",
+      "style": "normal",
+      "file": "titillium-web-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/fb9f532072fb0047.woff2",
+      "bytes": 20716
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "300",
+      "style": "italic",
+      "file": "titillium-web-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/1833f395df238635.woff2",
+      "bytes": 23860
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "400",
+      "style": "normal",
+      "file": "titillium-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/b54332120212464b.woff2",
+      "bytes": 21196
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "400",
+      "style": "italic",
+      "file": "titillium-web-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/141d628cc69ada8e.woff2",
+      "bytes": 23616
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "500",
+      "style": "normal",
+      "file": "titillium-web-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/24a0424ed772ea10.woff2",
+      "bytes": 21184
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "500",
+      "style": "italic",
+      "file": "titillium-web-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/4b45d31c252b198d.woff2",
+      "bytes": 23540
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "600",
+      "style": "normal",
+      "file": "titillium-web-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/f450151ddd2e8e05.woff2",
+      "bytes": 20548
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "600",
+      "style": "italic",
+      "file": "titillium-web-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/9eeea1d9e3f7653e.woff2",
+      "bytes": 23052
+    },
+    {
+      "family": "Titillium Web",
+      "weight": "700",
+      "style": "normal",
+      "file": "titillium-web-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/9ea237df494c5988.woff2",
+      "bytes": 18004
+    },
+    {
+      "family": "Shopee\\ 2021",
+      "weight": "300",
+      "style": "normal",
+      "file": "shopee-2021-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/1b5986a81d65f546.woff2",
+      "bytes": 55128
+    },
+    {
+      "family": "Shopee\\ 2021",
+      "weight": "400",
+      "style": "normal",
+      "file": "shopee-2021-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/2368396dd85d5d89.woff2",
+      "bytes": 58020
+    },
+    {
+      "family": "Shopee\\ 2021",
+      "weight": "500",
+      "style": "normal",
+      "file": "shopee-2021-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/a43182de07f30479.woff2",
+      "bytes": 57876
+    }
+  ]
+}

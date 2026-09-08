@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://grafana.com/",
+  "crawledAt": "2026-09-07T23:54:12.819Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://grafana.com/",
+      "file": "pages/01-home.html",
+      "title": "Full-stack observability for the agentic era | Grafana Labs | Grafana Labs",
+      "h1": "AI for observability. Observability for AI. One platform for both.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/analyst-reports/gartner-magic-quadrant-observability-platforms",
+      "file": "pages/02-analyst-reports-gartner-magic-quadrant-o.html",
+      "title": "2026 Gartner® Magic Quadrant™ for Observability Platforms | Grafana Labs",
+      "h1": "Grafana Labs: A Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/get/",
+      "file": "pages/03-get.html",
+      "title": "Grafana get started | Cloud, Self-managed, Enterprise",
+      "h1": "Get started with Grafana",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/contact/",
+      "file": "pages/04-contact.html",
+      "title": "Contact us | Grafana Labs",
+      "h1": "Contact us",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/pricing/",
+      "file": "pages/05-pricing.html",
+      "title": "Grafana Pricing | Free, Pro, Enterprise",
+      "h1": "Send more, charge more is broken. We are changing it.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/docs/",
+      "file": "pages/06-docs.html",
+      "title": "Technical documentation | Grafana Labs",
+      "h1": "Technical documentation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/auth/sign-in/",
+      "file": "pages/07-auth-sign-in.html",
+      "title": "Grafana Cloud",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/auth/sign-up/create-user",
+      "file": "pages/08-auth-sign-up-create-user.html",
+      "title": "Grafana Cloud",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/auth/sign-up/create-user/",
+      "file": "pages/09-auth-sign-up-create-user.html",
+      "title": "Grafana Cloud",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/ai-assistant",
+      "file": "pages/10-products-cloud-ai-assistant.html",
+      "title": "Grafana Assistant | AI-Powered Observability in Grafana Cloud | Grafana Labs",
+      "h1": "Grafana Assistant brings AI-powered observability everywhere you work",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/investigations",
+      "file": "pages/11-products-cloud-investigations.html",
+      "title": "Grafana Cloud Investigations: faster incident response | Grafana Labs",
+      "h1": "Accelerate incident response with AI Investigations",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/agent-observability",
+      "file": "pages/12-products-cloud-agent-observability.html",
+      "title": "Agent Observability | Observe & Improve AI Agents with Grafana Cloud | Grafana Labs",
+      "h1": "Observe, evaluate, and continuously improve production AI agents",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/adaptive-telemetry",
+      "file": "pages/13-products-cloud-adaptive-telemetry.html",
+      "title": "Adaptive Telemetry | Grafana Cloud | Grafana Labs",
+      "h1": "High-value data with Grafana Cloud Adaptive Telemetry",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/solutions/full-stack-observability",
+      "file": "pages/14-solutions-full-stack-observability.html",
+      "title": "Full-Stack Observability Platform | Grafana Cloud | Grafana Labs",
+      "h1": "Full-stack observability with Grafana Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/integrations/",
+      "file": "pages/15-integrations.html",
+      "title": "Visualization and monitoring integrations | Grafana Labs",
+      "h1": "Observability, monitoring and visualization just got easier",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/ai-tools-for-observability",
+      "file": "pages/16-products-cloud-ai-observability.html",
+      "title": "AI Observability | Observe and Operate AI Systems | Grafana Cloud | Grafana Labs",
+      "h1": "AI Observability",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/cost-management-optimization",
+      "file": "pages/17-products-cloud-cost-management-optimizat.html",
+      "title": "Cost Management and Optimization | Grafana Cloud | Grafana Labs",
+      "h1": "Control observability costs. Optimize every signal in Grafana Cloud.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/solutions/opentelemetry",
+      "file": "pages/18-solutions-opentelemetry.html",
+      "title": "Grafana: The open and composable observability platform | Grafana Labs",
+      "h1": "OpenTelemetry with Grafana Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/application-observability",
+      "file": "pages/19-products-cloud-application-observability.html",
+      "title": "Application Observability | Grafana Cloud | Grafana Labs",
+      "h1": "Application observability with Grafana Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://grafana.com/products/cloud/kubernetes",
+      "file": "pages/20-products-cloud-kubernetes.html",
+      "title": "Kubernetes Monitoring | Grafana Cloud | Grafana Labs",
+      "h1": "Kubernetes Monitoring with Grafana Cloud",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

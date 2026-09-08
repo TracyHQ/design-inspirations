@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://freebsd.org/",
+  "crawledAt": "2026-09-07T23:53:33.454Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://freebsd.org/",
+      "file": "pages/01-home.html",
+      "title": "The FreeBSD Project",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/",
+      "file": "pages/02-home.html",
+      "title": "The FreeBSD Project",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/about",
+      "file": "pages/03-about.html",
+      "title": "About FreeBSD | The FreeBSD Project",
+      "h1": "About FreeBSD",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/projects/newbies",
+      "file": "pages/04-projects-newbies.html",
+      "title": "Resources for Newbies | The FreeBSD Project",
+      "h1": "Resources for Newbies",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/features",
+      "file": "pages/05-features.html",
+      "title": "FreeBSD features | The FreeBSD Project",
+      "h1": "FreeBSD features",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/privacy",
+      "file": "pages/06-privacy.html",
+      "title": "FreeBSD's Privacy Policy | The FreeBSD Project",
+      "h1": "FreeBSD's Privacy Policy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/projects",
+      "file": "pages/07-projects.html",
+      "title": "FreeBSD Development Projects | The FreeBSD Project",
+      "h1": "FreeBSD Development Projects",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/where",
+      "file": "pages/08-where.html",
+      "title": "Get FreeBSD | The FreeBSD Project",
+      "h1": "Get FreeBSD",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/releases",
+      "file": "pages/09-releases.html",
+      "title": "Release Information | The FreeBSD Project",
+      "h1": "Release Information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/releng",
+      "file": "pages/10-releng.html",
+      "title": "Release Engineering Information | The FreeBSD Project",
+      "h1": "Release Engineering Information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/community",
+      "file": "pages/11-community.html",
+      "title": "Community | The FreeBSD Project",
+      "h1": "Community",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/community/mailinglists",
+      "file": "pages/12-community-mailinglists.html",
+      "title": "Mailing Lists | The FreeBSD Project",
+      "h1": "Mailing Lists",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/usergroups",
+      "file": "pages/13-usergroups.html",
+      "title": "User Groups | The FreeBSD Project",
+      "h1": "User Groups",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/events",
+      "file": "pages/14-events.html",
+      "title": "FreeBSD Events | The FreeBSD Project",
+      "h1": "FreeBSD Events",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/support",
+      "file": "pages/15-support.html",
+      "title": "FreeBSD Support | The FreeBSD Project",
+      "h1": "FreeBSD Support",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/commercial",
+      "file": "pages/16-commercial.html",
+      "title": "Commercial Vendors | The FreeBSD Project",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/security",
+      "file": "pages/17-security.html",
+      "title": "FreeBSD Security Information | The FreeBSD Project",
+      "h1": "FreeBSD Security Information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/support/webresources",
+      "file": "pages/18-support-webresources.html",
+      "title": "Web Resources | The FreeBSD Project",
+      "h1": "Web Resources",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/ru/",
+      "file": "pages/19-ru.html",
+      "title": "The FreeBSD Project",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.freebsd.org/zh-tw/",
+      "file": "pages/20-zh-tw.html",
+      "title": "The FreeBSD Project",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://vuejs.org/",
+  "crawledAt": "2026-09-07T23:54:48.387Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://vuejs.org/",
+      "file": "pages/01-home.html",
+      "title": "Vue.js - The Progressive JavaScript Framework | Vue.js",
+      "h1": "The Progressive JavaScript Framework",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/guide/quick-start",
+      "file": "pages/02-guide-quick-start.html",
+      "title": "Quick Start | Vue.js",
+      "h1": "Quick Start ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/guide/introduction",
+      "file": "pages/03-guide-introduction.html",
+      "title": "Introduction | Vue.js",
+      "h1": "Introduction ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/tutorial/",
+      "file": "pages/04-tutorial.html",
+      "title": "Tutorial | Vue.js",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/examples/",
+      "file": "pages/05-examples.html",
+      "title": "Examples | Vue.js",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/api/",
+      "file": "pages/06-api.html",
+      "title": "API Reference | Vue.js",
+      "h1": "API Reference",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/glossary/",
+      "file": "pages/07-glossary.html",
+      "title": "Glossary | Vue.js",
+      "h1": "Glossary ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/error-reference/",
+      "file": "pages/08-error-reference.html",
+      "title": "Production Error Code Reference | Vue.js",
+      "h1": "Production Error Code Reference ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/ecosystem/themes",
+      "file": "pages/09-ecosystem-themes.html",
+      "title": "Vue.js",
+      "h1": "Themes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/guide/scaling-up/tooling",
+      "file": "pages/10-guide-scaling-up-tooling.html",
+      "title": "Tooling | Vue.js",
+      "h1": "Tooling ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/ecosystem/newsletters",
+      "file": "pages/11-ecosystem-newsletters.html",
+      "title": "Community Newsletters | Vue.js",
+      "h1": "Community Newsletters ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/faq",
+      "file": "pages/12-about-faq.html",
+      "title": "Frequently Asked Questions | Vue.js",
+      "h1": "Frequently Asked Questions ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/team",
+      "file": "pages/13-about-team.html",
+      "title": "Meet the Team | Vue.js",
+      "h1": "Meet the Team",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/releases",
+      "file": "pages/14-about-releases.html",
+      "title": "Releases | Vue.js",
+      "h1": "Releases ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/community-guide",
+      "file": "pages/15-about-community-guide.html",
+      "title": "Community Guide | Vue.js",
+      "h1": "Community Guide ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/coc",
+      "file": "pages/16-about-coc.html",
+      "title": "Code Of Conduct | Vue.js",
+      "h1": "Code Of Conduct ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/about/privacy",
+      "file": "pages/17-about-privacy.html",
+      "title": "Vue.js Privacy Policy | Vue.js",
+      "h1": "Vue.js Privacy Policy ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/sponsor/",
+      "file": "pages/18-sponsor.html",
+      "title": "Become a Vue.js Sponsor | Vue.js",
+      "h1": "Become a Vue.js Sponsor ​",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/partners/",
+      "file": "pages/19-partners.html",
+      "title": "Vue Partners | Vue.js",
+      "h1": "Vue Partners",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://vuejs.org/guide/essentials/application",
+      "file": "pages/20-guide-essentials-application.html",
+      "title": "Creating a Vue Application | Vue.js",
+      "h1": "Creating a Vue Application ​",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

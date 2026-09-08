@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://nhathuoclongchau.com.vn/",
+  "crawledAt": "2026-09-07T23:57:49.575Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://nhathuoclongchau.com.vn/",
+      "file": "pages/01-home.html",
+      "title": "Nhà thuốc FPT Long Châu - Đủ thuốc giá tốt",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/gioi-thieu-ung-dung-long-chau",
+      "file": "pages/02-gioi-thieu-ung-dung-long-chau.html",
+      "title": "Giới thiệu ứng dụng Long Châu: Hướng dẫn tải app và sử dụng",
+      "h1": "Tải app Long Châu giá tốt ngập tràn",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/gio-hang",
+      "file": "pages/03-gio-hang.html",
+      "title": "Giỏ hàng - Nhà thuốc FPT Long Châu",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/tim-kiem",
+      "file": "pages/04-tim-kiem.html",
+      "title": "Kết quả tìm kiếm",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang",
+      "file": "pages/05-thuc-pham-chuc-nang.html",
+      "title": "Thực phẩm chức năng, thực phẩm bảo vệ sức khỏe - Long Châu",
+      "h1": "Thực phẩm chức năng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/vitamin-khoang-chat",
+      "file": "pages/06-thuc-pham-chuc-nang-vitamin-khoang-chat.html",
+      "title": "Viên uống bổ sung vitamin và khoáng chất | Nhà thuốc Long Châu",
+      "h1": "Vitamin & Khoáng chất",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/ho-tro-mien-dich-tang-suc-de-khang",
+      "file": "pages/07-thuc-pham-chuc-nang-ho-tro-mien-dich-tan.html",
+      "title": "Thực phẩm chức năng tăng cường miễn dịch, sức đề kháng",
+      "h1": "Miễn dịch - Đề kháng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to",
+      "file": "pages/08-thuc-pham-chuc-nang-sinh-ly-noi-tiet-to.html",
+      "title": "Thực phẩm chức năng sinh lý, nội tiết tố - Nhà thuốc Long Châu",
+      "h1": "Sinh lý - Nội tiết tố",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/bao-ve-mat",
+      "file": "pages/09-thuc-pham-chuc-nang-bao-ve-mat.html",
+      "title": "Viên uống bổ mắt, cải thiện thị lực - Nhà thuốc Long Châu",
+      "h1": "Mắt - Thị lực",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa",
+      "file": "pages/10-thuc-pham-chuc-nang-ho-tro-tieu-hoa.html",
+      "title": "91+ Thực phẩm chức năng hỗ trợ tiêu hóa mới nhất 2026",
+      "h1": "Tiêu hóa",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/than-kinh-nao",
+      "file": "pages/11-thuc-pham-chuc-nang-than-kinh-nao.html",
+      "title": "Thực phẩm chức năng hỗ trợ thần kinh não - Nhà thuốc Long Châu",
+      "h1": "Thần kinh não",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/lam-dep",
+      "file": "pages/12-thuc-pham-chuc-nang-lam-dep.html",
+      "title": "Sản phẩm làm đẹp da, chăm sóc tóc và ngực - Nhà thuốc Long Châu",
+      "h1": "Hỗ trợ làm đẹp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/tieu-duong",
+      "file": "pages/13-thuc-pham-chuc-nang-tieu-duong.html",
+      "title": "Thực phẩm chức năng cải thiện đường huyết tiểu đường",
+      "h1": "Đường huyết - Tiểu đường",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/tim-mach-huyet-ap",
+      "file": "pages/14-thuc-pham-chuc-nang-tim-mach-huyet-ap.html",
+      "title": "Thực phẩm chức năng tốt cho tim mạch, huyết áp - Giá ưu đãi",
+      "h1": "Tim mạch - Huyết áp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/suc-khoe-duong-ho-hap-ho-xoang",
+      "file": "pages/15-thuc-pham-chuc-nang-suc-khoe-duong-ho-ha.html",
+      "title": "Thực phẩm chức năng bổ phổi, hô hấp - tai mũi họng",
+      "h1": "Hô hấp - Tai mũi họng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/co-xuong-khop",
+      "file": "pages/16-thuc-pham-chuc-nang-co-xuong-khop.html",
+      "title": "Thực phẩm chức năng hỗ trợ xương khớp các loại chính hãng",
+      "h1": "Cơ xương khớp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/gan-mat",
+      "file": "pages/17-thuc-pham-chuc-nang-gan-mat.html",
+      "title": "Thực phẩm chức năng bổ gan - mật, giải độc gan, thanh nhiệt",
+      "h1": "Gan - Mật",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/than-tiet-nieu",
+      "file": "pages/18-thuc-pham-chuc-nang-than-tiet-nieu.html",
+      "title": "Thực phẩm chức năng bổ thận, tiết niệu, tiền liệt tuyến",
+      "h1": "Thận - Tiết niệu",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/sua",
+      "file": "pages/19-thuc-pham-chuc-nang-sua.html",
+      "title": "Sữa bột, sữa pha sẵn cho bé và người lớn chính hãng, giá tốt",
+      "h1": "Sữa",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://nhathuoclongchau.com.vn/duoc-my-pham",
+      "file": "pages/20-duoc-my-pham.html",
+      "title": "Dược mỹ phẩm chính hãng từ các thương hiệu lớn - Nhà thuốc Long Châu",
+      "h1": "Dược mỹ phẩm",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

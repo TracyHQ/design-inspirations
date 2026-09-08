@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+Plugin of the Month – September 2026: ORAS Artifact Manager
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/blog/2026/09/01/plugin-of-the-month-oras-artifact-manager/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' name='twitter:title'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/post-images/2026/09/artifacts.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/blog/2026/09/01/plugin-of-the-month-oras-artifact-manager/' property='og:url'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' property='og:description'>
+<meta content='Plugin of the Month – September 2026: ORAS Artifact Manager' property='og:site_name'>
+<meta content='/images/post-images/2026/09/artifacts.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<style>
+  .videoblock iframe {
+      aspect-ratio: 16 / 9;
+      max-width: 100%;
+      height: auto;
+  }
+</style>
+<script type="text/od-defused-script">
+  window.addEventListener('DOMContentLoaded', function () {
+    for (var i = 1 ; i <= 6 ; i ++) {
+      anchors.add('.app-post-page h' + i);
+    }
+  })
+</script>
+
+<article class='app-container app-post-page'>
+<div class='app-!-display-flex'>
+<a class='app-back-link' href='/blog/'>
+Back to blog
+</a>
+</div>
+<h1>
+Plugin of the Month – September 2026: ORAS Artifact Manager
+</h1>
+<div class='post-attrs'>
+<a class="app-author-link" data-user-name="Valentin Delaye" href="/blog/authors/jonesbusy/"><div class="app-avatar"><img alt="Valentin Delaye" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/jonesbusy.png"></div><span>Valentin Delaye</span></a>
+September 1, 2026
+<span>⏱︎ 5 min read</span>
+<div class='app-social-media-buttons__container share-buttons__container'>
+<span>
+Share
+</span>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/intent/tweet?text=Plugin+of+the+Month+%E2%80%93+September+2026%3A+ORAS+Artifact+Manager&amp;url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F01%2Fplugin-of-the-month-oras-artifact-manager%2F' rel='noreferrer nofollow'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F01%2Fplugin-of-the-month-oras-artifact-manager%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-mastodon' data-tooltip='Mastodon' href='https://mastodon.social/share?text=Plugin+of+the+Month+%E2%80%93+September+2026%3A+ORAS+Artifact+Manager+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F01%2Fplugin-of-the-month-oras-artifact-manager%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="currentColor"
+    d="M480 173.59c0-104.13-68.26-134.65-68.26-134.65C377.3 23.15 318.2 16.5 256.8 16h-1.51c-61.4.5-120.46 7.15-154.88 22.94 0 0-68.27 30.52-68.27 134.65 0 23.85-.46 52.35.29 82.59C34.91 358 51.11 458.37 145.32 483.29c43.43 11.49 80.73 13.89 110.76 12.24 54.47-3 85-19.42 85-19.42l-1.79-39.5s-38.93 12.27-82.64 10.77c-43.31-1.48-89-4.67-96-57.81a108.44 108.44 0 01-1-14.9 558.91 558.91 0 0096.39 12.85c32.95 1.51 63.84-1.93 95.22-5.67 60.18-7.18 112.58-44.24 119.16-78.09 10.42-53.34 9.58-130.17 9.58-130.17zm-80.54 134.16h-50V185.38c0-25.8-10.86-38.89-32.58-38.89-24 0-36.06 15.53-36.06 46.24v67h-49.66v-67c0-30.71-12-46.24-36.06-46.24-21.72 0-32.58 13.09-32.58 38.89v122.37h-50V181.67q0-38.65 19.75-61.39c13.6-15.15 31.4-22.92 53.51-22.92 25.58 0 44.95 9.82 57.75 29.48L256 147.69l12.45-20.85c12.81-19.66 32.17-29.48 57.75-29.48 22.11 0 39.91 7.77 53.51 22.92q19.79 22.72 19.75 61.39z"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-bluesky' data-tooltip='Bluesky' href='https://bsky.app/intent/compose?text=Plugin+of+the+Month+%E2%80%93+September+2026%3A+ORAS+Artifact+Manager+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F01%2Fplugin-of-the-month-oras-artifact-manager%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 568 501">
+  <path fill="currentColor"
+    d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.21C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.333 453.32c-119.86 122.992-172.272-30.859-185.702-70.281-2.462-7.227-3.614-10.608-3.631-7.733-.017-2.875-1.169.506-3.631 7.733-13.43 39.422-65.842 193.273-185.702 70.281-63.111-64.76-33.89-129.52 80.986-149.071-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.659 0 75.291 0 57.946 0-28.906 76.135-1.612 123.121 33.664Z"></path>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='blog-content'>
+<div class="paragraph">
+<p>Welcome back to the <strong>Plugin of the Month</strong> series, where we highlight useful and impactful tools from the Jenkins ecosystem.</p>
+</div>
+<div class="paragraph">
+<p>This September, we&#8217;re featuring a plugin that rethinks where your build artifacts actually live: the <a href="https://plugins.jenkins.io/oras-artifact-manager/">ORAS Artifact Manager Plugin</a>.</p>
+</div>
+<div class="sect1">
+<h2 id="what-is-the-oras-artifact-manager-plugin"><a class="anchor" href="#what-is-the-oras-artifact-manager-plugin"></a>What is the ORAS Artifact Manager Plugin?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By default, Jenkins stores archived artifacts and stashes on the controller&#8217;s local disk (or on whatever storage backend an artifact manager plugin provides).
+The ORAS Artifact Manager Plugin takes a different approach: it stores them in <strong>any OCI-compliant registry</strong>, using <a href="https://oras.land">ORAS</a> (OCI Registry As Storage).</p>
+</div>
+<div class="paragraph">
+<p>OCI registries were originally built to distribute container images, but the OCI ecosystem has since standardized on storing arbitrary content — SBOMs, Helm charts, signatures, and now Jenkins build artifacts — as regular OCI artifacts.</p>
+</div>
+<div class="paragraph">
+<p>Once configured, every archived file and every stash produced by your jobs is pushed to the registry of your choice instead of piling up on the Jenkins controller&#8217;s disk:</p>
+</div>
+<div class="paragraph">
+<p><span class="image center"><img src="/images/post-images/2026/09/artifacts.png" alt="Build artifacts listed on a Jenkins build page, backed by an OCI registry" width="800" title="Build artifacts listed on a Jenkins build page, backed by an OCI registry"></span></p>
+</div>
+<div class="paragraph">
+<p>From the build page, artifacts look exactly like artifacts always have — you don&#8217;t lose the familiar Jenkins UX, you just change where the bytes are stored.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="built-on-oras-and-the-oras-java-sdk"><a class="anchor" href="#built-on-oras-and-the-oras-java-sdk"></a>Built on ORAS and the ORAS Java SDK</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image center"><img src="/images/post-images/2026/09/oras.svg" alt="oras" width="200px" title="ORAS Logo"></span></p>
+</div>
+<div class="paragraph">
+<p>The plugin doesn&#8217;t talk to registries directly.
+It relies on a dedicated <strong>ORAS Java API</strong> Jenkins plugin, which in turn bundles the official <a href="https://github.com/oras-project/oras-java">ORAS Java SDK</a>.</p>
+</div>
+<div class="paragraph">
+<p>This layering matters:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://oras.land">ORAS</a> defines the client tooling and conventions for pushing/pulling arbitrary artifacts to OCI registries, on top of the OCI Distribution and OCI Image spec.</p>
+</li>
+<li>
+<p>The <a href="https://github.com/oras-project/oras-java">ORAS Java SDK</a> is a CNCF ORAS sub-project library that implements those conventions natively in Java.</p>
+</li>
+<li>
+<p>The ORAS Artifact Manager Plugin builds Jenkins' artifact and stash storage model on top of that SDK.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Because the underlying protocol is just OCI, any registry that speaks the OCI Distribution Spec works: Docker Registry, Harbor, Zot, GitHub Container Registry, Artifactory, and others.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="how-artifacts-are-structured-in-the-registry"><a class="anchor" href="#how-artifacts-are-structured-in-the-registry"></a>How Artifacts Are Structured in the Registry</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is the part that&#8217;s genuinely interesting if you&#8217;re curious about OCI internals, and not just "another storage backend."</p>
+</div>
+<div class="paragraph">
+<p>The plugin maps each Jenkins job to an OCI repository, sanitizing the name in the process (for example <code>folder/My Job</code> becomes <code>folder/my-job</code>).
+For every build, it pushes a <strong>build root artifact</strong>, tagged with the build number, which acts as the anchor for everything produced during that build.
+Every archived file is then pushed as its own single-layer OCI manifest, linked back to that root artifact using the OCI 1.1 <code>subject</code> field — the same mechanism used for referrers like signatures or SBOMs on container images.
+Stashes follow a similar pattern, stored as tagged, gzip-compressed layers.</p>
+</div>
+<div class="paragraph">
+<p>The two custom media types you&#8217;ll see on the manifests are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>application/vnd.io.jenkins.oras-artifact-manager.build.v1+json</code> for the build root artifact</p>
+</li>
+<li>
+<p><code>application/vnd.io.jenkins.oras-artifact-manager.file.v1+json</code> for each individual archived file</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Because files reference the build root through <code>subject</code> instead of a hand-rolled index file, the plugin can discover every artifact for a build with a <strong>single call to the registry&#8217;s referrers API</strong>.</p>
+</div>
+<div class="paragraph">
+<p>You can see this structure yourself with the <code>oras</code> CLI.
+Given a build root tagged <code>13</code>, asking the registry what refers to it:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight nowrap"><code data-lang="bash"><span class="nv">$ </span>oras discover <span class="nt">-o</span> tree localhost:5000/test:13
+
+localhost:5000/test:13
+└── application/vnd.io.jenkins.oras-artifact-manager.file.v1+json
+    ├── sha256:2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7a
+    ├── sha256:9e58a1ce0ff0aad2adf3f18e6c92e58a17d3f4b5c6a7891234567890abcdef0
+    └── sha256:d1f2c3a4b5e6d7c8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each of those digests is an independent manifest carrying a single layer (the file&#8217;s content) plus annotations that preserve the metadata Jenkins cares about — the archived path, the creation timestamp, and so on.
+A registry UI that understands OCI referrers, like Zot, will show exactly that relationship when you inspect the build root artifact:</p>
+</div>
+<div class="paragraph">
+<p><span class="image center"><img src="/images/post-images/2026/09/zot.png" alt="A file artifact showing its subject relationship to the build root, viewed in the Zot registry UI" width="800" title="A file artifact showing its subject relationship (Referred By) to the build root, viewed in Zot"></span></p>
+</div>
+<div class="paragraph">
+<p>Notice the annotations: <code>io.jenkins.oras-artifact-manager.path</code> tells you which archived file this manifest corresponds to, and standard OCI annotations like <code>org.opencontainers.image.created</code> come along for free.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="worth-keeping-in-mind"><a class="anchor" href="#worth-keeping-in-mind"></a>Worth Keeping in Mind</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The plugin is still in beta, and so is the underlying ORAS Java SDK — APIs on both sides may still change before things settle.
+If you&#8217;re evaluating it, start with non-critical jobs, keep an eye on the <a href="https://github.com/jenkinsci/oras-artifact-manager-plugin">GitHub repository</a> for updates, and report anything unexpected through its issue tracker.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="looking-ahead"><a class="anchor" href="#looking-ahead"></a>Looking Ahead</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If your Jenkins controllers are drowning in archived artifacts, or you already run an OCI registry for your container images and would rather not maintain a second storage system just for build outputs, the ORAS Artifact Manager Plugin is worth a look.</p>
+</div>
+<div class="paragraph">
+<p>Stay tuned for next month&#8217;s Plugin of the Month, and feel free to suggest plugins you&#8217;d like to see featured!</p>
+</div>
+</div>
+</div>
+</div>
+<ul class='app-tags'>
+<li>
+<a class='app-tags__tag' href='/blog/tags/plugins/'>
+plugins
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/community/'>
+community
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/artifacts/'>
+artifacts
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/oci/'>
+oci
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/plugin-of-the-month/'>
+plugin-of-the-month
+</a>
+</li>
+</ul>
+<h2>
+About the author
+</h2>
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar app-avatar-image'>
+<img alt='Valentin Delaye' class='app-avatar__image' loading='lazy' onload='this.style.opacity = 1' src='/images/avatars/jonesbusy.png'>
+</div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>
+<a href='/blog/authors/jonesbusy/'>
+Valentin Delaye
+</a>
+</p>
+<div class="paragraph">
+<p>Valentin is an open source enthusiast and a DevOps engineer from Switzerland. He&#8217;s passionate about automation and infrastructure as code. He&#8217;s currently maintainer of around 50 Jenkins plugins in different areas (APIs, cloud-native, pluggable storage, etc.).</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/jonesbusy'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/valentindelaye'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+</article>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/blog/2026/09/2026-09-01-plugin-of-the-month-oras-artifact-manager.adoc'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

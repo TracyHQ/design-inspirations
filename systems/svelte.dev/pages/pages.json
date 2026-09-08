@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://svelte.dev/",
+  "crawledAt": "2026-09-07T23:54:46.012Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://svelte.dev/",
+      "file": "pages/01-home.html",
+      "title": "Svelte • Web development for the rest of us",
+      "h1": "Svelte",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs",
+      "file": "pages/02-docs.html",
+      "title": "Docs • Svelte",
+      "h1": "Documentation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte",
+      "file": "pages/03-docs-svelte-overview.html",
+      "title": "Overview • Svelte Docs",
+      "h1": "Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/kit",
+      "file": "pages/04-docs-kit-introduction.html",
+      "title": "Introduction • SvelteKit Docs",
+      "h1": "Introduction",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/cli",
+      "file": "pages/05-docs-cli-overview.html",
+      "title": "Overview • Svelte CLI Docs",
+      "h1": "Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/ai",
+      "file": "pages/06-docs-ai-overview.html",
+      "title": "Overview • Svelte AI Docs",
+      "h1": "Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/tutorial",
+      "file": "pages/07-tutorial-svelte-welcome-to-svelte.html",
+      "title": "Introduction / Welcome to Svelte • Svelte Tutorial",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/packages",
+      "file": "pages/08-packages.html",
+      "title": "Packages • Svelte",
+      "h1": "Packages",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/playground",
+      "file": "pages/09-playground-hello-world.html",
+      "title": "Hello world • Playground • Svelte",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/blog",
+      "file": "pages/10-blog.html",
+      "title": "Blog • Svelte",
+      "h1": "Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/chat",
+      "file": "pages/11-invite-svelte.html",
+      "title": "Svelte",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/v5-migration-guide",
+      "file": "pages/12-docs-svelte-v5-migration-guide.html",
+      "title": "Svelte 5 migration guide • Svelte Docs",
+      "h1": "Svelte 5 migration guide",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/llms",
+      "file": "pages/13-docs-llms.html",
+      "title": "",
+      "h1": "Docs for LLMs",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/overview",
+      "file": "pages/14-docs-svelte-overview.html",
+      "title": "Overview • Svelte Docs",
+      "h1": "Overview",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/getting-started",
+      "file": "pages/15-docs-svelte-getting-started.html",
+      "title": "Getting started • Svelte Docs",
+      "h1": "Getting started",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/svelte-files",
+      "file": "pages/16-docs-svelte-svelte-files.html",
+      "title": ".svelte files • Svelte Docs",
+      "h1": ".svelte files",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/svelte-js-files",
+      "file": "pages/17-docs-svelte-svelte-js-files.html",
+      "title": ".svelte.js and .svelte.ts files • Svelte Docs",
+      "h1": ".svelte.js and .svelte.ts files",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/what-are-runes",
+      "file": "pages/18-docs-svelte-what-are-runes.html",
+      "title": "What are runes? • Svelte Docs",
+      "h1": "What are runes?",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/$state",
+      "file": "pages/19-docs-svelte-state.html",
+      "title": "$state • Svelte Docs",
+      "h1": "$state",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://svelte.dev/docs/svelte/$derived",
+      "file": "pages/20-docs-svelte-derived.html",
+      "title": "$derived • Svelte Docs",
+      "h1": "$derived",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

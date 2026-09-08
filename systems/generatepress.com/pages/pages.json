@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://generatepress.com/",
+  "crawledAt": "2026-09-07T23:59:31.828Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://generatepress.com/",
+      "file": "pages/01-home.html",
+      "title": "GeneratePress - The perfect foundation for your WordPress website.",
+      "h1": "Build your perfect WordPress website.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/pricing/",
+      "file": "pages/02-pricing.html",
+      "title": "Pricing - GeneratePress",
+      "h1": "GeneratePress One",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/one",
+      "file": "pages/03-one.html",
+      "title": "One - GeneratePress",
+      "h1": "GeneratePress One",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/theme",
+      "file": "pages/04-theme.html",
+      "title": "Theme - GeneratePress",
+      "h1": "GeneratePress Theme",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/blocks",
+      "file": "pages/05-blocks.html",
+      "title": "Blocks - GeneratePress",
+      "h1": "GenerateBlocks",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/cloud",
+      "file": "pages/06-cloud.html",
+      "title": "Cloud - GeneratePress",
+      "h1": "Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/one/",
+      "file": "pages/07-one.html",
+      "title": "One - GeneratePress",
+      "h1": "GeneratePress One",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/theme/",
+      "file": "pages/08-theme.html",
+      "title": "Theme - GeneratePress",
+      "h1": "GeneratePress Theme",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/blocks/",
+      "file": "pages/09-blocks.html",
+      "title": "Blocks - GeneratePress",
+      "h1": "GenerateBlocks",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/cloud/",
+      "file": "pages/10-cloud.html",
+      "title": "Cloud - GeneratePress",
+      "h1": "Cloud",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/site-library/",
+      "file": "pages/11-site-library.html",
+      "title": "Site Library - GeneratePress",
+      "h1": "Starter sites to kickstart your next build.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/pattern-library/",
+      "file": "pages/12-pattern-library.html",
+      "title": "Pattern Library - GeneratePress",
+      "h1": "Pattern Library",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/support/",
+      "file": "pages/13-support.html",
+      "title": "Support - GeneratePress",
+      "h1": "Questions? We’re here to help from start to finish.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/pricing",
+      "file": "pages/14-pricing.html",
+      "title": "Pricing - GeneratePress",
+      "h1": "GeneratePress One",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/site-library",
+      "file": "pages/15-site-library.html",
+      "title": "Site Library - GeneratePress",
+      "h1": "Starter sites to kickstart your next build.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/support",
+      "file": "pages/16-support.html",
+      "title": "Support - GeneratePress",
+      "h1": "Questions? We’re here to help from start to finish.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/about/",
+      "file": "pages/17-about.html",
+      "title": "About - GeneratePress",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/pattern-library",
+      "file": "pages/18-pattern-library.html",
+      "title": "Pattern Library - GeneratePress",
+      "h1": "Pattern Library",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/affiliates/",
+      "file": "pages/19-affiliate-area.html",
+      "title": "Affiliate Area - GeneratePress",
+      "h1": "Affiliate Area",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://generatepress.com/brand-assets/",
+      "file": "pages/20-brand-assets.html",
+      "title": "Brand Assets - GeneratePress",
+      "h1": "Brand Assets",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

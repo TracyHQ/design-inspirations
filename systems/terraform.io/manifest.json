@@ -1,0 +1,33 @@
+{
+  "id": "brand:terraform.io",
+  "host": "terraform.io",
+  "kind": "reference",
+  "slug": "terraform-hashicorp-developer",
+  "name": "Terraform | HashiCorp Developer",
+  "category": "Reference",
+  "description": "Explore Terraform product documentation, tutorials, and examples.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://terraform.io/",
+    "finalUrl": "https://terraform.io/",
+    "extractedAt": "2026-09-07T23:54:26.672Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 1,
+    "colors": 19,
+    "fonts": 5,
+    "logos": 3,
+    "imagery": 1,
+    "fonts_files": 0,
+    "headings": 10,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

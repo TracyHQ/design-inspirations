@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#08C" />
+    <title>Arch Linux - News: Recent service outages</title>
+    <link rel="stylesheet" type="text/css" href="/static/archlinux_common_style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/static/archweb.css" media="screen" />
+    <link rel="icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="apple-touch-icon" href="/static/archlinux_common_style/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/archlinux_common_style/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/archlinux_common_style/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/archlinux_common_style/apple-touch-icon-144x144.png" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch/packages/" title="Arch Linux Packages" />
+    
+</head>
+<body class="">
+    <header class="anb-home">
+        <div id="archnavbar">
+	<div id="logo"><a href="/" title="Return to the main page">Arch Linux</a></div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-home"><a href="/" title="Arch news, packages, projects and more">Home</a></li>
+			<li id="anb-packages"><a href="/packages/" title="Arch Package Database">Packages</a></li>
+			<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+			<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+			<li id="anb-gitlab"><a href="https://gitlab.archlinux.org/archlinux" title="GitLab">GitLab</a></li>
+			<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+			<li id="anb-aur"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+			<li id="anb-download"><a href="/download/" title="Get Arch Linux">Download</a></li>
+		</ul>
+	</div>
+</div>
+
+    </header>
+    <div id="content">
+        <div id="archdev-navbar">
+            
+        </div>
+        
+        
+<div itemscope itemtype="http://schema.org/Article" class="news-article box">
+    <h2 itemprop="headline">Recent service outages</h2>
+    <meta itemprop="dateCreated" content="2025-08-21"/>
+    <meta itemprop="datePublished" content="2025-08-21"/>
+    <meta itemprop="dateModified" content="2025-08-26"/>
+    <meta itemprop="inLanguage" content="en"/>
+    <meta itemprop="wordCount" content="347"/>
+    <div class="itemprop" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="Christian Heusel"/>
+    </div>
+    <div class="itemprop" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="Arch Linux"/>
+    </div>
+
+    
+
+    <p class="article-info">2025-08-21 - Christian Heusel</p>
+
+    <div class="article-content" itemprop="articleBody"><p>We want to provide an update on the recent <a href="https://lists.archlinux.org/archives/list/arch-general@lists.archlinux.org/thread/EU4NXRX6DDJAACOWIRZNU4S5KVXEUI72/">service outages</a> affecting our infrastructure. The Arch Linux Project is currently experiencing an ongoing denial of service attack that primarily impacts our main webpage, the Arch User Repository (AUR), and the Forums.</p>
+<p>We are aware of the problems that this creates for our end users and will continue to actively work with our hosting provider to mitigate the attack. We are also evaluating DDoS protection providers while carefully considering factors including cost, security, and ethical standards.</p>
+<p>To improve the communication around this issue we will provide regular updates on our <a href="https://status.archlinux.org">service status page</a> going forward.</p>
+<p>As a volunteer-driven project, we appreciate the community's patience as our DevOps team works to resolve these issues. Please bear with us and thank you for all the support you have shown so far.</p>
+<h2>Workarounds during service disruption</h2>
+<ul>
+<li>In the case of downtime for archlinux.org:<ul>
+<li><strong>Mirrors</strong>: The mirror list endpoint used in tools like <code>reflector</code> is hosted on this site. Please default to the mirrors listed in the <code>pacman-mirrorlist</code> package during an outage.</li>
+<li><strong>ISO</strong>: Our installation image is available on a lot of the mirrors, for example the DevOps administered <a href="https://geo.mirror.pkgbuild.com/iso/">geomirrors</a>. Please always verify its integrity as <a href="https://wiki.archlinux.org/title/Installation_guide#Verify_signature">described on the wiki</a> and confirm it is signed by <code>0x3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C</code> (or other trusted keys that may be used in the future).</li>
+</ul>
+</li>
+<li>In the case of downtime for aur.archlinux.org:<ul>
+<li><strong>Packages</strong>: We maintain a <a href="https://github.com/archlinux/aur">mirror of AUR packages</a> on GitHub. You can retrieve a package using:
+  <code>$ git clone --branch &lt;package_name&gt; --single-branch https://github.com/archlinux/aur.git &lt;package_name&gt;</code></li>
+</ul>
+</li>
+<li>In the case of downtime for wiki.archlinux.org:<ul>
+<li><strong>Docs</strong>: The <code>arch-wiki-docs</code> and <code>arch-wiki-lite</code> contain recent snapshots of the articles as hosted on the Arch Linux wiki.</li>
+</ul>
+</li>
+</ul>
+<h2>Additional remarks</h2>
+<ul>
+<li>
+<p>Our services may send an initial connection reset due to the TCP SYN authentication performed by our hosting provider, but subsequent requests should work as expected.</p>
+</li>
+<li>
+<p>We are keeping technical details about the attack, its origin and our mitigation tactics internal while the attack is still ongoing.</p>
+</li>
+</ul></div>
+</div>
+
+        <div id="footer">
+            <p>Copyright © 2002-2026 <a href="mailto:jvinet@zeroflux.org"
+                title="Contact Judd Vinet">Judd Vinet</a>, <a href="mailto:aaron@archlinux.org"
+                title="Contact Aaron Griffin">Aaron Griffin</a> and
+                <a href="mailto:anthraxx@archlinux.org" title="Contact Levente Polyák">Levente Polyák</a>.</p>
+
+            <p>The Arch Linux name and logo are recognized
+            <a href="https://terms.archlinux.org/docs/trademark-policy/"
+                title="Arch Linux Trademark Policy">trademarks</a>. Some rights reserved.</p>
+
+            <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+            the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+        </div>
+    </div>
+    <script type="text/od-defused-script" type="application/ld+json">
+    {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "/packages/?q={search_term}",
+         "query-input": "required name=search_term"
+       }
+    }
+    </script>
+    
+</body>
+</html>

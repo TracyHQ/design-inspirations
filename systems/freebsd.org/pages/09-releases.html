@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="  ">
+  <meta name="keywords" content="">
+  <meta name="copyright" content="1995-2026 The FreeBSD Project">
+  <link rel="canonical" href="https://www.freebsd.org/releases/">
+
+  <title>
+    Release Information |
+    The FreeBSD Project
+  </title>
+
+  <meta name="theme-color" content="#790000">
+  <meta name="color-scheme" content="system light dark high-contrast">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/styles/main.min.css">
+  <link rel="stylesheet" href="/css/font-awesome-min.css">
+
+  <meta property="og:title" content=" Release Information " >
+  <meta property="og:description" content="  " >
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/favicon.ico">
+  <meta property="og:image:alt" content="FreeBSD Logo">
+  <meta property="og:locale" content="en" >
+  <meta property="og:url" content="https://www.freebsd.org/releases/">
+  <meta property="og:site_name" content="The FreeBSD Project">
+  <script type="text/od-defused-script" type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "url": "https:\/\/www.freebsd.org\/releases\/",
+      "name": "The FreeBSD Project",
+      "headline": "The FreeBSD Project",
+      "description": ""
+    }
+  </script>
+  
+  <script type="text/od-defused-script" defer src="/js/theme-chooser.min.js"></script>
+    <script type="text/od-defused-script" async src="https://plausible.io/js/pa-QLSHWxEIso-L-cKLRNOUO.js" ></script>
+    <script type="text/od-defused-script">
+      ((window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          }));
+      plausible.init();
+    </script></head>
+
+  <body>
+    <input type="checkbox" class="theme-switch" id="theme-switch">
+    <div id="page">
+      
+<header>
+  <div class="header-container">
+    <div class="logo-menu-bars-container">
+      <a href="/" class="logo">
+        <img src="/images/FreeBSD-monochromatic.svg" width="160" height="50" alt="FreeBSD logo">
+      </a>
+      <label class="menu-bars" for="menu-bars">
+        <span class="menu-bars-icon" aria-hidden="true"></span>
+      </label>
+    </div>
+    <input id="menu-bars" type="checkbox">
+    <nav>
+      <ul class="menu">
+        <li class="menu-item">
+          <input id="about" type="checkbox">
+          <a href="#" aria-label="Navigate to About section">
+            <label class="menu-item-description" for="about">
+              About
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/projects/newbies">Introduction</a>
+            </li>
+            <li>
+              <a href="/features">Features</a>
+            </li>
+            <li>
+              <a href="/privacy">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="download" type="checkbox">
+          <a href="#" aria-label="Navigate to get FreeBSD section">
+            <label class="menu-item-description" for="download">
+              Get FreeBSD
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/where">Get FreeBSD</a>
+            </li>
+            <li>
+              <a href="/releases">Release Information</a>
+            </li>
+            <li>
+              <a href="/releng">Release Engineering</a>
+            </li>
+            <li>
+              <a href=/ports>Ported Applications</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="documentation" type="checkbox">
+          <a href="#" aria-label="Navigate to get Documentation section">
+            <label class="menu-item-description" for="documentation">
+              Documentation
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="https://docs.FreeBSD.org/en/">Documentation</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/handbook/">Handbook</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/faq/">FAQ</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/porters-handbook/">Porter&#39;s Handbook</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books/fdp-primer">Documentation Project Primer</a>
+            </li>
+            <li>
+              <a href="https://man.FreeBSD.org">Manual pages</a>
+            </li>
+            <li>
+              <a href="https://papers.FreeBSD.org">Presentations and papers</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/books">Books</a>
+            </li>
+            <li>
+              <a href="https://docs.FreeBSD.org/en/articles">Articles</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="community" type="checkbox">
+          <a href="#" aria-label="Navigate to get Community section">
+            <label class="menu-item-description" for="community">
+              Community
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/community">Community</a>
+            </li>
+            <li>
+              <a href="/community/mailinglists">Mailing lists</a>
+            </li>
+            <li>
+              <a href="https://forums.FreeBSD.org">Forums</a>
+            </li>
+            <li>
+              <a href="/usergroups">User Groups</a>
+            </li>
+            <li>
+              <a href="/events">Events</a>
+            </li>
+            <li>
+              <a href="https://freebsdfoundation.org/our-work/journal/">FreeBSD Journal</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="developers" type="checkbox">
+          <a href="#" aria-label="Navigate to get Developers section">
+            <label class="menu-item-description" for="developers">
+              Developers
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/projects">Developers</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org/IdeasPage">Project Ideas</a>
+            </li>
+            <li>
+              <a href="https://cgit.FreeBSD.org">Git Repository</a>
+            </li>
+            <li>
+              <a href="https://github.com/freebsd">GitHub Mirror</a>
+            </li>
+            <li>
+              <a href="https://reviews.FreeBSD.org">Code Review (Phabricator)</a>
+            </li>
+            <li>
+              <a href="https://wiki.FreeBSD.org">Wiki</a>
+            </li>
+            <li>
+              <a href="https://ci.FreeBSD.org">Continuous Integration Service</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <input id="support" type="checkbox">
+          <a href="#" aria-label="Navigate to get Support section">
+            <label class="menu-item-description" for="support">
+              Support
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </label>
+          </a>
+          <ul class="sub-menu">
+            <li class="title">
+              <a href="/support">Support</a>
+            </li>
+            <li>
+              <a href="/commercial">Vendors</a>
+            </li>
+            <li>
+              <a href="/security">Security Information</a>
+            </li>
+            <li>
+              <a href="https://bugs.FreeBSD.org/search/">Bug Reports</a>
+            </li>
+            <li>
+              <a href="/support">Submitting Bug Reports</a>
+            </li>
+            <li>
+              <a href="/support/webresources">Web Resources</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-donate-container">
+      
+      <form
+        class="search"
+        method="get"
+        id="search-header-form"
+        action="https://duckduckgo.com"
+        name="search-header-form"
+        onsubmit="document.getElementById('words').value+=' site:FreeBSD.org'">
+        <input type="hidden" name="DB" value="en">
+        <input type="hidden" name="ka" value="v">
+        <input type="hidden" name="kt" value="v">
+        <input type="hidden" name="kh" value="1">
+        <input type="hidden" name="kj" value="r2">
+        <input
+          id="words"
+          name="q"
+          type="text"
+          size="20"
+          maxlength="25"
+          onfocus="if( this.value==this.defaultValue ) this.value='';"
+          value=""
+          placeholder="">
+        <button>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <details class="i18n">
+        <summary class="lang-toggle">
+          <img src="/images/language.png" class="language-image" alt="" />
+        </summary>
+        <ul class="lang-dropdown">
+          <li>
+            <a href="/" class="current-lang" aria-current="page">English</a>
+          </li>
+          
+            <li>
+              <a href="/ru/releases/" lang="ru">Russian</a>
+            </li>
+          
+        </ul>
+      </details>
+      <div class="donate">
+        <a href="https://freebsdfoundation.org/donate/">
+          <span class="heart">❤️</span>
+          Donate
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main>
+        
+<div id="content">
+  <aside id="sidewrap">
+    <div id="sidenav">
+      
+
+<ul>
+  <li><a href=/where></a></li>
+  <li>
+    <a href=/releases>Release Information</a>
+    <ul>
+      <li>Production Release: <a href=https://www.FreeBSD.org/releases/15.1R/announce/>15.1</a></li>
+      <li>Legacy Release: <a href=https://www.FreeBSD.org/releases/15.0R/announce/>15.0</a></li>
+      <li>Legacy Release: <a href=https://www.FreeBSD.org/releases/14.4R/announce/>14.4</a></li>
+      <li>Legacy Release: <a href=https://www.FreeBSD.org/releases/14.3R/announce/>14.3</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href=/snapshots>Snapshot Releases</a>
+      <ul>
+        
+        
+        <li>Upcoming Release: <a href=https://www.FreeBSD.org/releases/14.5R/schedule/>14.5</a></li>
+        
+        
+        
+        <li>Upcoming Release: <a href=https://www.FreeBSD.org/releases/15.2R/schedule/>15.2</a></li>
+        
+        
+        
+      </ul>
+  </li>
+</ul>
+
+
+    </div>
+  </aside>
+
+  <div id="contentwrap">
+    <h1>Release Information</h1><div id="preamble">
+<div class="sectionbody">
+<div class="paragraph right">
+<p><span class="image"><img src="../gifs/releases.jpg" alt="FreeBSD Releases" width="300" height="200"/></span></p>
+</div>
+<div class="paragraph">
+<p>FreeBSD releases are classified into <em>Production Releases</em> and <em>Legacy Releases</em>.
+For most users, production releases will be most suitable.
+Legacy releases are provided for existing users wishing to stay with a more conservative upgrade strategy.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="supported-releases">Currently Supported</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For information about branches, release dates, and estimated end-of-life (EOL) dates, please see the <a href="../security/#sup">Supported Releases</a> section of <a href="../security/">FreeBSD Security Information</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="current">Most Recent</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_production_releases">Production Releases</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a id="rel15-1"></a> <strong>Release 15.1</strong> (June 16, 2026) <em><a href="https://www.FreeBSD.org/releases/15.1R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/15.1R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/15.1R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/15.1R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/15.1R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/15.1R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/15.1R/signatures/">Signed Checksums</a></em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_legacy">Legacy</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a id="rel15-0"></a> <strong>Release 15.0</strong> (December 2, 2025) <em><a href="https://www.FreeBSD.org/releases/15.0R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/15.0R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/15.0R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/15.0R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/15.0R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/15.0R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/15.0R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel14-4"></a> <strong>Release 14.4</strong> (March 10, 2026) <em><a href="https://www.FreeBSD.org/releases/14.4R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/14.4R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/14.4R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/14.4R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/14.4R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/14.4R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/14.4R/signatures/">Signed Checksums</a></em></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="future">Future</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For schedules, and for more information about the release engineering process, please see <a href="../releng/">Release Engineering</a>.</p>
+</div>
+<div class="paragraph">
+<p>The latest snapshots from our <a href="https://docs.freebsd.org/en/books/handbook/cutting-edge/#stable">FreeBSD-STABLE</a> and <a href="https://docs.freebsd.org/en/books/handbook/cutting-edge/#current">FreeBSD-CURRENT</a> branches are also available. See <a href="../where/">Getting FreeBSD</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="prior-unsupported">Prior Releases – EOL</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For historical information about branches, release dates, types, and EOL dates, see <a href="../security/unsupported/">Unsupported Releases</a>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a id="rel14-3"></a> <strong>14.3</strong> (June 10, 2025) <em><a href="https://www.FreeBSD.org/releases/14.3R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/14.3R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/14.3R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/14.3R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/14.3R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/14.3R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/14.3R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel14-2"></a> <strong>14.2</strong> (December 3, 2024) <em><a href="https://www.FreeBSD.org/releases/14.2R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/14.2R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/14.2R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/14.2R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/14.2R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/14.2R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/14.2R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel14-1"></a> <strong>14.1</strong> (June 4, 2024) <em><a href="https://www.FreeBSD.org/releases/14.1R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/14.1R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/14.1R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/14.1R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/14.1R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/14.1R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/14.1R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel14-0"></a> <strong>14.0</strong> (November 20, 2023) <em><a href="https://www.FreeBSD.org/releases/14.0R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/14.0R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/14.0R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/14.0R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/14.0R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/14.0R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/14.0R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-5"></a> <strong>13.5</strong> (March 11, 2025) <em><a href="https://www.FreeBSD.org/releases/13.5R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.5R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.5R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.5R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.5R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.5R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.5R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-4"></a> <strong>13.4</strong> (September 17, 2024) <em><a href="https://www.FreeBSD.org/releases/13.4R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.4R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.4R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.4R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.4R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.4R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.4R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-3"></a> <strong>13.3</strong> (March 5, 2024) <em><a href="https://www.FreeBSD.org/releases/13.3R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.3R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.3R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.3R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.3R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.3R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.3R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-2"></a> <strong>13.2</strong> (April 11, 2023) <em><a href="https://www.FreeBSD.org/releases/13.2R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.2R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.2R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.2R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.2R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.2R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.2R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-1"></a> <strong>13.1</strong> (May 16, 2022) <em><a href="https://www.FreeBSD.org/releases/13.1R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.1R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.1R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.1R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.1R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.1R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.1R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel13-0"></a> <strong>13.0</strong> (April 13, 2021) <em><a href="https://www.FreeBSD.org/releases/13.0R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/13.0R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/13.0R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/13.0R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/13.0R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/13.0R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/13.0R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel12-4"></a> <strong>12.4</strong> (December 5, 2022) <em><a href="https://www.FreeBSD.org/releases/12.4R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/12.4R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/12.4R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/12.4R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/12.4R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/12.4R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/12.4R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel12-3"></a> <strong>12.3</strong> (December 7, 2021) <em><a href="https://www.FreeBSD.org/releases/12.3R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/12.3R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/12.3R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/12.3R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/12.3R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/12.3R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/12.3R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel12-2"></a> <strong>12.2</strong> (October 27, 2020) <em><a href="https://www.FreeBSD.org/releases/12.2R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/12.2R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/12.2R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/12.2R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/12.2R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/12.2R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/12.2R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel12-1"></a> <strong>12.1</strong> (November 4, 2019) <em><a href="https://www.FreeBSD.org/releases/12.1R/announce/">Announcement</a> : <a href="https://www.FreeBSD.org/releases/12.1R/relnotes/">Release Notes</a> : <a href="https://www.FreeBSD.org/releases/12.1R/installation/">Installation Instructions</a> : <a href="https://www.FreeBSD.org/releases/12.1R/hardware/">Hardware Compatibility List</a> : <a href="https://www.FreeBSD.org/releases/12.1R/readme/">Readme</a> : <a href="https://www.FreeBSD.org/releases/12.1R/errata/">Errata</a> : <a href="https://www.FreeBSD.org/releases/12.1R/signatures/">Signed Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel12-0"></a> <strong>12.0</strong> (December 11, 2018) <em><a href="12.0R/announce/">Announcement</a>: <a href="12.0R/relnotes/">Release Notes</a>: <a href="12.0R/installation/">Installation Instructions</a>: <a href="12.0R/hardware/">Hardware Notes</a>: <a href="12.0R/readme/">Readme</a>: <a href="12.0R/errata/">Errata</a>: <a href="12.0R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel11-4"></a> <strong>11.4</strong> (June 23, 2020) <em><a href="11.4R/announce/">Announcement</a>: <a href="11.4R/relnotes/">Release Notes</a>: <a href="11.4R/installation/">Installation Instructions</a>: <a href="11.4R/hardware/">Hardware Notes</a>: <a href="11.4R/readme/">Readme</a>: <a href="11.4R/errata/">Errata</a>: <a href="11.4R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel11-3"></a> <strong>11.3</strong> (July 9, 2019) <em><a href="11.3R/announce/">Announcement</a>: <a href="11.3R/relnotes/">Release Notes</a>: <a href="11.3R/installation/">Installation Instructions</a>: <a href="11.3R/hardware/">Hardware Notes</a>: <a href="11.3R/readme/">Readme</a>: <a href="11.3R/errata/">Errata</a>: <a href="11.3R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel11-2"></a> <strong>11.2</strong> (June 28, 2018) <em><a href="11.2R/announce/">Announcement</a>: <a href="11.2R/relnotes/">Release Notes</a>: <a href="11.2R/installation/">Installation Instructions</a>: <a href="11.2R/hardware/">Hardware Notes</a>: <a href="11.2R/readme/">Readme</a>: <a href="11.2R/errata/">Errata</a>: <a href="11.2R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel11-1"></a> <strong>11.1</strong> (July 26, 2017) <em><a href="11.1R/announce/">Announcement</a>: <a href="11.1R/relnotes/">Release Notes</a>: <a href="11.1R/installation/">Installation Instructions</a>: <a href="11.1R/hardware/">Hardware Notes</a>: <a href="11.1R/readme/">Readme</a>: <a href="11.1R/errata/">Errata</a>: <a href="11.1R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel11-0"></a> <strong>11.0</strong> (October 10, 2016) <em><a href="11.0R/announce/">Announcement</a>: <a href="11.0R/relnotes/">Release Notes</a>: <a href="11.0R/installation/">Installation Instructions</a>: <a href="11.0R/hardware/">Hardware Notes</a>: <a href="11.0R/readme/">Readme</a>: <a href="11.0R/errata/">Errata</a>: <a href="11.0R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel10-4"></a> <strong>10.4</strong> (October 3, 2017) <em><a href="10.4R/announce/">Announcement</a>: <a href="10.4R/relnotes/">Release Notes</a>: <a href="10.4R/installation/">Installation Instructions</a>: <a href="10.4R/hardware/">Hardware Notes</a>: <a href="10.4R/readme/">Readme</a>: <a href="10.4R/errata/">Errata</a>: <a href="10.4R/signatures/">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel10-3"></a> <strong>10.3</strong> (April 4, 2016) <em><a href="10.3R/announce/">Announcement</a>: <a href="10.3R/relnotes/">Release Notes</a>: <a href="10.3R/installation">Installation Instructions</a>: <a href="10.3R/hardware">Hardware Notes</a>: <a href="10.3R/readme">Readme</a>: <a href="10.3R/errata">Errata</a>: <a href="10.3R/signatures">Checksums</a></em></p>
+</li>
+<li>
+<p><a id="rel10-2"></a> <strong>10.2</strong> (August 13, 2015) <em><a href="10.2R/announce">Announcement</a>: <a href="10.2R/relnotes">Release Notes</a>: <a href="10.2R/installation">Installation Instructions</a>: <a href="10.2R/hardware">Hardware Notes</a>: <a href="10.2R/readm">Readme</a>: <a href="10.2R/errata">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel10-1"></a> <strong>10.1</strong> (November 14, 2014) <em><a href="10.1R/announce">Announcement</a>: <a href="10.1R/relnotes">Release Notes</a>: <a href="10.1R/installation">Installation Instructions</a>: <a href="10.1R/hardware">Hardware Notes</a>: <a href="10.1R/readme">Readme</a>: <a href="10.1R/errata">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel10-0"></a> <strong>10.0</strong> (January 20, 2014) <em><a href="10.0R/announce">Announcement</a>: <a href="10.0R/relnotes">Release Notes</a>: <a href="10.0R/installation">Installation Instructions</a>: <a href="10.0R/hardware">Hardware Notes</a>: <a href="10.0R/readme">Readme</a>: <a href="10.0R/errata">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel9-3"></a> <strong>9.3</strong> (July 16, 2014) <em><a href="9.3R/announce/">Announcement</a>: <a href="9.3R/relnotes/">Release Notes</a>: <a href="9.3R/installation/">Installation Instructions</a>: <a href="9.3R/hardware/">Hardware Notes</a>: <a href="9.3R/readme/">Readme</a>: <a href="9.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel9-2"></a> <strong>9.2</strong> (September 30, 2013) <em><a href="9.2R/announce/">Announcement</a>: <a href="9.2R/relnotes/">Release Notes</a>: <a href="9.2R/installation/">Installation Instructions</a>: <a href="9.2R/hardware/">Hardware Notes</a>: <a href="9.2R/readme/">Readme</a>: <a href="9.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel9-1"></a> <strong>9.1</strong> (December 30, 2012) <em><a href="9.1R/announce/">Announcement</a>: <a href="9.1R/relnotes/">Release Notes</a>: <a href="9.1R/installation/">Installation Instructions</a>: <a href="9.1R/hardware/">Hardware Notes</a>: <a href="9.1R/readme/">Readme</a>: <a href="9.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel9-0"></a> <strong>9.0</strong> (January 12, 2012) <em><a href="9.0R/announce/">Announcement</a>: <a href="9.0R/relnotes/">Release Notes</a>: <a href="9.0R/installation/">Installation Instructions</a>: <a href="9.0R/hardware/">Hardware Notes</a>: <a href="9.0R/readme/">Readme</a>: <a href="9.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel8-4"></a> <strong>8.4</strong> (June 7, 2013) <em><a href="8.4R/announce/">Announcement</a>: <a href="8.4R/relnotes/">Release Notes</a>: <a href="8.4R/installation/">Installation Instructions</a>: <a href="8.4R/hardware/">Hardware Notes</a>: <a href="8.4R/readme/">Readme</a>: <a href="8.4R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel8-3"></a> <strong>8.3</strong> (April 18, 2012) <em><a href="8.3R/announce/">Announcement</a>: <a href="8.3R/relnotes/">Release Notes</a>: <a href="8.3R/installation/">Installation Instructions</a>: <a href="8.3R/hardware/">Hardware Notes</a>: <a href="8.3R/readme/">Readme</a>: <a href="8.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel8-2"></a> <strong>8.2</strong> (February 24, 2011) <em><a href="8.2R/announce/">Announcement</a>: <a href="8.2R/relnotes/">Release Notes</a>: <a href="8.2R/hardware/">Hardware Notes</a>: <a href="8.2R/readme/">Readme</a>: <a href="8.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel8-1"></a> <strong>8.1</strong> (July 23, 2010) <em><a href="8.1R/announce/">Announcement</a>: <a href="8.1R/relnotes/">Release Notes</a>: <a href="8.1R/hardware/">Hardware Notes</a>: <a href="8.1R/readme/">Readme</a>: <a href="8.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel8-0"></a> <strong>8.0</strong> (November 25, 2009) <em><a href="8.0R/announce/">Announcement</a>: <a href="8.0R/relnotes/">Release Notes</a>: <a href="8.0R/hardware/">Hardware Notes</a>: <a href="8.0R/readme/">Readme</a>: <a href="8.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel7-4"></a> <strong>7.4</strong> (February 24, 2011) <em><a href="7.4R/announce/">Announcement</a>: <a href="7.4R/relnotes/">Release Notes</a>: <a href="7.4R/hardware/">Hardware Notes</a>: <a href="7.4R/readme/">Readme</a>: <a href="7.4R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel7-3"></a> <strong>7.3</strong> (March 23, 2010) <em><a href="7.3R/announce/">Announcement</a>: <a href="7.3R/relnotes/">Release Notes</a>: <a href="7.3R/hardware/">Hardware Notes</a>: <a href="7.3R/readme/">Readme</a>: <a href="7.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel7-2"></a> <strong>7.2</strong> (May 4, 2009) <em><a href="7.2R/announce/">Announcement</a>: <a href="7.2R/relnotes/">Release Notes</a>: <a href="7.2R/hardware/">Hardware Notes</a>: <a href="7.2R/readme/">Readme</a>: <a href="7.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel7-1"></a> <strong>7.1</strong> (January 4, 2009) <em><a href="7.1R/announce/">Announcement</a>: <a href="7.1R/relnotes/">Release Notes</a>: <a href="7.1R/hardware/">Hardware Notes</a>: <a href="7.1R/readme/">Readme</a>: <a href="7.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel7-0"></a> <strong>7.0</strong> (February 27, 2008) <em><a href="7.0R/announce/">Announcement</a>: <a href="7.0R/relnotes/">Release Notes</a>: <a href="7.0R/hardware/">Hardware Notes</a>: <a href="7.0R/readme/">Readme</a>: <a href="7.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel6-4"></a> <strong>6.4</strong> (November 28, 2008) <em><a href="6.4R/announce/">Announcement</a>: <a href="6.4R/relnotes/">Release Notes</a>: <a href="6.4R/hardware/">Hardware Notes</a>: <a href="6.4R/installation/">Installation Notes</a>: <a href="6.4R/readme/">Readme</a>: <a href="6.4R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel6-3"></a> <strong>6.3</strong> (January 18, 2008) <em><a href="6.3R/announce/">Announcement</a>: <a href="6.3R/relnotes/">Release Notes</a>: <a href="6.3R/hardware/">Hardware Notes</a>: <a href="6.3R/installation/">Installation Notes</a>: <a href="6.3R/readme/">Readme</a>: <a href="6.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel6-2"></a> <strong>6.2</strong> (January 15, 2007) <em><a href="6.2R/announce/">Announcement</a>: <a href="6.2R/relnotes/">Release Notes</a>: <a href="6.2R/hardware/">Hardware Notes</a>: <a href="6.2R/installation/">Installation Notes</a>: <a href="6.2R/readme/">Readme</a>: <a href="6.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel6-1"></a> <strong>6.1</strong> (May 8, 2006) <em><a href="6.1R/announce/">Announcement</a>: <a href="6.1R/relnotes/">Release Notes</a>: <a href="6.1R/hardware/">Hardware Notes</a>: <a href="6.1R/installation/">Installation Notes</a>: <a href="6.1R/readme/">Readme</a>: <a href="6.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel6-0"></a> <strong>6.0</strong> (November 4, 2005) <em><a href="6.0R/announce/">Announcement</a>: <a href="6.0R/relnotes/">Release Notes</a>: <a href="6.0R/hardware/">Hardware Notes</a>: <a href="6.0R/installation/">Installation Notes</a>: <a href="6.0R/readme/">Readme</a>: <a href="6.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel5-5"></a> <strong>5.5</strong> (May 25, 2006) <em><a href="5.5R/announce/">Announcement</a>: <a href="5.5R/relnotes/">Release Notes</a>: <a href="5.5R/hardware/">Hardware Notes</a>: <a href="5.5R/installation/">Installation Notes</a>: <a href="5.5R/readme/">Readme</a>: <a href="5.5R/errata/">Errata</a>:</em></p>
+</li>
+<li>
+<p><a id="rel5-4"></a> <strong>5.4</strong> (May 9, 2005) <em><a href="5.4R/announce/">Announcement</a>: <a href="5.4R/relnotes/">Release Notes</a>: <a href="5.4R/hardware/">Hardware Notes</a>: <a href="5.4R/installation/">Installation Notes</a>: <a href="5.4R/readme/">Readme</a>: <a href="5.4R/errata/">Errata</a>: <a href="5.4R/migration-guide/">Migration Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel5-3"></a> <strong>5.3</strong> (November 6, 2004) <em><a href="5.3R/announce/">Announcement</a>: <a href="5.3R/relnotes/">Release Notes</a>: <a href="5.3R/hardware/">Hardware Notes</a>: <a href="5.3R/installation/">Installation Notes</a>: <a href="5.3R/readme/">Readme</a>: <a href="5.3R/errata/">Errata</a>: <a href="5.3R/migration-guide/">Migration Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel5-2-1"></a> <strong>5.2.1</strong> (February 25, 2004) <em><a href="5.2.1R/announce/">Announcement</a>: <a href="5.2.1R/relnotes/">Release Notes</a>: <a href="5.2.1R/hardware/">Hardware Notes</a>: <a href="5.2.1R/installation/">Installation Notes</a>: <a href="5.2.1R/readme/">Readme</a>: <a href="5.2.1R/errata/">Errata</a>: <a href="5.2.1R/early-adopter/">Early Adopter’s Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel5-2"></a> <strong>5.2</strong> (January 9, 2004) <em><a href="5.2R/announce/">Announcement</a>: <a href="5.2R/relnotes/">Release Notes</a>: <a href="5.2R/hardware/">Hardware Notes</a>: <a href="5.2R/installation/">Installation Notes</a>: <a href="5.2R/readme/">Readme</a>: <a href="5.2R/errata/">Errata</a>: <a href="5.2R/early-adopter/">Early Adopter’s Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel5-1"></a> <strong>5.1</strong> (June 9, 2003) <em><a href="5.1R/announce/">Announcement</a>: <a href="5.1R/relnotes/">Release Notes</a>: <a href="5.1R/hardware/">Hardware Notes</a>: <a href="5.1R/installation/">Installation Notes</a>: <a href="5.1R/readme/">Readme</a>: <a href="5.1R/errata/">Errata</a>: <a href="5.1R/early-adopter/">Early Adopter’s Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel5-0"></a> <strong>5.0</strong> (January 14, 2003) <em><a href="5.0R/announce/">Announcement</a>: <a href="5.0R/relnotes/">Release Notes</a>: <a href="5.0R/hardware/">Hardware Notes</a>: <a href="5.0R/installation/">Installation Notes</a>: <a href="5.0R/readme/">Readme</a>: <a href="5.0R/errata/">Errata</a>: <a href="5.0R/early-adopter/">Early Adopter’s Guide</a></em></p>
+</li>
+<li>
+<p><a id="rel4-11"></a> <strong>4.11</strong> (January 25, 2005) <em><a href="4.11R/announce/">Announcement</a>: <a href="4.11R/relnotes/">Release Notes</a>: <a href="4.11R/hardware/">Hardware Notes</a>: <a href="4.11R/installation/">Installation Notes</a>: <a href="4.11R/readme/">Readme</a>: <a href="4.11R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-10"></a> <strong>4.10</strong> (May 27, 2004) <em><a href="4.10R/announce/">Announcement</a>: <a href="4.10R/relnotes/">Release Notes</a>: <a href="4.10R/hardware/">Hardware Notes</a>: <a href="4.10R/installation/">Installation Notes</a>: <a href="4.10R/readme/">Readme</a>: <a href="4.10R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-9"></a> <strong>4.9</strong> (October 28, 2003) <em><a href="4.9R/announce/">Announcement</a>: <a href="4.9R/relnotes/">Release Notes</a>: <a href="4.9R/hardware/">Hardware Notes</a>: <a href="4.9R/installation/">Installation Notes</a>: <a href="4.9R/readme/">Readme</a>: <a href="4.9R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-8"></a> <strong>4.8</strong> (April 3, 2003) <em><a href="4.8R/announce/">Announcement</a>: <a href="4.8R/relnotes/">Release Notes</a>: <a href="4.8R/hardware/">Hardware Notes</a>: <a href="4.8R/installation/">Installation Notes</a>: <a href="4.8R/readme/">Readme</a>: <a href="4.8R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-7"></a> <strong>4.7</strong> (October 10, 2002) <em><a href="4.7R/announce/">Announcement</a>: <a href="4.7R/relnotes/">Release Notes</a>: <a href="4.7R/hardware/">Hardware Notes</a>: <a href="4.7R/installation/">Installation Notes</a>: <a href="4.7R/readme/">Readme</a>: <a href="4.7R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-6-2"></a> <strong>4.6.2</strong> (August 15, 2002) <em><a href="4.6.2R/announce/">Announcement</a>: <a href="4.6.2R/relnotes/">Release Notes</a>: <a href="4.6.2R/hardware/">Hardware Notes</a>: <a href="4.6.2R/readme/">Readme</a>: <a href="4.6.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-6"></a> <strong>4.6</strong> (June 15, 2002) <em><a href="4.6R/announce/">Announcement</a>: <a href="4.6R/relnotes/">Release Notes</a>: <a href="4.6R/hardware/">Hardware Notes</a>: <a href="4.6R/installation/">Installation Notes</a>: <a href="4.6R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-5"></a> <strong>4.5</strong> (January 29, 2002) <em><a href="4.5R/announce/">Announcement</a>: <a href="4.5R/notes/">Release Notes</a>: <a href="4.5R/hardware/">Hardware Notes</a>: <a href="4.5R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-4"></a> <strong>4.4</strong> (September 20, 2001) <em><a href="4.4R/announce/">Announcement</a>: <a href="4.4R/notes/">Release Notes</a>: <a href="4.4R/hardware/">Hardware Notes</a>: <a href="4.4R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-3"></a> <strong>4.3</strong> (April 20, 2001) <em><a href="./4.3R/announce/">Announcement</a>: <a href="./4.3R/notes/">Release Notes</a>: <a href="./4.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-2"></a> <strong>4.2</strong> (November 21, 2000) <em><a href="./4.2R/announce/">Announcement</a>: <a href="./4.2R/notes/">Release Notes</a>: <a href="./4.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-1-1"></a> <strong>4.1.1</strong> (September 27, 2000) <em><a href="./4.1.1R/announce/">Announcement</a> : <a href="./4.1.1R/notes/">Release Notes</a> : <a href="./4.1.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-1"></a> <strong>4.1</strong> (July 27, 2000) <em><a href="./4.1R/announce/">Announcement</a>: <a href="./4.1R/notes/">Release Notes</a>: <a href="./4.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel4-0"></a> <strong>4.0</strong> (March 14, 2000) <em><a href="./4.0R/announce/">Announcement</a>: <a href="./4.0R/notes/">Release Notes</a>: <a href="./4.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-5"></a> <strong>3.5</strong> (June, 2000) <em><a href="./3.5R/announce/">Announcement</a>: <a href="./3.5R/notes/">Release Notes</a>: <a href="./3.5R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-4"></a> <strong>3.4</strong> (December, 1999) <em><a href="./3.4R/announce/">Announcement</a>: <a href="./3.4R/notes/">Release Notes</a>: <a href="./3.4R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-3"></a> <strong>3.3</strong> (September, 1999) <em><a href="./3.3R/announce/">Announcement</a> : <a href="./3.3R/notes/">Release Notes</a> : <a href="./3.3R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-2"></a> <strong>3.2</strong> (May, 1999) <em><a href="./3.2R/announce/">Announcement</a> : <a href="./3.2R/notes/">Release Notes</a> : <a href="./3.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-1"></a> <strong>3.1</strong> (February, 1999) <em><a href="./3.1R/announce/">Announcement</a> : <a href="./3.1R/notes/">Release Notes</a> : <a href="./3.1R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel3-0"></a> <strong>3.0</strong> (October, 1998) <em><a href="./3.0R/announce/">Announcement</a> : <a href="./3.0R/notes/">Release Notes</a> : <a href="./3.0R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-8"></a> <strong>2.2.8</strong> (December, 1998) <em><a href="./2.2.8R/announce/">Announcement</a> : <a href="./2.2.8R/notes/">Release Notes</a> : <a href="./2.2.8R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-7"></a> <strong>2.2.7</strong> (July, 1998) <em><a href="./2.2.7R/announce/">Announcement</a> : <a href="./2.2.7R/notes/">Release Notes</a> : <a href="./2.2.7R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-6"></a> <strong>2.2.6</strong> (March, 1998) <em><a href="./2.2.6R/announce/">Announcement</a> : <a href="./2.2.6R/notes/">Release Notes</a> : <a href="./2.2.6R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-5"></a> <strong>2.2.5</strong> (October, 1997) <em><a href="./2.2.5R/announce/">Announcement</a> : <a href="./2.2.5R/notes/">Release Notes</a> : <a href="./2.2.5R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-2"></a> <strong>2.2.2</strong> (May, 1997) <em><a href="./2.2.2R/notes/">Release Notes</a> : <a href="./2.2.2R/errata/">Errata</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2-1"></a> <strong>2.2.1</strong> (April, 1997) <em><a href="./2.2.1R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-2"></a> <strong>2.2</strong> (March, 1997) <em><a href="./2.2R/announce/">Announcement</a> : <a href="./2.2R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-1-7"></a> <strong>2.1.7</strong> (February, 1997) <em><a href="./2.1.7R/announce/">Announcement</a> : <a href="./2.1.7R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-1-6"></a> <strong>2.1.6</strong> (December, 1996) <em><a href="./2.1.6R/announce/">Announcement</a> : <a href="./2.1.6R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-1-5"></a> <strong>2.1.5</strong> (July, 1996) <em><a href="./2.1.5R/announce/">Announcement</a> : <a href="./2.1.5R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-1"></a> <strong>2.1</strong> (November, 1995) <em><a href="./2.1R/announce/">Announcement</a> : <a href="./2.1R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-0-5"></a> <strong>2.0.5</strong> (June, 1995) <em><a href="./2.0.5R/announce/">Announcement</a> : <a href="./2.0.5R/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel2-0"></a> <strong>2.0</strong> (November, 1994) <em><a href="./2.0/announce/">Announcement</a> : <a href="./2.0/notes/">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel1-1-5-1"></a> <strong>1.1.5.1</strong> (July, 1994) <em><a href="./1.1.5.1/ANNOUNCEMENT.FreeBSD.txt">Announcement</a> : <a href="./1.1.5.1/WHATS_NEW-1.1.5.1.txt">What’s New</a></em></p>
+</li>
+<li>
+<p><a id="rel1-1-5"></a> <strong>1.1.5</strong> <em><a href="./1.1.5/RELNOTES.FreeBSD.txt">Release Notes</a> <a href="./1.1.5/WHATS_NEW-1.1.5.txt">What’s New</a></em></p>
+</li>
+<li>
+<p><a id="rel1-1"></a> <strong>1.1</strong> (May, 1994) <em><a href="./1.1/RELNOTES.FreeBSD.txt">Release Notes</a></em></p>
+</li>
+<li>
+<p><a id="rel1-0"></a> <strong>1.0</strong> (November, 1993) <em><a href="./1.0/announce/">Announcement</a></em></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    <hr />
+    <div>
+      <p><strong>Last modified on</strong>: July 2, 2026 by <a href="https://cgit.freebsd.org/doc/commit/?id=8ead66a97f" target="_blank">Joseph Mingrone</a></p>
+    </div>
+    
+  </div>
+</div>
+
+      </main>
+      
+<footer>
+  <div class="footer-container">
+    <section class="logo-column">
+      <img src="/images/beastie-right.svg" width="160" height="250" alt="FreeBSD logo" />
+      <div class="theme-container">
+        <label for="theme-switch" class="theme-switch-label" aria-label="Switch color theme">
+          <i class="fa fa-moon-o theme-icon theme-icon-dark" aria-hidden="true"></i>
+          <i class="fa fa-sun-o theme-icon theme-icon-light" aria-hidden="true"></i>
+        </label>
+      </div>
+      </section>
+      <section class="about-column">
+        <h3 class="column-title">About</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/about" class="column-element">FreeBSD</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/" class="column-element">FreeBSD Foundation</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/our-work/journal/" class="column-element">FreeBSD Journal</a>
+          </li>
+          <li>
+            <a href="/where" class="column-element">Get FreeBSD</a>
+          </li>
+          <li>
+            <a href="/internal/code-of-conduct" class="column-element">Code of Conduct</a>
+          </li>
+          <li>
+            <a href="/security" class="column-element">Security Advisories</a>
+          </li>
+        </ul>
+      </section>
+      <section class="documentation-column">
+        <h3 class="column-title">Documentation</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.freebsd.org" class="column-element">Documentation portal</a>
+          </li>
+          <li>
+            <a href="https://man.FreeBSD.org" target="_blank" class="column-element">Manual pages</a>
+          </li>
+          <li>
+            <a href="https://ports.freebsd.org" target="_blank" class="column-element">Ported Applications</a>
+          </li>
+          <li>
+            <a href="https://papers.FreeBSD.org" target="_blank" class="column-element">Presentations and papers</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/" target="_blank" class="column-element">Wiki</a>
+          </li>
+        </ul>
+      </section>
+      <section class="community-column">
+        <h3 class="column-title">Community</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="https://docs.FreeBSD.org/en/articles/contributing" class="column-element">Get involved</a>
+          </li>
+          <li>
+            <a href="https://forums.freebsd.org/" target="_blank" class="column-element">Community forum</a>
+          </li>
+          <li>
+            <a href="https://lists.freebsd.org/" target="_blank" class="column-element">Mailing lists</a>
+          </li>
+          <li>
+            <a href="https://wiki.freebsd.org/IRC/Channels" target="_blank" class="column-element">IRC Channels</a>
+          </li>
+          <li>
+            <a href="https://bugs.freebsd.org/bugzilla/" target="_blank" class="column-element">Bug Tracker</a>
+          </li>
+        </ul>
+      </section>
+      <section class="legal-column">
+        <h3 class="column-title">Legal</h3>
+        <ul class="column-elements-container">
+          <li>
+            <a href="/contact" class="column-element">Contact</a>
+          </li>
+          <li>
+            <a href="https://freebsdfoundation.org/donate/" target="_blank" class="column-element">Donations</a>
+          </li>
+          <li>
+            <a href="/copyright" class="column-element">Licensing</a>
+          </li>
+          <li>
+            <a href="/privacy" class="column-element">Privacy Policy</a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright-column">
+        <p>&copy; 1994-2026 The FreeBSD Project. All rights reserved</p>
+        <span>Made with <span class="heart">❤️</span> by the FreeBSD Community</span>
+      </section>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

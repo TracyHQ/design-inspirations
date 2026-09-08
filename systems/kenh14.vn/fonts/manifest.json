@@ -1,0 +1,50 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "SFD-Bold",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-bold-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://kenh14cdn.com/web_font/SFD-Bold.woff2",
+      "bytes": 46240
+    },
+    {
+      "family": "SFD-Medium",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-medium-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://kenh14cdn.com/web_font/SFD-Medium.woff2",
+      "bytes": 46560
+    },
+    {
+      "family": "SFD-SemiBold",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-semibold-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://kenh14cdn.com/web_font/SFD-Bold.woff2",
+      "bytes": 46240
+    },
+    {
+      "family": "SFD-Heavy",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-heavy-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://kenh14cdn.com/web_font/SFD-Bold.woff2",
+      "bytes": 46240
+    },
+    {
+      "family": "SFD-Light",
+      "weight": "400",
+      "style": "normal",
+      "file": "sfd-light-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://kenh14cdn.com/web_font/SFD-Light.woff2",
+      "bytes": 46256
+    }
+  ]
+}

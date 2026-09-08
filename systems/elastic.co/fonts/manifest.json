@@ -1,0 +1,77 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "MierB",
+      "weight": "400",
+      "style": "normal",
+      "file": "mierb-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/MierB-Regular.woff2",
+      "bytes": 58892
+    },
+    {
+      "family": "MierB",
+      "weight": "700",
+      "style": "normal",
+      "file": "mierb-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/MierB-Bold.woff2",
+      "bytes": 62792
+    },
+    {
+      "family": "MierB",
+      "weight": "800",
+      "style": "normal",
+      "file": "mierb-800.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/MierB-ExtraBold.woff2",
+      "bytes": 59116
+    },
+    {
+      "family": "MierB",
+      "weight": "600",
+      "style": "normal",
+      "file": "mierb-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/MierB-Demi.woff2",
+      "bytes": 62988
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "file": "inter-100-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt1e7581a545d9723c/65f10861d4e0c03dab290f48/InterVariable.woff2",
+      "bytes": 345588
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "italic",
+      "file": "inter-100-900-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt87a8f23f09697de7/65f108619b2cdaf45793c680/InterVariable-Italic.woff2",
+      "bytes": 380904
+    },
+    {
+      "family": "Space Mono",
+      "weight": "400",
+      "style": "normal",
+      "file": "space-mono-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/SpaceMono-Regular.woff2",
+      "bytes": 9464
+    },
+    {
+      "family": "Roboto Mono",
+      "weight": "100 700",
+      "style": "normal",
+      "file": "roboto-mono-100-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elastic.co/static-res/fonts/RobotoMono-VariableFont_wght.woff2",
+      "bytes": 32752
+    }
+  ]
+}

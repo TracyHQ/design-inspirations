@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+The Jenkins Blog
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/blog/authors/krisstern/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='The Jenkins Blog' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='The Jenkins Blog' name='twitter:title'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/logo-title-opengraph.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='The Jenkins Blog' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/blog/authors/krisstern/' property='og:url'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' property='og:description'>
+<meta content='The Jenkins Blog' property='og:site_name'>
+<meta content='/images/logo-title-opengraph.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<div class='app-container app-blog-page'>
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar app-avatar-image'>
+<img alt='Kris Stern' class='app-avatar__image' loading='lazy' onload='this.style.opacity = 1' src='/images/avatars/krisstern.png'>
+</div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>Kris Stern</p>
+<div class="paragraph">
+<p>Kris has been an org admin for Jenkins' GSoC program since 2022 and is also a GSoC project mentor. She has participated in GSoC twice as a contributor/student previously in 2019 and 2020, and has been trained academically as an astrophysicist with a PhD in the discipline of observational astronomy obtained from the University of Hong Kong in 2021. She also obtained the MCIT degree from UPenn in 2026. Professionally, Kris works in the IT sector as a software engineer. She has work experiences in Python, C++, Java, JavaScript, TypeScript, HTML, CSS/Sass, JQuery, SQL, and has completed projects in software development in general and specifically in artificial intelligence/deep learning/computer vision, Qt programming, and web development. Kris is passionate about open-source and would like to share this passion with fellow learners.</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button' data-tooltip='Documentation Lead' href='/sigs/docs/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/musketeer/musketeer.png&quot;)'>
+<img src='/images/logos/musketeer/musketeer.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Google Summer of Code Lead' href='/sigs/gsoc/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/gsoc/jenkins-gsoc-transparent.png&quot;)'>
+<img src='/images/gsoc/jenkins-gsoc-transparent.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Advocacy and Outreach Participant' href='/sigs/advocacy-and-outreach/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/chatterbox/chatterbox.png&quot;)'>
+<img src='/images/logos/chatterbox/chatterbox.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Platform Participant' href='/sigs/platform/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/formal/256.png&quot;)'>
+<img src='/images/logos/formal/256.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+</ul>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/krisstern'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/krisstern13'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/kris-stern'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<ul class='app-cards'>
+<li class='app-card'>
+<a href='/blog/2026/09/07/adopt-a-modern-idp-without-replacing-your-ci/'>
+<div class='app-card__preview'>
+<img alt='Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System' loading='lazy' onload='this.style.opacity = 1' src='/images/post-images/2026/09/from-jenkins-build-to-production.png'>
+</div>
+<h5 class='app-card__title'>
+Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System
+</h5>
+<p class='app-card__teaser'>
+Your Jenkins setup represents a decade of institutional knowledge: countless custom pipelines, shared libraries, and specialized build agents.
+Yet when platform engineering enters the conversation, most IDP demos ignore this investment entirely.
+This article is for platform engineers and DevOps leads who run Jenkins at scale and are evaluating an internal developer platform.
+It lays out a different path: add one stage to...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a><a class="app-author-link" data-user-name="Kavith Lokuhewage" href="/blog/authors/kaviththiranga/"><div class="app-avatar"><img alt="Kavith Lokuhewage" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/kaviththiranga.jpg"></div><span>Kavith Lokuhewage</span></a>
+September 7, 2026
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2026/05/02/gsoc-2026-kickstart/'>
+<div class='app-card__preview'>
+<img alt='Gear Up for Google Summer of Code (GSoC) 2026 with Jenkins' loading='lazy' onload='this.style.opacity = 1' src='/images/post-images/2026/Jenkins_GSoC_2026_Program.png'>
+</div>
+<h5 class='app-card__title'>
+Gear Up for Google Summer of Code (GSoC) 2026 with Jenkins
+</h5>
+<p class='app-card__teaser'>
+We are thrilled to announce that the Jenkins project has been allotted 5 slots in Google Summer of Code (GSoC) 2026 program!
+This is an incredible opportunity for aspiring developers to contribute to one of the most widely used open-source automation servers in the world.
+
+
+The 5 selected projects for GSoC 2026 are:
+
+
+
+
+AI Chatbot to Guide User Workflow with Daniele Caldarigi as...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a>
+May 2, 2026
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2026/04/06/jetbrains-report-highlights-jenkins-as-a-popular-tool-in-2026/'>
+<div class='app-card__preview'>
+<img alt='JetBrains Report Highlights Jenkins as a Popular CI/CD Tool in 2026' loading='lazy' onload='this.style.opacity = 1' src='/images/post-images/2026/04/06/jenkins-as-one-of-best-ci-tools.png'>
+</div>
+<h5 class='app-card__title'>
+JetBrains Report Highlights Jenkins as a Popular CI/CD Tool in 2026
+</h5>
+<p class='app-card__teaser'>
+A recent JetBrains blog post, "Best CI/CD Tools for 2026: What the Data Actually Shows", provides an overview of CI/CD tool adoption and trends.
+According to the report, Jenkins continues to play a major role in the ecosystem, with a 28% adoption rate, ranking just behind GitHub Actions.
+This highlights that Jenkins remains a widely used and trusted solution across organizations of...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a>
+April 6, 2026
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2026/02/19/jenkins-accepted-as-gsoc-2026-mentoring-org/'>
+<div class='app-card__preview'>
+<img alt='Jenkins accepted as mentoring org for Google Summer of Code (GSoC) 2026' loading='lazy' onload='this.style.opacity = 1' src='/images/post-images/2026/Jenkins_GSoC_2026_Program.png'>
+</div>
+<h5 class='app-card__title'>
+Jenkins accepted as mentoring org for Google Summer of Code (GSoC) 2026
+</h5>
+<p class='app-card__teaser'>
+Jenkins Accepted to Google Summer of Code 2026 🎉
+
+
+We are thrilled to announce that Jenkins has been accepted as a mentoring organization for Google Summer of Code (GSoC) 2026!
+This marks our tenth year participating in this prestigious program, and we are excited to continue welcoming new contributors into our vibrant open-source community.
+
+
+
+
+Why GSoC Matters
+
+
+Google Summer of Code is an outstanding...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a>
+February 19, 2026
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2025/09/24/hacktoberfest-2025-intro/'>
+<div class='app-card__preview'>
+<img alt='Hacktoberfest 2025' loading='lazy' onload='this.style.opacity = 1' src='/images/hacktoberfest/hacktoberfest_2025_social.png'>
+</div>
+<h5 class='app-card__title'>
+Hacktoberfest 2025
+</h5>
+<p class='app-card__teaser'>
+The annual Hacktoberfest is back!
+Please join us as we celebrate and support open-source during the month of October.
+Contributors can earn badges and improve their open source contribution skills.
+
+
+The Jenkins project will participate once again in the event.
+We invite you to contribute to the Jenkins project but also, as maintainers, to welcome and help newcomers.
+
+
+Contributors
+
+
+This is what contributors need to know...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a>
+September 24, 2025
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2024/10/03/jenkins-election-candidates/'>
+<div class='app-card__preview'>
+<img alt='2024 Jenkins Election Candidate Statements' loading='lazy' onload='this.style.opacity = 1' src='/images/governance/elections/2024/2024-candidate-statements-opengraph.svg'>
+</div>
+<h5 class='app-card__title'>
+2024 Jenkins Election Candidate Statements
+</h5>
+<p class='app-card__teaser'>
+Candidate nominations for the 2024 Jenkins elections are now complete.
+Thanks to everyone who submitted nominations and to the candidates that have accepted the nominations.
+
+
+Register to vote
+
+
+Voters must register an account on the Jenkins community forums and must have made at least one contribution to Jenkins before September 1, 2024.
+You can use an existing GitHub account or create a new account...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Basil Crow" href="/blog/authors/basil/"><div class="app-avatar"></div><span>Basil Crow</span></a><a class="app-author-link" data-user-name="Mark Waite" href="/blog/authors/markewaite/"><div class="app-avatar"><img alt="Mark Waite" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/markewaite.jpg"></div><span>Mark Waite</span></a><a class="app-author-link" data-user-name="Valentin Delaye" href="/blog/authors/jonesbusy/"><div class="app-avatar"><img alt="Valentin Delaye" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/jonesbusy.png"></div><span>Valentin Delaye</span></a><a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a><a class="app-author-link" data-user-name="Alexander Brandes" href="/blog/authors/notmyfault/"><div class="app-avatar"><img alt="Alexander Brandes" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/notmyfault.jpeg"></div><span>Alexander Brandes</span></a><a class="app-author-link" data-user-name="Oleg Nenashev" href="/blog/authors/oleg_nenashev/"><div class="app-avatar"><img alt="Oleg Nenashev" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/oleg_nenashev.png"></div><span>Oleg Nenashev</span></a><a class="app-author-link" data-user-name="Alex Earl" href="/blog/authors/slide_o_mix/"><div class="app-avatar"><img alt="Alex Earl" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/slide_o_mix.jpg"></div><span>Alex Earl</span></a><a class="app-author-link" data-user-name="Stefan Spieker" href="/blog/authors/stefan_spieker/"><div class="app-avatar"><img alt="Stefan Spieker" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/stefan_spieker.png"></div><span>Stefan Spieker</span></a><a class="app-author-link" data-user-name="Tim Jacomb" href="/blog/authors/timja/"><div class="app-avatar"><img alt="Tim Jacomb" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/timja.jpg"></div><span>Tim Jacomb</span></a>
+October 3, 2024
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2024/04/04/gsoc-2024-contributor-application-period-concludes/'>
+<div class='app-card__preview'>
+<img alt='The GSoC 2024 contributor application has ended. What happens next?' loading='lazy' onload='this.style.opacity = 1' src='/images/gsoc/opengraph.png'>
+</div>
+<h5 class='app-card__title'>
+The GSoC 2024 contributor application has ended. What happens next?
+</h5>
+<p class='app-card__teaser'>
+The Google Summer of Code 2024 contributor application period has ended and we are excited to have received over 75 valid applications from potential contributors, interested in contributing to Jenkins via this program.
+We are grateful to all the students who applied and look forward to reviewing their applications over the next few weeks.
+
+
+Between March 18, 2024, when the contributor application...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a>
+April 4, 2024
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2023/12/05/google-summer-of-code-a-call-for-mentors/'>
+<div class='app-card__preview'>
+<img alt='[Google Summer of Code 2024] A Call for Mentors' loading='lazy' onload='this.style.opacity = 1' src='/images/post-images/2023/12/gsoc-call-for-mentors.png'>
+</div>
+<h5 class='app-card__title'>
+[Google Summer of Code 2024] A Call for Mentors
+</h5>
+<p class='app-card__teaser'>
+We are happy to announce that Jenkins is preparing to participate in its eighth (8th) year in Google Summer of Code (GSoC).
+
+
+What is Google Summer of Code?
+
+
+Google Summer of Code (GSoC) is a global, online mentoring program focused on introducing new contributors to open-source software development.
+GSoC contributors work on a 10-22 weeks-long programming project with the guidance of mentors from...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a><a class="app-author-link" data-user-name="Alyssa Tong" href="/blog/authors/alyssat/"><div class="app-avatar"><img alt="Alyssa Tong" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/alyssat.jpg"></div><span>Alyssa Tong</span></a><a class="app-author-link" data-user-name="Bruno Verachten" href="/blog/authors/gounthar/"><div class="app-avatar"><img alt="Bruno Verachten" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/gounthar.png"></div><span>Bruno Verachten</span></a><a class="app-author-link" data-user-name="Jean-Marc Meessen" href="/blog/authors/jmmeessen/"><div class="app-avatar"><img alt="Jean-Marc Meessen" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/jmMeessen.jpg"></div><span>Jean-Marc Meessen</span></a>
+December 5, 2023
+</div>
+</div>
+</li>
+<li class='app-card'>
+<a href='/blog/2022/11/16/gsoc-2023/'>
+<div class='app-card__preview'>
+<img alt='Google Summer of Code 2023 Call for Project Ideas and Mentors' loading='lazy' onload='this.style.opacity = 1' src='/images/gsoc/opengraph.png'>
+</div>
+<h5 class='app-card__title'>
+Google Summer of Code 2023 Call for Project Ideas and Mentors
+</h5>
+<p class='app-card__teaser'>
+Google Summer of Code (GSoC) is a global, online mentoring program focused on introducing students and new contributors to open source software development.
+GSoC contributors work on a 10-22 weeks programming project with the guidance of mentors from their open source organization.
+During GSoC, participating contributors are paired with mentors from open source organizations, gaining exposure to real-world software development techniques.
+GSoC contributors...
+</p>
+</a>
+<div class='app-card__details'>
+<div class='app-card__details__authors'>
+<a class="app-author-link" data-user-name="Alyssa Tong" href="/blog/authors/alyssat/"><div class="app-avatar"><img alt="Alyssa Tong" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/alyssat.jpg"></div><span>Alyssa Tong</span></a><a class="app-author-link" data-user-name="Jean-Marc Meessen" href="/blog/authors/jmmeessen/"><div class="app-avatar"><img alt="Jean-Marc Meessen" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/jmMeessen.jpg"></div><span>Jean-Marc Meessen</span></a><a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a><a class="app-author-link" data-user-name="Bruno Verachten" href="/blog/authors/gounthar/"><div class="app-avatar"><img alt="Bruno Verachten" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/gounthar.png"></div><span>Bruno Verachten</span></a>
+November 16, 2022
+</div>
+</div>
+</li>
+<script type="text/od-defused-script">
+  $(document).ready(function() {
+      document.querySelectorAll(".app-card__details__authors").forEach(authors => {
+        if (authors.offsetHeight > 30) {
+          authors.classList.add("app-card__details__authors--compact")
+        }
+      })
+      document.querySelector(".app-cards").style.opacity = 1;
+  });
+</script>
+</ul>
+
+</div>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/blog/index.html.haml'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

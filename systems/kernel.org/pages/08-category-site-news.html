@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>The Linux Kernel Archives - Site news</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="https://www.kernel.org/theme/images/logos/favicon.png" />
+        <link rel="stylesheet" href="https://www.kernel.org/theme/css/main.css" type="text/css" />
+        <link href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Linux Kernel Archives Atom Feed" />
+
+        <link href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate" title="Latest Linux Kernel Releases" />
+
+        <!--[if IE]>
+                <script type="text/od-defused-script" src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie.css"/>
+                <script type="text/od-defused-script" src="https://www.kernel.org/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://www.kernel.org/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+	        <div id="tux-gear"></div>
+                <h1><a href="https://www.kernel.org/">The Linux Kernel Archives </a></h1>
+                <nav><ul>
+                    <li ><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li ><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li ><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li ><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li ><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li class="active"><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        <header id="mobile-banner" class="body">
+                <div id="mobile-tux-gear"></div>
+                <h1 class="mobile-site-title"><a href="https://www.kernel.org/">The Linux Kernel Archives</a></h1>
+                <input type="checkbox" id="mobile-nav-toggle" class="mobile-nav-checkbox" aria-label="Navigation menu" />
+                <label for="mobile-nav-toggle" class="hamburger-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </label>
+
+                <label for="mobile-nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+
+                <nav id="mobile-drawer" role="navigation" aria-label="Mobile navigation">
+                <label for="mobile-nav-toggle" class="close-btn" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2C1D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </label>
+                <ul>
+                    <li><a href="https://www.kernel.org/category/about.html">About</a></li>
+                    <li><a href="https://www.kernel.org/category/contact-us.html">Contact us</a></li>
+                    <li><a href="https://www.kernel.org/category/faq.html">FAQ</a></li>
+                    <li><a href="https://www.kernel.org/category/releases.html">Releases</a></li>
+                    <li><a href="https://www.kernel.org/category/signatures.html">Signatures</a></li>
+                    <li><a href="https://www.kernel.org/category/site-news.html">Site news</a></li>
+                </ul>
+                <a href="https://www.kernel.org/"><div id="drawer-tux"></div></a>
+                </nav><!-- /#mobile-drawer -->
+        </header><!-- /#mobile-banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://www.kernel.org/lists-linux-dev.html">Linux.dev mailing list service</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2021-03-15T00:00:00+00:00">
+                2021-03-15
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="https://www.kernel.org/author/konstantin-ryabitsev.html">Konstantin Ryabitsev</a>
+        </address>
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info --><p>We are pleased to announce the availability of a new mailing list
+service running under the new <a class="reference external" href="https://lists.linux.dev">lists.linux.dev</a> domain. The goal of this deployment is to
+offer a subscription service that:</p>
+<ul class="simple">
+<li>prioritizes mail delivery to public-inbox archives available
+via <a class="reference external" href="https://lore.kernel.org">lore.kernel.org</a></li>
+<li>conforms to DMARC requirements to ensure subscriber delivery</li>
+<li>makes minimal changes to email headers and no changes to the message
+body content for the purposes of preserving patch attestation</li>
+</ul>
+<p>If you would like to host a Linux development mailing list on this
+platform, please see further details on the <a class="reference external" href="https://subspace.kernel.org">subspace.kernel.org</a> site.</p>
+<div class="section" id="why-another-mailing-list-service">
+<h2>Why another mailing list service?</h2>
+<p>Linux development started in 1991 and has been ongoing for the past 30
+years at an ever-increasing pace. Many popular code collaboration
+platforms have risen throughout these three decades -- and while some of
+them are still around, many others have shut down and disappeared
+without offering any way to preserve the history of the projects they
+used to host.</p>
+<p>Development via mailed-in patches remains the only widely used mechanism
+for code collaboration that does not rely on centralized infrastructure
+maintained by any single entity. The Linux developer community sees
+transparency, independence and decentralization as core guiding
+principles behind Linux development, so it has deliberately chosen to
+continue using email for all its past and ongoing collaboration efforts.</p>
+</div>
+<div class="section" id="what-about-vger-kernel-org">
+<h2>What about vger.kernel.org?</h2>
+<p>The infrastructure behind lists.linux.dev supports multiple domains, so
+all mailing lists hosted on vger.kernel.org will be carefully migrated
+to the same platform while preserving current addresses, subscribers,
+and list ids. The only thing that will noticeably change is the
+procedure to subscribe and unsubscribe from individual lists. As
+majordomo is no longer maintained, we will instead switch to using
+separate subscribe/unsusbscribe addresses per each list.</p>
+<p>There are no firm ETAs for this migration, but if you are currently
+subscribed to any mailing list hosted on vger.kernel.org, you will
+receive a message when the migration date is approaching.</p>
+</div>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/beijing-git-mirror.html" rel="bookmark"
+                           title="Permalink to Git mirror available in Beijing">Git mirror available in Beijing</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-01-11T00:00:00+00:00">
+                2020-01-11
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="https://www.kernel.org/author/konstantin-ryabitsev.html">Konstantin Ryabitsev</a>
+        </address>
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>If you are a developer located around Beijing, or if your connection to
+Beijing is faster and more reliable than to locations outside of China,
+then you may benefit from the new git.kernel.org mirror kindly provided
+by <a class="reference external" href="https://www.codeaurora.org/">Code Aurora Forum</a> at <a class="reference external" href="https://kernel.source.codeaurora.cn/">https://kernel.source.codeaurora.cn/</a>. This is …</p>
+                <a class="readmore" href="https://www.kernel.org/beijing-git-mirror.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/get-notifications-for-your-patches.html" rel="bookmark"
+                           title="Permalink to Get notifications for your patches">Get notifications for your patches</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-12-13T00:00:00+00:00">
+                2018-12-13
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>We are trialing out a new feature that can send you a notification when
+the patches you send to the LKML are applied to linux-next or to the
+mainline git trees. If you are interested in trying it out, here are the
+details:</p>
+<ul class="simple">
+<li>The patches must be sent to the …</li></ul>
+                <a class="readmore" href="https://www.kernel.org/get-notifications-for-your-patches.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/lore.html" rel="bookmark"
+                           title="Permalink to List archives on lore.kernel.org">List archives on lore.kernel.org</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-12-12T00:00:00+00:00">
+                2018-12-12
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>You may access the archives of many Linux development mailing lists on
+<a class="reference external" href="https://lore.kernel.org/">lore.kernel.org</a>. Most of them include a full archive of messages going
+back several decades.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://lore.kernel.org/">listing of currently hosted archives</a></li>
+</ul>
+<p>If you would like to suggest another kernel development mailing list to
+be included in this list …</p>
+                <a class="readmore" href="https://www.kernel.org/lore.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/minor-changes-to-tarball-release-format.html" rel="bookmark"
+                           title="Permalink to Minor changes to kernel tarball releases">Minor changes to kernel tarball releases</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-07-27T00:00:00+00:00">
+                2018-07-27
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>We'd like to announce several small changes to the way Linux tarballs
+are produced.</p>
+<div class="section" id="mainline-release-tarball-signatures">
+<h2>Mainline release tarball signatures</h2>
+<p>Starting with the 4.18 final release, all mainline tarball PGP
+signatures will be made by Greg Kroah-Hartman instead of Linus Torvalds.
+The main goal behind this change is to simplify the …</p></div>
+                <a class="readmore" href="https://www.kernel.org/minor-changes-to-tarball-release-format.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html" rel="bookmark"
+                           title="Permalink to Best way to do linux clones for your CI">Best way to do linux clones for your CI</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-07-25T00:00:00+00:00">
+                2018-07-25
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>If you are in charge of CI infrastructure that needs to perform frequent
+full clones of kernel trees from git.kernel.org, we strongly recommend
+that you use the <a class="reference external" href="https://www.kernel.org/cloning-linux-from-a-bundle.html">git bundles we provide</a> instead of performing a full
+clone directly from git repositories.</p>
+<p>It is better for you, because downloading …</p>
+                <a class="readmore" href="https://www.kernel.org/best-way-to-do-linux-clones-for-your-ci.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/nitrokey-digital-tokens-for-kernel-developers.html" rel="bookmark"
+                           title="Permalink to Nitrokey digital tokens for kernel developers">Nitrokey digital tokens for kernel developers</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-04-04T00:00:00+00:00">
+                2018-04-04
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="https://www.kernel.org/author/konstantin-ryabitsev.html">Konstantin Ryabitsev</a>
+        </address>
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>The Linux Foundation IT team has been working to improve the code
+integrity of git repositories hosted at kernel.org by promoting the use
+of PGP-signed git tags and commits. Doing so allows anyone to easily
+verify that git repositories have not been altered or tampered with no
+matter from …</p>
+                <a class="readmore" href="https://www.kernel.org/nitrokey-digital-tokens-for-kernel-developers.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/rc-tarballs-and-patches-starting-with-412-rc1.html" rel="bookmark"
+                           title="Permalink to RC tarballs and patches starting with 4.12-rc1">RC tarballs and patches starting with 4.12-rc1</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-05-16T00:00:00+00:00">
+                2017-05-16
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>As you may be aware, starting with 4.12-rc1 Linus will <a class="reference external" href="https://lwn.net/Articles/722660/">no longer provide</a>
+signed tarballs and patches for pre-release (&quot;-rc&quot;) kernels. Reasons for
+this are multiple, but largely this is because people who are most
+interested in pre-release tags -- kernel developers -- do not rely on
+patches and tarballs to …</p>
+                <a class="readmore" href="https://www.kernel.org/rc-tarballs-and-patches-starting-with-412-rc1.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/if-you-got-bad-signature-this-morning.html" rel="bookmark"
+                           title="Permalink to If you got "BAD Signature" this morning">If you got &quot;BAD Signature&quot; this morning</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-05-14T00:00:00+00:00">
+                2017-05-14
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <p>The XZ tarballs for the following kernel releases did not initially pass
+signature verification due to benign changes to the tarball structure
+done by the pixz compression tool:</p>
+<ul class="simple">
+<li>4.11.1</li>
+<li>4.10.16</li>
+<li>4.9.28</li>
+<li>4.4.68</li>
+</ul>
+<p>These changes would have resulted in GPG returning &quot;Bad Signature …</p>
+                <a class="readmore" href="https://www.kernel.org/if-you-got-bad-signature-this-morning.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="https://www.kernel.org/fast-new-frontends-with-packet.html" rel="bookmark"
+                           title="Permalink to Fast new frontends with Packet">Fast new frontends with Packet</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-03-11T00:00:00+00:00">
+                2017-03-11
+        </abbr>
+
+<p>In <a href="https://www.kernel.org/category/site-news.html">Site news</a>. </p>
+
+</footer><!-- /.post-info -->                <img alt="Packet logo" class="align-left" src="https://www.kernel.org/news/images/packet-logo.png" style="width: 176px; height: 60px;" />
+<p>We are extremely happy to announce that <a class="reference external" href="https://www.packet.net/">Packet</a> has graciously donated
+the new hardware systems providing read-only public access to the
+kernel.org git repositories and the public website (git.kernel.org and
+www.kernel.org, respectively). We have avoided using cloud providers in
+the past due to security implications …</p>
+                <a class="readmore" href="https://www.kernel.org/fast-new-frontends-with-packet.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
+<nav>
+  <ul>
+    <li>Page 1 / 3</li>
+        <li><a href="https://www.kernel.org/category/site-news2.html">&rang;</a></li>
+        <li><a href="https://www.kernel.org/category/site-news3.html">&Rang;</a></li>
+  </ul>
+</nav>
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>Other resources</h2>
+                        <ul>
+                            <li><a href="https://git.kernel.org/">Git Trees</a></li>
+                            <li><a href="https://docs.kernel.org/">Documentation</a></li>
+                            <li><a href="https://lore.kernel.org/">Kernel Mailing Lists</a></li>
+                            <li><a href="https://patchwork.kernel.org/">Patchwork</a></li>
+                            <li><a href="https://www.wiki.kernel.org/">Wikis</a></li>
+                            <li><a href="https://bugzilla.kernel.org/">Bugzilla</a></li>
+                            <li><a href="https://mirrors.kernel.org/">Mirrors</a></li>
+                            <li><a href="https://www.linux.com/">Linux.com</a></li>
+                            <li><a href="https://www.linuxfoundation.org/">Linux Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">Site Atom feed</a></li>
+                            <li><a href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate">Releases Atom Feed</a></li>
+
+                            <li><a href="https://planet.kernel.org/">Kernel Planet</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                    This site is operated by the Linux Kernel Organization, a <a href="https://www.kernel.org/nonprofit.html">501(c)3 nonprofit corporation</a>, with support from the following sponsors.
+                </address><!-- /#about -->
+
+                <address id="donors">
+                  <a href="https://www.akamai.com/"><img src="https://www.kernel.org/theme/images/logos/akamai.png"
+                  alt="Akamai" height="55" width="135" id="logo-akamai"/></a>
+                  &nbsp;
+                  <a href="https://www.constellix.com/"><img src="https://www.kernel.org/theme/images/logos/constellix-green-logo.png"
+                  alt="Constellix" width="193" height="21" id="logo-constellix" /></a>
+                  &nbsp;
+                  <a href="https://www.fastly.com/"><img src="https://www.kernel.org/theme/images/logos/fastly-logo.png"
+                  alt="Fastly" width="91" height="35" id="logo-fastly" /></a>
+                  &nbsp;
+                  <a href="https://servers.com/"><img src="https://www.kernel.org/theme/images/logos/serverscom.svg"
+                  alt="servers.com" width="195" height="40" id="logo-serverscom" /></a>
+                  <br />
+                  <a href="https://www.google.com/"><img src="https://www.kernel.org/theme/images/logos/google.png"
+                  alt="Google" height="42" width="128" id="logo-google" /></a>
+                  &nbsp;
+                  <a href="https://www.redhat.com/"><img src="https://www.kernel.org/theme/images/logos/redhat-community.png"
+                  alt="Red Hat" height="36" width="150" id="logo-redhat" /></a>
+                  <br/>&nbsp;<br/>
+                  <a href="https://www.linuxfoundation.org/"><img src="https://www.kernel.org/theme/images/logos/thelinuxfoundation.png"
+                  alt="The Linux Foundation" width="137" height="45" id="logo-lf" /></a>
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

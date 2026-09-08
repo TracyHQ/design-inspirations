@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://prometheus.io/",
+  "crawledAt": "2026-09-07T23:54:18.454Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://prometheus.io/",
+      "file": "pages/01-home.html",
+      "title": "Prometheus - Monitoring system & time series database",
+      "h1": "Open source metrics and monitoring for your systems and services",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "file": "pages/02-docs-introduction-overview.html",
+      "title": "Overview | Prometheus",
+      "h1": "Overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/download/",
+      "file": "pages/03-download.html",
+      "title": "Download | Prometheus",
+      "h1": "Download",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/community/",
+      "file": "pages/04-community.html",
+      "title": "Community | Prometheus",
+      "h1": "Community",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/support-training/",
+      "file": "pages/05-support-training.html",
+      "title": "Support & Training | Prometheus",
+      "h1": "Support and Training",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/blog/",
+      "file": "pages/06-blog.html",
+      "title": "Blog | Prometheus",
+      "h1": "Learning Cloud-Native Engineering Beyond Tutorials Through LFX",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+      "file": "pages/07-docs-prometheus-latest-getting-started.html",
+      "title": "Getting started | Prometheus",
+      "h1": "Getting started",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/concepts/data_model/",
+      "file": "pages/08-docs-concepts-data-model.html",
+      "title": "Data model | Prometheus",
+      "h1": "Data model",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+      "file": "pages/09-docs-prometheus-latest-querying-basics.html",
+      "title": "Querying basics | Prometheus",
+      "h1": "Querying basics",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/alerting/latest/overview/",
+      "file": "pages/10-docs-alerting-latest-overview.html",
+      "title": "Alerting overview | Prometheus",
+      "h1": "Alerting overview",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/prometheus/latest/configuration/configuration/",
+      "file": "pages/11-docs-prometheus-latest-configuration-con.html",
+      "title": "Configuration | Prometheus",
+      "h1": "Configuration",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/instrumenting/clientlibs/",
+      "file": "pages/12-docs-instrumenting-clientlibs.html",
+      "title": "Client libraries | Prometheus",
+      "h1": "Client libraries",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/instrumenting/exporters/",
+      "file": "pages/13-docs-instrumenting-exporters.html",
+      "title": "Exporters and integrations | Prometheus",
+      "h1": "Exporters and integrations",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/first_steps/",
+      "file": "pages/14-docs-introduction-first-steps.html",
+      "title": "First steps with Prometheus | Prometheus",
+      "h1": "First steps with Prometheus",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/comparison/",
+      "file": "pages/15-docs-introduction-comparison.html",
+      "title": "Comparison to alternatives | Prometheus",
+      "h1": "Comparison to alternatives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/faq/",
+      "file": "pages/16-docs-introduction-faq.html",
+      "title": "Frequently asked questions | Prometheus",
+      "h1": "Frequently asked questions",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/roadmap/",
+      "file": "pages/17-docs-introduction-roadmap.html",
+      "title": "Roadmap | Prometheus",
+      "h1": "Roadmap",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/design-doc/",
+      "file": "pages/18-docs-introduction-design-doc.html",
+      "title": "Design documents | Prometheus",
+      "h1": "Design documents",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/media/",
+      "file": "pages/19-docs-introduction-media.html",
+      "title": "Media | Prometheus",
+      "h1": "Media",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://prometheus.io/docs/introduction/glossary/",
+      "file": "pages/20-docs-introduction-glossary.html",
+      "title": "Glossary | Prometheus",
+      "h1": "Glossary",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

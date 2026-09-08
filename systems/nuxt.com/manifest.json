@@ -1,0 +1,33 @@
+{
+  "id": "brand:nuxt.com",
+  "host": "nuxt.com",
+  "kind": "reference",
+  "slug": "nuxt",
+  "name": "Nuxt",
+  "category": "Reference",
+  "description": "Build fast, production-ready web apps with Vue. File-based routing, auto-imports, and server-side rendering — all configured out of the box.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://nuxt.com/",
+    "finalUrl": "https://nuxt.com/",
+    "extractedAt": "2026-09-07T23:55:08.860Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 25,
+    "fonts": 8,
+    "logos": 6,
+    "imagery": 8,
+    "fonts_files": 8,
+    "headings": 13,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

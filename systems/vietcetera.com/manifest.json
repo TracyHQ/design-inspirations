@@ -1,0 +1,33 @@
+{
+  "id": "brand:vietcetera.com",
+  "host": "vietcetera.com",
+  "kind": "reference",
+  "slug": "vietcetera",
+  "name": "Vietcetera",
+  "category": "Reference",
+  "description": "Vietcetera mang đến cái nhìn đa diện về một Việt Nam hiện đại, năng động và đầy tiềm năng bằng những câu chuyện chân thực về các nhân tố và giá trị văn hoá mới.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://vietcetera.com/",
+    "finalUrl": "https://vietcetera.com/",
+    "extractedAt": "2026-09-07T23:52:12.964Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 24,
+    "fonts": 9,
+    "logos": 4,
+    "imagery": 1,
+    "fonts_files": 16,
+    "headings": 22,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

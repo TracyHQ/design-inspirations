@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://gitlab.com/",
+  "crawledAt": "2026-09-07T23:54:39.898Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://gitlab.com/",
+      "file": "pages/01-home.html",
+      "title": "GitLab - Speed with control for agentic software engineering",
+      "h1": "Speed you can trust, all the way to production",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/-/trial_registrations/new",
+      "file": "pages/02-trial-registrations-new.html",
+      "title": "Start a Free Ultimate Trial · GitLab",
+      "h1": "Get Started with GitLab",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/-/trial_registrations/new/",
+      "file": "pages/03-trial-registrations-new.html",
+      "title": "Start a Free Ultimate Trial · GitLab",
+      "h1": "Get Started with GitLab",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/",
+      "file": "pages/04-gitlab-com-marketing-digital-experience-.html",
+      "title": "GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "about.gitlab.com",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/content/en-us/index.yml",
+      "file": "pages/05-gitlab-com-marketing-digital-experience-.html",
+      "title": "content/en-us/index.yml · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/CONTRIBUTING.md/",
+      "file": "pages/06-gitlab-com-marketing-digital-experience-.html",
+      "title": "CONTRIBUTING.md · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/-/users/terms",
+      "file": "pages/07-users-terms.html",
+      "title": "GitLab",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-community/gitlab-com/marketing/digital-experience/about-gitlab-com",
+      "file": "pages/08-gitlab-community-gitlab-com-marketing-di.html",
+      "title": "GitLab Community / GitLab.com / marketing / Digital Experience / about.gitlab.com Community Fork · GitLab",
+      "h1": "about.gitlab.com Community Fork",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/commits/main",
+      "file": "pages/09-gitlab-com-marketing-digital-experience-.html",
+      "title": "Commits · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/branches",
+      "file": "pages/10-gitlab-com-marketing-digital-experience-.html",
+      "title": "Branches · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "Branches",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tags",
+      "file": "pages/11-gitlab-com-marketing-digital-experience-.html",
+      "title": "Tags · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "Repository has no tags yet",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/README.md",
+      "file": "pages/12-gitlab-com-marketing-digital-experience-.html",
+      "title": "README.md · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/LICENSE",
+      "file": "pages/13-gitlab-com-marketing-digital-experience-.html",
+      "title": "LICENSE · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/CONTRIBUTING.md",
+      "file": "pages/14-gitlab-com-marketing-digital-experience-.html",
+      "title": "CONTRIBUTING.md · main · GitLab.com / marketing / Digital Experience / about.gitlab.com · GitLab",
+      "h1": "",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

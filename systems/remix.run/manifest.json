@@ -1,0 +1,35 @@
+{
+  "id": "brand:remix.run",
+  "host": "remix.run",
+  "kind": "reference",
+  "slug": "remix-the-fully-stacked-web-framework",
+  "name": "Remix - The Fully-Stacked Web Framework",
+  "category": "Reference",
+  "description": "The fully-stacked web framework",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://remix.run/",
+    "finalUrl": "https://remix.run/",
+    "extractedAt": "2026-09-07T23:54:58.936Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 2,
+    "colors": 22,
+    "fonts": 3,
+    "logos": 3,
+    "imagery": 3,
+    "fonts_files": 7,
+    "headings": 23,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://jenkins.io/",
+  "crawledAt": "2026-09-07T23:54:31.311Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://jenkins.io/",
+      "file": "pages/01-home.html",
+      "title": "Jenkins",
+      "h1": "Jenkins",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/download/",
+      "file": "pages/02-download.html",
+      "title": "Download and deploy",
+      "h1": "Download and deploy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/doc/",
+      "file": "pages/03-doc.html",
+      "title": "Jenkins User Documentation",
+      "h1": "Jenkins User Documentation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2025/07/24/redesigning-jenkins-part-two/",
+      "file": "pages/04-blog-2025-07-24-redesigning-jenkins-part.html",
+      "title": "Redesigning Jenkins (Part Two)",
+      "h1": "Redesigning Jenkins (Part Two)",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/05/26/jenkins-community-award-winners/",
+      "file": "pages/05-blog-2026-05-26-jenkins-community-award-.html",
+      "title": "Jenkins 2026 Community Award Winners",
+      "h1": "Jenkins 2026 Community Award Winners",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/participate/",
+      "file": "pages/06-participate.html",
+      "title": "Participate and Contribute",
+      "h1": "Participate and Contribute",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/09/07/adopt-a-modern-idp-without-replacing-your-ci/",
+      "file": "pages/07-blog-2026-09-07-adopt-a-modern-idp-witho.html",
+      "title": "Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System",
+      "h1": "Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/krisstern/",
+      "file": "pages/08-blog-authors-krisstern.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/kaviththiranga/",
+      "file": "pages/09-blog-authors-kaviththiranga.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/09/01/plugin-of-the-month-oras-artifact-manager/",
+      "file": "pages/10-blog-2026-09-01-plugin-of-the-month-oras.html",
+      "title": "Plugin of the Month – September 2026: ORAS Artifact Manager",
+      "h1": "Plugin of the Month – September 2026: ORAS Artifact Manager",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/jonesbusy/",
+      "file": "pages/11-blog-authors-jonesbusy.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/08/25/admin-blog_01/",
+      "file": "pages/12-blog-2026-08-25-admin-blog-01.html",
+      "title": "Daily Life as a Jenkins Administrator",
+      "h1": "Daily Life as a Jenkins Administrator",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/schulmak/",
+      "file": "pages/13-blog-authors-schulmak.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/08/24/pratik-mane-gsoc-endterm-blog-post/",
+      "file": "pages/14-blog-2026-08-24-pratik-mane-gsoc-endterm.html",
+      "title": "GSoC 2026 Endterm - Plugin Modernizer Stats Visualization",
+      "h1": "GSoC 2026 Endterm - Plugin Modernizer Stats Visualization",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/pratikmane0112/",
+      "file": "pages/15-blog-authors-pratikmane0112.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/08/24/contributor-summit-virtual/",
+      "file": "pages/16-blog-2026-08-24-contributor-summit-virtu.html",
+      "title": "Announcing a Contributor Summit Virtual Event (September 11, 2026)",
+      "h1": "Announcing a Contributor Summit Virtual Event (September 11, 2026)",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/stefan_spieker/",
+      "file": "pages/17-blog-authors-stefan-spieker.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/08/23/mohammed-faheem-gsoc-finalterm-blogpost/",
+      "file": "pages/18-blog-2026-08-23-mohammed-faheem-gsoc-fin.html",
+      "title": "GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth",
+      "h1": "GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/faheem12005/",
+      "file": "pages/19-blog-authors-faheem12005.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/2026/08/22/vatsal-verma-gsoc-end-term-blog-post/",
+      "file": "pages/20-blog-2026-08-22-vatsal-verma-gsoc-end-te.html",
+      "title": "GSoC 2026 final term - Retooling Jenkins.io Web Success Stories",
+      "h1": "GSoC 2026 final term - Retooling Jenkins.io Web Success Stories",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

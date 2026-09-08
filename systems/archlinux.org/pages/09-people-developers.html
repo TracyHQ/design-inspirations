@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#08C" />
+    <title>Arch Linux - Developers</title>
+    <link rel="stylesheet" type="text/css" href="/static/archlinux_common_style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/static/archweb.css" media="screen" />
+    <link rel="icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="apple-touch-icon" href="/static/archlinux_common_style/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/archlinux_common_style/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/archlinux_common_style/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/archlinux_common_style/apple-touch-icon-144x144.png" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch/packages/" title="Arch Linux Packages" />
+    <link rel="stylesheet" type="text/css" href="/static/flags/fam.css" media="screen" />
+</head>
+<body class="">
+    <header class="anb-home">
+        <div id="archnavbar">
+	<div id="logo"><a href="/" title="Return to the main page">Arch Linux</a></div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-home"><a href="/" title="Arch news, packages, projects and more">Home</a></li>
+			<li id="anb-packages"><a href="/packages/" title="Arch Package Database">Packages</a></li>
+			<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+			<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+			<li id="anb-gitlab"><a href="https://gitlab.archlinux.org/archlinux" title="GitLab">GitLab</a></li>
+			<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+			<li id="anb-aur"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+			<li id="anb-download"><a href="/download/" title="Get Arch Linux">Download</a></li>
+		</ul>
+	</div>
+</div>
+
+    </header>
+    <div id="content">
+        <div id="archdev-navbar">
+            
+        </div>
+        
+        
+
+<div id="dev-tu-profiles" class="box">
+    <h2>Arch Linux Developers</h2>
+
+    <p>This is a list of the current Arch Linux Developers. They maintain the [core] and [extra] package repositories in addition to doing any other developer duties.</p>
+
+    
+    
+
+
+<div id="arch-bio-toc">
+    <p>
+    
+    <a href="#allan" title="Jump to profile for Allan McRae">
+        Allan McRae</a> &nbsp;&nbsp;
+    
+    <a href="#anatolik" title="Jump to profile for Anatol Pomozov">
+        Anatol Pomozov</a> &nbsp;&nbsp;
+    
+    <a href="#andyrtr" title="Jump to profile for Andreas Radke">
+        Andreas Radke</a> &nbsp;&nbsp;
+    
+    <a href="#andrew" title="Jump to profile for Andrew Gregory">
+        Andrew Gregory</a> &nbsp;&nbsp;
+    
+    <a href="#arojas" title="Jump to profile for Antonio Rojas">
+        Antonio Rojas</a> &nbsp;&nbsp;
+    
+    <a href="#eworm" title="Jump to profile for Christian Hesse">
+        Christian Hesse</a> &nbsp;&nbsp;
+    
+    <a href="#dvzrv" title="Jump to profile for David Runge">
+        David Runge</a> &nbsp;&nbsp;
+    
+    <a href="#felixonmars" title="Jump to profile for Felix Yan 🦊">
+        Felix Yan 🦊</a> &nbsp;&nbsp;
+    
+    <a href="#freswa" title="Jump to profile for Frederik Schwan">
+        Frederik Schwan</a> &nbsp;&nbsp;
+    
+    <a href="#grazzolini" title="Jump to profile for Giancarlo Razzolini">
+        Giancarlo Razzolini</a> &nbsp;&nbsp;
+    
+    <a href="#heftig" title="Jump to profile for Jan Alexander Steffens">
+        Jan Alexander Steffens</a> &nbsp;&nbsp;
+    
+    <a href="#jelle" title="Jump to profile for Jelle van der Waa">
+        Jelle van der Waa</a> &nbsp;&nbsp;
+    
+    <a href="#demize" title="Jump to profile for Johannes Löthberg">
+        Johannes Löthberg</a> &nbsp;&nbsp;
+    
+    <a href="#juergen" title="Jump to profile for Jürgen Hötzel">
+        Jürgen Hötzel</a> &nbsp;&nbsp;
+    
+    <a href="#lcarlier" title="Jump to profile for Laurent Carlier">
+        Laurent Carlier</a> &nbsp;&nbsp;
+    
+    <a href="#artafinde" title="Jump to profile for Leonidas Spyropoulos">
+        Leonidas Spyropoulos</a> &nbsp;&nbsp;
+    
+    <a href="#anthraxx" title="Jump to profile for Levente Polyak">
+        Levente Polyak</a> &nbsp;&nbsp;
+    
+    <a href="#lfleischer" title="Jump to profile for Lukas Fleischer">
+        Lukas Fleischer</a> &nbsp;&nbsp;
+    
+    <a href="#alucryd" title="Jump to profile for Maxime Gauduin">
+        Maxime Gauduin</a> &nbsp;&nbsp;
+    
+    <a href="#pierre" title="Jump to profile for Pierre Schmitz">
+        Pierre Schmitz</a> &nbsp;&nbsp;
+    
+    <a href="#svenstaro" title="Jump to profile for Sven-Hendrik Haase">
+        Sven-Hendrik Haase</a> &nbsp;&nbsp;
+    
+    <a href="#seblu" title="Jump to profile for Sébastien Luttringer">
+        Sébastien Luttringer</a> &nbsp;&nbsp;
+    
+    <a href="#tpowa" title="Jump to profile for Tobias Powalowski">
+        Tobias Powalowski</a> &nbsp;&nbsp;
+    
+    </p>
+</div>
+
+<table class="arch-bio-entry">
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-allan">
+            <img itemprop="image" src="/img/devs/allan.jpg" height="125" width="125" alt="Image for Allan"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Allan McRae"/>
+            <meta itemprop="givenName" content="Allan"/>
+            <meta itemprop="familyName" content="McRae"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Allan McRae
+            <a class="headerlink" name="allan" id="allan" href="#allan" title="Permalink">¶</a></h3>
+            <table class="bio bio-allan">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">Allan</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>allan@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>amcrae@libera</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD" title="PGP key search for 6645 B0A8 C700 5E78 DB1D  7864 F99F FE0F EAE9 99BD"><div class="pgp-key-ids"><span>6645</span><span>B0A8</span><span>C700</span><span>5E78</span><span>DB1D</span><span>7864</span><span>F99F</span><span>FE0F</span><span>EAE9</span><span>99BD</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Pacman Developer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="http://allanmcrae.com/"
+                            title="Visit the website for Allan McRae">
+                            http://allanmcrae.com/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Statistical Geneticist</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">2099</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-nz" title="New Zealand"></span> Brisbane, Australia</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Geocaching</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>LFS</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-anatolik">
+            <img itemprop="image" src="/img/devs/anatol-photo.jpg" height="125" width="125" alt="Image for anatolik"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Anatol Pomozov"/>
+            <meta itemprop="givenName" content="Anatol"/>
+            <meta itemprop="familyName" content="Pomozov"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Anatol Pomozov
+            <a class="headerlink" name="anatolik" id="anatolik" href="#anatolik" title="Permalink">¶</a></h3>
+            <table class="bio bio-anatolik">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">anatolik</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>anatol.pomozov@gmail.com</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x8E1992167465DB5FB045557CB02854ED753E0F1F" title="PGP key search for 8E19 9216 7465 DB5F B045  557C B028 54ED 753E 0F1F"><div class="pgp-key-ids"><span>8E19</span><span>9216</span><span>7465</span><span>DB5F</span><span>B045</span><span>557C</span><span>B028</span><span>54ED</span><span>753E</span><span>0F1F</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>None<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1982</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-us" title="United States"></span> San Jose, CA</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>Russian, Belarusian, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-andyrtr">
+            <img itemprop="image" src="/img/devs/20210707-2133-7076356_01.jpg" height="125" width="125" alt="Image for andyrtr"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Andreas Radke"/>
+            <meta itemprop="givenName" content="Andreas"/>
+            <meta itemprop="familyName" content="Radke"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Andreas Radke
+            <a class="headerlink" name="andyrtr" id="andyrtr" href="#andyrtr" title="Permalink">¶</a></h3>
+            <table class="bio bio-andyrtr">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">andyrtr</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>andyrtr@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.freenode.net:andyrtr</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xADC8A1FCC15E01D45310419E94657AB20F2A092B" title="PGP key search for ADC8 A1FC C15E 01D4 5310  419E 9465 7AB2 0F2A 092B"><div class="pgp-key-ids"><span>ADC8</span><span>A1FC</span><span>C15E</span><span>01D4</span><span>5310</span><span>419E</span><span>9465</span><span>7AB2</span><span>0F2A</span><span>092B</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Package Maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Statutary accident insurance</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1975</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Magdeburg, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Packaging, Gym, Running, Family</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch, DietPi</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-andrew">
+            <img itemprop="image" src="/img/devs/silhouette.png" height="125" width="125" alt="Image for apg"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Andrew Gregory"/>
+            <meta itemprop="givenName" content="Andrew"/>
+            <meta itemprop="familyName" content="Gregory"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Andrew Gregory
+            <a class="headerlink" name="andrew" id="andrew" href="#andrew" title="Permalink">¶</a></h3>
+            <table class="bio bio-andrew">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">apg</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>andrew@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x0016846EDD8432261C62CB63DF3891463C352040" title="PGP key search for 0016 846E DD84 3226 1C62  CB63 DF38 9146 3C35 2040"><div class="pgp-key-ids"><span>0016</span><span>846E</span><span>DD84</span><span>3226</span><span>1C62</span><span>CB63</span><span>DF38</span><span>9146</span><span>3C35</span><span>2040</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Pacman Developer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Developer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1986</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-us" title="United States"></span> San Jose, CA</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Programming, Martial Arts</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-arojas">
+            <img itemprop="image" src="/img/devs/silhouette.png" height="125" width="125" alt="Image for arojas"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Antonio Rojas"/>
+            <meta itemprop="givenName" content="Antonio"/>
+            <meta itemprop="familyName" content="Rojas"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Antonio Rojas
+            <a class="headerlink" name="arojas" id="arojas" href="#arojas" title="Permalink">¶</a></h3>
+            <table class="bio bio-arojas">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">arojas</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>arojas@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.freenode.net:arojas</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x9D74DF6F91B7BDABD5815CA84AC5588F941C2A25" title="PGP key search for 9D74 DF6F 91B7 BDAB D581  5CA8 4AC5 588F 941C 2A25"><div class="pgp-key-ids"><span>9D74</span><span>DF6F</span><span>91B7</span><span>BDAB</span><span>D581</span><span>5CA8</span><span>4AC5</span><span>588F</span><span>941C</span><span>2A25</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>KDE &amp; Math Software packager<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Mathematician</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate"></td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-es" title="Spain"></span> Sevilla</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>Spanish, English, French</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Science, mathematics, software</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-eworm">
+            <img itemprop="image" src="/img/devs/feemilytime-sonja-gertrudenhof-2329.jpg" height="125" width="125" alt="Image for eworm"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Christian Hesse"/>
+            <meta itemprop="givenName" content="Christian"/>
+            <meta itemprop="familyName" content="Hesse"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Christian Hesse
+            <a class="headerlink" name="eworm" id="eworm" href="#eworm" title="Permalink">¶</a></h3>
+            <table class="bio bio-eworm">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">eworm</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>eworm@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.libera.chat/eworm matrix:u/eworm:archlinux.org https://t.me/eworm_de threema:K9K47P2K</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x02FD1C7A934E614545849F19A6234074498E9CEE" title="PGP key search for 02FD 1C7A 934E 6145 4584  9F19 A623 4074 498E 9CEE"><div class="pgp-key-ids"><span>02FD</span><span>1C7A</span><span>934E</span><span>6145</span><span>4584</span><span>9F19</span><span>A623</span><span>4074</span><span>498E</span><span>9CEE</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer &amp; Packager<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://www.eworm.de/"
+                            title="Visit the website for Christian Hesse">
+                            https://www.eworm.de/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Network and System Administrator</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1982</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Oberhausen, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English, German</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>R/C helicopters, photography, Reading, Climbing, Geocaching, Archery</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-dvzrv">
+            <img itemprop="image" src="/img/devs/dvzrv_125x125.png" height="125" width="125" alt="Image for dvzrv"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="David Runge"/>
+            <meta itemprop="givenName" content="David"/>
+            <meta itemprop="familyName" content="Runge"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>David Runge
+            <a class="headerlink" name="dvzrv" id="dvzrv" href="#dvzrv" title="Permalink">¶</a></h3>
+            <table class="bio bio-dvzrv">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">dvzrv</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>dvzrv@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>ircs://irc.libera.chat:dvzrv, ircs://irc.oftc.net:dvzrv</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x991F6E3F0765CF6295888586139B09DA5BF0D338" title="PGP key search for 991F 6E3F 0765 CF62 9588  8586 139B 09DA 5BF0 D338"><div class="pgp-key-ids"><span>991F</span><span>6E3F</span><span>0765</span><span>CF62</span><span>9588</span><span>8586</span><span>139B</span><span>09DA</span><span>5BF0</span><span>D338</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, Package Maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://sleepmap.de"
+                            title="Visit the website for David Runge">
+                            https://sleepmap.de</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td><a itemprop="url" href="https://chaos.social/@dvzrv"
+                            title="Visit social account for David Runge" rel="me">
+                            https://chaos.social/@dvzrv</a></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Developer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1985</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Berlin</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English, French</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Sound</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-felixonmars">
+            <img itemprop="image" src="/img/devs/felixonmars-125.png" height="125" width="125" alt="Image for felixonmars"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Felix Yan 🦊"/>
+            <meta itemprop="givenName" content="Felix"/>
+            <meta itemprop="familyName" content="Yan 🦊"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Felix Yan 🦊
+            <a class="headerlink" name="felixonmars" id="felixonmars" href="#felixonmars" title="Permalink">¶</a></h3>
+            <table class="bio bio-felixonmars">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">felixonmars</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>felixonmars@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>matrix:@felixonmars:archlinux.org, irc.libera.chat:felixonmars</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92" title="PGP key search for B597 1F2C 5C10 A9A0 8C60  030F 786C 63F3 30D7 CB92"><div class="pgp-key-ids"><span>B597</span><span>1F2C</span><span>5C10</span><span>A9A0</span><span>8C60</span><span>030F</span><span>786C</span><span>63F3</span><span>30D7</span><span>CB92</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, TU, Arch Linux CN, Arch Linux RISC-V<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="http://felixc.at/"
+                            title="Visit the website for Felix Yan 🦊">
+                            http://felixc.at/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td><a itemprop="url" href="https://g0v.social/@felixonmars"
+                            title="Visit social account for Felix Yan 🦊" rel="me">
+                            https://g0v.social/@felixonmars</a></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Developer &amp; Sysadmin</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1991</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-cn" title="China"></span> Wuhan, China</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>Chinese, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Packaging, Gaming, Fix typos</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-freswa">
+            <img itemprop="image" src="/img/devs/Ava_KI.jpg" height="125" width="125" alt="Image for freswa"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Frederik Schwan"/>
+            <meta itemprop="givenName" content="Frederik"/>
+            <meta itemprop="familyName" content="Schwan"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Frederik Schwan
+            <a class="headerlink" name="freswa" id="freswa" href="#freswa" title="Permalink">¶</a></h3>
+            <table class="bio bio-freswa">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">freswa</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>freswa@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x05C7775A9E8B977407FE08E69D4C5AA15426DA0A" title="PGP key search for 05C7 775A 9E8B 9774 07FE  08E6 9D4C 5AA1 5426 DA0A"><div class="pgp-key-ids"><span>05C7</span><span>775A</span><span>9E8B</span><span>9774</span><span>07FE</span><span>08E6</span><span>9D4C</span><span>5AA1</span><span>5426</span><span>DA0A</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate"></td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>None</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-grazzolini">
+            <img itemprop="image" src="/img/devs/silhouette.png" height="125" width="125" alt="Image for grazzolini"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Giancarlo Razzolini"/>
+            <meta itemprop="givenName" content="Giancarlo"/>
+            <meta itemprop="familyName" content="Razzolini"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Giancarlo Razzolini
+            <a class="headerlink" name="grazzolini" id="grazzolini" href="#grazzolini" title="Permalink">¶</a></h3>
+            <table class="bio bio-grazzolini">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">grazzolini</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>grazzolini@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.freenode.org:grazzolini</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xECCAC84C1BA08A6CC8E63FBBF22FB1D78A77AEAB" title="PGP key search for ECCA C84C 1BA0 8A6C C8E6  3FBB F22F B1D7 8A77 AEAB"><div class="pgp-key-ids"><span>ECCA</span><span>C84C</span><span>1BA0</span><span>8A6C</span><span>C8E6</span><span>3FBB</span><span>F22F</span><span>B1D7</span><span>8A77</span><span>AEAB</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Trusted User / DevOps / mkinitcpio Developer / Package Maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://razzolini.com.br"
+                            title="Visit the website for Giancarlo Razzolini">
+                            https://razzolini.com.br</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Developer / Sysadmin</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1983</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-br" title="Brazil"></span> Curitiba, Brasil</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>Portuguese, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Security, Physics, Computers</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-heftig">
+            <img itemprop="image" src="/img/devs/IMG_6101-small.jpg" height="125" width="125" alt="Image for heftig"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Jan Alexander Steffens"/>
+            <meta itemprop="givenName" content="Jan Alexander"/>
+            <meta itemprop="familyName" content="Steffens"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Jan Alexander Steffens
+            <a class="headerlink" name="heftig" id="heftig" href="#heftig" title="Permalink">¶</a></h3>
+            <table class="bio bio-heftig">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">heftig</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>heftig@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>matrix: @heftig:archlinux.org | irc: heftig@irc.libera.chat</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x83BC8889351B5DEBBB68416EB8AC08600F108CDF" title="PGP key search for 83BC 8889 351B 5DEB BB68  416E B8AC 0860 0F10 8CDF"><div class="pgp-key-ids"><span>83BC</span><span>8889</span><span>351B</span><span>5DEB</span><span>BB68</span><span>416E</span><span>B8AC</span><span>0860</span><span>0F10</span><span>8CDF</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="http://pkgbuild.com/~heftig/"
+                            title="Visit the website for Jan Alexander Steffens">
+                            http://pkgbuild.com/~heftig/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1988</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Rheinbach, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch, Fedora</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-jelle">
+            <img itemprop="image" src="/img/devs/bio-photo.jpg" height="125" width="125" alt="Image for jelly"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Jelle van der Waa"/>
+            <meta itemprop="givenName" content="Jelle"/>
+            <meta itemprop="familyName" content="van der Waa"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Jelle van der Waa
+            <a class="headerlink" name="jelle" id="jelle" href="#jelle" title="Permalink">¶</a></h3>
+            <table class="bio bio-jelle">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">jelly</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>jelle@vdwaa.nl</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.libera.chat:jelle</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xE499C79F53C96A54E572FEE1C06086337C50773E" title="PGP key search for E499 C79F 53C9 6A54 E572  FEE1 C060 8633 7C50 773E"><div class="pgp-key-ids"><span>E499</span><span>C79F</span><span>53C9</span><span>6A54</span><span>E572</span><span>FEE1</span><span>C060</span><span>8633</span><span>7C50</span><span>773E</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, TU, DevOps, Security Team, Repro builds<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://vdwaa.nl"
+                            title="Visit the website for Jelle van der Waa">
+                            https://vdwaa.nl</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Developer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate"></td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-nl" title="Netherlands"></span> Delft, Netherlands</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>Dutch, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Security, Kernel, Automation</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux, what else?!</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-demize">
+            <img itemprop="image" src="/img/devs/PXL_20250621_094541235.RAW-01.MP.COVER2.jpg" height="125" width="125" alt="Image for demize"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Johannes Löthberg"/>
+            <meta itemprop="givenName" content="Johannes"/>
+            <meta itemprop="familyName" content="Löthberg"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Johannes Löthberg
+            <a class="headerlink" name="demize" id="demize" href="#demize" title="Permalink">¶</a></h3>
+            <table class="bio bio-demize">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">demize</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>johannes@kyriasis.com</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>demize@libera</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x5134EF9EAF65F95B6BB1608E50FB9B273A9D0BB5" title="PGP key search for 5134 EF9E AF65 F95B 6BB1  608E 50FB 9B27 3A9D 0BB5"><div class="pgp-key-ids"><span>5134</span><span>EF9E</span><span>AF65</span><span>F95B</span><span>6BB1</span><span>608E</span><span>50FB</span><span>9B27</span><span>3A9D</span><span>0BB5</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Dev, TU, and thing-doer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate"></td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-se" title="Sweden"></span> Gävle, Sweden</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English, Swedish</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Linux, Networking, Obscure tech, Science Fiction</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>None</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-juergen">
+            <img itemprop="image" src="/img/devs/out-0.jpg" height="125" width="125" alt="Image for juergen"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Jürgen Hötzel"/>
+            <meta itemprop="givenName" content="Jürgen"/>
+            <meta itemprop="familyName" content="Hötzel"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Jürgen Hötzel
+            <a class="headerlink" name="juergen" id="juergen" href="#juergen" title="Permalink">¶</a></h3>
+            <table class="bio bio-juergen">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">juergen</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>juergen@hoetzel.info</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>https://twitter.com/juergenhoetzel</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x209A36D43CE2E87DA861FC58539DFD48135182EF" title="PGP key search for 209A 36D4 3CE2 E87D A861  FC58 539D FD48 1351 82EF"><div class="pgp-key-ids"><span>209A</span><span>36D4</span><span>3CE2</span><span>E87D</span><span>A861</span><span>FC58</span><span>539D</span><span>FD48</span><span>1351</span><span>82EF</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Package Maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="http://www.hoetzel.info"
+                            title="Visit the website for Jürgen Hötzel">
+                            http://www.hoetzel.info</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>SysAdmin / Programmer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1974</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Frankfurt, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Computers, Sports: Running</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch, FreeBSD</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-lcarlier">
+            <img itemprop="image" src="/img/devs/photo.png" height="125" width="125" alt="Image for lordheavy"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Laurent Carlier"/>
+            <meta itemprop="givenName" content="Laurent"/>
+            <meta itemprop="familyName" content="Carlier"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Laurent Carlier
+            <a class="headerlink" name="lcarlier" id="lcarlier" href="#lcarlier" title="Permalink">¶</a></h3>
+            <table class="bio bio-lcarlier">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">lordheavy</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>lordheavym@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>lordheavym@gmail.com</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x535F8C0339450F054A4D282706096A6AD1CEDDAC" title="PGP key search for 535F 8C03 3945 0F05 4A4D  2827 0609 6A6A D1CE DDAC"><div class="pgp-key-ids"><span>535F</span><span>8C03</span><span>3945</span><span>0F05</span><span>4A4D</span><span>2827</span><span>0609</span><span>6A6A</span><span>D1CE</span><span>DDAC</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer/Trusted User<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Eurostar Train Driver</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1972</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-fr" title="France"></span> Neuville sur Escaut, France</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>French, English, some Dutch</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Free Software, cooking, road and cross country cycling</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Archlinux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-artafinde">
+            <img itemprop="image" src="/img/devs/artafinde.png" height="125" width="125" alt="Image for artafinde"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Leonidas Spyropoulos"/>
+            <meta itemprop="givenName" content="Leonidas"/>
+            <meta itemprop="familyName" content="Spyropoulos"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Leonidas Spyropoulos
+            <a class="headerlink" name="artafinde" id="artafinde" href="#artafinde" title="Permalink">¶</a></h3>
+            <table class="bio bio-artafinde">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">artafinde</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>artafinde@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.libera.chat:artafinde | matrix: @artafinde:artafinde.dev</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x2191B89431BAC0A8B96DE93D244740D17C7FD0EC" title="PGP key search for 2191 B894 31BA C0A8 B96D  E93D 2447 40D1 7C7F D0EC"><div class="pgp-key-ids"><span>2191</span><span>B894</span><span>31BA</span><span>C0A8</span><span>B96D</span><span>E93D</span><span>2447</span><span>40D1</span><span>7C7F</span><span>D0EC</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, Packager &amp; DevOps<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td><a itemprop="url" href="https://chaos.social/@artafinde"
+                            title="Visit social account for Leonidas Spyropoulos" rel="me">
+                            https://chaos.social/@artafinde</a></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate"></td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-gb" title="United Kingdom"></span> London</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English, Greek</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Archlinux, Performance, Programming, Gaming</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Archlinux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-anthraxx">
+            <img itemprop="image" src="/img/devs/dott.png" height="125" width="125" alt="Image for anthraxx"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Levente Polyak"/>
+            <meta itemprop="givenName" content="Levente"/>
+            <meta itemprop="familyName" content="Polyak"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Levente Polyak
+            <a class="headerlink" name="anthraxx" id="anthraxx" href="#anthraxx" title="Permalink">¶</a></h3>
+            <table class="bio bio-anthraxx">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">anthraxx</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>anthraxx@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.freenode.net:anthraxx</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xE240B57E2C4630BA768E2F26FC1B547C8D8172C8" title="PGP key search for E240 B57E 2C46 30BA 768E  2F26 FC1B 547C 8D81 72C8"><div class="pgp-key-ids"><span>E240</span><span>B57E</span><span>2C46</span><span>30BA</span><span>768E</span><span>2F26</span><span>FC1B</span><span>547C</span><span>8D81</span><span>72C8</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, Trusted User, Security Team<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://leventepolyak.net"
+                            title="Visit the website for Levente Polyak">
+                            https://leventepolyak.net</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td><a itemprop="url" href="https://chaos.social/@anthraxx"
+                            title="Visit social account for Levente Polyak" rel="me">
+                            https://chaos.social/@anthraxx</a></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1986</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Hamburg</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English, German, Hungarian</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Security, Reverse Engineering, Programming, Anime</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-lfleischer">
+            <img itemprop="image" src="/img/devs/photo-medium.jpg" height="125" width="125" alt="Image for lfleischer"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Lukas Fleischer"/>
+            <meta itemprop="givenName" content="Lukas"/>
+            <meta itemprop="familyName" content="Fleischer"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Lukas Fleischer
+            <a class="headerlink" name="lfleischer" id="lfleischer" href="#lfleischer" title="Permalink">¶</a></h3>
+            <table class="bio bio-lfleischer">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">lfleischer</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>lfleischer@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.freenode.net:lfleischer</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x2E36D8620221482FC45CB7F2A91764759326B440" title="PGP key search for 2E36 D862 0221 482F C45C  B7F2 A917 6475 9326 B440"><div class="pgp-key-ids"><span>2E36</span><span>D862</span><span>0221</span><span>482F</span><span>C45C</span><span>B7F2</span><span>A917</span><span>6475</span><span>9326</span><span>B440</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Package maintainer, former aurweb maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://lfos.de/"
+                            title="Visit the website for Lukas Fleischer">
+                            https://lfos.de/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Software Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1990</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-ca" title="Canada"></span> Toronto, ON</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English, Spanish (basic), French (basic)</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Health/fitness, climate/sustainability, and travel</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux (and OpenBSD)</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-alucryd">
+            <img itemprop="image" src="/img/devs/alucryd_125x125_iozT0H1.png" height="125" width="125" alt="Image for alucryd"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Maxime Gauduin"/>
+            <meta itemprop="givenName" content="Maxime"/>
+            <meta itemprop="familyName" content="Gauduin"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Maxime Gauduin
+            <a class="headerlink" name="alucryd" id="alucryd" href="#alucryd" title="Permalink">¶</a></h3>
+            <table class="bio bio-alucryd">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">alucryd</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>alucryd@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x95220BE99CE6FF778AE0DC670F65C7D881506130" title="PGP key search for 9522 0BE9 9CE6 FF77 8AE0  DC67 0F65 C7D8 8150 6130"><div class="pgp-key-ids"><span>9522</span><span>0BE9</span><span>9CE6</span><span>FF77</span><span>8AE0</span><span>DC67</span><span>0F65</span><span>C7D8</span><span>8150</span><span>6130</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, Trusted User<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Cloud Architect</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1989</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-fr" title="France"></span> Lille, France</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>French, English, some Japanese</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Computers, Video Games, Manga &amp; Anime</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux, Alpine Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-pierre">
+            <img itemprop="image" src="/img/devs/pierre.jpg" height="125" width="125" alt="Image for pierre"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Pierre Schmitz"/>
+            <meta itemprop="givenName" content="Pierre"/>
+            <meta itemprop="familyName" content="Schmitz"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Pierre Schmitz
+            <a class="headerlink" name="pierre" id="pierre" href="#pierre" title="Permalink">¶</a></h3>
+            <table class="bio bio-pierre">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">pierre</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>pierre@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>pierre@archlinux.de</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C" title="PGP key search for 3E80 CA1A 8B89 F69C BA57  D98A 76A5 EF90 5444 9A5C"><div class="pgp-key-ids"><span>3E80</span><span>CA1A</span><span>8B89</span><span>F69C</span><span>BA57</span><span>D98A</span><span>76A5</span><span>EF90</span><span>5444</span><span>9A5C</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Developer, Backend-, Website- and Package Maintainer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://pierre-schmitz.com"
+                            title="Visit the website for Pierre Schmitz">
+                            https://pierre-schmitz.com</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Senior Vibe Coding Assistant</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1982</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Bonn, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>yes</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Alpine Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-svenstaro">
+            <img itemprop="image" src="/img/devs/sven.jpg" height="125" width="125" alt="Image for svenstaro"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Sven-Hendrik Haase"/>
+            <meta itemprop="givenName" content="Sven-Hendrik"/>
+            <meta itemprop="familyName" content="Haase"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Sven-Hendrik Haase
+            <a class="headerlink" name="svenstaro" id="svenstaro" href="#svenstaro" title="Permalink">¶</a></h3>
+            <table class="bio bio-svenstaro">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">svenstaro</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>svenstaro@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>None</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x8FC15A064950A99DD1BD14DD39E4B877E62EB915" title="PGP key search for 8FC1 5A06 4950 A99D D1BD  14DD 39E4 B877 E62E B915"><div class="pgp-key-ids"><span>8FC1</span><span>5A06</span><span>4950</span><span>A99D</span><span>D1BD</span><span>14DD</span><span>39E4</span><span>B877</span><span>E62E</span><span>B915</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Packager, Developer<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="http://www.svenstaro.org/"
+                            title="Visit the website for Sven-Hendrik Haase">
+                            http://www.svenstaro.org/</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Cloud Consultant</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1990</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>English, German</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Nerdy computer stuff</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch Linux</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-seblu">
+            <img itemprop="image" src="/img/devs/IMG_4253_crop_resized.jpg" height="125" width="125" alt="Image for seblu"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Sébastien Luttringer"/>
+            <meta itemprop="givenName" content="Sébastien"/>
+            <meta itemprop="familyName" content="Luttringer"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Sébastien Luttringer
+            <a class="headerlink" name="seblu" id="seblu" href="#seblu" title="Permalink">¶</a></h3>
+            <table class="bio bio-seblu">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">seblu</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>seblu@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>https://bsky.app/profile/seblu.net</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0xB81B051F2D7FC867AAFF35A58DBD63B82072D77A" title="PGP key search for B81B 051F 2D7F C867 AAFF  35A5 8DBD 63B8 2072 D77A"><div class="pgp-key-ids"><span>B81B</span><span>051F</span><span>2D7F</span><span>C867</span><span>AAFF</span><span>35A5</span><span>8DBD</span><span>63B8</span><span>2072</span><span>D77A</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>♈<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://seblu.net"
+                            title="Visit the website for Sébastien Luttringer">
+                            https://seblu.net</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>Engineer</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1984</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-fr" title="France"></span> Paris, France</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>French, English</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>🚺, 💻, 🎞</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Archlinux, Debian, OpenBSD</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+    
+    <tr itemscope itemtype="http://schema.org/Person">
+        <td class="pic pic-tpowa">
+            <img itemprop="image" src="/img/devs/Selfie3_9rNW6pN.jpg" height="125" width="125" alt="Image for tpowa"/>
+        </td>
+        <td>
+            <meta itemprop="name" content="Tobias Powalowski"/>
+            <meta itemprop="givenName" content="Tobias"/>
+            <meta itemprop="familyName" content="Powalowski"/>
+            <meta itemprop="jobTitle" content="Developer"/>
+            <div class="itemprop" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Arch Linux"/>
+            </div>
+            <h3>Tobias Powalowski
+            <a class="headerlink" name="tpowa" id="tpowa" href="#tpowa" title="Permalink">¶</a></h3>
+            <table class="bio bio-tpowa">
+                <tr>
+                    <th>Alias:</th>
+                    <td itemprop="additionalName">tpowa</td>
+                </tr><tr>
+                    <th>Email:</th>
+                    <td>tpowa@archlinux.org</td>
+                </tr><tr>
+                    <th>Other Contact:</th>
+                    <td>irc://irc.libera.chat:tpowa jabber:tpowa</td>
+                </tr><tr>
+                    <th>PGP Key:</th>
+                    <td><a href="https://keyserver.ubuntu.com/pks/lookup?op=vindex&amp;fingerprint=on&amp;exact=on&amp;search=0x5B7E3FB71B7F10329A1C03AB771DF6627EDF681F" title="PGP key search for 5B7E 3FB7 1B7F 1032 9A1C  03AB 771D F662 7EDF 681F"><div class="pgp-key-ids"><span>5B7E</span><span>3FB7</span><span>1B7F</span><span>1032</span><span>9A1C</span><span>03AB</span><span>771D</span><span>F662</span><span>7EDF</span><span>681F</span></div></a></td>
+                </tr><tr>
+                    <th>Roles:</th>
+                    <td>Package Maintainer, Kernel Monkey<br />
+                    </td>
+                </tr><tr>
+                    <th>Website:</th>
+                    <td><a itemprop="url" href="https://www.st-martin-apo.de"
+                            title="Visit the website for Tobias Powalowski">
+                            https://www.st-martin-apo.de</a></td>
+                </tr><tr>
+                    <th>Social:</th>
+                    <td></td>
+                </tr><tr>
+                    <th>Occupation:</th>
+                    <td>SysAdmin / Pharmacist</td>
+                </tr><tr>
+                    <th>Birth Year:</th>
+                    <td itemprop="birthDate">1981</td>
+                </tr><tr>
+                    <th>Location:</th>
+                    <td><span class="fam-flag fam-flag-de" title="Germany"></span> Lauingen, Germany</td>
+                </tr><tr>
+                    <th>Languages:</th>
+                    <td>German, English, French</td>
+                </tr><tr>
+                    <th>Interests:</th>
+                    <td>Computers, Music, Sports:Tennis, Handball</td>
+                </tr><tr>
+                    <th>Favorite Distros:</th>
+                    <td>Arch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    
+</table>
+
+    
+</div>
+
+
+        <div id="footer">
+            <p>Copyright © 2002-2026 <a href="mailto:jvinet@zeroflux.org"
+                title="Contact Judd Vinet">Judd Vinet</a>, <a href="mailto:aaron@archlinux.org"
+                title="Contact Aaron Griffin">Aaron Griffin</a> and
+                <a href="mailto:anthraxx@archlinux.org" title="Contact Levente Polyák">Levente Polyák</a>.</p>
+
+            <p>The Arch Linux name and logo are recognized
+            <a href="https://terms.archlinux.org/docs/trademark-policy/"
+                title="Arch Linux Trademark Policy">trademarks</a>. Some rights reserved.</p>
+
+            <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+            the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+        </div>
+    </div>
+    <script type="text/od-defused-script" type="application/ld+json">
+    {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "/packages/?q={search_term}",
+         "query-input": "required name=search_term"
+       }
+    }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Inter web italic",
+      "weight": "400",
+      "style": "italic",
+      "file": "inter-web-italic-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-Italic.woff2?v=3.15",
+      "bytes": 106604
+    },
+    {
+      "family": "Inter web italic",
+      "weight": "600",
+      "style": "italic",
+      "file": "inter-web-italic-600-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-SemiBoldItalic.woff2?v=3.15",
+      "bytes": 111676
+    },
+    {
+      "family": "Inter var",
+      "weight": "100 900",
+      "style": "normal",
+      "file": "inter-var-100-900.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-roman.var.woff2?v=3.15",
+      "bytes": 224744
+    },
+    {
+      "family": "Inter web",
+      "weight": "400",
+      "style": "normal",
+      "file": "inter-web-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-Regular.woff2?v=3.15",
+      "bytes": 98804
+    },
+    {
+      "family": "Inter web",
+      "weight": "600",
+      "style": "normal",
+      "file": "inter-web-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-SemiBold.woff2?v=3.15",
+      "bytes": 105992
+    },
+    {
+      "family": "Inter web",
+      "weight": "200",
+      "style": "normal",
+      "file": "inter-web-200.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://emberjs.com/fonts/Inter-ExtraLight.woff2?v=3.15",
+      "bytes": 104128
+    }
+  ]
+}

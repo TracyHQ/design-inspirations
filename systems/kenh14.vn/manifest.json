@@ -1,0 +1,33 @@
+{
+  "id": "brand:kenh14.vn",
+  "host": "kenh14.vn",
+  "kind": "reference",
+  "slug": "https-kenh14-vn",
+  "name": "https://kenh14.vn",
+  "category": "Reference",
+  "description": "Trang tin tức giải trí - xã hội Việt Nam - Quốc Tế. Đưa tin nhanh nhất : thời trang, video ngôi sao, phim ảnh, tình yêu, học đường, các chuyển động xã hội.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://kenh14.vn/",
+    "finalUrl": "https://kenh14.vn/",
+    "extractedAt": "2026-09-07T23:51:20.761Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 6,
+    "logos": 2,
+    "imagery": 8,
+    "fonts_files": 5,
+    "headings": 54,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

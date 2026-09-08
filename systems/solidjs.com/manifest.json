@@ -1,0 +1,33 @@
+{
+  "id": "brand:solidjs.com",
+  "host": "solidjs.com",
+  "kind": "reference",
+  "slug": "solidjs",
+  "name": "SolidJS",
+  "category": "Reference",
+  "description": "A declarative, efficient and flexible JavaScript library for building user interfaces.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://solidjs.com/",
+    "finalUrl": "https://solidjs.com/",
+    "extractedAt": "2026-09-07T23:55:10.748Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 1,
+    "colors": 19,
+    "fonts": 3,
+    "logos": 4,
+    "imagery": 1,
+    "fonts_files": 2,
+    "headings": 0,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://kubernetes.io/",
+  "crawledAt": "2026-09-07T23:54:19.756Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://kubernetes.io/",
+      "file": "pages/01-home.html",
+      "title": "Kubernetes",
+      "h1": "Production-Grade Container Orchestration",
+      "depth": 0,
+      "status": 200
+    }
+  ]
+}

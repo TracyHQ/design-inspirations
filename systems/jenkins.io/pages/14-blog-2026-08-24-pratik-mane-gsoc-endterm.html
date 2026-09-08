@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+GSoC 2026 Endterm - Plugin Modernizer Stats Visualization
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/blog/2026/08/24/pratik-mane-gsoc-endterm-blog-post/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='GSoC 2026 Endterm - Plugin Modernizer Stats Visualization' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='GSoC 2026 Endterm - Plugin Modernizer Stats Visualization' name='twitter:title'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/gsoc/opengraph.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='GSoC 2026 Endterm - Plugin Modernizer Stats Visualization' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/blog/2026/08/24/pratik-mane-gsoc-endterm-blog-post/' property='og:url'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' property='og:description'>
+<meta content='GSoC 2026 Endterm - Plugin Modernizer Stats Visualization' property='og:site_name'>
+<meta content='/images/gsoc/opengraph.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<style>
+  .videoblock iframe {
+      aspect-ratio: 16 / 9;
+      max-width: 100%;
+      height: auto;
+  }
+</style>
+<script type="text/od-defused-script">
+  window.addEventListener('DOMContentLoaded', function () {
+    for (var i = 1 ; i <= 6 ; i ++) {
+      anchors.add('.app-post-page h' + i);
+    }
+  })
+</script>
+
+<article class='app-container app-post-page'>
+<div class='app-!-display-flex'>
+<a class='app-back-link' href='/blog/'>
+Back to blog
+</a>
+</div>
+<h1>
+GSoC 2026 Endterm - Plugin Modernizer Stats Visualization
+</h1>
+<div class='post-attrs'>
+<a class="app-author-link" data-user-name="Pratik Mane" href="/blog/authors/pratikmane0112/"><div class="app-avatar"><img alt="Pratik Mane" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/pratikmane0112.png"></div><span>Pratik Mane</span></a>
+August 24, 2026
+<span>⏱︎ 11 min read</span>
+<div class='app-social-media-buttons__container share-buttons__container'>
+<span>
+Share
+</span>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/intent/tweet?text=GSoC+2026+Endterm+-+Plugin+Modernizer+Stats+Visualization&amp;url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F24%2Fpratik-mane-gsoc-endterm-blog-post%2F' rel='noreferrer nofollow'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F24%2Fpratik-mane-gsoc-endterm-blog-post%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-mastodon' data-tooltip='Mastodon' href='https://mastodon.social/share?text=GSoC+2026+Endterm+-+Plugin+Modernizer+Stats+Visualization+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F24%2Fpratik-mane-gsoc-endterm-blog-post%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="currentColor"
+    d="M480 173.59c0-104.13-68.26-134.65-68.26-134.65C377.3 23.15 318.2 16.5 256.8 16h-1.51c-61.4.5-120.46 7.15-154.88 22.94 0 0-68.27 30.52-68.27 134.65 0 23.85-.46 52.35.29 82.59C34.91 358 51.11 458.37 145.32 483.29c43.43 11.49 80.73 13.89 110.76 12.24 54.47-3 85-19.42 85-19.42l-1.79-39.5s-38.93 12.27-82.64 10.77c-43.31-1.48-89-4.67-96-57.81a108.44 108.44 0 01-1-14.9 558.91 558.91 0 0096.39 12.85c32.95 1.51 63.84-1.93 95.22-5.67 60.18-7.18 112.58-44.24 119.16-78.09 10.42-53.34 9.58-130.17 9.58-130.17zm-80.54 134.16h-50V185.38c0-25.8-10.86-38.89-32.58-38.89-24 0-36.06 15.53-36.06 46.24v67h-49.66v-67c0-30.71-12-46.24-36.06-46.24-21.72 0-32.58 13.09-32.58 38.89v122.37h-50V181.67q0-38.65 19.75-61.39c13.6-15.15 31.4-22.92 53.51-22.92 25.58 0 44.95 9.82 57.75 29.48L256 147.69l12.45-20.85c12.81-19.66 32.17-29.48 57.75-29.48 22.11 0 39.91 7.77 53.51 22.92q19.79 22.72 19.75 61.39z"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-bluesky' data-tooltip='Bluesky' href='https://bsky.app/intent/compose?text=GSoC+2026+Endterm+-+Plugin+Modernizer+Stats+Visualization+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F08%2F24%2Fpratik-mane-gsoc-endterm-blog-post%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 568 501">
+  <path fill="currentColor"
+    d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.21C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.333 453.32c-119.86 122.992-172.272-30.859-185.702-70.281-2.462-7.227-3.614-10.608-3.631-7.733-.017-2.875-1.169.506-3.631 7.733-13.43 39.422-65.842 193.273-185.702 70.281-63.111-64.76-33.89-129.52 80.986-149.071-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.659 0 75.291 0 57.946 0-28.906 76.135-1.612 123.121 33.664Z"></path>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='blog-content'>
+<div class="paragraph">
+<p>Hello everyone,</p>
+</div>
+<div class="paragraph">
+<p>This blog showcases the work done on the <a href="https://github.com/jenkins-infra/plugin-modernizer-stats">Plugin Modernizer Stats Visualization</a> project during Google Summer of Code 2026. For a detailed description of the project, please refer to the <a href="/projects/gsoc/2026/projects/plugin-modernizer-stats-visualization/">project page</a>.</p>
+</div>
+<div class="paragraph">
+<p><span class="image right center"><img src="/images/gsoc/jenkins-gsoc-logo_small.png" alt="Jenkins GSoC"></span></p>
+</div>
+<div class="sect1">
+<h2 id="table-of-contents"><a class="anchor" href="#table-of-contents"></a>Table of Contents</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="#about-the-project">About the Project</a></p>
+</li>
+<li>
+<p><a href="#phase-1">Phase 1</a></p>
+</li>
+<li>
+<p><a href="#phase-2">Phase 2</a></p>
+</li>
+<li>
+<p><a href="#challenges-and-learnings">Challenges and Learnings</a></p>
+</li>
+<li>
+<p><a href="#next-steps">Next Steps</a></p>
+</li>
+<li>
+<p><a href="#acknowledgements">Acknowledgements</a></p>
+</li>
+<li>
+<p><a href="#useful-links">Useful Links</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="about-the-project"><a class="anchor" href="#about-the-project"></a>About the Project</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <a href="https://github.com/jenkins-infra/plugin-modernizer-tool">Plugin Modernizer Tool</a> automates the modernization of Jenkins plugins using OpenRewrite recipes, creating pull requests with the results.
+As part of GSoC 2025, a <a href="https://github.com/jenkins-infra/metadata-plugin-modernizer">metadata repository</a> was established that stores raw modernization metadata in JSON/CSV format.</p>
+</div>
+<div class="paragraph">
+<p>My GSoC 2026 project, <strong>Plugin Modernizer Stats Visualization</strong>, builds a static visualization site that consumes this metadata, consolidates it into a structured format and presents dashboards alongside per-plugin and per-recipe report pages.
+The goal was to give plugin maintainers, modernizer authors, new contributors and the infra team a single place to understand modernization health at a glance without manually browsing hundreds of plugin directories.</p>
+</div>
+<div class="paragraph">
+<p>The diagram below shows how the different pieces of the ecosystem fit together:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/08/24/plugin-modernizer-stats-workflow.png" alt="Plugin Modernizer Stats workflow — from CLI tool to visualization dashboard" width="100%">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="phase-1"><a class="anchor" href="#phase-1"></a>Phase 1</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By the midterm, we accomplished the following milestones:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Data Pipeline (ETL):</strong> A GitHub Actions workflow in <a href="https://github.com/jenkins-infra/metadata-plugin-modernizer">metadata-plugin-modernizer</a> validates raw modernization data, runs a Python consolidation script to produce a single <a href="https://jenkins-infra.github.io/metadata-plugin-modernizer/report.json">report.json</a> and deploys it via GitHub Pages.</p>
+</li>
+<li>
+<p><strong>Dashboard (Home Page):</strong> Summary stat cards, migration status donut chart, recipe performance bar chart, migration timeline trend, and tag distribution visualization.</p>
+</li>
+<li>
+<p><strong>Plugin List Page:</strong> A searchable table of 400+ plugins with status badges, migration ratios, last-updated dates, and links to plugin pages and GitHub repositories.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Check out the <a href="https://jenkins-infra.github.io/plugin-modernizer-stats/">live demo</a> and my <a href="/blog/2026/07/10/pratik-mane-gsoc-midterm-blog-post/">midterm blog post</a> for more details on the first half of the coding period.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="phase-2"><a class="anchor" href="#phase-2"></a>Phase 2</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the second half of GSoC, the focus shifted from foundational pages to drill-down reports, polish and production readiness.
+The result is a fully navigable site where users can move from a high-level overview down to individual plugins and recipes.</p>
+</div>
+<div class="sect2">
+<h3 id="dashboard"><a class="anchor" href="#dashboard"></a>Dashboard</h3>
+<div class="paragraph">
+<p>The home page brings together the key metrics from across the modernization effort : total plugins, migrations, successes and failures alongside charts that reveal trends over time and highlight which recipes need attention.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/08/24/plugin-modernizer-stats-dashboard.png" alt="Plugin Modernizer Stats dashboard with summary cards and migration charts" width="100%">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="plugin-list-page"><a class="anchor" href="#plugin-list-page"></a>Plugin List Page</h3>
+<div class="paragraph">
+<p>The plugin list page displays all <strong>plugins</strong> that have been processed by the Plugin Modernizer Tool.
+Each row shows the plugin name, overall migration status (All Passed, All Failed, Mostly Passed, Mostly Failed), the success-to-failure ratio, the last updated date and quick links to the plugin&#8217;s detail page and GitHub repository.
+The table is searchable and filterable, making it easy to find a specific plugin or scan for ones that need attention.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="per-plugin-detail-pages"><a class="anchor" href="#per-plugin-detail-pages"></a>Per-Plugin Detail Pages</h3>
+<div class="paragraph">
+<p>Clicking into any plugin opens a dedicated detail page with a complete picture of that plugin&#8217;s modernization history.
+For example, the page for the <strong>ansible</strong> plugin shows:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A header with the plugin&#8217;s overall status, repository link, branch, last updated date and merged PR count.</p>
+</li>
+<li>
+<p>Summary stat cards for total migrations, successes and failures.</p>
+</li>
+<li>
+<p>A <strong>migration timeline</strong> chart that visualizes when recipes were applied and whether they succeeded or failed.</p>
+</li>
+<li>
+<p>A <strong>recipe breakdown</strong> table listing every recipe applied to the plugin, along with applied, success and failed counts and per-recipe status.</p>
+</li>
+<li>
+<p>A <strong>PR history</strong> section with links to the pull requests generated by the modernizer.</p>
+</li>
+<li>
+<p>A <strong>failed migrations</strong> table surfacing error details for any recipes that did not succeed.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/08/24/plugin-modernizer-stats-plugin-detail.png" alt="Per-plugin detail page showing migration timeline" width="100%">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="recipe-list-page"><a class="anchor" href="#recipe-list-page"></a>Recipe List Page</h3>
+<div class="paragraph">
+<p>The recipe list page displays all <strong>recipes</strong> that have been applied across the plugin ecosystem.
+Each row shows the recipe name, how many plugins it was applied to, the overall success rate and a link to the recipe&#8217;s detail page.
+This view helps recipe authors quickly identify which recipes are performing well and which ones may need fixes or improvements.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="per-recipe-detail-pages"><a class="anchor" href="#per-recipe-detail-pages"></a>Per-Recipe Detail Pages</h3>
+<div class="paragraph">
+<p>Each recipe has its own detail page with stats scoped to that recipe.
+For example, the page for the <strong>AddCodeOwner</strong> recipe shows:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A header with the recipe&#8217;s fully qualified name and overall success rate.</p>
+</li>
+<li>
+<p>Summary stat cards for total applications, successes, failures and success rate percentage.</p>
+</li>
+<li>
+<p>An <strong>application status</strong> donut chart breaking down success, failure and other outcomes.</p>
+</li>
+<li>
+<p>An <strong>application timeline</strong> chart showing when the recipe was applied over time.</p>
+</li>
+<li>
+<p>An <strong>affected plugins</strong> table listing every plugin the recipe was run against, along with per-plugin status and date.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/08/24/plugin-modernizer-stats-recipe-detail.png" alt="Per-recipe detail page showing application status" width="100%">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="stretch-goal-cli-command-snippets"><a class="anchor" href="#stretch-goal-cli-command-snippets"></a>Stretch Goal: CLI Command Snippets</h3>
+<div class="paragraph">
+<p>As a stretch goal, I added copy-paste <strong>CLI command snippets</strong> on both the per-plugin and per-recipe detail pages.
+These snippets show the exact <code>plugin-modernizer</code> command needed to run a dry-run (or apply) a recipe on a specific plugin, lowering the barrier for maintainers who want to reproduce or retry a modernization locally.
+Users can expand a dropdown to see per-recipe commands for a given plugin, or per-plugin commands for a given recipe, and copy any command with a single click.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="uiux-theming-and-reliability"><a class="anchor" href="#uiux-theming-and-reliability"></a>UI/UX, Theming and Reliability</h3>
+<div class="paragraph">
+<p>Beyond the core pages, several improvements went into making the site production-ready:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Jenkins-aligned theming</strong> using <a href="https://github.com/jenkins-infra/jenkins-io-components">jenkins-io-components</a> for shared navbar and footer, with a color palette consistent with the Jenkins visual ecosystem.</p>
+</li>
+<li>
+<p><strong>Error boundaries and error pages</strong> for graceful handling of missing data, network failures and invalid routes.</p>
+</li>
+<li>
+<p><strong>Skeleton loaders</strong> on dashboard, list and detail pages so the UI feels responsive while data is being fetched.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="testing"><a class="anchor" href="#testing"></a>Testing</h3>
+<div class="paragraph">
+<p>The project now has <strong>32 test files</strong> with <strong>303 passing tests</strong> covering pages, components, hooks and utility functions using Vitest and Testing Library.
+A GitHub Actions CI pipeline runs linting, formatting, build and test checks on every pull request.
+The site is deployed automatically to <a href="https://jenkins-infra.github.io/plugin-modernizer-stats/">GitHub Pages</a> on every merge to the <code>main</code> branch.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="documentation"><a class="anchor" href="#documentation"></a>Documentation</h3>
+<div class="paragraph">
+<p>The <a href="https://github.com/jenkins-infra/plugin-modernizer-stats">repository README</a> includes setup instructions, a description of the data flow and references to the related Plugin Modernizer and metadata repositories, making it straightforward for new contributors to get started.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="challenges-and-learnings"><a class="anchor" href="#challenges-and-learnings"></a>Challenges and Learnings</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Designing a consistent data model that could power both plugin-level and recipe-level views from a single <code>report.json</code> was one of the bigger technical challenges.
+The consolidated report needed to be rich enough for detailed drill-down pages while remaining small enough to fetch quickly in the browser.
+Working closely with my mentors on the schema in <code>metadata-plugin-modernizer</code> early on helped avoid rework later.</p>
+</div>
+<div class="paragraph">
+<p>Performance was another consideration with <code>431 plugins and 21 recipes</code>, list pages needed virtualization and careful chart rendering to stay smooth.
+Using react-window for the plugin and recipe tables and lazy-loading chart data on detail pages kept the experience snappy even on slower connections.</p>
+</div>
+<div class="paragraph">
+<p>Finally, coordinating changes across two repositories (<code>metadata-plugin-modernizer</code> for the ETL pipeline and <code>plugin-modernizer-stats</code> for the UI) taught me a lot about planning cross-repo work, writing clear PR descriptions and keeping both sides in sync through regular mentor syncs.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="next-steps"><a class="anchor" href="#next-steps"></a>Next Steps</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>While the core deliverables are complete, the following areas represent the clearest next steps for making the modernization effort more targeted and effective:</p>
+</div>
+<div class="sect2">
+<h3 id="plugin-health-score-page"><a class="anchor" href="#plugin-health-score-page"></a>Plugin Health Score Page</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Goal:</strong> Add a dedicated page that displays a <strong>health score</strong> for each plugin, similar to the existing score on the Jenkins Plugin Index (e.g., <a href="https://plugins.jenkins.io/ansible-tower/healthscore/">ansible-tower health score</a>).</p>
+</li>
+<li>
+<p><strong>Why it matters:</strong> Today, the stats site shows <strong>what happened</strong> during modernization — which recipes ran, which PRs were opened and whether they succeeded. A health score page would show <strong>where a plugin stands overall</strong> — surfacing gaps in documentation, dependencies, security advisories, adoption and other factors that affect maintainability.</p>
+</li>
+<li>
+<p><strong>Expected outcome:</strong> Plugin maintainers and contributors could open a single page, see a plugin&#8217;s health at a glance and immediately understand which modernization recipes would have the highest impact. This turns the stats site from a historical report into a prioritization tool helping the community focus modernization efforts on plugins that need it most.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ai-assisted-plugin-specific-recipe-recommendations"><a class="anchor" href="#ai-assisted-plugin-specific-recipe-recommendations"></a>AI-Assisted, Plugin-Specific Recipe Recommendations</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Goal:</strong> Explore integrating AI technologies to analyze a plugin&#8217;s modernization history and recommend <strong>specific, plugin-level recipes</strong> tailored to that plugin&#8217;s current state.</p>
+</li>
+<li>
+<p><strong>Why it matters:</strong> Not every plugin needs the same set of recipes. Running all 21 recipes blindly is inefficient; some plugins may only need a Java version upgrade, while others need dependency migrations or CI workflow updates. By learning from patterns in the existing metadata (which recipes succeeded, which failed and in what order), an AI-assisted layer could suggest the most relevant next steps for each plugin.</p>
+</li>
+<li>
+<p><strong>Expected outcome:</strong> Instead of a maintainer guessing which recipes to apply, the tool would surface a ranked list of recommended recipes with reasoning, improving the accuracy and effectiveness of the modernization process and reducing failed migration attempts.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="other-enhancements"><a class="anchor" href="#other-enhancements"></a>Other Enhancements</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Add deeper filtering and sorting options on list pages (e.g., filter plugins by tag or recipe).</p>
+</li>
+<li>
+<p>Explore embedding or linking the stats from <a href="https://stats.jenkins.io/">stats.jenkins.io</a> for broader discoverability.</p>
+</li>
+<li>
+<p>Add export options (CSV/JSON) for plugin and recipe reports.</p>
+</li>
+<li>
+<p>Continue expanding test coverage as new features are added and the dataset grows beyond 431 plugins.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="acknowledgements"><a class="anchor" href="#acknowledgements"></a>Acknowledgements</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A huge thank you to my mentors, <a href="/blog/authors/jonesbusy">Valentin Delaye</a>, <a href="/blog/authors/krisstern">Kris Stern</a>, <a href="/blog/authors/sridamul">Sridhar Sivakumar</a> and <a href="/blog/authors/CodexRaunak">Raunak Madan</a>, for their constant support, refining the approach and timely reviews throughout the journey. They conducted sync meetings twice a week, were always reachable on Slack and actively reviewed my pull requests — that made all the difference.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;d also like to thank the organization admins for always checking in and offering help.</p>
+</div>
+<div class="paragraph">
+<p>This project builds on the work started by Sridhar Sivakumar in GSoC 2024, <a href="/projects/gsoc/2024/projects/using-openrewrite-recipes-for-plugin-modernization-or-automation-plugin-build-metadata-updates/">Using OpenRewrite Recipes for Plugin Modernization</a>, and improved by Raunak Madan in GSoC 2025, <a href="/projects/gsoc/2025/projects/plugin-modernizer-improvements/">Improving Plugin Modernizer</a>. I&#8217;m grateful to continue that lineage.</p>
+</div>
+<div class="paragraph">
+<p>Finally, thank you to the Jenkins community for being welcoming and supportive throughout GSoC 2026.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="useful-links"><a class="anchor" href="#useful-links"></a>Useful Links</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="/projects/gsoc/2026/projects/plugin-modernizer-stats-visualization/">Project Page</a></p>
+</li>
+<li>
+<p><a href="https://jenkins-infra.github.io/plugin-modernizer-stats/">Live Demo</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-stats">Source Code (jenkins-infra)</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/metadata-plugin-modernizer">Metadata Repository (data source)</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-tool">Plugin Modernizer Tool</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-stats/pull/55">Plugin Detail Page PR</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-stats/pull/68">Recipe List Page PR</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-stats/pull/77">Recipe Detail Page PR</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jenkins-infra/plugin-modernizer-stats/pull/90">Testing Improvements PR</a></p>
+</li>
+<li>
+<p><a href="/blog/2026/05/23/pratik-mane-gsoc-community-bonding-blog-post/">Community Bonding Blog</a></p>
+</li>
+<li>
+<p><a href="/blog/2026/07/10/pratik-mane-gsoc-midterm-blog-post/">Midterm Blog</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<ul class='app-tags'>
+<li>
+<a class='app-tags__tag' href='/blog/tags/gsoc/'>
+gsoc
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/gsoc2026/'>
+gsoc2026
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/gsoc2026-endterm/'>
+gsoc2026-endterm
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/plugin-modernization/'>
+plugin-modernization
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/data-visualization/'>
+data-visualization
+</a>
+</li>
+</ul>
+<h2>
+About the author
+</h2>
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar app-avatar-image'>
+<img alt='Pratik Mane' class='app-avatar__image' loading='lazy' onload='this.style.opacity = 1' src='/images/avatars/pratikmane0112.png'>
+</div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>
+<a href='/blog/authors/pratikmane0112/'>
+Pratik Mane
+</a>
+</p>
+<div class="paragraph">
+<p>Pratik is a final year student at Vishwakarma Institute of Technology, Pune (India) and currently an intern at Red Hat.
+He began his open-source journey with Jenkins in early Hacktoberfest 2025 contributing to Plugin Modernizer Tool.
+In 2026, he was selected for Google Summer of Code as a contributor to work on the project <a href="/projects/gsoc/2026/projects/plugin-modernizer-stats-visualization/">Plugin Modernizer Stats Visualization</a>.
+In his free time, he enjoys to watch sci-fi movies &amp; web-series.</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/PratikMane0112'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/itsPratik_0112'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/pratik-mane-7940a8249'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+</article>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/blog/2026/08/24/2026-08-24-pratik-mane-gsoc-endterm-blog-post.adoc'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

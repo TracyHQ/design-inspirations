@@ -1,0 +1,104 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "file": "inter-400.woff",
+      "format": "woff",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZs.woff",
+      "bytes": 139540
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "file": "inter-500.woff",
+      "format": "woff",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZs.woff",
+      "bytes": 142940
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "file": "inter-600.woff",
+      "format": "woff",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZs.woff",
+      "bytes": 143564
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "file": "inter-700.woff",
+      "format": "woff",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZs.woff",
+      "bytes": 144052
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "file": "inter-800.woff",
+      "format": "woff",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZs.woff",
+      "bytes": 144216
+    },
+    {
+      "family": "Lato",
+      "weight": "300",
+      "style": "normal",
+      "file": "lato-300.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Medium.ttf",
+      "bytes": 637068
+    },
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "normal",
+      "file": "lato-400.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Regular.ttf",
+      "bytes": 657212
+    },
+    {
+      "family": "Lato",
+      "weight": "500",
+      "style": "normal",
+      "file": "lato-500.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Semibold.ttf",
+      "bytes": 669228
+    },
+    {
+      "family": "Lato",
+      "weight": "600",
+      "style": "normal",
+      "file": "lato-600.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Semibold.ttf",
+      "bytes": 669228
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "normal",
+      "file": "lato-700.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Bold.ttf",
+      "bytes": 657188
+    },
+    {
+      "family": "Lato",
+      "weight": "900",
+      "style": "normal",
+      "file": "lato-900.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://tinhte.vn/static/fonts/Lato/Lato-Heavy.ttf",
+      "bytes": 665420
+    }
+  ]
+}

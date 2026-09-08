@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='OpenChoreo&#39;s external CI integration lets teams keep their Jenkins pipelines, plugin ecosystem, and institutional knowledge, while layering on environment management, self-service workflows, multi-cluster deployment, and observability.' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/blog/2026/09/07/adopt-a-modern-idp-without-replacing-your-ci/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System' name='twitter:title'>
+<meta content='OpenChoreo&#39;s external CI integration lets teams keep their Jenkins pipelines, plugin ecosystem, and institutional knowledge, while layering on environment management, self-service workflows, multi-cluster deployment, and observability.' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/post-images/2026/09/from-jenkins-build-to-production.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/blog/2026/09/07/adopt-a-modern-idp-without-replacing-your-ci/' property='og:url'>
+<meta content='OpenChoreo&#39;s external CI integration lets teams keep their Jenkins pipelines, plugin ecosystem, and institutional knowledge, while layering on environment management, self-service workflows, multi-cluster deployment, and observability.' property='og:description'>
+<meta content='Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System' property='og:site_name'>
+<meta content='/images/post-images/2026/09/from-jenkins-build-to-production.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<style>
+  .videoblock iframe {
+      aspect-ratio: 16 / 9;
+      max-width: 100%;
+      height: auto;
+  }
+</style>
+<script type="text/od-defused-script">
+  window.addEventListener('DOMContentLoaded', function () {
+    for (var i = 1 ; i <= 6 ; i ++) {
+      anchors.add('.app-post-page h' + i);
+    }
+  })
+</script>
+
+<article class='app-container app-post-page'>
+<div class='app-!-display-flex'>
+<a class='app-back-link' href='/blog/'>
+Back to blog
+</a>
+</div>
+<h1>
+Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System
+</h1>
+<div class='post-attrs'>
+<a class="app-author-link" data-user-name="Kris Stern" href="/blog/authors/krisstern/"><div class="app-avatar"><img alt="Kris Stern" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/krisstern.png"></div><span>Kris Stern</span></a><a class="app-author-link" data-user-name="Kavith Lokuhewage" href="/blog/authors/kaviththiranga/"><div class="app-avatar"><img alt="Kavith Lokuhewage" class="app-avatar__image" loading="lazy" onload="this.style.opacity = 1" src="/images/avatars/kaviththiranga.jpg"></div><span>Kavith Lokuhewage</span></a>
+September 7, 2026
+<span>⏱︎ 13 min read</span>
+<div class='app-social-media-buttons__container share-buttons__container'>
+<span>
+Share
+</span>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/intent/tweet?text=Jenkins+%2B+OpenChoreo%3A+Adopt+a+modern+Internal+Developer+Platform+%28IDP%29+Without+Replacing+Your+CI+System&amp;url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F07%2Fadopt-a-modern-idp-without-replacing-your-ci%2F' rel='noreferrer nofollow'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F07%2Fadopt-a-modern-idp-without-replacing-your-ci%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-mastodon' data-tooltip='Mastodon' href='https://mastodon.social/share?text=Jenkins+%2B+OpenChoreo%3A+Adopt+a+modern+Internal+Developer+Platform+%28IDP%29+Without+Replacing+Your+CI+System+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F07%2Fadopt-a-modern-idp-without-replacing-your-ci%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="currentColor"
+    d="M480 173.59c0-104.13-68.26-134.65-68.26-134.65C377.3 23.15 318.2 16.5 256.8 16h-1.51c-61.4.5-120.46 7.15-154.88 22.94 0 0-68.27 30.52-68.27 134.65 0 23.85-.46 52.35.29 82.59C34.91 358 51.11 458.37 145.32 483.29c43.43 11.49 80.73 13.89 110.76 12.24 54.47-3 85-19.42 85-19.42l-1.79-39.5s-38.93 12.27-82.64 10.77c-43.31-1.48-89-4.67-96-57.81a108.44 108.44 0 01-1-14.9 558.91 558.91 0 0096.39 12.85c32.95 1.51 63.84-1.93 95.22-5.67 60.18-7.18 112.58-44.24 119.16-78.09 10.42-53.34 9.58-130.17 9.58-130.17zm-80.54 134.16h-50V185.38c0-25.8-10.86-38.89-32.58-38.89-24 0-36.06 15.53-36.06 46.24v67h-49.66v-67c0-30.71-12-46.24-36.06-46.24-21.72 0-32.58 13.09-32.58 38.89v122.37h-50V181.67q0-38.65 19.75-61.39c13.6-15.15 31.4-22.92 53.51-22.92 25.58 0 44.95 9.82 57.75 29.48L256 147.69l12.45-20.85c12.81-19.66 32.17-29.48 57.75-29.48 22.11 0 39.91 7.77 53.51 22.92q19.79 22.72 19.75 61.39z"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-bluesky' data-tooltip='Bluesky' href='https://bsky.app/intent/compose?text=Jenkins+%2B+OpenChoreo%3A+Adopt+a+modern+Internal+Developer+Platform+%28IDP%29+Without+Replacing+Your+CI+System+https%3A%2F%2Fwww.jenkins.io%2Fblog%2F2026%2F09%2F07%2Fadopt-a-modern-idp-without-replacing-your-ci%2F' rel='noreferrer nofollow'>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 568 501">
+  <path fill="currentColor"
+    d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.21C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.333 453.32c-119.86 122.992-172.272-30.859-185.702-70.281-2.462-7.227-3.614-10.608-3.631-7.733-.017-2.875-1.169.506-3.631 7.733-13.43 39.422-65.842 193.273-185.702 70.281-63.111-64.76-33.89-129.52 80.986-149.071-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.659 0 75.291 0 57.946 0-28.906 76.135-1.612 123.121 33.664Z"></path>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='blog-content'>
+<div class="paragraph">
+<p>Your Jenkins setup represents a decade of institutional knowledge: countless custom pipelines, shared libraries, and specialized build agents.
+Yet when platform engineering enters the conversation, most IDP demos ignore this investment entirely.
+This article is for platform engineers and DevOps leads who run Jenkins at scale and are evaluating an internal developer platform.
+It lays out a different path: add one stage to your pipeline, and keep everything else exactly where it is – along with a clear model of the CI/platform boundary, a Jenkinsfile stage you can copy directly, and an honest account of what the trade costs.</p>
+</div>
+<div class="paragraph">
+<p>The most common misconception about platform engineering is that adopting an IDP means throwing away your CI tooling.
+It doesn’t have to.
+Here is where OpenChoreo can help with your workflow without altering your CI habits.
+OpenChoreo&#8217;s external CI integration lets teams keep their Jenkins pipelines, plugin ecosystem, and institutional knowledge, while layering on environment management, self-service workflows, multi-cluster deployment, and observability – all via a single API call at the end of the build stage.</p>
+</div>
+<div class="sect1">
+<h2 id="the-argument"><a class="anchor" href="#the-argument"></a>The Argument</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CI is a core part of the platform experience.
+But the real question is whether the platform should be tightly coupled to one specific CI implementation, and the answer is no.
+With the right abstraction at the integration point, teams keep Jenkins or run something else entirely, and the developer experience the platform delivers stays the same.</p>
+</div>
+<div class="paragraph">
+<p>To do its job, the platform doesn&#8217;t need your build graph, your test matrix, or your pipeline DSL.
+It needs exactly one fact: <em>this image, for this component, is ready.</em></p>
+</div>
+<div class="paragraph">
+<p>Everything before that fact is CI implementation, that’s Jenkins&#8217;s half of the experience, and it stays exactly as it is.
+Everything after it is the platform&#8217;s half.
+From there, "adopt an IDP" no longer means "replace your CI".
+It means only one thing: add one stage to your pipeline.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-jenkins-teams-fear-and-why"><a class="anchor" href="#what-jenkins-teams-fear-and-why"></a>What Jenkins Teams Fear (and Why)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The concern is real: when a platform team standardises on an IDP, what the Jenkins user hears is that hundreds of pipelines, the shared libraries, agents, etc. that took a long time to design and implement, are about to be thrown away.</p>
+</div>
+<div class="paragraph">
+<p>That fear comes from how these platforms are usually demoed.
+Almost every IDP demo starts at <code>git push</code> and ends at "running in production", which puts CI inside the platform the entire length of the demo.
+That&#8217;s an accurate description of the experience for a team starting from scratch using the platform&#8217;s built-in CI.
+It is not, however, an architectural requirement of the platform.
+The two systems can be decoupled, and establishing that decoupling is the core focus of this article.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="the-boundary"><a class="anchor" href="#the-boundary"></a>The Boundary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>So if the platform does not take over CI, where exactly does CI end and the platform begin?
+Here is the split.</p>
+</div>
+<div class="paragraph">
+<p>One artifact reference crosses the boundary.
+That is the whole contract.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/09/from-jenkins-build-to-production.png" alt="The Jenkins pipeline builds and tests, pushes the image to a container registry, and registers or updates a Workload in the OpenChoreo control plane. OpenChoreo auto deploys it to Development, and it is then promoted to Staging and Production.">
+</div>
+<div class="title">Figure 1. From Jenkins build to Production</div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">What stays in Jenkins</th>
+<th class="tableblock halign-left valign-top">What moves to the platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SCM triggers, build agents, shared libraries</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Environments and promotion</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Test orchestration, the plugin ecosystem</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Per-environment config and secrets</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Build credentials, pre-build approvals</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multi-cluster placement</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Build provenance and logs</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Runtime observability, self-service catalog</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The line sits here because the two columns change at different speeds, have different owners, and fail in different ways.
+Build logic changes per team, per language, per repo.
+Environments and promotion policy change per organisation.
+Bundling the two together is what makes platform adoption feel like a CI migration.
+Keep them separate, and it never has to be one.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="the-stage-you-need-to-add"><a class="anchor" href="#the-stage-you-need-to-add"></a>The stage you need to add</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://openchoreo.dev/">OpenChoreo</a> is an open-source internal developer platform that runs on Kubernetes.
+It owns the right-hand column of the table above: environments and promotion, per-environment configuration and secrets, multi-cluster placement, and a self-service portal with runtime observability, a layer your platform team operates over your clusters.
+The unit it deploys is a Workload: a small record naming a component and the image that should run for it.
+Registering that Workload from your pipeline is the entire integration, and the pattern applies to any platform with a similar API.</p>
+</div>
+<div class="paragraph">
+<p>If your pipeline already builds and pushes an image, the diff is small: get a token, then register the workload.
+Here’s what that looks like with OpenChoreo as the platform.</p>
+</div>
+<div class="sect2">
+<h3 id="one-time-setup"><a class="anchor" href="#one-time-setup"></a>One-time setup</h3>
+<div class="paragraph">
+<p>On the platform side, create a service account – an OAuth2 client with the <code>client_credentials</code> grant, scoped so it can only register workloads.</p>
+</div>
+<div class="paragraph">
+<p>If you are following the <a href="https://openchoreo.dev/docs/getting-started/quick-start-guide/">quick start</a>, that account already exists. The installer registers a <strong>Workload Publisher</strong> client in the bundled Thunder identity provider and binds it to a <code>workload-publisher</code> role. The defaults are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Value</th>
+<th class="tableblock halign-left valign-top">Default on a quick-start install</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Thunder token endpoint</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="http://thunder.openchoreo.localhost:8080/oauth2/token" class="bare">http://thunder.openchoreo.localhost:8080/oauth2/token</a></code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OpenChoreo API</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="http://api.openchoreo.localhost:8080" class="bare">http://api.openchoreo.localhost:8080</a></code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Client ID</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>openchoreo-workload-publisher-client</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Client secret</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>openchoreo-workload-publisher-secret</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Confirm it works before wiring up Jenkins — this should return an access token:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight nowrap"><code data-lang="shell">curl <span class="nt">-X</span> POST <span class="s2">"http://thunder.openchoreo.localhost:8080/oauth2/token"</span> <span class="se">\</span>
+  <span class="nt">--data-urlencode</span> <span class="s2">"grant_type=client_credentials"</span> <span class="se">\</span>
+  <span class="nt">--data-urlencode</span> <span class="s2">"client_id=openchoreo-workload-publisher-client"</span> <span class="se">\</span>
+  <span class="nt">--data-urlencode</span> <span class="s2">"client_secret=openchoreo-workload-publisher-secret"</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This is a shared development credential — it is the same account OpenChoreo&#8217;s own in-cluster build workflow authenticates as — so it is fine for a local trial and nothing more. For anything shared, create your own client in the Thunder console (<code><a href="http://thunder.openchoreo.localhost:8080/console" class="bare">http://thunder.openchoreo.localhost:8080/console</a></code>, <code>admin</code> / <code>admin</code>) as a <strong>Backend Service</strong> application, then bind it to a role with a <code>ClusterAuthzRoleBinding</code>: the shipped binding matches the default client&#8217;s <code>sub</code> claim, so a new client inherits nothing. The <a href="https://openchoreo.dev/docs/platform-engineer-guide/workflows/workflow-workload-configuration/">Workload Publishing Credentials</a> guide covers that setup, and <a href="https://openchoreo.dev/docs/platform-engineer-guide/authorization/">Authorization</a> lists the shipped roles and bindings.</p>
+</div>
+<div class="paragraph">
+<p>Then store three values as ordinary Jenkins credentials:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>workflows-credentials</code> — the client ID and secret</p>
+</li>
+<li>
+<p><code>thunder-url</code> — the token endpoint of the identity provider (Thunder ships with OpenChoreo, but any OAuth2 IDP works)</p>
+</li>
+<li>
+<p><code>openchoreo-api-url</code> — the platform API URL</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The <a href="https://openchoreo.dev/docs/platform-engineer-guide/workflows/external-ci/">external-CI docs</a> cover this step by step; we&#8217;ll walk through the complete setup in the next post in this series.</p>
+</div>
+<div class="paragraph">
+<p>Worth knowing before you file the security review: the service account’s <code>workload-publisher</code> role grants exactly <code>workload:create</code>, <code>workload:update</code>, <code>workload:view</code>, <code>workflowrun:view</code>, and <code>workflowrun:update</code> and nothing else.
+The two <code>workflowrun</code> actions are there for OpenChoreo&#8217;s built-in build workflow, which annotates its own run - an external pipeline never needs them, so a dedicated client can be bound to a workload-only role.
+If the Jenkins credential ever leaks, the blast radius is "can register an image for this component’s workload".
+It cannot promote anything, touch environment configuration, or reach the clusters.
+We verified this the direct way: the same token that had just registered our workload got an HTTP 403 when it tried to create a staging release binding.</p>
+</div>
+<div class="paragraph">
+<p>The stage below isn’t pseudocode: it ran on a real Jenkins (2.541.1) against a live OpenChoreo cluster, twice in a row, so the second build exercises the update path.
+<code>NAMESPACE</code>, <code>PROJECT</code>, <code>COMPONENT</code>, and <code>IMAGE</code> come from the surrounding pipeline; the credentials are standard Jenkins credentials.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight nowrap"><code data-lang="groovy"><span class="n">stage</span><span class="o">(</span><span class="s1">'Register workload with OpenChoreo'</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">steps</span> <span class="o">{</span>
+        <span class="n">withCredentials</span><span class="o">([</span>
+            <span class="n">usernamePassword</span><span class="o">(</span>
+                <span class="nl">credentialsId:</span> <span class="s1">'workflows-credentials'</span><span class="o">,</span>
+                <span class="nl">usernameVariable:</span> <span class="s1">'CLIENT_ID'</span><span class="o">,</span>
+                <span class="nl">passwordVariable:</span> <span class="s1">'CLIENT_SECRET'</span>
+            <span class="o">),</span>
+            <span class="n">string</span><span class="o">(</span><span class="nl">credentialsId:</span> <span class="s1">'thunder-url'</span><span class="o">,</span> <span class="nl">variable:</span> <span class="s1">'THUNDER_URL'</span><span class="o">),</span>
+            <span class="n">string</span><span class="o">(</span><span class="nl">credentialsId:</span> <span class="s1">'openchoreo-api-url'</span><span class="o">,</span> <span class="nl">variable:</span> <span class="s1">'OPENCHOREO_API_URL'</span><span class="o">)</span>
+        <span class="o">])</span> <span class="o">{</span>
+            <span class="n">sh</span> <span class="s1">'''
+                set -eu
+
+                # Jenkins masks the credentials it injected, but NOT the token
+                # derived from them -- keep it out of the build log.
+                set +x
+
+                # 1. Exchange client credentials for an access token.
+                TOKEN=$(curl -sf -X POST "${THUNDER_URL}/oauth2/token" \
+                  -d "grant_type=client_credentials" \
+                  -d "client_id=${CLIENT_ID}" \
+                  -d "client_secret=${CLIENT_SECRET}" \
+                  | jq -r '.access_token')
+
+                # 2. Build the Workload payload.
+                WORKLOAD_NAME="${COMPONENT}-workload"
+                cat &gt; workload-cr.json &lt;&lt;EOF
+{
+  "metadata": { "name": "${WORKLOAD_NAME}", "namespace": "${NAMESPACE}" },
+  "spec": {
+    "owner": { "projectName": "${PROJECT}", "componentName": "${COMPONENT}" },
+    "container": { "image": "${IMAGE}" }
+  }
+}
+EOF
+
+                # 3. Create the Workload; on HTTP 409 fall back to PUT.
+                #    The first build creates it; every build after that updates it.
+                CODE=$(curl -s -o resp.json -w '%{http_code}' -X POST \
+                  "${OPENCHOREO_API_URL}/api/v1/namespaces/${NAMESPACE}/workloads" \
+                  -H "Authorization: Bearer ${TOKEN}" \
+                  -H "Content-Type: application/json" \
+                  -d @workload-cr.json)
+
+                if [ "${CODE}" = "409" ]; then
+                  curl -sf -X PUT \
+                    "${OPENCHOREO_API_URL}/api/v1/namespaces/${NAMESPACE}/workloads/${WORKLOAD_NAME}" \
+                    -H "Authorization: Bearer ${TOKEN}" \
+                    -H "Content-Type: application/json" \
+                    -d @workload-cr.json -o resp.json
+                elif [ "${CODE}" -lt 200 ] || [ "${CODE}" -ge 300 ]; then
+                  echo "Workload registration failed (HTTP ${CODE}):"
+                  cat resp.json
+                  exit 1
+                fi
+            '''</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="using-the-openchoreo-cli"><a class="anchor" href="#using-the-openchoreo-cli"></a>Using the OpenChoreo CLI</h3>
+<div class="paragraph">
+<p>Alternatively, the OpenChoreo CLI (<code>occ</code>) completes registration in five commands.
+<code>occ apply</code> checks whether the workload exists and creates or updates it, so the 409 fallback disappears; API errors come back as readable messages with a non-zero exit code, so no <code>jq</code> is needed; and the CLI reads its credentials from environment variables and never prints the token, so the <code>set +x</code> guard is unnecessary.
+This sequence was verified on the same Jenkins instance:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight nowrap"><code data-lang="shell"><span class="nb">export </span><span class="nv">HOME</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">WORKSPACE</span><span class="k">}</span><span class="s2">"</span>   <span class="c"># occ stores its login under ${HOME}/.openchoreo</span>
+occ config controlplane update default <span class="nt">--url</span> <span class="s2">"</span><span class="k">${</span><span class="nv">OPENCHOREO_API_URL</span><span class="k">}</span><span class="s2">"</span>
+occ login <span class="nt">--client-credentials</span>   <span class="c"># reads OCC_CLIENT_ID / OCC_CLIENT_SECRET</span>
+occ workload create <span class="nt">--descriptor</span> workload.yaml <span class="se">\</span>
+  <span class="nt">-n</span> <span class="s2">"</span><span class="k">${</span><span class="nv">NAMESPACE</span><span class="k">}</span><span class="s2">"</span> <span class="nt">-p</span> <span class="s2">"</span><span class="k">${</span><span class="nv">PROJECT</span><span class="k">}</span><span class="s2">"</span> <span class="nt">-c</span> <span class="s2">"</span><span class="k">${</span><span class="nv">COMPONENT</span><span class="k">}</span><span class="s2">"</span> <span class="se">\</span>
+  <span class="nt">--image</span> <span class="s2">"</span><span class="k">${</span><span class="nv">IMAGE</span><span class="k">}</span><span class="s2">"</span> <span class="nt">-o</span> workload-cr.yaml
+occ apply <span class="nt">-f</span> workload-cr.yaml</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Notice what the stage does not contain: the environment names, <code>kubectl</code>, cluster credentials, manifests, and promotion logic.
+The pipeline does not need to know how many environments exist.</p>
+</div>
+<div class="paragraph">
+<p>At the scale this post’s audience runs - hundreds of pipelines - you wouldn’t paste this stage into each Jenkinsfile by hand.
+Wrap it as a step in your global shared library, and the per-pipeline diff shrinks to one line, something like <code>openchoreoRegister(image: env.IMAGE)</code>.
+Rolling the integration out, or changing it later, becomes a library release instead of a hundred pipeline edits.
+We’re leaving the wrapper itself as packaging; the API call inside it is exactly the stage above.
+The point is that Jenkins already has the distribution mechanism for this, and it is one your team uses today.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-you-get-back"><a class="anchor" href="#what-you-get-back"></a>What you get back</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The exact image Jenkins built, promoted unchanged through development → staging → production.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/post-images/2026/09/openchoreo-component-deployment-view.png" alt="The Deploy tab of the OpenChoreo Backstage portal showing the jenkins-greeter component active in Development, Staging, and Production, each marked as promoted.">
+</div>
+<div class="title">Figure 2. Component Deployment View in OpenChoreo Backstage Portal.</div>
+</div>
+<div class="paragraph">
+<p>Promotion becomes a platform-level operation rather than a pipeline stage.
+Engineers or release managers promote components through the UI portal or via a single CLI command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight nowrap"><code data-lang="shell">occ component deploy &lt;component&gt; <span class="nt">--to</span> staging</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The exact build Jenkins produced was promoted through all three environments and served the same content in each, with Jenkins uninvolved after the registration call.</p>
+</div>
+<div class="paragraph">
+<p>Build-once, promote-many works because the line sits where it does: promotion has its own access control and doesn’t inherit from Jenkins.
+Deploy the pipeline to each environment directly instead, and you&#8217;re left with two options: rebuild per environment, or teach Jenkins your organization&#8217;s entire promotion policy.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="the-trade-offs"><a class="anchor" href="#the-trade-offs"></a>The Trade-Offs</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Access and Security:</strong> Jenkins requires a service account and network access to the platform API, introducing a new credential to manage and an additional dependency in the build path.</p>
+</li>
+<li>
+<p><strong>Shift in Deployment State:</strong> Operational state shifts away from the pipeline. For teams accustomed to viewing "the Jenkins job as the deploy," this represents a structural shift in workflow tracking.</p>
+</li>
+<li>
+<p><strong>Rollback Mechanics:</strong> Re-running a Jenkins job builds and registers a new artifact. Rollbacks are executed as platform actions targeting previously validated releases.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The migration is incremental by design: one component, one extra stage, one pipeline you don&#8217;t otherwise touch.
+Nothing about it is a cutover.
+By decoupling the build from the deployment, you gain the benefits of a modern platform without the friction of a forced migration, proving that progress can be achieved through evolution rather than revolution.</p>
+</div>
+<div class="paragraph">
+<p>If you want to try this yourself, the <a href="https://openchoreo.dev/docs/getting-started/quick-start-guide/">OpenChoreo quick start</a> gives you a local cluster with the three environments used above.
+In the next post in this series, we will walk through the complete setup end to end — the service account, the credentials, the component, and surfacing Jenkins build status inside the portal.</p>
+</div>
+<div class="paragraph">
+<p>Links:</p>
+</div>
+<div class="paragraph">
+<p>OpenChoreo Repository: <a href="https://github.com/openchoreo/openchoreo" class="bare">https://github.com/openchoreo/openchoreo</a></p>
+</div>
+<div class="paragraph">
+<p>OpenChoreo external-CI integration docs: <a href="https://openchoreo.dev/docs/platform-engineer-guide/workflows/external-ci" class="bare">https://openchoreo.dev/docs/platform-engineer-guide/workflows/external-ci</a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class='app-tags'>
+<li>
+<a class='app-tags__tag' href='/blog/tags/pipeline/'>
+pipeline
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/kubernetes/'>
+kubernetes
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/devops/'>
+devops
+</a>
+</li>
+<li>
+<a class='app-tags__tag' href='/blog/tags/cloud-native/'>
+cloud-native
+</a>
+</li>
+</ul>
+<h2>
+About the authors
+</h2>
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar app-avatar-image'>
+<img alt='Kris Stern' class='app-avatar__image' loading='lazy' onload='this.style.opacity = 1' src='/images/avatars/krisstern.png'>
+</div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>
+<a href='/blog/authors/krisstern/'>
+Kris Stern
+</a>
+</p>
+<div class="paragraph">
+<p>Kris has been an org admin for Jenkins' GSoC program since 2022 and is also a GSoC project mentor. She has participated in GSoC twice as a contributor/student previously in 2019 and 2020, and has been trained academically as an astrophysicist with a PhD in the discipline of observational astronomy obtained from the University of Hong Kong in 2021. She also obtained the MCIT degree from UPenn in 2026. Professionally, Kris works in the IT sector as a software engineer. She has work experiences in Python, C++, Java, JavaScript, TypeScript, HTML, CSS/Sass, JQuery, SQL, and has completed projects in software development in general and specifically in artificial intelligence/deep learning/computer vision, Qt programming, and web development. Kris is passionate about open-source and would like to share this passion with fellow learners.</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button' data-tooltip='Documentation Lead' href='/sigs/docs/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/musketeer/musketeer.png&quot;)'>
+<img src='/images/logos/musketeer/musketeer.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Google Summer of Code Lead' href='/sigs/gsoc/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/gsoc/jenkins-gsoc-transparent.png&quot;)'>
+<img src='/images/gsoc/jenkins-gsoc-transparent.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Advocacy and Outreach Participant' href='/sigs/advocacy-and-outreach/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/chatterbox/chatterbox.png&quot;)'>
+<img src='/images/logos/chatterbox/chatterbox.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+<li>
+<a class='app-button' data-tooltip='Platform Participant' href='/sigs/platform/'>
+<div class='app-sigs__item__icon' style='--background: url(&quot;/images/logos/formal/256.png&quot;)'>
+<img src='/images/logos/formal/256.png' title='Logo' width='96'>
+</div>
+</a>
+</li>
+</ul>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/krisstern'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/krisstern13'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/kris-stern'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class='app-author' id='about-the-author'>
+<div class='app-avatar app-avatar-image'>
+<img alt='Kavith Lokuhewage' class='app-avatar__image' loading='lazy' onload='this.style.opacity = 1' src='/images/avatars/kaviththiranga.jpg'>
+</div>
+
+<div class='app-author__content'>
+<p class='app-author__name'>
+<a href='/blog/authors/kaviththiranga/'>
+Kavith Lokuhewage
+</a>
+</p>
+<div class="paragraph">
+<p>Kavith Lokuhewage is a maintainer of <a href="https://openchoreo.dev/">OpenChoreo</a>, an open-source internal developer platform, where he leads development of its Backstage-based portal with a focus on simplifying platform and developer experiences. He is an Associate Director and Architect at WSO2 with nearly 13 years of experience building developer tools and portals — from Eclipse-based tooling, through the move to VS Code, to developer tooling for the Ballerina language (Low Code editor, Data Mapper, IDE extensions, and Language Server) and leading the Choreo SaaS portal team.</p>
+</div>
+<div class='app-social-media-buttons__container'>
+<ul class='app-social-media-buttons'>
+<li>
+<a class='app-button app-social-media-button-github' data-tooltip='GitHub' href='https://github.com/kaviththiranga'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" fill="currentColor" /></svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-x' data-tooltip='𝕏 (formerly Twitter)' href='https://twitter.com/KavithThiranga'>
+<svg width="300" height="271" viewBox="0 0 300 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M236 0H282L181 115L299 271H206.4L133.9 176.2L50.8999 271H4.8999L111.9 148L-1.1001 0H93.7999L159.3 86.6L236 0ZM219.9 244H245.4L80.3999 26H52.9999L219.9 244Z"
+          fill="currentColor"/>
+</svg>
+
+</a>
+</li>
+<li>
+<a class='app-button app-social-media-button-linkedin' data-tooltip='LinkedIn' href='https://www.linkedin.com/in/kaviththiranga'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" fill="currentColor" /></svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+</article>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/blog/2026/09/2026-09-07-adopt-a-modern-idp-without-replacing-your-ci.adoc'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

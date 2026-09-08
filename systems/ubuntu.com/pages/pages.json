@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://ubuntu.com/",
+  "crawledAt": "2026-09-07T23:53:18.573Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://ubuntu.com/",
+      "file": "pages/01-home.html",
+      "title": "Enterprise Open Source and Linux | Ubuntu",
+      "h1": "A CTO's guide to real-time Linux",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/search",
+      "file": "pages/02-search.html",
+      "title": "Search results | Ubuntu",
+      "h1": "Search Ubuntu and Canonical sites",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/navigation",
+      "file": "pages/03-navigation.html",
+      "title": "Navigation | Ubuntu",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/download",
+      "file": "pages/04-download.html",
+      "title": "Get Ubuntu | Download | Ubuntu",
+      "h1": "Download Ubuntu",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/blog/canonical-releases-ubuntu-26-04-lts-resolute-raccoon",
+      "file": "pages/05-blog-canonical-releases-ubuntu-26-04-lts.html",
+      "title": "Canonical releases Ubuntu 26.04 LTS Resolute Raccoon | Ubuntu",
+      "h1": "Canonical releases Ubuntu 26.04 LTS Resolute Raccoon",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/pro",
+      "file": "pages/06-pro.html",
+      "title": "Ubuntu Pro | Ubuntu",
+      "h1": "Ubuntu Pro",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/pro/free-trial",
+      "file": "pages/07-pro-free-trial.html",
+      "title": "Ubuntu Pro Free trial | Ubuntu",
+      "h1": "Ubuntu Pro Free Trial",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/blog",
+      "file": "pages/08-blog.html",
+      "title": "Ubuntu Blog | Ubuntu",
+      "h1": "Ubuntu tech blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/engage/adopting-secure-enterprise-linux-desktop",
+      "file": "pages/09-engage-adopting-secure-enterprise-linux-.html",
+      "title": "Adopting a secure enterprise Linux desktop | Ubuntu",
+      "h1": "Adopting a secure enterprise Linux desktop",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/ai",
+      "file": "pages/10-ai.html",
+      "title": "Open source AI | Ubuntu",
+      "h1": "Take your models to production with open source AI",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/security/security-standards",
+      "file": "pages/11-security-security-standards.html",
+      "title": "Security standards | Ubuntu",
+      "h1": "Security standards",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/livepatch",
+      "file": "pages/12-security-livepatch.html",
+      "title": "Livepatch | Security | Ubuntu",
+      "h1": "Linux Kernel Livepatch",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/esm",
+      "file": "pages/13-security-esm.html",
+      "title": "Ubuntu Expanded Security Maintenance | Security | Ubuntu",
+      "h1": "Expanded Security Maintenance for Ubuntu and open source",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/security",
+      "file": "pages/14-security.html",
+      "title": "Ubuntu Security | Ubuntu",
+      "h1": "Ubuntu security",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/support",
+      "file": "pages/15-support.html",
+      "title": "Open source support with enterprise-grade SLAs | Ubuntu",
+      "h1": "Open source support with enterprise-grade SLAs",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/managed-infrastructure",
+      "file": "pages/16-managed-infrastructure.html",
+      "title": "Canonical Managed Infrastructure | Ubuntu",
+      "h1": "Managed infrastructure you can rely on",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/cloud/public-cloud",
+      "file": "pages/17-cloud-public-cloud.html",
+      "title": "Ubuntu on Public Clouds | Ubuntu",
+      "h1": "Ubuntu on public clouds",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/download/server",
+      "file": "pages/18-download-server.html",
+      "title": "Get Ubuntu Server | Download | Ubuntu",
+      "h1": "Get Ubuntu Server",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/appliance",
+      "file": "pages/19-appliance.html",
+      "title": "Ubuntu Appliance | Ubuntu",
+      "h1": "Find your favorite Ubuntu Appliance",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://ubuntu.com/about/release-cycle",
+      "file": "pages/20-about-release-cycle.html",
+      "title": "Ubuntu release cycle | Ubuntu",
+      "h1": "Know what's supported",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Debian -- News -- Updated Debian 12: 12.15 released </title>
+  <link rel="author" href="mailto:webmaster@debian.org">
+  <meta name="Generator" content="WML 2.32.0">
+  <meta name="Modified" content="2026-08-07 11:29:36">
+  <meta name="viewport" content="width=device-width">
+  <meta name="mobileoptimized" content="300">
+  <meta name="HandheldFriendly" content="true">
+<link href="../../debian.css" rel="stylesheet" type="text/css">
+  <link href="../../debian-en.css" rel="stylesheet" type="text/css" media="all">
+<link rel="search" type="application/opensearchdescription+xml" title="Debian website search" href="../../search.en.xml">
+</head>
+<body>
+<div id="header">
+  <div id="upperheader">
+    <div id="logo">
+    <a href="../../" title="Debian Home"><img src="../../Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a>
+    </div> <!-- end logo -->
+    <div id="searchbox">
+      <form name="p" method="get" action="https://search.debian.org/cgi-bin/omega">
+      <p>
+<input type="hidden" name="DB" value="en">
+        <input name="P" value="" size="14">
+        <input type="submit" value="Search">
+      </p>
+      </form>
+    </div>   <!-- end sitetools -->
+  </div> <!-- end upperheader -->
+  <!--UdmComment-->
+  <div id="navbar">
+    <p class="hidecss"><a href="#content">Skip Quicknav</a></p>
+    <ul>
+      <!-- Link to Debian's own Social Media resources -->
+      <li><a href="https://bits.debian.org/" title="Bits from Debian">Blog</a></li>
+      <li><a href="https://micronews.debian.org" title="Micronews from Debian">Micronews</a></li>
+      <li><a href="https://planet.debian.org/" title="The Planet of Debian">Planet</a></li>
+      <li><a href="https://wiki.debian.org/" title="The Debian Wiki">Wiki</a></li>
+    </ul>
+  </div> <!-- end navbar -->
+<p id="breadcrumbs"><a href="./../">Latest News</a>
+ &#x2F; <a href="./">News from 2026</a>
+ &#x2F;
+News -- Updated Debian 12: 12.15 released</p>
+</div> <!-- end header -->
+<!--/UdmComment-->
+<div id="content">
+<h1>Updated Debian 12: 12.15 released</h1>
+<p><strong>July 11th, 2026</strong></p>
+<p>The Debian project is pleased to announce the fifteenth and final update of its
+oldstable distribution Debian 12 (codename <q>bookworm</q>).
+This point release mainly adds corrections for security issues,
+along with a few adjustments for serious problems. Security advisories
+have already been published separately and are referenced where available.</p>
+<p>Please note that the point release does not constitute a new version of Debian
+12 but only updates some of the packages included. There is
+no need to throw away old <q>bookworm</q> media. After installation,
+packages can be upgraded to the current versions using an up-to-date Debian
+mirror.</p>
+<p>Those who frequently install updates from security.debian.org won't have
+to update many packages, and most such updates are
+included in the point release.</p>
+<p>New installation images will be available soon at the regular locations.</p>
+<p>Upgrading an existing installation to this revision can be achieved by
+pointing the package management system at one of Debian's many HTTP mirrors.
+A comprehensive list of mirrors is available at:</p>
+<div class="center">
+  <a href="../../mirror/list">https://www.debian.org/mirror/list</a>
+</div>
+<h2>Noteworthy updates</h2>
+<h3><q>fwupd</q> and Secure Boot CA expiry</h3>
+<p><q>fwupd</q> has been updated to upstream version 2.0.20, which has the ability
+to update the Secure Boot certificate authority (CA), Key Exchange Key (KEK)
+and revocation (DBX) databases.</p>
+<p>The 2013 UEFI Secure Boot CA installed by default on most PCs and
+used to sign bootloaders has now expired. Future updates to <q>shim-signed</q>
+could therefore lead to systems being unable to boot with Secure Boot enabled.</p>
+<p>Users are strongly advised to apply <q>CA</q>, <q>KEK</q> and <q>DBX</q> updates
+from their system OEM in line with the following guidance:</p>
+<div class="center">
+  <a
+  href="https://wiki.debian.org/SecureBoot/CAChanges#What_should_I_do.3F">
+     https://wiki.debian.org/SecureBoot/CAChanges#What_should_I_do.3F
+  </a>
+</div>
+<h3><q>geoip-database</q> reverted</h3>
+<p>For licensing reasons <q>geoip-database</q> has been reverted to a version
+dated approximately December 2019. As a result, applications using this database
+might use out-of-date allocation information.</p>
+<p>More recent versions of <q>geoip-database</q> (GeoLite)
+are not compatible with the Debian Free Software Guidelines and cannot be
+distributed.</p>
+<p>Consumers of this data are strongly encouraged to obtain a GeoLite license
+directly and cease reliance on the <q>geoip-database</q> package.</p>
+<h3>End of Debian support for <q>bookworm</q></h3>
+<p>This update marks the end of Debian Release Team, Debian Security Team
+and Debian Backports support for version 12. Ongoing support for some
+architectures will be provided by the Debian Long Term Support team supported
+by Freexian. Users are advised to upgrade systems to Debian 13 <q>trixie</q>.</p>
+<h2>Miscellaneous Bugfixes</h2>
+<p>This oldstable update adds a few important corrections to the following packages:</p>
+<table border="0" summary="">
+<tr><th>Package</th>               <th>Reason</th></tr>
+    <tr><td><a href="https://packages.debian.org/src:7zip">7zip</a></td>              <td>New upstream stable release; fix buffer overflow issues [CVE-2026-48092 CVE-2026-48095]; fix memory disclosure issue [CVE-2026-48101]; fix out-of-bounds read issues [CVE-2026-48102 CVE-2026-48103 CVE-2026-48111 CVE-2026-48112]; fix uninitialised memory read issue [CVE-2026-48104]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:apache2">apache2</a></td>              <td>Fix HTTP/2 request DoS and file handle exhaustion [CVE-2026-49975 CVE-2026-48913]; fix proxy, DAV, LDAP, SSL, XML and header memory/crash issues [CVE-2026-29167 CVE-2026-34355 CVE-2026-34356 CVE-2026-42535 CVE-2026-42536 CVE-2026-43951 CVE-2026-44185]; fix proxy FTP directory listing XSS and backend loop [CVE-2026-29170 CVE-2026-44186]; restrict htaccess expression file access [CVE-2026-44119]; fix regex parsing underflow [CVE-2026-44631]; correct SSI, file-cache, WebDAV DELETE and proxy health-check handling; update documentation and tests</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:appstream">appstream</a></td>              <td>Rebuild with updated libxmlb</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:base-files">base-files</a></td>              <td>Update for the point release</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:beets">beets</a></td>              <td>Fix XSS vulnerability [CVE-2026-42052]; fix build-time test failures</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:calibre">calibre</a></td>              <td>Fix various potential security issues; read resources only from book contents [CVE-2026-33206]; keep extracted files within container dir [CVE-2026-30853]; prevent reading background images from outside the config dir [CVE-2026-33205]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:cdebootstrap">cdebootstrap</a></td>              <td>Rebuild with updated xz-utils</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:chrony">chrony</a></td>              <td>Ensure if-up/down hook scripts exit successfully</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:cloud-init">cloud-init</a></td>              <td>Fix OpenStack bond initialisation</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:composer">composer</a></td>              <td>Fix support for new GitHub token format [CVE-2026-45793]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:curl">curl</a></td>              <td>Fix cache poisoning issue [CVE-2025-10148]; fix data leak issues [CVE-2025-14524 CVE-2026-3783]; fix incorrect connection re-use issues [CVE-2025-14819 CVE-2026-3784 CVE-2026-5773 CVE-2026-7168]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:dar">dar</a></td>              <td>Rebuild with updated libgcrypt20</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:dcmtk">dcmtk</a></td>              <td>Fix NULL pointer dereference issues [CVE-2022-4981 CVE-2025-14841]; fix memory corruption issues [CVE-2025-2357 CVE-2025-9732 CVE-2025-14607]; fix command injection issue [CVE-2026-5663]; fix buffer overflow issues [CVE-2026-10194 CVE-2026-12805]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:debian-installer">debian-installer</a></td>              <td>Bump linux ABI 6.1.0-50; rebuild for point release</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:debian-installer-netboot-images">debian-installer-netboot-images</a></td>              <td>Rebuild from proposed updates</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:debian-security-support">debian-security-support</a></td>              <td>Prepare support limitations ahead of transition to LTS</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:delve">delve</a></td>              <td>Fix failure to build on 4th generation EYPC processors</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:dhcpcd5">dhcpcd5</a></td>              <td>Fix NULL pointer dereference issue [CVE-2025-70102]; fix out-of-bounds write issue [CVE-2026-56114]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:firewalld">firewalld</a></td>              <td>Fix DBUS policy checking [CVE-2026-4948]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:fwupd">fwupd</a></td>              <td>Rebuild with updated libjcat, libxmlb; add support for updating DBX and KEK stores; rebuild in a clean environment</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:geoip-database">geoip-database</a></td>              <td>Revert to a DFSG-compatible version</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:ghdl">ghdl</a></td>              <td>Rebuild with updated gcc-12</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:giflib">giflib</a></td>              <td>Fix memory corruption issues [CVE-2026-23868 CVE-2026-26740]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:gnome-firmware">gnome-firmware</a></td>              <td>Rebuild with updated libxmlb; backport patch for libfwupd3 compatibility</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:gnome-software">gnome-software</a></td>              <td>Rebuild with updated libxmlb; backport patch for libfwupd3 compatibility</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:graphite2">graphite2</a></td>              <td>Fix out-of-bounds write [CVE-2026-50593]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:gss">gss</a></td>              <td>Fix build failures caused by an expired Kerberos ticket; avoid krb5context self-tests with timebomb</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:horizon">horizon</a></td>              <td>Fix escaping of special characters in project</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:ironic">ironic</a></td>              <td>Fix file disclosure via image sources [CVE-2025-44021]; fix console command injection [CVE-2026-42510]; fix Swift token disclosure [CVE-2026-42997]; fix unsafe template execution [CVE-2026-44916]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:keystone">keystone</a></td>              <td>Fix behaviour of user_enabled_invert [CVE-2026-40683]; prevent unauthorized EC2 credential creation and deletion [CVE-2026-33551]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libapache-session-browseable-perl">libapache-session-browseable-perl</a></td>              <td>Improve entropy of generated session IDs</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libbytes-random-secure-perl">libbytes-random-secure-perl</a></td>              <td>Fix incorrect usage of seed in PRNG [CVE-2026-11625]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libcaca">libcaca</a></td>              <td>Prevent undefined behaviour in overflow check [CVE-2026-42046]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libcrypt-pbkdf2-perl">libcrypt-pbkdf2-perl</a></td>              <td>Change default hash algorithm to HMAC-SHA256 and default iterations to 600,000 [CVE-2026-9641]; generate salts using Crypt::URandom [CVE-2026-9638]; use a constant-time comparison in `validate` to avoid timing attacks [CVE-2017-20240]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libhtml-gumbo-perl">libhtml-gumbo-perl</a></td>              <td>Fix uninitialized memory access [CVE-2025-15646]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libhtml-parser-perl">libhtml-parser-perl</a></td>              <td>Fix heap-use-after-free in _decode_entities [CVE-2026-8829]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libjcat">libjcat</a></td>              <td>Add support for ed25519 types and SHA512 hashes</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libnet-cidr-lite-perl">libnet-cidr-lite-perl</a></td>              <td>Fix IP/CIDR parser validation: reject non-ASCII digits and trailing newlines [CVE-2026-55190]; reject zero-padded CIDR masks [CVE-2026-45191]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libreoffice">libreoffice</a></td>              <td>Gracefully handle failure in graphite2</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libvncserver">libvncserver</a></td>              <td>Fix buffer overflow and out-of-bounds write [CVE-2026-44988 CVE-2026-50538]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libxml-libxml-perl">libxml-libxml-perl</a></td>              <td>Fix out-of-bounds read [CVE-2026-8177]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libxml2">libxml2</a></td>              <td>Fix catalogue recursion and duplicate-catalog handling [CVE-2025-8732 CVE-2026-0990 CVE-2026-0992]; limit RelaxNG include recursion [CVE-2026-0989]; fix xmllint shell memory leak [CVE-2026-1757]; correct schematron regression-test outputs [CVE-2025-49794 CVE-2025-49796]; fix XML writer and schematron memory leaks; mitigate RelaxNG validation use-after-free; update catalogue and RelaxNG regression tests</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:libxmlb">libxmlb</a></td>              <td>Add support for zstd decompression; fix XMLb store/truncation validation; correct query binding/index handling; fix XML export and empty text() handling</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:linuxcnc">linuxcnc</a></td>              <td>Sanitize module names</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:mariadb">mariadb</a></td>              <td>New upstream stable release; fix code execution issues [CVE-2025-13699 CVE-2026-44168 CVE-2026-48163 CVE-2026-48165 CVE-2026-49261]; fix denial of service issues [CVE-2026-21968 CVE-2026-34303]; fix logging bypass issue [CVE-2026-3494]; fix path traversal issue [CVE-2026-44171]; fix SQL injection issue [CVE-2026-44172]; fix incomplete privilege check issue [CVE-2026-44173]; fix <q>Illegal mix of collations</q> error; fix <q>Mroonga hangs on invalid index flag</q>; fix crash in information_schema.table_constraints</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:mesa">mesa</a></td>              <td>Fix WebGPU/SPIR-V allocation handling [CVE-2026-40393]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:modsecurity">modsecurity</a></td>              <td>Prevent denial of service in hexDecode handling [CVE-2026-30923]; prevent denial of service in SSN/CPF/SVNR verification [CVE-2026-42268]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:mxml">mxml</a></td>              <td>Fix out-of-bounds read [CVE-2026-5037]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:node-flatted">node-flatted</a></td>              <td>Fix prototype pollution issue [CVE-2026-33228]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:node-jschardet">node-jschardet</a></td>              <td>Fix build link references</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:node-regexpp">node-regexpp</a></td>              <td>Add missing link to undici-types</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:ojalgo">ojalgo</a></td>              <td>Reduce frequency of built-time test failures</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:openslide">openslide</a></td>              <td>Fix possible code execution issue [CVE-2026-48977]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:p7zip">p7zip</a></td>              <td>New upstream stable release; fix buffer overflow issues [CVE-2026-48092 CVE-2026-48095]; fix memory disclosure issue [CVE-2026-48101]; fix out-of-bounds read issues [CVE-2026-48102 CVE-2026-48103 CVE-2026-48111 CVE-2026-48112]; fix uninitialised memory read issue [CVE-2026-48104]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:php-guzzlehttp-psr7">php-guzzlehttp-psr7</a></td>              <td>Fix Host authority validation [CVE-2026-48998]; reject control characters in URI hosts [CVE-2026-49214]; harden ServerRequest globals handling; normalise global header values; encode literal plus signs in query helpers</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:phpunit">phpunit</a></td>              <td>Fix unsafe deserialization in PHPT code coverage handling [CVE-2026-24765]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:plasma-discover">plasma-discover</a></td>              <td>Backport patch for libfwupd3 compatibility</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:prometheus">prometheus</a></td>              <td>Fix date-sensitive build-time test</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:protobuf">protobuf</a></td>              <td>Fix parser recursion limits [CVE-2024-7254 CVE-2025-4565 CVE-2026-0994 CVE-2026-6409]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:pydantic">pydantic</a></td>              <td>Fix denial of service in email verification [CVE-2024-3772]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:pymatgen">pymatgen</a></td>              <td>Fix denial of service in GaussianInput.from_string [CVE-2022-42964]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-ase">python-ase</a></td>              <td>Disable unreliable built-time test</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-django">python-django</a></td>              <td>Update test suite following changes in python3.13</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-filelock">python-filelock</a></td>              <td>Fix symlink vulnerabilies [CVE-2025-68146 CVE-2026-22701]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-markdown">python-markdown</a></td>              <td>Fix parsing of bogus HTML markup [CVE-2025-69534]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-pyramid">python-pyramid</a></td>              <td>Fix information disclosure issue [CVE-2023-40587]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python-xmltodict">python-xmltodict</a></td>              <td>Fix XML injection issue [CVE-2025-9375]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:python3.11">python3.11</a></td>              <td>Prevent incorrect tar archive handling [CVE-2025-13462]; ensure bytecode-only imports use normal security checks [CVE-2026-2297]; reject unsafe cookie values [CVE-2026-3644]; prevent XML parser crashes [CVE-2026-4224]; prevent browser command injection [CVE-2026-4519]; prevent bz2/lzma decompressor memory corruption [CVE-2026-6100]; restore XML autopkgtests</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:qemu">qemu</a></td>              <td>Rebuild with updated gnutls28</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:rhino">rhino</a></td>              <td>Fix denial of service issue [CVE-2025-66453]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:rlottie">rlottie</a></td>              <td>Fix out-of-bounds read issue [CVE-2026-10305]; fix denial of service issues [CVE-2026-47319 CVE-2026-47320]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:rsync">rsync</a></td>              <td>Reject excessively long HTTP proxy response lines [CVE-2026-45232]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:ruby-css-parser">ruby-css-parser</a></td>              <td>Fix validation of HTTPS certificates for remote CSS [CVE-2026-44312]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:rust-time">rust-time</a></td>              <td>Fix denial of service [CVE-2026-25727]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:science.js">science.js</a></td>              <td>Fix build time race condition</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:sentry-python">sentry-python</a></td>              <td>Fix subprocess environment sanitisation [CVE-2024-40647]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:shim">shim</a></td>              <td>New upstream release; build with default gcc; set SBAT revocation level to 2025021800</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:shim-helpers-amd64-signed">shim-helpers-amd64-signed</a></td>              <td>Update to shim 16.1-2~deb12u1</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:shim-helpers-arm64-signed">shim-helpers-arm64-signed</a></td>              <td>Update to shim 16.1-2~deb12u1</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:shim-helpers-i386-signed">shim-helpers-i386-signed</a></td>              <td>Update to shim 16.1-2~deb12u1</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:shim-signed">shim-signed</a></td>              <td>Ensure Secure Boot compatibility with 2023 Microsoft UEFI CA; check for likely boot issues before installation; combine and verify multiple shim signatures; update signed shim binaries</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:sqlite-utils">sqlite-utils</a></td>              <td>Add dependency on python3-click-default-group</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:sshfs-fuse">sshfs-fuse</a></td>              <td>Add contain_symlinks option to prevent symlink escape attacks [CVE-2026-47187]; reject hostname option injection via bracketed mount source [CVE-2026-48711]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:sylpheed">sylpheed</a></td>              <td>Fix link checking [CVE-2021-37746]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:user-mode-linux">user-mode-linux</a></td>              <td>Rebuild with updated linux</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:vitrage">vitrage</a></td>              <td>Fix remote code execution vulnerability [CVE-2026-28370]</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:wireless-regdb">wireless-regdb</a></td>              <td>New upstream stable release; update regulatory information for several countries</td></tr>
+    <tr><td><a href="https://packages.debian.org/src:xz-utils">xz-utils</a></td>              <td>Fix buffer overflow issue [CVE-2026-34743]</td></tr>
+</table>
+<h2>Security Updates</h2>
+<p>This revision adds the following security updates to the oldstable release.
+The Security Team has already released an advisory for each of these
+updates:</p>
+<table border="0" summary="">
+<tr><th>Advisory ID</th>  <th>Package</th></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4627">DLA-4627</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:kernel-wedge">kernel-wedge</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4628">DLA-4628</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-base">linux-base</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4632">DLA-4632</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:atril">atril</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4633">DLA-4633</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libreoffice">libreoffice</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4635">DLA-4635</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:firefox-esr">firefox-esr</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4636">DLA-4636</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:thunderbird">thunderbird</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4637">DLA-4637</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libconfig-inifiles-perl">libconfig-inifiles-perl</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4638">DLA-4638</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libgd-perl">libgd-perl</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4639">DLA-4639</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libhttp-daemon-perl">libhttp-daemon-perl</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4642">DLA-4642</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:u-boot">u-boot</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4643">DLA-4643</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:imagemagick">imagemagick</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4644">DLA-4644</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libmatio">libmatio</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4648">DLA-4648</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libtext-csv-xs-perl">libtext-csv-xs-perl</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4651">DLA-4651</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:python-urllib3">python-urllib3</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4654">DLA-4654</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4656">DLA-4656</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:tor">tor</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4657">DLA-4657</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:sogo">sogo</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4658">DLA-4658</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:librabbitmq">librabbitmq</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4662">DLA-4662</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:jq">jq</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4665">DLA-4665</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-amd64">linux-signed-amd64</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4665">DLA-4665</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-arm64">linux-signed-arm64</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4665">DLA-4665</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-i386">linux-signed-i386</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4665">DLA-4665</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux">linux</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4666">DLA-4666</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:openvpn">openvpn</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4667">DLA-4667</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nginx">nginx</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4668">DLA-4668</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:sympa">sympa</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4669">DLA-4669</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:php8.2">php8.2</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4672">DLA-4672</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../lts/security/2026/dla-4674">DLA-4674</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6250">DSA-6250</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6266">DSA-6266</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nghttp2">nghttp2</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6267">DSA-6267</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:thunderbird">thunderbird</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6269">DSA-6269</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:postgresql-15">postgresql-15</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6271">DSA-6271</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:gsasl">gsasl</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6272">DSA-6272</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nodejs">nodejs</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6273">DSA-6273</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6275">DSA-6275</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-amd64">linux-signed-amd64</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6275">DSA-6275</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-arm64">linux-signed-arm64</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6275">DSA-6275</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-i386">linux-signed-i386</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6275">DSA-6275</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux">linux</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6276">DSA-6276</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:ffmpeg">ffmpeg</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6277">DSA-6277</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:openjpeg2">openjpeg2</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6278">DSA-6278</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nginx">nginx</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6279">DSA-6279</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:redis">redis</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6281">DSA-6281</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:gnutls28">gnutls28</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6282">DSA-6282</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:rsync">rsync</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6283">DSA-6283</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:firefox-esr">firefox-esr</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6285">DSA-6285</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:bind9">bind9</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6286">DSA-6286</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:evince">evince</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6287">DSA-6287</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6288">DSA-6288</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:thunderbird">thunderbird</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6289">DSA-6289</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:openvpn">openvpn</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6292">DSA-6292</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:haveged">haveged</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6293">DSA-6293</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:krb5">krb5</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6294">DSA-6294</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libgcrypt20">libgcrypt20</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6297">DSA-6297</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:samba">samba</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6299">DSA-6299</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:kdenlive">kdenlive</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6300">DSA-6300</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:node-shell-quote">node-shell-quote</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6301">DSA-6301</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:roundcube">roundcube</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6302">DSA-6302</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:starlette">starlette</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6306">DSA-6306</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-amd64">linux-signed-amd64</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6306">DSA-6306</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-arm64">linux-signed-arm64</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6306">DSA-6306</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux-signed-i386">linux-signed-i386</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6306">DSA-6306</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:linux">linux</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6308">DSA-6308</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nagios4">nagios4</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6309">DSA-6309</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:exim4">exim4</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6310">DSA-6310</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:imagemagick">imagemagick</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6313">DSA-6313</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:dovecot">dovecot</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6316">DSA-6316</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6317">DSA-6317</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:php-symfony-contracts">php-symfony-contracts</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6317">DSA-6317</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:symfony">symfony</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6319">DSA-6319</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:yelp">yelp</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6320">DSA-6320</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:php-twig">php-twig</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6321">DSA-6321</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:ceph">ceph</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6322">DSA-6322</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:frr">frr</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6323">DSA-6323</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:apache2">apache2</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6324">DSA-6324</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:request-tracker5">request-tracker5</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6325">DSA-6325</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6326">DSA-6326</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:nginx">nginx</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6327">DSA-6327</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:request-tracker4">request-tracker4</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6328">DSA-6328</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:tomcat10">tomcat10</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6330">DSA-6330</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:strongswan">strongswan</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6331">DSA-6331</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:keystone">keystone</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6332">DSA-6332</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:okular">okular</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6333">DSA-6333</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:mistral">mistral</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6334">DSA-6334</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:poppler">poppler</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6335">DSA-6335</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:openssl">openssl</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6336">DSA-6336</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:jackson-core">jackson-core</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6336">DSA-6336</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:jackson-databind">jackson-databind</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6336">DSA-6336</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:jackson-dataformat-smile">jackson-dataformat-smile</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6337">DSA-6337</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6338">DSA-6338</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libdbi-perl">libdbi-perl</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6339">DSA-6339</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:libinput">libinput</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6341">DSA-6341</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:ironic">ironic</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6341">DSA-6341</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:python-oslo.messaging">python-oslo.messaging</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6344">DSA-6344</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+    <tr><td align="center"><a href="../../security/2026/dsa-6352">DSA-6352</a></td>
+        <td align="center"><a href="https://packages.debian.org/src:chromium">chromium</a></td></tr>
+</table>
+<h2>Removed packages</h2>
+<p>The following packages were removed due to circumstances beyond our control:</p>
+<table border="0" summary="">
+<tr><th>Package</th>               <th>Reason</th></tr>
+    <tr><td><a href="https://packages.debian.org/src:smb4k">smb4k</a></td>              <td>Unable to continue security support</td></tr>
+</table>
+<h2>Debian Installer</h2>
+<p>The installer has been updated to include the fixes incorporated
+into oldstable by the point release.</p>
+<h2>URLs</h2>
+<p>The complete lists of packages that have changed with this revision:</p>
+<div class="center">
+  <a href="https://deb.debian.org/debian/dists/bookworm/ChangeLog">https://deb.debian.org/debian/dists/bookworm/ChangeLog</a>
+</div>
+<p>The current oldstable distribution:</p>
+<div class="center">
+  <a href="https://deb.debian.org/debian/dists/oldstable/">https://deb.debian.org/debian/dists/oldstable/</a>
+</div>
+<p>Proposed updates to the oldstable distribution:</p>
+<div class="center">
+  <a href="https://deb.debian.org/debian/dists/oldstable-proposed-updates">https://deb.debian.org/debian/dists/oldstable-proposed-updates</a>
+</div>
+<p>oldstable distribution information (release notes, errata etc.):</p>
+<div class="center">
+  <a
+  href="../../releases/oldstable/">https://www.debian.org/releases/oldstable/</a>
+</div>
+<p>Security announcements and information:</p>
+<div class="center">
+  <a href="../../security/">https://www.debian.org/security/</a>
+</div>
+<h2>About Debian</h2>
+<p>The Debian Project is an association of Free Software developers who
+volunteer their time and effort in order to produce the completely
+free operating system Debian.</p>
+<h2>Contact Information</h2>
+<p>For further information, please visit the Debian web pages at
+<a href="../../">https://www.debian.org/</a>, send mail to
+&lt;press@debian.org&gt;, or contact the stable release team at
+&lt;debian-release@lists.debian.org&gt;.</p>
+<div class="clr"></div>
+</div> <!-- end content -->
+<div id="footer">
+<hr class="hidecss">
+Back to: other <a href="./">Debian news</a> || <a href="../../">Debian Project homepage</a>.
+<hr>
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+This page is also available in the following languages:
+<div id="langContainer">
+<select onchange="location = this.value;">
+<option value="" disabled selected>Select your language</option>
+ <option value="2026071102.ca.html" title="Catalan" lang="ca">catal&agrave;</option>
+ <option value="2026071102.fr.html" title="French" lang="fr">fran&ccedil;ais</option>
+ <option value="2026071102.sv.html" title="Swedish" lang="sv">svenska</option>
+</select>
+</div>
+How to set <a href="../../intro/cn">the default document language</a>
+</div></div><!--/UdmComment-->
+<hr>
+<div id="footermap">
+<!--UdmComment-->
+<p><strong><a href="/">Home</a></strong></p>
+    <ul id="footermap-cola">
+		<li><a href="../../intro/about">About</a>
+		  <ul>
+		  <li><a href="../../social_contract">Social Contract</a></li>
+		  <li><a href="../../code_of_conduct">Code of Conduct</a></li>
+		  <li><a href="../../intro/free">Free Software</a></li>
+          <li><a href="../../legal">Legal Info</a></li>
+		  </ul>
+		</li>
+        <li><a href="../../intro/help">Help Debian</a></li>
+    </ul>
+	<ul id="footermap-colb">
+			<li><a href="../../distrib/">Getting Debian</a>
+			  <ul>
+			  <li><a href="../../distrib/netinst">Network install</a></li>
+			  <li><a href="../../CD/">CD/USB ISO images</a></li>
+            <li><a href="../../blends/">Pure Blends</a></li>
+			<li><a href="../../distrib/packages">Debian Packages</a></li>
+			<li><a href="../../devel/">Developers' Corner</a></li>
+			  </ul>
+			</li>
+	</ul>
+	<ul id="footermap-colc">
+		<li><a href="../../News/">News</a>
+		  <ul>
+		  <li><a href="../../News/weekly/">Project News</a></li>
+		  <li><a href="../../events/">Events</a></li>
+		  </ul>
+		</li>
+    <li><a href="../../doc/">Documentation</a>
+      <ul>
+      <li><a href="../../releases/">Release Info</a></li>
+      <li><a href="https://wiki.debian.org/">Debian Wiki</a></li>
+      </ul>
+    </li>
+   </ul>
+   <ul id="footermap-cold">
+    <li><a href="../../support">Support</a>
+	  <ul>
+			  <li><a href="../../international/">Debian International</a></li>
+			  <li><a href="../../security/">Security Information</a></li>
+			  <li><a href="../../Bugs/">Bug reports</a></li>
+			  <li><a href="../../MailingLists/">Mailing Lists</a></li>
+      </ul>
+    </li>
+</ul>
+<ul id="footermap-cole">
+  <li><a href="../../sitemap">Site map</a></li>
+  <li><a href="https://search.debian.org/">Search</a></li>
+  <li><a href="https://bits.debian.org">The Debian Blog</a></li>
+  <li><a href="https://micronews.debian.org">Debian Micronews</a></li>
+  <li><a href="https://planet.debian.org">Debian Planet</a></li>
+</ul>
+<!--/UdmComment-->
+</div> <!-- end footermap -->
+<div id="fineprint">
+<!--UdmComment-->
+  <p>See our <a href="../../contact">contact page</a> to get in touch. Web site source code is <a href="https://salsa.debian.org/webmaster-team/webwml">available</a>.</p>
+<p>
+Last Modified: Sun, Jul 26 16:30:35 UTC 2026
+&emsp;
+Last Built: Fri, Aug 7 11:29:37 UTC 2026
+  <br>
+  Copyright &copy; 2026 <a href="https://www.spi-inc.org/">SPI</a> and others; See <a href="../../license" rel="copyright">license terms</a><br>
+  Debian is a registered <a href="../../trademark">trademark</a> of Software in the Public Interest, Inc.
+</p>
+<!--/UdmComment-->
+</div>
+</div> <!-- end footer -->
+</body>
+</html>

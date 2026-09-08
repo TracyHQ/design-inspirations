@@ -1,0 +1,23 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Gordita",
+      "weight": "100",
+      "style": "normal",
+      "file": "gordita-100.woff",
+      "format": "woff",
+      "sourceUrl": "https://solidjs.com/assets/Gordita-Thin-4wMs0Kie.woff",
+      "bytes": 86660
+    },
+    {
+      "family": "Gordita",
+      "weight": "600",
+      "style": "normal",
+      "file": "gordita-600.woff",
+      "format": "woff",
+      "sourceUrl": "https://solidjs.com/assets/Gordita-Medium-CVwlOo6Z.woff",
+      "bytes": 88268
+    }
+  ]
+}

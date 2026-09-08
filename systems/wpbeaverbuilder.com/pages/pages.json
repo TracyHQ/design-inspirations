@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://wpbeaverbuilder.com/",
+  "crawledAt": "2026-09-07T23:59:40.860Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://wpbeaverbuilder.com/",
+      "file": "pages/01-home.html",
+      "title": "WordPress Page Builder | Built for Builders | Beaver Builder",
+      "h1": "WordPress Page Builder",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/",
+      "file": "pages/02-home.html",
+      "title": "WordPress Page Builder | Built for Builders | Beaver Builder",
+      "h1": "WordPress Page Builder",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/beaver-builder-ai/",
+      "file": "pages/03-beaver-builder-ai.html",
+      "title": "Beaver Builder AI: Build WordPress Layouts with AI",
+      "h1": "Beaver Builder AI",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/page-builder/",
+      "file": "pages/04-page-builder.html",
+      "title": "WordPress Page Builder for Agencies & Freelancers | Beaver Builder",
+      "h1": "WordPress Page Builder",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/wordpress-framework-theme/",
+      "file": "pages/05-wordpress-framework-theme.html",
+      "title": "Beaver Builder Theme: A Lightweight WordPress Theme",
+      "h1": "A lightweight WordPress theme that stays out of your way.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/beaver-themer/",
+      "file": "pages/06-beaver-themer.html",
+      "title": "Beaver Themer | WordPress Theme Builder for Headers, Footers & Templates",
+      "h1": "Build the whole site, not just the pages",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/wordpress-templates/",
+      "file": "pages/07-wordpress-templates.html",
+      "title": "Responsive WordPress Templates | Beaver Builder",
+      "h1": "Skip the blank page.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/web-design-services/",
+      "file": "pages/08-web-design-services.html",
+      "title": "White-Label Web Design Services | Beaver Builder",
+      "h1": "White-Label Web Design For Agency Owners",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/wordpress-maintenance/",
+      "file": "pages/09-wordpress-maintenance.html",
+      "title": "White-Label WordPress Maintenance Service | Beaver Builder",
+      "h1": "White-Label WordPress Maintenance Service",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/web-development/",
+      "file": "pages/10-web-development.html",
+      "title": "White-Label Web Development Service | Beaver Builder",
+      "h1": "White-Label Web Development Service For Agency Owners",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/pricing/",
+      "file": "pages/11-pricing.html",
+      "title": "Beaver Builder Pricing and License Options",
+      "h1": "Pick your plan. Start building.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/about/",
+      "file": "pages/12-about.html",
+      "title": "About Beaver Builder",
+      "h1": "Our Culture",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/blog/",
+      "file": "pages/13-blog.html",
+      "title": "Beaver Builder Blog - WordPress, Web Design, and more",
+      "h1": "The Beaver Builder Blog",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/my-account/",
+      "file": "pages/14-my-account.html",
+      "title": "My Account | Beaver Builder",
+      "h1": "My Account",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/beaver-builder-support/",
+      "file": "pages/15-beaver-builder-support.html",
+      "title": "Beaver Builder Support",
+      "h1": "How can we help you?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/support-tickets/",
+      "file": "pages/16-support-tickets.html",
+      "title": "Support Tickets | Beaver Builder",
+      "h1": "Support Tickets",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/change-logs/",
+      "file": "pages/17-change-logs.html",
+      "title": "Change Logs for Page Builder, Beaver Builder Theme, and Beaver Themer",
+      "h1": "Check out what's new with Beaver Builder",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/affiliate-area/",
+      "file": "pages/18-affiliate-area.html",
+      "title": "Affiliate Area | Beaver Builder",
+      "h1": "Affiliate Area",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/my-account/edit-account/",
+      "file": "pages/19-my-account-edit-account.html",
+      "title": "My Account | Beaver Builder",
+      "h1": "My Account",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.wpbeaverbuilder.com/my-account/add-payment-method/",
+      "file": "pages/20-my-account-add-payment-method.html",
+      "title": "My Account | Beaver Builder",
+      "h1": "My Account",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

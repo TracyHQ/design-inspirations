@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://themeforest.net/",
+  "crawledAt": "2026-09-07T23:58:47.118Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://themeforest.net/",
+      "file": "pages/01-home.html",
+      "title": "WordPress Themes & Website Templates from ThemeForest",
+      "h1": "Professional WordPress Themes & Website Templates for any project",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/sign_in",
+      "file": "pages/02-sign-in.html",
+      "title": "Sign in | ThemeForest",
+      "h1": "Envato",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/top-sellers",
+      "file": "pages/03-top-sellers.html",
+      "title": "2026's Best Selling Themes on ThemeForest",
+      "h1": "2026's Best Selling Themes on ThemeForest - updated weekly.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/feature",
+      "file": "pages/04-feature.html",
+      "title": "Featured Files | ThemeForest",
+      "h1": "Featured Files",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/follow_feed",
+      "file": "pages/05-home.html",
+      "title": "WordPress Themes & Website Templates from ThemeForest",
+      "h1": "Professional WordPress Themes & Website Templates for any project",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/authors/top",
+      "file": "pages/06-authors-top.html",
+      "title": "ThemeForest Top Authors",
+      "h1": "ThemeForest Top Authors",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/page/top_new_sellers",
+      "file": "pages/07-page-top-new-sellers.html",
+      "title": "Top New Authors | ThemeForest",
+      "h1": "Top New Authors",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/collections",
+      "file": "pages/08-collections.html",
+      "title": "Public Collections | ThemeForest",
+      "h1": "Public Collections",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/category",
+      "file": "pages/09-category.html",
+      "title": "Browse Categories | ThemeForest",
+      "h1": "Browse Categories",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/popular_item/by_category",
+      "file": "pages/10-top-sellers.html",
+      "title": "2026's Best Selling Themes on ThemeForest",
+      "h1": "2026's Best Selling Themes on ThemeForest - updated weekly.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/attributes/compatible-with/elementor",
+      "file": "pages/11-attributes-compatible-with-elementor.html",
+      "title": "Elementor Website Templates from ThemeForest",
+      "h1": "You found 7,737 elementor website templates sorted by best sellers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/elementor",
+      "file": "pages/12-elementor.html",
+      "title": "Elementor Template Kits, Plugins, Add Ons & Themes | ThemeForest",
+      "h1": "Elementor - The Complete WordPress Web Creation Platform",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/wordpress-hosting",
+      "file": "pages/13-wordpress-hosting.html",
+      "title": "Managed Wordpress Hosting | Recommended Hosting Service",
+      "h1": "Managed WordPress Hosting from SiteGround",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/attributes/compatible-with/Drupal%20Commerce",
+      "file": "pages/14-attributes-compatible-with-drupal-20comm.html",
+      "title": "Drupal Commerce Website Templates from ThemeForest",
+      "h1": "You found 72 Drupal commerce website templates sorted by best sellers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/attributes/themeforest-files-included/ecwid%20css%20files",
+      "file": "pages/15-attributes-themeforest-files-included-ec.html",
+      "title": "Ecwid CSS Files Website Templates from ThemeForest",
+      "h1": "You found 143 ecwid CSS files website templates sorted by best sellers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/attributes/compatible-with/Ubercart",
+      "file": "pages/16-attributes-compatible-with-ubercart.html",
+      "title": "Ubercart Website Templates from ThemeForest",
+      "h1": "You found 11 ubercart website templates sorted by best sellers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/attributes/compatible-with/facebook",
+      "file": "pages/17-attributes-compatible-with-facebook.html",
+      "title": "Facebook Website Templates from ThemeForest",
+      "h1": "You found 703 facebook website templates sorted by best sellers.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/sign_up",
+      "file": "pages/18-sign-up.html",
+      "title": "Sign up | ThemeForest",
+      "h1": "Envato",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/user/adornthemes",
+      "file": "pages/19-user-adornthemes.html",
+      "title": "adornthemes's profile on ThemeForest",
+      "h1": "adornthemes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://themeforest.net/user/purethemes",
+      "file": "pages/20-user-purethemes.html",
+      "title": "purethemes's profile on ThemeForest",
+      "h1": "purethemes",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

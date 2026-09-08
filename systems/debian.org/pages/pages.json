@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://debian.org/",
+  "crawledAt": "2026-09-07T23:52:47.313Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://debian.org/",
+      "file": "pages/01-home.html",
+      "title": "Debian -- The Universal Operating System",
+      "h1": "Debian",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/",
+      "file": "pages/02-home.html",
+      "title": "Debian -- The Universal Operating System",
+      "h1": "Debian",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/intro/people",
+      "file": "pages/03-intro-people.html",
+      "title": "Debian -- People: Who we are and what we do",
+      "h1": "People: Who we are and what we do",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/intro/philosophy",
+      "file": "pages/04-intro-philosophy.html",
+      "title": "Debian -- Our Philosophy: Why we do it and how we do it",
+      "h1": "Our Philosophy: Why we do it and how we do it",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/devel/join/",
+      "file": "pages/05-devel-join.html",
+      "title": "Debian -- How to join Debian",
+      "h1": "How to join Debian",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/intro/index",
+      "file": "pages/06-intro-index.html",
+      "title": "Debian -- Introduction to Debian",
+      "h1": "Introduction to Debian",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/distrib",
+      "file": "pages/07-distrib.html",
+      "title": "Download Debian",
+      "h1": "Download Debian",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/intro/why_debian",
+      "file": "pages/08-intro-why-debian.html",
+      "title": "Debian -- Reasons to use Debian",
+      "h1": "Reasons to use Debian",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/support",
+      "file": "pages/09-support.html",
+      "title": "Debian -- User Support",
+      "h1": "User Support",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/security/",
+      "file": "pages/10-security.html",
+      "title": "Debian -- Security Information",
+      "h1": "Security Information",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News/2026/20260831",
+      "file": "pages/11-news-2026-20260831.html",
+      "title": "Debian -- News -- Debian 11 Long Term Support reaches end-of-life",
+      "h1": "Debian 11 Long Term Support reaches end-of-life",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News/2026/20260807",
+      "file": "pages/12-news-2026-20260807.html",
+      "title": "Debian -- News -- DebConf26 closes in Santa Fe and DebConf27 announced",
+      "h1": "DebConf26 closes in Santa Fe and DebConf27 announced",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News/2026/20260712",
+      "file": "pages/13-news-2026-20260712.html",
+      "title": "Debian -- News -- Security support for Bookworm handed over to the LTS team",
+      "h1": "Security support for Bookworm handed over to the LTS team",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News/2026/20260711",
+      "file": "pages/14-news-2026-20260711.html",
+      "title": "Debian -- News -- Updated Debian 13: 13.6 released",
+      "h1": "Updated Debian 13: 13.6 released",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News/2026/2026071102",
+      "file": "pages/15-news-2026-2026071102.html",
+      "title": "Debian -- News -- Updated Debian 12: 12.15 released",
+      "h1": "Updated Debian 12: 12.15 released",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/News",
+      "file": "pages/16-news.html",
+      "title": "Debian -- Latest News",
+      "h1": "Latest News",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/intro/cn",
+      "file": "pages/17-intro-cn.html",
+      "title": "Debian -- Debian Website in different Languages",
+      "h1": "Debian Website in different Languages",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/contact",
+      "file": "pages/18-contact.html",
+      "title": "Debian -- How to contact us",
+      "h1": "How to contact us",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/license",
+      "file": "pages/19-license.html",
+      "title": "Debian WWW Pages License",
+      "h1": "Debian WWW Pages License",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.debian.org/trademark",
+      "file": "pages/20-trademark.html",
+      "title": "Debian -- Debian Trademarks",
+      "h1": "Debian Trademarks",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://archlinux.org/",
+  "crawledAt": "2026-09-07T23:53:28.791Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://archlinux.org/",
+      "file": "pages/01-home.html",
+      "title": "Arch Linux",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/packages/",
+      "file": "pages/02-packages.html",
+      "title": "Arch Linux - Package Search",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/download/",
+      "file": "pages/03-download.html",
+      "title": "Arch Linux - Downloads",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/about/",
+      "file": "pages/04-about.html",
+      "title": "Arch Linux - About",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/",
+      "file": "pages/05-news.html",
+      "title": "Arch Linux - News",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/virtualbox-ext-vnc-7212-2-requires-manual-intervention/",
+      "file": "pages/06-news-virtualbox-ext-vnc-7212-2-requires-.html",
+      "title": "Arch Linux - News: virtualbox-ext-vnc >= 7.2.12-2 requires manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/active-aur-malicious-packages-incident/",
+      "file": "pages/07-news-active-aur-malicious-packages-incid.html",
+      "title": "Arch Linux - News: Active AUR malicious packages incident",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/arch-linux-2026-leader-election-results/",
+      "file": "pages/08-news-arch-linux-2026-leader-election-res.html",
+      "title": "Arch Linux - News: Arch Linux 2026 Leader Election Results",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/people/developers/",
+      "file": "pages/09-people-developers.html",
+      "title": "Arch Linux - Developers",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/breaking-changes-for-all-users-of-varnish-which-is-renamed-to-vinyl-cache/",
+      "file": "pages/10-news-breaking-changes-for-all-users-of-v.html",
+      "title": "Arch Linux - News: Breaking changes for all users of `varnish`, which is renamed to `vinyl-cache`",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/kea-1303-6-update-requires-manual-intervention/",
+      "file": "pages/11-news-kea-1303-6-update-requires-manual-i.html",
+      "title": "Arch Linux - News: kea >= 1:3.0.3-6 update requires manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/iptables-now-defaults-to-the-nft-backend/",
+      "file": "pages/12-news-iptables-now-defaults-to-the-nft-ba.html",
+      "title": "Arch Linux - News: iptables now defaults to the nft backend",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/nvidia-590-driver-drops-pascal-support-main-packages-switch-to-open-kernel-modules/",
+      "file": "pages/13-news-nvidia-590-driver-drops-pascal-supp.html",
+      "title": "Arch Linux - News: NVIDIA 590 driver drops Pascal and lower support; main packages switch to Open Kernel Modules",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/net-packages-may-require-manual-intervention/",
+      "file": "pages/14-news-net-packages-may-require-manual-int.html",
+      "title": "Arch Linux - News: .NET packages may require manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/waydroid-154-3-update-may-require-manual-intervention/",
+      "file": "pages/15-news-waydroid-154-3-update-may-require-m.html",
+      "title": "Arch Linux - News: waydroid >= 1.5.4-3 update may require manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/dovecot-24-requires-manual-intervention/",
+      "file": "pages/16-news-dovecot-24-requires-manual-interven.html",
+      "title": "Arch Linux - News: dovecot >= 2.4 requires manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/recent-services-outages/",
+      "file": "pages/17-news-recent-services-outages.html",
+      "title": "Arch Linux - News: Recent service outages",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/zabbix-741-2-may-requires-manual-intervention/",
+      "file": "pages/18-news-zabbix-741-2-may-requires-manual-in.html",
+      "title": "Arch Linux - News: zabbix >= 7.4.1-2 may require manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/linux-firmware-2025061312fe085f-5-upgrade-requires-manual-intervention/",
+      "file": "pages/19-news-linux-firmware-2025061312fe085f-5-u.html",
+      "title": "Arch Linux - News: linux-firmware >= 20250613.12fe085f-5 upgrade requires manual intervention",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://archlinux.org/news/plasma-640-will-need-manual-intervention-if-you-are-on-x11/",
+      "file": "pages/20-news-plasma-640-will-need-manual-interve.html",
+      "title": "Arch Linux - News: Plasma 6.4.0 will need manual intervention if you are on X11",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

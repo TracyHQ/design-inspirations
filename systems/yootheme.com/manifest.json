@@ -1,0 +1,35 @@
+{
+  "id": "brand:yootheme.com",
+  "host": "yootheme.com",
+  "kind": "reference",
+  "slug": "yootheme",
+  "name": "YOOtheme",
+  "category": "Reference",
+  "description": "Create professional WordPress and Joomla websites and WooCommerce shops visually with the YOOtheme Pro page builder and launch faster with ready-to-use starter websites.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://yootheme.com/",
+    "finalUrl": "https://yootheme.com/",
+    "extractedAt": "2026-09-07T23:58:41.120Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 22,
+    "fonts": 3,
+    "logos": 5,
+    "imagery": 8,
+    "fonts_files": 4,
+    "headings": 44,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

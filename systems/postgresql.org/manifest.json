@@ -1,0 +1,37 @@
+{
+  "id": "brand:postgresql.org",
+  "host": "postgresql.org",
+  "kind": "reference",
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "category": "Reference",
+  "description": "The official site for PostgreSQL, the world",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://postgresql.org/",
+    "finalUrl": "https://postgresql.org/",
+    "extractedAt": "2026-09-07T23:53:40.554Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "font: display \"Font Awesome\\ 5 Free\" → \"Open Sans\" (the family the site sets on h1..h6)",
+    "font: body \"Font Awesome\\ 5 Free\" is an icon or code face → \"Roboto\"",
+    "fonts: 8 faces self-hosted from Google Fonts (Open Sans)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 21,
+    "fonts": 5,
+    "logos": 3,
+    "imagery": 1,
+    "fonts_files": 8,
+    "headings": 24,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

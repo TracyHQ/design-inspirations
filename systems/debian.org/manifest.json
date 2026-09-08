@@ -1,0 +1,36 @@
+{
+  "id": "brand:debian.org",
+  "host": "debian.org",
+  "kind": "reference",
+  "slug": "debian-org",
+  "name": "debian.org",
+  "category": "Reference",
+  "description": "Debian is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://debian.org/",
+    "finalUrl": "https://debian.org/",
+    "extractedAt": "2026-09-07T23:52:48.317Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Debian -- The Universal Operating System\" → \"debian.org\" (the title is a sentence; using the hostname)",
+    "fonts: 4 faces self-hosted from Google Fonts (Oswald)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 1,
+    "logos": 3,
+    "imagery": 6,
+    "fonts_files": 4,
+    "headings": 22,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

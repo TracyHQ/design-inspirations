@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://emberjs.com/",
+  "crawledAt": "2026-09-07T23:55:18.867Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://emberjs.com/",
+      "file": "pages/01-home.html",
+      "title": "Ember.js - A framework for ambitious web developers",
+      "h1": "A framework for ambitious web developers.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/community/meetups",
+      "file": "pages/02-community-meetups.html",
+      "title": "Meetups - Community - Ember.js",
+      "h1": "Meetups Around the World",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/team",
+      "file": "pages/03-teams.html",
+      "title": "Team - Ember.js",
+      "h1": "The Team Behind Ember",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/sponsors",
+      "file": "pages/04-sponsors.html",
+      "title": "Sponsors - Ember.js",
+      "h1": "Ember Sponsors and Friends",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/security",
+      "file": "pages/05-security.html",
+      "title": "Security - Ember.js",
+      "h1": "Ember.js Security Policy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/about/legal",
+      "file": "pages/06-about-legal.html",
+      "title": "Legal - Ember.js",
+      "h1": "Legal",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/logos",
+      "file": "pages/07-logos.html",
+      "title": "Branding - Ember.js",
+      "h1": "Branding",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/guidelines",
+      "file": "pages/08-guidelines.html",
+      "title": "Community Guidelines - Ember.js",
+      "h1": "Ember Community Guidelines",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/community/meetups-getting-started",
+      "file": "pages/09-community-meetups-getting-started.html",
+      "title": "Getting Started - Community - Ember.js",
+      "h1": "Getting Your Meetup Up and Running",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/community/meetups/assets",
+      "file": "pages/10-community-meetups-assets.html",
+      "title": "Assets - Community - Ember.js",
+      "h1": "Ember Meetup Resources",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/teams/emeritus",
+      "file": "pages/11-teams-emeritus.html",
+      "title": "Ember.js - A framework for ambitious web developers",
+      "h1": "A framework for ambitious web developers.",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/releases/lts/",
+      "file": "pages/12-releases-lts.html",
+      "title": "LTS - Releases - Ember.js",
+      "h1": "LTS Channel",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/releases/release/",
+      "file": "pages/13-releases-release.html",
+      "title": "Stable - Releases - Ember.js",
+      "h1": "Release Channel",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/mascots",
+      "file": "pages/14-mascots.html",
+      "title": "Mascots - Ember.js",
+      "h1": "Tomster and Zoey",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/mascots/faq",
+      "file": "pages/15-mascots-faq.html",
+      "title": "Ember.js",
+      "h1": "Tomster FAQ",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/logos/",
+      "file": "pages/16-logos.html",
+      "title": "Branding - Ember.js",
+      "h1": "Branding",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://emberjs.com/mascots/",
+      "file": "pages/17-mascots.html",
+      "title": "Mascots - Ember.js",
+      "h1": "Tomster and Zoey",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

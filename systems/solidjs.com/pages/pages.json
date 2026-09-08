@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://solidjs.com/",
+  "crawledAt": "2026-09-07T23:55:09.494Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://solidjs.com/",
+      "file": "pages/01-home.html",
+      "title": "",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    }
+  ]
+}

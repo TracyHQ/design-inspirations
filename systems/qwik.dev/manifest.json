@@ -1,0 +1,35 @@
+{
+  "id": "brand:qwik.dev",
+  "host": "qwik.dev",
+  "kind": "reference",
+  "slug": "qwik",
+  "name": "Qwik",
+  "category": "Reference",
+  "description": "No hydration, auto lazy-loading, edge-optimized, and fun 🎉!",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://qwik.dev/",
+    "finalUrl": "https://qwik.dev/",
+    "extractedAt": "2026-09-07T23:55:14.960Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "fonts: 1 faces self-hosted from Google Fonts (Poppins)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 5,
+    "logos": 4,
+    "imagery": 1,
+    "fonts_files": 4,
+    "headings": 0,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

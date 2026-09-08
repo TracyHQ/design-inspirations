@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://astro.build/",
+  "crawledAt": "2026-09-07T23:54:56.765Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://astro.build/",
+      "file": "pages/01-home.html",
+      "title": "Astro",
+      "h1": "The web framework for content-driven websites",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/blog/",
+      "file": "pages/02-blog.html",
+      "title": "The Astro Blog | Astro",
+      "h1": "Welcome, world",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/",
+      "file": "pages/03-themes.html",
+      "title": "Themes | Astro",
+      "h1": "Jumpstart your next project with a theme",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/integrations/",
+      "file": "pages/04-integrations.html",
+      "title": "Integrations | Astro",
+      "h1": "Kick it into lightspeed with integrations",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/showcase/",
+      "file": "pages/05-showcase.html",
+      "title": "Showcase | Astro",
+      "h1": "Explore the infinite possibilities of Astro",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/chat/",
+      "file": "pages/06-invite-grf4gtxxym.html",
+      "title": "Astro Lounge",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/agencies/",
+      "file": "pages/07-agencies.html",
+      "title": "Astro Partner Agencies | Astro",
+      "h1": "Hire Astro experts",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/case-studies/",
+      "file": "pages/08-case-studies.html",
+      "title": "Case Studies | Astro",
+      "h1": "Case studies",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/chat",
+      "file": "pages/09-invite-grf4gtxxym.html",
+      "title": "Astro Lounge",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/blog/astro-730/",
+      "file": "pages/10-blog-astro-730.html",
+      "title": "Astro 7.3 | Astro",
+      "h1": "Astro 7.3",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/starlight/",
+      "file": "pages/11-themes-details-starlight.html",
+      "title": "Starlight | Astro",
+      "h1": "Starlight",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/astroship/",
+      "file": "pages/12-themes-details-astroship.html",
+      "title": "Astroship | Astro",
+      "h1": "Astroship",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/upstart-trendy-and-modern-theme-for-saas-startups/",
+      "file": "pages/13-themes-details-upstart-trendy-and-modern.html",
+      "title": "Upstart – SaaS & Startups Theme | Astro",
+      "h1": "Upstart – SaaS & Startups Theme",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/prima-persona/",
+      "file": "pages/14-themes-details-prima-persona.html",
+      "title": "Prima persona | Astro",
+      "h1": "Prima persona",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/darkrise-astro/",
+      "file": "pages/15-themes-details-darkrise-astro.html",
+      "title": "Darkrise Astro | Astro",
+      "h1": "Darkrise Astro",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes",
+      "file": "pages/16-themes.html",
+      "title": "Themes | Astro",
+      "h1": "Jumpstart your next project with a theme",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/astro-shopify/",
+      "file": "pages/17-themes-details-astro-shopify.html",
+      "title": "Astro Shopify | Astro",
+      "h1": "Astro Shopify",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/quick-store/",
+      "file": "pages/18-themes-details-quick-store.html",
+      "title": "Micro Store | Astro",
+      "h1": "Micro Store",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/details/skncre-a-hygraph-cosmetics-brand-e-commerce/",
+      "file": "pages/19-themes-details-skncre-a-hygraph-cosmetic.html",
+      "title": "SKNCRE, a Hygraph cosmetics brand e-commerce | Astro",
+      "h1": "SKNCRE, a Hygraph cosmetics brand e-commerce",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://astro.build/themes/1/",
+      "file": "pages/20-themes-1.html",
+      "title": "Themes | Astro",
+      "h1": "Jumpstart your next project with a theme",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

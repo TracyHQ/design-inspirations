@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#08C" />
+    <title>Arch Linux - Package Search</title>
+    <link rel="stylesheet" type="text/css" href="/static/archlinux_common_style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/static/archweb.css" media="screen" />
+    <link rel="icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/static/archlinux_common_style/favicon.png" />
+    <link rel="apple-touch-icon" href="/static/archlinux_common_style/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/archlinux_common_style/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/archlinux_common_style/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/archlinux_common_style/apple-touch-icon-144x144.png" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch/packages/" title="Arch Linux Packages" />
+    
+
+<link rel="alternate" type="application/rss+xml" title="Arch Linux Package Updates" href="/feeds/packages/" />
+
+</head>
+<body class="">
+    <header class="anb-packages">
+        <div id="archnavbar">
+	<div id="logo"><a href="/" title="Return to the main page">Arch Linux</a></div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-home"><a href="/" title="Arch news, packages, projects and more">Home</a></li>
+			<li id="anb-packages"><a href="/packages/" title="Arch Package Database">Packages</a></li>
+			<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+			<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+			<li id="anb-gitlab"><a href="https://gitlab.archlinux.org/archlinux" title="GitLab">GitLab</a></li>
+			<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+			<li id="anb-aur"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+			<li id="anb-download"><a href="/download/" title="Get Arch Linux">Download</a></li>
+		</ul>
+	</div>
+</div>
+
+    </header>
+    <div id="content">
+        <div id="archdev-navbar">
+            
+        </div>
+        
+        
+<div id="pkglist-search" class="box filter-criteria">
+    <h2>Package Search</h2>
+
+    <form id="pkg-search" method="get" action="/packages/">
+        <p><input type="hidden" name="sort" id="id_sort"></p>
+        
+        <fieldset>
+            <legend>Enter search criteria</legend>
+            <div>
+                <label for="id_arch" title="Limit results a specific CPU architecture">
+                    Arch</label><select name="arch" id="id_arch" multiple>
+  <option value="any">any</option>
+
+  <option value="x86_64">x86_64</option>
+
+</select></div>
+            <div>
+                <label for="id_repo" title="Limit results to a specific repository">
+                    Repository</label><select name="repo" id="id_repo" multiple>
+  <option value="Core">Core</option>
+
+  <option value="Core-Testing">Core-Testing</option>
+
+  <option value="Extra">Extra</option>
+
+  <option value="Extra-Testing">Extra-Testing</option>
+
+  <option value="Gnome-Unstable">Gnome-Unstable</option>
+
+  <option value="KDE-Unstable">KDE-Unstable</option>
+
+  <option value="Multilib">Multilib</option>
+
+  <option value="Multilib-Testing">Multilib-Testing</option>
+
+</select></div>
+            <div>
+                <label for="id_q" title="Enter keywords as desired (provides are also supported e.g. 'java-environment=7')">
+                    Keywords</label><input type="text" name="q" autofocus maxlength="100" size="30" id="id_q"></div>
+            <div>
+                <label for="id_maintainer" title="Limit results to a specific maintainer">
+                    Maintainer</label><select name="maintainer" id="id_maintainer">
+  <option value="" selected>All</option>
+
+  <option value="orphan">Orphan</option>
+
+  <option value="alex19EP">Alexander Epaneshnikov</option>
+
+  <option value="arodseth">Alexander Rødseth</option>
+
+  <option value="allan">Allan McRae</option>
+
+  <option value="anatolik">Anatol Pomozov</option>
+
+  <option value="andyrtr">Andreas Radke</option>
+
+  <option value="Segaja">Andreas Schleifer</option>
+
+  <option value="andrewSC">Andrew Crerar</option>
+
+  <option value="andrew">Andrew Gregory</option>
+
+  <option value="torxed">Anton Hvornum</option>
+
+  <option value="arojas">Antonio Rojas</option>
+
+  <option value="bgyorgy">Balló György</option>
+
+  <option value="bertptrs">Bert Peters</option>
+
+  <option value="ainola">Brett Cornwall</option>
+
+  <option value="Archange">Bruno Pagani</option>
+
+  <option value="alerque">Caleb Maclennan</option>
+
+  <option value="serebit">Campbell Jones</option>
+
+  <option value="carsme">Carl Smedstad</option>
+
+  <option value="raster">Carsten Haitzler</option>
+
+  <option value="yan12125">Chih-Hsuan Yen</option>
+
+  <option value="eworm">Christian Hesse</option>
+
+  <option value="gromit">Christian Heusel</option>
+
+  <option value="shibumi">Christian Rebischke</option>
+
+  <option value="auerhuhn">Claudia Pellegrino</option>
+
+  <option value="cbehan">Connor Behan</option>
+
+  <option value="Strit">Dan Johansen</option>
+
+  <option value="wild">Dan Printzell</option>
+
+  <option value="dbermond">Daniel Bermond</option>
+
+  <option value="polyzen">Daniel Capella</option>
+
+  <option value="daurnimator">Daurnimator</option>
+
+  <option value="dvzrv">David Runge</option>
+
+  <option value="DeepChirp">DeepChirp</option>
+
+  <option value="fabiscafe">Fabian Bornschein</option>
+
+  <option value="muflone">Fabio Castelli</option>
+
+  <option value="felixonmars">Felix Yan 🦊</option>
+
+  <option value="FFY00">Filipe Laíns</option>
+
+  <option value="freswa">Frederik Schwan</option>
+
+  <option value="integral">George Hu</option>
+
+  <option value="grawlinson">George Rawlinson</option>
+
+  <option value="grazzolini">Giancarlo Razzolini</option>
+
+  <option value="anonfunc">Giovanni Harting</option>
+
+  <option value="hcartiaux">Hyacinthe Cartiaux</option>
+
+  <option value="idevolder">Ike Devolder</option>
+
+  <option value="Lahwaacz">Jakub Klinkovský</option>
+
+  <option value="heftig">Jan Alexander Steffens</option>
+
+  <option value="jlichtblau">Jaroslav Lichtblau</option>
+
+  <option value="jelle">Jelle van der Waa</option>
+
+  <option value="demize">Johannes Löthberg</option>
+
+  <option value="tippfehlr">Jonathan Grotelüschen</option>
+
+  <option value="jsteel">Jonathan Steel</option>
+
+  <option value="josie">Josephine Pfeiffer</option>
+
+  <option value="hashworks">Justin Kromlinger</option>
+
+  <option value="juergen">Jürgen Hötzel</option>
+
+  <option value="lcarlier">Laurent Carlier</option>
+
+  <option value="artafinde">Leonidas Spyropoulos</option>
+
+  <option value="anthraxx">Levente Polyak</option>
+
+  <option value="lfleischer">Lukas Fleischer</option>
+
+  <option value="Martin">Martin Rys</option>
+
+  <option value="mtorromeo">Massimiliano Torromeo</option>
+
+  <option value="alucryd">Maxime Gauduin</option>
+
+  <option value="morganamilo">Morgan Adamiec</option>
+
+  <option value="orhun">Orhun Parmaksız</option>
+
+  <option value="ptr1337">Peter Jung</option>
+
+  <option value="pierre">Pierre Schmitz</option>
+
+  <option value="mh4ckt3mh4ckt1c4s">Quentin Michaud</option>
+
+  <option value="rgacogne">Remi Gacogne</option>
+
+  <option value="Antiz">Robin Candau</option>
+
+  <option value="sangy">Santiago Torres</option>
+
+  <option value="spupykin">Sergej Pupykin</option>
+
+  <option value="svenstaro">Sven-Hendrik Haase</option>
+
+  <option value="seblu">Sébastien Luttringer</option>
+
+  <option value="blakkheim">T.J. Townsend</option>
+
+  <option value="foxxx0">Thore Bödecker</option>
+
+  <option value="bastelfreak">Tim Meusel</option>
+
+  <option value="tpowa">Tobias Powalowski</option>
+
+  <option value="tcanabrava">Tomaz Canabrava</option>
+
+  <option value="tpkessler">Torsten Keßler</option>
+
+  <option value="kpcyrd">kpcyrd 🏳️‍🌈</option>
+
+</select></div>
+            <div>
+                <label for="id_flagged" title="Limit results based on out-of-date status">
+                    Flagged</label><select name="flagged" id="id_flagged">
+  <option value="" selected>All</option>
+
+  <option value="Flagged">Flagged</option>
+
+  <option value="Not Flagged">Not Flagged</option>
+
+</select></div>
+            <div><label>&nbsp;</label><input title="Search for packages using this criteria"
+                type="submit" value="Search" /></div>
+        </fieldset>
+    </form>
+</div>
+
+
+
+<div id="pkglist-results" class="box">
+    <div class="pkglist-stats">
+    
+    <p>15813 matching packages found.
+    Page 1 of 159.</p>
+
+    <div class="pkglist-nav">
+    <span class="prev">
+        
+        &lt; Prev
+        
+    </span>
+    <span class="next">
+        
+        <a href="?page=2&amp;"
+            title="Go to next page" rel="next">Next &gt;</a>
+        
+    </span>
+    </div>
+    
+</div>
+
+    <form id="pkglist-results-form" method="post" action="/packages/update/"><input type="hidden" name="csrfmiddlewaretoken" value="T6kBkftW6VCU8X1IoBK0xqwujEoLNz3DuOs7NENHuaMWx0EDyDYOf5crB1rPjI48">
+        <table class="results">
+            <thead>
+                <tr>
+                    
+                    <th><a href="/packages/?sort=arch"
+                            title="Sort packages by architecture">Arch</a></th>
+                    <th><a href="/packages/?sort=repo"
+                            title="Sort packages by repository">Repo</a></th>
+                    <th><a href="/packages/?sort=pkgname"
+                            title="Sort packages by package name">Name</a></th>
+                    <th>Version</th>
+                    <th>Description</th>
+                    <th><a href="/packages/?sort=-last_update"
+                            title="Sort packages by last update">Last Updated</a></th>
+                    <th><a href="/packages/?sort=-flag_date"
+                            title="Sort packages by when marked-out of-date">Flag Date</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/0ad/" title="View package details for 0ad">0ad</a></td>
+                    
+                    <td>0.28.0-3</td>
+                    
+                    <td class="wrap">Cross-platform, 3D and historically-based real-time strategy game</td>
+                    <td>2026-06-04</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/0ad-data/" title="View package details for 0ad-data">0ad-data</a></td>
+                    
+                    <td>0.28.0-1</td>
+                    
+                    <td class="wrap">Cross-platform, 3D and historically-based real-time strategy game (data files)</td>
+                    <td>2026-02-21</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/389-ds-base/" title="View package details for 389-ds-base">389-ds-base</a></td>
+                    
+                    <td>3.3.1-1</td>
+                    
+                    <td class="wrap">389 Directory Server (base)</td>
+                    <td>2026-09-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/3cpio/" title="View package details for 3cpio">3cpio</a></td>
+                    
+                    <td>0.14.0-2</td>
+                    
+                    <td class="wrap">Manage Linux kernel initramfs cpio files written in Rust</td>
+                    <td>2026-02-15</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/4ti2/" title="View package details for 4ti2">4ti2</a></td>
+                    
+                    <td>1.6.15-1</td>
+                    
+                    <td class="wrap">A software package for algebraic, geometric and combinatorial problems on linear spaces</td>
+                    <td>2026-03-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/6tunnel/" title="View package details for 6tunnel">6tunnel</a></td>
+                    
+                    <td>0.14-1</td>
+                    
+                    <td class="wrap">Tunnels IPv6 connections for IPv4-only applications</td>
+                    <td>2026-03-03</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/7zip/" title="View package details for 7zip">7zip</a></td>
+                    
+                    <td>26.03-1</td>
+                    
+                    <td class="wrap">File archiver for extremely high compression</td>
+                    <td>2026-09-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/9base/" title="View package details for 9base">9base</a></td>
+                    
+                    <td>6-9</td>
+                    
+                    <td class="wrap">Port of various original Plan9 tools to unix</td>
+                    <td>2024-09-06</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/a2jmidid/" title="View package details for a2jmidid">a2jmidid</a></td>
+                    
+                    <td>9-6</td>
+                    
+                    <td class="wrap">A daemon for exposing legacy ALSA sequencer applications in JACK MIDI system.</td>
+                    <td>2025-08-25</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/a2ps/" title="View package details for a2ps">a2ps</a></td>
+                    
+                    <td>4.15.8-1</td>
+                    
+                    <td class="wrap">An Any to PostScript filter</td>
+                    <td>2025-12-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/a52dec/" title="View package details for a52dec">a52dec</a></td>
+                    
+                    <td>0.8.0-3</td>
+                    
+                    <td class="wrap">Library for decoding ATSC A/52 (AC-3) audio streams</td>
+                    <td>2026-03-20</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aalib/" title="View package details for aalib">aalib</a></td>
+                    
+                    <td>1.4rc5-19</td>
+                    
+                    <td class="wrap">ASCII art graphic library</td>
+                    <td>2025-08-04</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aarch64-linux-gnu-binutils/" title="View package details for aarch64-linux-gnu-binutils">aarch64-linux-gnu-binutils</a></td>
+                    
+                    <td>2.47-1</td>
+                    
+                    <td class="wrap">A set of programs to assemble and manipulate binary and object files for the ARM64 target</td>
+                    <td>2026-07-30</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aarch64-linux-gnu-gcc/" title="View package details for aarch64-linux-gnu-gcc">aarch64-linux-gnu-gcc</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">16.1.0-1</span></td>
+                    
+                    <td class="wrap">The GNU Compiler Collection - cross compiler for ARM64 target</td>
+                    <td>2026-06-14</td>
+                    <td>2026-08-07</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aarch64-linux-gnu-gdb/" title="View package details for aarch64-linux-gnu-gdb">aarch64-linux-gnu-gdb</a></td>
+                    
+                    <td>17.2-1</td>
+                    
+                    <td class="wrap">The GNU Debugger for the ARM64 target</td>
+                    <td>2026-06-14</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/aarch64-linux-gnu-glibc/" title="View package details for aarch64-linux-gnu-glibc">aarch64-linux-gnu-glibc</a></td>
+                    
+                    <td>2.44-1</td>
+                    
+                    <td class="wrap">GNU C Library ARM64 target</td>
+                    <td>2026-07-25</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/aarch64-linux-gnu-linux-api-headers/" title="View package details for aarch64-linux-gnu-linux-api-headers">aarch64-linux-gnu-linux-api-headers</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">7.0-1</span></td>
+                    
+                    <td class="wrap">Kernel headers sanitized for use in userspace (aarch64-linux-gnu)</td>
+                    <td>2026-06-14</td>
+                    <td>2026-06-15</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aardvark-dns/" title="View package details for aardvark-dns">aardvark-dns</a></td>
+                    
+                    <td>2.1.0-3</td>
+                    
+                    <td class="wrap">Authoritative dns server for A/AAAA container records</td>
+                    <td>2026-08-10</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abc/" title="View package details for abc">abc</a></td>
+                    
+                    <td>0.0.0.20260511-1</td>
+                    
+                    <td class="wrap">System for Sequential Logic Synthesis and Formal Verification</td>
+                    <td>2026-06-19</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abcmidi/" title="View package details for abcmidi">abcmidi</a></td>
+                    
+                    <td>2026_06_16-1</td>
+                    
+                    <td class="wrap">Tools for ABC and MIDI files</td>
+                    <td>2026-06-19</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abduco/" title="View package details for abduco">abduco</a></td>
+                    
+                    <td>0.6-8</td>
+                    
+                    <td class="wrap">Tool for session {at,de}tach support which allows a process to run independently from its controlling terminal</td>
+                    <td>2025-11-21</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/abi-compliance-checker/" title="View package details for abi-compliance-checker">abi-compliance-checker</a></td>
+                    
+                    <td>2.3+r24+g7c175c4-1</td>
+                    
+                    <td class="wrap">Check ABI compatibility between library versions</td>
+                    <td>2025-01-11</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/abi-dumper/" title="View package details for abi-dumper">abi-dumper</a></td>
+                    
+                    <td>1.4-2</td>
+                    
+                    <td class="wrap">Dump ABI of an ELF object containing DWARF debug info</td>
+                    <td>2025-03-16</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abiword/" title="View package details for abiword">abiword</a></td>
+                    
+                    <td>3.0.8-2</td>
+                    
+                    <td class="wrap">Fully-featured word processor</td>
+                    <td>2026-05-12</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/abletonlink/" title="View package details for abletonlink">abletonlink</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">3.1.2-5</span></td>
+                    
+                    <td class="wrap">Synchronizes musical beat, tempo, and phase across multiple applications</td>
+                    <td>2026-09-01</td>
+                    <td>2026-03-03</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abseil-cpp/" title="View package details for abseil-cpp">abseil-cpp</a></td>
+                    
+                    <td>20260817.0-2</td>
+                    
+                    <td class="wrap">Collection of C++ library code designed to augment the C++ standard library</td>
+                    <td>2026-08-31</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/abuild/" title="View package details for abuild">abuild</a></td>
+                    
+                    <td>3.17.0-1</td>
+                    
+                    <td class="wrap">Alpine build tools</td>
+                    <td>2026-06-06</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/accerciser/" title="View package details for accerciser">accerciser</a></td>
+                    
+                    <td>3.48.0-2</td>
+                    
+                    <td class="wrap">Interactive Python accessibility explorer for the GNOME desktop</td>
+                    <td>2026-01-10</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/accessibility-inspector/" title="View package details for accessibility-inspector">accessibility-inspector</a></td>
+                    
+                    <td>26.08.0-1</td>
+                    
+                    <td class="wrap">Inspect your application accessibility tree</td>
+                    <td>2026-08-21</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/accountsservice/" title="View package details for accountsservice">accountsservice</a></td>
+                    
+                    <td>26.27.3-1</td>
+                    
+                    <td class="wrap">D-Bus interface for user account query and manipulation</td>
+                    <td>2026-07-04</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Core</td>
+                    <td><a href="/packages/core/x86_64/acl/" title="View package details for acl">acl</a></td>
+                    
+                    <td>2.4.0-1</td>
+                    
+                    <td class="wrap">Access control list utilities, libraries and headers</td>
+                    <td>2026-06-30</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acme/" title="View package details for acme">acme</a></td>
+                    
+                    <td>2025.07.11-2</td>
+                    
+                    <td class="wrap">Assembler for the 6502, 6510, 65c02 and 65816 processors</td>
+                    <td>2025-08-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acme-redirect/" title="View package details for acme-redirect">acme-redirect</a></td>
+                    
+                    <td>0.8.1-1</td>
+                    
+                    <td class="wrap">Tiny http daemon that answers acme challenges and redirects everything else to https</td>
+                    <td>2026-05-17</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/acme-tiny/" title="View package details for acme-tiny">acme-tiny</a></td>
+                    
+                    <td>5.0.3-2</td>
+                    
+                    <td class="wrap">A tiny script to issue and renew TLS certs from Let&#x27;s Encrypt</td>
+                    <td>2026-07-09</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/acme-user/" title="View package details for acme-user">acme-user</a></td>
+                    
+                    <td>1.1.0-1</td>
+                    
+                    <td class="wrap">acme-tiny systemd files for running as dedicated user instead of root.</td>
+                    <td>2025-03-08</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/acme.sh/" title="View package details for acme.sh">acme.sh</a></td>
+                    
+                    <td>3.1.4-1</td>
+                    
+                    <td class="wrap">An ACME Shell script, an acme client alternative to certbot</td>
+                    <td>2026-07-17</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/acorn/" title="View package details for acorn">acorn</a></td>
+                    
+                    <td>1:8.18.0-1</td>
+                    
+                    <td class="wrap">A tiny, fast JavaScript parser, written completely in JavaScript.</td>
+                    <td>2026-07-28</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acpi/" title="View package details for acpi">acpi</a></td>
+                    
+                    <td>1.8-2</td>
+                    
+                    <td class="wrap">Client for battery, power, and thermal readings</td>
+                    <td>2025-07-31</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acpi_call/" title="View package details for acpi_call">acpi_call</a></td>
+                    
+                    <td>1.2.2-385</td>
+                    
+                    <td class="wrap">A linux kernel module that enables calls to ACPI methods through /proc/acpi/call</td>
+                    <td>2026-09-06</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra-Testing</td>
+                    <td><a href="/packages/extra-testing/x86_64/acpi_call/" title="View package details for acpi_call">acpi_call</a></td>
+                    
+                    <td>1.2.2-386</td>
+                    
+                    <td class="wrap">A linux kernel module that enables calls to ACPI methods through /proc/acpi/call</td>
+                    <td>2026-09-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/acpi_call-dkms/" title="View package details for acpi_call-dkms">acpi_call-dkms</a></td>
+                    
+                    <td>1.2.2-3</td>
+                    
+                    <td class="wrap">A linux kernel module that enables calls to ACPI methods through /proc/acpi/call - module sources</td>
+                    <td>2026-04-09</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acpi_call-lts/" title="View package details for acpi_call-lts">acpi_call-lts</a></td>
+                    
+                    <td>1.2.2-358</td>
+                    
+                    <td class="wrap">A linux kernel module that enables calls to ACPI methods through /proc/acpi/call</td>
+                    <td>2026-09-06</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra-Testing</td>
+                    <td><a href="/packages/extra-testing/x86_64/acpi_call-lts/" title="View package details for acpi_call-lts">acpi_call-lts</a></td>
+                    
+                    <td>1.2.2-359</td>
+                    
+                    <td class="wrap">A linux kernel module that enables calls to ACPI methods through /proc/acpi/call</td>
+                    <td>2026-09-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acpica/" title="View package details for acpica">acpica</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">20251212-1</span></td>
+                    
+                    <td class="wrap">ACPI tools, including Intel ACPI Source Language compiler</td>
+                    <td>2026-03-14</td>
+                    <td>2026-05-15</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acpid/" title="View package details for acpid">acpid</a></td>
+                    
+                    <td>2.0.34-2</td>
+                    
+                    <td class="wrap">A daemon for delivering ACPI power management events with netlink support</td>
+                    <td>2024-07-04</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/acsccid/" title="View package details for acsccid">acsccid</a></td>
+                    
+                    <td>1.1.13-2</td>
+                    
+                    <td class="wrap">PC/SC driver that supports ACS CCID smart card readers.</td>
+                    <td>2026-03-10</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/act/" title="View package details for act">act</a></td>
+                    
+                    <td>0.2.89-1</td>
+                    
+                    <td class="wrap">Run your GitHub Actions locally</td>
+                    <td>2026-06-01</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/actionlint/" title="View package details for actionlint">actionlint</a></td>
+                    
+                    <td>1.7.12-1</td>
+                    
+                    <td class="wrap">Static checker for GitHub Actions workflow files</td>
+                    <td>2026-04-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/activity-log-manager/" title="View package details for activity-log-manager">activity-log-manager</a></td>
+                    
+                    <td>0.9.7-11</td>
+                    
+                    <td class="wrap">A graphical user interface which lets you easily control what gets logged by Zeitgeist</td>
+                    <td>2026-08-23</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/ada/" title="View package details for ada">ada</a></td>
+                    
+                    <td>4.0.0-1</td>
+                    
+                    <td class="wrap">WHATWG-compliant and fast URL parser written in modern C++</td>
+                    <td>2026-08-31</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adapta-gtk-theme/" title="View package details for adapta-gtk-theme">adapta-gtk-theme</a></td>
+                    
+                    <td>3.95.0.11-4</td>
+                    
+                    <td class="wrap">An adaptive Gtk+ theme based on Material Design Guidelines</td>
+                    <td>2026-01-03</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/add-determinism/" title="View package details for add-determinism">add-determinism</a></td>
+                    
+                    <td>0.7.3-1</td>
+                    
+                    <td class="wrap">Build postprocessor to reset metadata fields for build reproducibility</td>
+                    <td>2026-05-16</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adguardhome/" title="View package details for adguardhome">adguardhome</a></td>
+                    
+                    <td>1:0.107.79-1</td>
+                    
+                    <td class="wrap">Network-wide ads and trackers blocking DNS server</td>
+                    <td>2026-08-20</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adios2/" title="View package details for adios2">adios2</a></td>
+                    
+                    <td>2.12.1-6</td>
+                    
+                    <td class="wrap">The Adaptable Input/Output System version 2</td>
+                    <td>2026-07-14</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adljack/" title="View package details for adljack">adljack</a></td>
+                    
+                    <td>1.3.1-3</td>
+                    
+                    <td class="wrap">A standalone synthesizer for ADLMIDI and OPNMIDI on the text console</td>
+                    <td>2026-04-09</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adlplug/" title="View package details for adlplug">adlplug</a></td>
+                    
+                    <td>1.0.2-13</td>
+                    
+                    <td class="wrap">FM synthesizer for ADLMIDI with OPL3 chip emulation</td>
+                    <td>2025-10-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adlplug-lv2/" title="View package details for adlplug-lv2">adlplug-lv2</a></td>
+                    
+                    <td>1.0.2-13</td>
+                    
+                    <td class="wrap">FM synthesizer for ADLMIDI with OPL3 chip emulation - LV2 plugin</td>
+                    <td>2025-10-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adlplug-standalone/" title="View package details for adlplug-standalone">adlplug-standalone</a></td>
+                    
+                    <td>1.0.2-13</td>
+                    
+                    <td class="wrap">FM synthesizer for ADLMIDI with OPL3 chip emulation - JACK standalone</td>
+                    <td>2025-10-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adlplug-vst/" title="View package details for adlplug-vst">adlplug-vst</a></td>
+                    
+                    <td>1.0.2-13</td>
+                    
+                    <td class="wrap">FM synthesizer for ADLMIDI with OPL3 chip emulation - VST plugin</td>
+                    <td>2025-10-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adns/" title="View package details for adns">adns</a></td>
+                    
+                    <td>1.6.2-1</td>
+                    
+                    <td class="wrap">An asyncronous replacement resolver library</td>
+                    <td>2026-08-26</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-code-pro-fonts/" title="View package details for adobe-source-code-pro-fonts">adobe-source-code-pro-fonts</a></td>
+                    
+                    <td>2.042u+1.062i+1.026vf-2</td>
+                    
+                    <td class="wrap">Monospaced font family for user interface and coding environments</td>
+                    <td>2024-07-03</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-cn-fonts/" title="View package details for adobe-source-han-sans-cn-fonts">adobe-source-han-sans-cn-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-hk-fonts/" title="View package details for adobe-source-han-sans-hk-fonts">adobe-source-han-sans-hk-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans Subset OTF - Traditional Chinese (Hong Kong) OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-jp-fonts/" title="View package details for adobe-source-han-sans-jp-fonts">adobe-source-han-sans-jp-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-kr-fonts/" title="View package details for adobe-source-han-sans-kr-fonts">adobe-source-han-sans-kr-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans Subset OTF - Korean OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-otc-fonts/" title="View package details for adobe-source-han-sans-otc-fonts">adobe-source-han-sans-otc-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-sans-tw-fonts/" title="View package details for adobe-source-han-sans-tw-fonts">adobe-source-han-sans-tw-fonts</a></td>
+                    
+                    <td>2.005-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Sans Subset OTF - Traditional Chinese (Taiwan) OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-cn-fonts/" title="View package details for adobe-source-han-serif-cn-fonts">adobe-source-han-serif-cn-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif Subset OTF - Simplified Chinese OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-hk-fonts/" title="View package details for adobe-source-han-serif-hk-fonts">adobe-source-han-serif-hk-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif Subset OTF - Traditional Chinese (Hong Kong) OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-jp-fonts/" title="View package details for adobe-source-han-serif-jp-fonts">adobe-source-han-serif-jp-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif Subset OTF - Japanese OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-kr-fonts/" title="View package details for adobe-source-han-serif-kr-fonts">adobe-source-han-serif-kr-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif Subset OTF - Korean OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-otc-fonts/" title="View package details for adobe-source-han-serif-otc-fonts">adobe-source-han-serif-otc-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-han-serif-tw-fonts/" title="View package details for adobe-source-han-serif-tw-fonts">adobe-source-han-serif-tw-fonts</a></td>
+                    
+                    <td>2.003-2</td>
+                    
+                    <td class="wrap">Adobe Source Han Serif Subset OTF - Traditional Chinese (Taiwan) OpenType/CFF fonts</td>
+                    <td>2026-04-02</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-sans-fonts/" title="View package details for adobe-source-sans-fonts">adobe-source-sans-fonts</a></td>
+                    
+                    <td>3.052-2</td>
+                    
+                    <td class="wrap">Sans-serif font family for user interface environments</td>
+                    <td>2024-07-03</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adobe-source-serif-fonts/" title="View package details for adobe-source-serif-fonts">adobe-source-serif-fonts</a></td>
+                    
+                    <td>4.005-2</td>
+                    
+                    <td class="wrap">Serif typeface designed to complement Source Sans</td>
+                    <td>2024-07-03</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adriconf/" title="View package details for adriconf">adriconf</a></td>
+                    
+                    <td>2.7.4-1</td>
+                    
+                    <td class="wrap">GUI tool to configure Mesa drivers by setting options and writing them to the standard drirc file</td>
+                    <td>2026-04-09</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/adsb_deku/" title="View package details for adsb_deku">adsb_deku</a></td>
+                    
+                    <td>2025.05.03-2</td>
+                    
+                    <td class="wrap">TUI radar application</td>
+                    <td>2026-02-17</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adw-gtk-theme/" title="View package details for adw-gtk-theme">adw-gtk-theme</a></td>
+                    
+                    <td>6.5-1</td>
+                    
+                    <td class="wrap">Unofficial GTK 3 port of the libadwaita theme</td>
+                    <td>2026-05-24</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adwaita-cursors/" title="View package details for adwaita-cursors">adwaita-cursors</a></td>
+                    
+                    <td>50.0-1</td>
+                    
+                    <td class="wrap">GNOME standard cursors</td>
+                    <td>2026-04-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Gnome-Unstable</td>
+                    <td><a href="/packages/gnome-unstable/any/adwaita-cursors/" title="View package details for adwaita-cursors">adwaita-cursors</a></td>
+                    
+                    <td>51beta-1</td>
+                    
+                    <td class="wrap">GNOME standard cursors</td>
+                    <td>2026-08-20</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adwaita-fonts/" title="View package details for adwaita-fonts">adwaita-fonts</a></td>
+                    
+                    <td>51.0-2</td>
+                    
+                    <td class="wrap">The typefaces for GNOME</td>
+                    <td>2026-09-04</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Gnome-Unstable</td>
+                    <td><a href="/packages/gnome-unstable/any/adwaita-fonts/" title="View package details for adwaita-fonts">adwaita-fonts</a></td>
+                    
+                    <td>51.0-1</td>
+                    
+                    <td class="wrap">The typefaces for GNOME</td>
+                    <td>2026-08-05</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adwaita-icon-theme/" title="View package details for adwaita-icon-theme">adwaita-icon-theme</a></td>
+                    
+                    <td>50.0-1</td>
+                    
+                    <td class="wrap">GNOME standard icons</td>
+                    <td>2026-04-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Gnome-Unstable</td>
+                    <td><a href="/packages/gnome-unstable/any/adwaita-icon-theme/" title="View package details for adwaita-icon-theme">adwaita-icon-theme</a></td>
+                    
+                    <td>51beta-1</td>
+                    
+                    <td class="wrap">GNOME standard icons</td>
+                    <td>2026-08-20</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/adwaita-icon-theme-legacy/" title="View package details for adwaita-icon-theme-legacy">adwaita-icon-theme-legacy</a></td>
+                    
+                    <td>46.2-3</td>
+                    
+                    <td class="wrap">GNOME fallback icons for legacy apps</td>
+                    <td>2024-09-18</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aegisub/" title="View package details for aegisub">aegisub</a></td>
+                    
+                    <td>3.4.2-10</td>
+                    
+                    <td class="wrap">A general-purpose subtitle editor with ASS/SSA support</td>
+                    <td>2026-08-19</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aeolus/" title="View package details for aeolus">aeolus</a></td>
+                    
+                    <td>0.10.4-4</td>
+                    
+                    <td class="wrap">Synthesised pipe organ emulator</td>
+                    <td>2026-02-21</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aerc/" title="View package details for aerc">aerc</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">0.21.0-1</span></td>
+                    
+                    <td class="wrap">Email Client for your Terminal</td>
+                    <td>2025-09-08</td>
+                    <td>2026-07-28</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra-Testing</td>
+                    <td><a href="/packages/extra-testing/x86_64/aerc/" title="View package details for aerc">aerc</a></td>
+                    
+                    <td>0.22.0-1</td>
+                    
+                    <td class="wrap">Email Client for your Terminal</td>
+                    <td>2026-09-07</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/afew/" title="View package details for afew">afew</a></td>
+                    
+                    <td>4.0.2-1</td>
+                    
+                    <td class="wrap">Initial tagging script for notmuch mail</td>
+                    <td>2026-07-22</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/afl++/" title="View package details for afl++">afl++</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">5.00c-1</span></td>
+                    
+                    <td class="wrap">instrumentation-driven fuzzer for binary format</td>
+                    <td>2026-06-05</td>
+                    <td>2026-06-18</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>any</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/any/afl-utils/" title="View package details for afl-utils">afl-utils</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">1.35a-5</span></td>
+                    
+                    <td class="wrap">Utilities for automated crash sample processing/analysis, easy afl-fuzz job management and corpus optimization</td>
+                    <td>2026-01-10</td>
+                    <td>2026-06-09</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/afpfs-ng/" title="View package details for afpfs-ng">afpfs-ng</a></td>
+                    
+                    <td>0.8.2-4</td>
+                    
+                    <td class="wrap">A client for the Apple Filing Protocol (AFP)</td>
+                    <td>2024-09-06</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/agda/" title="View package details for agda">agda</a></td>
+                    
+                    <td><span class="flagged" title="Flagged out-of-date">2.8.0-9</span></td>
+                    
+                    <td class="wrap">A dependently typed functional programming language and proof assistant</td>
+                    <td>2026-09-06</td>
+                    <td>2026-09-01</td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/agda-stdlib/" title="View package details for agda-stdlib">agda-stdlib</a></td>
+                    
+                    <td>2.4-1</td>
+                    
+                    <td class="wrap">Agda standard libraries</td>
+                    <td>2026-08-13</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/age/" title="View package details for age">age</a></td>
+                    
+                    <td>1.3.2-1</td>
+                    
+                    <td class="wrap">A simple, modern and secure file encryption tool</td>
+                    <td>2026-08-30</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/age-plugin-tkey/" title="View package details for age-plugin-tkey">age-plugin-tkey</a></td>
+                    
+                    <td>0.0.6-1</td>
+                    
+                    <td class="wrap">Tillitis TKey plugin for age</td>
+                    <td>2025-04-24</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/age-plugin-tpm/" title="View package details for age-plugin-tpm">age-plugin-tpm</a></td>
+                    
+                    <td>1.0.1-2</td>
+                    
+                    <td class="wrap">TPM plugin for age</td>
+                    <td>2026-08-10</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/age-plugin-yubikey/" title="View package details for age-plugin-yubikey">age-plugin-yubikey</a></td>
+                    
+                    <td>0.5.1-1</td>
+                    
+                    <td class="wrap">Yubikey plugin for age</td>
+                    <td>2026-04-08</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>x86_64</td>
+                    <td>Extra</td>
+                    <td><a href="/packages/extra/x86_64/aha/" title="View package details for aha">aha</a></td>
+                    
+                    <td>0.5.1-3</td>
+                    
+                    <td class="wrap">Ansi HTML Adapter: convert ANSI escape sequences to HTML</td>
+                    <td>2024-07-01</td>
+                    <td></td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div class="pkglist-stats">
+    
+    <p>15813 matching packages found.
+    Page 1 of 159.</p>
+
+    <div class="pkglist-nav">
+    <span class="prev">
+        
+        &lt; Prev
+        
+    </span>
+    <span class="next">
+        
+        <a href="?page=2&amp;"
+            title="Go to next page" rel="next">Next &gt;</a>
+        
+    </span>
+    </div>
+    
+</div>
+
+
+        
+    </form>
+</div>
+
+<div id="pkglist-about" class="box">
+    <p>Can't find what you are looking for? Try searching again
+    using different criteria, or try
+    searching the <a href="https://aur.archlinux.org/">AUR</a>
+    to see if the package can be found there.</p>
+
+    <p>You are browsing the Arch Linux package database. From here you can find
+    detailed information about packages located in the official supported repositories.</p>
+</div>
+
+        <div id="footer">
+            <p>Copyright © 2002-2026 <a href="mailto:jvinet@zeroflux.org"
+                title="Contact Judd Vinet">Judd Vinet</a>, <a href="mailto:aaron@archlinux.org"
+                title="Contact Aaron Griffin">Aaron Griffin</a> and
+                <a href="mailto:anthraxx@archlinux.org" title="Contact Levente Polyák">Levente Polyák</a>.</p>
+
+            <p>The Arch Linux name and logo are recognized
+            <a href="https://terms.archlinux.org/docs/trademark-policy/"
+                title="Arch Linux Trademark Policy">trademarks</a>. Some rights reserved.</p>
+
+            <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+            the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+        </div>
+    </div>
+    <script type="text/od-defused-script" type="application/ld+json">
+    {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "/packages/?q={search_term}",
+         "query-input": "required name=search_term"
+       }
+    }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "id": "brand:cafef.vn",
+  "host": "cafef.vn",
+  "kind": "reference",
+  "slug": "cafef",
+  "name": "cafef",
+  "category": "Reference",
+  "description": "CafeF - Kênh tin tức kinh tế, tài chính, thông tin chứng khoán của Việt Nam mới nhất được cập nhật liên tục, chính xác và đầy đủ,chuyên sâu",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://cafef.vn/",
+    "finalUrl": "https://cafef.vn/",
+    "extractedAt": "2026-09-07T23:50:56.912Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 10,
+    "logos": 4,
+    "imagery": 8,
+    "fonts_files": 16,
+    "headings": 12,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

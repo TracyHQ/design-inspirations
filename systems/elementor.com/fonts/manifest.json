@@ -1,0 +1,41 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Roobert",
+      "weight": "normal",
+      "style": "normal",
+      "file": "roobert-normal.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elementor.com/wp-content/uploads/2025/10/Roobert-Regular.woff2",
+      "bytes": 94320
+    },
+    {
+      "family": "Roobert",
+      "weight": "bold",
+      "style": "normal",
+      "file": "roobert-bold.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elementor.com/wp-content/uploads/2025/10/Roobert-Bold.woff2",
+      "bytes": 98436
+    },
+    {
+      "family": "Roobert",
+      "weight": "500",
+      "style": "normal",
+      "file": "roobert-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elementor.com/wp-content/uploads/2025/10/Roobert-Medium.woff2",
+      "bytes": 95984
+    },
+    {
+      "family": "Roobert",
+      "weight": "600",
+      "style": "normal",
+      "file": "roobert-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://elementor.com/wp-content/uploads/2025/10/Roobert-SemiBold.woff2",
+      "bytes": 96952
+    }
+  ]
+}

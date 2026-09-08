@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://kernel.org/",
+  "crawledAt": "2026-09-07T23:52:44.037Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://kernel.org/",
+      "file": "pages/01-home.html",
+      "title": "The Linux Kernel Archives",
+      "h1": "The Linux Kernel Archives",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/",
+      "file": "pages/02-home.html",
+      "title": "The Linux Kernel Archives",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/about.html",
+      "file": "pages/03-category-about.html",
+      "title": "The Linux Kernel Archives - About",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/contact-us.html",
+      "file": "pages/04-category-contact-us.html",
+      "title": "The Linux Kernel Archives - Contact us",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/faq.html",
+      "file": "pages/05-category-faq.html",
+      "title": "The Linux Kernel Archives - FAQ",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/releases.html",
+      "file": "pages/06-category-releases.html",
+      "title": "The Linux Kernel Archives - Releases",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/signatures.html",
+      "file": "pages/07-category-signatures.html",
+      "title": "The Linux Kernel Archives - Signatures",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/category/site-news.html",
+      "file": "pages/08-category-site-news.html",
+      "title": "The Linux Kernel Archives - Site news",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/pub/",
+      "file": "pages/09-pub.html",
+      "title": "Index of /pub/",
+      "h1": "Index of /pub/",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/nonprofit.html",
+      "file": "pages/10-nonprofit.html",
+      "title": "The Linux Kernel Organization",
+      "h1": "The Linux Kernel Archives",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/linux.html",
+      "file": "pages/11-linux.html",
+      "title": "About Linux Kernel",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/code-of-conduct.html",
+      "file": "pages/12-code-of-conduct.html",
+      "title": "Code of Conduct",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/process/code-of-conduct.html",
+      "file": "pages/13-doc-html-latest-process-code-of-conduct.html",
+      "title": "Contributor Covenant Code of Conduct &#8212; The Linux Kernel documentation",
+      "h1": "The Linux Kernel",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/process/code-of-conduct-interpretation.html",
+      "file": "pages/14-doc-html-latest-process-code-of-conduct-.html",
+      "title": "Linux Kernel Contributor Covenant Code of Conduct Interpretation &#8212; The Linux Kernel documentation",
+      "h1": "The Linux Kernel",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/legal.html",
+      "file": "pages/15-legal.html",
+      "title": "Legal disclaimers and copyright",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/contact.html",
+      "file": "pages/16-contact.html",
+      "title": "Contacts",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/faq.html",
+      "file": "pages/17-faq.html",
+      "title": "Frequently asked questions",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/releases.html",
+      "file": "pages/18-releases.html",
+      "title": "Active kernel releases",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/signature.html",
+      "file": "pages/19-signature.html",
+      "title": "Linux kernel releases PGP signatures",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://www.kernel.org/lists-linux-dev.html",
+      "file": "pages/20-lists-linux-dev.html",
+      "title": "Linux.dev mailing list service",
+      "h1": "The Linux Kernel Archives",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

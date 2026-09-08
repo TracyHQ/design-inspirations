@@ -1,0 +1,38 @@
+{
+  "id": "brand:svelte.dev",
+  "host": "svelte.dev",
+  "kind": "reference",
+  "slug": "svelte",
+  "name": "Svelte",
+  "category": "Reference",
+  "description": "Web development for the rest of us",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://svelte.dev/",
+    "finalUrl": "https://svelte.dev/",
+    "extractedAt": "2026-09-07T23:54:47.425Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Svelte • Web development for the rest of us\" → \"Svelte\" (from the shortest title segment)",
+    "tagline: \"Svelte\" is page furniture → \"Web development for the rest of us\" (the site's own words)",
+    "accent: #f96743 is only painted in dark mode → #fa886b (most-used chromatic colour)",
+    "fonts: 4 faces self-hosted from Google Fonts (EB Garamond)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 21,
+    "fonts": 5,
+    "logos": 6,
+    "imagery": 8,
+    "fonts_files": 4,
+    "headings": 4,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

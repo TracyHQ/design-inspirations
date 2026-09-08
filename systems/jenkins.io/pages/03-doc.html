@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+Jenkins User Documentation
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='ie=edge' http-equiv='x-ua-compatible'>
+<link href='https://www.jenkins.io/doc/' rel='canonical'>
+<!-- Favicons -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#5bbad5' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#2b5797' name='msapplication-TileColor'>
+<meta content='#ffffff' name='theme-color'>
+<meta content='Jenkins User Documentation' name='apple-mobile-web-app-title'>
+<!-- Twitter Card data -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@JenkinsCI' name='twitter:site'>
+<meta content='Jenkins User Documentation' name='twitter:title'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' name='twitter:description'>
+<meta content='@JenkinsCI' name='twitter:creator'>
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta content='/images/logo-title-opengraph.png' name='twitter:image'>
+<!-- Open Graph data -->
+<meta content='Jenkins User Documentation' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://www.jenkins.io/doc/' property='og:url'>
+<meta content='Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software' property='og:description'>
+<meta content='Jenkins User Documentation' property='og:site_name'>
+<meta content='/images/logo-title-opengraph.png' property='og:image'>
+<link href='/assets/bower/bootstrap/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+<link href='/css/jenkins.css' media='screen' rel='stylesheet'>
+<link href='/css/copy-to-clipboard.css' media='screen' rel='stylesheet'>
+<link href='/stylesheets/styles.css' media='screen' rel='stylesheet'>
+<!-- Non-obtrusive CSS styles -->
+<link href='/css/footer.css' media='screen' rel='stylesheet'>
+<link href='/css/font-awesome.min.css' media='screen' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@docsearch/css@3' rel='stylesheet'>
+</head>
+<body>
+<script type="text/od-defused-script" src='/assets/bower/jquery/jquery.min.js'></script>
+<script type="text/od-defused-script" src='/js/copy-to-clipboard.js'></script>
+<jio-navbar class='fixed-nav' id='ji-toolbar' property='https://www.jenkins.io' showSearchBox theme='auto'></jio-navbar>
+
+<script type="text/od-defused-script">
+  window.addEventListener('DOMContentLoaded', function () {
+    for (var i = 1 ; i <= 6 ; i ++) {
+      anchors.add('.container .row .col-lg-9 h' + i);
+    }
+  })
+</script>
+
+<div class='container'>
+<div class='row body flex-lg-nowrap'>
+<div class='col-lg-3' id='sidebar-menu'>
+<div class='sidebar-nav tour' id='sidebar-content'>
+<p>
+<a href="/doc/" class="active">> User Documentation Home</a>
+</p>
+<h5>
+User Handbook
+</h5>
+<ul>
+<li>
+<a href="/doc/book/getting-started/" class="">User Handbook Overview</a>
+</li>
+<li>
+<a href="/doc/book/installing/" class="">Installing Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/platform-information/" class="">Platform Information</a>
+</li>
+<li>
+<a href="/doc/book/using/" class="">Using Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/pipeline/" class="">Pipeline</a>
+</li>
+<li>
+<a href="/doc/book/managing/" class="">Managing Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/security/" class="">Securing Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/system-administration/" class="">System Administration</a>
+</li>
+<li>
+<a href="/doc/book/scaling/" class="">Scaling Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/troubleshooting/" class="">Troubleshooting Jenkins</a>
+</li>
+<li>
+<a href="/doc/book/blueocean/" class="">Blue Ocean</a>
+</li>
+<li>
+<a href="/doc/book/glossary/" class="">Glossary</a>
+</li>
+</ul>
+<h5>
+Tutorials
+</h5>
+<ul>
+<li>
+<a href="/doc/pipeline/tour/getting-started/" class="">Guided Tour</a>
+</li>
+<li>
+<a href="/doc/tutorials#pipeline" class="">Jenkins Pipeline</a>
+</li>
+<li>
+<a href="/doc/tutorials#tools" class="">Using Build Tools</a>
+</li>
+</ul>
+<h5>
+Resources
+</h5>
+<ul>
+<li>
+<a href="/doc/book/pipeline/syntax/" class="">Pipeline Syntax reference</a>
+</li>
+<li>
+<a href="/doc/pipeline/steps/" class="">Pipeline Steps reference</a>
+</li>
+<li>
+<a href="/doc/upgrade-guide/" class="">LTS Upgrade guides</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-lg-9'>
+<h1>
+Jenkins User Documentation
+</h1>
+<div class="paragraph">
+<p>Welcome to the Jenkins user documentation - for people wanting to <em>use</em>
+Jenkins&#8217;s existing functionality and plugin features.</p>
+</div>
+<div class="paragraph">
+<p>If you want to extend the functionality of Jenkins by developing your own
+Jenkins plugins, please refer to the <a href="../doc/developer/">Extend Jenkins</a>
+(developer documentation).</p>
+</div>
+<div class="sect1">
+<h2 id="what-is-jenkins"><a class="anchor" href="#what-is-jenkins"></a>What is Jenkins?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Jenkins is a self-contained, open source automation server which can be used to
+automate all sorts of tasks related to building, testing, and delivering or
+deploying software.</p>
+</div>
+<div class="paragraph">
+<p>Jenkins can be installed through native system packages, Docker, or even run
+standalone by any machine with a Java Runtime Environment (JRE) installed.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="about-this-documentation"><a class="anchor" href="#about-this-documentation"></a>About this documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This documentation begins with a
+<a href="../doc/pipeline/tour/getting-started/">Guided Tour</a>
+to help you get up and running with Jenkins and introduce you to Jenkins&#8217;s main
+feature, Pipeline.</p>
+</div>
+<div class="paragraph">
+<p>There are also <a href="../doc/tutorials/">tutorials</a> geared to developers who want to
+orchestrate and automate building their project in Jenkins using Pipeline and
+Blue Ocean.</p>
+</div>
+<div class="paragraph">
+<p>If you&#8217;ve never used Jenkins before or have limited Jenkins experience, then the
+Guided Tour and introductory tutorials are good places to start.</p>
+</div>
+<div class="paragraph">
+<p>If you are looking for more detailed information about using Jenkins, please
+refer to the <a href="../doc/book/getting-started/">User Handbook</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="documentation-scope"><a class="anchor" href="#documentation-scope"></a>Documentation scope</h3>
+<div class="paragraph">
+<p>Jenkins is a highly extensible product whose functionality can be extended
+through the installation of plugins.</p>
+</div>
+<div class="paragraph">
+<p>There are a vast array of plugins available to Jenkins. However, the
+documentation covered in the <a href="../doc/pipeline/tour/getting-started/">Guided Tour</a>,
+<a href="../doc/tutorials/">Tutorials</a>, <a href="..//solutions/">Solution pages</a> and <a href="../doc/book/getting-started/">User Handbook</a> of
+this documentation are based on a <a href="../doc/book/installing/">Jenkins installation</a>
+with the <a href="../doc/book/blueocean/getting-started/">Blue Ocean plugins installed</a>,
+as well as the "suggested plugins", which are specified when running through the
+<a href="../doc/book/installing/linux/#setup-wizard">Post-installation setup wizard</a>.</p>
+</div>
+<hr>
+<!-- HTML inclusion for chapter and section layouts (i.e. as footers) as well as
+     for use in AsciiDoc file inclusions. -->
+
+<!--
+This feedback form was prepared from a Google Form, based on the techniques in
+the following documentation sources:
+https://codepen.io/learningcode/post/customize-a-google-form-for-your-website,
+https://mrhaki.blogspot.com.au/2014/06/awesome-asciidoc-include-raw-html.html,
+https://www.freshtechtips.com/2013/05/custom-google-drive-contact-form.html,
+https://stackoverflow.com/questions/24436165/set-value-of-hidden-input-inside-form
+-->
+
+<!-- Feedback form functionality in JavaScript - refer to comments in this file
+     for details on the functionality. -->
+<script type="text/od-defused-script">
+var feedbackForm = {
+    formKey : 'e/1FAIpQLSfCEexH09x_-ytEyE7wetizqOvE_-06WkK89dpBLEJcYnOp8w'
+};
+$(document).ready(function() {
+    window.onload = feedbackForm.start(window.location.href);
+});
+</script>
+<script type="text/od-defused-script" src="/js/feedback-form-functionality.js"></script>
+
+<p><a href="#feedback" data-bs-toggle="collapse">Was this page helpful?</a></p>
+
+<div id="feedback" class="collapse">
+
+<p>Please submit your feedback about this page through this
+<a href="/doc/feedback-form/">quick form</a>.</p>
+
+<p>Alternatively, if you don't wish to complete the quick form, you can simply
+indicate if you found this page helpful?</p>
+
+<!-- Redirects to custom "thank you" page once form is submitted. -->
+<script type="text/od-defused-script" type="text/javascript">
+var submitted=false;
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+onload="if(submitted) {window.location='/doc/thank-you-for-your-feedback/';}">
+</iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfCEexH09x_-ytEyE7wetizqOvE_-06WkK89dpBLEJcYnOp8w/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+
+<!-- Set the value of the current URL into the form. -->
+<input type="hidden" name="entry.1246830226" id="current-url" value=""/>
+
+<!-- The answer bit -->
+<p><input type="radio" name="entry.790002525" id="h1" value="Yes" required/>
+<label for="h1">Yes</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="entry.790002525" id="h2" value="No"/>
+<label for="h2">No</label></p>
+
+<!-- The CAPTCHA bit -->
+
+<p><label id="ssTestLabel" for="ssTestValue"></label><br/>
+<input type="text" name="ssTestValue" value="" id="ssTestValue"/></p>
+
+<!-- Submit button -->
+
+<p><button class="app-button">Submit</button></p>
+
+</form>
+
+<p>See existing feedback <a href="https://docs.google.com/spreadsheets/d/1IIdpVs39JDYKg0sLQIv-MNO928qcGApAIfdW5ohfD78">here</a>.</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/od-defused-script" src='/assets/bower/anchor-js/anchor.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/@popperjs/core/umd/popper.min.js'></script>
+<script type="text/od-defused-script" src='/assets/bower/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/lit@3.2.1/polyfill-support.js'></script>
+<script type="text/od-defused-script" src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.esm.js' type='module'></script>
+<script type="text/od-defused-script" data='ionicons' defer='' nomodule='' src='https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/ionicons/ionicons.js'></script>
+<script type="text/od-defused-script" defer='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/+esm' type='module'></script>
+<script type="text/od-defused-script" defer='' nomodule='' src='https://cdn.jsdelivr.net/npm/@jenkinsci/jenkins-io-components/'></script>
+<jio-footer githubBranch='master' githubRepo='jenkins-infra/jenkins.io' property='https://www.jenkins.io' reportAProblemTemplate='4-bug.yml' sourcePath='content/doc/index.adoc'></jio-footer>
+<script type="text/od-defused-script">
+  $(function(){
+    var $body = $(document.body);
+    $body.on("keydown", function(){
+      $body.removeClass("no-outline");
+    })
+    const updateTheme = () => {
+        const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "";
+    }
+    updateTheme();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,1002 @@
+<!DOCTYPE html><html lang="en" data-theme="dark" style="color-scheme: dark;" class="dark"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" /><meta name="theme-color" content="#121212" /><title>Remix - The Fully-Stacked Web Framework</title><link rel="icon" href="/favicon.ico" sizes="32x32" /><link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" /><link data-rmx-key="link:preload:1g-bkd461" data-remix-managed-head="true" rel="preload" href="/landing/remix-runner.avif" type="image/avif" as="image" fetchpriority="high" /><link data-rmx-key="font-preload:inter-roman" rel="preload" href="/assets/app/styles/public/font/inter-roman-latin-var.@esqR6V.woff2" as="font" type="font/woff2" crossorigin="anonymous" /><style data-rmx-key="fonts" data-rmx-preserve-dom>
+              @font-face {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 100 900;
+                font-display: swap;
+                src: url("/assets/app/styles/public/font/inter-roman-latin-var.@esqR6V.woff2") format("woff2");
+              }
+              @font-face {
+                font-family: "Inter";
+                font-style: italic;
+                font-weight: 100 900;
+                font-display: swap;
+                src: url("/assets/app/styles/public/font/inter-italic-latin-var.@FSp3vs.woff2") format("woff2");
+              }
+              @font-face {
+                font-family: "Inter Fallback";
+                font-style: normal;
+                src: local("Arial");
+                ascent-override: 90.44%;
+                descent-override: 22.52%;
+                line-gap-override: 0%;
+                size-adjust: 107.12%;
+              }
+              @font-face {
+                font-family: "Inter Fallback";
+                font-style: italic;
+                src: local("Arial Italic");
+                ascent-override: 90.44%;
+                descent-override: 22.52%;
+                line-gap-override: 0%;
+                size-adjust: 107.12%;
+              }
+              @font-face {
+                font-family: "JetBrains Mono";
+                font-style: normal;
+                font-weight: 100 800;
+                font-display: swap;
+                src: url("/assets/app/styles/public/font/jet-brains-mono.@ZngIMD.woff2") format("woff2");
+              }
+            </style><link data-rmx-key="stylesheet:global" data-remix-stylesheet="global" data-rmx-preserve-dom rel="stylesheet" href="/assets/app/styles/public/global.@7YmIC-.css" /><link data-rmx-key="stylesheet:home" data-remix-stylesheet="home" data-rmx-preserve-dom rel="stylesheet" href="/assets/app/styles/public/home.@Pholl8.css" /><link data-rmx-key="stylesheet:md" data-remix-stylesheet="md" data-rmx-preserve-dom rel="stylesheet" href="/assets/app/styles/public/md.@1S9lD7.css" media="not all" /><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" /><meta data-rmx-key="meta:description:v-guyrm6" data-remix-managed-head="true" name="description" content="The fully-stacked web framework" /><meta data-rmx-key="meta:og:type:7-1y6iimi" data-remix-managed-head="true" property="og:type" content="website" /><meta data-rmx-key="meta:og:title:13-mzpd2s" data-remix-managed-head="true" property="og:title" content="Remix - The Fully-Stacked Web Framework" /><meta data-rmx-key="meta:og:description:v-guyrm6" data-remix-managed-head="true" property="og:description" content="The fully-stacked web framework" /><meta data-rmx-key="meta:og:url:h-1knfa2w" data-remix-managed-head="true" property="og:url" content="http://remix.run/" /><meta data-rmx-key="meta:og:image:1k-1emifrk" data-remix-managed-head="true" property="og:image" content="http://remix.run/marketing/remix-run-share-thumbnail.jpg" /><meta data-rmx-key="meta:twitter:card:j-14qx641" data-remix-managed-head="true" name="twitter:card" content="summary_large_image" /><meta data-rmx-key="meta:twitter:title:13-mzpd2s" data-remix-managed-head="true" name="twitter:title" content="Remix - The Fully-Stacked Web Framework" /><meta data-rmx-key="meta:twitter:description:v-guyrm6" data-remix-managed-head="true" name="twitter:description" content="The fully-stacked web framework" /><meta data-rmx-key="meta:twitter:image:1k-1emifrk" data-remix-managed-head="true" name="twitter:image" content="http://remix.run/marketing/remix-run-share-thumbnail.jpg" /><link data-rmx-key="modulepreload:17-1vc9ccd" rel="modulepreload" href="/assets/app/actions/public/entry.@uwAowk.ts" /><link data-rmx-key="modulepreload:45-208m15" rel="modulepreload" href="/assets/npm/.pnpm/remix%403.0.0-rc.1_%40emnapi%2Bcore%401.11.2_%40emnapi%2Bruntime%401.11.2_playwright%401.60.0/node_modules/remix/dist/ui.@0zeQc1.js" /><link data-rmx-key="modulepreload:1j-1ry0ny7" rel="modulepreload" href="/assets/app/actions/public/document-redirect.@4dZCPQ.ts" /><link data-rmx-key="modulepreload:18-8i359k" rel="modulepreload" href="/assets/app/actions/public/fathom.@-pJ0rO.ts" /><link data-rmx-key="modulepreload:2m-e47z2d" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/index.@8ojgwJ.js" /><link data-rmx-key="modulepreload:2s-172u22j" rel="modulepreload" href="/assets/npm/.pnpm/fathom-client%403.7.2/node_modules/fathom-client/dist/fathom-client.esm.@BrscRY.js" /><link data-rmx-key="modulepreload:2s-vi9ifa" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/run.@ONwPrP.js" /><link data-rmx-key="modulepreload:2t-uoqh6p" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/vdom.@SJdoA9.js" /><link data-rmx-key="modulepreload:33-1kinvrt" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/client-entries.@LYcv_U.js" /><link data-rmx-key="modulepreload:2y-8y2stf" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/component.@FlPy9w.js" /><link data-rmx-key="modulepreload:31-bunfmp" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/spa-response.@ViET4V.js" /><link data-rmx-key="modulepreload:33-8dxw1v" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/create-element.@Yo1vJv.js" /><link data-rmx-key="modulepreload:31-e79lg5" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/mixin.@taA1eD.js" /><link data-rmx-key="modulepreload:37-1l836wx" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/typed-event-target.@IUL5XL.js" /><link data-rmx-key="modulepreload:34-1kqjar5" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/on-mixin.@yBB_4j.js" /><link data-rmx-key="modulepreload:36-hxj2m0" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/link-mixin.@DgP4bu.js" /><link data-rmx-key="modulepreload:35-12wsk0x" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/ref-mixin.@uUZIxA.js" /><link data-rmx-key="modulepreload:37-1wl5dmo" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/attrs-mixin.@TzaUb4.js" /><link data-rmx-key="modulepreload:2w-18sg66a" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/css-mixin.@dqPAf3.js" /><link data-rmx-key="modulepreload:2z-d9s5j8" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/navigation.@H36TVD.js" /><link data-rmx-key="modulepreload:2u-cpqd4e" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/frame.@dLswjh.js" /><link data-rmx-key="modulepreload:2s-1rfvzoy" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/index.@raSe4W.js" /><link data-rmx-key="modulepreload:30-h0z0kp" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/error-event.@SNp_g8.js" /><link data-rmx-key="modulepreload:2y-1qmistm" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/invariant.@dfBnb7.js" /><link data-rmx-key="modulepreload:2y-10lgcvp" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/scheduler.@ShRG_z.js" /><link data-rmx-key="modulepreload:2y-1sah6bv" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/reconcile.@RTGj2M.js" /><link data-rmx-key="modulepreload:2x-pqnstj" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/to-vnode.@J4S94R.js" /><link data-rmx-key="modulepreload:2u-1u35h7b" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/vnode.@FVrpVH.js" /><link data-rmx-key="modulepreload:2z-etytg3" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/diff-props.@M2cy_b.js" /><link data-rmx-key="modulepreload:2w-bqejfx" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/refresh.@bDmY2k.js" /><link data-rmx-key="modulepreload:2s-181j0q0" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/jsx.@7poC9R.js" /><link data-rmx-key="modulepreload:32-sp4xsy" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/children.@nEl-Oe.js" /><link data-rmx-key="modulepreload:34-qb7845" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/form-navigation.@YPup8q.js" /><link data-rmx-key="modulepreload:2x-dfs1pp" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/diff-dom.@Zwk-yd.js" /><link data-rmx-key="modulepreload:34-1ywvo2c" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/stream-protocol.@N_u3Cd.js" /><link data-rmx-key="modulepreload:35-zg4avv" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/module-preloader.@r6D_FR.js" /><link data-rmx-key="modulepreload:35-xivvmn" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/frame-resolution.@DAvHCZ.js" /><link data-rmx-key="modulepreload:3a-1smtojr" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/client-entry-boundary.@TA8XKS.js" /><link data-rmx-key="modulepreload:2x-2s65io" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/stylesheet.@2_zX2M.js" /><link data-rmx-key="modulepreload:2s-qsisc7" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/style.@9Ef_Qr.js" /><link data-rmx-key="modulepreload:33-1bcayog" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/document-state.@g1s-rh.js" /><link data-rmx-key="modulepreload:2z-lfz2lm" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/props.@22950c.js" /><link data-rmx-key="modulepreload:2z-61fw73" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/vnode.@iELExo.js" /><link data-rmx-key="modulepreload:2t-11ze4ds" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/layers.@8wz8wV.js" /><link data-rmx-key="modulepreload:34-iu70yf" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/attributes.@23QVF3.js" /><link data-rmx-key="modulepreload:33-156zj2d" rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/svg-attributes.@9VTZ1x.js" /><script type="text/od-defused-script" type="module" async src="/assets/app/actions/public/entry.@uwAowk.ts"></script><script type="text/od-defused-script">
+  let media = window.matchMedia("(prefers-color-scheme: dark)");
+  let sync = () => {
+    let theme = document.documentElement.dataset.theme;
+    let isDark = theme === "dark" || (theme == null && media.matches);
+    document.documentElement.classList.toggle("dark", isDark);
+  };
+  sync();
+  if (typeof media.addEventListener === "function") {
+    media.addEventListener("change", sync);
+  } else if (typeof media.addListener === "function") {
+    media.addListener(sync);
+  }
+</script><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/feature-section.@t1TQ_c.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/remix%403.0.0-rc.1_%40emnapi%2Bcore%401.11.2_%40emnapi%2Bruntime%401.11.2_playwright%401.60.0/node_modules/remix/dist/ui.@0zeQc1.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/newsletter-subscribe.@39Shja.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/theme.@Ri4AJi.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/routes.@LCpS4S.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/css-mixins.@hGlKzh.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/styles/tokens.@19sSmE.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/remix%403.0.0-rc.1_%40emnapi%2Bcore%401.11.2_%40emnapi%2Bruntime%401.11.2_playwright%401.60.0/node_modules/remix/dist/ui/jsx-runtime.@VlbfZD.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/index.@8ojgwJ.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/remix%403.0.0-rc.1_%40emnapi%2Bcore%401.11.2_%40emnapi%2Bruntime%401.11.2_playwright%401.60.0/node_modules/remix/dist/fetch-router/routes.@gyv7CX.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/jsx-runtime.@MbOlK_.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/run.@ONwPrP.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/vdom.@SJdoA9.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/client-entries.@LYcv_U.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/component.@FlPy9w.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/spa-response.@ViET4V.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/create-element.@Yo1vJv.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/mixin.@taA1eD.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/typed-event-target.@IUL5XL.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/on-mixin.@yBB_4j.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/link-mixin.@DgP4bu.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/ref-mixin.@uUZIxA.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/mixins/attrs-mixin.@TzaUb4.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/css-mixin.@dqPAf3.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/navigation.@H36TVD.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/routes.@dY1rI_.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/jsx.@7poC9R.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/frame.@dLswjh.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/index.@raSe4W.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/error-event.@SNp_g8.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/invariant.@dfBnb7.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/scheduler.@ShRG_z.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/reconcile.@RTGj2M.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/to-vnode.@J4S94R.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/vnode.@FVrpVH.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/diff-props.@M2cy_b.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/refresh.@bDmY2k.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/children.@nEl-Oe.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/form-navigation.@YPup8q.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/route-map.@Pbtvpl.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/request-methods.@qOJSIQ.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/route-helpers/method.@H6Ih0W.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/route-helpers/form.@NuJZA6.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/route-helpers/resource.@nxB_tG.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bfetch-router%400.21.0/node_modules/%40remix-run/fetch-router/dist/lib/route-helpers/resources.@rOQkQM.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/vnode.@iELExo.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/diff-dom.@Zwk-yd.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/stream-protocol.@N_u3Cd.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/module-preloader.@r6D_FR.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/frame-resolution.@DAvHCZ.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/client-entry-boundary.@TA8XKS.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/stylesheet.@2_zX2M.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/style.@9Ef_Qr.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/document-state.@g1s-rh.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/props.@22950c.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/route-pattern.@iQbr7U.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/href.@3Xrrg2.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/join.@MSmUw1.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/style/layers.@8wz8wV.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/core/attributes.@23QVF3.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/route-pattern.@hwSJeU.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/route-pattern/parse.@DYDLtI.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/href.@do-96A.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/join.@gV1o2M.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/runtime/svg-attributes.@9VTZ1x.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/route-pattern/serialize.@FdLxLQ.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/route-pattern/split.@FvvTfQ.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Broute-pattern%400.24.0/node_modules/%40remix-run/route-pattern/dist/lib/unreachable.@WUq2jW.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/document-sync.@LMmfjn.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/document-head-sync.@owZ3AX.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/document-head.@kDxpPa.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/landing-enhancements.@nD-Saj.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/preset-glow.@QQ0qXi.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/landing-nav.@dtE_fD.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/label-overlay.@TOq3jk.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/loading-screen.@FoeT17.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/scroll-logo.@hkYMJT.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/section-nav.@jBm2ws.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/package-logos.@RodFY4.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/keyboard.@dD0yvF.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/model-loader.@cqB_2-.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/presets.@3TOOTM.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/utils/math.@ALVr17.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/utils/reduced-motion.@CXNdUM.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/components/particle-canvas.@ophvol.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/remix%403.0.0-rc.1_%40emnapi%2Bcore%401.11.2_%40emnapi%2Bruntime%401.11.2_playwright%401.60.0/node_modules/remix/dist/ui/popover.@e5uzCE.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/icon.@qiYipo.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/runner-media.@0FEvIQ.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/wordmark.@wMuBO1.tsx" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/ui/public/brand-context-menu.@ZJqKvu.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/build/three.module.@uXTeEP.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/controls.@NVxM3z.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/camera-transition.@IhIBNq.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/engine.@SSrcx6.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/frame-governor.@X5lb-i.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/label-projection.@rOtt9f.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/mouse-sim.@inL6sG.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/particles.@ljFA7q.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/rest-baker.@ekqhix.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/morph.@ll_xGk.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/model-texture.@D-wL-M.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/types.@HJDqGy.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/popover/index.@M5F_aS.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/build/three.core.@40AsPm.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/EffectComposer.@w2TSyS.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/RenderPass.@PJ1-iV.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.@CWV_kP.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/AfterimagePass.@8NpGGi.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/background-pass.@hWVVCd.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/app/actions/public/remix-landing/engine/preset-glsl.@R_U7ys.ts" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/anchor/index.@OvoMrg.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/popover/outside-click.@4nFBR6.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/%40remix-run%2Bui%400.8.0/node_modules/%40remix-run/ui/dist/popover/scroll-lock.@mEpiNc.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/shaders/CopyShader.@X4RSxu.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/ShaderPass.@O4qz8j.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/MaskPass.@c_Ucpm.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/postprocessing/Pass.@xijsmz.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.@VXB5NC.js" /><link data-rmx-module-preload rel="modulepreload" href="/assets/npm/.pnpm/three%400.184.0/node_modules/three/examples/jsm/shaders/AfterimageShader.@kZIWgK.js" /><style data-rmx-style="rmxc-e3is7g1t70t4h">@layer rmx.rmxc-e3is7g1t70t4h { .rmxc-e3is7g1t70t4h {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: light-dark(#ffffff, #121212);
+  color: light-dark(#121212, #c8c8c8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &::selection {
+    background-color: light-dark(#bce0ff, #1747b6);
+    color: light-dark(#000000, #ffffff);
+  }
+} }</style><style data-rmx-style="rmxc-1dyx9i2gghe1t">@layer rmx.rmxc-1dyx9i2gghe1t { .rmxc-1dyx9i2gghe1t {
+  position: relative;
+  min-height: 100vh;
+  background: #000000;
+  color: #dee2e6;
+  overflow-x: clip;
+} }</style><style data-rmx-style="rmxc-1efh2go6pmz9x">@layer rmx.rmxc-1efh2go6pmz9x { @keyframes loading-screen-failsafe {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes loading-screen-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes loading-screen-dismiss {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.rmxc-1efh2go6pmz9x {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 50;
+  background: #000;
+  pointer-events: none;
+  animation: loading-screen-failsafe 1ms linear 8000ms forwards;
+  & picture {
+    opacity: 0;
+    animation: loading-screen-appear 200ms ease-out 250ms forwards;
+  }
+  &.is-dismissed {
+    animation: loading-screen-dismiss 600ms ease-out forwards;
+  }
+  &.is-skipped {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rmxc-1efh2go6pmz9x {
+    &.is-dismissed {
+      visibility: hidden;
+      opacity: 0;
+      animation: none;
+    }
+  }
+} }</style><style data-rmx-style="rmxc-1gt0t8al05a4n">@layer rmx.rmxc-1gt0t8al05a4n { .rmxc-1gt0t8al05a4n {
+  max-height: 128px;
+  width: auto;
+} }</style><style data-rmx-style="rmxc-hdeptrgbxohk">@layer rmx.rmxc-hdeptrgbxohk { .rmxc-hdeptrgbxohk {
+  position: relative;
+  z-index: 10;
+} }</style><style data-rmx-style="rmxc-19n76d0qmls79">@layer rmx.rmxc-19n76d0qmls79 { .rmxc-19n76d0qmls79 {
+  --glass-wash: radial-gradient(ellipse 76% 68% at 12% -28%, color-mix(in srgb, var(--brand-cycle, #7ce95a) 7.8%, transparent) 0%, color-mix(in srgb, var(--brand-cycle, #7ce95a) 2.1%, transparent) 48%, transparent 76%), linear-gradient(145deg, rgba(10,27,48,.44), rgba(4,12,26,.24) 58%, rgba(2,7,16,.14));
+  --glass-rim: radial-gradient(ellipse 44% 135% at 12% 0%, color-mix(in srgb, var(--brand-cycle, #7ce95a) 27.5%, rgba(105,160,220,.13)) 0%, rgba(85,140,200,.075) 48%, transparent 82%), linear-gradient(180deg, rgba(95,150,215,.105), rgba(50,90,140,.04) 58%, rgba(70,120,175,.08));
+  --glass-top-catch: rgba(105,160,220,.2);
+  --glass-side-catch: rgba(55,105,165,.085);
+  --glass-border-base: rgba(95,145,205,.275);
+  --glass-divider: color-mix(in srgb, var(--brand-cycle, #7ce95a) 2.7%, rgba(82,130,185,.09));
+  --glass-depth: inset 0 0 42px rgba(255,255,255,.018), inset 0 0 0 2px rgba(0,0,0,.16), 0 32px 100px rgba(0,0,0,.24);
+  & [data-home-card] {
+    position: relative;
+    border-color: var(--glass-border-base) !important;
+    border-top-width: 1px !important;
+    background-image: var(--glass-wash) !important;
+    box-shadow: inset 0 1px 0 var(--glass-top-catch), inset 1px 0 0 var(--glass-side-catch), var(--glass-depth);
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      padding: 1px;
+      border-radius: inherit;
+      background: var(--glass-rim);
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+  }
+  & [data-card-grid] {
+    border-top-color: var(--glass-divider) !important;
+  }
+  & [data-card-item] {
+    border-color: var(--glass-divider) !important;
+  }
+} }</style><style data-rmx-style="rmxc-ckqctpbh4p6w">@layer rmx.rmxc-ckqctpbh4p6w { .rmxc-ckqctpbh4p6w {
+  min-height: 100vh;
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-top: calc(clamp(128px, 92px + 7vw, 188px) + (100vw - 48px) * 43 / 440);
+}
+@media (min-width: 1024px) and (max-height: 900px), (min-width: 1024px) and (min-aspect-ratio: 16/9) {
+  .rmxc-ckqctpbh4p6w {
+    background: radial-gradient(ellipse 42% 45% at 50% 54%, rgba(0, 0, 0, 0.58) 0%, rgba(0, 0, 0, 0.38) 48%, rgba(0, 0, 0, 0.16) 78%, rgba(0, 0, 0, 0.1) 100%);
+  }
+} }</style><style data-rmx-style="rmxc-1wmbl7peu7m1m">@layer rmx.rmxc-1wmbl7peu7m1m { .rmxc-1wmbl7peu7m1m {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .rmxc-1wmbl7peu7m1m {
+    gap: clamp(20px, 2.5vw, 32px);
+  }
+} }</style><style data-rmx-style="rmxc-q65vi01fdqdt7">@layer rmx.rmxc-q65vi01fdqdt7 { .rmxc-q65vi01fdqdt7 {
+  margin: 0;
+  max-width: 920px;
+  min-width: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-size: clamp(42px, 6vw, 84px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.15), 0px 0px 4px rgba(255,255,255,0.15), 0px 0px 12px rgba(255,255,255,0.15), 0px 0px 16px rgba(255,255,255,0.15), 0px 0px 24px rgba(255,255,255,0.15);
+  text-wrap: balance;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-q65vi01fdqdt7 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-sgune51uc1rpe">@layer rmx.rmxc-sgune51uc1rpe { .rmxc-sgune51uc1rpe {
+  margin: 0;
+  max-width: 480px;
+  min-width: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: #dee2e6;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.15), 0px 0px 4px rgba(255,255,255,0.15), 0px 0px 12px rgba(255,255,255,0.15), 0px 0px 16px rgba(255,255,255,0.15), 0px 0px 24px rgba(255,255,255,0.15);
+  text-wrap: pretty;
+}
+@media (min-width: 1024px) {
+  .rmxc-sgune51uc1rpe {
+    max-width: 560px;
+  }
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-sgune51uc1rpe {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-1bcwyvfg5xd60">@layer rmx.rmxc-1bcwyvfg5xd60 { .rmxc-1bcwyvfg5xd60 {
+  white-space: nowrap;
+} }</style><style data-rmx-style="rmxc-1dhy6z8z6x701">@layer rmx.rmxc-1dhy6z8z6x701 { .rmxc-1dhy6z8z6x701 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+} }</style><style data-rmx-style="rmxc-cye3m81qagme3">@layer rmx.rmxc-cye3m81qagme3 { .rmxc-cye3m81qagme3 {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  background-color: rgba(5, 8, 16, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 5px 8px;
+  text-shadow: none;
+  white-space: nowrap;
+} }</style><style data-rmx-style="rmxc-uwwkrsx290id">@layer rmx.rmxc-uwwkrsx290id { .rmxc-uwwkrsx290id {
+  width: calc(100vw - 20px);
+  min-height: 100vh;
+  scroll-margin-top: clamp(72px, 10vh, 112px);
+  margin: 0 auto;
+  padding: 128px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .rmxc-uwwkrsx290id {
+    padding: 160px 0;
+  }
+} }</style><style data-rmx-style="rmxc-1n6my3w1cxam2x">@layer rmx.rmxc-1n6my3w1cxam2x { .rmxc-1n6my3w1cxam2x {
+  width: min(840px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 3px solid var(--brand-cycle, #7ce95a);
+  border-radius: 28px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.56);
+  overflow: hidden;
+} }</style><style data-rmx-style="rmxc-46xuzc31z6q5">@layer rmx.rmxc-46xuzc31z6q5 { .rmxc-46xuzc31z6q5 {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 32px 24px 24px;
+  background: transparent;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .rmxc-46xuzc31z6q5 {
+    padding: 48px 48px 32px;
+  }
+} }</style><style data-rmx-style="rmxc-1hmpq5f5t3v6i">@layer rmx.rmxc-1hmpq5f5t3v6i { .rmxc-1hmpq5f5t3v6i {
+  margin: 0;
+  max-width: 720px;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #dee2e6;
+  font-size: 32px;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.15), 0px 0px 4px rgba(255,255,255,0.15), 0px 0px 12px rgba(255,255,255,0.15), 0px 0px 16px rgba(255,255,255,0.15), 0px 0px 24px rgba(255,255,255,0.15);
+  text-wrap: balance;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-1hmpq5f5t3v6i {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+}
+@media (min-width: 768px) {
+  .rmxc-1hmpq5f5t3v6i {
+    font-size: clamp(34px, 4vw, 52px);
+  }
+} }</style><style data-rmx-style="rmxc-1xtwlfy15smlgl">@layer rmx.rmxc-1xtwlfy15smlgl { .rmxc-1xtwlfy15smlgl {
+  max-width: 58ch;
+  margin: 36px 0 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: #dee2e6;
+  font-size: 18px;
+  line-height: 1.55;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-1xtwlfy15smlgl {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-1copki01f81679">@layer rmx.rmxc-1copki01f81679 { .rmxc-1copki01f81679 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+@media (min-width: 768px) {
+  .rmxc-1copki01f81679 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+} }</style><style data-rmx-style="rmxc-1knqk9r1vzfhxa">@layer rmx.rmxc-1knqk9r1vzfhxa { .rmxc-1knqk9r1vzfhxa {
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 24px;
+  border-right: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: transparent;
+  &:nth-last-child(2) {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  &:last-child {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .rmxc-1knqk9r1vzfhxa {
+    padding: 32px 48px;
+    &:nth-child(odd) {
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    &:nth-last-child(-n + 2) {
+      padding-bottom: 48px;
+      border-bottom: 0;
+    }
+  }
+} }</style><style data-rmx-style="rmxc-wfb4eh1e4l9l8">@layer rmx.rmxc-wfb4eh1e4l9l8 { .rmxc-wfb4eh1e4l9l8 {
+  margin: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.012em;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-wfb4eh1e4l9l8 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-8hpngs5m23kt">@layer rmx.rmxc-8hpngs5m23kt { .rmxc-8hpngs5m23kt {
+  margin: 20px 0 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 16px;
+  line-height: 1.5;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-8hpngs5m23kt {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-7jrn0dbwuvzq">@layer rmx.rmxc-7jrn0dbwuvzq { .rmxc-7jrn0dbwuvzq {
+  width: min(720px, 100%);
+  height: 680px;
+  margin: 112px auto 0;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .rmxc-7jrn0dbwuvzq {
+    height: clamp(720px, 64vw, 820px);
+    margin-top: 144px;
+  }
+} }</style><style data-rmx-style="rmxc-165nqjpeld1uq">@layer rmx.rmxc-165nqjpeld1uq { .rmxc-165nqjpeld1uq {
+  width: calc(100vw - 20px);
+  min-height: 112vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 128px 0;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+@media (min-width: 1024px) {
+  .rmxc-165nqjpeld1uq {
+    padding: 160px 0;
+  }
+} }</style><style data-rmx-style="rmxc-1czfkh52jwqnu">@layer rmx.rmxc-1czfkh52jwqnu { .rmxc-1czfkh52jwqnu {
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+@media (min-width: 1024px) {
+  .rmxc-1czfkh52jwqnu {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+} }</style><style data-rmx-style="rmxc-1vag7ff1k0iesc">@layer rmx.rmxc-1vag7ff1k0iesc { .rmxc-1vag7ff1k0iesc {
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+  padding: 32px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 3px solid var(--brand-cycle, #7ce95a);
+  border-radius: 24px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.64);
+  contain: paint;
+}
+@media (min-width: 1024px) {
+  .rmxc-1vag7ff1k0iesc {
+    padding: 48px;
+    background: rgba(0, 0, 0, 0.58);
+  }
+} }</style><style data-rmx-style="rmxc-l2k1bi1kk8afd">@layer rmx.rmxc-l2k1bi1kk8afd { .rmxc-l2k1bi1kk8afd {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 640px;
+} }</style><style data-rmx-style="rmxc-1g395imrhssw9">@layer rmx.rmxc-1g395imrhssw9 { .rmxc-1g395imrhssw9 {
+  margin: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #dee2e6;
+  font-size: clamp(32px, 3.6vw, 50px);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  white-space: pre-line;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.15), 0px 0px 4px rgba(255,255,255,0.15), 0px 0px 12px rgba(255,255,255,0.15), 0px 0px 16px rgba(255,255,255,0.15), 0px 0px 24px rgba(255,255,255,0.15);
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-1g395imrhssw9 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-11uyuxw15p6nh1">@layer rmx.rmxc-11uyuxw15p6nh1 { .rmxc-11uyuxw15p6nh1 {
+  margin: 36px 0 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: #dee2e6;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: -0.008px;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-11uyuxw15p6nh1 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-sc6nu2yau3vz">@layer rmx.rmxc-sc6nu2yau3vz { .rmxc-sc6nu2yau3vz {
+  display: grid;
+  gap: 22px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+} }</style><style data-rmx-style="rmxc-1899n0a12s05hn">@layer rmx.rmxc-1899n0a12s05hn { .rmxc-1899n0a12s05hn {
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 24px -24px -32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+@media (min-width: 640px) {
+  .rmxc-1899n0a12s05hn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .rmxc-1899n0a12s05hn {
+    margin: 32px -48px -48px;
+  }
+} }</style><style data-rmx-style="rmxc-1um2l60dvmtkv">@layer rmx.rmxc-1um2l60dvmtkv { .rmxc-1um2l60dvmtkv {
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+} }</style><style data-rmx-style="rmxc-jwssowzzjwy1">@layer rmx.rmxc-jwssowzzjwy1 { .rmxc-jwssowzzjwy1 {
+  padding: 24px;
+  border-top: 0;
+  border-right: 0;
+  &:not(:first-child) {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  &:nth-last-child(-n + 2) {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 640px) {
+  .rmxc-jwssowzzjwy1 {
+    padding: 32px 48px;
+    &:nth-child(odd) {
+      border-right: 1px solid rgba(255, 255, 255, 0.14);
+    }
+    &:not(:first-child) {
+      border-top: 0;
+    }
+    &:nth-child(n + 3) {
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
+    }
+    &:nth-last-child(-n + 2) {
+      padding-bottom: 48px;
+    }
+  }
+} }</style><style data-rmx-style="rmxc-19f92bh45raxy">@layer rmx.rmxc-19f92bh45raxy { .rmxc-19f92bh45raxy {
+  display: block;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.008px;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-19f92bh45raxy {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-1jmog2i1vt9rbf">@layer rmx.rmxc-1jmog2i1vt9rbf { .rmxc-1jmog2i1vt9rbf {
+  display: block;
+  margin-top: 20px;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.008px;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-1jmog2i1vt9rbf {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-1lc0a481qilqyd">@layer rmx.rmxc-1lc0a481qilqyd { .rmxc-1lc0a481qilqyd {
+  width: calc(100vw - 20px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 128px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .rmxc-1lc0a481qilqyd {
+    padding: 160px 0;
+  }
+} }</style><style data-rmx-style="rmxc-1rnkqd014iki73">@layer rmx.rmxc-1rnkqd014iki73 { .rmxc-1rnkqd014iki73 {
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 3px solid var(--brand-cycle, #7ce95a);
+  border-radius: 28px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.58);
+  overflow: hidden;
+} }</style><style data-rmx-style="rmxc-1l1jc6o7kvjw7">@layer rmx.rmxc-1l1jc6o7kvjw7 { .rmxc-1l1jc6o7kvjw7 {
+  padding: 32px 24px 24px;
+}
+@media (min-width: 768px) {
+  .rmxc-1l1jc6o7kvjw7 {
+    padding: 48px 48px 32px;
+  }
+} }</style><style data-rmx-style="rmxc-13id7w4sv5zlj">@layer rmx.rmxc-13id7w4sv5zlj { .rmxc-13id7w4sv5zlj {
+  margin: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #dee2e6;
+  font-size: 32px;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.15), 0px 0px 4px rgba(255,255,255,0.15), 0px 0px 12px rgba(255,255,255,0.15), 0px 0px 16px rgba(255,255,255,0.15), 0px 0px 24px rgba(255,255,255,0.15);
+  text-wrap: balance;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-13id7w4sv5zlj {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+}
+@media (min-width: 768px) {
+  .rmxc-13id7w4sv5zlj {
+    font-size: clamp(36px, 4vw, 54px);
+  }
+} }</style><style data-rmx-style="rmxc-yapgwpdascw4">@layer rmx.rmxc-yapgwpdascw4 { .rmxc-yapgwpdascw4 {
+  max-width: 760px;
+  margin: 36px 0 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: #dee2e6;
+  font-size: 18px;
+  line-height: 1.55;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-yapgwpdascw4 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+} }</style><style data-rmx-style="rmxc-1sbf8p81gu0hvx">@layer rmx.rmxc-1sbf8p81gu0hvx { .rmxc-1sbf8p81gu0hvx {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  list-style: none;
+}
+@media (min-width: 768px) {
+  .rmxc-1sbf8p81gu0hvx {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+} }</style><style data-rmx-style="rmxc-1wq6aau1v4sbrp">@layer rmx.rmxc-1wq6aau1v4sbrp { .rmxc-1wq6aau1v4sbrp {
+  box-sizing: border-box;
+  padding: 24px;
+  border-right: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  &:nth-last-child(2) {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  &:last-child {
+    padding-bottom: 32px;
+    border-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .rmxc-1wq6aau1v4sbrp {
+    padding: 32px 48px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    &:nth-child(even) {
+      border-right: 0;
+    }
+    &:nth-last-child(-n + 2) {
+      padding-bottom: 48px;
+      border-bottom: 0;
+    }
+  }
+} }</style><style data-rmx-style="rmxc-g7mc5aqxbkn3">@layer rmx.rmxc-g7mc5aqxbkn3 { .rmxc-g7mc5aqxbkn3 {
+  max-width: none;
+  margin: 0;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+@supports (text-box-trim: trim-both) {
+  .rmxc-g7mc5aqxbkn3 {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
+}
+@media (min-width: 768px) {
+  .rmxc-g7mc5aqxbkn3 {
+    max-width: 28ch;
+  }
+} }</style><style data-rmx-style="rmxc-g672dt1c1dm0">@layer rmx.rmxc-g672dt1c1dm0 { .rmxc-g672dt1c1dm0 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.92em;
+  color: #ffffff;
+} }</style><style data-rmx-style="rmxc-n7mxbba8u6sa">@layer rmx.rmxc-n7mxbba8u6sa { .rmxc-n7mxbba8u6sa {
+  gap: 0;
+  margin: 24px -24px -32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+@media (min-width: 1024px) {
+  .rmxc-n7mxbba8u6sa {
+    margin: 32px -48px -48px;
+  }
+} }</style><style data-rmx-style="rmxc-z1v09f1hpp28g">@layer rmx.rmxc-z1v09f1hpp28g { .rmxc-z1v09f1hpp28g {
+  padding: 24px;
+  border-top: 0;
+  &:not(:first-child) {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  &:last-child {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .rmxc-z1v09f1hpp28g {
+    padding: 32px 48px;
+    &:last-child {
+      padding-bottom: 48px;
+    }
+  }
+} }</style><style data-rmx-style="rmxc-1sgdoceh983a9">@layer rmx.rmxc-1sgdoceh983a9 { .rmxc-1sgdoceh983a9 {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+@media (min-width: 1024px) {
+  .rmxc-1sgdoceh983a9 {
+    grid-column: 1 / span 6;
+    justify-self: end;
+  }
+} }</style><style data-rmx-style="rmxc-1je43lr1fvxyzq">@layer rmx.rmxc-1je43lr1fvxyzq { .rmxc-1je43lr1fvxyzq {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  margin-top: 32px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.008px;
+  text-decoration: none;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+  &:hover {
+    background: color-mix(in srgb, var(--brand-cycle, #2dacf9) 18%, rgba(255, 255, 255, 0.08));
+  }
+} }</style><style data-rmx-style="rmxc-lbjdzn1eyc25o">@layer rmx.rmxc-lbjdzn1eyc25o { .rmxc-lbjdzn1eyc25o {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+@media (min-width: 1024px) {
+  .rmxc-lbjdzn1eyc25o {
+    grid-column: 7 / -1;
+    justify-self: start;
+  }
+} }</style><style data-rmx-style="rmxc-rbwqxp1xu20ju">@layer rmx.rmxc-rbwqxp1xu20ju { .rmxc-rbwqxp1xu20ju {
+  container-type: inline-size;
+} }</style><style data-rmx-style="rmxc-1q48py0104vyy1">@layer rmx.rmxc-1q48py0104vyy1 { .rmxc-1q48py0104vyy1 {
+  padding: 40px 24px 24px;
+} }</style><style data-rmx-style="rmxc-m8gi3k1jzfnmz">@layer rmx.rmxc-m8gi3k1jzfnmz { .rmxc-m8gi3k1jzfnmz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+@media (min-width: 1024px) {
+  .rmxc-m8gi3k1jzfnmz {
+    align-items: flex-end;
+  }
+} }</style><style data-rmx-style="rmxc-r2h94m1a19um9">@layer rmx.rmxc-r2h94m1a19um9 { .rmxc-r2h94m1a19um9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+  .rmxc-r2h94m1a19um9 {
+    justify-content: flex-end;
+  }
+} }</style><style data-rmx-style="rmxc-1tntk8hyxloi0">@layer rmx.rmxc-1tntk8hyxloi0 { .rmxc-1tntk8hyxloi0 {
+  display: block;
+  color: #dee2e6;
+  flex-shrink: 0;
+} }</style><style data-rmx-style="rmxc-p14gl611x0s63">@layer rmx.rmxc-p14gl611x0s63 { .rmxc-p14gl611x0s63 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+@media (min-width: 1024px) {
+  .rmxc-p14gl611x0s63 {
+    justify-content: flex-end;
+  }
+} }</style><style data-rmx-style="rmxc-vcza8y1wb333">@layer rmx.rmxc-vcza8y1wb333 { .rmxc-vcza8y1wb333 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: #dee2e6;
+  opacity: 1;
+} }</style><style data-rmx-style="rmxc-15dmxkrpcla96">@layer rmx.rmxc-15dmxkrpcla96 { .rmxc-15dmxkrpcla96 {
+  display: block;
+  width: 20px;
+  height: 20px;
+} }</style><style data-rmx-style="rmxc-jf13y61v04cyf">@layer rmx.rmxc-jf13y61v04cyf { .rmxc-jf13y61v04cyf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  width: 100%;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #dee2e6;
+  white-space: nowrap;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .rmxc-jf13y61v04cyf {
+    align-items: flex-end;
+    text-align: start;
+  }
+} }</style><style data-rmx-style="rmxc-1ljjm771hxmx5i">@layer rmx.rmxc-1ljjm771hxmx5i { .rmxc-1ljjm771hxmx5i {
+  margin: 0;
+} }</style><style data-rmx-style="rmxc-1066dye1dmful1">@layer rmx.rmxc-1066dye1dmful1 { .rmxc-1066dye1dmful1 {
+  color: inherit;
+  text-decoration: none;
+} }</style></head><body class="rmxc-e3is7g1t70t4h"><!-- rmx:h:h095fd599 --><!-- /rmx:h --><div style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5Z" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 12h18M3 6h18M3 18h18" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="chevron-r" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m9 18 6-6-6-6" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="chevron-d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m6 9 6 6 6-6" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+
+    <symbol id="github" viewBox="0 0 24 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="x" viewBox="0 0 300 271" xmlns="http://www.w3.org/2000/svg">
+        <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="youtube" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.5088 23.7468L24.0145 19.9999L17.5088 16.2529V23.7468Z" fill="currentColor"/>
+        <path d="M20 0C8.95599 0 0 8.95599 0 20C0 31.044 8.95599 40 20 40C31.044 40 40 31.044 40 20C40 8.95599 31.044 0 20 0ZM32.4969 20.0204C32.4969 20.0204 32.4969 24.0765 31.9824 26.0324C31.694 27.103 30.8499 27.9471 29.7794 28.2352C27.8235 28.75 20 28.75 20 28.75C20 28.75 12.197 28.75 10.2206 28.2147C9.15009 27.9266 8.30597 27.0822 8.01758 26.0117C7.50275 24.0765 7.50275 20 7.50275 20C7.50275 20 7.50275 15.9442 8.01758 13.9883C8.30566 12.9178 9.17053 12.0529 10.2206 11.7648C12.1765 11.25 20 11.25 20 11.25C20 11.25 27.8235 11.25 29.7794 11.7853C30.8499 12.0734 31.694 12.9178 31.9824 13.9883C32.5177 15.9442 32.4969 20.0204 32.4969 20.0204Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="discord" viewBox="0 0 40 40" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fillRule="evenodd" clipRule="evenodd" fill="currentColor" d="M20 0C8.95105 0 0 8.95105 0 20C0 31.0256 8.95105 39.9767 20 40C31.049 40 40 31.049 40 20C40 8.95105 31.049 0 20 0ZM23.6829 10.2331C25.5244 10.5361 27.2959 11.0955 28.9976 11.8648C31.9113 16.1538 33.3565 21.0023 32.8437 26.5967C30.8857 28.0652 28.6712 29.1608 26.3169 29.8834C25.7808 29.1608 25.3146 28.4149 24.9183 27.6224C25.6875 27.3426 26.4335 26.993 27.1328 26.5734C27.0395 26.5035 26.9521 26.4335 26.8647 26.3636C26.7773 26.2937 26.6899 26.2238 26.5966 26.1538C22.4708 28.1119 17.6689 28.1119 13.543 26.1538C13.4498 26.2238 13.3624 26.2937 13.275 26.3636C13.1875 26.4335 13.1001 26.5035 13.0069 26.5734C13.7062 26.993 14.4288 27.3426 15.198 27.6224C14.8018 28.4149 14.3356 29.1608 13.7994 29.8834C11.4451 29.1841 9.25397 28.0652 7.27262 26.5967C6.82973 21.7715 7.73882 16.8997 11.0955 11.8881C12.7738 11.0955 14.5687 10.5361 16.4101 10.2331C16.6666 10.676 16.8997 11.1422 17.1094 11.6317C19.0675 11.3286 21.0488 11.3286 23.0069 11.6317C23.1934 11.1888 23.4498 10.6527 23.6829 10.2331ZM13.4498 21.0256C13.4498 22.4475 14.4754 23.613 15.7575 23.613C17.0628 23.613 18.0652 22.4475 18.0885 21.0256C18.0885 19.5804 17.0628 18.4149 15.7575 18.4149C14.4754 18.4149 13.4498 19.6037 13.4498 21.0256ZM22.0279 21.0256C22.0279 22.4475 23.0535 23.613 24.3356 23.613C25.6176 23.613 26.6199 22.4708 26.6432 21.0256C26.6666 19.5804 25.6409 18.4149 24.3356 18.4149C23.0535 18.4149 22.0279 19.6037 22.0279 21.0256Z"
+    />
+    </symbol>
+
+    <symbol id="sun" viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-linecap="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.01152 0.880105V0.5M6.01152 11.523V11.1429M11.1429 6.01152H11.523M0.5 6.01152H0.880105M9.64031 2.38311L9.90909 2.11433M2.11393 9.90874L2.38271 9.63997M9.64031 9.63994L9.90909 9.90871M2.11393 2.1143L2.38271 2.38308M9.04494 5.99074C9.04494 7.67015 7.68351 9.03158 6.0041 9.03158C4.32469 9.03158 2.96326 7.67015 2.96326 5.99074C2.96326 4.31133 4.32469 2.9499 6.0041 2.9499C7.68351 2.9499 9.04494 4.31133 9.04494 5.99074Z"/>
+    </symbol>
+
+    <symbol id="moon" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.7992 7.31978C10.348 7.4566 9.86939 7.53017 9.37357 7.53017C6.66457 7.53017 4.46849 5.33409 4.46849 2.62509C4.46849 2.12948 4.54199 1.65104 4.67869 1.20007C2.66497 1.81076 1.19922 3.68159 1.19922 5.89477C1.19922 8.60377 3.3953 10.7998 6.1043 10.7998C8.31769 10.7998 10.1887 9.33381 10.7992 7.31978Z"/>
+    </symbol>
+
+    <symbol id="chevrons-up-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m7.5 15 5 5 5-5m-10-6 5-5 5 5" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 21h8m-4-4v4M4 3h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2" vector-effect="non-scaling-stroke"/>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="check-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12" vector-effect="non-scaling-stroke"/>
+    </symbol>
+
+    <symbol id="x-mark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" stroke="currentColor">
+        <path d="M4 4l6 6m0-6l-6 6" />
+    </symbol>
+
+    <symbol id="circle-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+        <path clip-rule="evenodd" d="M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12ZM6.28 5.22a.75.75 0 0 0-1.06 1.06L6.94 8 5.22 9.72a.75.75 0 1 0 1.06 1.06L8 9.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L9.06 8l1.72-1.72a.75.75 0 0 0-1.06-1.06L8 6.94 6.28 5.22Z" fill-rule="evenodd" />
+    </symbol>
+
+    <symbol id="download" viewBox="0 0 32 32" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.0002 21.1668C15.8668 21.1668 15.7446 21.1446 15.6335 21.1002C15.5224 21.0557 15.4113 20.9779 15.3002 20.8668L10.2668 15.8335C10.0668 15.6335 9.97239 15.3946 9.9835 15.1168C9.99461 14.8391 10.1002 14.6002 10.3002 14.4002C10.5002 14.2002 10.7391 14.1002 11.0168 14.1002C11.2946 14.1002 11.5335 14.2002 11.7335 14.4002L15.0002 17.7002V6.3335C15.0002 6.04461 15.0946 5.80572 15.2835 5.61683C15.4724 5.42794 15.7113 5.3335 16.0002 5.3335C16.2891 5.3335 16.5279 5.42794 16.7168 5.61683C16.9057 5.80572 17.0002 6.04461 17.0002 6.3335V17.7002L20.3002 14.4002C20.5002 14.2002 20.7391 14.1002 21.0168 14.1002C21.2946 14.1002 21.5335 14.2002 21.7335 14.4002C21.9335 14.6002 22.0335 14.8391 22.0335 15.1168C22.0335 15.3946 21.9335 15.6335 21.7335 15.8335L16.7002 20.8668C16.5891 20.9779 16.4779 21.0557 16.3668 21.1002C16.2557 21.1446 16.1335 21.1668 16.0002 21.1668ZM7.3335 26.6668C6.80016 26.6668 6.3335 26.4668 5.9335 26.0668C5.5335 25.6668 5.3335 25.2002 5.3335 24.6668V20.9002C5.3335 20.6113 5.42794 20.3724 5.61683 20.1835C5.80572 19.9946 6.04461 19.9002 6.3335 19.9002C6.62239 19.9002 6.86127 19.9946 7.05016 20.1835C7.23905 20.3724 7.3335 20.6113 7.3335 20.9002V24.6668H24.6668V20.9002C24.6668 20.6113 24.7613 20.3724 24.9502 20.1835C25.1391 19.9946 25.3779 19.9002 25.6668 19.9002C25.9557 19.9002 26.1946 19.9946 26.3835 20.1835C26.5724 20.3724 26.6668 20.6113 26.6668 20.9002V24.6668C26.6668 25.2002 26.4668 25.6668 26.0668 26.0668C25.6668 26.4668 25.2002 26.6668 24.6668 26.6668H7.3335Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="circle-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+    </symbol>
+
+    <symbol id="circle-plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+    </symbol>
+
+    <symbol id="fast-forward" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+        <path d="M4.55 16.96l6.2-4.13c.59-.4.59-1.27 0-1.66l-6.2-4.13C3.89 6.59 3 7.07 3 7.87v8.26c0 .8.89 1.28 1.55.83zM13 7.87v8.26c0 .8.89 1.28 1.55.83l6.2-4.13c.59-.4.59-1.27 0-1.66l-6.2-4.13c-.66-.45-1.55.03-1.55.83z"></path>
+    </symbol>
+</svg>
+</div><div class="rmxc-1dyx9i2gghe1t"><div><!-- rmx:h:h187f81df --><div class="loading-screen-overlay rmxc-1efh2go6pmz9x"><picture><source media="(prefers-reduced-motion: reduce)" srcset="/landing/remix-runner-static.png" type="image/png" /><source srcset="/landing/remix-runner.avif" type="image/avif" /><source srcset="/landing/remix-runner.webp" type="image/webp" /><img src="/landing/remix-runner.gif" alt="Loading Remix homepage" width="384" height="384" loading="eager" fetchpriority="high" class="rmxc-1gt0t8al05a4n" /></picture></div><!-- /rmx:h --></div><main class="rmxc-hdeptrgbxohk rmxc-19n76d0qmls79"><section id="fully-stacked-web-framework" class="rmxc-ckqctpbh4p6w"><div class="rmxc-1wmbl7peu7m1m"><h1 class="rmxc-q65vi01fdqdt7">The fully-stacked<br />web framework</h1><p class="rmxc-sgune51uc1rpe">Remix brings together a server runtime, routing, authentication, sessions, database integrations, a UI framework, asset compilation, dynamic styling, and accessible components in a cohesive <span class="rmxc-1bcwyvfg5xd60">stack built on Web APIs.</span></p><div class="rmxc-1dhy6z8z6x701"><code class="rmxc-cye3m81qagme3">npx remix@next new my-app</code></div></div></section><section id="everything-you-need" class="rmxc-uwwkrsx290id"><div data-home-card="" class="rmxc-1n6my3w1cxam2x"><div class="rmxc-46xuzc31z6q5"><h2 class="rmxc-1hmpq5f5t3v6i">Everything you need, all in a single package</h2><p class="rmxc-1xtwlfy15smlgl">Remix provides the core systems you need to build, run, and maintain a modern web application. Use the complete framework or reach for individual packages when you need them.</p></div><div data-card-grid="" class="rmxc-1copki01f81679"><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Server &amp; runtime</h3><p class="rmxc-8hpngs5m23kt">Fetch-based HTTP servers and portable Web APIs that run across modern JavaScript runtimes.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Routing &amp; middleware</h3><p class="rmxc-8hpngs5m23kt">Typed routes, controllers, request context, and composable middleware from one coherent model.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Data &amp; databases</h3><p class="rmxc-8hpngs5m23kt">Runtime validation and typed relational data for SQLite, PostgreSQL, and MySQL.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Auth &amp; sessions</h3><p class="rmxc-8hpngs5m23kt">Authentication, OAuth, cookies, sessions, storage adapters, and security middleware.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">UI framework, components &amp; styling</h3><p class="rmxc-8hpngs5m23kt">Server rendering, HTML-first Frames, composable styles, accessible components, forms, and animation.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Assets &amp; development</h3><p class="rmxc-8hpngs5m23kt">On-demand TypeScript, JSX, and CSS compilation with HMR and a first-party CLI.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Files &amp; storage</h3><p class="rmxc-8hpngs5m23kt">Streaming uploads, web-standard File APIs, local storage, and S3 integration.</p></div><div data-card-item="" class="rmxc-1knqk9r1vzfhxa"><h3 class="rmxc-wfb4eh1e4l9l8">Testing &amp; production</h3><p class="rmxc-8hpngs5m23kt">A test framework, logging, compression, static files, and production server tooling.</p></div></div></div><div aria-hidden="true" data-package-logos-panel="true" class="rmxc-7jrn0dbwuvzq"></div></section><section id="smaller-mental-model" class="rmxc-165nqjpeld1uq"><div class="rmxc-1czfkh52jwqnu"><div data-home-card="" class="rmxc-1vag7ff1k0iesc rmxc-l2k1bi1kk8afd"><h2 class="rmxc-1g395imrhssw9">A bigger toolkit with a smaller mental model</h2><p class="rmxc-11uyuxw15p6nh1">Building a complete web app shouldn't mean learning a different system at every layer. Remix gives you more of the stack with fewer concepts.</p><ul data-card-grid="" class="rmxc-sc6nu2yau3vz rmxc-1899n0a12s05hn"><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-jwssowzzjwy1"><span class="rmxc-19f92bh45raxy">Web APIs throughout</span><span class="rmxc-1jmog2i1vt9rbf">Use standard requests, responses, streams, and files across the stack.</span></li><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-jwssowzzjwy1"><span class="rmxc-19f92bh45raxy">Runtime-first</span><span class="rmxc-1jmog2i1vt9rbf">Run source directly without making a bundler the center of the architecture.</span></li><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-jwssowzzjwy1"><span class="rmxc-19f92bh45raxy">Composable packages</span><span class="rmxc-1jmog2i1vt9rbf">Use the complete framework or adopt focused parts independently.</span></li><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-jwssowzzjwy1"><span class="rmxc-19f92bh45raxy">One coherent model</span><span class="rmxc-1jmog2i1vt9rbf">Server, data, UI, assets, and testing are designed to work together.</span></li></ul></div></div></section><section id="re-rethinking-best-practices" class="rmxc-1lc0a481qilqyd"><div data-home-card="" class="rmxc-1rnkqd014iki73"><div class="rmxc-1l1jc6o7kvjw7"><h2 class="rmxc-13id7w4sv5zlj">Re-rethinking best practices</h2><p class="rmxc-yapgwpdascw4">Web frameworks have accumulated layers of complexity and indirection that now feel inevitable. Remix revisits those assumptions with APIs and boundaries you can follow all the way down to web standards.</p></div><ul data-card-grid="" class="rmxc-1sbf8p81gu0hvx"><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">State is just JavaScript</h3><p class="rmxc-8hpngs5m23kt">A component runs setup once, then returns a function that renders JSX. Keep state in ordinary JavaScript variables, objects, or classes rather than hooks or a prescribed state container.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">Updates are explicit</h3><p class="rmxc-8hpngs5m23kt">Your code decides when the UI renders. Call <code class="rmxc-g672dt1c1dm0">handle.update()</code> after changing state, and await it when your next step depends on the updated DOM.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">Not everything needs a component</h3><p class="rmxc-8hpngs5m23kt">Mixins attach reusable behavior di events, styles, refs, and accessibility behavior directly to individual elements. This keeps the markup intact without introducing another component.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">Client components with visible boundaries</h3><p class="rmxc-8hpngs5m23kt">You define how hydrated client components map to browser code in the server runtime. The client boundary stays visible in your code.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">HTML over the wire</h3><p class="rmxc-8hpngs5m23kt">Use <code class="rmxc-g672dt1c1dm0">&lt;Frame&gt;</code> to update regions of a page independently with server-rendered HTML from ordinary routes.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">HTTP is the interface</h3><p class="rmxc-8hpngs5m23kt">Routes, middleware, assets, and integrations all use standard Request and Response objects for HTML, JSON, files, redirects, and more. The server contract stays portable and inspectable.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">Assets compile when requested</h3><p class="rmxc-8hpngs5m23kt">Start your server immediately. TypeScript, JSX, and CSS compile on demand in development and production, so there is no application build step.</p></li><li data-card-item="" class="rmxc-1wq6aau1v4sbrp"><h3 class="rmxc-g7mc5aqxbkn3">Modules stay modules</h3><p class="rmxc-8hpngs5m23kt">Native JavaScript modules and module preloads let the browser own loading and caching. Each module can be cached independently instead of invalidating an entire bundle.</p></li></ul></div></section><section id="humans-and-agents" class="rmxc-165nqjpeld1uq"><div class="rmxc-1czfkh52jwqnu"><div data-home-card="" class="rmxc-1vag7ff1k0iesc rmxc-l2k1bi1kk8afd"><h2 class="rmxc-1g395imrhssw9">Better for humans. Better for agents.</h2><p class="rmxc-11uyuxw15p6nh1">Remix keeps the important parts of your app visible: standard Web APIs, explicit updates, runtime boundaries, and recognizable source modules. Humans and coding agents can trace how the system works and take control when the defaults aren't enough.</p><ul data-card-grid="" class="rmxc-sc6nu2yau3vz rmxc-n7mxbba8u6sa"><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-z1v09f1hpp28g"><span class="rmxc-19f92bh45raxy">Built to be understood</span><span class="rmxc-1jmog2i1vt9rbf">Trace behavior through ordinary code and web standards instead of hidden framework machinery.</span></li><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-z1v09f1hpp28g"><span class="rmxc-19f92bh45raxy">Built to be changed</span><span class="rmxc-1jmog2i1vt9rbf">Follow the defaults, replace a layer, or take control of the logic when your app needs it.</span></li><li data-card-item="" class="rmxc-1um2l60dvmtkv rmxc-z1v09f1hpp28g"><span class="rmxc-19f92bh45raxy">Built for coding agents</span><span class="rmxc-1jmog2i1vt9rbf">Remix skills teach agents the framework’s APIs, conventions, and workflows.</span></li></ul></div></div></section><section id="test-drive" class="rmxc-165nqjpeld1uq"><div class="rmxc-1czfkh52jwqnu"><div data-home-card="" class="rmxc-1vag7ff1k0iesc rmxc-1sgdoceh983a9"><h2 class="rmxc-1g395imrhssw9">Take Remix for a test drive</h2><p class="rmxc-11uyuxw15p6nh1">Build your first app with the step-by-step guide, then explore the API when you want to go deeper.</p><a href="https://guides.remix.run/start-here/" target="_blank" rel="noopener noreferrer" class="rmxc-1je43lr1fvxyzq">Get started</a></div><div data-home-card="" class="rmxc-1vag7ff1k0iesc rmxc-lbjdzn1eyc25o"><h2 class="rmxc-1g395imrhssw9">Stay in the loop</h2><p class="rmxc-11uyuxw15p6nh1">Get a monthly update on releases, technical work, events, and what is coming next. No spam. Unsubscribe anytime.</p><div class="rmxc-rbwqxp1xu20ju"><!-- rmx:f:f478df468 --><head><style data-rmx-style="rmxc-1dae8s8177l8h">@layer rmx.rmxc-1dae8s8177l8h { .rmxc-1dae8s8177l8h {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 32px;
+} }</style><style data-rmx-style="rmxc-1v6kjpe1ne8ftd">@layer rmx.rmxc-1v6kjpe1ne8ftd { .rmxc-1v6kjpe1ne8ftd {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+} }</style><style data-rmx-style="rmxc-1kq3fu8ctdpan">@layer rmx.rmxc-1kq3fu8ctdpan { .rmxc-1kq3fu8ctdpan {
+  flex: 1 1 220px;
+  min-width: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: transparent;
+  color: #ffffff;
+  height: 44px;
+  padding: 0 18px;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.008px;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+  }
+} }</style><style data-rmx-style="rmxc-2bevanlwxrtw">@layer rmx.rmxc-2bevanlwxrtw { .rmxc-2bevanlwxrtw {
+  flex-shrink: 0;
+  border-radius: 999px;
+  border: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  height: 44px;
+  padding: 0 18px;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.008px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 150ms ease, color 150ms ease;
+  &:hover {
+    background: color-mix(in srgb, var(--brand-cycle, #2dacf9) 18%, rgba(255, 255, 255, 0.08));
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+}
+@media (min-width: 640px) {
+  .rmxc-2bevanlwxrtw {
+    width: auto;
+  }
+} }</style><style data-rmx-style="rmxc-fwovj2k77n7n">@layer rmx.rmxc-fwovj2k77n7n { .rmxc-fwovj2k77n7n {
+  margin-top: 12px;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: -0.008px;
+  color: rgba(255, 255, 255, 0.76);
+} }</style><style data-rmx-style="rmxc-2to77pam79i8">@layer rmx.rmxc-2to77pam79i8 { .rmxc-2to77pam79i8 {
+  display: none;
+} }</style></head><!-- rmx:h:hac7a2164 --><form action="/newsletter" method="post" data-rmx-reset-scroll="false" data-rmx-src="/newsletter?frame=home" data-rmx-target="newsletter-subscribe" class="rmxc-1dae8s8177l8h"><label for="landing-newsletter-email" class="rmxc-1v6kjpe1ne8ftd">Email address</label><input id="landing-newsletter-email" type="email" name="email" required autocomplete="email" placeholder="name@example.com" class="rmxc-1kq3fu8ctdpan" /><button type="submit" class="rmxc-2bevanlwxrtw">Subscribe</button></form><div id="landing-newsletter-message" aria-live="polite" class="rmxc-fwovj2k77n7n rmxc-2to77pam79i8"></div><!-- /rmx:h --><script type="text/od-defused-script" type="application/json" id="rmx-data">{"h":{"hac7a2164":{"exportName":"LandingNewsletterSubscribeForm","moduleUrl":"/assets/app/actions/public/remix-landing/components/feature-section.@t1TQ_c.tsx","props":{"status":null}}}}</script><!-- /rmx:f --></div></div></div></section><footer class="rmxc-1q48py0104vyy1"><div class="rmxc-m8gi3k1jzfnmz"><div class="rmxc-r2h94m1a19um9"><svg height="8" viewBox="0 0 440 43" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Remix" class="rmxc-1tntk8hyxloi0"><path d="M81.5098 0.0492554L81.5088 0.0502319V0.0512085C92.8976 0.0512085 100.766 5.13219 99.084 11.4008L97.9443 15.6459C96.2619 21.9146 85.6671 26.9964 74.2783 26.9965H73.1123L97.0352 42.5922H58.627L39.2881 27.7514C38.5139 27.2578 37.6147 26.9955 36.6963 26.9955H4.36816L7.41406 15.644H64.0391C66.1678 15.644 68.1501 14.6941 68.4648 13.5219H68.4658C68.7805 12.3497 67.3085 11.3989 65.1787 11.3989H8.55371L11.5996 0.0492554H81.5098ZM31.2402 30.9135C32.313 30.9136 33.0943 31.9304 32.8164 32.9653L30.2334 42.5912H0.183594L3.31738 30.9135H31.2402Z" fill="currentColor"></path><path d="M307.883 42.8041L319.33 0.33374H349.554L338.037 42.8041H307.883Z" fill="currentColor"></path><path d="M193.893 0.333862H291.753C304.875 0.333862 313.949 6.16313 311.995 13.3803L304.038 42.8042H273.884L278.002 27.6065L280.375 18.932L281.283 15.601C281.841 13.4497 279.119 11.6454 275.14 11.6454H266.555C266.485 12.2006 266.485 12.7558 266.276 13.3803L258.388 42.8042H228.165L232.283 27.6065L234.656 18.932L235.563 15.601C236.122 13.4497 233.4 11.6454 229.421 11.6454H221.045L212.599 42.8042H182.445L193.893 0.333862Z" fill="currentColor"></path><path d="M394.464 7.36133L404.841 0.59082H439.896L408.101 21.335L428.752 42.499H393.696L386.682 35.3096L375.663 42.499H340.607L373.045 21.335L352.801 0.59082H387.856L394.464 7.36133Z" fill="currentColor"></path><path d="M190.38 0.333679L187.379 11.6452H138.588C138.568 11.6452 138.548 11.6461 138.528 11.6462H131.452L130.339 15.8698H130.354L130.352 15.8786H186.193L183.191 27.2595H127.28L127.211 27.6061C126.583 29.7573 129.305 31.4927 133.283 31.4929H182.004L178.933 42.8044H116.671C103.549 42.8043 94.4745 36.9746 96.4289 29.8268L100.826 13.3806C100.924 13.0184 101.049 12.6599 101.197 12.3054V12.3063L104.353 0.333679H190.38Z" fill="currentColor"></path></svg><div class="rmxc-p14gl611x0s63"><a href="https://github.com/remix-run/remix" aria-label="GitHub" target="_blank" rel="noopener noreferrer" class="rmxc-vcza8y1wb333"><svg aria-hidden="true" focusable="false" class="rmxc-15dmxkrpcla96"><use href="#github"></use></svg></a><a href="https://x.com/remix_run" aria-label="X" target="_blank" rel="noopener noreferrer" class="rmxc-vcza8y1wb333"><svg aria-hidden="true" focusable="false" class="rmxc-15dmxkrpcla96"><use href="#x"></use></svg></a><a href="https://www.youtube.com/c/Remix-Run/streams" aria-label="YouTube" target="_blank" rel="noopener noreferrer" class="rmxc-vcza8y1wb333"><svg aria-hidden="true" focusable="false" class="rmxc-15dmxkrpcla96"><use href="#youtube"></use></svg></a><a href="https://remix.run/discord" aria-label="Discord" target="_blank" rel="noopener noreferrer" class="rmxc-vcza8y1wb333"><svg aria-hidden="true" focusable="false" class="rmxc-15dmxkrpcla96"><use href="#discord"></use></svg></a></div></div><div class="rmxc-jf13y61v04cyf"><p class="rmxc-1ljjm771hxmx5i">Docs and examples <a href="https://tlo.mit.edu/understand-ip/exploring-mit-open-source-license-comprehensive-guide#:~:text=The%20license%20originated%20from%20the%20MIT&#39;s%20Project,TensorFlow%20*%20React%20*%20jQuery%20*%20Node.js" target="_blank" rel="noopener noreferrer" class="rmxc-1066dye1dmful1">licensed under MIT</a></p><p class="rmxc-1ljjm771hxmx5i">©2026 <a href="https://www.shopify.com/" target="_blank" rel="noopener noreferrer" class="rmxc-1066dye1dmful1">Shopify, Inc.</a></p></div></div></footer></main></div><script type="text/od-defused-script" type="application/json" id="rmx-data">{"h":{"h095fd599":{"exportName":"DocumentSync","moduleUrl":"/assets/app/ui/public/document-sync.@LMmfjn.tsx","props":{"forceTheme":"dark","stylesheets":["global","home"]}},"h187f81df":{"exportName":"RemixLandingEnhancements","moduleUrl":"/assets/app/actions/public/remix-landing/landing-enhancements.@nD-Saj.tsx","props":{}}},"f":{"f478df468":{"status":"resolved","name":"newsletter-subscribe","src":"/newsletter/signup/home"}}}</script></body></html><!-- rmx:flush document -->

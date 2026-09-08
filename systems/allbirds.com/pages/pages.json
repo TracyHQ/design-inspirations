@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://allbirds.com/",
+  "crawledAt": "2026-09-07T23:55:46.221Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://allbirds.com/",
+      "file": "pages/01-home.html",
+      "title": "Allbirds: Comfortable, Sustainable Shoes & Apparel",
+      "h1": "Wildly Comfortable. Super Natural.",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/",
+      "file": "pages/02-home.html",
+      "title": "Allbirds: Comfortable, Sustainable Shoes & Apparel",
+      "h1": "Wildly Comfortable. Super Natural.",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/search",
+      "file": "pages/03-search.html",
+      "title": "Search - Allbirds",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/new-arrivals-26",
+      "file": "pages/04-collections-new-arrivals-26.html",
+      "title": "NEW ARRIVALS '26",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/shop-all-26",
+      "file": "pages/05-collections-shop-all-26.html",
+      "title": "SHOP ALL '26",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-new-arrivals",
+      "file": "pages/06-collections-mens-new-arrivals.html",
+      "title": "Allbirds New Arrivals, Men's Dashers, Loungers, Socks - FREE SHIPPING",
+      "h1": "New Arrivals",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-bestsellers",
+      "file": "pages/07-collections-mens-bestsellers.html",
+      "title": "Allbirds: Bestselling Men’s Shoes, Wear-All-Day Comfort",
+      "h1": "Men's Bestsellers",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-terralux-cl",
+      "file": "pages/08-collections-mens-terralux-cl.html",
+      "title": "Men's Terralux™ Collection - Sustainable Suede Sneakers & Shoes | Allbirds",
+      "h1": "Men's Terralux™ Collection",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens",
+      "file": "pages/09-collections-mens.html",
+      "title": "Allbirds: Sustainable Men’s Shoes, Wear-All-Day Comfort",
+      "h1": "Men's Shoes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-sneakers",
+      "file": "pages/10-collections-mens-sneakers.html",
+      "title": "Sustainable Sneakers for Men | Allbirds",
+      "h1": "Men's Sneakers",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-loungers",
+      "file": "pages/11-collections-mens-loungers.html",
+      "title": "Slip-Ons for Men | Sustainable Shoes | Allbirds",
+      "h1": "Men's Slip Ons",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-sandals",
+      "file": "pages/12-collections-mens-sandals.html",
+      "title": "Men’s Allbirds Slides & Flip Flops | Easy, Lightweight Comfort",
+      "h1": "Men's Sandals",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-active-shoes",
+      "file": "pages/13-collections-mens-active-shoes.html",
+      "title": "Sustainable Running Shoes for Men | Allbirds",
+      "h1": "Men's Active Shoes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-mizzles",
+      "file": "pages/14-collections-mens-mizzles.html",
+      "title": "Water-Repellent Shoes for Men | Allbirds",
+      "h1": "Men’s All-Weather Collection",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/products/mens-runner-nz-slip-on-mushroom",
+      "file": "pages/15-products-mens-runner-nz-slip-on-mushroom.html",
+      "title": "Men’s Runner NZ Slip-On Sneakers | Lightweight Everyday Comfort | Allbirds",
+      "h1": "Men's Runner NZ Slip On",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/products/mens-cruiser-medium-grey",
+      "file": "pages/16-products-mens-cruiser-medium-grey.html",
+      "title": "Men’s Cruiser | Everyday Comfort & Style | Allbirds",
+      "h1": "Men's Cruiser",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/products/mens-tree-runner-nz-medium-grey",
+      "file": "pages/17-products-mens-tree-runner-nz-medium-grey.html",
+      "title": "Men's Tree Runner NZ - Everyday Sneakers | Allbirds",
+      "h1": "Men's Tree Runner NZ",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-socks",
+      "file": "pages/18-collections-mens-socks.html",
+      "title": "Allbirds Eco-Friendly Socks for Men, Made with Natural Materials",
+      "h1": "Men's Socks",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/mens-apparel",
+      "file": "pages/19-collections-mens-apparel.html",
+      "title": "Allbirds Men's Clothing - Shirts, Boxers, & Socks | Sustainable Men's Clothing",
+      "h1": "Men's Apparel",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.allbirds.com/collections/womens-new-arrivals",
+      "file": "pages/20-collections-womens-new-arrivals.html",
+      "title": "Allbirds New Arrivals, Women's Dashers, Loungers, Socks - FREE SHIPPING",
+      "h1": "New Arrivals",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

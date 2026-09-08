@@ -1,0 +1,33 @@
+{
+  "id": "brand:freebsd.org",
+  "host": "freebsd.org",
+  "kind": "reference",
+  "slug": "the-freebsd-project",
+  "name": "The FreeBSD Project",
+  "category": "Reference",
+  "description": "",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://freebsd.org/",
+    "finalUrl": "https://freebsd.org/",
+    "extractedAt": "2026-09-07T23:53:33.877Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 5,
+    "logos": 3,
+    "imagery": 0,
+    "fonts_files": 0,
+    "headings": 10,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

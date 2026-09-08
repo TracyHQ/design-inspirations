@@ -1,0 +1,33 @@
+{
+  "id": "brand:elementor.com",
+  "host": "elementor.com",
+  "kind": "reference",
+  "slug": "elementor",
+  "name": "Elementor",
+  "category": "Reference",
+  "description": "Elementor's free website builder makes it easy for web creators. Build a website or online store- no coding required. Start creating now!",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://elementor.com/",
+    "finalUrl": "https://elementor.com/",
+    "extractedAt": "2026-09-07T23:59:13.823Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [],
+  "counts": {
+    "pages": 20,
+    "colors": 20,
+    "fonts": 4,
+    "logos": 3,
+    "imagery": 2,
+    "fonts_files": 4,
+    "headings": 40,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

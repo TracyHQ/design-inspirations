@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://kenh14.vn/",
+  "crawledAt": "2026-09-07T23:51:08.173Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://kenh14.vn/",
+      "file": "pages/01-home.html",
+      "title": "Kênh tin tức giải trí - Xã hội - Kenh14.vn",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/nhom-chu-de/emagazine.chn",
+      "file": "pages/02-nhom-chu-de-emagazine.html",
+      "title": "Nhóm chủ đề Magazine - Kenh14.vn",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/id14.html",
+      "file": "pages/03-id14.html",
+      "title": "ID.14: tin tức Mới nhất Id14 - Đọc tin tuc tại Kenh14.vn - Kenh14.vn",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/chinh-thuc-trai-nghiem-kenh14-theo-cach-hoan-toan-moi-tu-hom-nay-giao-dien-stream-20160926151850618.chn",
+      "file": "pages/04-chinh-thuc-trai-nghiem-kenh14-theo-cach-.html",
+      "title": "Chính thức trải nghiệm Kenh14 theo cách hoàn toàn mới từ hôm nay - giao diện Stream",
+      "h1": "Chính thức trải nghiệm Kenh14 theo cách hoàn toàn mới từ hôm nay - giao diện Stream",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/star.chn",
+      "file": "pages/05-star.html",
+      "title": "Star - Tin tức ngôi sao, scandal, hậu trường thế giới sao - Kenh14.vn",
+      "h1": "Star",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/cine.chn",
+      "file": "pages/06-cine.html",
+      "title": "Cine - Tin phim ảnh, lịch chiếu phim, review phim mới nhất - Kenh14.vn",
+      "h1": "Cine",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/musik.chn",
+      "file": "pages/07-musik.html",
+      "title": "Musik - Tin ca nhạc MỚI - NHANH - HOT nhất - Kenh14.vn",
+      "h1": "Musik",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/beauty-fashion.chn",
+      "file": "pages/08-beauty-fashion.html",
+      "title": "Beauty & Fashion - Tin tức làm đẹp - Thời trang - Star Style - Kenh14.vn",
+      "h1": "Beauty & Fashion",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/doi-song.chn",
+      "file": "pages/09-doi-song.html",
+      "title": "Đời sống - Muôn màu đời sống giới trẻ Việt và Thế Giới - Kenh14.vn",
+      "h1": "Đời sống",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/money14.chn",
+      "file": "pages/10-money14.html",
+      "title": "Money.14 - Kenh14.vn",
+      "h1": "Money.14",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/an-choi-di.chn",
+      "file": "pages/11-an-choi-di.html",
+      "title": "Du lịch trong ngoài nước, review điểm đến, quán ăn, khu vui chơi - Kenh14.vn",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/xa-hoi.chn",
+      "file": "pages/12-xa-hoi.html",
+      "title": "Xã Hội - Tin thời sự nóng mới nhất, tin nhanh 24h trong ngày - Kenh14.vn",
+      "h1": "Xã hội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/suc-khoe.chn",
+      "file": "pages/13-suc-khoe.html",
+      "title": "Sức Khỏe - Tin tức sức khỏe, y tế mới nhất cập nhật liên tục 24h - Kenh14.vn",
+      "h1": "Sức khỏe",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/tek-life.chn",
+      "file": "pages/14-tek-life.html",
+      "title": "Tek-life - Trang tin tức công nghệ, thông tin sản phẩm công nghệ - Kenh14.vn",
+      "h1": "Tek-life",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/hoc-duong.chn",
+      "file": "pages/15-hoc-duong.html",
+      "title": "Học đường - Zoom vào thế giới giáo dục học đường - Kenh14.vn",
+      "h1": "Học đường",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/xem-mua-luon.chn",
+      "file": "pages/16-xem-mua-luon.html",
+      "title": "Shopping mọi thứ Ngay và Luôn - Kenh14.vn",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/star/sao-viet.chn",
+      "file": "pages/17-star-sao-viet.html",
+      "title": "Sao Việt: Tin tức sao Việt, hình ảnh, scandal mới nhất hôm nay - Kenh14.vn",
+      "h1": "Sao Việt",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/star/hoi-ban-than-showbiz.chn",
+      "file": "pages/18-star-hoi-ban-than-showbiz.html",
+      "title": "Hội bạn thân showbiz: Tin tức, hình ảnh, scandal nóng 24h - Kenh14.vn",
+      "h1": "Hội bạn thân Showbiz",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/star/tv-show.chn",
+      "file": "pages/19-star-tv-show.html",
+      "title": "Tin tức, hình ảnh, video về các TV Show hot nhất hiện nay - Kenh14.vn",
+      "h1": "TV Show",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://kenh14.vn/star/di-soi-sao-di.chn",
+      "file": "pages/20-star-di-soi-sao-di.html",
+      "title": "Đi Soi Sao Đi - Kenh14.vn",
+      "h1": "Đi Soi Sao Đi",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

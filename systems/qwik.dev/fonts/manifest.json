@@ -1,0 +1,45 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "style": "normal",
+      "file": "poppins-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://qwik.dev/assets/cpxAROuN-poppins-400.woff2",
+      "bytes": 7884,
+      "unicodeRange": "U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
+    },
+    {
+      "family": "Poppins",
+      "weight": "500",
+      "style": "normal",
+      "file": "poppins-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://qwik.dev/assets/C8OXljZJ-poppins-500.woff2",
+      "bytes": 7748,
+      "unicodeRange": "U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "style": "normal",
+      "file": "poppins-700.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://qwik.dev/assets/Qrb0O0WB-poppins-700.woff2",
+      "bytes": 7816,
+      "unicodeRange": "U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
+    },
+    {
+      "family": "Poppins",
+      "weight": "600",
+      "style": "normal",
+      "file": "poppins-600.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2",
+      "bytes": 5552,
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    }
+  ]
+}

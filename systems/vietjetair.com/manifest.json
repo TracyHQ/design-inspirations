@@ -1,0 +1,35 @@
+{
+  "id": "brand:vietjetair.com",
+  "host": "vietjetair.com",
+  "kind": "reference",
+  "slug": "vietjet-air",
+  "name": "Vietjet Air",
+  "category": "Reference",
+  "description": "Bay cùng Vietjet với hàng ngàn ưu đãi hấp dẫn, giá vé ưu đãi",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://vietjetair.com/",
+    "finalUrl": "https://vietjetair.com/",
+    "extractedAt": "2026-09-07T23:58:03.337Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Vietjet Air | Bay là thích ngay! | Website chính thức\" → \"Vietjet Air\" (from the shortest title segment)"
+  ],
+  "counts": {
+    "pages": 1,
+    "colors": 14,
+    "fonts": 4,
+    "logos": 2,
+    "imagery": 0,
+    "fonts_files": 5,
+    "headings": 0,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

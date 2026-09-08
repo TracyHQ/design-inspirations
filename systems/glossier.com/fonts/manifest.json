@@ -1,0 +1,86 @@
+{
+  "format": "brand-fonts/1",
+  "files": [
+    {
+      "family": "Apercu",
+      "weight": "200 300",
+      "style": "normal",
+      "file": "apercu-200-300.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-Light.woff2?v=115301833236938182451787573087",
+      "bytes": 15232
+    },
+    {
+      "family": "Apercu",
+      "weight": "200 300",
+      "style": "italic",
+      "file": "apercu-200-300-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-LightItalic.woff2?v=29235907510290086151787573087",
+      "bytes": 17652
+    },
+    {
+      "family": "Apercu",
+      "weight": "400",
+      "style": "normal",
+      "file": "apercu-400.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu.woff2?v=75884663832110848261787573087",
+      "bytes": 16032
+    },
+    {
+      "family": "Apercu",
+      "weight": "400",
+      "style": "italic",
+      "file": "apercu-400-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-Italic.woff2?v=24187841215175375051787573087",
+      "bytes": 17704
+    },
+    {
+      "family": "Apercu",
+      "weight": "500",
+      "style": "normal",
+      "file": "apercu-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-Medium.woff2?v=184125599230595850741787573087",
+      "bytes": 16056
+    },
+    {
+      "family": "Apercu",
+      "weight": "500",
+      "style": "italic",
+      "file": "apercu-500-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-MediumItalic.woff2?v=88237399669711597011787573087",
+      "bytes": 17336
+    },
+    {
+      "family": "Apercu",
+      "weight": "600 700",
+      "style": "bold",
+      "file": "apercu-600-700-bold.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-Bold.woff2?v=123311489613468491241787573087",
+      "bytes": 15760
+    },
+    {
+      "family": "Apercu",
+      "weight": "600 700",
+      "style": "italic",
+      "file": "apercu-600-700-italic.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-BoldItalic.woff2?v=21030091884733806711787573087",
+      "bytes": 17256
+    },
+    {
+      "family": "Apercu Mono",
+      "weight": "400 500",
+      "style": "normal",
+      "file": "apercu-mono-400-500.woff2",
+      "format": "woff2",
+      "sourceUrl": "https://www.glossier.com/cdn/shop/t/1460/assets/Apercu-Mono.woff2?v=36497956900394540011787573087",
+      "bytes": 10912
+    }
+  ]
+}

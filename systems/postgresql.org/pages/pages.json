@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://postgresql.org/",
+  "crawledAt": "2026-09-07T23:53:38.126Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://postgresql.org/",
+      "file": "pages/01-home.html",
+      "title": "PostgreSQL: The world's most advanced open source database",
+      "h1": "PostgreSQL: The World's Most Advanced Open Source Relational Database",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/",
+      "file": "pages/02-home.html",
+      "title": "PostgreSQL: The world's most advanced open source database",
+      "h1": "PostgreSQL: The World's Most Advanced Open Source Relational Database",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/about/",
+      "file": "pages/03-about.html",
+      "title": "PostgreSQL: About",
+      "h1": "About",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/download/",
+      "file": "pages/04-download.html",
+      "title": "PostgreSQL: Downloads",
+      "h1": "Downloads",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/",
+      "file": "pages/05-docs.html",
+      "title": "PostgreSQL: Documentation",
+      "h1": "Documentation",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/community/",
+      "file": "pages/06-community.html",
+      "title": "PostgreSQL: Community",
+      "h1": "Community",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/developer/",
+      "file": "pages/07-developer.html",
+      "title": "PostgreSQL: Developers",
+      "h1": "Developers",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/support/",
+      "file": "pages/08-support.html",
+      "title": "PostgreSQL: Support",
+      "h1": "Support",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/about/donate/",
+      "file": "pages/09-about-donate.html",
+      "title": "PostgreSQL: Donate",
+      "h1": "Donate",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/account/",
+      "file": "pages/10-account-login.html",
+      "title": "PostgreSQL:",
+      "h1": "Sign in",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+      "file": "pages/11-about-news-postgresql-186-1711-1615-1519.html",
+      "title": "PostgreSQL: PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!",
+      "h1": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/about/featurematrix/",
+      "file": "pages/12-about-featurematrix.html",
+      "title": "PostgreSQL: Feature Matrix",
+      "h1": "Feature Matrix",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/about/governance/",
+      "file": "pages/13-about-governance.html",
+      "title": "PostgreSQL: Governance",
+      "h1": "Project Governance Directory",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/release/",
+      "file": "pages/14-docs-release.html",
+      "title": "PostgreSQL: Release Notes",
+      "h1": "Release Notes",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/support/versioning/",
+      "file": "pages/15-support-versioning.html",
+      "title": "PostgreSQL: Versioning Policy",
+      "h1": "Versioning Policy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/release-18-6.html",
+      "file": "pages/16-docs-18-release-18-6.html",
+      "title": "PostgreSQL: Documentation: 18: E.1. Release 18.6",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/17/release-17-11.html",
+      "file": "pages/17-docs-17-release-17-11.html",
+      "title": "PostgreSQL: Documentation: 17: E.1. Release 17.11",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/16/release-16-15.html",
+      "file": "pages/18-docs-16-release-16-15.html",
+      "title": "PostgreSQL: Documentation: 16: E.1. Release 16.15",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/15/release-15-19.html",
+      "file": "pages/19-docs-15-release-15-19.html",
+      "title": "PostgreSQL: Documentation: 15: E.1. Release 15.19",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.postgresql.org/docs/14/release-14-24.html",
+      "file": "pages/20-docs-14-release-14-24.html",
+      "title": "PostgreSQL: Documentation: 14: E.1. Release 14.24",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

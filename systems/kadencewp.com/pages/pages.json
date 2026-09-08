@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://kadencewp.com/",
+  "crawledAt": "2026-09-07T23:59:15.025Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://kadencewp.com/",
+      "file": "pages/01-software-kadence.html",
+      "title": "Kadence | #1 Site Builder for WordPress",
+      "h1": "kadence #1 WordPress site builder for professionals & agencies",
+      "depth": 0,
+      "status": 200
+    }
+  ]
+}

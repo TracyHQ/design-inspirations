@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://angular.dev/",
+  "crawledAt": "2026-09-07T23:54:50.413Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://angular.dev/",
+      "file": "pages/01-home.html",
+      "title": "Home • Angular",
+      "h1": "Angular v22 is here!",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/docs",
+      "file": "pages/02-docs.html",
+      "title": "Redirecting",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials",
+      "file": "pages/03-tutorials.html",
+      "title": "Tutorials • Angular",
+      "h1": "Tutorials",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/playground",
+      "file": "pages/04-playground.html",
+      "title": "Playground • Angular",
+      "h1": "Angular Playground",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/reference",
+      "file": "pages/05-reference.html",
+      "title": "Redirecting",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/events/v22",
+      "file": "pages/06-events-v22.html",
+      "title": "Angular v22 Release • Angular",
+      "h1": "Angular v22: Rock solid foundation for building what's next for the web",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/ai/develop-with-ai",
+      "file": "pages/07-ai-develop-with-ai.html",
+      "title": "LLM prompts and AI IDE setup • Angular",
+      "h1": "LLM prompts and AI IDE setup",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/essentials",
+      "file": "pages/08-essentials.html",
+      "title": "Essentials • Overview • Angular",
+      "h1": "Essentials",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/essentials/signals",
+      "file": "pages/09-essentials-signals.html",
+      "title": "Reactivity with signals • Angular",
+      "h1": "Signals",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/overview",
+      "file": "pages/10-overview.html",
+      "title": "What is Angular? • Angular",
+      "h1": "What is Angular?",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials/learn-angular",
+      "file": "pages/11-tutorials-learn-angular.html",
+      "title": "Learn Angular • Angular",
+      "h1": "Welcome to the Angular tutorial",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/ai",
+      "file": "pages/12-ai.html",
+      "title": "Get Started • Angular",
+      "h1": "Build with AI",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/press-kit",
+      "file": "pages/13-press-kit.html",
+      "title": "Press Kit • Angular",
+      "h1": "Angular Press Kit",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/roadmap",
+      "file": "pages/14-roadmap.html",
+      "title": "Roadmap • Angular",
+      "h1": "Angular Roadmap",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/license",
+      "file": "pages/15-license.html",
+      "title": "License • Angular",
+      "h1": "The MIT License",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/ai/ai-tutor",
+      "file": "pages/16-ai-ai-tutor.html",
+      "title": "Angular AI Tutor • Angular",
+      "h1": "Angular AI Tutor",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials/first-app",
+      "file": "pages/17-tutorials-first-app.html",
+      "title": "Your first Angular app • Angular",
+      "h1": "Build your first Angular app",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials/signals",
+      "file": "pages/18-tutorials-signals.html",
+      "title": "Learn Angular signals • Angular",
+      "h1": "Learn Angular signals",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials/deferrable-views",
+      "file": "pages/19-tutorials-deferrable-views.html",
+      "title": "Deferrable Views • Angular",
+      "h1": "Deferrable views tutorial",
+      "depth": 2,
+      "status": 200
+    },
+    {
+      "url": "https://angular.dev/tutorials/signal-forms",
+      "file": "pages/20-tutorials-signal-forms.html",
+      "title": "Learn Angular Signal Forms • Angular",
+      "h1": "Learn Angular Signal Forms",
+      "depth": 2,
+      "status": 200
+    }
+  ]
+}

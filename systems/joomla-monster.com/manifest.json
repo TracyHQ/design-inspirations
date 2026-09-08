@@ -1,0 +1,38 @@
+{
+  "id": "brand:joomla-monster.com",
+  "host": "joomla-monster.com",
+  "kind": "reference",
+  "slug": "joomla-monster-com",
+  "name": "joomla-monster.com",
+  "category": "Reference",
+  "description": "We sell premium Joomla templates and Joomla extensions for web developers and individuals. Buy a complete website solution and save your time.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://joomla-monster.com/",
+    "finalUrl": "https://joomla-monster.com/",
+    "extractedAt": "2026-09-07T23:58:33.719Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"Joomla Templates and Joomla Extensions\" → \"joomla-monster.com\" (the title is a sentence; using the hostname)",
+    "font: display \"Font Awesome 6 Free\" → \"Manrope\" (the family the site sets on h1..h6)",
+    "font: body \"Font Awesome 6 Free\" is an icon or code face → \"Manrope\"",
+    "fonts: 4 faces self-hosted from Google Fonts (Manrope)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 23,
+    "fonts": 5,
+    "logos": 2,
+    "imagery": 8,
+    "fonts_files": 4,
+    "headings": 25,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

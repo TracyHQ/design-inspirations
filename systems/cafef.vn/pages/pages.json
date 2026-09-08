@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://cafef.vn/",
+  "crawledAt": "2026-09-07T23:50:35.418Z",
+  "truncated": true,
+  "pages": [
+    {
+      "url": "https://cafef.vn/",
+      "file": "pages/01-home.html",
+      "title": "Kênh thông tin kinh tế - tài chính Việt Nam",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/du-lieu/danh-muc-dau-tu.chn",
+      "file": "pages/02-oauth-vccvsdk-login.html",
+      "title": "ViệtID",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/doc-nhanh.chn",
+      "file": "pages/03-doc-nhanh.html",
+      "title": "Xem nhanh tin mới cập nhật",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/xa-hoi.chn",
+      "file": "pages/04-xa-hoi.html",
+      "title": "Tin tức xã hội trong nước, quốc tế cập nhật liên tục 24/7 | CafeF",
+      "h1": "Xã hội",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/thi-truong-chung-khoan.chn",
+      "file": "pages/05-thi-truong-chung-khoan.html",
+      "title": "Tin tức thị trường chứng khoán, chỉ số VN-Index, HNX-Index | CafeF",
+      "h1": "Thị trường chứng khoán",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/bat-dong-san.chn",
+      "file": "pages/06-bat-dong-san.html",
+      "title": "Tin tức các dự án bất động sản, thị trường nhà đất Việt Nam | CafeF",
+      "h1": "Bất động sản",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/doanh-nghiep.chn",
+      "file": "pages/07-doanh-nghiep.html",
+      "title": "Doanh Nghiệp | Thông tin tài chính và hoạt động kinh doanh | CafeF",
+      "h1": "Doanh nghiệp",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/tai-chinh-ngan-hang.chn",
+      "file": "pages/08-tai-chinh-ngan-hang.html",
+      "title": "Tin tức tài chính ngân hàng trong và ngoài nước 24 giờ qua | CafeF",
+      "h1": "Tài chính - ngân hàng",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/smart-money.chn",
+      "file": "pages/09-smart-money.html",
+      "title": "Kênh thông tin kinh tế - tài chính Việt Nam",
+      "h1": "Smart Money",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/tai-chinh-quoc-te.chn",
+      "file": "pages/10-tai-chinh-quoc-te.html",
+      "title": "Tin tức thị trường tài chính, chứng khoán, tiền tệ quốc tế | CafeF",
+      "h1": "Tài chính quốc tế",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/vi-mo-dau-tu.chn",
+      "file": "pages/11-vi-mo-dau-tu.html",
+      "title": "Thông tin kinh tế vĩ mô, hoạt động đầu tư - kinh doanh | CafeF",
+      "h1": "Kinh tế vĩ mô - Đầu tư",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/kinh-te-so.chn",
+      "file": "pages/12-kinh-te-so.html",
+      "title": "Kênh thông tin kinh tế - tài chính Việt Nam",
+      "h1": "Kinh tế số",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/thi-truong.chn",
+      "file": "pages/13-thi-truong.html",
+      "title": "Tin tức diễn biến thị trường hàng hóa nguyên liệu | CafeF",
+      "h1": "Thị trường",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/song.chn",
+      "file": "pages/14-song.html",
+      "title": "Nghệ thuật sống | Kỹ năng sống | CafeF",
+      "h1": "Sống",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/lifestyle.chn",
+      "file": "pages/15-lifestyle.html",
+      "title": "Kênh thông tin kinh tế - tài chính Việt Nam",
+      "h1": "Lifestyle",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/du-an.chn",
+      "file": "pages/16-bat-dong-san.html",
+      "title": "Tin tức các dự án bất động sản, thị trường nhà đất Việt Nam | CafeF",
+      "h1": "Bất động sản",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/ban-do-du-an.chn",
+      "file": "pages/17-bat-dong-san.html",
+      "title": "Tin tức các dự án bất động sản, thị trường nhà đất Việt Nam | CafeF",
+      "h1": "Bất động sản",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/hang-hoa-nguyen-lieu.chn",
+      "file": "pages/18-thi-truong.html",
+      "title": "Tin tức diễn biến thị trường hàng hóa nguyên liệu | CafeF",
+      "h1": "Thị trường",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/nhom-chu-de/emagazine.chn",
+      "file": "pages/19-nhom-chu-de-emagazine.html",
+      "title": "Nhóm chủ đề Emagazine",
+      "h1": "Nhóm chủ đề",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://cafef.vn/du-lieu.chn",
+      "file": "pages/20-du-lieu.html",
+      "title": "Dữ liệu thị trường tài chính, chứng khoán mới nhất | CafeF.vn",
+      "h1": "Toàn cảnh thị trường",
+      "depth": 1,
+      "status": 200
+    }
+  ]
+}

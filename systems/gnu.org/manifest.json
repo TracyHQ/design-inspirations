@@ -1,0 +1,35 @@
+{
+  "id": "brand:gnu.org",
+  "host": "gnu.org",
+  "kind": "reference",
+  "slug": "gnu-org",
+  "name": "gnu.org",
+  "category": "Reference",
+  "description": "Since 1983, developing the free Unix style operating system GNU, so that computer users can have the freedom to share and improve the software they use.",
+  "vi": false,
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://gnu.org/",
+    "finalUrl": "https://gnu.org/",
+    "extractedAt": "2026-09-07T23:52:46.396Z",
+    "thin": false,
+    "blocked": false,
+    "pages": true,
+    "recon": "skipped:no-browser"
+  },
+  "refined": [
+    "name: \"The GNU Operating System and the Free Software Movement\" → \"gnu.org\" (the title is a sentence; using the hostname)"
+  ],
+  "counts": {
+    "pages": 20,
+    "colors": 19,
+    "fonts": 4,
+    "logos": 2,
+    "imagery": 0,
+    "fonts_files": 0,
+    "headings": 6,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

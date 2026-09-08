@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>PostgreSQL: Governance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/xhtml; charset=utf-8" />
+   
+  <meta name="theme-color" content="#336791"/>
+  <meta name="copyright" content="The PostgreSQL Global Development Group" />
+  <link href="/media/css/fontawesome.css?e5c079de" rel="stylesheet">
+  <link rel="stylesheet" href="/media/css/bootstrap-4.4.1.min.css">
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  <link rel="stylesheet" type="text/css" href="/dyncss/base.css?e5c079de">
+
+  <script type="text/od-defused-script" src="/media/js/theme.js?e5c079de"></script>
+
+  
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col">
+          <!-- Header -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand p-0" href="/">
+              <img class="logo" src="/media/img/about/press/elephant.png" alt="PostgreSQL Elephant Logo">
+            </a>
+            <input type="checkbox" id="navbar-toggler" aria-controls="pgNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <label for="navbar-toggler" id="navbar-toggler-label" class="navbar-toggler" tabindex="0"><span class="navbar-toggler-icon"></span></label>
+            <div class="navbar-collapse" id="pgNavbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item p-2"><a href="/" title="Home">Home</a></li>
+                <li class="nav-item p-2"><a href="/about/" title="About">About</a></li>
+                <li class="nav-item p-2"><a href="/download/" title="Download">Download</a></li>
+                <li class="nav-item p-2"><a href="/docs/" title="Documentation">Documentation</a></li>
+                <li class="nav-item p-2"><a href="/community/" title="Community">Community</a></li>
+                <li class="nav-item p-2"><a href="/developer/" title="Developers">Developers</a></li>
+                <li class="nav-item p-2"><a href="/support/" title="Support">Support</a></li>
+                <li class="nav-item p-2"><a href="/about/donate/" title="Donate">Donate</a></li>
+                <li class="nav-item p-2"><a href="/account/" title="Your account">Your account</a></li>
+              </ul>
+              <form role="search" method="get" action="/search/">
+                <div class="input-group">
+                  <input id="q" name="q" type="text" size="20" maxlength="255" accesskey="s"  class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                  </span>
+                </div><!-- /input-group -->
+              </form>
+              <form id="form-theme" class="form-inline d-none">
+                <button id="btn-theme" class="btn btn-default ml-1" type="button"></button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row justify-content-center pg-shout-box">
+        <div class="col text-white text-center">August 13, 2026: <a href="/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/">PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!</a>
+
+</div>
+      </div>
+    </div>
+    
+<div class="container-fluid margin">
+  <div class="row">
+    <div class="col-lg-2">
+      <div id="pgSideWrap">
+       
+       <div id="pgSideNav">
+         <h2>Quick Links</h2>
+
+         <ul>
+           
+           
+           <li><a href="/about/">About</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/governance/">Governance</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/policies/">Policies</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/featurematrix/">Feature Matrix</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/donate/">Donate</a>
+            
+            
+           
+           </li>
+           <li><a href="/docs/current/history.html">History</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/sponsors/">Sponsors</a>
+            
+             <ul>
+             
+              <li><a href="/about/contributing/">Contributing</a></li>
+             
+              <li><a href="/about/financial/">Financial</a></li>
+             
+              <li class="last-child"><a href="/about/servers/">Servers</a></li>
+             
+             </ul>
+            
+            
+           
+           </li>
+           <li><a href="/about/newsarchive/">Latest News</a>
+            
+            
+           
+           </li>
+           <li><a href="/about/events/">Upcoming Events</a>
+            
+             <ul>
+             
+              <li class="last-child"><a href="/about/eventarchive/">Past events</a></li>
+             
+             </ul>
+            
+            
+           
+           </li>
+           <li><a href="/about/press/">Press</a>
+            
+            
+           
+           </li>
+           <li class="last-child"><a href="/about/licence/">Licence</a>
+            
+            
+           </li>
+            
+           
+        </ul>
+
+       </div>
+       
+      </div> <!-- pgSideWrap -->
+    </div>
+    <div class="col-lg-10">
+      <div id="pgContentWrap">
+        
+<h1>Project Governance Directory<i class="fa fa-users"></i></h1>
+<p>
+This page lists links to pages for the various teams and committees that
+comprise the governance hierarchy of the project. Please see the individual
+linked pages for more information about each group, including membership
+and charter.
+</p>
+
+<h2>Core Team</h2>
+<p>
+  The <a href="/developer/core/">PostgreSQL Core Team</a>
+  (Core) is the central arbiter of PostgreSQL project
+  <a href="/about/policies/">policy</a> and governance.
+</p>
+
+<h2>Sysadmin Team</h2>
+<p>
+  The <a href="/about/governance/sysadmin/">PostgreSQL Sysadmin Team</a>
+  (PGInfra) runs all of the postgresql.org infrastructure. This includes
+  a wide variety of public and non-public services.
+</p>
+
+<h2>Committers</h2>
+<p>
+  The <a href="/developer/committers/">PostgreSQL Committers</a>
+  are the people with access to push to the
+  <a href="https://git.postgresql.org/gitweb/?p=postgresql.git">git repository</a>.
+</p>
+
+<h2>Security Team</h2>
+<p>
+  The <a href="/support/security/">PostgreSQL Security Team</a>
+  presides over the reporting and fixing of vulnerabilities related
+  to PostgreSQL and closely related projects. For security vulnerabilities
+  in PostgreSQL or any of the installers linked from the
+  <a href="/download/">PostgreSQL download page</a>, please email
+  <a href="mailto:security@postgresql.org">security@postgresql.org</a>.
+  For reporting non-security bugs, please visit the
+  <a href="/account/submitbug/">Report a Bug</a> page.
+  If you are unsure if an issue is a security vulnerability, please err on the
+  side of caution and email
+  <a href="mailto:security@postgresql.org">security@postgresql.org</a>.
+</p>
+
+<h2>Code of Conduct Committee</h2>
+<p>
+  The <a href="/about/policies/coc_committee/">Code of Conduct Committee</a>
+  are the people who receive and investigate all complaints related to the
+  <a href="/about/policies/coc/">PostgreSQL Code of Conduct</a>.
+</p>
+
+<h2>Contributors Committee</h2>
+<p>
+  The <a href="/about/governance/contributors/">Contributors Committee</a>
+  curates the <a href="/community/contributors/">Contributor Profiles</a>
+  page.
+</p>
+
+<h2>Sponsors Committee</h2>
+<p>
+  The <a href="/about/policies/sponsorship/">Sponsors Committee</a>
+  maintains the <a href="/about/sponsors/">Sponsors</a> pages.
+</p>
+
+<h2>Non Profit Organizations</h2>
+<p>
+  Several <a href="/about/donate/">Non Profit Organizations</a>
+  serve the PostgreSQL Project in a variety of ways.
+</p>
+
+
+      </div> <!-- pgContentWrap -->
+    </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <!-- Copyright -->
+      <div class="container">
+        <a href="/about/policies/">Policies</a> |
+        <a href="/about/policies/coc/">Code of Conduct</a> |
+        <a href="/about/">About PostgreSQL</a> |
+        <a href="/about/contact/">Contact</a><br/>
+        <p>Copyright &copy; 1996-2026 The PostgreSQL Global Development Group</p>
+      </div>
+    </footer>
+    <script type="text/od-defused-script" src="/media/js/main.js?e5c079de"></script>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "tracy-site-pages/v1",
+  "url": "https://shopee.vn/",
+  "crawledAt": "2026-09-07T23:56:54.064Z",
+  "truncated": false,
+  "pages": [
+    {
+      "url": "https://shopee.vn/",
+      "file": "pages/01-home.html",
+      "title": "",
+      "h1": "",
+      "depth": 0,
+      "status": 200
+    }
+  ]
+}
