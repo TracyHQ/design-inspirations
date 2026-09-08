@@ -1,8 +1,32 @@
 {
   "schemaVersion": "tracy-community-inspirations/v1",
   "count": 83,
-  "updatedAt": "2026-09-08T03:57:29.960Z",
+  "updatedAt": "2026-09-08T08:44:18.999Z",
   "systems": [
+    {
+      "id": "brand:tracy.ai",
+      "name": "Tracy",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "tracy.ai",
+      "url": "https://tracy.ai/",
+      "extractedAt": "2026-09-08T08:44:18.999Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 25,
+        "fonts": 6,
+        "logos": 2,
+        "imagery": 0,
+        "fonts_files": 3,
+        "headings": 13,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
     {
       "id": "brand:zingnews.vn",
       "name": "Znews.vn",
@@ -287,30 +311,6 @@
         "imagery": 1,
         "fonts_files": 0,
         "headings": 37,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
-      "id": "brand:tracy.ai",
-      "name": "Tracy",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "tracy.ai",
-      "url": "https://tracy.ai/",
-      "extractedAt": "2026-09-08T03:53:10.906Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 25,
-        "fonts": 6,
-        "logos": 2,
-        "imagery": 0,
-        "fonts_files": 3,
-        "headings": 13,
         "engineFiles": 19,
         "slots": 151
       }

@@ -1,10 +1,10 @@
 {
   "id": "brand:tracy.ai",
   "host": "tracy.ai",
-  "kind": "reference",
+  "kind": "own",
   "slug": "tracy",
   "name": "Tracy",
-  "category": "Reference",
+  "category": "Your brand",
   "description": "Tracy pairs an AI agent with each site you run — Joomla, WordPress, WooCommerce and Shopify. It reads, checks and proposes; you approve what ships.",
   "vi": false,
   "nav": "top-left",
@@ -12,7 +12,7 @@
   "source": {
     "url": "https://tracy.ai/",
     "finalUrl": "https://tracy.ai/",
-    "extractedAt": "2026-09-08T03:53:10.906Z",
+    "extractedAt": "2026-09-08T08:44:18.999Z",
     "thin": false,
     "blocked": false,
     "pages": true,
