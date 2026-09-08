@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "p.0",
@@ -383,9 +383,9 @@
     "role": "subtitle",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "p.8",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. POLITICS is not just a slogan here.”",
-    "chars": 85,
-    "words": 18
+    "text": "“The quality bar out of the box is what sold us. Breaking News, Latest Headlines and Videos is not just a slogan here.”",
+    "chars": 119,
+    "words": 23
    },
    {
     "id": "span.29",
@@ -1120,9 +1120,9 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "span.49",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "eyebrow",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "eyebrow",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get pOLITICS",
-    "chars": 25,
-    "words": 5
+    "text": "is how teams get breaking News, Latest Headlines and Videos",
+    "chars": 59,
+    "words": 10
    },
    {
     "id": "span.21",
@@ -1947,9 +1947,9 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "span.24",
@@ -2354,9 +2354,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Up to 3 projects · POLITICS · Community support",
-    "chars": 47,
-    "words": 9
+    "text": "Up to 3 projects · AP PHOTOGRAPHY · Community support",
+    "chars": 53,
+    "words": 10
    },
    {
     "id": "h3.4",
@@ -3021,13 +3021,24 @@
     "words": 2
    },
    {
+    "id": "h1.0",
+    "tag": "h1",
+    "n": 0,
+    "role": "headline",
+    "group": null,
+    "inNav": false,
+    "text": "News, Latest Headlines and Videos",
+    "chars": 33,
+    "words": 5
+   },
+   {
     "id": "span.2",
     "tag": "span",
     "n": 2,
-    "role": "eyebrow",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
+    "text": "Breaking",
     "chars": 8,
     "words": 1
    },
@@ -3095,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "p.1",
@@ -3150,9 +3161,9 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "p.5",
@@ -3161,9 +3172,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "POLITICS is built into AP News from day one — not bolted on later.",
-    "chars": 66,
-    "words": 14
+    "text": "AP PHOTOGRAPHY is built into AP News from day one — not bolted on later.",
+    "chars": 72,
+    "words": 15
    },
    {
     "id": "p.6",
@@ -3339,9 +3350,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "p.1",
@@ -3372,9 +3383,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "p.2",
@@ -3572,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "p.0",
@@ -3594,9 +3605,9 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "span.3",
@@ -3737,9 +3748,9 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "AP PHOTOGRAPHY",
+    "chars": 14,
+    "words": 2
    },
    {
     "id": "option.2",
@@ -3855,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "eyebrow",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "span.19",
@@ -3901,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "eyebrow",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "POLITICS",
-    "chars": 8,
-    "words": 1
+    "text": "Breaking News, Latest Headlines and Videos",
+    "chars": 42,
+    "words": 6
    },
    {
     "id": "h2.0",

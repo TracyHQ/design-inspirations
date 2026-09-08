@@ -12,13 +12,15 @@
   "source": {
     "url": "https://aljazeera.com/",
     "finalUrl": "https://aljazeera.com/",
-    "extractedAt": "2026-09-07T23:47:07.818Z",
+    "extractedAt": "2026-09-08T03:40:19.784Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Al Jazeera\" is page furniture → \"Breaking News, World News and Video from Al Jazeera\" (the site's own words)"
+  ],
   "counts": {
     "pages": 20,
     "colors": 25,

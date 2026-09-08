@@ -1,8 +1,152 @@
 {
   "schemaVersion": "tracy-community-inspirations/v1",
   "count": 83,
-  "updatedAt": "2026-09-07T23:59:49.598Z",
+  "updatedAt": "2026-09-08T03:40:45.103Z",
   "systems": [
+    {
+      "id": "brand:apnews.com",
+      "name": "AP News",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "apnews.com",
+      "url": "https://apnews.com/",
+      "extractedAt": "2026-09-08T03:40:45.103Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 19,
+        "fonts": 10,
+        "logos": 6,
+        "imagery": 8,
+        "fonts_files": 4,
+        "headings": 101,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:apache.org",
+      "name": "Apache Software Foundation",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "apache.org",
+      "url": "https://apache.org/",
+      "extractedAt": "2026-09-08T03:40:41.946Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 21,
+        "fonts": 4,
+        "logos": 6,
+        "imagery": 8,
+        "fonts_files": 9,
+        "headings": 19,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:ansible.com",
+      "name": "Ansible Collaborative",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "ansible.com",
+      "url": "https://ansible.com/",
+      "extractedAt": "2026-09-08T03:40:39.776Z",
+      "pages": true,
+      "counts": {
+        "pages": 1,
+        "colors": 17,
+        "fonts": 6,
+        "logos": 6,
+        "imagery": 2,
+        "fonts_files": 0,
+        "headings": 17,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:angular.dev",
+      "name": "Home • Angular",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "angular.dev",
+      "url": "https://angular.dev/",
+      "extractedAt": "2026-09-08T03:40:37.708Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 23,
+        "fonts": 3,
+        "logos": 6,
+        "imagery": 1,
+        "fonts_files": 7,
+        "headings": 17,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:allbirds.com",
+      "name": "Allbirds",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "allbirds.com",
+      "url": "https://allbirds.com/",
+      "extractedAt": "2026-09-08T03:40:35.545Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 17,
+        "fonts": 5,
+        "logos": 2,
+        "imagery": 8,
+        "fonts_files": 0,
+        "headings": 56,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:aljazeera.com",
+      "name": "Al Jazeera",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "aljazeera.com",
+      "url": "https://aljazeera.com/",
+      "extractedAt": "2026-09-08T03:40:19.784Z",
+      "pages": true,
+      "counts": {
+        "pages": 20,
+        "colors": 25,
+        "fonts": 4,
+        "logos": 4,
+        "imagery": 8,
+        "fonts_files": 10,
+        "headings": 40,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
     {
       "id": "brand:divi.space",
       "name": "WP Zone",
@@ -340,30 +484,6 @@
       }
     },
     {
-      "id": "brand:allbirds.com",
-      "name": "Allbirds",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "allbirds.com",
-      "url": "https://allbirds.com/",
-      "extractedAt": "2026-09-07T23:55:49.536Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 17,
-        "fonts": 5,
-        "logos": 2,
-        "imagery": 8,
-        "fonts_files": 0,
-        "headings": 56,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
       "id": "brand:backbonejs.org",
       "name": "Backbone.js",
       "category": "Community",
@@ -532,30 +652,6 @@
       }
     },
     {
-      "id": "brand:angular.dev",
-      "name": "Home • Angular",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "angular.dev",
-      "url": "https://angular.dev/",
-      "extractedAt": "2026-09-07T23:54:50.881Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 23,
-        "fonts": 3,
-        "logos": 6,
-        "imagery": 1,
-        "fonts_files": 7,
-        "headings": 17,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
       "id": "brand:vuejs.org",
       "name": "Vue.js",
       "category": "Community",
@@ -647,30 +743,6 @@
         "imagery": 8,
         "fonts_files": 4,
         "headings": 7,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
-      "id": "brand:ansible.com",
-      "name": "Ansible Collaborative",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "ansible.com",
-      "url": "https://ansible.com/",
-      "extractedAt": "2026-09-07T23:54:29.016Z",
-      "pages": true,
-      "counts": {
-        "pages": 1,
-        "colors": 17,
-        "fonts": 6,
-        "logos": 6,
-        "imagery": 2,
-        "fonts_files": 0,
-        "headings": 17,
         "engineFiles": 19,
         "slots": 151
       }
@@ -1036,30 +1108,6 @@
       }
     },
     {
-      "id": "brand:apache.org",
-      "name": "Apache Software Foundation",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "apache.org",
-      "url": "https://apache.org/",
-      "extractedAt": "2026-09-07T23:52:42.824Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 21,
-        "fonts": 4,
-        "logos": 6,
-        "imagery": 8,
-        "fonts_files": 9,
-        "headings": 19,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
       "id": "brand:tinhte.vn",
       "name": "Tinh tế",
       "category": "Community",
@@ -1367,54 +1415,6 @@
         "imagery": 0,
         "fonts_files": 0,
         "headings": 0,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
-      "id": "brand:aljazeera.com",
-      "name": "Al Jazeera",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "aljazeera.com",
-      "url": "https://aljazeera.com/",
-      "extractedAt": "2026-09-07T23:47:07.818Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 25,
-        "fonts": 4,
-        "logos": 4,
-        "imagery": 8,
-        "fonts_files": 10,
-        "headings": 40,
-        "engineFiles": 19,
-        "slots": 151
-      }
-    },
-    {
-      "id": "brand:apnews.com",
-      "name": "AP News",
-      "category": "Community",
-      "vi": false,
-      "nav": "top-left",
-      "hero": "centered",
-      "dark": true,
-      "host": "apnews.com",
-      "url": "https://apnews.com/",
-      "extractedAt": "2026-09-07T23:46:55.922Z",
-      "pages": true,
-      "counts": {
-        "pages": 20,
-        "colors": 19,
-        "fonts": 10,
-        "logos": 6,
-        "imagery": 8,
-        "fonts_files": 4,
-        "headings": 98,
         "engineFiles": 19,
         "slots": 151
       }

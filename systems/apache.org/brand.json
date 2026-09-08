@@ -1,7 +1,7 @@
 {
   "name": "Apache Software Foundation",
-  "tagline": "Software For The Public Good &para;",
-  "description": "The Apache&reg; Software Foundation (ASF) provides software for the public good, guided by community over code. Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.",
+  "tagline": "Software For The Public Good ¶",
+  "description": "The Apache® Software Foundation (ASF) provides software for the public good, guided by community over code. Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.",
   "sourceUrl": "https://apache.org/",
   "logo": {
     "primary": "logos/apple-touch-icon-0.png",

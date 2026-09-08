@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://apnews.com/",
-  "crawledAt": "2026-09-07T23:46:55.043Z",
+  "crawledAt": "2026-09-08T03:40:43.964Z",
   "truncated": true,
   "pages": [
     {
@@ -87,8 +87,8 @@
     {
       "url": "https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d",
       "file": "pages/11-article-britain-king-harry-meghan-letter.html",
-      "title": "King clarifies status of Prince Harry and Meghan | AP News",
-      "h1": "King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
+      "title": "King Charles III affirms Prince Harry and Meghan are non-working royals | AP News",
+      "h1": "King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
       "depth": 1,
       "status": 200
     },
@@ -101,10 +101,10 @@
       "status": 200
     },
     {
-      "url": "https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c",
-      "file": "pages/13-article-germany-afd-saxony-anhalt-electi.html",
-      "title": "AfD party&#x27;s landslide win in eastern Germany tests country&#x27;s &#x27;firewall&#x27; against the far right | AP News",
-      "h1": "AfD party’s landslide win in eastern Germany tests country’s ‘firewall’ against the far right",
+      "url": "https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01",
+      "file": "pages/13-article-iran-strait-hormuz-war-washingto.html",
+      "title": "Iran touts ballistic missile and warns it will take preemptive action against threats | AP News",
+      "h1": "Iran says improved ballistic missile shows it will take preemptive action against threats",
       "depth": 1,
       "status": 200
     },

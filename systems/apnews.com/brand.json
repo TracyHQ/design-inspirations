@@ -1,6 +1,6 @@
 {
   "name": "AP News",
-  "tagline": "POLITICS",
+  "tagline": "Breaking News, Latest Headlines and Videos",
   "description": "Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
   "sourceUrl": "https://apnews.com/",
   "logo": {
@@ -103,7 +103,7 @@
     "adjectives": [],
     "tone": "",
     "messagingPillars": [
-      "POLITICS",
+      "AP PHOTOGRAPHY",
       "Latest news",
       "One attack, many Americans"
     ],

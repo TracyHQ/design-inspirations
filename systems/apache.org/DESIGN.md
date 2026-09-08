@@ -18,9 +18,9 @@ colors:
 
 > Surface: web
 
-*Software For The Public Good &para;*
+*Software For The Public Good ¶*
 
-The Apache&reg; Software Foundation (ASF) provides software for the public good, guided by community over code. Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.
+The Apache® Software Foundation (ASF) provides software for the public good, guided by community over code. Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.
 
 ## Color Palette
 

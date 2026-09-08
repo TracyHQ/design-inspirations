@@ -1729,6 +1729,63 @@ freestar.queue.push(function() {
 <script type="text/od-defused-script">
     window['BSP-app'] = false;
     window['BSP-view-mode'] = false;
+</script>
+<meta name="permutive-dataLayer" content="{
+  &quot;category&quot; : &quot;&quot;,
+  &quot;dfp_kv&quot; : {
+    &quot;page_type&quot; : &quot;Hub&quot;
+  },
+  &quot;tags&quot; : [ &quot;Weather&quot; ],
+  &quot;page_type&quot; : &quot;Hub&quot;,
+  &quot;publication_date&quot; : &quot;2022-12-22T16:24:41.000Z&quot;,
+  &quot;item_id&quot; : &quot;Weather&quot;,
+  &quot;headline&quot; : null,
+  &quot;authors&quot; : [ ],
+  &quot;proximic_video_segments&quot; : [ ],
+  &quot;proximic_video_source_url&quot; : &quot;&quot;
+}"><script type="text/od-defused-script">
+    let dataValue = undefined;
+    (function () {
+        dataValue = document.head.querySelector('meta[name="permutive-dataLayer"]')?.content;
+        if (dataValue) {
+            dataValue = JSON.parse(dataValue);
+        }
+    })();
+    if (!dataValue) {
+        dataValue = {}
+    }
+
+    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "8dce728a-278c-4ac4-9b6b-884b0190015b", "507b28fb-2ef1-4c34-8bda-ba32030bb199", { "consentRequired": true });
+    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () {
+        if (0 === window.googletag.pubads().getTargeting("permutive").length) {
+            var e = window.localStorage.getItem("_pdfps");
+            window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []);
+            var o = window.localStorage.getItem("permutive-id");
+            o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId)
+        }
+    });
+    permutive.addon('web', {
+        "page": {
+            "classifications_watson": {
+                "categories": "$alchemy_taxonomy",
+                "concepts": "$alchemy_concepts",
+                "emotion": "$alchemy_document_emotion",
+                "entities": "$alchemy_entities",
+                "keywords": "$alchemy_keywords",
+                "sentiment": "$alchemy_document_sentiment",
+                "taxonomy_labels": "$alchemy_taxonomy_labels"
+            },
+            "publishedAt": dataValue.publication_date, // "2021-11-09T16:20:05.063Z"
+            "title": dataValue.headline, // "text"
+            "page_type": dataValue.page_type, // "text"
+            "category": dataValue.category, // "text"
+            "authors": dataValue.authors, // ["list", "of", "strings"]
+            "tags": dataValue.tags // ["list", "of", "strings"]
+        },
+            "client": {
+                "type": "web"
+            }
+    });
 </script><script type="text/od-defused-script" type="text/javascript" src="https://s.ntv.io/serve/load.js" async id="nativo-head"></script>
 
 <script type="text/od-defused-script">
@@ -1738,7 +1795,51 @@ freestar.queue.push(function() {
     if (segs) {
         window.ntvConfig.keyValues.permutive = JSON.parse(segs).join(",");
     }
-</script><script type="text/od-defused-script" type="text/javascript" id="freestar-head-data">
+</script><meta
+        name="vf:container_id"
+        content="Weather"
+/>
+<script type="text/od-defused-script">
+  (function(d, w) {
+    function hasFacebookEmbed() {
+      return d.querySelector('.fb-post, .fb-video, .fb-like, .fb-share-button, .fb-comments, .fb-page');
+    }
+
+    function loadFacebookSdk() {
+      if (!hasFacebookEmbed() || d.getElementById('facebook-jssdk')) {
+        return;
+      }
+
+      var preconnect = d.createElement('link');
+      preconnect.rel = 'preconnect';
+      preconnect.href = 'https://connect.facebook.net';
+      d.head.appendChild(preconnect);
+
+      w.fbAsyncInit = function() {
+        FB.init({
+          
+            appId : '870613919693099',
+          
+          xfbml : true,
+          version : 'v2.9'
+        });
+      };
+
+      var js = d.createElement('script');
+      var fjs = d.getElementsByTagName('script')[0];
+      js.id = 'facebook-jssdk';
+      js.src = '//connect.facebook.net/en_US/sdk.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+
+    if (d.readyState === 'loading') {
+      d.addEventListener('DOMContentLoaded', loadFacebookSdk);
+    } else {
+      loadFacebookSdk();
+    }
+  }(document, window));
+</script>
+<script type="text/od-defused-script" type="text/javascript" id="freestar-head-data">
   (function () {
     'use strict'; // Add strict mode
 
@@ -1817,107 +1918,6 @@ freestar.queue.push(function() {
       console.error("Freestar init error:", scriptErr.message);
     }
   })();
-</script><script type="text/od-defused-script">
-  (function(d, w) {
-    function hasFacebookEmbed() {
-      return d.querySelector('.fb-post, .fb-video, .fb-like, .fb-share-button, .fb-comments, .fb-page');
-    }
-
-    function loadFacebookSdk() {
-      if (!hasFacebookEmbed() || d.getElementById('facebook-jssdk')) {
-        return;
-      }
-
-      var preconnect = d.createElement('link');
-      preconnect.rel = 'preconnect';
-      preconnect.href = 'https://connect.facebook.net';
-      d.head.appendChild(preconnect);
-
-      w.fbAsyncInit = function() {
-        FB.init({
-          
-            appId : '870613919693099',
-          
-          xfbml : true,
-          version : 'v2.9'
-        });
-      };
-
-      var js = d.createElement('script');
-      var fjs = d.getElementsByTagName('script')[0];
-      js.id = 'facebook-jssdk';
-      js.src = '//connect.facebook.net/en_US/sdk.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }
-
-    if (d.readyState === 'loading') {
-      d.addEventListener('DOMContentLoaded', loadFacebookSdk);
-    } else {
-      loadFacebookSdk();
-    }
-  }(document, window));
-</script>
-<meta
-        name="vf:container_id"
-        content="Weather"
-/>
-
-<meta name="permutive-dataLayer" content="{
-  &quot;category&quot; : &quot;&quot;,
-  &quot;dfp_kv&quot; : {
-    &quot;page_type&quot; : &quot;Hub&quot;
-  },
-  &quot;tags&quot; : [ &quot;Weather&quot; ],
-  &quot;page_type&quot; : &quot;Hub&quot;,
-  &quot;publication_date&quot; : &quot;2022-12-22T16:24:41.000Z&quot;,
-  &quot;item_id&quot; : &quot;Weather&quot;,
-  &quot;headline&quot; : null,
-  &quot;authors&quot; : [ ],
-  &quot;proximic_video_segments&quot; : [ ],
-  &quot;proximic_video_source_url&quot; : &quot;&quot;
-}"><script type="text/od-defused-script">
-    let dataValue = undefined;
-    (function () {
-        dataValue = document.head.querySelector('meta[name="permutive-dataLayer"]')?.content;
-        if (dataValue) {
-            dataValue = JSON.parse(dataValue);
-        }
-    })();
-    if (!dataValue) {
-        dataValue = {}
-    }
-
-    !function (e, o, n, i) { if (!e) { e = e || {}, window.permutive = e, e.q = []; var t = function () { return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) { return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16) }) }; e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t()); for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) { var w = g[r]; e[w] = function (o) { return function () { var n = Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: o, arguments: n }) } }(w) } } }(window.permutive, "8dce728a-278c-4ac4-9b6b-884b0190015b", "507b28fb-2ef1-4c34-8bda-ba32030bb199", { "consentRequired": true });
-    window.googletag = window.googletag || {}, window.googletag.cmd = window.googletag.cmd || [], window.googletag.cmd.push(function () {
-        if (0 === window.googletag.pubads().getTargeting("permutive").length) {
-            var e = window.localStorage.getItem("_pdfps");
-            window.googletag.pubads().setTargeting("permutive", e ? JSON.parse(e) : []);
-            var o = window.localStorage.getItem("permutive-id");
-            o && (window.googletag.pubads().setTargeting("puid", o), window.googletag.pubads().setTargeting("ptime", Date.now().toString())), window.permutive.config.viewId && window.googletag.pubads().setTargeting("prmtvvid", window.permutive.config.viewId), window.permutive.config.workspaceId && window.googletag.pubads().setTargeting("prmtvwid", window.permutive.config.workspaceId)
-        }
-    });
-    permutive.addon('web', {
-        "page": {
-            "classifications_watson": {
-                "categories": "$alchemy_taxonomy",
-                "concepts": "$alchemy_concepts",
-                "emotion": "$alchemy_document_emotion",
-                "entities": "$alchemy_entities",
-                "keywords": "$alchemy_keywords",
-                "sentiment": "$alchemy_document_sentiment",
-                "taxonomy_labels": "$alchemy_taxonomy_labels"
-            },
-            "publishedAt": dataValue.publication_date, // "2021-11-09T16:20:05.063Z"
-            "title": dataValue.headline, // "text"
-            "page_type": dataValue.page_type, // "text"
-            "category": dataValue.category, // "text"
-            "authors": dataValue.authors, // ["list", "of", "strings"]
-            "tags": dataValue.tags // ["list", "of", "strings"]
-        },
-            "client": {
-                "type": "web"
-            }
-    });
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script type="text/od-defused-script">
@@ -2633,7 +2633,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
+                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
                 </li>
                 
                 
@@ -2645,7 +2645,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c'>AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right</a>
+                    <a href='https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01'>Iran says improved ballistic missile shows it will take preemptive action against threats</a>
                 </li>
                 
                 
@@ -2752,12 +2752,6 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5'>At least 5 dead after Amazon cargo plane barreled off runway at Miami airport</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb'>Federal investigators probe Amazon cargo jet's fiery runway crash that killed 5 in Miami</a>
                 </li>
                 
@@ -2769,7 +2763,9 @@ freestar.queue.push(function() {
                 
                 
                 
-                
+                <li>
+                    <a href='https://apnews.com/article/labor-day-record-high-gas-prices-dffb7d3fa06ef930aaeebc380e5e4e0e'>Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues</a>
+                </li>
                 
                 
                 
@@ -2876,13 +2872,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/election-2026-ohio-acton-attack-92abb7d809134b43630e01e25b3b9125'>Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says</a>
+                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
+                    <a href='https://apnews.com/article/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01-d87d6cb35b896121df8ea12feae0bca3'>AP Decision Notes: What to expect in New Hampshire’s state primary</a>
                 </li>
                 
                 
@@ -2982,20 +2978,22 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-late-finishes-77a6d44a93e8c25d7a86f1db6aaeef96'>Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/canada-hockey-tariffs-fb12b5e5ebfc8842b6fbcd8d99483277'>The US tariff on Canadian imports could send already soaring hockey gear prices even higher</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-carlos-alcaraz-interview-05ab14d1ce0fa9d959512f10a4a38f72'>Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent</a>
+                    <a href='https://apnews.com/article/big-ten-replay-michigan-underwood-2b7df7a1b345589534f94012d86b02c0'>Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday</a>
                 </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/fbs-recruiting-wisconsin-badgers-c45f7667d2b8332dcabd6b2f15ec32f7'>High school QBs face new reality as transfers dominate starting jobs at the top of college football</a>
+                </li>
+                
+                
                 
                 
             </ul>
@@ -3091,7 +3089,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
+                    <a href='https://apnews.com/article/practical-magic-2-nicole-kidman-sandra-bullock-2801a7f2932c77fda6849c4c2c2f252e'>For Sandra Bullock and Nicole Kidman, 'Practical Magic 2' heals old wounds</a>
                 </li>
                 
                 
@@ -3103,7 +3101,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/elon-musk-documentary-venice-film-festival-e4e9c5eca6e2656b54f1c639d339109f'>Documentarian Alex Gibney on the power and influence of Elon Musk</a>
+                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
                 </li>
                 
                 
@@ -3194,6 +3192,12 @@ freestar.queue.push(function() {
                 
                 <li>
                     <a href='https://apnews.com/article/stocks-markets-ai-jobs-rates-oil-5fed4e21cb3f80eef06087217dbbd9f7'>Global shares are mixed as chipmaker shares rally in Tokyo and Seoul</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/jaguar-land-rover-job-cuts-uk-tata-bc88688b43c9743cc182d416ab6e63cf'>Jaguar Land Rover will cut 4,000 jobs to reduce costs and compete with China</a>
                 </li>
                 
                 
@@ -3297,13 +3301,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
+                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
+                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
                 </li>
                 
                 
@@ -3618,13 +3622,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
+                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
+                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
                 </li>
                 
                 
@@ -3696,7 +3700,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7'>Challenging your brain helps keep it healthy. Here's how to do it</a>
+                    <a href='https://apnews.com/article/jet-lag-eating-travel-destination-dd65300e117448e0e37d3e36fe56fb97'>Jetting off for a summer vacation? How to eat and drink to minimize jet lag</a>
                 </li>
                 
                 
@@ -3754,13 +3758,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
+                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
+                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
                 </li>
                 
                 
@@ -3888,7 +3892,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope returns to sanctuary where he prayed after election and unveils a fresco depicting the event</a>
+                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope Leo XIV unveils a fresco at the sanctuary where he prayed after his election last year</a>
                 </li>
                 
                 
@@ -3900,7 +3904,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/wendell-berry-literature-religion-nature-spirituality-kentucky-d3798b8b9afa245248bf219ac588dd1b'>For many spiritual seekers, author Wendell Berry was a fellow pilgrim and contrarian</a>
+                    <a href='https://apnews.com/article/pope-leo-xiv-vatican-augustine-34a27b6bea9e3d48010acb2fbdad6046'>Pope Leo XIV is known as 'Father Bob' among fellow Augustinians. Who are they?</a>
                 </li>
                 
                 
@@ -3978,19 +3982,19 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href='https://apnews.com/article/elecciones-parlamentarias-alemania-ultraderecha-7185f9b80ed63a04855ed0752ae16bf4'>Partido alemán de ultraderecha gana elección regional por amplio margen, pero no alcanza una mayoría</a>
+                    <a href='https://apnews.com/article/reino-unido-carlos-principe-enrique-meghan-494615002972fe8804ff8126be838e8c'>El rey Carlos aclara el estatus del príncipe Enrique y Meghan tras su regreso al Reino Unido</a>
                 </li>
                 
                 
                 
                 <li>
                     <a href='https://apnews.com/article/ecuador-estados-unidos-intercepcion-embarcaciones-narcotrafico-pescadores-826125142bb746fd76bb1a6b8855ac79'>Localizan a 26 pescadores ecuatorianos tras intercepción de EEUU a un barco en el Pacífico</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
                 </li>
                 
                 
@@ -6062,7 +6066,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
+                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
                 </li>
                 
                 
@@ -6074,7 +6078,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c'>AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right</a>
+                    <a href='https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01'>Iran says improved ballistic missile shows it will take preemptive action against threats</a>
                 </li>
                 
                 
@@ -6243,12 +6247,6 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5'>At least 5 dead after Amazon cargo plane barreled off runway at Miami airport</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb'>Federal investigators probe Amazon cargo jet's fiery runway crash that killed 5 in Miami</a>
                 </li>
                 
@@ -6260,7 +6258,9 @@ freestar.queue.push(function() {
                 
                 
                 
-                
+                <li>
+                    <a href='https://apnews.com/article/labor-day-record-high-gas-prices-dffb7d3fa06ef930aaeebc380e5e4e0e'>Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues</a>
+                </li>
                 
                 
                 
@@ -6428,13 +6428,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/election-2026-ohio-acton-attack-92abb7d809134b43630e01e25b3b9125'>Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says</a>
+                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
+                    <a href='https://apnews.com/article/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01-d87d6cb35b896121df8ea12feae0bca3'>AP Decision Notes: What to expect in New Hampshire’s state primary</a>
                 </li>
                 
                 
@@ -6609,20 +6609,22 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-late-finishes-77a6d44a93e8c25d7a86f1db6aaeef96'>Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/canada-hockey-tariffs-fb12b5e5ebfc8842b6fbcd8d99483277'>The US tariff on Canadian imports could send already soaring hockey gear prices even higher</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-carlos-alcaraz-interview-05ab14d1ce0fa9d959512f10a4a38f72'>Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent</a>
+                    <a href='https://apnews.com/article/big-ten-replay-michigan-underwood-2b7df7a1b345589534f94012d86b02c0'>Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday</a>
                 </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/fbs-recruiting-wisconsin-badgers-c45f7667d2b8332dcabd6b2f15ec32f7'>High school QBs face new reality as transfers dominate starting jobs at the top of college football</a>
+                </li>
+                
+                
                 
                 
             </ul>
@@ -6768,7 +6770,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
+                    <a href='https://apnews.com/article/practical-magic-2-nicole-kidman-sandra-bullock-2801a7f2932c77fda6849c4c2c2f252e'>For Sandra Bullock and Nicole Kidman, 'Practical Magic 2' heals old wounds</a>
                 </li>
                 
                 
@@ -6780,7 +6782,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/elon-musk-documentary-venice-film-festival-e4e9c5eca6e2656b54f1c639d339109f'>Documentarian Alex Gibney on the power and influence of Elon Musk</a>
+                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
                 </li>
                 
                 
@@ -6915,6 +6917,12 @@ freestar.queue.push(function() {
                 
                 <li>
                     <a href='https://apnews.com/article/stocks-markets-ai-jobs-rates-oil-5fed4e21cb3f80eef06087217dbbd9f7'>Global shares are mixed as chipmaker shares rally in Tokyo and Seoul</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/jaguar-land-rover-job-cuts-uk-tata-bc88688b43c9743cc182d416ab6e63cf'>Jaguar Land Rover will cut 4,000 jobs to reduce costs and compete with China</a>
                 </li>
                 
                 
@@ -7117,13 +7125,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
+                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
+                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
                 </li>
                 
                 
@@ -7556,13 +7564,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
+                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
+                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
                 </li>
                 
                 
@@ -7638,7 +7646,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7'>Challenging your brain helps keep it healthy. Here's how to do it</a>
+                    <a href='https://apnews.com/article/jet-lag-eating-travel-destination-dd65300e117448e0e37d3e36fe56fb97'>Jetting off for a summer vacation? How to eat and drink to minimize jet lag</a>
                 </li>
                 
                 
@@ -7722,13 +7730,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
+                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
+                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
                 </li>
                 
                 
@@ -7910,7 +7918,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope returns to sanctuary where he prayed after election and unveils a fresco depicting the event</a>
+                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope Leo XIV unveils a fresco at the sanctuary where he prayed after his election last year</a>
                 </li>
                 
                 
@@ -7922,7 +7930,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/wendell-berry-literature-religion-nature-spirituality-kentucky-d3798b8b9afa245248bf219ac588dd1b'>For many spiritual seekers, author Wendell Berry was a fellow pilgrim and contrarian</a>
+                    <a href='https://apnews.com/article/pope-leo-xiv-vatican-augustine-34a27b6bea9e3d48010acb2fbdad6046'>Pope Leo XIV is known as 'Father Bob' among fellow Augustinians. Who are they?</a>
                 </li>
                 
                 
@@ -8026,19 +8034,19 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href='https://apnews.com/article/elecciones-parlamentarias-alemania-ultraderecha-7185f9b80ed63a04855ed0752ae16bf4'>Partido alemán de ultraderecha gana elección regional por amplio margen, pero no alcanza una mayoría</a>
+                    <a href='https://apnews.com/article/reino-unido-carlos-principe-enrique-meghan-494615002972fe8804ff8126be838e8c'>El rey Carlos aclara el estatus del príncipe Enrique y Meghan tras su regreso al Reino Unido</a>
                 </li>
                 
                 
                 
                 <li>
                     <a href='https://apnews.com/article/ecuador-estados-unidos-intercepcion-embarcaciones-narcotrafico-pescadores-826125142bb746fd76bb1a6b8855ac79'>Localizan a 26 pescadores ecuatorianos tras intercepción de EEUU a un barco en el Pacífico</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
                 </li>
                 
                 
@@ -8970,7 +8978,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
+                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
                 </li>
                 
                 
@@ -8982,7 +8990,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c'>AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right</a>
+                    <a href='https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01'>Iran says improved ballistic missile shows it will take preemptive action against threats</a>
                 </li>
                 
                 
@@ -9089,12 +9097,6 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5'>At least 5 dead after Amazon cargo plane barreled off runway at Miami airport</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb'>Federal investigators probe Amazon cargo jet's fiery runway crash that killed 5 in Miami</a>
                 </li>
                 
@@ -9106,7 +9108,9 @@ freestar.queue.push(function() {
                 
                 
                 
-                
+                <li>
+                    <a href='https://apnews.com/article/labor-day-record-high-gas-prices-dffb7d3fa06ef930aaeebc380e5e4e0e'>Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues</a>
+                </li>
                 
                 
                 
@@ -9213,13 +9217,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/election-2026-ohio-acton-attack-92abb7d809134b43630e01e25b3b9125'>Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says</a>
+                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
+                    <a href='https://apnews.com/article/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01-d87d6cb35b896121df8ea12feae0bca3'>AP Decision Notes: What to expect in New Hampshire’s state primary</a>
                 </li>
                 
                 
@@ -9319,20 +9323,22 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-late-finishes-77a6d44a93e8c25d7a86f1db6aaeef96'>Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/canada-hockey-tariffs-fb12b5e5ebfc8842b6fbcd8d99483277'>The US tariff on Canadian imports could send already soaring hockey gear prices even higher</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-carlos-alcaraz-interview-05ab14d1ce0fa9d959512f10a4a38f72'>Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent</a>
+                    <a href='https://apnews.com/article/big-ten-replay-michigan-underwood-2b7df7a1b345589534f94012d86b02c0'>Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday</a>
                 </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/fbs-recruiting-wisconsin-badgers-c45f7667d2b8332dcabd6b2f15ec32f7'>High school QBs face new reality as transfers dominate starting jobs at the top of college football</a>
+                </li>
+                
+                
                 
                 
             </ul>
@@ -9428,7 +9434,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
+                    <a href='https://apnews.com/article/practical-magic-2-nicole-kidman-sandra-bullock-2801a7f2932c77fda6849c4c2c2f252e'>For Sandra Bullock and Nicole Kidman, 'Practical Magic 2' heals old wounds</a>
                 </li>
                 
                 
@@ -9440,7 +9446,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/elon-musk-documentary-venice-film-festival-e4e9c5eca6e2656b54f1c639d339109f'>Documentarian Alex Gibney on the power and influence of Elon Musk</a>
+                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
                 </li>
                 
                 
@@ -9531,6 +9537,12 @@ freestar.queue.push(function() {
                 
                 <li>
                     <a href='https://apnews.com/article/stocks-markets-ai-jobs-rates-oil-5fed4e21cb3f80eef06087217dbbd9f7'>Global shares are mixed as chipmaker shares rally in Tokyo and Seoul</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/jaguar-land-rover-job-cuts-uk-tata-bc88688b43c9743cc182d416ab6e63cf'>Jaguar Land Rover will cut 4,000 jobs to reduce costs and compete with China</a>
                 </li>
                 
                 
@@ -9634,13 +9646,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
+                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
+                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
                 </li>
                 
                 
@@ -9955,13 +9967,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
+                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
+                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
                 </li>
                 
                 
@@ -10033,7 +10045,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7'>Challenging your brain helps keep it healthy. Here's how to do it</a>
+                    <a href='https://apnews.com/article/jet-lag-eating-travel-destination-dd65300e117448e0e37d3e36fe56fb97'>Jetting off for a summer vacation? How to eat and drink to minimize jet lag</a>
                 </li>
                 
                 
@@ -10091,13 +10103,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
+                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
+                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
                 </li>
                 
                 
@@ -10225,7 +10237,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope returns to sanctuary where he prayed after election and unveils a fresco depicting the event</a>
+                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope Leo XIV unveils a fresco at the sanctuary where he prayed after his election last year</a>
                 </li>
                 
                 
@@ -10237,7 +10249,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/wendell-berry-literature-religion-nature-spirituality-kentucky-d3798b8b9afa245248bf219ac588dd1b'>For many spiritual seekers, author Wendell Berry was a fellow pilgrim and contrarian</a>
+                    <a href='https://apnews.com/article/pope-leo-xiv-vatican-augustine-34a27b6bea9e3d48010acb2fbdad6046'>Pope Leo XIV is known as 'Father Bob' among fellow Augustinians. Who are they?</a>
                 </li>
                 
                 
@@ -10315,19 +10327,19 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href='https://apnews.com/article/elecciones-parlamentarias-alemania-ultraderecha-7185f9b80ed63a04855ed0752ae16bf4'>Partido alemán de ultraderecha gana elección regional por amplio margen, pero no alcanza una mayoría</a>
+                    <a href='https://apnews.com/article/reino-unido-carlos-principe-enrique-meghan-494615002972fe8804ff8126be838e8c'>El rey Carlos aclara el estatus del príncipe Enrique y Meghan tras su regreso al Reino Unido</a>
                 </li>
                 
                 
                 
                 <li>
                     <a href='https://apnews.com/article/ecuador-estados-unidos-intercepcion-embarcaciones-narcotrafico-pescadores-826125142bb746fd76bb1a6b8855ac79'>Localizan a 26 pescadores ecuatorianos tras intercepción de EEUU a un barco en el Pacífico</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
                 </li>
                 
                 
@@ -12393,7 +12405,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
+                    <a href='https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d'>King Charles III clarifies status of Prince Harry and his wife, Meghan, after their return to the UK</a>
                 </li>
                 
                 
@@ -12405,7 +12417,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c'>AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right</a>
+                    <a href='https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01'>Iran says improved ballistic missile shows it will take preemptive action against threats</a>
                 </li>
                 
                 
@@ -12574,12 +12586,6 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5'>At least 5 dead after Amazon cargo plane barreled off runway at Miami airport</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb'>Federal investigators probe Amazon cargo jet's fiery runway crash that killed 5 in Miami</a>
                 </li>
                 
@@ -12591,7 +12597,9 @@ freestar.queue.push(function() {
                 
                 
                 
-                
+                <li>
+                    <a href='https://apnews.com/article/labor-day-record-high-gas-prices-dffb7d3fa06ef930aaeebc380e5e4e0e'>Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues</a>
+                </li>
                 
                 
                 
@@ -12759,13 +12767,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/election-2026-ohio-acton-attack-92abb7d809134b43630e01e25b3b9125'>Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says</a>
+                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47'>Midterm elections head into the home stretch as candidates hit Labor Day events</a>
+                    <a href='https://apnews.com/article/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01-d87d6cb35b896121df8ea12feae0bca3'>AP Decision Notes: What to expect in New Hampshire’s state primary</a>
                 </li>
                 
                 
@@ -12940,20 +12948,22 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-late-finishes-77a6d44a93e8c25d7a86f1db6aaeef96'>Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback</a>
-                </li>
-                
-                
-                
-                <li>
                     <a href='https://apnews.com/article/canada-hockey-tariffs-fb12b5e5ebfc8842b6fbcd8d99483277'>The US tariff on Canadian imports could send already soaring hockey gear prices even higher</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/us-open-carlos-alcaraz-interview-05ab14d1ce0fa9d959512f10a4a38f72'>Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent</a>
+                    <a href='https://apnews.com/article/big-ten-replay-michigan-underwood-2b7df7a1b345589534f94012d86b02c0'>Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday</a>
                 </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/fbs-recruiting-wisconsin-badgers-c45f7667d2b8332dcabd6b2f15ec32f7'>High school QBs face new reality as transfers dominate starting jobs at the top of college football</a>
+                </li>
+                
+                
                 
                 
             </ul>
@@ -13099,7 +13109,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
+                    <a href='https://apnews.com/article/practical-magic-2-nicole-kidman-sandra-bullock-2801a7f2932c77fda6849c4c2c2f252e'>For Sandra Bullock and Nicole Kidman, 'Practical Magic 2' heals old wounds</a>
                 </li>
                 
                 
@@ -13111,7 +13121,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/elon-musk-documentary-venice-film-festival-e4e9c5eca6e2656b54f1c639d339109f'>Documentarian Alex Gibney on the power and influence of Elon Musk</a>
+                    <a href='https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6'>'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4</a>
                 </li>
                 
                 
@@ -13246,6 +13256,12 @@ freestar.queue.push(function() {
                 
                 <li>
                     <a href='https://apnews.com/article/stocks-markets-ai-jobs-rates-oil-5fed4e21cb3f80eef06087217dbbd9f7'>Global shares are mixed as chipmaker shares rally in Tokyo and Seoul</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/jaguar-land-rover-job-cuts-uk-tata-bc88688b43c9743cc182d416ab6e63cf'>Jaguar Land Rover will cut 4,000 jobs to reduce costs and compete with China</a>
                 </li>
                 
                 
@@ -13448,13 +13464,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
+                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/archive-fact-checking-9233643423'>False claim of human meat in McDonald’s factories stems from old hoax</a>
+                    <a href='https://apnews.com/article/trump-wars-fact-focus-a75eca5184bd45acbf9f46ff9822514f'>FACT FOCUS: Trump says he's ended eight wars. His numbers are off</a>
                 </li>
                 
                 
@@ -13887,13 +13903,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
+                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/carbon-finance-stove-cooking-africa-kenya-climate-4f3fa2226235269d22b411c55ed7c779'>Carbon credit financing emerges as Africa’s biggest bet for expanding clean cooking</a>
+                    <a href='https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1'>Global warming will exceed limit, UN says in a report that maps path to get back below danger zone</a>
                 </li>
                 
                 
@@ -13969,7 +13985,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7'>Challenging your brain helps keep it healthy. Here's how to do it</a>
+                    <a href='https://apnews.com/article/jet-lag-eating-travel-destination-dd65300e117448e0e37d3e36fe56fb97'>Jetting off for a summer vacation? How to eat and drink to minimize jet lag</a>
                 </li>
                 
                 
@@ -14053,13 +14069,13 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
+                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/apple-50-years-anniversary-computer-iphone-b462b82f1e202f28a75ab1a8070c00b7'>Apple's 50-year odyssey has redefined technology, pop culture and comeback stories</a>
+                    <a href='https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1'>How US adults are using AI, according to AP-NORC polling</a>
                 </li>
                 
                 
@@ -14241,7 +14257,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope returns to sanctuary where he prayed after election and unveils a fresco depicting the event</a>
+                    <a href='https://apnews.com/article/vatican-pope-sanctuary-8ca77a1feecedcba06db785ebd0bdb8f'>Pope Leo XIV unveils a fresco at the sanctuary where he prayed after his election last year</a>
                 </li>
                 
                 
@@ -14253,7 +14269,7 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/wendell-berry-literature-religion-nature-spirituality-kentucky-d3798b8b9afa245248bf219ac588dd1b'>For many spiritual seekers, author Wendell Berry was a fellow pilgrim and contrarian</a>
+                    <a href='https://apnews.com/article/pope-leo-xiv-vatican-augustine-34a27b6bea9e3d48010acb2fbdad6046'>Pope Leo XIV is known as 'Father Bob' among fellow Augustinians. Who are they?</a>
                 </li>
                 
                 
@@ -14357,19 +14373,19 @@ freestar.queue.push(function() {
                 
                 
                 <li>
-                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href='https://apnews.com/article/elecciones-parlamentarias-alemania-ultraderecha-7185f9b80ed63a04855ed0752ae16bf4'>Partido alemán de ultraderecha gana elección regional por amplio margen, pero no alcanza una mayoría</a>
+                    <a href='https://apnews.com/article/reino-unido-carlos-principe-enrique-meghan-494615002972fe8804ff8126be838e8c'>El rey Carlos aclara el estatus del príncipe Enrique y Meghan tras su regreso al Reino Unido</a>
                 </li>
                 
                 
                 
                 <li>
                     <a href='https://apnews.com/article/ecuador-estados-unidos-intercepcion-embarcaciones-narcotrafico-pescadores-826125142bb746fd76bb1a6b8855ac79'>Localizan a 26 pescadores ecuatorianos tras intercepción de EEUU a un barco en el Pacífico</a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href='https://apnews.com/article/bolivia-cuartel-explosion-a361c03bd9c0a7c66a94d2083fef8a07'>Suben a 4 los soldados fallecidos por explosión en un cuartel militar de Bolivia</a>
                 </li>
                 
                 
@@ -15341,76 +15357,249 @@ freestar.queue.push(function() {
                     
                         <div class="PagePromo"
  data-gtm-region="Top News Tag Hub"
- data-gtm-topic="Top News Tag Hub" data-gtm-region-item  data-posted-date-timestamp="1788727021000" data-updated-date-timestamp="1788728876000">
+ data-gtm-topic="Top News Tag Hub" data-gtm-region-item  data-posted-date-timestamp="1788828501000" data-updated-date-timestamp="1788828501000">
    
     
         
             
-    <div class="PagePromo-media"><a class="Link" aria-label="Storm creates huge waves and dangerous currents at southern California beaches" href="https://apnews.com/article/hurricane-marie-california-beaches-waves-flooding-9a57a27e84cc48fefb90c10baa499cfe" >
+    <div class="PagePromo-media"><a class="Link" aria-label="Hurricane Lowell expected to pass near one Hawaiian island and cause major rains statewide" href="https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752" >
       
    
 
     <picture data-crop="list-h">
     
-        <source media="(min-width: 1440px)" type="image/webp"  width="667" height="445" srcset="https://dims.apnews.com/dims4/default/799209b/2147483647/strip/true/crop/1500x1000+0+0/resize/667x445!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/8c30a16/2147483647/strip/true/crop/1500x1000+0+0/resize/1334x890!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1440px)" type="image/webp"  width="445" height="445" srcset="https://dims.apnews.com/dims4/default/6b2b957/2147483647/strip/true/crop/1000x1000+0+0/resize/445x445!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/468b6d6/2147483647/strip/true/crop/1000x1000+0+0/resize/890x890!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 1440px)" width="667" height="445" srcset="https://dims.apnews.com/dims4/default/74164a9/2147483647/strip/true/crop/1500x1000+0+0/resize/667x445!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/d93aea9/2147483647/strip/true/crop/1500x1000+0+0/resize/1334x890!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1440px)" width="445" height="445" srcset="https://dims.apnews.com/dims4/default/189ad8c/2147483647/strip/true/crop/1000x1000+0+0/resize/445x445!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/2272440/2147483647/strip/true/crop/1000x1000+0+0/resize/890x890!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 1280px)" type="image/webp"  width="667" height="445" srcset="https://dims.apnews.com/dims4/default/799209b/2147483647/strip/true/crop/1500x1000+0+0/resize/667x445!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/8c30a16/2147483647/strip/true/crop/1500x1000+0+0/resize/1334x890!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1280px)" type="image/webp"  width="445" height="445" srcset="https://dims.apnews.com/dims4/default/6b2b957/2147483647/strip/true/crop/1000x1000+0+0/resize/445x445!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/468b6d6/2147483647/strip/true/crop/1000x1000+0+0/resize/890x890!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 1280px)" width="667" height="445" srcset="https://dims.apnews.com/dims4/default/74164a9/2147483647/strip/true/crop/1500x1000+0+0/resize/667x445!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/d93aea9/2147483647/strip/true/crop/1500x1000+0+0/resize/1334x890!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1280px)" width="445" height="445" srcset="https://dims.apnews.com/dims4/default/189ad8c/2147483647/strip/true/crop/1000x1000+0+0/resize/445x445!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/2272440/2147483647/strip/true/crop/1000x1000+0+0/resize/890x890!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 1024px)" type="image/webp"  width="585" height="390" srcset="https://dims.apnews.com/dims4/default/a1bc8ea/2147483647/strip/true/crop/1500x1000+0+0/resize/585x390!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/65c928a/2147483647/strip/true/crop/1500x1000+0+0/resize/1170x780!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1024px)" type="image/webp"  width="390" height="390" srcset="https://dims.apnews.com/dims4/default/b390746/2147483647/strip/true/crop/1000x1000+0+0/resize/390x390!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/30de019/2147483647/strip/true/crop/1000x1000+0+0/resize/780x780!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 1024px)" width="585" height="390" srcset="https://dims.apnews.com/dims4/default/0f7248f/2147483647/strip/true/crop/1500x1000+0+0/resize/585x390!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/866e306/2147483647/strip/true/crop/1500x1000+0+0/resize/1170x780!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 1024px)" width="390" height="390" srcset="https://dims.apnews.com/dims4/default/3693cdb/2147483647/strip/true/crop/1000x1000+0+0/resize/390x390!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/ba279ad/2147483647/strip/true/crop/1000x1000+0+0/resize/780x780!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 768px)" type="image/webp"  width="483" height="322" srcset="https://dims.apnews.com/dims4/default/3a552ac/2147483647/strip/true/crop/1500x1000+0+0/resize/483x322!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/e253373/2147483647/strip/true/crop/1500x1000+0+0/resize/966x644!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 768px)" type="image/webp"  width="322" height="322" srcset="https://dims.apnews.com/dims4/default/efb9e8c/2147483647/strip/true/crop/1000x1000+0+0/resize/322x322!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/914d554/2147483647/strip/true/crop/1000x1000+0+0/resize/644x644!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 768px)" width="483" height="322" srcset="https://dims.apnews.com/dims4/default/ba40adc/2147483647/strip/true/crop/1500x1000+0+0/resize/483x322!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/b80181a/2147483647/strip/true/crop/1500x1000+0+0/resize/966x644!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 768px)" width="322" height="322" srcset="https://dims.apnews.com/dims4/default/adbd0a0/2147483647/strip/true/crop/1000x1000+0+0/resize/322x322!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/6a2ef09/2147483647/strip/true/crop/1000x1000+0+0/resize/644x644!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 600px)" type="image/webp"  width="727" height="485" srcset="https://dims.apnews.com/dims4/default/e1141da/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/cd6ae5f/2147483647/strip/true/crop/1500x1000+0+0/resize/1454x970!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 600px)" type="image/webp"  width="485" height="485" srcset="https://dims.apnews.com/dims4/default/ccd955a/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/f61d0be/2147483647/strip/true/crop/1000x1000+0+0/resize/970x970!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source media="(min-width: 600px)" width="727" height="485" srcset="https://dims.apnews.com/dims4/default/35986eb/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/2b66364/2147483647/strip/true/crop/1500x1000+0+0/resize/1454x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source media="(min-width: 600px)" width="485" height="485" srcset="https://dims.apnews.com/dims4/default/aaee1d0/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/0d0f526/2147483647/strip/true/crop/1000x1000+0+0/resize/970x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source type="image/webp"  width="727" height="485" srcset="https://dims.apnews.com/dims4/default/e1141da/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/cd6ae5f/2147483647/strip/true/crop/1500x1000+0+0/resize/1454x970!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source type="image/webp"  width="485" height="485" srcset="https://dims.apnews.com/dims4/default/ccd955a/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/f61d0be/2147483647/strip/true/crop/1000x1000+0+0/resize/970x970!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
 
     
-        <source width="727" height="485" srcset="https://dims.apnews.com/dims4/default/35986eb/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/2b66364/2147483647/strip/true/crop/1500x1000+0+0/resize/1454x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+        <source width="485" height="485" srcset="https://dims.apnews.com/dims4/default/aaee1d0/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/0d0f526/2147483647/strip/true/crop/1000x1000+0+0/resize/970x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x">
 
     
-<img class="Image" alt="This photo provided by Steve Hague shows a surfer at Newport Beac, Saturday, Sept. 5, 2026, in Newport Beach, Calif. (Steve Hague via AP)" srcset="https://dims.apnews.com/dims4/default/35986eb/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/2b66364/2147483647/strip/true/crop/1500x1000+0+0/resize/1454x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x" width="727" height="485" src="https://dims.apnews.com/dims4/default/35986eb/2147483647/strip/true/crop/1500x1000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4" loading="lazy"
+<img class="Image" alt="This satellite image released by NOAA shows Hurricane Lowell approaching Hawaii, Sunday, Sept. 6, 2026. (NOAA via AP)" srcset="https://dims.apnews.com/dims4/default/aaee1d0/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 1x,https://dims.apnews.com/dims4/default/0d0f526/2147483647/strip/true/crop/1000x1000+0+0/resize/970x970!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89 2x" width="485" height="485" src="https://dims.apnews.com/dims4/default/aaee1d0/2147483647/strip/true/crop/1000x1000+0+0/resize/485x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F8f%2F7717c1388fbe5904bacb2e68ebff%2F913775bd293441e6b18e241ddae1ec89" loading="lazy"
+        
+    >
+</picture>
+
+</a></div>
+
+        
+    
+
+    <div class="PagePromo-content">
+        
+        
+        
+        
+
+        
+    
+        
+
+
+    
+
+
+  
+    
+        <bsp-custom-headline custom-headline="h3" >
+            <h3 class="PagePromo-title">
+                
+                
+                <a class="Link " href="https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"><span class="PagePromoContentIcons-text">Hurricane Lowell expected to pass near one Hawaiian island and cause major rains statewide</span></a>
+            </h3>
+        </bsp-custom-headline>
+    
+      
+
+
+
+
+
+        
+
+
+
+    <div class="PagePromo-description">
+        <a class="Link " href="https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"><span class="PagePromoContentIcons-text">Hurricane Lowell was expected to cause major rains across Hawaii on Tuesday as its core was projected to pass over or near the sparsely populated island of Niihau.</span></a>
+    </div>
+
+
+        
+        
+
+    
+    
+    
+    
+    <div class="PagePromo-byline-container">
+        
+        
+            
+            
+                <div class="PagePromo-byline">
+                            
+                                <div class="PagePromo-date">
+                                    <bsp-timestamp data-timestamp="1788828501000" data-recent-thresholdinhours="1">
+                                        
+                                            <template data-date-tpl>Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year]</template>
+                                            <template data-date-tpl-recent><span class="Timestamp-template">[deltaHours] hours ago</span></template>
+                                            <template data-date-tpl-yesterday><span class="Timestamp-template">Yesterday</span></template>
+                                            <template data-date-tpl-sameyear><span class="Timestamp-template">[monthFull] [day]</span></template>
+                                            <template data-date-tpl-date><span class="Timestamp-template">[monthFull] [day], [year]</span></template>
+                                        
+                                        
+                                            <template data-date-tpl-minago><span class="Timestamp-template-now">[deltaMinutes] mins ago</span></template>
+                                            <template data-date-tpl-now><span class="Timestamp-template-now">Now</span></template>
+                                        
+                                        <span data-date>&nbsp;</span>
+                                    </bsp-timestamp>
+                                </div>
+                            
+                        </div>
+            
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+    
+    
+
+
+        
+
+        
+
+
+        
+
+        
+
+        
+    </div>
+
+    
+</div>
+                    
+                
+            
+        </div>
+        
+        
+            
+        
+            
+                
+                    <div class="PageList-items-item">
+                        
+                            <div class="PagePromo"
+ data-gtm-region="Storm creates huge waves and dangerous currents at southern California beaches"
+ data-gtm-topic="No Value" data-align-top data-mobile-alt-layout="true" data-gtm-region-item  data-posted-date-timestamp="1788727021000" data-updated-date-timestamp="1788728876000">
+   
+    
+        
+            
+    <div class="PagePromo-media PagePromo-media--backgroundSecondary"><a class="Link" aria-label="Storm creates huge waves and dangerous currents at southern California beaches" href="https://apnews.com/article/hurricane-marie-california-beaches-waves-flooding-9a57a27e84cc48fefb90c10baa499cfe" >
+      
+   
+
+    <picture data-crop="nocrop">
+    
+        <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/abb8c56/2147483647/strip/true/crop/1500x1000+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/fc83a72/2147483647/strip/true/crop/1500x1000+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source media="(min-width: 1024px)" width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/86d6bca/2147483647/strip/true/crop/1500x1000+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/39449c7/2147483647/strip/true/crop/1500x1000+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source media="(min-width: 768px)" type="image/webp"  width="1023" height="682" srcset="https://dims.apnews.com/dims4/default/eef767e/2147483647/strip/true/crop/1500x1000+0+0/resize/1023x682!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/6e8acab/2147483647/strip/true/crop/1500x1000+0+0/resize/2046x1364!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source media="(min-width: 768px)" width="1023" height="682" srcset="https://dims.apnews.com/dims4/default/c7798a5/2147483647/strip/true/crop/1500x1000+0+0/resize/1023x682!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/eeb917f/2147483647/strip/true/crop/1500x1000+0+0/resize/2046x1364!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source media="(min-width: 600px)" type="image/webp"  width="767" height="511" srcset="https://dims.apnews.com/dims4/default/4cb9dee/2147483647/strip/true/crop/1500x1000+0+0/resize/767x511!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/41b612a/2147483647/strip/true/crop/1500x1000+0+0/resize/1534x1022!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source media="(min-width: 600px)" width="767" height="511" srcset="https://dims.apnews.com/dims4/default/5af7f63/2147483647/strip/true/crop/1500x1000+0+0/resize/767x511!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/b7af519/2147483647/strip/true/crop/1500x1000+0+0/resize/1534x1022!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source type="image/webp"  width="599" height="399" srcset="https://dims.apnews.com/dims4/default/d6e3cf3/2147483647/strip/true/crop/1500x1000+0+0/resize/599x399!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/5ba30fa/2147483647/strip/true/crop/1500x1000+0+0/resize/1198x798!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+
+    
+        <source width="599" height="399" srcset="https://dims.apnews.com/dims4/default/4f070c9/2147483647/strip/true/crop/1500x1000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/89a2986/2147483647/strip/true/crop/1500x1000+0+0/resize/1198x798!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x">
+
+    
+<img class="Image" alt="This photo provided by Steve Hague shows a surfer at Newport Beac, Saturday, Sept. 5, 2026, in Newport Beach, Calif. (Steve Hague via AP)" srcset="https://dims.apnews.com/dims4/default/4f070c9/2147483647/strip/true/crop/1500x1000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 1x,https://dims.apnews.com/dims4/default/89a2986/2147483647/strip/true/crop/1500x1000+0+0/resize/1198x798!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4 2x" width="599" height="399" src="https://dims.apnews.com/dims4/default/4f070c9/2147483647/strip/true/crop/1500x1000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F24%2F19%2Fe13e5e7a56071b1f9c79ea9268b4%2Fb38a81e90d1c49879295eaf33b8198b4" loading="lazy"
         
     >
 </picture>
@@ -15453,10 +15642,6 @@ freestar.queue.push(function() {
         
 
 
-
-    <div class="PagePromo-description">
-        <a class="Link " href="https://apnews.com/article/hurricane-marie-california-beaches-waves-flooding-9a57a27e84cc48fefb90c10baa499cfe"><span class="PagePromoContentIcons-text">Hurricane Marie is creating dangerous conditions at beaches across Southern California over Labor Day weekend, with strong currents and huge waves presenting a threat to swimmers and surfers.</span></a>
-    </div>
 
 
         
@@ -15526,12 +15711,9 @@ freestar.queue.push(function() {
 
     
 </div>
-                    
+                        
+                    </div>
                 
-            
-        </div>
-        
-        
             
         
             
@@ -16032,178 +16214,6 @@ freestar.queue.push(function() {
                 
             
         
-            
-                
-                    <div class="PageList-items-item">
-                        
-                            <div class="PagePromo"
- data-gtm-region="Wells drying up at South Dakota homes and ranches due to heat and drought"
- data-gtm-topic="No Value" data-align-top data-mobile-alt-layout="true" data-gtm-region-item  data-posted-date-timestamp="1788468768000" data-updated-date-timestamp="1788468768000">
-   
-    
-        
-            
-    <div class="PagePromo-media PagePromo-media--backgroundSecondary"><a class="Link" aria-label="Wells drying up at South Dakota homes and ranches due to heat and drought" href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2" >
-      
-   
-
-    <picture data-crop="nocrop">
-    
-        <source media="(min-width: 1024px)" type="image/webp"  width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/557135c/2147483647/strip/true/crop/1920x1280+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/94bc91a/2147483647/strip/true/crop/1920x1280+0+0/resize/2880x1920!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source media="(min-width: 1024px)" width="1440" height="960" srcset="https://dims.apnews.com/dims4/default/9abd464/2147483647/strip/true/crop/1920x1280+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/8c159e5/2147483647/strip/true/crop/1920x1280+0+0/resize/2880x1920!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source media="(min-width: 768px)" type="image/webp"  width="1023" height="682" srcset="https://dims.apnews.com/dims4/default/bebe0b4/2147483647/strip/true/crop/1920x1280+0+0/resize/1023x682!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/8f64eda/2147483647/strip/true/crop/1920x1280+0+0/resize/2046x1364!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source media="(min-width: 768px)" width="1023" height="682" srcset="https://dims.apnews.com/dims4/default/9e40cb0/2147483647/strip/true/crop/1920x1280+0+0/resize/1023x682!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/78b4863/2147483647/strip/true/crop/1920x1280+0+0/resize/2046x1364!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source media="(min-width: 600px)" type="image/webp"  width="767" height="511" srcset="https://dims.apnews.com/dims4/default/dda02e0/2147483647/strip/true/crop/1920x1280+0+0/resize/767x511!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/a968b6a/2147483647/strip/true/crop/1920x1280+0+0/resize/1534x1022!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source media="(min-width: 600px)" width="767" height="511" srcset="https://dims.apnews.com/dims4/default/c0251f1/2147483647/strip/true/crop/1920x1280+0+0/resize/767x511!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/341798f/2147483647/strip/true/crop/1920x1280+0+0/resize/1534x1022!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source type="image/webp"  width="599" height="399" srcset="https://dims.apnews.com/dims4/default/9c84daa/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/a0ca80e/2147483647/strip/true/crop/1920x1280+0+0/resize/1198x798!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-
-    
-        <source width="599" height="399" srcset="https://dims.apnews.com/dims4/default/9d7bc67/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/33a4084/2147483647/strip/true/crop/1920x1280+0+0/resize/1198x798!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
-
-    
-<img class="Image" alt="Amanda Rivera, left, and Ralph Bifulco fill a tank with fresh water at J&amp;J Asphalt in Rapid City, S.D., Thursday, Aug. 20, 2026. (Bart Pfankuch/South Dakota News Watch via AP)" srcset="https://dims.apnews.com/dims4/default/9d7bc67/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/33a4084/2147483647/strip/true/crop/1920x1280+0+0/resize/1198x798!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x" width="599" height="399" src="https://dims.apnews.com/dims4/default/9d7bc67/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681" loading="lazy"
-        
-    >
-</picture>
-
-</a></div>
-
-        
-    
-
-    <div class="PagePromo-content">
-        
-        
-        
-        
-
-        
-    
-        
-
-
-    
-
-
-  
-    
-        <bsp-custom-headline custom-headline="h3" >
-            <h3 class="PagePromo-title">
-                
-                
-                <a class="Link " href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2"><span class="PagePromoContentIcons-text">Wells drying up at South Dakota homes and ranches due to heat and drought</span></a>
-            </h3>
-        </bsp-custom-headline>
-    
-      
-
-
-
-
-
-        
-
-
-
-
-        
-        
-
-    
-    
-    
-    
-    <div class="PagePromo-byline-container" data-has-comment-count>
-        
-        
-            
-            
-                <div class="PagePromo-byline">
-                            
-                                <div class="PagePromo-date">
-                                    <bsp-timestamp data-timestamp="1788468768000" data-recent-thresholdinhours="1">
-                                        
-                                            <template data-date-tpl>Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year]</template>
-                                            <template data-date-tpl-recent><span class="Timestamp-template">[deltaHours] hours ago</span></template>
-                                            <template data-date-tpl-yesterday><span class="Timestamp-template">Yesterday</span></template>
-                                            <template data-date-tpl-sameyear><span class="Timestamp-template">[monthFull] [day]</span></template>
-                                            <template data-date-tpl-date><span class="Timestamp-template">[monthFull] [day], [year]</span></template>
-                                        
-                                        
-                                            <template data-date-tpl-minago><span class="Timestamp-template-now">[deltaMinutes] mins ago</span></template>
-                                            <template data-date-tpl-now><span class="Timestamp-template-now">Now</span></template>
-                                        
-                                        <span data-date>&nbsp;</span>
-                                    </bsp-timestamp>
-                                </div>
-                            
-                        </div>
-            
-        
-        
-        
-        
-        
-        
-        
-            <a class="PagePromo-commentCount " href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2"><svg class="CommentCount-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12">
-    <path d="M10.8 0H1.2C0.54 0 0 0.54 0 1.2V12L2.4 9.6H10.8C11.46 9.6 12 9.06 12 8.4V1.2C12 0.54 11.46 0 10.8 0ZM10.8 8.4H2.4L1.2 9.6V1.2H10.8V8.4Z" />
-</svg>
-<span class="CommentCount-template">20</span>
-</a>
-        
-    </div>
-    
-    
-    
-    
-
-
-        
-
-        
-
-
-        
-
-        
-
-        
-    </div>
-
-    
-</div>
-                        
-                    </div>
-                
-            
-        
         
     </div>
 
@@ -16310,7 +16320,7 @@ freestar.queue.push(function() {
         
         
         data-is-force-vpaid-controls>
-        <video class="jwvideoplayer" id="player-M15eNFOY-499033" data-video-pauseads="true" data-media-id="M15eNFOY" data-player="NkmgitGd" data-embed="default"></video>
+        <video class="jwvideoplayer" id="player-M15eNFOY-562472" data-video-pauseads="true" data-media-id="M15eNFOY" data-player="NkmgitGd" data-embed="default"></video>
         
             
                 <link rel="preload" as="image" type="image/webp" fetchpriority="high" href="https://dims.apnews.com/dims4/default/444b287/2147483647/strip/true/crop/1920x1080+0+0/resize/980x551!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F41%2Fe5%2Ffc5c8d05f7b99a1fe83d09e8c9ca%2Fus-mi-storm-power-outages-20260903cr-1920x1080.jpg">
@@ -16834,6 +16844,186 @@ freestar.queue.push(function() {
         
         
         
+        
+    </div>
+    
+    
+    
+    
+
+
+        
+
+        
+
+
+        
+
+        
+
+        
+    </div>
+
+    
+</div>
+                        
+                    
+                </div>
+            
+                <div class="PageList-items-item">
+                    
+                        
+                            <div class="PagePromo"
+ data-gtm-region="Wells drying up at South Dakota homes and ranches due to heat and drought"
+ data-gtm-topic="No Value" data-origintemplate="PagePromo" data-mobile-alt-layout="true" data-gtm-region-item  data-posted-date-timestamp="1788468768000" data-updated-date-timestamp="1788468768000">
+   
+    
+        
+            
+    <div class="PagePromo-media PagePromo-media--backgroundSecondary"><a class="Link" aria-label="Wells drying up at South Dakota homes and ranches due to heat and drought" href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2" >
+      
+   
+
+    <picture data-crop="listD-nocrop">
+    
+        <source media="(min-width: 1440px)" type="image/webp"  width="600" height="400" srcset="https://dims.apnews.com/dims4/default/01c3f45/2147483647/strip/true/crop/1920x1280+0+0/resize/600x400!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/33a65b5/2147483647/strip/true/crop/1920x1280+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(min-width: 1440px)" width="600" height="400" srcset="https://dims.apnews.com/dims4/default/32c2efc/2147483647/strip/true/crop/1920x1280+0+0/resize/600x400!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/a1e1f49/2147483647/strip/true/crop/1920x1280+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(min-width: 1024px)" type="image/webp"  width="388" height="259" srcset="https://dims.apnews.com/dims4/default/6b164e1/2147483647/strip/true/crop/1920x1280+0+0/resize/388x259!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/e6edc03/2147483647/strip/true/crop/1920x1280+0+0/resize/776x518!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(min-width: 1024px)" width="388" height="259" srcset="https://dims.apnews.com/dims4/default/9bcfa79/2147483647/strip/true/crop/1920x1280+0+0/resize/388x259!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/c9cd1b7/2147483647/strip/true/crop/1920x1280+0+0/resize/776x518!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(min-width: 768px)" type="image/webp"  width="484" height="323" srcset="https://dims.apnews.com/dims4/default/7331d4e/2147483647/strip/true/crop/1920x1280+0+0/resize/484x323!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/6b6556d/2147483647/strip/true/crop/1920x1280+0+0/resize/968x646!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(min-width: 768px)" width="484" height="323" srcset="https://dims.apnews.com/dims4/default/928415f/2147483647/strip/true/crop/1920x1280+0+0/resize/484x323!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/53a8743/2147483647/strip/true/crop/1920x1280+0+0/resize/968x646!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(max-width: 599px)" type="image/webp"  width="240" height="160" srcset="https://dims.apnews.com/dims4/default/7f55e59/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/52b5ab3/2147483647/strip/true/crop/1920x1280+0+0/resize/480x320!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source media="(max-width: 599px)" width="240" height="160" srcset="https://dims.apnews.com/dims4/default/436ac94/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/732e943/2147483647/strip/true/crop/1920x1280+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source type="image/webp"  width="240" height="160" srcset="https://dims.apnews.com/dims4/default/7f55e59/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/52b5ab3/2147483647/strip/true/crop/1920x1280+0+0/resize/480x320!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+
+    
+        <source width="240" height="160" srcset="https://dims.apnews.com/dims4/default/436ac94/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/732e943/2147483647/strip/true/crop/1920x1280+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x">
+
+    
+<img class="Image" alt="Amanda Rivera, left, and Ralph Bifulco fill a tank with fresh water at J&amp;J Asphalt in Rapid City, S.D., Thursday, Aug. 20, 2026. (Bart Pfankuch/South Dakota News Watch via AP)" srcset="https://dims.apnews.com/dims4/default/436ac94/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 1x,https://dims.apnews.com/dims4/default/732e943/2147483647/strip/true/crop/1920x1280+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681 2x" width="240" height="160" src="https://dims.apnews.com/dims4/default/436ac94/2147483647/strip/true/crop/1920x1280+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F70%2F5e6ecb80f8d86a1f08b7ade522e8%2F6b04a6d6186d44cf9b8052bd1b71a681" loading="lazy"
+        
+    >
+</picture>
+
+</a></div>
+
+        
+    
+
+    <div class="PagePromo-content">
+        
+        
+        
+        
+
+        
+    
+        
+
+
+    
+
+
+  
+    
+        <bsp-custom-headline custom-headline="h3" >
+            <h3 class="PagePromo-title">
+                
+                
+                <a class="Link " href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2"><span class="PagePromoContentIcons-text">Wells drying up at South Dakota homes and ranches due to heat and drought</span></a>
+            </h3>
+        </bsp-custom-headline>
+    
+      
+
+
+
+
+
+        
+
+
+
+
+        
+        
+
+    
+    
+    
+    
+    <div class="PagePromo-byline-container" data-has-comment-count>
+        
+        
+            
+            
+                <div class="PagePromo-byline">
+                            
+                                <div class="PagePromo-date">
+                                    <bsp-timestamp data-timestamp="1788468768000" data-recent-thresholdinhours="1">
+                                        
+                                            <template data-date-tpl>Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year]</template>
+                                            <template data-date-tpl-recent><span class="Timestamp-template">[deltaHours] hours ago</span></template>
+                                            <template data-date-tpl-yesterday><span class="Timestamp-template">Yesterday</span></template>
+                                            <template data-date-tpl-sameyear><span class="Timestamp-template">[monthFull] [day]</span></template>
+                                            <template data-date-tpl-date><span class="Timestamp-template">[monthFull] [day], [year]</span></template>
+                                        
+                                        
+                                            <template data-date-tpl-minago><span class="Timestamp-template-now">[deltaMinutes] mins ago</span></template>
+                                            <template data-date-tpl-now><span class="Timestamp-template-now">Now</span></template>
+                                        
+                                        <span data-date>&nbsp;</span>
+                                    </bsp-timestamp>
+                                </div>
+                            
+                        </div>
+            
+        
+        
+        
+        
+        
+        
+        
+            <a class="PagePromo-commentCount " href="https://apnews.com/article/south-dakota-black-hills-drought-wells-water-413de6072627a89dffc13d0ce17057c2"><svg class="CommentCount-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12">
+    <path d="M10.8 0H1.2C0.54 0 0 0.54 0 1.2V12L2.4 9.6H10.8C11.46 9.6 12 9.06 12 8.4V1.2C12 0.54 11.46 0 10.8 0ZM10.8 8.4H2.4L1.2 9.6V1.2H10.8V8.4Z" />
+</svg>
+<span class="CommentCount-template">20</span>
+</a>
         
     </div>
     
@@ -18956,7 +19146,7 @@ freestar.queue.push(function() {
             <a class="PagePromo-commentCount " href="https://apnews.com/article/el-nino-climate-change-disasters-worsening-heat-cf2e0bbe4b241c5ad0141ca0f93f44dd"><svg class="CommentCount-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12">
     <path d="M10.8 0H1.2C0.54 0 0 0.54 0 1.2V12L2.4 9.6H10.8C11.46 9.6 12 9.06 12 8.4V1.2C12 0.54 11.46 0 10.8 0ZM10.8 8.4H2.4L1.2 9.6V1.2H10.8V8.4Z" />
 </svg>
-<span class="CommentCount-template">35</span>
+<span class="CommentCount-template">36</span>
 </a>
         
     </div>
@@ -21676,180 +21866,6 @@ freestar.queue.push(function() {
                     
                 </div>
             
-                <div class="PageList-items-item">
-                    
-                        
-                            <div class="PagePromo"
- data-gtm-region="Storms and possible tornadoes pummel the Northeast US, flooding roads and damaging beaches"
- data-gtm-topic="No Value" data-origintemplate="PagePromo" data-mobile-alt-layout="true" data-gtm-region-item  data-posted-date-timestamp="1787278697000" data-updated-date-timestamp="1787288160000">
-   
-    
-        
-            
-    <div class="PagePromo-media PagePromo-media--backgroundSecondary"><a class="Link" aria-label="Storms and possible tornadoes pummel the Northeast US, flooding roads and damaging beaches" href="https://apnews.com/article/northeast-storms-flooding-dover-long-island-tornado-02302995c22360cbc56e3cb5c7c36196" >
-      
-   
-
-    <picture data-crop="listD-nocrop">
-    
-        <source media="(min-width: 1440px)" type="image/webp"  width="600" height="400" srcset="https://dims.apnews.com/dims4/default/bf9636c/2147483647/strip/true/crop/2036x1357+0+0/resize/600x400!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/e9d6bc0/2147483647/strip/true/crop/2036x1357+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(min-width: 1440px)" width="600" height="400" srcset="https://dims.apnews.com/dims4/default/c45b134/2147483647/strip/true/crop/2036x1357+0+0/resize/600x400!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/aec2156/2147483647/strip/true/crop/2036x1357+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(min-width: 1024px)" type="image/webp"  width="388" height="259" srcset="https://dims.apnews.com/dims4/default/9f93d4d/2147483647/strip/true/crop/2036x1357+0+0/resize/388x259!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/2bb3d3a/2147483647/strip/true/crop/2036x1357+0+0/resize/776x518!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(min-width: 1024px)" width="388" height="259" srcset="https://dims.apnews.com/dims4/default/6feabe7/2147483647/strip/true/crop/2036x1357+0+0/resize/388x259!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/06435f2/2147483647/strip/true/crop/2036x1357+0+0/resize/776x518!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(min-width: 768px)" type="image/webp"  width="484" height="323" srcset="https://dims.apnews.com/dims4/default/2868b13/2147483647/strip/true/crop/2036x1357+0+0/resize/484x323!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/ad1866e/2147483647/strip/true/crop/2036x1357+0+0/resize/968x646!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(min-width: 768px)" width="484" height="323" srcset="https://dims.apnews.com/dims4/default/3a48246/2147483647/strip/true/crop/2036x1357+0+0/resize/484x323!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/5da3239/2147483647/strip/true/crop/2036x1357+0+0/resize/968x646!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(max-width: 599px)" type="image/webp"  width="240" height="160" srcset="https://dims.apnews.com/dims4/default/0b3acaa/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/8671006/2147483647/strip/true/crop/2036x1357+0+0/resize/480x320!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source media="(max-width: 599px)" width="240" height="160" srcset="https://dims.apnews.com/dims4/default/14a8fc3/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/81096c7/2147483647/strip/true/crop/2036x1357+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source type="image/webp"  width="240" height="160" srcset="https://dims.apnews.com/dims4/default/0b3acaa/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/8671006/2147483647/strip/true/crop/2036x1357+0+0/resize/480x320!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-
-    
-        <source width="240" height="160" srcset="https://dims.apnews.com/dims4/default/14a8fc3/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/81096c7/2147483647/strip/true/crop/2036x1357+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x">
-
-    
-<img class="Image" alt="In this photo provided by the City of Jersey City, first responders try to rescue people stranded in a flooded street in Jersey City, N.J., Thursday, Aug. 20, 2026, after storms went through the area. (City of Jersey City via AP)" srcset="https://dims.apnews.com/dims4/default/14a8fc3/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 1x,https://dims.apnews.com/dims4/default/81096c7/2147483647/strip/true/crop/2036x1357+0+0/resize/480x320!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b 2x" width="240" height="160" src="https://dims.apnews.com/dims4/default/14a8fc3/2147483647/strip/true/crop/2036x1357+0+0/resize/240x160!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe9%2F7d%2Fda86c2c5cb7b431e76875f04b24b%2F04f1bc69d5f64f3b9d318fe1879d215b" loading="lazy"
-        
-    >
-</picture>
-
-</a></div>
-
-        
-    
-
-    <div class="PagePromo-content">
-        
-        
-        
-        
-
-        
-    
-        
-
-
-    
-
-
-  
-    
-        <bsp-custom-headline custom-headline="h3" >
-            <h3 class="PagePromo-title">
-                
-                
-                <a class="Link " href="https://apnews.com/article/northeast-storms-flooding-dover-long-island-tornado-02302995c22360cbc56e3cb5c7c36196"><span class="PagePromoContentIcons-text">Storms and possible tornadoes pummel the Northeast US, flooding roads and damaging beaches</span></a>
-            </h3>
-        </bsp-custom-headline>
-    
-      
-
-
-
-
-
-        
-
-
-
-
-        
-        
-
-    
-    
-    
-    
-    <div class="PagePromo-byline-container">
-        
-        
-            
-            
-                <div class="PagePromo-byline">
-                            
-                                <div class="PagePromo-date">
-                                    <bsp-timestamp data-timestamp="1787288160000" data-recent-thresholdinhours="1">
-                                        
-                                            <template data-date-tpl>Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year]</template>
-                                            <template data-date-tpl-recent><span class="Timestamp-template">[deltaHours] hours ago</span></template>
-                                            <template data-date-tpl-yesterday><span class="Timestamp-template">Yesterday</span></template>
-                                            <template data-date-tpl-sameyear><span class="Timestamp-template">[monthFull] [day]</span></template>
-                                            <template data-date-tpl-date><span class="Timestamp-template">[monthFull] [day], [year]</span></template>
-                                        
-                                        
-                                            <template data-date-tpl-minago><span class="Timestamp-template-now">[deltaMinutes] mins ago</span></template>
-                                            <template data-date-tpl-now><span class="Timestamp-template-now">Now</span></template>
-                                        
-                                        <span data-date>&nbsp;</span>
-                                    </bsp-timestamp>
-                                </div>
-                            
-                        </div>
-            
-        
-        
-        
-        
-        
-        
-        
-    </div>
-    
-    
-    
-    
-
-
-        
-
-        
-
-
-        
-
-        
-
-        
-    </div>
-
-    
-</div>
-                        
-                    
-                </div>
-            
         </div>
     
 
@@ -22651,6 +22667,6 @@ freestar.queue.push(function() {
 
     
     
-<script type="text/od-defused-script">window.__CF$cv$params={r:'a37998743b1dd15b',t:'MTc4ODgyNDgxNA==',u:'01a07e4484b87f61b6db8d42162090ac',ut:'ahfZ___P7jh3_a0vJMYstYcvs_cC0px96Iyg1vB2Gng-1788824814-1.2.1.1-IzqjgzJqd8X0iKay1YDBs7zL.wap1SIkYJ7.fVW_JBvHB54LpLx.8zyVJZPMwPnBF5luNIl4Z9mLnZ3jEiSg8rncjOIjWrb1g.Zi1rbBZe8',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+<script type="text/od-defused-script">window.__CF$cv$params={r:'a37aeef4fa2f0aae',t:'MTc4ODgzODg0Mw==',u:'01a07f1a953173f0b3ad0584df84029a',ut:'q6pRQ9koCh1KiguylGsnm0coJWrdK.ZyjU.IXy34xuU-1788838843-1.2.1.1-F7uz9STHSmXxo8qDIHccE_8sP9MDSOsfrIAxpDZVQ9m3mPAQSvSWAV8yq_fPGFP5MAli4V301AGI1kv5z.E_mE_sXOEJjFWhTqnfGpkArLc',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
 
 </html>

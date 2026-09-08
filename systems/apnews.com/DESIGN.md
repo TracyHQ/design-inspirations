@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*POLITICS*
+*Breaking News, Latest Headlines and Videos*
 
 Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.
 
@@ -44,7 +44,7 @@ Read the latest headlines, breaking news, and videos at APNews.com, the definiti
 - **Tone:** (none yet)
 
 ### Messaging pillars
-- POLITICS
+- AP PHOTOGRAPHY
 - Latest news
 - One attack, many Americans
 

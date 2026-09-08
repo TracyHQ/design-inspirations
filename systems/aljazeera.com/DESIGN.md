@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Al Jazeera*
+*Breaking News, World News and Video from Al Jazeera*
 
 News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.
 
@@ -45,7 +45,7 @@ News, analysis from the Middle East & worldwide, multimedia & interactives, opin
 
 ### Messaging pillars
 - Al Jazeera
-- Hormuz shipping traffic falls sharply as US insists waterway ‘fully open’
+- Qatar says priority is to open Hormuz to avoid ‘industrial catastrophe’
 - The domestic armed threat facing Iran
 
 ### Vocabulary

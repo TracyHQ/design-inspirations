@@ -12,13 +12,15 @@
   "source": {
     "url": "https://ansible.com/",
     "finalUrl": "https://ansible.com/",
-    "extractedAt": "2026-09-07T23:54:29.016Z",
+    "extractedAt": "2026-09-08T03:40:39.776Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Ansible Collaborative\" is page furniture and the page offered no other line; cleared"
+  ],
   "counts": {
     "pages": 1,
     "colors": 17,

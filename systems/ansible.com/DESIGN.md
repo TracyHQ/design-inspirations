@@ -18,8 +18,6 @@ colors:
 
 > Surface: web
 
-*Ansible Collaborative*
-
 Ansible Collaborative
 
 ## Color Palette
