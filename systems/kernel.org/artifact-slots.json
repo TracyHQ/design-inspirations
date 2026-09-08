@@ -3583,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "The Linux Kernel Archives",
-    "chars": 25,
-    "words": 4
+    "text": "Start with The Linux Kernel Archives",
+    "chars": 36,
+    "words": 6
    },
    {
     "id": "p.0",
@@ -3909,17 +3909,6 @@
     "words": 4
    },
    {
-    "id": "p.0",
-    "tag": "p",
-    "n": 0,
-    "role": "label",
-    "group": null,
-    "inNav": true,
-    "text": "The Linux Kernel Archives",
-    "chars": 25,
-    "words": 4
-   },
-   {
     "id": "h2.0",
     "tag": "h2",
     "n": 0,
@@ -3975,9 +3964,9 @@
     "words": 5
    },
    {
-    "id": "p.1",
+    "id": "p.0",
     "tag": "p",
-    "n": 1,
+    "n": 0,
     "role": "paragraph",
     "group": null,
     "inNav": false,
@@ -3986,9 +3975,9 @@
     "words": 16
    },
    {
-    "id": "p.2",
+    "id": "p.1",
     "tag": "p",
-    "n": 2,
+    "n": 1,
     "role": "paragraph",
     "group": null,
     "inNav": false,
@@ -3997,9 +3986,9 @@
     "words": 34
    },
    {
-    "id": "p.3",
+    "id": "p.2",
     "tag": "p",
-    "n": 3,
+    "n": 2,
     "role": "paragraph",
     "group": null,
     "inNav": false,

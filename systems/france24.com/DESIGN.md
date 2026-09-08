@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany*
+*Live: Russia pummels Kyiv after three-day halt*
 
 Breaking news and world news from France 24 on Business, Sports, Culture. Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America
 
@@ -44,9 +44,9 @@ Breaking news and world news from France 24 on Business, Sports, Culture. Video 
 - **Tone:** (none yet)
 
 ### Messaging pillars
-- How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany
-- 'Jubilation and pain': German far right marches to victory in key state election
-- Live: Germany’s Merz 'deeply shocked' by far-right AfD's historic electoral victory
+- Live: Russia pummels Kyiv after three-day halt
+- Ukrainian strike ignites Russian oil refinery as Putin acknowledges 'difficult period'
+- Ukraine strikes St. Petersburg with drones ahead of 'Russian Davos'
 
 ### Vocabulary
 - **Use:** (none yet)

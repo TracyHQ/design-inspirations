@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://japantimes.co.jp/",
-  "crawledAt": "2026-09-07T23:47:28.785Z",
+  "crawledAt": "2026-09-08T03:48:59.143Z",
   "truncated": true,
   "pages": [
     {
@@ -53,26 +53,26 @@
       "status": 200
     },
     {
-      "url": "https://www.japantimes.co.jp/news/2026/09/02/japan/japan-immigration-business-manager-visa/",
-      "file": "pages/07-news-2026-09-02-japan-japan-immigration-.html",
-      "title": "Nearly 1,000 business manager visa holders left Japan in first half of 2026 - The Japan Times",
-      "h1": "Nearly 1,000 business manager visa holders left Japan in first half of 2026",
-      "depth": 1,
-      "status": 200
-    },
-    {
       "url": "https://www.japantimes.co.jp/tag/yen/",
-      "file": "pages/08-tag-yen.html",
+      "file": "pages/07-tag-yen.html",
       "title": "Tag - The Japan Times",
       "h1": "Tag - yen",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://www.japantimes.co.jp/tag/nepal/",
-      "file": "pages/09-tag-nepal.html",
-      "title": "Tag - The Japan Times",
-      "h1": "Tag - nepal",
+      "url": "https://www.japantimes.co.jp/news/2026/09/07/japan/shinjuku-ward-minpaku-ban/",
+      "file": "pages/08-news-2026-09-07-japan-shinjuku-ward-minp.html",
+      "title": "Tokyo’s Shinjuku Ward to ban minpaku in residential areas and near schools - The Japan Times",
+      "h1": "Tokyo’s Shinjuku Ward to ban minpaku in residential areas and near schools",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.japantimes.co.jp/news/2026/09/03/japan/cabinet-reshuffle/",
+      "file": "pages/09-news-2026-09-03-japan-cabinet-reshuffle.html",
+      "title": "Takaichi’s Cabinet reshuffle: What to watch for - The Japan Times",
+      "h1": "Takaichi’s Cabinet reshuffle: What to watch for",
       "depth": 1,
       "status": 200
     },

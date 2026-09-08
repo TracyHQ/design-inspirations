@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "p.0",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Jenkins is not just a slogan here.”",
-    "chars": 84,
-    "words": 18
+    "text": "“The quality bar out of the box is what sold us. Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software is not just a slogan here.”",
+    "chars": 212,
+    "words": 38
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get",
-    "chars": 16,
-    "words": 4
+    "text": "an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 125,
+    "words": 19
    },
    {
     "id": "span.21",
@@ -3021,6 +3021,17 @@
     "words": 2
    },
    {
+    "id": "h1.0",
+    "tag": "h1",
+    "n": 0,
+    "role": "headline",
+    "group": null,
+    "inNav": false,
+    "text": "– an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 127,
+    "words": 20
+   },
+   {
     "id": "span.2",
     "tag": "span",
     "n": 2,
@@ -3038,9 +3049,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
-    "chars": 135,
-    "words": 21
+    "text": "Redesigned Jenkins header and UI",
+    "chars": 32,
+    "words": 5
    },
    {
     "id": "span.5",
@@ -3095,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "p.1",
@@ -3106,9 +3117,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
-    "chars": 135,
-    "words": 21
+    "text": "Here is the short version of what Jenkins does — and why it is worth two minutes of your inbox.",
+    "chars": 95,
+    "words": 20
    },
    {
     "id": "a.0",
@@ -3572,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "p.0",
@@ -3855,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "span.19",
@@ -3901,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Jenkins",
-    "chars": 7,
-    "words": 1
+    "text": "Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software",
+    "chars": 135,
+    "words": 21
    },
    {
     "id": "h2.0",

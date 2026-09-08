@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Nhận Voucher*
+*Hệ thống cửa hàng Mẹ và Bé lớn nhất Việt Nam*
 
 Con Cưng là chuỗi Mẹ Bé 1158 shop được yêu thích nhất và lớn nhất Việt Nam, với hơn 20 triệu sản phẩm Tã Sữa, Thực phẩm bán ra năm 2022. Mua Online giao nhanh 30 phút
 

@@ -1,6 +1,6 @@
 {
   "name": "https://kenh14.vn",
-  "tagline": "Trọng Đại trải lòng sau bài đăng xin việc: 29 tuổi mất tất cả, đứt dây chằng, thất nghiệp, mẹ ung thư mà không có tiền chữa bệnh",
+  "tagline": "Thỏ Da LAB: Ông chú U40 mở cà phê cho các ông chú, mê phim gangster và đàn ông kiểu cũ, mơ một ngày được \"biến mất\"",
   "description": "Trang tin tức giải trí - xã hội Việt Nam - Quốc Tế. Đưa tin nhanh nhất : thời trang, video ngôi sao, phim ảnh, tình yêu, học đường, các chuyển động xã hội.",
   "sourceUrl": "https://kenh14.vn/",
   "logo": {
@@ -97,8 +97,8 @@
     "adjectives": [],
     "tone": "",
     "messagingPillars": [
-      "Trọng Đại trải lòng sau bài đăng xin việc: 29 tuổi mất tất cả, đứt dây chằng, thất nghiệp, mẹ ung thư mà không có tiền chữa bệnh",
-      "Thảm đỏ HOT nhất tối nay: Hạ Anh lộng lẫy như nữ thần, Uyển Ân - Minh Anh đẹp gì mà đẹp khiếp thế",
+      "Thỏ Da LAB: Ông chú U40 mở cà phê cho các ông chú, mê phim gangster và đàn ông kiểu cũ, mơ một ngày được \"biến mất\"",
+      "Đạo diễn Nguyễn Quang Dũng: Chỉ Bùi Lan Hương mới có quyền cho tôi danh phận vì tôi có phải nóc nhà đâu",
       "Tuyến chuyên đề"
     ],
     "vocabulary": {
@@ -113,44 +113,44 @@
     "avoid": [],
     "samples": [
       {
-        "file": "imagery/image-0.webp",
-        "kind": "image",
-        "caption": "Site image 1"
+        "file": "imagery/hero-0.webp",
+        "kind": "hero",
+        "caption": "Hero image"
       },
       {
         "file": "imagery/image-1.webp",
         "kind": "image",
-        "caption": "Site image 2"
+        "caption": "Site image 1"
       },
       {
         "file": "imagery/image-2.webp",
         "kind": "image",
-        "caption": "Site image 3"
+        "caption": "Site image 2"
       },
       {
         "file": "imagery/image-3.webp",
         "kind": "image",
-        "caption": "Site image 4"
+        "caption": "Site image 3"
       },
       {
         "file": "imagery/image-4.webp",
         "kind": "image",
-        "caption": "Site image 5"
+        "caption": "Site image 4"
       },
       {
         "file": "imagery/image-5.webp",
         "kind": "image",
-        "caption": "Site image 6"
+        "caption": "Site image 5"
       },
       {
         "file": "imagery/image-6.webp",
         "kind": "image",
-        "caption": "Site image 7"
+        "caption": "Site image 6"
       },
       {
         "file": "imagery/image-7.webp",
         "kind": "image",
-        "caption": "Site image 8"
+        "caption": "Site image 7"
       }
     ]
   },

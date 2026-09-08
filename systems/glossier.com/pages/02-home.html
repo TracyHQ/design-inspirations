@@ -442,7 +442,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script type="text/od-defused-script" id="__st">var __st={"a":62791647477,"offset":-14400,"reqid":"f793e5ba-116f-4ea5-9b3b-841254052f15-1788825351","pageurl":"www.glossier.com\/","u":"6eccad7b5209","p":"home"};</script>
+<script type="text/od-defused-script" id="__st">var __st={"a":62791647477,"offset":-14400,"reqid":"9958c383-33f0-44fc-a4b8-12dd7dd6b2cf-1788839186","pageurl":"www.glossier.com\/","u":"83864a12e8f3","p":"home"};</script>
 <script type="text/od-defused-script">window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script type="text/od-defused-script" id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!1,!0)}();</script>
 <script type="text/od-defused-script" integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//www.glossier.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
@@ -575,11 +575,11 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script type="text/od-defused-script">
   window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
 </script>
-<script type="text/od-defused-script">(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var d=void 0;try{d=decodeURIComponent(o)}catch(e){d=o}if("_shopify_s"===d){var a=n.slice(r+1).trim();try{return decodeURIComponent(a)}catch(e){return a}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function d(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(a,s,u,l){var c,p,f,v,h=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{},y=(p=(c={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,f=c.legacy,(v=navigator.userAgent).match(e)?"bot":v.match(p)?"modern":v.match(f)?"legacy":v.match(t)?"bot":"unknown"),g=function(e){var t,i,n=r(e,128);try{var d=window.performance,a=null==(t=null==d?void 0:d.getEntriesByType)?void 0:t.call(d,"navigation")[0];if(!a)return{requestId:n,navigationType:o(d)};var s="type"in a?r(a.type,64):void 0,u="serverTiming"in a&&Array.isArray(a.serverTiming)?a.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(h.requestId),m=function(e){var t=e.version,r=e.browserTarget,o=e.surface,d=e.shopId,a=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(a){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:d,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(a,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(a,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var P=new XMLHttpRequest;P.open("POST",a,!0),P.setRequestHeader("Content-Type","text/plain"),P.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:y,surface:a.surface,shopId:a.shopId,monorailEndpoint:a.monorailEndpoint});if(Boolean(null==(b=null==(w=window.Shopify)?void 0:w.analytics)?void 0:b.replayQueue))m.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var w,b;m.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var P=window.Shopify;P.analytics=P.analytics||{};var _=P.analytics;_.replayQueue=[],_.publish=function(e,t,i){return _.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var S,C="modern"===y?"modern":"legacy",k=(null!=l?l:{modern:"",legacy:""})[C],O=[(S={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",S.hashVersion,"modern"===S.buildTarget?"m":"l",".js"].join(""),T=!1,A=!1;try{h.browserTarget=y,function(){T=!0;try{window.addEventListener("pagehide",U)}catch(e){T=!1}}(),M(function(){try{M(B)}catch(e){R(e)}}),m.emit({status:"loading",requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()})}catch(e){R(e)}}function I(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void x();if(!(null!==(n=i=t=window.webPixelsManager.init(a))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void x()}catch(e){return void x(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function x(e){E("manager_api_unavailable",void 0===e?void 0:D(e))}function B(){E("script_load_failed","".concat(O," has failed to load"))}function E(e,t){A||(A=!0,q(),m.emit({status:"failed",errorMsg:t,failureReason:e,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function U(e){T&&(q(),m.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function q(){T=!1;try{window.removeEventListener("pagehide",U)}catch(e){}}function M(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,d=e.sri,a=e.scriptDataAttributes,s=void 0===a?{}:a,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,d&&(u.integrity=d,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=s[p]}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:O,async:!0,onload:I,onerror:e,sri:(t=k,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?k:""),scriptDataAttributes:h})}function R(e){E("script_append_failed",D(e))}function D(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 62791647477,storefrontBaseUrl: "https://www.glossier.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://www.glossier.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["d5bdd5d0"],webPixelsConfigList: [{"id":"2016608501","configuration":"{\"projectId\":\"w4j1994wue\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"d8a2bb2ccbb513dc8e8b6937f4b8033e","type":"APP","apiClientId":240074326017,"privacyPurposes":[],"capabilities":["advanced_dom_events"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"1319502069","configuration":"{\"accountID\":\"Sn6eFZ\",\"webPixelConfig\":\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWV9\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"c63c5b72c8d77be5f2d27d14c081da38","type":"APP","apiClientId":123074,"privacyPurposes":["ANALYTICS","MARKETING"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"530940149","configuration":"{\"config\":\"{\\\"pixel_id\\\":\\\"GT-TBW8XFPT\\\",\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"a3321ca85cf5aaf6b57585fcd8d67b3a","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"392888565","configuration":"{\"isUserEvents\":\"enabled\",\"isSavePromiseDate\":\"enabled\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"6d0a6deccdda72f2ea2eba90a96ee634","type":"APP","apiClientId":1461275,"privacyPurposes":["ANALYTICS","PREFERENCES"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"320012533","configuration":"{\"tagID\":\"2615292789345\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"7ae565e198624b39e0856d352b9a6b4c","type":"APP","apiClientId":3009811,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"264405237","configuration":"{\"accountId\":\"Global-e\",\"merchantId\":\"1546\",\"baseApiUrl\":\"https:\/\/checkout-service.global-e.com\/api\/v1\",\"siteId\":\"7ce243a1e1a2\",\"BorderfreeMetaCAPIEnabled\":\"False\",\"FT_IsLegacyAnalyticsSDKEnabled\":\"True\",\"FT_IsAnalyticsSDKEnabled\":\"False\",\"CDNUrl\":\"https:\/\/webservices.global-e.com\/\",\"BfGoogleAdsEnabled\":\"false\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"a468b580d34b71ec153d0e091429a1f8","type":"APP","apiClientId":5806573,"privacyPurposes":["SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"217776373","configuration":"{\"yotpoStoreId\":\"xAJLIqkdZjK3FOIgCqiXbx1OtYADZxhE80pWNsAW\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"c5c2579aac465eb24ca7bc0501a6000d","type":"APP","apiClientId":70132,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"186089717","configuration":"{\"pixel_id\":\"391121354387940\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"96420dbe9ea96c426a1b7f364f977719","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"21332213","configuration":"{\"myshopifyDomain\":\"glossier-admin.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"23b97d18e2aa74363140dc29c9284e87","type":"APP","apiClientId":2775569,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_phone","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"7504117","configuration":"{\"config_url\": \"https:\/\/shopify-gtm-suite.getelevar.com\/configs\/9e6c6f07355a20b35b0a32882a6c2e2c8278012f\/config.js\"}","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"7ae63d00911d5ee26809bf1e3232d852","type":"APP","apiClientId":2509311,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"36733173","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"US Prod Forter"},{"id":"38142197","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Fullstory Checkout Extension"},{"id":"47415541","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"5","type":"CUSTOM","privacyPurposes":["SALE_OF_DATA"],"name":"Elevar Checkout Tracking"},{"id":"114295029","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"ShopMy Checkout Tracking"},{"id":"127074549","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"4","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Tinuiti BP Pixel"},{"id":"145752309","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Postie"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Glossier","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"glossier-admin.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/www.glossier.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":[{"id":"8940009718005","handle":"glossier-you-reve","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46147021963509","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9089546780917","handle":"body-spritz","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46579394117877","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8771481239797","handle":"creme-de-you","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45775013544181","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9349787418869","handle":"hand-cream","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47045518590197","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8087462052085","handle":"stretch-balm-concealer","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43957670707445","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8075554783477","handle":"stretch-fluid-foundation","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43936720847093","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9119274959093","handle":"body-hero-daily-oil-wash","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46654792859893","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9119279120629","handle":"body-hero-daily-perfecting-lotion","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46654804525301","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9312919027957","handle":"engraving","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46964826341621","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8196948459765","handle":"glossier-candle","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47047567868149","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035305390325","handle":"glossier-you-solid","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781982257397","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035306832117","handle":"edp-spray-card-sample-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781984387317","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035306733813","handle":"cloud-paint-sample-haze-beam-puff-dusk-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781984289013","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035307127029","handle":"cloud-paint-sample-dawn-storm-spark-eve-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781987008757","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8818887065845","handle":"doux-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45902954037493","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8821975777525","handle":"reve-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45910504177909","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9524584710389","handle":"soie-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47626436673781","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9358196080885","handle":"fleur-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47070111891701","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://www.glossier.com/cdn","80079e4cw22952a98p55856082md4f1b6b4",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"160880886005","themePublished":"true","eventMetadataId":"6ec2b3be-b701-401b-baf6-57b57f9c80c3","pageType":"home","shopId":"62791647477","storefrontBaseUrl":"https:\/\/www.glossier.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"d5bdd5d0\"]","isMerchantRequest":"false","hashVersion":"80079e4cw22952a98p55856082md4f1b6b4","publish":"custom","events":"[[\"page_viewed\",{}]]"});})();</script><script type="text/od-defused-script">
+<script type="text/od-defused-script">(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var d=void 0;try{d=decodeURIComponent(o)}catch(e){d=o}if("_shopify_s"===d){var a=n.slice(r+1).trim();try{return decodeURIComponent(a)}catch(e){return a}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function d(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(a,s,u,l){var c,p,f,v,h=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{},y=(p=(c={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,f=c.legacy,(v=navigator.userAgent).match(e)?"bot":v.match(p)?"modern":v.match(f)?"legacy":v.match(t)?"bot":"unknown"),g=function(e){var t,i,n=r(e,128);try{var d=window.performance,a=null==(t=null==d?void 0:d.getEntriesByType)?void 0:t.call(d,"navigation")[0];if(!a)return{requestId:n,navigationType:o(d)};var s="type"in a?r(a.type,64):void 0,u="serverTiming"in a&&Array.isArray(a.serverTiming)?a.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(h.requestId),m=function(e){var t=e.version,r=e.browserTarget,o=e.surface,d=e.shopId,a=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(a){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:d,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(a,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(a,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var P=new XMLHttpRequest;P.open("POST",a,!0),P.setRequestHeader("Content-Type","text/plain"),P.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:y,surface:a.surface,shopId:a.shopId,monorailEndpoint:a.monorailEndpoint});if(Boolean(null==(b=null==(w=window.Shopify)?void 0:w.analytics)?void 0:b.replayQueue))m.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var w,b;m.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var P=window.Shopify;P.analytics=P.analytics||{};var _=P.analytics;_.replayQueue=[],_.publish=function(e,t,i){return _.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var S,C="modern"===y?"modern":"legacy",k=(null!=l?l:{modern:"",legacy:""})[C],O=[(S={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",S.hashVersion,"modern"===S.buildTarget?"m":"l",".js"].join(""),T=!1,A=!1;try{h.browserTarget=y,function(){T=!0;try{window.addEventListener("pagehide",U)}catch(e){T=!1}}(),M(function(){try{M(B)}catch(e){R(e)}}),m.emit({status:"loading",requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()})}catch(e){R(e)}}function I(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void x();if(!(null!==(n=i=t=window.webPixelsManager.init(a))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void x()}catch(e){return void x(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function x(e){E("manager_api_unavailable",void 0===e?void 0:D(e))}function B(){E("script_load_failed","".concat(O," has failed to load"))}function E(e,t){A||(A=!0,q(),m.emit({status:"failed",errorMsg:t,failureReason:e,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function U(e){T&&(q(),m.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:g.requestId,navigationType:g.navigationType,trekkieState:d()}))}function q(){T=!1;try{window.removeEventListener("pagehide",U)}catch(e){}}function M(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,d=e.sri,a=e.scriptDataAttributes,s=void 0===a?{}:a,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,d&&(u.integrity=d,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=s[p]}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:O,async:!0,onload:I,onerror:e,sri:(t=k,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?k:""),scriptDataAttributes:h})}function R(e){E("script_append_failed",D(e))}function D(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 62791647477,storefrontBaseUrl: "https://www.glossier.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://www.glossier.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["d5bdd5d0"],webPixelsConfigList: [{"id":"2016608501","configuration":"{\"projectId\":\"w4j1994wue\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"d8a2bb2ccbb513dc8e8b6937f4b8033e","type":"APP","apiClientId":240074326017,"privacyPurposes":[],"capabilities":["advanced_dom_events"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"1319502069","configuration":"{\"accountID\":\"Sn6eFZ\",\"webPixelConfig\":\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWV9\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"c63c5b72c8d77be5f2d27d14c081da38","type":"APP","apiClientId":123074,"privacyPurposes":["ANALYTICS","MARKETING"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"530940149","configuration":"{\"config\":\"{\\\"pixel_id\\\":\\\"GT-TBW8XFPT\\\",\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"MC-C43W8XZ93R\\\",\\\"MC-CKB65RMMGX\\\"]}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"a3321ca85cf5aaf6b57585fcd8d67b3a","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"392888565","configuration":"{\"isUserEvents\":\"enabled\",\"isSavePromiseDate\":\"enabled\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"6d0a6deccdda72f2ea2eba90a96ee634","type":"APP","apiClientId":1461275,"privacyPurposes":["ANALYTICS","PREFERENCES"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"320012533","configuration":"{\"tagID\":\"2615292789345\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"7ae565e198624b39e0856d352b9a6b4c","type":"APP","apiClientId":3009811,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"264405237","configuration":"{\"accountId\":\"Global-e\",\"merchantId\":\"1546\",\"baseApiUrl\":\"https:\/\/checkout-service.global-e.com\/api\/v1\",\"siteId\":\"7ce243a1e1a2\",\"BorderfreeMetaCAPIEnabled\":\"False\",\"FT_IsLegacyAnalyticsSDKEnabled\":\"True\",\"FT_IsAnalyticsSDKEnabled\":\"False\",\"CDNUrl\":\"https:\/\/webservices.global-e.com\/\",\"BfGoogleAdsEnabled\":\"false\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"a468b580d34b71ec153d0e091429a1f8","type":"APP","apiClientId":5806573,"privacyPurposes":["SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"217776373","configuration":"{\"yotpoStoreId\":\"xAJLIqkdZjK3FOIgCqiXbx1OtYADZxhE80pWNsAW\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"c5c2579aac465eb24ca7bc0501a6000d","type":"APP","apiClientId":70132,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"186089717","configuration":"{\"pixel_id\":\"391121354387940\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"96420dbe9ea96c426a1b7f364f977719","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"21332213","configuration":"{\"myshopifyDomain\":\"glossier-admin.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"23b97d18e2aa74363140dc29c9284e87","type":"APP","apiClientId":2775569,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_phone","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"7504117","configuration":"{\"config_url\": \"https:\/\/shopify-gtm-suite.getelevar.com\/configs\/9e6c6f07355a20b35b0a32882a6c2e2c8278012f\/config.js\"}","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"7ae63d00911d5ee26809bf1e3232d852","type":"APP","apiClientId":2509311,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"36733173","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"US Prod Forter"},{"id":"38142197","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"2","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Fullstory Checkout Extension"},{"id":"47415541","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"5","type":"CUSTOM","privacyPurposes":["SALE_OF_DATA"],"name":"Elevar Checkout Tracking"},{"id":"114295029","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":[],"name":"ShopMy Checkout Tracking"},{"id":"127074549","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"4","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Tinuiti BP Pixel"},{"id":"145752309","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Postie"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0520","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Glossier","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"glossier-admin.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/www.glossier.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":[{"id":"8940009718005","handle":"glossier-you-reve","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46147021963509","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9089546780917","handle":"body-spritz","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46579394117877","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8771481239797","handle":"creme-de-you","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45775013544181","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9349787418869","handle":"hand-cream","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47045518590197","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8087462052085","handle":"stretch-balm-concealer","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43957670707445","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8075554783477","handle":"stretch-fluid-foundation","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43936720847093","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9119274959093","handle":"body-hero-daily-oil-wash","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46654792859893","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9119279120629","handle":"body-hero-daily-perfecting-lotion","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46654804525301","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9312919027957","handle":"engraving","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"46964826341621","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8196948459765","handle":"glossier-candle","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47047567868149","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035305390325","handle":"glossier-you-solid","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781982257397","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035306832117","handle":"edp-spray-card-sample-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781984387317","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035306733813","handle":"cloud-paint-sample-haze-beam-puff-dusk-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781984289013","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8035307127029","handle":"cloud-paint-sample-dawn-storm-spark-eve-sdg-go-live","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"43781987008757","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8818887065845","handle":"doux-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45902954037493","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"8821975777525","handle":"reve-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"45910504177909","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9524584710389","handle":"soie-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47626436673781","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]},{"id":"9358196080885","handle":"fleur-sample-spray-card","isCollective":null,"title":null,"type":null,"untranslatedTitle":null,"url":null,"vendor":null,"remoteShopId":null,"variants":[{"id":"47070111891701","image":null,"price":null,"sku":null,"title":null,"untranslatedTitle":null}]}],"purchasingCompany":null},},"https://www.glossier.com/cdn","80079e4cw22952a98p55856082md4f1b6b4",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"160880886005","themePublished":"true","eventMetadataId":"5528f78a-03f2-4f43-a415-3f26d77f969b","pageType":"home","shopId":"62791647477","storefrontBaseUrl":"https:\/\/www.glossier.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"d5bdd5d0\"]","isMerchantRequest":"false","hashVersion":"80079e4cw22952a98p55856082md4f1b6b4","publish":"custom","events":"[[\"page_viewed\",{}]]"});})();</script><script type="text/od-defused-script">
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'USD';
-  var meta = {"page":{"pageType":"home","requestId":"f793e5ba-116f-4ea5-9b3b-841254052f15-1788825351"}};
+  var meta = {"page":{"pageType":"home","requestId":"9958c383-33f0-44fc-a4b8-12dd7dd6b2cf-1788839186"}};
   for (var attr in meta) {
     window.ShopifyAnalytics.meta[attr] = meta[attr];
   }
@@ -723,7 +723,7 @@ first.parentNode.insertBefore(script, first);
 
     };
     trekkie.load(
-      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":62791647477,"isMerchantRequest":null,"themeId":160880886005,"themeCityHash":"15200509610750311046","contentLanguage":"en","currency":"USD","eventMetadataId":"6ec2b3be-b701-401b-baf6-57b57f9c80c3"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["f43e7f5e","b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":62791647477,"isMerchantRequest":null,"themeId":160880886005,"themeCityHash":"15200509610750311046","contentLanguage":"en","currency":"USD","eventMetadataId":"5528f78a-03f2-4f43-a415-3f26d77f969b"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["f43e7f5e","b5387b81","d5bdd5d0"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
     );
 
     var loaded = false;
@@ -746,7 +746,7 @@ first.parentNode.insertBefore(script, first);
       }
     });
 
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"f793e5ba-116f-4ea5-9b3b-841254052f15-1788825351","shopifyEmitted":true});
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"home","requestId":"9958c383-33f0-44fc-a4b8-12dd7dd6b2cf-1788839186","shopifyEmitted":true});
 
     var eventsListenerScript = document.createElement('script');
     eventsListenerScript.async = true;
@@ -771,7 +771,7 @@ first.parentNode.insertBefore(script, first);
   data-shs-logs-sample-rate="1"
   data-shs-beacon-endpoint="https://www.glossier.com/api/collect"
 ></script>
-<meta name="shopify-y" content="e390a0a1-1fd6-4717-8fa1-c76754421e52" data-expiration="1820382951000"><meta name="shopify-s" content="793e47c1-83c4-4044-8779-5126f6b2b6a6" data-expiration="1788827151000"><meta name="new-cookie-storage-activated" content="f">
+<meta name="shopify-y" content="3ddfb2e8-9e47-4e7a-afdb-357695d9ebbd" data-expiration="1820396786000"><meta name="shopify-s" content="c522e1b0-bd73-4cdf-966f-a226bd64f329" data-expiration="1788840986000"><meta name="new-cookie-storage-activated" content="f">
 </head>
 
 
@@ -3114,7 +3114,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46147021963509"
-            data-variant-iq="MjkwMTA="
+            data-variant-iq="Mjg5NTg="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -3268,7 +3268,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46147021996277"
-            data-variant-iq="MzA3NjQ="
+            data-variant-iq="MzA3Mjg="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -3893,7 +3893,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46579394117877"
-            data-variant-iq="MTc4OA=="
+            data-variant-iq="MTc1Ng=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -4061,7 +4061,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46579394150645"
-            data-variant-iq="Mjg3OQ=="
+            data-variant-iq="Mjg3Mg=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -4229,7 +4229,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="47047565279477"
-            data-variant-iq="MTUyNQ=="
+            data-variant-iq="MTUxNA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -5270,7 +5270,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="47045518590197"
-            data-variant-iq="MTQxOA=="
+            data-variant-iq="MTM5Mw=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -5438,7 +5438,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="47045518524661"
-            data-variant-iq="MzQ4Nw=="
+            data-variant-iq="MzQ4NQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -8779,7 +8779,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671035125"
-            data-variant-iq="Nzk3Ng=="
+            data-variant-iq="Nzk3NQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -9115,7 +9115,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671100661"
-            data-variant-iq="ODYz"
+            data-variant-iq="ODYy"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -9451,7 +9451,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671166197"
-            data-variant-iq="Mjc4OA=="
+            data-variant-iq="Mjc4Nw=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -9619,7 +9619,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671198965"
-            data-variant-iq="MzE5Ng=="
+            data-variant-iq="MzE5Mg=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -9955,7 +9955,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671264501"
-            data-variant-iq="MjY2Ng=="
+            data-variant-iq="MjY2NQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -10291,7 +10291,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671330037"
-            data-variant-iq="NjA5Nw=="
+            data-variant-iq="NjA5Ng=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -10459,7 +10459,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671362805"
-            data-variant-iq="MTU0MDM="
+            data-variant-iq="MTU0MDI="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -10627,7 +10627,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671395573"
-            data-variant-iq="NjA4OA=="
+            data-variant-iq="NjA4NA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -10795,7 +10795,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671428341"
-            data-variant-iq="NDgw"
+            data-variant-iq="NDcw"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -10963,7 +10963,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671461109"
-            data-variant-iq="MTQ4MjY="
+            data-variant-iq="MTQ4MTk="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11131,7 +11131,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671493877"
-            data-variant-iq="MjUxOA=="
+            data-variant-iq="MjQ4OA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11299,7 +11299,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671526645"
-            data-variant-iq="MTIwMQ=="
+            data-variant-iq="MTIwMA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11467,7 +11467,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671559413"
-            data-variant-iq="MjM5OQ=="
+            data-variant-iq="MjM3Nw=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11635,7 +11635,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671592181"
-            data-variant-iq="MTQzMw=="
+            data-variant-iq="MTQyOA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11803,7 +11803,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671624949"
-            data-variant-iq="NTIz"
+            data-variant-iq="NDk2"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -11971,7 +11971,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671657717"
-            data-variant-iq="MjgzMw=="
+            data-variant-iq="MjgzMA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -12139,7 +12139,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43957671690485"
-            data-variant-iq="MTAxMA=="
+            data-variant-iq="OTk5"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -15651,7 +15651,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721240309"
-            data-variant-iq="NDAyNg=="
+            data-variant-iq="NDAyNQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -16155,7 +16155,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721338613"
-            data-variant-iq="NjEyMA=="
+            data-variant-iq="NjExOQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -16491,7 +16491,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721404149"
-            data-variant-iq="MTM1Ng=="
+            data-variant-iq="MTM1Nw=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -16827,7 +16827,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721469685"
-            data-variant-iq="NzA5MQ=="
+            data-variant-iq="NzA4OQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -17163,7 +17163,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721535221"
-            data-variant-iq="MTI5NjE="
+            data-variant-iq="MTI5NTk="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -17331,7 +17331,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721567989"
-            data-variant-iq="NDIyOA=="
+            data-variant-iq="NDIyNA=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -17499,7 +17499,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721600757"
-            data-variant-iq="Mjg1"
+            data-variant-iq="Mjg0"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -17667,7 +17667,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721633525"
-            data-variant-iq="ODAw"
+            data-variant-iq="Nzk3"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -18003,7 +18003,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721699061"
-            data-variant-iq="NTA="
+            data-variant-iq="NDQ="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -18171,7 +18171,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721731829"
-            data-variant-iq="MjI1NA=="
+            data-variant-iq="MjI1Mg=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -18339,7 +18339,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721764597"
-            data-variant-iq="MzY0OQ=="
+            data-variant-iq="MzY0NQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -18675,7 +18675,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="43936721830133"
-            data-variant-iq="MTk5OA=="
+            data-variant-iq="MTk5Nw=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -19480,7 +19480,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46654792859893"
-            data-variant-iq="NTUxMw=="
+            data-variant-iq="NTUwMg=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -19649,7 +19649,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46654792827125"
-            data-variant-iq="MTg5NQ=="
+            data-variant-iq="MTg4OQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -20276,7 +20276,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46654804525301"
-            data-variant-iq="MTkyMg=="
+            data-variant-iq="MTkwOQ=="
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"
@@ -20444,7 +20444,7 @@ first.parentNode.insertBefore(script, first);
             data-variant-badge-text=""
             data-variant-new=""
             data-variant-id="46654804492533"
-            data-variant-iq="NTY0"
+            data-variant-iq="NTYw"
             data-variant-inventory-management="shopify"
             data-variant-is-available="true"
             data-variant-notify-me="true"

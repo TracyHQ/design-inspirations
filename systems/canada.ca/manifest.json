@@ -12,13 +12,14 @@
   "source": {
     "url": "https://canada.ca/",
     "finalUrl": "https://canada.ca/",
-    "extractedAt": "2026-09-07T23:39:52.414Z",
+    "extractedAt": "2026-09-08T03:43:34.827Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
+    "tagline: \"Canada.ca\" is page furniture → \"The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.\" (the site's own words)",
     "accent: #000000 has no hue → #26374a (most-used chromatic colour)"
   ],
   "counts": {

@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Đại học Bách khoa Hà Nội*
+*Đại học Bách khoa Hà Nội - HaNoi University of science and technology*
 
 Đại học Bách khoa Hà Nội - HaNoi University of science and technology
 

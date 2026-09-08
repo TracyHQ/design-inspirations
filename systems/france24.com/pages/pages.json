@@ -1,14 +1,14 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://france24.com/",
-  "crawledAt": "2026-09-07T23:47:18.663Z",
+  "crawledAt": "2026-09-08T03:46:04.671Z",
   "truncated": true,
   "pages": [
     {
       "url": "https://france24.com/",
       "file": "pages/01-en.html",
       "title": "France 24 - International breaking news, top stories and headlines",
-      "h1": "How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany",
+      "h1": "Live: Russia pummels Kyiv after three-day halt",
       "depth": 0,
       "status": 200
     },
@@ -16,7 +16,7 @@
       "url": "https://www.france24.com/en/",
       "file": "pages/02-en.html",
       "title": "France 24 - International breaking news, top stories and headlines",
-      "h1": "How far-right AfD breakthrough may ‘cause absolute chaos’ in Germany",
+      "h1": "Live: Russia pummels Kyiv after three-day halt",
       "depth": 1,
       "status": 200
     },
@@ -48,7 +48,7 @@
       "url": "https://www.france24.com/fr/",
       "file": "pages/06-fr.html",
       "title": "France 24 - Infos, news & actualités - L&#039;information internationale en direct",
-      "h1": "Victoire de l’AfD en Saxe-Anhalt : la gauche populiste faiseuse de rois de l’extrême droite ?",
+      "h1": "En direct : la Russie reprend ses frappes sur Kiev après trois jours de trêve",
       "depth": 1,
       "status": 200
     },
@@ -56,7 +56,7 @@
       "url": "https://www.france24.com/es/",
       "file": "pages/07-es.html",
       "title": "France 24 - Noticias y actualidad internacional en vivo",
-      "h1": "Cuatro días en la selva: así escapó un cabo de la Legión Francesa de las disidencias de las FARC",
+      "h1": "Trump - De la Espriella: tres claves de la visita de Marco Rubio a Colombia",
       "depth": 1,
       "status": 200
     },

@@ -12,13 +12,15 @@
   "source": {
     "url": "https://harvard.edu/",
     "finalUrl": "https://harvard.edu/",
-    "extractedAt": "2026-09-07T23:41:37.977Z",
+    "extractedAt": "2026-09-08T03:47:11.123Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Harvard University\" is page furniture → \"Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.\" (the site's own words)"
+  ],
   "counts": {
     "pages": 20,
     "colors": 23,

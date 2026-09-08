@@ -46,7 +46,7 @@ CafeF - Kênh tin tức kinh tế, tài chính, thông tin chứng khoán của 
 ### Messaging pillars
 - Không phải nâng hạng, một sự kiện quan trọng có thể tác động mạnh đến chứng khoán
 - Công ty kín tiếng trụ sở gần Hồ Gươm lãi 33.000 tỷ trong 18 tháng, tổng tài sản hơn 137.000 tỷ vượt nhiều DN đình đám
-- CTCK dự báo Vinhomes có thể lãi kỷ lục gần 60.000 tỷ đồng trong năm nay
+- Bất ngờ số căn hộ Vinhomes bán trong 5 năm qua
 
 ### Vocabulary
 - **Use:** (none yet)

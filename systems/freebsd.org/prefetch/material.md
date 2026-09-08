@@ -63,8 +63,8 @@
 > FreeBSD is widely recognized for its network performance and stability. It powers infrastructure that handles demanding workloads around the world.
 > FreeBSD includes extensive, well-maintained documentation. From the Handbook to manual pages, documentation is treated as a core part of the system.
 > FreeBSD has a vibrant and collaborative community, from individual contributors to large corporate organisations. Groups are active across various channels, from real-time communications to mailing lists and newsgroups.
+> 2026-09-08 FreeBSD 14.5-RELEASE Available
 > 2026-08-03 New committer: Faraz Vahedi (src)
-> 2026-07-29 New committer: Minsoo Choo (src)
 > 2026-09-09-2026-09-13 EuroBSDCon 2026 (Brussels,Belgium)
 > 2026-12-09-2026-12-10 Open Source Experience Paris 2026 (Paris,France)
 

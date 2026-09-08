@@ -12,13 +12,15 @@
   "source": {
     "url": "https://freebsd.org/",
     "finalUrl": "https://freebsd.org/",
-    "extractedAt": "2026-09-07T23:53:33.877Z",
+    "extractedAt": "2026-09-08T03:46:08.492Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Native ZFS\" is page furniture and the page offered no other line; cleared"
+  ],
   "counts": {
     "pages": 20,
     "colors": 19,

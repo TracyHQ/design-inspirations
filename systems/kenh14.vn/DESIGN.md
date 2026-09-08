@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Trọng Đại trải lòng sau bài đăng xin việc: 29 tuổi mất tất cả, đứt dây chằng, thất nghiệp, mẹ ung thư mà không có tiền chữa bệnh*
+*Thỏ Da LAB: Ông chú U40 mở cà phê cho các ông chú, mê phim gangster và đàn ông kiểu cũ, mơ một ngày được "biến mất"*
 
 Trang tin tức giải trí - xã hội Việt Nam - Quốc Tế. Đưa tin nhanh nhất : thời trang, video ngôi sao, phim ảnh, tình yêu, học đường, các chuyển động xã hội.
 
@@ -44,8 +44,8 @@ Trang tin tức giải trí - xã hội Việt Nam - Quốc Tế. Đưa tin nhan
 - **Tone:** (none yet)
 
 ### Messaging pillars
-- Trọng Đại trải lòng sau bài đăng xin việc: 29 tuổi mất tất cả, đứt dây chằng, thất nghiệp, mẹ ung thư mà không có tiền chữa bệnh
-- Thảm đỏ HOT nhất tối nay: Hạ Anh lộng lẫy như nữ thần, Uyển Ân - Minh Anh đẹp gì mà đẹp khiếp thế
+- Thỏ Da LAB: Ông chú U40 mở cà phê cho các ông chú, mê phim gangster và đàn ông kiểu cũ, mơ một ngày được "biến mất"
+- Đạo diễn Nguyễn Quang Dũng: Chỉ Bùi Lan Hương mới có quyền cho tôi danh phận vì tôi có phải nóc nhà đâu
 - Tuyến chuyên đề
 
 ### Vocabulary

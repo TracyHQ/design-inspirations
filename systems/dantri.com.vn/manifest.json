@@ -12,13 +12,14 @@
   "source": {
     "url": "https://dantri.com.vn/",
     "finalUrl": "https://dantri.com.vn/",
-    "extractedAt": "2026-09-07T23:48:49.887Z",
+    "extractedAt": "2026-09-08T03:44:55.379Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
+    "tagline: \"Kinh doanh\" is page furniture → \"Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h\" (the site's own words)",
     "accent: #000000 has no hue → #015e53 (most-used chromatic colour)"
   ],
   "counts": {

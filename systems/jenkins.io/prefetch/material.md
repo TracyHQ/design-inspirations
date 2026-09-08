@@ -75,4 +75,4 @@
 
 ### Nav labels
 
-Download · Documentation · Read here · More info · More info · More info · Kris Stern · Valentin Delaye · Mark Schulz · Pratik Mane · Stefan Spieker · Mohammed Faheem · Vatsal Verma · Mark Waite · Stefan Spieker
+Download · Documentation · Read here · More info · More info · More info · Daniele Caldarigi · Kris Stern · Valentin Delaye · Mark Schulz · Pratik Mane · Stefan Spieker · Mohammed Faheem · Vatsal Verma · Mark Waite

@@ -77,26 +77,26 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 - Không phải nâng hạng, một sự kiện quan trọng có thể tác động mạnh đến chứng khoán
 - Công ty kín tiếng trụ sở gần Hồ Gươm lãi 33.000 tỷ trong 18 tháng, tổng tài sản hơn 137.000 tỷ vượt nhiều DN đình đám
-- CTCK dự báo Vinhomes có thể lãi kỷ lục gần 60.000 tỷ đồng trong năm nay
+- Bất ngờ số căn hộ Vinhomes bán trong 5 năm qua
 - Một cổ phiếu Bluechips có thể chịu áp lực bán ròng hơn 1.500 tỷ đồng ngay trong tháng 9 này
 - Góc nhà đầu tư
 - 100 doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam: Tổng nộp 390.700 tỷ đồng, đóng góp gần 15% ngân sách quốc gia Magazine
 - Vào Top 50 nữ lãnh đạo nổi bật phố Wall: Partner người Việt duy nhất tại quỹ phòng hộ tỷ đô có gì đặc biệt? Magazine
 - Tin vui liên tiếp của Coteccons
-- Cổ đông Nhà nước của “ông trùm BOT” rao bán quyền mua lô trái phiếu kỳ hạn 25 năm, quy mô gần 6.720 tỷ đồng
-- Không chỉ làm cầu, tỷ phú Phạm Nhật Vượng còn đang cho xây hầm dìm dưới biển dài 3km: Trong đại dự án 93.000 tỷ đồng, nối 2 điểm của thành phố giàu bậc nhất Việt Nam
-- Một người Việt vừa mất 42.000 tỷ đồng sau 6 tiếng
-- Một quốc gia nắm giữ hàng nghìn tấn vàng đang âm thầm bán ra
+- Công ty SX&KD VinFast nắm nhà máy sản xuất đã trở thành công ty thuần Việt, không còn liên quan tới Singapore
+- Tuyến cao tốc hơn 9.000 tỷ đồng, có đoạn do doanh nghiệp của tỷ phú Xuân Trường làm nhà thầu nhận chỉ đạo mới
+- Vì sao Vietlott kiếm nhiều hơn nhưng nộp ngân sách ít hơn hàng loạt công ty xổ số truyền thống?
+- Giá vàng miếng, vàng nhẫn sáng 8/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt đảo chiều
 
 ### Body copy
 
+> Ngày 7/9/2026, Tập đoàn Stavian vinh dự được ghi nhận trong Top 155 doanh nghiệp nộp ngân sách lớn nhất Việt Nam (VNTAX 200) và Top 69 doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam (PRIVATE 100) theo công bố của CafeF về Bảng vinh danh Vietnam’s Largest Taxpayers 2026. Thành tích này phản ánh những đóng góp bền bỉ của hệ sinh thái Tập đoàn Stavian đối với ngân sách Nhà nước, đồng thời phản ánh hiệu quả của chiến lược phát triển bền vững gắn với tăng trưởng và trách nhiệm xã hội.
 > Ngày 15/9, CafeF sẽ tổ chức Lễ vinh danh các doanh nghiệp nộp ngân sách lớn nhất Việt Nam 2026 và Tọa đàm “Kiến tạo nguồn lực tăng trưởng quốc gia: Vai trò của doanh nghiệp dẫn đầu trong kỷ nguyên mới”.
 > Ngày 7/9/2026, CafeF chính thức công bố danh sách VNTAX 200 năm 2026, vinh danh 200 doanh nghiệp nộp ngân sách lớn nhất Việt Nam theo số liệu mà các doanh nghiệp đã thực nộp trong năm 2025. Đây là năm thứ 3 liên tiếp danh sách được công bố.
-> Khu vực kinh tế hộ gia đình đang đứng trước yêu cầu mới về cách bán hàng, quản lý dòng tiền và tiếp cận khách hàng. BIDV đang mở rộng các giải pháp số tới nhóm này, với BIDV QR hỗ trợ thanh toán xuyên biên giới, MyShop Pro hỗ trợ quản lý hoạt động kinh doanh và ứng dụng AI để ngày càng thấu hiểu và phục vụ khách hàng tốt hơn.
 > Từ sự đồng hành thấu hiểu rủi ro của khối ngân hàng thương mại, những cam kết tỷ đô từ các định chế quốc tế, cho đến thỏa thuận khung với Ngân hàng Phát triển (VDB), dòng vốn đang hội tụ về T&T Group theo một quỹ đạo rõ nét. Điểm chung kết nối ba lớp định chế tài chính này là đều được bảo chứng bằng năng
 > Khi động lực tăng trưởng của các địa phương không còn đến từ mở rộng không gian đô thị, Vĩnh Long đang đứng trước yêu cầu định hình một mô hình phát triển mới. Trong bối cảnh đó, T&T Group lựa chọn phát triển Khu dân cư Phước Thọ theo định hướng đô thị tri thức nhằm tạo thêm động lực phát triển cho địa phương.
 > Trong nhiều năm, khi nói về thu hút FDI, chúng ta vẫn thường dùng cách ví von “dọn tổ đón đại bàng”. Hình ảnh ấy phản ánh tư duy phát triển của một giai đoạn mà mục tiêu lớn nhất là thu hút được những doanh nghiệp, dự án đủ lớn để tạo ra tăng trưởng, mở rộng sản xuất và thúc đẩy công nghiệp hóa.
 > Coteccons tiếp tục ghi nhận diễn biến thuận lợi trong quá trình thu hồi các khoản công nợ tồn đọng, sau khi tòa án bác kháng cáo của đối tác tại dự án Kenton Node. Trước đó, doanh nghiệp cũng đạt thỏa thuận liên quan khoản phải thu 526 tỷ đồng từ một thành viên của Tân Hoàng Minh.
-> Công ty Đầu tư Tài chính Nhà nước TP.HCM (HFIC) vừa đăng ký bán toàn bộ 27.416.105 quyền mua trái phiếu chuyển đổi CII426001 của CTCP Đầu tư Hạ tầng Kỹ thuật TP.HCM (CII).
-> Đây được đánh giá là một trong những công trình đặc biệt nhất Việt Nam mà tập đoàn Vingroup đang triển khai.
-> Thị trường chứng khoán 2026-09-07T17:31:00
+> Trong khi có nhiều phàn nàn rằng "Vì sao công ty Việt Nam mà 'quốc tịch' ở Singapore?" thì VinFast của tỷ phú Phạm Nhật Vượng lại chứng minh điều ngược lại.
+> Dự án đầu tư xây dựng tuyến đường bộ cao tốc Ninh Bình - Hải Phòng, đoạn qua tỉnh Ninh Bình đang được yêu cầu tăng tốc thi công và giải ngân sau khi hoàn tất bàn giao mặt bằng tuyến chính.
+> Khoảng cách này trước hết nằm ở một khoản chi lớn nhất của mọi doanh nghiệp xổ số, đó là trả thưởng.

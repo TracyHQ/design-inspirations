@@ -20,7 +20,7 @@ colors:
 
 *Powerful tools, exceptional design — the all-in-one Joomla platform.*
 
-Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members
+Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members
 
 ## Color Palette
 

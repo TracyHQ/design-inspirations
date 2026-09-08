@@ -12,7 +12,7 @@
   "source": {
     "url": "https://kenh14.vn/",
     "finalUrl": "https://kenh14.vn/",
-    "extractedAt": "2026-09-07T23:51:20.761Z",
+    "extractedAt": "2026-09-08T03:49:57.416Z",
     "thin": false,
     "blocked": false,
     "pages": true,
@@ -26,7 +26,7 @@
     "logos": 2,
     "imagery": 8,
     "fonts_files": 5,
-    "headings": 54,
+    "headings": 53,
     "engineFiles": 19,
     "slots": 151
   }

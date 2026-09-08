@@ -1,6 +1,6 @@
 {
   "name": "Đại học Bách khoa Hà Nội",
-  "tagline": "Đại học Bách khoa Hà Nội",
+  "tagline": "Đại học Bách khoa Hà Nội - HaNoi University of science and technology",
   "description": "Đại học Bách khoa Hà Nội - HaNoi University of science and technology",
   "sourceUrl": "https://hust.edu.vn/",
   "logo": {
@@ -133,22 +133,22 @@
         "caption": "Hero image 3"
       },
       {
-        "file": "imagery/hero-3.png",
+        "file": "imagery/hero-3.jpg",
         "kind": "hero",
         "caption": "Hero image 4"
       },
       {
-        "file": "imagery/hero-4.jpg",
+        "file": "imagery/hero-4.png",
         "kind": "hero",
         "caption": "Hero image 5"
       },
       {
-        "file": "imagery/hero-5.png",
+        "file": "imagery/hero-5.jpg",
         "kind": "hero",
         "caption": "Hero image 6"
       },
       {
-        "file": "imagery/hero-6.jpg",
+        "file": "imagery/hero-6.png",
         "kind": "hero",
         "caption": "Hero image 7"
       },

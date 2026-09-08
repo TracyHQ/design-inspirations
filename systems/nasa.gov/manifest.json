@@ -12,16 +12,16 @@
   "source": {
     "url": "https://nasa.gov/",
     "finalUrl": "https://nasa.gov/",
-    "extractedAt": "2026-09-07T23:38:52.372Z",
+    "extractedAt": "2026-09-08T03:50:11.549Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
-    "font: display \"Inter\" → \"inter\" (the family the site sets on h1..h6)",
+    "tagline: \"Suggested Searches\" is page furniture → \"NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.\" (the site's own words)",
     "accent: #000000 has no hue → #1c67e3 (most-used chromatic colour)",
-    "fonts: 2 faces self-hosted from Google Fonts (inter)"
+    "fonts: 2 faces self-hosted from Google Fonts (Inter)"
   ],
   "counts": {
     "pages": 20,

@@ -12,13 +12,15 @@
   "source": {
     "url": "https://japantimes.co.jp/",
     "finalUrl": "https://japantimes.co.jp/",
-    "extractedAt": "2026-09-07T23:47:36.528Z",
+    "extractedAt": "2026-09-08T03:49:03.326Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Home page\" is page furniture → \"News On Japan, Business News, Opinion, Sports, Entertainment And More\" (the site's own words)"
+  ],
   "counts": {
     "pages": 20,
     "colors": 19,
@@ -26,7 +28,7 @@
     "logos": 5,
     "imagery": 2,
     "fonts_files": 13,
-    "headings": 20,
+    "headings": 21,
     "engineFiles": 19,
     "slots": 151
   }

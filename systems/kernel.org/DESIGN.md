@@ -17,8 +17,6 @@ colors:
 
 > Surface: web
 
-*The Linux Kernel Archives*
-
 ## Color Palette
 
 | Role | Name | Hex | Usage |

@@ -17,7 +17,7 @@ colors:
 
 > Surface: web
 
-*Suggested Searches*
+*NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.*
 
 NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.
 
@@ -33,7 +33,7 @@ NASA.gov brings you the latest news, images and videos from America's space agen
 | accent | Accent | `#1c67e3` | primary brand color |
 
 ## Typography
-- **Display:** inter — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
+- **Display:** Inter — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
 - **Body:** Inter — weights 400, 700 — fallbacks: system-ui, -apple-system, Segoe UI, Helvetica Neue, Arial, sans-serif
 
 ## Voice & Tone

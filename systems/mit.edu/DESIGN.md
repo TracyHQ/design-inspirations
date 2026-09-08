@@ -17,7 +17,7 @@ colors:
 
 > Surface: web
 
-*Massachusetts Institute of Technology*
+*The mission of MIT is to advance knowledge and educate students in science, technology and other areas of scholarship that will best serve the nation and the world in the 21st century.*
 
 The mission of MIT is to advance knowledge and educate students in science, technology and other areas of scholarship that will best serve the nation and the world in the 21st century.
 

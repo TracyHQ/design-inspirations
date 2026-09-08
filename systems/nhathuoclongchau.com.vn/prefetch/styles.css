@@ -165,6 +165,7 @@ span.block.text-caption.font-semibold{text-shadow:0.5px 0.5px 0px rgba(0, 0, 0, 
 img.relative.inline-block.size-full{color:transparent;}
 div.min-w-0.shrink-0.grow-0[role="group"]{flex-basis:var(--slide-size);padding-left:var(--slide-spacing);}
 img.object-contain.size-4.shrink-0{color:transparent;}
+span.block.text-caption.font-semibold{text-shadow:0.5px 0.5px 0px rgba(0, 0, 0, 0.25);}
 img.relative.inline-block.size-full{color:transparent;}
 div.min-w-0.shrink-0.grow-0[role="group"]{flex-basis:var(--slide-size);padding-left:var(--slide-spacing);}
 img.object-contain.size-4.shrink-0{color:transparent;}

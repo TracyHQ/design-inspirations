@@ -28,7 +28,7 @@
 - `#3b82f6` ×10 — css-var:--tw-ring-color selector:*,:after,:before; css-var:--tw-ring-color selector:::backdrop; prop:border-color selector:.border-blue-500
 - `#374151` ×10 — css-var:--tw-prose-body selector:.prose; css-var:--tw-prose-invert-hr selector:.prose; css-var:--tw-prose-invert-quote-borders selector:.prose
 - `#d1d5db` ×10 — css-var:--tw-prose-bullets selector:.prose; css-var:--tw-prose-th-borders selector:.prose; css-var:--tw-prose-invert-body selector:.prose
-- `#000000` ×367 (near-white/black) — prop:background-color selector:.lg-next,.lg-prev; prop:background-image selector:.lg-media-overlap .lg-toolbar; prop:background-image selector:.lg-media-overlap .lg-sub-html
+- `#000000` ×368 (near-white/black) — prop:background-color selector:.lg-next,.lg-prev; prop:background-image selector:.lg-media-overlap .lg-toolbar; prop:background-image selector:.lg-media-overlap .lg-sub-html
 - `#ffffff` ×130 (near-white/black) — prop:border selector:@media (min-width:768px){.lg-outer .lg-thumb-item; prop:color selector:.lg-next:hover:not(.disabled),.lg-prev:hover:not(.disabled); prop:color selector:.lg-toolbar .lg-icon:hover
 - `#f6f8ff` ×12 (near-white/black) — css-var:--tw-gradient-stops; css-var:--tw-gradient-from selector:.from-\[\#f6f8ff\]; css-var:--tw-gradient-to selector:.from-\[\#f6f8ff\]
 - `#fcfcfc` ×8 (near-white/black) — prop:background-color selector:.even\:bg-\[\#FCFCFC\]:nth-child(2n); css-var:--white-200; css-var:--white-200 selector::root

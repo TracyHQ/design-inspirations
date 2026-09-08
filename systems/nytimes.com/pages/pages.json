@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://nytimes.com/",
-  "crawledAt": "2026-09-07T23:46:50.170Z",
+  "crawledAt": "2026-09-08T03:50:40.927Z",
   "truncated": true,
   "pages": [
     {
@@ -45,58 +45,58 @@
       "status": 200
     },
     {
-      "url": "https://www.nytimes.com/news-event/2026-midterm-elections",
-      "file": "pages/06-news-event-2026-midterm-elections.html",
-      "title": "2026 Midterm Elections - The New York Times",
-      "h1": "2026 Midterm Elections",
-      "depth": 1,
-      "status": 200
-    },
-    {
       "url": "https://www.nytimes.com/tips",
-      "file": "pages/07-tips.html",
+      "file": "pages/06-tips.html",
       "title": "Tips - The New York Times",
       "h1": "Got a confidential news tip?",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/",
-      "file": "pages/08-athletic-live-blogs-us-open-2026-live-up.html",
-      "title": "How Frances Tiafoe thrilled while favorites Sabalenka, Pegula, Alcaraz, Shelton all advanced on U.S. Open 2026 Day 8 - The Athletic",
-      "h1": "How Frances Tiafoe thrilled while favorites Sabalenka, Pegula, Alcaraz, Shelton all advanced on U.S. Open 2026 Day 8",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.nytimes.com/athletic/7569041/2026/09/06/ben-shelton-tennis-style-us-open/",
-      "file": "pages/09-athletic-7569041-2026-09-06-ben-shelton-.html",
-      "title": "Ben Shelton’s tennis gifts made him a contender. To become a champion, he has more to unwrap - The Athletic",
-      "h1": "Ben Shelton’s tennis gifts made him a contender. To become a champion, he has more to unwrap",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.nytimes.com/athletic/7554461/2026/09/06/novak-djokovic-tennis-body-longevity-aging/",
-      "file": "pages/10-athletic-7554461-2026-09-06-novak-djokov.html",
-      "title": "Novak Djokovic’s tennis longevity is extraordinary. The passage of time does not care - The Athletic",
-      "h1": "Novak Djokovic’s tennis longevity is extraordinary. The passage of time does not care",
+      "url": "https://www.nytimes.com/news-event/2026-midterm-elections",
+      "file": "pages/07-news-event-2026-midterm-elections.html",
+      "title": "2026 Midterm Elections - The New York Times",
+      "h1": "2026 Midterm Elections",
       "depth": 1,
       "status": 200
     },
     {
       "url": "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-9-scores-results/I4xUk1nb0D9c/",
-      "file": "pages/11-athletic-live-blogs-us-open-2026-live-up.html",
-      "title": "US Open 2026 live updates: Latest as Coco Gauff faces Iva Jovic with Rybakina, Andreeva into quarterfinals - The Athletic",
-      "h1": "US Open 2026 live updates: Latest as Coco Gauff faces Iva Jovic with Rybakina, Andreeva into quarterfinals",
+      "file": "pages/08-athletic-live-blogs-us-open-2026-live-up.html",
+      "title": "US Open 2026 live updates: Zverev latest as Coco Gauff beats Jovic to reach quarterfinals, Tien out - The Athletic",
+      "h1": "US Open 2026 live updates: Zverev latest as Coco Gauff beats Jovic to reach quarterfinals, Tien out",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/6958185/2026/09/07/tennis-american-men-next-generation-tien-michelsen/",
+      "file": "pages/09-athletic-6958185-2026-09-07-tennis-ameri.html",
+      "title": "From California to the U.S. Open, the future of American men’s tennis tries to take over the present - The Athletic",
+      "h1": "From California to the U.S. Open, the future of American men’s tennis tries to take over the present",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/7573519/2026/09/07/coco-gauff-us-open-iva-jovic/",
+      "file": "pages/10-athletic-7573519-2026-09-07-coco-gauff-u.html",
+      "title": "Coco Gauff rolls on at U.S. Open with statement win over rising star Iva Jović - The Athletic",
+      "h1": "Coco Gauff rolls on at U.S. Open with statement win over rising star Iva Jović",
       "depth": 1,
       "status": 200
     },
     {
       "url": "https://www.nytimes.com/section/opinion",
-      "file": "pages/12-section-opinion.html",
+      "file": "pages/11-section-opinion.html",
       "title": "Opinion - The New York Times",
       "h1": "Opinion",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/7572639/2026/09/07/yankees-aaron-judge-activated-injured-list/",
+      "file": "pages/12-athletic-7572639-2026-09-07-yankees-aaro.html",
+      "title": "Yankees activate Aaron Judge, the ‘best player in the world,’ off the injured list - The Athletic",
+      "h1": "Yankees activate Aaron Judge, the ‘best player in the world,’ off the injured list",
       "depth": 1,
       "status": 200
     },

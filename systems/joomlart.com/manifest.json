@@ -5,21 +5,22 @@
   "slug": "joomlart",
   "name": "JoomlArt",
   "category": "Reference",
-  "description": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
+  "description": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
   "vi": false,
   "nav": "top-left",
   "hero": "centered",
   "source": {
     "url": "https://joomlart.com/",
     "finalUrl": "https://joomlart.com/",
-    "extractedAt": "2026-09-07T16:30:56.643Z",
+    "extractedAt": "2026-09-08T03:49:30.697Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
-    "font: \"Font Awesome 6 Free\" is an icon or code face → \"Inter\""
+    "font: display \"Font Awesome 6 Free\" → \"Inter\" (the family the site sets on h1..h6)",
+    "font: body \"Font Awesome 6 Free\" is an icon or code face → \"Inter\""
   ],
   "counts": {
     "pages": 20,

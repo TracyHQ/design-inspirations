@@ -18,8 +18,6 @@ colors:
 
 > Surface: web
 
-*Native ZFS*
-
 ## Color Palette
 
 | Role | Name | Hex | Usage |

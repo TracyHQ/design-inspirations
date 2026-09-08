@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://jenkins.io/",
-  "crawledAt": "2026-09-07T23:54:31.311Z",
+  "crawledAt": "2026-09-08T03:49:05.541Z",
   "truncated": true,
   "pages": [
     {
@@ -53,8 +53,24 @@
       "status": 200
     },
     {
+      "url": "https://www.jenkins.io/blog/2026/09/08/daniele-caldarigi-gsoc-final-blog-post/",
+      "file": "pages/07-blog-2026-09-08-daniele-caldarigi-gsoc-f.html",
+      "title": "GSoC 2026 Final term: AI Chatbot to Guide User Workflow",
+      "h1": "GSoC 2026 Final term: AI Chatbot to Guide User Workflow",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.jenkins.io/blog/authors/thatsdc/",
+      "file": "pages/08-blog-authors-thatsdc.html",
+      "title": "The Jenkins Blog",
+      "h1": "",
+      "depth": 1,
+      "status": 200
+    },
+    {
       "url": "https://www.jenkins.io/blog/2026/09/07/adopt-a-modern-idp-without-replacing-your-ci/",
-      "file": "pages/07-blog-2026-09-07-adopt-a-modern-idp-witho.html",
+      "file": "pages/09-blog-2026-09-07-adopt-a-modern-idp-witho.html",
       "title": "Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System",
       "h1": "Jenkins + OpenChoreo: Adopt a modern Internal Developer Platform (IDP) Without Replacing Your CI System",
       "depth": 1,
@@ -62,7 +78,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/krisstern/",
-      "file": "pages/08-blog-authors-krisstern.html",
+      "file": "pages/10-blog-authors-krisstern.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -70,7 +86,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/kaviththiranga/",
-      "file": "pages/09-blog-authors-kaviththiranga.html",
+      "file": "pages/11-blog-authors-kaviththiranga.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -78,7 +94,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/2026/09/01/plugin-of-the-month-oras-artifact-manager/",
-      "file": "pages/10-blog-2026-09-01-plugin-of-the-month-oras.html",
+      "file": "pages/12-blog-2026-09-01-plugin-of-the-month-oras.html",
       "title": "Plugin of the Month – September 2026: ORAS Artifact Manager",
       "h1": "Plugin of the Month – September 2026: ORAS Artifact Manager",
       "depth": 1,
@@ -86,7 +102,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/jonesbusy/",
-      "file": "pages/11-blog-authors-jonesbusy.html",
+      "file": "pages/13-blog-authors-jonesbusy.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -94,7 +110,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/2026/08/25/admin-blog_01/",
-      "file": "pages/12-blog-2026-08-25-admin-blog-01.html",
+      "file": "pages/14-blog-2026-08-25-admin-blog-01.html",
       "title": "Daily Life as a Jenkins Administrator",
       "h1": "Daily Life as a Jenkins Administrator",
       "depth": 1,
@@ -102,7 +118,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/schulmak/",
-      "file": "pages/13-blog-authors-schulmak.html",
+      "file": "pages/15-blog-authors-schulmak.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -110,7 +126,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/2026/08/24/pratik-mane-gsoc-endterm-blog-post/",
-      "file": "pages/14-blog-2026-08-24-pratik-mane-gsoc-endterm.html",
+      "file": "pages/16-blog-2026-08-24-pratik-mane-gsoc-endterm.html",
       "title": "GSoC 2026 Endterm - Plugin Modernizer Stats Visualization",
       "h1": "GSoC 2026 Endterm - Plugin Modernizer Stats Visualization",
       "depth": 1,
@@ -118,7 +134,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/pratikmane0112/",
-      "file": "pages/15-blog-authors-pratikmane0112.html",
+      "file": "pages/17-blog-authors-pratikmane0112.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -126,7 +142,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/2026/08/24/contributor-summit-virtual/",
-      "file": "pages/16-blog-2026-08-24-contributor-summit-virtu.html",
+      "file": "pages/18-blog-2026-08-24-contributor-summit-virtu.html",
       "title": "Announcing a Contributor Summit Virtual Event (September 11, 2026)",
       "h1": "Announcing a Contributor Summit Virtual Event (September 11, 2026)",
       "depth": 1,
@@ -134,7 +150,7 @@
     },
     {
       "url": "https://www.jenkins.io/blog/authors/stefan_spieker/",
-      "file": "pages/17-blog-authors-stefan-spieker.html",
+      "file": "pages/19-blog-authors-stefan-spieker.html",
       "title": "The Jenkins Blog",
       "h1": "",
       "depth": 1,
@@ -142,25 +158,9 @@
     },
     {
       "url": "https://www.jenkins.io/blog/2026/08/23/mohammed-faheem-gsoc-finalterm-blogpost/",
-      "file": "pages/18-blog-2026-08-23-mohammed-faheem-gsoc-fin.html",
+      "file": "pages/20-blog-2026-08-23-mohammed-faheem-gsoc-fin.html",
       "title": "GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth",
       "h1": "GSoC 2026 Final Update - Jenkins Email Notifications using Outlook SMTP with OAuth",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.jenkins.io/blog/authors/faheem12005/",
-      "file": "pages/19-blog-authors-faheem12005.html",
-      "title": "The Jenkins Blog",
-      "h1": "",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.jenkins.io/blog/2026/08/22/vatsal-verma-gsoc-end-term-blog-post/",
-      "file": "pages/20-blog-2026-08-22-vatsal-verma-gsoc-end-te.html",
-      "title": "GSoC 2026 final term - Retooling Jenkins.io Web Success Stories",
-      "h1": "GSoC 2026 final term - Retooling Jenkins.io Web Success Stories",
       "depth": 1,
       "status": 200
     }

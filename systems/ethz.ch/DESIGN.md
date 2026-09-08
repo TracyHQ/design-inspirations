@@ -17,9 +17,9 @@ colors:
 
 > Surface: web
 
-*ETH Z&uuml;rich: Übersicht und Aktuelles*
+*ETH Zürich: Übersicht und Aktuelles*
 
-Header Services Studierendenportal Alumni-Vereinigung Staffnet Kontakt Login Suche Suche Leichte Sprache de DE EN FR (TA) IT (TA) Departemente ETH Zürich Wählen Sie ein Departement Departemente D-ARCH: Architektur D-BAUG: Bau, Umwelt und Geomatik D-BSSE: Biosysteme D-INFK: Informatik D-ITET: Informationstechnologie und Elektrotechnik D-MATL: Materialwissenschaft D-MAVT: Maschinenbau und Verfahrenstechnik D-BIOL: Biologie D-CHAB: Chemie und Angewandte Biowissenschaften D-MATH: Mathematik D-PHYS: Physik D-EAPS: Erd- und Planetenwissenschaften D-HEST: Gesundheitswissenschaften und Technologie D-USYS: Umweltsystemwissenschaften D-MTEC: Management, Technologie und Ökonomie D-GESS: Geistes-, Sozial- und Staatswissenschaften Sprachauswahl Leichte Sprache de Deutsch English Français (TA) Italiano (TA) Direkt zum Inhalt springen ETH Z&uuml;rich: Übersicht und Aktuelles CO₂-armer Beton im Klimatest
+Header Services Studierendenportal Alumni-Vereinigung Staffnet Kontakt Login Suche Suche Leichte Sprache de DE EN FR (TA) IT (TA) Departemente ETH Zürich Wählen Sie ein Departement Departemente D-ARCH: Architektur D-BAUG: Bau, Umwelt und Geomatik D-BSSE: Biosysteme D-INFK: Informatik D-ITET: Informationstechnologie und Elektrotechnik D-MATL: Materialwissenschaft D-MAVT: Maschinenbau und Verfahrenstechnik D-BIOL: Biologie D-CHAB: Chemie und Angewandte Biowissenschaften D-MATH: Mathematik D-PHYS: Physik D-EAPS: Erd- und Planetenwissenschaften D-HEST: Gesundheitswissenschaften und Technologie D-USYS: Umweltsystemwissenschaften D-MTEC: Management, Technologie und Ökonomie D-GESS: Geistes-, Sozial- und Staatswissenschaften Sprachauswahl Leichte Sprache de Deutsch English Français (TA) Italiano (TA) Direkt zum Inhalt springen ETH Zürich: Übersicht und Aktuelles CO₂-armer Beton im Klimatest
 
 ## Color Palette
 

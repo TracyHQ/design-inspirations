@@ -12,7 +12,7 @@
   "source": {
     "url": "https://debian.org/",
     "finalUrl": "https://debian.org/",
-    "extractedAt": "2026-09-07T23:52:48.317Z",
+    "extractedAt": "2026-09-08T03:45:01.216Z",
     "thin": false,
     "blocked": false,
     "pages": true,
@@ -20,6 +20,7 @@
   },
   "refined": [
     "name: \"Debian -- The Universal Operating System\" → \"debian.org\" (the title is a sentence; using the hostname)",
+    "tagline: \"Debian\" is page furniture → \"Debian -- The Universal Operating System\" (the site's own words)",
     "fonts: 4 faces self-hosted from Google Fonts (Oswald)"
   ],
   "counts": {

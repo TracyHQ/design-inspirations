@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Debian*
+*Debian -- The Universal Operating System*
 
 Debian is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.
 

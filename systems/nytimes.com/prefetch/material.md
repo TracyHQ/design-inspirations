@@ -101,12 +101,12 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 ### Body copy
 
 > U.S. International Canada Español 中文 Today’s Paper Ir Home U.S. International Canada Español 中文 New York Times - Top Stories These top stories are free to read .
+> After 9/11, Documents Suggest New Yorkers Were Misled About Air Quality
+> Despite assurances, health officials found evidence just months after the attacks that the air around ground zero was not safe, records show.
+> There Is Still a Void at Ground Zero. Our Critic Has Ideas for How to Fill It.
+> Chang W. Lee/The New York Times More to read for free.
+> All 5 Killed in Miami Runway Crash Were on the Ground, Officials Say
+> An investigation into the cause of the crash will look at the plane’s systems and flight controls, as well as the weather conditions, federal officials said.
+> Miami Plane Crash Starts Debate About Requiring a Buffer for Runways
 > Brushing Aside Trump’s Threats, Canada to Retaliate on Tariffs
 > New Canadian levies of up to 50 percent are expected to begin just after midnight, even as Washington warns of a new round of tariffs from President Trump.
-> Trump’s Trade War Is Shaping the Fight for Congress
-> Carlos Osorio/Reuters More to read for free.
-> Officials Search for Answers After Fatal Runway Crash in Miami
-> The cargo plane, operated for Amazon, plowed into a public road and crashed into vehicles, killing five people and disrupting more than 200 flights.
-> As War Grinds On, Trump Relishes Renovation Projects
-> President Trump has found reprieve from the war in Iran by basking in the momentum of the various projects he has spurred around downtown Washington.
-> Ousted Kennedy Center Chairman Buys Dismantled ‘Blue’ Sculpture

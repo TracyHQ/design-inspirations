@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "p.0",
@@ -405,9 +405,9 @@
     "role": "subtitle",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "p.9",
@@ -427,8 +427,8 @@
     "role": "subtitle",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Home page is not just a slogan here.”",
-    "chars": 86,
-    "words": 19
+    "text": "“The quality bar out of the box is what sold us. News On Japan, Business News, Opinion, Sports, Entertainment And More is not just a slogan here.”",
+    "chars": 146,
+    "words": 27
    },
    {
     "id": "span.29",
@@ -1249,12 +1249,12 @@
     "id": "span.58",
     "tag": "span",
     "n": 58,
-    "role": "eyebrow",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "span.59",
@@ -1274,8 +1274,8 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get home page",
-    "chars": 26,
-    "words": 6
+    "text": "is how teams get news On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 86,
+    "words": 14
    },
    {
     "id": "span.21",
@@ -1955,12 +1955,12 @@
     "id": "span.24",
     "tag": "span",
     "n": 24,
-    "role": "eyebrow",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "span.26",
@@ -1969,8 +1969,8 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -2387,9 +2387,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Unlimited projects · JAPAN · BUSINESS",
-    "chars": 37,
-    "words": 6
+    "text": "Unlimited projects · More coverage · JAPAN",
+    "chars": 42,
+    "words": 7
    },
    {
     "id": "h3.5",
@@ -3027,9 +3027,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "page",
-    "chars": 4,
-    "words": 1
+    "text": "On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 64,
+    "words": 9
    },
    {
     "id": "span.2",
@@ -3038,7 +3038,7 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Home",
+    "text": "News",
     "chars": 4,
     "words": 1
    },
@@ -3106,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "p.1",
@@ -3180,12 +3180,12 @@
     "id": "p.6",
     "tag": "p",
     "n": 6,
-    "role": "eyebrow",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "p.7",
@@ -3194,9 +3194,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "JAPAN is built into The Japan Times from day one — not bolted on later.",
-    "chars": 71,
-    "words": 15
+    "text": "More coverage is built into The Japan Times from day one — not bolted on later.",
+    "chars": 79,
+    "words": 16
    },
    {
     "id": "p.8",
@@ -3205,8 +3205,8 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -3216,8 +3216,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS is built into The Japan Times from day one — not bolted on later.",
-    "chars": 74,
+    "text": "JAPAN is built into The Japan Times from day one — not bolted on later.",
+    "chars": 71,
     "words": 15
    },
    {
@@ -3416,9 +3416,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "p.3",
@@ -3449,8 +3449,8 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -3583,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "p.0",
@@ -3613,12 +3613,12 @@
     "id": "span.3",
     "tag": "span",
     "n": 3,
-    "role": "eyebrow",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "span.4",
@@ -3627,8 +3627,8 @@
     "role": "eyebrow",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -3759,9 +3759,9 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "JAPAN",
-    "chars": 5,
-    "words": 1
+    "text": "More coverage",
+    "chars": 13,
+    "words": 2
    },
    {
     "id": "option.3",
@@ -3770,8 +3770,8 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "BUSINESS",
-    "chars": 8,
+    "text": "JAPAN",
+    "chars": 5,
     "words": 1
    },
    {
@@ -3866,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "span.19",
@@ -3912,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Home page",
-    "chars": 9,
-    "words": 2
+    "text": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
+    "chars": 69,
+    "words": 10
    },
    {
     "id": "h2.0",

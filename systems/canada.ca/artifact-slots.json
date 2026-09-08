@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "p.0",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Canada.ca is not just a slogan here.”",
-    "chars": 86,
-    "words": 18
+    "text": "“The quality bar out of the box is what sold us. The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada is not just a slogan here.”",
+    "chars": 234,
+    "words": 41
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get",
-    "chars": 16,
-    "words": 4
+    "text": "is how teams get the Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada",
+    "chars": 174,
+    "words": 28
    },
    {
     "id": "span.21",
@@ -3021,26 +3021,37 @@
     "words": 2
    },
    {
+    "id": "h1.0",
+    "tag": "h1",
+    "n": 0,
+    "role": "headline",
+    "group": null,
+    "inNav": false,
+    "text": "Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 154,
+    "words": 23
+   },
+   {
     "id": "span.2",
     "tag": "span",
     "n": 2,
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
+    "text": "The",
+    "chars": 3,
     "words": 1
    },
    {
     "id": "p.1",
     "tag": "p",
     "n": 1,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
-    "chars": 158,
-    "words": 24
+    "text": "Government of Canada",
+    "chars": 20,
+    "words": 3
    },
    {
     "id": "span.5",
@@ -3095,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "p.1",
@@ -3106,9 +3117,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
-    "chars": 158,
-    "words": 24
+    "text": "Here is the short version of what Canada.ca does — and why it is worth two minutes of your inbox.",
+    "chars": 97,
+    "words": 20
    },
    {
     "id": "a.0",
@@ -3572,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "p.0",
@@ -3855,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada",
+    "chars": 157,
+    "words": 24
    },
    {
     "id": "span.19",
@@ -3901,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Canada.ca",
-    "chars": 9,
-    "words": 1
+    "text": "The Government of Canada website is a single point of access to all programs, services, departments, ministries and organizations of the Government of Canada.",
+    "chars": 158,
+    "words": 24
    },
    {
     "id": "h2.0",

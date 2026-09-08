@@ -7,6 +7,8 @@
   --brand-color-primary-hover: #876eff;
   --brand-color-primary-active: #4230d9;
   --brand-color-primary-text: #16118c;
+  --brand-color-primary-contrast: #ffffff;
+  --brand-color-primary-ink: #5e44ff;
   --brand-color-success: #52c41a;
   --brand-color-success-bg: #f6ffed;
   --brand-color-success-border: #b6eb8f;
@@ -228,6 +230,8 @@
   --brand-color-primary-hover: #9d89e8;
   --brand-color-primary-active: #5f4fad;
   --brand-color-primary-text: #e7e2f8;
+  --brand-color-primary-contrast: #ffffff;
+  --brand-color-primary-ink: #e7e2f8;
   --brand-color-success: #64b537;
   --brand-color-success-bg: #192913;
   --brand-color-success-border: #304d20;

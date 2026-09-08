@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "p.0",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Suggested Searches is not just a slogan here.”",
-    "chars": 95,
-    "words": 19
+    "text": "“The quality bar out of the box is what sold us. NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research is not just a slogan here.”",
+    "chars": 250,
+    "words": 41
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get suggested Searches",
-    "chars": 35,
-    "words": 6
+    "text": "is how teams get .gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research",
+    "chars": 186,
+    "words": 28
    },
    {
     "id": "span.21",
@@ -3027,9 +3027,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Searches",
-    "chars": 8,
-    "words": 1
+    "text": "brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 165,
+    "words": 23
    },
    {
     "id": "span.2",
@@ -3038,20 +3038,20 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Suggested",
-    "chars": 9,
+    "text": "NASA.gov",
+    "chars": 8,
     "words": 1
    },
    {
     "id": "p.1",
     "tag": "p",
     "n": 1,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
-    "chars": 174,
-    "words": 24
+    "text": "Roman Space Telescope",
+    "chars": 21,
+    "words": 3
    },
    {
     "id": "span.5",
@@ -3106,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "p.1",
@@ -3117,9 +3117,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
-    "chars": 174,
-    "words": 24
+    "text": "Here is the short version of what NASA does — and why it is worth two minutes of your inbox.",
+    "chars": 92,
+    "words": 20
    },
    {
     "id": "a.0",
@@ -3583,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "p.0",
@@ -3866,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research",
+    "chars": 173,
+    "words": 24
    },
    {
     "id": "span.19",
@@ -3912,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Suggested Searches",
-    "chars": 18,
-    "words": 2
+    "text": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "chars": 174,
+    "words": 24
    },
    {
     "id": "h2.0",

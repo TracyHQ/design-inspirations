@@ -1,6 +1,6 @@
 {
   "name": "The Japan Times",
-  "tagline": "Home page",
+  "tagline": "News On Japan, Business News, Opinion, Sports, Entertainment And More",
   "description": "Latest news on Japan: business, politics, commentary, sports, culture, life and more",
   "sourceUrl": "https://japantimes.co.jp/",
   "logo": {
@@ -103,8 +103,8 @@
     "tone": "",
     "messagingPillars": [
       "Home page",
-      "JAPAN",
-      "BUSINESS"
+      "More coverage",
+      "JAPAN"
     ],
     "vocabulary": {
       "use": [],

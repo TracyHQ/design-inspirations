@@ -67,6 +67,8 @@
       --brand-color-primary-hover: #876eff;
       --brand-color-primary-active: #4230d9;
       --brand-color-primary-text: #16118c;
+      --brand-color-primary-contrast: #ffffff;
+      --brand-color-primary-ink: #5e44ff;
       --brand-color-success: #52c41a;
       --brand-color-success-bg: #f6ffed;
       --brand-color-success-border: #b6eb8f;
@@ -338,12 +340,12 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
       }
       /* solid-accent slides (cover + traction + ask): restrained 3-page accent budget */
       .frame--accent { background: var(--brand-color-primary); border-color: transparent; }
-      .frame--accent .s-kicker { color: rgba(255,255,255,0.72); }
-      .frame--accent .s-kicker::before { background: rgba(255,255,255,0.85); }
-      .frame--accent .s-title, .frame--accent .s-mega, .frame--accent .s-num { color: #fff; }
-      .frame--accent .s-lede, .frame--accent .s-eyebrow { color: rgba(255,255,255,0.85); }
-      .frame--accent .f-head, .frame--accent .f-foot { color: rgba(255,255,255,0.62); }
-      .frame--accent .f-head .rule, .frame--accent .f-foot .rule { background: rgba(255,255,255,0.2); }
+      .frame--accent .s-kicker { color: color-mix(in srgb, var(--brand-color-primary-contrast) 72%, transparent); }
+      .frame--accent .s-kicker::before { background: color-mix(in srgb, var(--brand-color-primary-contrast) 85%, transparent); }
+      .frame--accent .s-title, .frame--accent .s-mega, .frame--accent .s-num { color:var(--brand-color-primary-contrast); }
+      .frame--accent .s-lede, .frame--accent .s-eyebrow { color: color-mix(in srgb, var(--brand-color-primary-contrast) 85%, transparent); }
+      .frame--accent .f-head, .frame--accent .f-foot { color: color-mix(in srgb, var(--brand-color-primary-contrast) 62%, transparent); }
+      .frame--accent .f-head .rule, .frame--accent .f-foot .rule { background: color-mix(in srgb, var(--brand-color-primary-contrast) 20%, transparent); }
       /* surface slides (alternate bg per §3 视觉一致) */
       .frame--surface { background: var(--brand-color-bg-layout); }
 
@@ -360,31 +362,31 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
       .f-foot { display: flex; justify-content: space-between; align-items: center; gap: 2cqi; padding: 0 5cqi 3cqi; color: var(--brand-color-text-quaternary); font-size: 1.25cqi; }
       .f-foot .rule { flex: 1; height: var(--brand-line-width); background: var(--brand-color-border-secondary); }
 
-      .s-kicker { display: inline-flex; align-items: center; gap: 1.1cqi; text-transform: uppercase; letter-spacing: 0.18em; font-size: 1.3cqi; color: var(--brand-color-primary); font-weight: var(--brand-font-weight-strong); margin-bottom: 2cqi; }
+      .s-kicker { display: inline-flex; align-items: center; gap: 1.1cqi; text-transform: uppercase; letter-spacing: 0.18em; font-size: 1.3cqi; color: var(--brand-color-primary-ink); font-weight: var(--brand-font-weight-strong); margin-bottom: 2cqi; }
       .s-kicker::before { content: ""; width: 2.6cqi; height: 0.32cqi; border-radius: 1cqi; background: var(--brand-color-primary); }
       .s-eyebrow { font-size: 1.7cqi; color: var(--brand-color-text-tertiary); margin: 0 0 1.6cqi; max-width: 70cqi; }
       .s-title { font-family: var(--display-family); font-size: 4.6cqi; line-height: 1.1; letter-spacing: -0.02em; margin: 0; color: var(--brand-color-text); max-width: 82cqi; }
       .s-mega { font-family: var(--display-family); font-size: 8cqi; line-height: 1.02; letter-spacing: -0.025em; margin: 0; color: var(--brand-color-text); }
       .s-lede { font-size: 1.95cqi; line-height: 1.5; color: var(--brand-color-text-secondary); max-width: 66cqi; margin: 2.4cqi 0 0; }
-      .s-accent { color: var(--brand-color-primary); }
-      .frame--accent .s-accent { color: #fff; }
+      .s-accent { color: var(--brand-color-primary-ink); }
+      .frame--accent .s-accent { color:var(--brand-color-primary-contrast); }
 
       .s-grid { display: grid; gap: 2cqi; margin-top: 4cqi; }
       .s-card { position: relative; background: var(--brand-color-bg-container); border: var(--brand-line-width) solid var(--brand-color-border-secondary); border-radius: 1.4cqi; padding: 2.6cqi; min-width: 0; }
       .frame--surface .s-card { background: var(--brand-color-bg-container); }
       .s-card h3 { font-size: 2cqi; line-height: 1.22; margin: 0 0 1cqi; letter-spacing: -0.01em; }
       .s-card p { font-size: 1.55cqi; line-height: 1.5; color: var(--brand-color-text-secondary); margin: 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
-      .s-card .tick { display: inline-flex; align-items: center; justify-content: center; width: 3.4cqi; height: 3.4cqi; border-radius: 1cqi; background: var(--brand-color-primary-bg); color: var(--brand-color-primary); margin-bottom: 1.6cqi; }
+      .s-card .tick { display: inline-flex; align-items: center; justify-content: center; width: 3.4cqi; height: 3.4cqi; border-radius: 1cqi; background: var(--brand-color-primary-bg); color: var(--brand-color-primary-ink); margin-bottom: 1.6cqi; }
       .s-card .tick svg { width: 1.9cqi; height: 1.9cqi; }
 
-      .s-num { font-family: var(--display-family); font-size: 3.4cqi; font-weight: var(--brand-font-weight-strong); line-height: 1; color: var(--brand-color-primary); margin-bottom: 1.4cqi; letter-spacing: -0.02em; }
+      .s-num { font-family: var(--display-family); font-size: 3.4cqi; font-weight: var(--brand-font-weight-strong); line-height: 1; color: var(--brand-color-primary-ink); margin-bottom: 1.4cqi; letter-spacing: -0.02em; }
 
       /* metric tiles (market / traction) */
       .s-metric { min-width: 0; }
       .s-metric .v { font-family: var(--display-family); font-size: 5cqi; font-weight: var(--brand-font-weight-strong); line-height: 1; letter-spacing: -0.03em; color: var(--brand-color-text); }
-      .frame--accent .s-metric .v { color: #fff; }
+      .frame--accent .s-metric .v { color:var(--brand-color-primary-contrast); }
       .s-metric .l { margin-top: 1.2cqi; font-size: 1.5cqi; line-height: 1.35; color: var(--brand-color-text-tertiary); }
-      .frame--accent .s-metric .l { color: rgba(255,255,255,0.78); }
+      .frame--accent .s-metric .l { color: color-mix(in srgb, var(--brand-color-primary-contrast) 78%, transparent); }
 
       /* market funnel bars — value labels live OUTSIDE the proportional track in
          their own auto column, so a long label can never wrap/clip the bar. */
@@ -394,7 +396,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
       .s-bar .lane { min-width: 0; }
       .s-bar .track { height: 4.2cqi; border-radius: 0.8cqi; }
       .s-bar .val { font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 1.9cqi; color: var(--brand-color-text); white-space: nowrap; }
-      .frame--accent .s-bar .val { color: #fff; }
+      .frame--accent .s-bar .val { color:var(--brand-color-primary-contrast); }
 
       /* competition matrix */
       .s-matrix { display: grid; gap: 1.6cqi; margin-top: 3.4cqi; }
@@ -404,30 +406,30 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
       .s-matrix .row.us { background: var(--brand-color-primary-bg); border: 1.5px solid var(--brand-color-primary-border); }
       .s-matrix .cell { font-size: 1.6cqi; min-width: 0; }
       .s-matrix .who { font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 1.85cqi; letter-spacing: -0.01em; }
-      .s-matrix .us .who { color: var(--brand-color-primary); }
+      .s-matrix .us .who { color: var(--brand-color-primary-ink); }
       .s-matrix .mk { display: inline-flex; align-items: center; justify-content: center; width: 3cqi; height: 3cqi; border-radius: 50%; }
       .s-matrix .mk svg { width: 1.7cqi; height: 1.7cqi; }
-      .s-matrix .yes { background: var(--brand-color-primary); color: #fff; }
+      .s-matrix .yes { background: var(--brand-color-primary); color:var(--brand-color-primary-contrast); }
       .s-matrix .no { background: var(--brand-color-fill-tertiary); color: var(--brand-color-text-quaternary); }
 
       /* team initials */
       .s-team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2cqi; margin-top: 4cqi; }
-      .s-avatar { display: inline-flex; align-items: center; justify-content: center; width: 7cqi; height: 7cqi; border-radius: 50%; font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 2.6cqi; background: var(--brand-color-primary-bg); color: var(--brand-color-primary); margin-bottom: 1.6cqi; letter-spacing: 0.02em; }
+      .s-avatar { display: inline-flex; align-items: center; justify-content: center; width: 7cqi; height: 7cqi; border-radius: 50%; font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 2.6cqi; background: var(--brand-color-primary-bg); color: var(--brand-color-primary-ink); margin-bottom: 1.6cqi; letter-spacing: 0.02em; }
 
       /* quote / why-now */
       .s-quote { font-family: var(--display-family); font-size: 3.4cqi; line-height: 1.32; letter-spacing: -0.015em; color: var(--brand-color-text); max-width: 80cqi; margin: 0; }
       .s-byline { display: flex; align-items: center; gap: 1.8cqi; margin-top: 3.6cqi; }
-      .s-byline .av { display: inline-flex; align-items: center; justify-content: center; width: 4.6cqi; height: 4.6cqi; border-radius: 50%; background: var(--brand-color-primary-bg); color: var(--brand-color-primary); font-weight: var(--brand-font-weight-strong); font-size: 1.7cqi; }
+      .s-byline .av { display: inline-flex; align-items: center; justify-content: center; width: 4.6cqi; height: 4.6cqi; border-radius: 50%; background: var(--brand-color-primary-bg); color: var(--brand-color-primary-ink); font-weight: var(--brand-font-weight-strong); font-size: 1.7cqi; }
       .s-byline .n { font-weight: var(--brand-font-weight-strong); font-size: 1.75cqi; color: var(--brand-color-text); }
       .s-byline .r { font-size: 1.45cqi; color: var(--brand-color-text-tertiary); }
 
       /* ask checklist */
       .s-ask { display: flex; flex-direction: column; gap: 1.8cqi; margin-top: 3.6cqi; max-width: 70cqi; }
-      .s-ask .item { display: flex; align-items: flex-start; gap: 1.8cqi; font-size: 2cqi; line-height: 1.4; color: #fff; }
-      .s-ask .item .b { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 3.4cqi; height: 3.4cqi; border-radius: 0.9cqi; background: rgba(255,255,255,0.16); margin-top: 0.2cqi; }
+      .s-ask .item { display: flex; align-items: flex-start; gap: 1.8cqi; font-size: 2cqi; line-height: 1.4; color:var(--brand-color-primary-contrast); }
+      .s-ask .item .b { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 3.4cqi; height: 3.4cqi; border-radius: 0.9cqi; background: color-mix(in srgb, var(--brand-color-primary-contrast) 16%, transparent); margin-top: 0.2cqi; }
       .s-ask .item .b svg { width: 1.9cqi; height: 1.9cqi; }
       .s-ask .item .k { font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); }
-      .s-cta { display: inline-flex; align-items: center; gap: 1.4cqi; margin-top: 4cqi; height: 6cqi; padding: 0 3.4cqi; border-radius: 1.2cqi; background: #fff; color: var(--brand-color-primary); font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 2.1cqi; letter-spacing: -0.01em; }
+      .s-cta { display: inline-flex; align-items: center; gap: 1.4cqi; margin-top: 4cqi; height: 6cqi; padding: 0 3.4cqi; border-radius: 1.2cqi; background: var(--brand-color-primary-contrast); color: var(--brand-color-primary); font-family: var(--display-family); font-weight: var(--brand-font-weight-strong); font-size: 2.1cqi; letter-spacing: -0.01em; }
       .s-cta svg { width: 2cqi; height: 2cqi; }
 
       /* product wireframe motif (div/SVG, no screenshots) */
@@ -459,7 +461,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
         font-size: 15px; line-height: 1; display: inline-flex; align-items: center; justify-content: center;
         transition: border-color .15s ease, color .15s ease;
       }
-      .deck-ui button:hover { border-color: var(--brand-color-primary); color: var(--brand-color-primary); }
+      .deck-ui button:hover { border-color: var(--brand-color-primary-ink); color: var(--brand-color-primary-ink); }
       .deck-counter { font-size: 12px; color: var(--brand-color-text-tertiary); font-variant-numeric: tabular-nums; min-width: 48px; text-align: center; letter-spacing: 0.04em; }
       .deck-dots { position: fixed; left: 50%; transform: translateX(-50%); bottom: 26px; z-index: 30; display: flex; gap: 8px; }
       .deck-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--brand-color-fill); cursor: pointer; transition: all .2s ease; }
@@ -476,7 +478,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
             <div class="f-fit">
           <span class="s-kicker">Brand introduction</span>
           <h1 class="s-mega">JoomlArt</h1>
-          <p class="s-lede" style="font-size:2.6cqi;color:rgba(255,255,255,0.92);">Powerful tools, exceptional design — the all-in-one Joomla platform.</p>
+          <p class="s-lede" style="font-size:2.6cqi;color:color-mix(in srgb, var(--brand-color-primary-contrast) 92%, transparent);">Powerful tools, exceptional design — the all-in-one Joomla platform.</p>
             </div>
           </div>
           <div class="f-foot"><span>joomlart.com</span><span class="rule"></span><span class="ix">01 / 11</span></div>
@@ -489,7 +491,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
             <div class="f-fit">
           <span class="s-kicker">The problem</span>
           <h2 class="s-title">Getting this category right is still painfully hard.</h2>
-          <p class="s-lede">Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members</p>
+          <p class="s-lede">Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp;amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members</p>
           <div class="s-grid" style="grid-template-columns:repeat(3,1fr);">
             <div class="s-card"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg></span><h3>Tools don't talk</h3><p>Work scatters across apps that never share a source of truth, so context is lost on every handoff.</p></div>
             <div class="s-card"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg></span><h3>Every loop costs a day</h3><p>Iteration stalls in coordination — approvals, exports, re-dos — long before anything ships.</p></div>
@@ -646,7 +648,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
             <div class="s-metric"><div class="v">4.9/5</div><div class="l">Average rating</div></div>
             <div class="s-metric"><div class="v">120+</div><div class="l">Integrations</div></div>
           </div>
-          <p class="s-lede" style="color:rgba(255,255,255,0.78);font-size:1.5cqi;max-width:64cqi;margin-top:3.4cqi;">Illustrative figures — replace with your live numbers before pitching.</p>
+          <p class="s-lede" style="color:color-mix(in srgb, var(--brand-color-primary-contrast) 78%, transparent);font-size:1.5cqi;max-width:64cqi;margin-top:3.4cqi;">Illustrative figures — replace with your live numbers before pitching.</p>
             </div>
           </div>
           <div class="f-foot"><span>joomlart.com</span><span class="rule"></span><span class="ix">09 / 11</span></div>

@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "p.0",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Harvard University is not just a slogan here.”",
-    "chars": 95,
-    "words": 19
+    "text": "“The quality bar out of the box is what sold us. Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally is not just a slogan here.”",
+    "chars": 214,
+    "words": 37
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get",
-    "chars": 16,
-    "words": 4
+    "text": "is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally",
+    "chars": 118,
+    "words": 18
    },
    {
     "id": "span.21",
@@ -3027,9 +3027,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "University",
-    "chars": 10,
-    "words": 1
+    "text": "University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 130,
+    "words": 19
    },
    {
     "id": "span.2",
@@ -3046,12 +3046,12 @@
     "id": "p.1",
     "tag": "p",
     "n": 1,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
-    "chars": 138,
-    "words": 20
+    "text": "Welcome to Harvard",
+    "chars": 18,
+    "words": 3
    },
    {
     "id": "span.5",
@@ -3106,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "p.1",
@@ -3117,9 +3117,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
-    "chars": 138,
-    "words": 20
+    "text": "Here is the short version of what Harvard University does — and why it is worth two minutes of your inbox.",
+    "chars": 106,
+    "words": 21
    },
    {
     "id": "a.0",
@@ -3583,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "p.0",
@@ -3866,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally",
+    "chars": 137,
+    "words": 20
    },
    {
     "id": "span.19",
@@ -3912,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Harvard University",
-    "chars": 18,
-    "words": 2
+    "text": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.",
+    "chars": 138,
+    "words": 20
    },
    {
     "id": "h2.0",

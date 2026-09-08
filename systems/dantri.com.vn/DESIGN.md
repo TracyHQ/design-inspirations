@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Kinh doanh*
+*Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h*
 
 Đọc báo dantri - Tin tức mới nhất, Thông tin nhanh chính xác được cập nhật hàng giờ. báo nói đọc tin tức online Việt Nam Thế giới nóng nhất trong ngày, Kinh doanh Việc làm, Pháp luật Đời sống, Giáo dục Sức khỏe, Thể thao Giải trí, Công nghệ, Văn hóa Xã hội, Ôtô Xe máy, Tình yêu, Nhân ái, Bạn đọc
 

@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Home page*
+*News On Japan, Business News, Opinion, Sports, Entertainment And More*
 
 Latest news on Japan: business, politics, commentary, sports, culture, life and more
 
@@ -45,8 +45,8 @@ Latest news on Japan: business, politics, commentary, sports, culture, life and 
 
 ### Messaging pillars
 - Home page
+- More coverage
 - JAPAN
-- BUSINESS
 
 ### Vocabulary
 - **Use:** (none yet)
