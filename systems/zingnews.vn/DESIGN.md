@@ -17,7 +17,7 @@ colors:
 
 > Surface: web
 
-*Znews*
+*Thông tin uy tín, hình ảnh ấn tượng*
 
 Cập nhật tin tức mới và nóng nhất về Đời sống - Xã hội, Kinh tế, Thế giới, Thể thao, Giải trí, Công nghệ và nhiều lĩnh vực khác…
 

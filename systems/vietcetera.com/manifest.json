@@ -12,13 +12,15 @@
   "source": {
     "url": "https://vietcetera.com/",
     "finalUrl": "https://vietcetera.com/",
-    "extractedAt": "2026-09-07T23:52:12.964Z",
+    "extractedAt": "2026-09-08T03:55:11.637Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Vietcetera\" is page furniture → \"Bringing Vietnam To The World\" (the site's own words)"
+  ],
   "counts": {
     "pages": 20,
     "colors": 24,

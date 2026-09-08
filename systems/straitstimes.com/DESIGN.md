@@ -17,7 +17,7 @@ colors:
 
 > Surface: web
 
-*Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption*
+*Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review*
 
 The Straits Times - Get latest breaking news, business, sports, lifestyle, tech & multimedia and more news in Singapore, Asia & rest of the world at straitstimes.com.
 
@@ -42,7 +42,7 @@ The Straits Times - Get latest breaking news, business, sports, lifestyle, tech 
 - **Tone:** (none yet)
 
 ### Messaging pillars
-- Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption
+- Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review
 - Residents of Windsor Convalescent Home, LC Nursing Home transferred out before shutdown
 - Anak Krakatau eruption: Where flights are being disrupted
 

@@ -18,9 +18,9 @@ colors:
 
 > Surface: web
 
-*News*
+*Latest news, sport and opinion from the Guardian*
 
-Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice
+Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice
 
 ## Color Palette
 

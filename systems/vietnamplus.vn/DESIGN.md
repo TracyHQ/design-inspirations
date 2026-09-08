@@ -43,8 +43,8 @@ Tin tức Việt Nam và thế giới nhanh nhất, tin cậy, chính thống t�
 
 ### Messaging pillars
 - Vietnam+ (VietnamPlus)
-- IAEA kêu gọi Iran nối lại hợp tác giữa căng thẳng gia tăng
-- Lần đầu xét xử vụ kiện công ích, yêu cầu nộp tiền nợ Bảo hiểm xã hội
+- Chủ tịch Quốc hội tiếp Chủ tịch Nhóm Nghị sỹ Hữu nghị Hàn Quốc-Việt Nam
+- Tiềm năng hợp tác về không gian và sự tin cậy trong quan hệ Việt-Pháp
 
 ### Vocabulary
 - **Use:** (none yet)

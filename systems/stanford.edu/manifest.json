@@ -12,13 +12,14 @@
   "source": {
     "url": "https://stanford.edu/",
     "finalUrl": "https://stanford.edu/",
-    "extractedAt": "2026-09-07T23:41:35.425Z",
+    "extractedAt": "2026-09-08T03:51:30.166Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
+    "tagline: \"Stanford University\" is page furniture → \"At Stanford, a spirit of optimism and possibility energizes our mission of discovery and learning. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Alive with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.\" (the site's own words)",
     "fonts: 4 faces self-hosted from Google Fonts (Source Sans 3)"
   ],
   "counts": {

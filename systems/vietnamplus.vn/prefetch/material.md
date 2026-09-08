@@ -41,45 +41,44 @@
 
 - logos/favicon-0.ico — favicon, 894 bytes, from https://media.vietnamplus.vn/assets/web/styles/img/favicon.ico
 - logos/og-image-1.jpg — og-image, 31345 bytes, from https://media.vietnamplus.vn/assets/web/styles/img/social-share.jpg
-- logos/header-img-2.png — header-img, 2318 bytes, from https://media.vietnamplus.vn/images/zknDohlQH4Fh3RoitfZgMqG6kZ5NL0WDOkP8pwxT0uNTGTBo9xzDVPiHCrgfpgt6zbV_65Aa6oaOVuikAjVqcw/logo-vietnamplus.jpg.avif
 
 ## Copy harvested from the site (for voice & tone analysis)
 
 ### Headings
 
 - Vietnam+ (VietnamPlus)
-- IAEA kêu gọi Iran nối lại hợp tác giữa căng thẳng gia tăng
-- Lần đầu xét xử vụ kiện công ích, yêu cầu nộp tiền nợ Bảo hiểm xã hội
-- Tổng Bí thư, Chủ tịch nước Tô Lâm tiếp Chủ tịch Đảng Cộng sản Liên bang Nga
+- Chủ tịch Quốc hội tiếp Chủ tịch Nhóm Nghị sỹ Hữu nghị Hàn Quốc-Việt Nam
+- Tiềm năng hợp tác về không gian và sự tin cậy trong quan hệ Việt-Pháp
 - Tổng Bí thư, Chủ tịch nước mong doanh nhân người Việt tại Nga tiếp tục là hạt nhân thúc đẩy hợp tác hai nước
-- Từ 5G đến 6G: Chủ động công nghệ, kiến tạo tương lai
-- Thời tiết ngày 8/9: Nhiều nơi mưa to, cao nguyên Trung Bộ có nơi trên 70mm
-- Những kỳ vọng về mẫu điện thoại thông minh iPhone tiếp theo của Apple
-- Tổ chức “Tháng nghe phụ nữ nói” vào tháng 10 hằng năm
-- EU công bố gói đầu tư 200 triệu euro dành cho Greenland
-- Tổng Bí thư, Chủ tịch nước tiếp đại biểu Hội Cựu chiến binh Nga và Hội Hữu nghị Nga-Việt
-- Truyền hình Pháp giới thiệu những “bí mật” của Đồng bằng sông Cửu Long
-- Việt Nam khẳng định vai trò dẫn dắt, để văn hóa là động lực phát triển toàn cầu
+- Học viện Chính trị Quốc gia Hồ Chí Minh đổi mới căn bản để đáp ứng yêu cầu mới
+- Chỉ dẫn địa lý: Từ bảo hộ danh tiếng đến “tấm hộ chiếu” đưa nông sản Việt vươn xa
+- Quản lý đất đai: Phân cấp linh hoạt, đảm bảo giá đất phải hài hòa lợi ích
+- Hà Nội tiếp nhận 127 vòm đường sắt Phùng Hưng để phát huy giá trị văn hóa
+- Đà Nẵng chốt hạn giải phóng mặt bằng dự án Liên kết vùng miền Trung
+- Du lịch Quảng Ninh thu hơn 51.000 tỷ đồng trong 8 tháng đầu năm
+- Cháy xe khách giường nằm trên cao tốc Cam Lâm-Vĩnh Hảo, 1 người tử vong
+- Giá vàng ngày 8/9: Bảng giá tại các công ty vàng bạc đá quý
+- Đổi mới mô hình phát triển: Từ khát vọng sang hành động
 - Bán cầu ánh sáng, biểu tượng mới bên dòng Trà Khúc
 - Nhật Bản thắp lửa ASIAD 2026
 - Vì sao Việt Nam chọn Phú Quốc tổ chức APEC?
 - Châu Âu chứng kiến nhật thực toàn phần hiếm có
 - Vì sao Google khiến Mỹ và EU đối đầu về chủ quyền số?
-- Tổ chức “Tháng nghe phụ nữ nói” vào tháng 10 hằng năm
-- Việt Nam xác định Hàn Quốc là đối tác chiến lược hàng đầu
+- Quan hệ thương mại song phương giữa Việt Nam và Liên bang Nga
+- Tổng Bí thư, Chủ tịch nước Tô Lâm tiếp Chủ tịch Đảng Cộng sản Liên bang Nga
 
 ### Body copy
 
-> Từ những thành quả trong triển khai và từng bước làm chủ 5G, Việt Nam đang chủ động chuẩn bị nguồn lực, công nghệ và nhân lực để tham gia nghiên cứu, chuẩn hóa và từng bước định hình 6G.
-> Chiều và tối 8/9, khu vực từ Quảng Trị đến Đà Nẵng, phía Đông các tỉnh từ Quảng Ngãi đến Đắk Lắk và Nam Bộ có mưa rào và dông rải rác với lượng mưa 10-30mm, cục bộ có nơi mưa to trên 50mm.
-> Điện Kremlin cho biết Moskva không loại trừ khả năng nối lại đàm phán với Mỹ và Ukraine, trong khi Ngoại trưởng Sergey Lavrov nhấn mạnh yêu cầu thực tế và cân bằng lợi ích.
-> Nga và Triều Tiên khánh thành cây cầu đường bộ đầu tiên bắc qua sông Tumannaya, mở tuyến kết nối trực tiếp giữa hai nước và thúc đẩy giao thương song phương.
-> TTrong chương trình thăm cấp Nhà nước tới Liên bang Nga, chiều 7/9/2026 giờ địa phương, tại thủ đô Moskva, Tổng Bí thư, Chủ tịch nước Tô Lâm tiếp Chủ tịch Đảng Cộng sản Liên bang Nga Gennady Zyuganov; tiếp đoàn đại biểu Hội Cựu chiến binh Nga và Hội Hữu nghị Nga-Việt.
-> Nghị quyết số 19 cùng với các nghị quyết của Đảng được ban hành trong những giai đoạn trước, đã chỉ ra khá rõ những điểm nghẽn đối với quá trình phát triển của Việt Nam.
-> Chủ tịch Quốc hội Trần Thanh Mẫn khẳng định Việt Nam mong muốn quan hệ với Hàn Quốc tiếp tục phát triển mạnh mẽ, thực chất, hiệu quả và lâu dài trên tất cả các lĩnh vực.
-> Hội nghị KOL toàn quốc lần thứ II đặt yêu cầu người có sức ảnh hưởng không chỉ dẫn dắt xu hướng mà còn phải kiểm chứng thông tin, sử dụng công nghệ có trách nhiệm và kiến tạo niềm tin số.
-> Ít nhất 12 người, trong đó có cả phụ nữ và trẻ em, đã thiệt mạng và 5 người khác bị thương trong các cuộc không kích của Israel nhằm vào khu vực gần thành phố Nabatieh, Liban.
-> Cơ quan An ninh điều tra Bộ Công an yêu cầu các bị can Phạm Đình Tuệ, Trần Tuấn ra đầu thú để phục vụ công tác điều tra, truy tố, xét xử và được hưởng chính sách khoan hồng của pháp luật.
+> Chỉ dẫn địa lý không chỉ là công cụ bảo hộ danh tiếng và nguồn gốc sản phẩm, mà còn là nền tảng quan trọng để nông sản Việt xây dựng thương hiệu, nâng cao giá trị và mở rộng thị trường.
+> Cùng với sự linh hoạt trong phấn cấp quản lý, yêu cầu đặt ra là phải bảo đảm thống nhất về thủ tục, minh bạch về giá đất và hài hòa lợi ích giữa Nhà nước, doanh nghiệp và người dân có đất bị thu hồi.
+> Qua 25 giai đoạn, lực lượng Quân khu 7 đã quy tập và đưa về nước hơn 12.000 hài cốt liệt sỹ quân tình nguyện và chuyên gia Việt Nam hy sinh ở Campuchia, riêng Tây Ninh quy tập 9.158 hài cốt liệt sỹ,
+> Lễ hội mùa Thu Đền Đồng Bằng là cuộc trở về với ký ức cộng đồng, nơi truyền thuyết về Vua Cha Bát Hải, những giá trị kiến trúc cổ và sinh hoạt văn hóa dân gian cùng hiện diện trong đời sống hôm nay.
+> Giá vàng giao ngay giảm 0,4% xuống 4.410,55 USD/ounce, trong khi giá vàng của Mỹ giao tháng 12/2026 giảm 0,5% xuống 4.456,40 USD/ounce, với khối lượng giao dịch thấp do Mỹ đang trong kỳ nghỉ lễ.
+> Ban Thường vụ Trung ương Hội Liên hiệp Phụ nữ Việt Nam vừa ban hành kế hoạch tổ chức “Tháng nghe phụ nữ nói” trong toàn hệ thống Hội.
+> Trong tuần này, những người yêu thích công nghệ sẽ được chứng kiến mẫu điện thoại thông minh iPhone màn hình gập đầu tiên của tập đoàn công nghệ Apple.
+> Gần một thế kỷ sau cuộc đối đầu trên cánh đồng Nọc Nạng năm 1928, vùng đất từng ghi dấu một sự kiện gây chấn động ở Nam Bộ nay trở thành Di tích Lịch sử-Văn hóa cấp Quốc gia.
+> Chủ tịch Ủy ban châu Âu cùng Thủ hiến Greenland Jens-Frederik Nielsen và Thủ tướng Đan Mạch Mette Frederiksen đã ký Tuyên bố chung mới, thay thế văn kiện hợp tác được ký từ năm 2015.
+> Tổng Bí thư, Chủ tịch nước khẳng định Việt Nam kính trọng sâu sắc và không bao giờ quên được sự giúp đỡ của nhân dân Liên Xô trước đây, Liên bang Nga ngày nay, nhất là của các đồng chí cựu chiến binh.
 
 ### Nav labels
 

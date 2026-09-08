@@ -7,22 +7,22 @@
 ## Measured colors (frequency-ranked from the site's actual CSS)
 
 - `#808089` ×15 — prop:color selector:/*!sc*/ .dVnCth; prop:color selector:/*!sc*/ .dVnCth p; prop:color selector:/*!sc*/ .dVnCth .small-text
-- `#27272a` ×14 — prop:background-color selector:/*!sc*/ .gVBJYa:hover; prop:background-color selector:/*!sc*/ .gVBJYa:active; prop:color selector:/*!sc*/ .fKRaGb .delivery-zone__heading .address
+- `#27272a` ×13 — prop:background-color selector:/*!sc*/ .gVBJYa:hover; prop:background-color selector:/*!sc*/ .gVBJYa:active; prop:color selector:/*!sc*/ .fKRaGb .delivery-zone__heading .address
 - `#ebebf0` ×10 — prop:background-color selector:/*!sc*/ .exPqAC; prop:border selector:/*!sc*/ .ikCtXe:before; prop:border-color selector:/*!sc*/ .iujNlz
-- `#38383d` ×9 — prop:color selector:/*!sc*/ .dVnCth .title-text; prop:color selector:/*!sc*/ .chWRSJ .hotline a; prop:color selector:/*!sc*/ .aMfcf
-- `#0a68ff` ×5 — prop:color selector:/*!sc*/ .agnbj; prop:background-color selector:/*!sc*/ .agnbj:hover; prop:background-color selector:/*!sc*/ .agnbj:active
-- `#ff424e` ×4 — prop:color selector:/*!sc*/ .cHTNSk .deals__price__discount; prop:color selector:/*!sc*/ .cHTNSk .deals__price.has-discount; prop:background-color selector:/*!sc*/ .cHTNSk .deals__progress
+- `#38383d` ×8 — prop:color selector:/*!sc*/ .dVnCth .title-text; prop:color selector:/*!sc*/ .chWRSJ .hotline a; prop:color selector:/*!sc*/ .aMfcf
+- `#0a68ff` ×4 — prop:color selector:/*!sc*/ .agnbj; prop:background-color selector:/*!sc*/ .agnbj:hover; prop:background-color selector:/*!sc*/ .agnbj:active
 - `#003ea1` ×2 — prop:color selector:/*!sc*/ .gRFRMW .tiki-logo > span; prop:color selector:div
 - `#dddde3` ×2 — prop:border selector:/*!sc*/ .cfhkdd; prop:border-left selector:/*!sc*/ .agnbj:before
 - `#0060ff` ×2 — prop:background-color selector:/*!sc*/ .jQEjdB:hover; prop:background-color selector:/*!sc*/ .jQEjdB:active
-- `#255aa6` ×2 — prop:background-color selector:/*!sc*/ .cHTNSk .deals__icon; prop:color selector:/*!sc*/ .cHTNSk .deals__text
 - `#00ab56` ×2 — prop:color selector:/*!sc*/ .eEuHKG .category.active; prop:color selector:div
 - `#f4f4f4` ×1 — prop:background selector:html
 - `#efefef` ×1 — prop:background-color selector:html
 - `#0b74e5` ×1 — prop:color selector:/*!sc*/ a
 - `#ff424f` ×1 — prop:background selector:/*!sc*/ .PXkZT
-- `#ffffff` ×16 (near-white/black) — prop:background-color selector:/*!sc*/ .eSPDgm; prop:background-color selector:/*!sc*/ .fzREUO .icon; prop:color selector:/*!sc*/ .dCdTIg .cart-wrapper .cart-text
-- `#000000` ×3 (near-white/black) — prop:box-shadow selector:/*!sc*/ .fzREUO .icon; prop:border selector:/*!sc*/ .fSvYFA.border; prop:border selector:/*!sc*/ .jSrTMQ
+- `#2dc26d` ×1 — prop:background-color selector:/*!sc*/ .eEuHKG .category.parent-active:before
+- `#d7fae0` ×1 — prop:background-color selector:/*!sc*/ .eEuHKG .category:active
+- `#ffffff` ×11 (near-white/black) — prop:background-color selector:/*!sc*/ .eSPDgm; prop:color selector:/*!sc*/ .dCdTIg .cart-wrapper .cart-text; prop:color selector:/*!sc*/ .PXkZT
+- `#000000` ×2 (near-white/black) — prop:border selector:/*!sc*/ .fSvYFA.border; prop:border selector:/*!sc*/ .jSrTMQ
 - `#effff4` ×2 (near-white/black) — prop:background-color selector:/*!sc*/ .eEuHKG .category:hover; prop:background-color selector:div
 - `#f5f5fa` ×1 (near-white/black) — prop:background-color selector:/*!sc*/ html
 
@@ -64,7 +64,7 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 ### Body copy
 
-> Tốt & Nhanh Tìm kiếm Trang chủ Tài khoản 0 điện gia dụng xe cộ mẹ & bé khỏe đẹp nhà cửa sách thể thao Giao đến: Bạn muốn giao hàng tới đâu? Cam kết 100% hàng thật Freeship mọi đơn Hoàn 200% nếu hàng giả 30 ngày đổi trả Giao nhanh 2h Giá siêu rẻ Danh mục Nhà Sách Tiki Nhà Cửa - Đời Sống Điện Thoại - Máy Tính Bảng Đồ Chơi - Mẹ & Bé Thiết Bị Số - Phụ Kiện Số Điện Gia Dụng Làm Đẹp - Sức Khỏe Ô Tô - Xe Máy - Xe Đạp Thời trang nữ Bách Hóa Online Thể Thao - Dã Ngoại Thời trang nam Cross Border - Hàng Quốc Tế Laptop - Máy Vi Tính - Linh kiện Giày - Dép nam Điện Tử - Điện Lạnh Giày - Dép nữ Máy Ảnh - Máy Quay Phim Phụ kiện thời trang NGON Đồng hồ và Trang sức Balo và Vali Voucher - Dịch vụ Túi thời trang nữ Túi thời trang nam Chăm sóc nhà cửa Tiện ích Ưu đãi thẻ, ví Đóng tiền, nạp thẻ Mua trước trả sau Bán hàng cùng Tiki Flash Sale Xem tất cả Hỗ trợ khách hàng Hotline: 1900-6035 (1000 đ/phút, 8-21h kể cả T7, CN)
+> Tốt & Nhanh Tìm kiếm Trang chủ Tài khoản 0 điện gia dụng xe cộ mẹ & bé khỏe đẹp nhà cửa sách thể thao Giao đến: Bạn muốn giao hàng tới đâu? Cam kết 100% hàng thật Freeship mọi đơn Hoàn 200% nếu hàng giả 30 ngày đổi trả Giao nhanh 2h Giá siêu rẻ Danh mục Nhà Sách Tiki Nhà Cửa - Đời Sống Điện Thoại - Máy Tính Bảng Đồ Chơi - Mẹ & Bé Thiết Bị Số - Phụ Kiện Số Điện Gia Dụng Làm Đẹp - Sức Khỏe Ô Tô - Xe Máy - Xe Đạp Thời trang nữ Bách Hóa Online Thể Thao - Dã Ngoại Thời trang nam Cross Border - Hàng Quốc Tế Laptop - Máy Vi Tính - Linh kiện Giày - Dép nam Điện Tử - Điện Lạnh Giày - Dép nữ Máy Ảnh - Máy Quay Phim Phụ kiện thời trang NGON Đồng hồ và Trang sức Balo và Vali Voucher - Dịch vụ Túi thời trang nữ Túi thời trang nam Chăm sóc nhà cửa Tiện ích Ưu đãi thẻ, ví Đóng tiền, nạp thẻ Mua trước trả sau Bán hàng cùng Tiki Hỗ trợ khách hàng Hotline: 1900-6035 (1000 đ/phút, 8-21h kể cả T7, CN)
 > 208 Cô Bắc, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh, Việt Nam
 > Giấy chứng nhận đăng ký doanh nghiệp số 0309532909 do Sở Kế Hoạch và Đầu Tư Thành phố Hồ Chí Minh cấp lần đầu vào ngày 06/01/2010.
 > Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng từ Điện thoại smartphone tới Rau củ quả tươi , kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki mang đến cho bạn một trải nghiệm mua sắm online bắt đầu bằng chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn các tiện ích khác như mua thẻ cào, thanh toán hoá đơn điện nước, các dịch vụ bảo hiểm.

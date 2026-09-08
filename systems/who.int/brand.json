@@ -8,7 +8,8 @@
     "alternates": [
       "logos/favicon-0.ico",
       "logos/header-img-3.svg",
-      "logos/header-img-4.svg",
+      "logos/header-img-4.png",
+      "logos/header-img-5.png",
       "logos/og-image-2.jpg"
     ],
     "notes": ""
@@ -138,22 +139,22 @@
         "caption": "Hero image 4"
       },
       {
-        "file": "imagery/image-4.jpg",
+        "file": "imagery/image-4.png",
         "kind": "image",
         "caption": "Site image 1"
       },
       {
-        "file": "imagery/image-5.jpg",
+        "file": "imagery/image-5.png",
         "kind": "image",
         "caption": "Site image 2"
       },
       {
-        "file": "imagery/image-6.jpg",
+        "file": "imagery/image-6.png",
         "kind": "image",
         "caption": "Site image 3"
       },
       {
-        "file": "imagery/image-7.jpg",
+        "file": "imagery/image-7.png",
         "kind": "image",
         "caption": "Site image 4"
       }

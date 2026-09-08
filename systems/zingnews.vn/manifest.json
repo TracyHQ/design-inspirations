@@ -12,13 +12,14 @@
   "source": {
     "url": "https://zingnews.vn/",
     "finalUrl": "https://zingnews.vn/",
-    "extractedAt": "2026-09-07T23:51:49.269Z",
+    "extractedAt": "2026-09-08T03:57:29.960Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
   "refined": [
+    "tagline: \"Znews\" is page furniture → \"Thông tin uy tín, hình ảnh ấn tượng\" (the site's own words)",
     "accent: #000000 has no hue → #009cdb (most-used chromatic colour)",
     "fonts: 4 faces self-hosted from Google Fonts (Roboto)"
   ],

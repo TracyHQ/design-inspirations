@@ -12,13 +12,15 @@
   "source": {
     "url": "https://tinhte.vn/",
     "finalUrl": "https://tinhte.vn/",
-    "extractedAt": "2026-09-07T23:52:37.300Z",
+    "extractedAt": "2026-09-08T03:52:54.507Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"tinhte.vn/ifa26\" is page furniture → \"MXH Hỏi đáp, Review, Thông tin công nghệ\" (the site's own words)"
+  ],
   "counts": {
     "pages": 20,
     "colors": 19,

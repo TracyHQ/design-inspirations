@@ -65,8 +65,9 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 - logos/favicon-0.ico — favicon, 1150 bytes, from https://who.int/favicon.ico
 - logos/apple-touch-icon-1.png — apple-touch-icon, 12449 bytes, from https://who.int/apple-touch-icon-precomposed.png
 - logos/og-image-2.jpg — og-image, 53048 bytes, from https://cdn.who.int/media/images/default-source/infographics/logo-who.tmb-1200v.jpg?sfvrsn=2fcc68a0_35
-- logos/header-img-3.svg — header-img, 15855 bytes, from https://who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg
-- logos/header-img-4.svg — header-img, 15851 bytes, from https://who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg
+- logos/header-img-3.svg — header-img, 16220 bytes, from https://who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20
+- logos/header-img-4.png — header-img, 18312 bytes, from https://who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20
+- logos/header-img-5.png — header-img, 18308 bytes, from https://who.int/images/default-source/fallback/maps/americas.png?sfvrsn=9efd6df3_19
 
 ## Copy harvested from the site (for voice & tone analysis)
 
@@ -107,4 +108,4 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 ### Nav labels
 
-World Health Organization · Global · Africa · Americas · South-East Asia · Europe · Eastern Mediterranean · Western Pacific
+Global

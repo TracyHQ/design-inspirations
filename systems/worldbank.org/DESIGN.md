@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*OUR PRIORITIES*
+*International Development, Poverty and Sustainability*
 
 With 189 member countries, the World Bank Group is a unique global partnership fighting poverty worldwide through sustainable solutions.
 

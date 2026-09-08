@@ -93,7 +93,8 @@ video{display: none;;}
 img{transform: translateX(-50%); left: 50%;;}
 a.count_cmt{white-space: nowrap; display: none;;}
 a.count_cmt{white-space: nowrap; display: none;;}
-video{transform: translateX(-50%); left: 50%;;}
+video{display: none;;}
+img{transform: translateX(-50%); left: 50%;;}
 a.count_cmt{white-space: nowrap; display: none;;}
 video{display: none;;}
 img{transform: translateX(-50%); left: 50%;;}
@@ -104,8 +105,7 @@ div.banner-ads{clear: both;display: flex;justify-content: center;;}
 video{display: none;;}
 img{transform: translateX(-50%); left: 50%;;}
 a.count_cmt{white-space: nowrap; display: none;;}
-video{display: none;;}
-img{transform: translateX(-50%); left: 50%;;}
+video{transform: translateX(-50%); left: 50%;;}
 a.count_cmt{white-space: nowrap; display: none;;}
 video{display: none;;}
 img{transform: translateX(-50%); left: 50%;;}

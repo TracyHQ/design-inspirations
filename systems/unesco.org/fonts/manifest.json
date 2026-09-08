@@ -65,6 +65,24 @@
       "bytes": 163924
     },
     {
+      "family": "Almarai",
+      "weight": "lighter",
+      "style": "normal",
+      "file": "almarai-lighter.ttf",
+      "format": "truetype",
+      "sourceUrl": "https://unesco.org/themes/custom/bunesco8/assets/fonts/almarai/Almarai-Light.ttf",
+      "bytes": 145536
+    },
+    {
+      "family": "unesco",
+      "weight": "normal",
+      "style": "normal",
+      "file": "unesco-normal.woff",
+      "format": "woff",
+      "sourceUrl": "https://unesco.org/themes/custom/bunesco8/assets/fonts/icons//unesco.woff?3=",
+      "bytes": 85672
+    },
+    {
       "family": "Inter",
       "weight": "400",
       "style": "normal",

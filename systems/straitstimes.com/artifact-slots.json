@@ -97,8 +97,8 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -383,9 +383,9 @@
     "role": "subtitle",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "p.8",
@@ -394,9 +394,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Connect your existing stack and go live without a migration project.",
-    "chars": 68,
-    "words": 11
+    "text": "PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 75,
+    "words": 12
    },
    {
     "id": "h3.4",
@@ -856,8 +856,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption is not just a slogan here.”",
-    "chars": 170,
+    "text": "“The quality bar out of the box is what sold us. Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review is not just a slogan here.”",
+    "chars": 158,
     "words": 30
    },
    {
@@ -1117,12 +1117,12 @@
     "id": "span.48",
     "tag": "span",
     "n": 48,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "span.49",
@@ -1450,8 +1450,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -1716,8 +1716,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -1925,8 +1925,8 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 110,
+    "text": "is how teams get live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 98,
     "words": 17
    },
    {
@@ -1944,12 +1944,12 @@
     "id": "span.22",
     "tag": "span",
     "n": 22,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "span.24",
@@ -2354,9 +2354,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Up to 3 projects · Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption · Community support",
-    "chars": 132,
-    "words": 21
+    "text": "Up to 3 projects · Live · Community support",
+    "chars": 43,
+    "words": 9
    },
    {
     "id": "h3.4",
@@ -3002,11 +3002,11 @@
     "id": "span.1",
     "tag": "span",
     "n": 1,
-    "role": "label",
+    "role": "eyebrow",
     "group": null,
     "inNav": true,
-    "text": "straitstimes.com",
-    "chars": 16,
+    "text": "Event",
+    "chars": 5,
     "words": 1
    },
    {
@@ -3027,8 +3027,8 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 85,
+    "text": "PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 75,
     "words": 12
    },
    {
@@ -3038,20 +3038,31 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta",
-    "chars": 7,
+    "text": "Live:",
+    "chars": 5,
     "words": 1
    },
    {
-    "id": "p.1",
-    "tag": "p",
-    "n": 1,
+    "id": "span.3",
+    "tag": "span",
+    "n": 3,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "What",
+    "chars": 4,
+    "words": 1
+   },
+   {
+    "id": "span.4",
+    "tag": "span",
+    "n": 4,
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "The Straits Times - Get latest breaking news, business, sports, lifestyle, tech & multimedia and more news in Singapore, Asia & rest of the world at straitstimes.com.",
-    "chars": 166,
-    "words": 27
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
+    "words": 13
    },
    {
     "id": "span.5",
@@ -3060,14 +3071,102 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "The Straits Times",
-    "chars": 17,
-    "words": 3
+    "text": "When",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "span.6",
     "tag": "span",
     "n": 6,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "Save the date",
+    "chars": 13,
+    "words": 3
+   },
+   {
+    "id": "span.7",
+    "tag": "span",
+    "n": 7,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "Where",
+    "chars": 5,
+    "words": 1
+   },
+   {
+    "id": "span.8",
+    "tag": "span",
+    "n": 8,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "straitstimes.com",
+    "chars": 16,
+    "words": 1
+   },
+   {
+    "id": "span.9",
+    "tag": "span",
+    "n": 9,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "Who",
+    "chars": 3,
+    "words": 1
+   },
+   {
+    "id": "span.10",
+    "tag": "span",
+    "n": 10,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "The The Straits Times team",
+    "chars": 26,
+    "words": 5
+   },
+   {
+    "id": "p.1",
+    "tag": "p",
+    "n": 1,
+    "role": "button",
+    "group": null,
+    "inNav": false,
+    "text": "Scan to RSVP",
+    "chars": 12,
+    "words": 3
+   },
+   {
+    "id": "span.12",
+    "tag": "span",
+    "n": 12,
+    "role": "button",
+    "group": null,
+    "inNav": false,
+    "text": "straitstimes.com",
+    "chars": 16,
+    "words": 1
+   },
+   {
+    "id": "span.15",
+    "tag": "span",
+    "n": 15,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "The Straits Times",
+    "chars": 17,
+    "words": 3
+   },
+   {
+    "id": "span.16",
+    "tag": "span",
+    "n": 16,
     "role": "label",
     "group": null,
     "inNav": false,
@@ -3106,8 +3205,8 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -3158,12 +3257,12 @@
     "id": "p.4",
     "tag": "p",
     "n": 4,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "p.5",
@@ -3172,9 +3271,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption is built into The Straits Times from day one — not bolted on later.",
-    "chars": 161,
-    "words": 27
+    "text": "PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 75,
+    "words": 12
    },
    {
     "id": "p.6",
@@ -3350,9 +3449,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "p.1",
@@ -3383,9 +3482,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "p.2",
@@ -3394,9 +3493,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Connect your existing stack and go live without a migration project.",
-    "chars": 68,
-    "words": 11
+    "text": "PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 75,
+    "words": 12
    },
    {
     "id": "a.1",
@@ -3583,8 +3682,8 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -3602,12 +3701,12 @@
     "id": "span.2",
     "tag": "span",
     "n": 2,
-    "role": "paragraph",
+    "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "span.3",
@@ -3748,9 +3847,9 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
-    "words": 13
+    "text": "Live",
+    "chars": 4,
+    "words": 1
    },
    {
     "id": "option.2",
@@ -3869,8 +3968,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {
@@ -3915,8 +4014,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
-    "chars": 93,
+    "text": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+    "chars": 81,
     "words": 13
    },
    {

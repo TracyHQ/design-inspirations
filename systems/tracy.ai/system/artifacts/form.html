@@ -40,6 +40,8 @@
       --brand-color-primary-hover: #9537fa;
       --brand-color-primary-active: #5402c7;
       --brand-color-primary-text: #2b007a;
+      --brand-color-primary-contrast: #ffffff;
+      --brand-color-primary-ink: #720eec;
       --brand-color-success: #52c41a;
       --brand-color-success-bg: #f6ffed;
       --brand-color-success-border: #b6eb8f;
@@ -310,31 +312,31 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
   </head>
   <body>
     <div class="form-split">
-      <div class="form-brand" style="background:var(--brand-color-primary);color:#fff;padding:clamp(32px,5vw,64px);display:flex;flex-direction:column;justify-content:space-between;gap:var(--brand-size-xl);position:relative;overflow:hidden;">
-        <svg width="220" height="220" viewBox="0 0 220 220" fill="none" aria-hidden="true" style="position:absolute;top:-40px;right:-40px;opacity:0.18;color:#fff;"><defs><pattern id="fdot" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="currentColor"/></pattern></defs><rect width="220" height="220" fill="url(#fdot)"/></svg>
+      <div class="form-brand" style="background:var(--brand-color-primary);color:var(--brand-color-primary-contrast);padding:clamp(32px,5vw,64px);display:flex;flex-direction:column;justify-content:space-between;gap:var(--brand-size-xl);position:relative;overflow:hidden;">
+        <svg width="220" height="220" viewBox="0 0 220 220" fill="none" aria-hidden="true" style="position:absolute;top:-40px;right:-40px;opacity:0.18;color:var(--brand-color-primary-contrast);"><defs><pattern id="fdot" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="currentColor"/></pattern></defs><rect width="220" height="220" fill="url(#fdot)"/></svg>
         <div style="position:absolute;bottom:-140px;left:-100px;width:320px;height:320px;border-radius:50%;background:var(--brand-color-primary-active);opacity:0.45;"></div>
         <div style="position:relative;display:flex;align-items:center;gap:var(--brand-size-sm);">
-          <span style="display:inline-flex;width:30px;height:30px;border-radius:var(--brand-border-radius);background:rgba(255,255,255,0.16);align-items:center;justify-content:center;">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1.5 7l3.5 3.5L12.5 3" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:var(--brand-border-radius);background:color-mix(in srgb, var(--brand-color-primary-contrast) 16%, transparent);align-items:center;justify-content:center;">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1.5 7l3.5 3.5L12.5 3" stroke="var(--brand-color-primary-contrast)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </span>
-          <span style="font-family:var(--display-family);font-weight:var(--brand-font-weight-strong);font-size:var(--brand-font-size-lg);letter-spacing:-0.01em;color:#fff;white-space:nowrap;">Tracy</span>
+          <span style="font-family:var(--display-family);font-weight:var(--brand-font-weight-strong);font-size:var(--brand-font-size-lg);letter-spacing:-0.01em;color:var(--brand-color-primary-contrast);white-space:nowrap;">Tracy</span>
         </div>
         <div style="position:relative;max-width:42ch;">
-          <h1 style="color:#fff;font-size:clamp(28px,3.4vw,42px);letter-spacing:-0.02em;line-height:1.08;margin-bottom:var(--brand-size-md);">One desk for every site you run.</h1>
-          <p class="clamp-3" style="color:rgba(255,255,255,0.82);font-size:var(--brand-font-size-lg);line-height:1.55;margin-bottom:var(--brand-size-lg);">Tracy pairs an AI agent with each site you run — Joomla, WordPress, WooCommerce and Shopify. It reads, checks and proposes; you approve what ships.</p>
-          <ul style="list-style:none;margin:0;padding:0;"><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:rgba(255,255,255,0.92);font-size:var(--brand-font-size-lg);line-height:1.45;">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h1 style="color:var(--brand-color-primary-contrast);font-size:clamp(28px,3.4vw,42px);letter-spacing:-0.02em;line-height:1.08;margin-bottom:var(--brand-size-md);">One desk for every site you run.</h1>
+          <p class="clamp-3" style="color:color-mix(in srgb, var(--brand-color-primary-contrast) 82%, transparent);font-size:var(--brand-font-size-lg);line-height:1.55;margin-bottom:var(--brand-size-lg);">Tracy pairs an AI agent with each site you run — Joomla, WordPress, WooCommerce and Shopify. It reads, checks and proposes; you approve what ships.</p>
+          <ul style="list-style:none;margin:0;padding:0;"><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:color-mix(in srgb, var(--brand-color-primary-contrast) 92%, transparent);font-size:var(--brand-font-size-lg);line-height:1.45;">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="var(--brand-color-primary-contrast)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <span>One desk for every site you run.</span>
-          </li><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:rgba(255,255,255,0.92);font-size:var(--brand-font-size-lg);line-height:1.45;">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </li><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:color-mix(in srgb, var(--brand-color-primary-contrast) 92%, transparent);font-size:var(--brand-font-size-lg);line-height:1.45;">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="var(--brand-color-primary-contrast)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <span>From URL to operated site.</span>
-          </li><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:rgba(255,255,255,0.92);font-size:var(--brand-font-size-lg);line-height:1.45;">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </li><li style="display:flex;gap:var(--brand-size-sm);align-items:flex-start;padding:var(--brand-size-xs) 0;color:color-mix(in srgb, var(--brand-color-primary-contrast) 92%, transparent);font-size:var(--brand-font-size-lg);line-height:1.45;">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" style="flex:0 0 auto;margin-top:3px;"><path d="M3.5 9.5L7 13l7.5-8" stroke="var(--brand-color-primary-contrast)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <span>Operating skill, packaged.</span>
           </li></ul>
         </div>
-        <div style="position:relative;display:flex;align-items:center;gap:var(--brand-size-sm);color:rgba(255,255,255,0.7);font-size:var(--brand-font-size-sm);">
-          <span style="display:inline-flex;width:8px;height:8px;border-radius:50%;background:var(--brand-color-success);box-shadow:0 0 0 4px rgba(255,255,255,0.12);"></span>
+        <div style="position:relative;display:flex;align-items:center;gap:var(--brand-size-sm);color:color-mix(in srgb, var(--brand-color-primary-contrast) 70%, transparent);font-size:var(--brand-font-size-sm);">
+          <span style="display:inline-flex;width:8px;height:8px;border-radius:50%;background:var(--brand-color-success);box-shadow:0 0 0 4px color-mix(in srgb, var(--brand-color-primary-contrast) 12%, transparent);"></span>
           <span>It's free to start, and you're in good hands the whole way.</span>
         </div>
       </div>
@@ -385,7 +387,7 @@ details.kit-acc[open] .kit-acc-icon{transform:rotate(45deg)}
           </div>
               <div style="display:flex;flex-direction:column;gap:var(--brand-size-sm);margin-top:var(--brand-size);">
             <div style="display:flex;flex-direction:column;">
-              <a role="button" tabindex="0" style="display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;cursor:pointer;white-space:nowrap;user-select:none;font-family:var(--brand-font-family);font-weight:var(--brand-font-weight-strong);line-height:1;text-decoration:none;transition:all var(--brand-motion-duration-mid) var(--brand-motion-ease-in-out);height:var(--brand-control-height-lg);padding:0 var(--brand-size-lg);font-size:var(--brand-font-size-lg);border-radius:var(--brand-border-radius);border:var(--brand-line-width) solid transparent;background:var(--brand-color-primary);color:#fff;border-color:var(--brand-color-primary);box-shadow:0 2px 0 var(--brand-color-primary-bg)">Get started with Tracy</a>
+              <a role="button" tabindex="0" style="display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;cursor:pointer;white-space:nowrap;user-select:none;font-family:var(--brand-font-family);font-weight:var(--brand-font-weight-strong);line-height:1;text-decoration:none;transition:all var(--brand-motion-duration-mid) var(--brand-motion-ease-in-out);height:var(--brand-control-height-lg);padding:0 var(--brand-size-lg);font-size:var(--brand-font-size-lg);border-radius:var(--brand-border-radius);border:var(--brand-line-width) solid transparent;background:var(--brand-color-primary);color:var(--brand-color-primary-contrast);border-color:var(--brand-color-primary);box-shadow:0 2px 0 var(--brand-color-primary-bg)">Get started with Tracy</a>
             </div>
             <p style="display:flex;align-items:center;justify-content:center;gap:var(--brand-size-xs);font-size:var(--brand-font-size-sm);color:var(--brand-color-text-tertiary);text-align:center;">
               <svg width="13" height="14" viewBox="0 0 13 14" fill="none" aria-hidden="true" style="flex:0 0 auto;"><path d="M2 6V4.5a4.5 4.5 0 019 0V6m-10 0h11v7H1.5z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>

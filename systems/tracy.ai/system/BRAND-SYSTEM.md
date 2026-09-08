@@ -6,7 +6,7 @@ Everything below is *derived* — no token here was hand-authored.
 - **slug:** `tracy`
 - **source:** https://tracy.ai/
 - **primary seed color:** `#720eec`
-- **derived tokens per theme:** 218
+- **derived tokens per theme:** 220
 - **themes:** default · dark · compact (same seed, different algorithm)
 
 ## Files

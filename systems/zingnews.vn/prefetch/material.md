@@ -86,16 +86,16 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 
 ### Body copy
 
-> Chiều 7/9, Tổng Bí thư, Chủ tịch nước Tô Lâm tiếp Chủ tịch Đảng Cộng sản Liên bang Nga Gennady Zyuganov; tiếp đoàn đại biểu Hội Cựu chiến binh Nga và Hội Hữu nghị Nga - Việt.
-> Với điểm GPA tuyệt đối 4/4, khóa luận tốt nghiệp đạt 10/10, Duy Việt trở thành thủ khoa đầu ra khoa Công nghệ thông tin của Đại học Kinh tế Quốc dân, năm 2026.
-> Tiệm truyện tranh Lorn Collection (Hà Nội) thu hút không chỉ độc giả nhí. Độ tuổi của độc giả tại tiệm truyện dao động từ 8 tuổi tới... 50 tuổi.
-> Mười năm sau chức vô địch Premier League khó tin bậc nhất lịch sử, Leicester City giờ chơi ở League One, mang theo những khoản lỗ lớn và đứng trước khả năng đổi chủ.
+> Chiều tối 7/9 (giờ địa phương), tại thủ đô Moskva, Tổng Bí thư, Chủ tịch nước Tô Lâm gặp gỡ cán bộ, nhân viên Đại sứ quán và cộng đồng người Việt Nam tại Liên bang Nga.
 > Với vốn hóa 5.000 tỷ USD, Apple đặt ra tiêu chuẩn chưa từng có cho tân CEO John Ternus, người phải vừa bảo vệ cỗ máy lợi nhuận vừa tìm động lực tăng trưởng.
+> Thông tin Robert Kiyosaki - tác giả cuốn sách “Cha giàu, cha nghèo” - đang gánh một khoản nợ khổng lồ đã làm dấy lên cuộc tranh luận sôi nổi tại Trung Quốc.
+> Tài năng có thể đưa một cầu thủ nổi tiếng rất sớm, nhưng không đảm bảo anh ta đủ sức đi hết con đường.
+> Sau phiên giảm sâu trước đó, mỗi lượng vàng trong nước vừa tăng hơn nửa triệu đồng vào sáng nay (ngày 8/9), kéo giá bán phục hồi lên mốc 147 triệu đồng/lượng.
+> Trường Đại học Y Hà Nội cho biết Match Day là lựa chọn phù hợp nhất để đảm bảo tính khách quan, minh bạch, kịp thời trong công tác tuyển sinh và đào tạo bác sĩ nội trú.
 > Trong "Hộ linh tráng sĩ", Johnny Trí Nguyễn được chú ý cả ở vai trò diễn viên lẫn đạo diễn hành động. Dù vậy, vai diễn của anh vẫn để lại tiếc nuối.
-> Mái tóc chuyển màu sẫm hơn rõ rệt của vị Tổng thống 80 tuổi khi bước xuống từ chuyên cơ Không lực Một đã gây xôn xao mạng xã hội.
-> Giới hạn 1.000 khách mỗi năm, tour thám hiểm Sơn Đoòng tạo sự khan hiếm và hiện kín chỗ đến hết năm 2028, với 80% khách tham gia là người nước ngoài.
-> Quan điểm cho rằng việc kiểm chứng thông tin "không thực sự áp dụng" đối với xuất bản hồi ký của cựu tổng biên tập nhà xuất bản Bloomsbury đã dấy lên nhiều tranh cãi.
-> Chiếc khăn rằn cũ, đã bạc màu, vải đã sờn không chỉ là vật dụng hàng ngày. Với người đàn ông Nam Bộ đã ở cái tuổi xưa nay hiếm, nó còn là vật kỷ niệm đáng quý.
+> Các hãng xe tại Việt Nam thường xuyên tung ưu đãi giá trị lớn, đặc biệt trong tháng Ngâu - thời điểm doanh số thị trường có xu hướng chững lại.
+> Sách giáo khoa Ngữ văn lớp 7 giới thiệu nhiều tác phẩm truyện đọc đặc sắc mà học sinh có thể tìm đọc.
+> Người Nam Bộ sống trọng tình, sẵn lòng giúp đỡ đồng bào lúc hoạn nạn và luôn hết lòng với những người thân yêu.
 
 ### Nav labels
 

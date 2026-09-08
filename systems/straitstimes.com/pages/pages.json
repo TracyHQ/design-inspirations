@@ -1,14 +1,14 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://straitstimes.com/",
-  "crawledAt": "2026-09-07T23:47:41.678Z",
+  "crawledAt": "2026-09-08T03:51:34.560Z",
   "truncated": true,
   "pages": [
     {
       "url": "https://straitstimes.com/",
       "file": "pages/01-global.html",
       "title": "The Straits Times - Breaking news, Singapore news, Asia and world news & multimedia",
-      "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
+      "h1": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
       "depth": 0,
       "status": 200
     },
@@ -16,7 +16,7 @@
       "url": "https://www.straitstimes.com/",
       "file": "pages/02-global.html",
       "title": "The Straits Times - Breaking news, Singapore news, Asia and world news & multimedia",
-      "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
+      "h1": "Live: PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
       "depth": 1,
       "status": 200
     },
@@ -109,58 +109,58 @@
       "status": 200
     },
     {
+      "url": "https://www.straitstimes.com/singapore/politics/live-pm-wong-chan-chun-sing-to-speak-on-political-office-holders-salary-review",
+      "file": "pages/14-live-singapore-parliament-september-2026.html",
+      "title": "Live: PM Wong, Chan Chun Sing to speak on political office holders&#x27; salary review",
+      "h1": "Live PM Wong, Chan Chun Sing to speak on political office-holders’ salary review",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://www.straitstimes.com/business/trade-and-investment-can-support-jobs-in-both-singapore-and-the-us-says-dpm-gan",
+      "file": "pages/15-business-trade-and-investment-can-suppor.html",
+      "title": "Trade, investment can support jobs in S&#x27;pore and US: DPM Gan | The Straits Times",
+      "h1": "Trade and investment can support jobs in both Singapore and the US, says DPM Gan",
+      "depth": 1,
+      "status": 200
+    },
+    {
       "url": "https://www.straitstimes.com/asia/se-asia/jakarta-airport-and-others-reopen-after-volcanic-ash-crisis",
-      "file": "pages/14-asia-se-asia-jakarta-airport-and-others-.html",
+      "file": "pages/16-asia-se-asia-jakarta-airport-and-others-.html",
       "title": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption | The Straits Times",
       "h1": "Jakarta airport and four others near Indonesia’s capital reopen after volcanic ash disruption",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://www.straitstimes.com/singapore/anak-krakatau-eruption-sia-cancels-one-flight-to-jakarta-retimes-six",
-      "file": "pages/15-singapore-anak-krakatau-eruption-sia-can.html",
+      "url": "https://www.straitstimes.com/singapore/anak-krakatau-eruption-sia-adds-8-relief-flights-between-jakarta-and-singapore",
+      "file": "pages/17-singapore-anak-krakatau-eruption-sia-add.html",
       "title": "SIA cancels and retimes flights on Sept 8 after Anak Krakatau eruption | The Straits Times",
-      "h1": "Anak Krakatau eruption: SIA cancels one flight from Jakarta, retimes six",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.straitstimes.com/asia/se-asia/anak-krakatau-eruption-where-flights-are-being-disrupted",
-      "file": "pages/16-multimedia-graphics-2026-09-anak-krakata.html",
-      "title": "Anak Krakatau eruption: Where flights are being disrupted | The Straits Times",
-      "h1": "Anak Krakatau eruption: Where flights are being disrupted",
+      "h1": "Anak Krakatau eruption: SIA adds 8 relief flights between Jakarta and Singapore",
       "depth": 1,
       "status": 200
     },
     {
       "url": "https://www.straitstimes.com/asia/south-asia/families-of-those-missing-in-nepals-hydropower-tunnels-want-faster-rescues-as-hope-turns-to-anger",
-      "file": "pages/17-asia-south-asia-families-of-those-missin.html",
+      "file": "pages/18-asia-south-asia-families-of-those-missin.html",
       "title": "Families of those still missing in Nepal’s hydropower tunnels want rescuers to work faster | The Straits Times",
       "h1": "Families of those still missing in Nepal’s hydropower tunnels want rescuers to work faster",
       "depth": 1,
       "status": 200
     },
     {
+      "url": "https://www.straitstimes.com/asia/south-asia/how-two-men-survived-nine-days-in-a-nepal-flood-tunnel",
+      "file": "pages/19-asia-south-asia-how-two-men-survived-nin.html",
+      "title": "How two men survived nine days in a Nepal flood tunnel | The Straits Times",
+      "h1": "How two men survived nine days in a Nepal flood tunnel",
+      "depth": 1,
+      "status": 200
+    },
+    {
       "url": "https://www.straitstimes.com/opinion/the-coming-food-price-shock-how-war-weather-and-fuel-are-colliding",
-      "file": "pages/18-opinion-the-coming-food-price-shock-how-.html",
+      "file": "pages/20-opinion-the-coming-food-price-shock-how-.html",
       "title": "The coming food price shock: How war, weather and fuel are colliding | The Straits Times",
       "h1": "The coming food price shock: How war, weather and fuel are colliding",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.straitstimes.com/opinion/pas-faces-two-big-tests-on-its-path-to-power",
-      "file": "pages/19-opinion-pas-faces-two-big-tests-on-its-p.html",
-      "title": "PAS faces two big tests on its path to power | The Straits Times",
-      "h1": "PAS faces two big tests on its path to power",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://www.straitstimes.com/world/europe/robots-take-to-warsaw-streets-to-protest-rampant-ai",
-      "file": "pages/20-world-europe-robots-take-to-warsaw-stree.html",
-      "title": "Robots take to Warsaw streets to protest rampant AI | The Straits Times",
-      "h1": "Robots take to Warsaw streets to protest rampant AI",
       "depth": 1,
       "status": 200
     }

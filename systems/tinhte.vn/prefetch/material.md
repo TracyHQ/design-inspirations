@@ -62,7 +62,7 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 - logos/header-inline.svg — inline-svg, 1304 bytes, from https://tinhte.vn/
 - logos/favicon-1.ico — favicon, 15086 bytes, from https://tinhte.vn/static/images/icons/favicon.ico
 - logos/apple-touch-icon-2.webp — apple-touch-icon, 4958 bytes, from https://tinhte.vn/static/images/icons/apple-touch-icon.png
-- logos/og-image-3.jpg — og-image, 186927 bytes, from https://photo2.tinhte.vn/data/attachment-files/2020/07/5075745_OG_newHome_2020_2.jpg
+- logos/og-image-3.webp — og-image, 68886 bytes, from https://photo2.tinhte.vn/data/attachment-files/2020/07/5075745_OG_newHome_2020_2.jpg
 - logos/header-img-4.webp — header-img, 1064 bytes, from https://tinhte.vn/static/images/JavaLabel.png
 - logos/header-img-5.webp — header-img, 12222 bytes, from https://tinhte.vn/static/images/xe_tinhte_logo_small.png
 
@@ -77,12 +77,12 @@ typography `family` spelled EXACTLY as listed above so the self-hosted
 ### Body copy
 
 > Tinh tế Mạng xã hội Tinhte Fact Xem tất cả + Tạo fact mới
-> Ở khu vực linh kiện máy tính tại sảnh 5 tầng 2 của IFA 2026, mình tạt vào gian hàng của Rapoo vì thấy lượng khách qua lại khá đông. Trước giờ ở Việt Nam, nhắc đến Rapoo thì anh em thường nghĩ ngay đến những món chuột, bàn phím văn phòng giá mềm, dễ mua và thực dụng. Nhưng tại triển lãm năm nay, điều làm mình bất ngờ nhất là mức độ hoàn thiện của họ đã nâng lên một bậc rõ rệt. Đồ của Rapoo bây giờ không còn cảm giác ọp ẹp nữa mà được phủ một lớp mịn màng sờ rất đã tay, không hề có ba dớ hay mép cấn…
+> Pnghuy Nguyễn Thắng 89 Bão Sài Gòn! lắp mạng FPT, Truyền hình FPT, Camera FPT nhớ gọi em nhaaaa Hotline/zalo 0969611609 Lắp mạng FPT vì đam mê anhtuan1066 Cuong Nb crazysexycool1981 TheApple2303 nhatminhngo nhatminhngo TheApple2303 koibito_2014 Thietbicongnghevantu Lê Q Khánh crazysexycool1981 Bấm vào để xem nhiều hơn
+> Năm nay Skinarma mang đến IFA 2026 những sản phẩm thời trang bắt mắt cho các bạn trẻ yêu thích phong cách trẻ trung, hiện đại, theo hướng cyberpunk. Skinarma là thương hiệu được phân phối tại Việt Nam qua TLC Trading, mình đã có những bài giới thiệu một số sản phẩm của Skinarma trên Tinh tế, anh em có thể xem lại bên dưới nha. Tại IFA 2026 này, Skinarma có gian hàng trưng bày rất đẹp và bắt mắt, những sản phẩm của họ luôn có một sự khác biệt, trong thế giới quá nhiều thứ giống nhau hiện tại, nếu không khác biệt và độc đáo thì sẽ bị chìm…
+> Instagram vừa trao chìa khóa thuật toán cho người dùng, nhưng có bao nhiêu người thực sự dùng nó
 > Anh em có dùng cái nút "hỏi AI" không, hay vẫn gõ thẳng vào ô tìm kiếm như cũ?
 > Sao Thổ có thêm một "người anh em" hình học ở cực nam
-> Instagram để người dùng tự chỉnh thuật toán Reels, không phải để nó quyết định hết
 > Apple bước vào một cuộc đua máy gập và Huawei mới là đối thủ thực sự
-> Xiaomi 18 Fold chính thức ra mắt tại Trung Quốc: màn hình 7,58 inch, chip XRING O3, pin 6.000 mAh
 > Apple tính làm camera an ninh gia đình dùng AI vào năm 2027
-> Feliks Audio: Hành trình 25 năm theo đuổi ampli đèn thủ công
-> Video Tinh tế IFA26: Đi một vòng gian hàng Roborock: Không chỉ có robot hút bụi 4:54 1.579 lượt xem
+> Não bộ của anh em không ngừng xây dựng những liên kết mới.
+> Nintendo dồn hai sự kiện Direct liên tiếp: một ngày riêng cho Zelda 40 năm, một ngày cho Switch 2

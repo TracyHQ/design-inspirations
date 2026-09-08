@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "p.0",
@@ -108,8 +108,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. News is not just a slogan here.”",
-    "chars": 81,
-    "words": 18
+    "text": "“The quality bar out of the box is what sold us. Latest news, sport and opinion from the Guardian is not just a slogan here.”",
+    "chars": 125,
+    "words": 25
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "a.15",
@@ -1505,8 +1505,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "span.4",
@@ -1793,8 +1793,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get news",
-    "chars": 21,
-    "words": 5
+    "text": "is how teams get latest news, sport and opinion from the Guardian",
+    "chars": 65,
+    "words": 12
    },
    {
     "id": "span.21",
@@ -3021,14 +3021,25 @@
     "words": 2
    },
    {
+    "id": "h1.0",
+    "tag": "h1",
+    "n": 0,
+    "role": "headline",
+    "group": null,
+    "inNav": false,
+    "text": "news, sport and opinion from the Guardian",
+    "chars": 41,
+    "words": 7
+   },
+   {
     "id": "span.2",
     "tag": "span",
     "n": 2,
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
+    "text": "Latest",
+    "chars": 6,
     "words": 1
    },
    {
@@ -3038,8 +3049,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -3095,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "p.1",
@@ -3106,8 +3117,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -3350,8 +3361,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -3572,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "p.0",
@@ -3583,8 +3594,8 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
-    "chars": 133,
+    "text": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "chars": 128,
     "words": 19
    },
    {
@@ -3855,12 +3866,12 @@
     "id": "span.18",
     "tag": "span",
     "n": 18,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "span.19",
@@ -3901,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "News",
-    "chars": 4,
-    "words": 1
+    "text": "Latest news, sport and opinion from the Guardian",
+    "chars": 48,
+    "words": 8
    },
    {
     "id": "h2.0",

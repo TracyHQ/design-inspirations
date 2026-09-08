@@ -12,7 +12,7 @@
   "source": {
     "url": "https://worldbank.org/",
     "finalUrl": "https://worldbank.org/",
-    "extractedAt": "2026-09-07T23:40:10.622Z",
+    "extractedAt": "2026-09-08T03:56:47.207Z",
     "thin": false,
     "blocked": false,
     "pages": true,
@@ -20,6 +20,7 @@
   },
   "refined": [
     "name: \"World Bank Group - International Development, Poverty and Sustainability\" → \"World Bank Group\" (from the shortest title segment)",
+    "tagline: \"OUR PRIORITIES\" is page furniture → \"International Development, Poverty and Sustainability\" (the site's own words)",
     "fonts: 4 faces self-hosted from Google Fonts (Open Sans)"
   ],
   "counts": {

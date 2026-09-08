@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*tinhte.vn/ifa26*
+*MXH Hỏi đáp, Review, Thông tin công nghệ*
 
 Cộng đồng công nghệ, thủ thuật, tư vấn về điện thoại, máy tính, camera, đồ điện gia dụng và âm thanh, khoa học kĩ thuật. Nơi giải đáp thắc mắc, hỏi đáp công nghệ.
 

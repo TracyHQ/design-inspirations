@@ -97,9 +97,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "p.0",
@@ -856,9 +856,9 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "“The quality bar out of the box is what sold us. Vietcetera is not just a slogan here.”",
-    "chars": 87,
-    "words": 18
+    "text": "“The quality bar out of the box is what sold us. Bringing Vietnam To The World is not just a slogan here.”",
+    "chars": 106,
+    "words": 22
    },
    {
     "id": "span.29",
@@ -1447,12 +1447,12 @@
     "id": "p.29",
     "tag": "p",
     "n": 29,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "a.15",
@@ -1713,12 +1713,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "span.4",
@@ -1925,9 +1925,9 @@
     "role": "title",
     "group": null,
     "inNav": false,
-    "text": "is how teams get",
-    "chars": 16,
-    "words": 4
+    "text": "is how teams get bringing Vietnam To The World",
+    "chars": 46,
+    "words": 9
    },
    {
     "id": "span.21",
@@ -3021,14 +3021,25 @@
     "words": 2
    },
    {
+    "id": "h1.0",
+    "tag": "h1",
+    "n": 0,
+    "role": "headline",
+    "group": null,
+    "inNav": false,
+    "text": "Vietnam To The World",
+    "chars": 20,
+    "words": 4
+   },
+   {
     "id": "span.2",
     "tag": "span",
     "n": 2,
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
+    "text": "Bringing",
+    "chars": 8,
     "words": 1
    },
    {
@@ -3095,9 +3106,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "p.1",
@@ -3572,9 +3583,9 @@
     "role": "headline",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "p.0",
@@ -3858,9 +3869,9 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "span.19",
@@ -3901,12 +3912,12 @@
     "id": "p.0",
     "tag": "p",
     "n": 0,
-    "role": "label",
+    "role": "paragraph",
     "group": null,
     "inNav": true,
-    "text": "Vietcetera",
-    "chars": 10,
-    "words": 1
+    "text": "Bringing Vietnam To The World",
+    "chars": 29,
+    "words": 5
    },
    {
     "id": "h2.0",

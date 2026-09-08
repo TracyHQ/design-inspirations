@@ -1,7 +1,7 @@
 {
   "schemaVersion": "tracy-site-pages/v1",
   "url": "https://tinhte.vn/",
-  "crawledAt": "2026-09-07T23:52:31.849Z",
+  "crawledAt": "2026-09-08T03:52:49.868Z",
   "truncated": true,
   "pages": [
     {
@@ -21,8 +21,56 @@
       "status": 200
     },
     {
+      "url": "https://tinhte.vn/profile/pnghuy.1692874/",
+      "file": "pages/03-profile-pnghuy.html",
+      "title": "Pnghuy - Trang cá nhân",
+      "h1": "Pnghuy",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tinhte.vn/profile/nguyen-thang-89.2258187/",
+      "file": "pages/04-profile-nguyen-thang-89.html",
+      "title": "Nguyễn Thắng 89 - Trang cá nhân",
+      "h1": "Nguyễn Thắng 89",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tinhte.vn/profile/bao-sai-gon.2293592/",
+      "file": "pages/05-profile-bao-sai-gon.html",
+      "title": "Bão Sài Gòn! - Trang cá nhân",
+      "h1": "Bão Sài Gòn!",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tinhte.vn/profile/lap-mang-fpt-vi-dam-me.3026579/",
+      "file": "pages/06-profile-lap-mang-fpt-vi-dam-me.html",
+      "title": "Lắp mạng FPT vì đam mê - Trang cá nhân",
+      "h1": "Lắp mạng FPT vì đam mê",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tinhte.vn/profile/anhtuan1066.2353790/",
+      "file": "pages/07-profile-anhtuan1066.html",
+      "title": "anhtuan1066 - Trang cá nhân",
+      "h1": "anhtuan1066",
+      "depth": 1,
+      "status": 200
+    },
+    {
+      "url": "https://tinhte.vn/profile/cuong-nb.1321921/",
+      "file": "pages/08-profile-cuong-nb.html",
+      "title": "Cuong Nb - Trang cá nhân",
+      "h1": "Cuong Nb",
+      "depth": 1,
+      "status": 200
+    },
+    {
       "url": "https://tinhte.vn/profile/crazysexycool1981.210010/",
-      "file": "pages/03-profile-crazysexycool1981.html",
+      "file": "pages/09-profile-crazysexycool1981.html",
       "title": "crazysexycool1981 - Trang cá nhân",
       "h1": "crazysexycool1981",
       "depth": 1,
@@ -30,7 +78,7 @@
     },
     {
       "url": "https://tinhte.vn/profile/theapple2303.3317227/",
-      "file": "pages/04-profile-theapple2303.html",
+      "file": "pages/10-profile-theapple2303.html",
       "title": "TheApple2303 - Trang cá nhân",
       "h1": "TheApple2303",
       "depth": 1,
@@ -38,7 +86,7 @@
     },
     {
       "url": "https://tinhte.vn/profile/nhatminhngo.2580179/",
-      "file": "pages/05-profile-nhatminhngo.html",
+      "file": "pages/11-profile-nhatminhngo.html",
       "title": "nhatminhngo - Trang cá nhân",
       "h1": "nhatminhngo",
       "depth": 1,
@@ -46,7 +94,7 @@
     },
     {
       "url": "https://tinhte.vn/profile/koibito2014.1856957/",
-      "file": "pages/06-profile-koibito2014.html",
+      "file": "pages/12-profile-koibito2014.html",
       "title": "koibito_2014 - Trang cá nhân",
       "h1": "koibito_2014",
       "depth": 1,
@@ -54,7 +102,7 @@
     },
     {
       "url": "https://tinhte.vn/profile/thietbicongnghevantu.2825536/",
-      "file": "pages/07-profile-thietbicongnghevantu.html",
+      "file": "pages/13-profile-thietbicongnghevantu.html",
       "title": "Thietbicongnghevantu - Trang cá nhân",
       "h1": "Thietbicongnghevantu",
       "depth": 1,
@@ -62,73 +110,25 @@
     },
     {
       "url": "https://tinhte.vn/profile/le-q-khanh.2844048/",
-      "file": "pages/08-profile-le-q-khanh.html",
+      "file": "pages/14-profile-le-q-khanh.html",
       "title": "Lê Q Khánh - Trang cá nhân",
       "h1": "Lê Q Khánh",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://tinhte.vn/profile/bao-sai-gon.2293592/",
-      "file": "pages/09-profile-bao-sai-gon.html",
-      "title": "Bão Sài Gòn! - Trang cá nhân",
-      "h1": "Bão Sài Gòn!",
+      "url": "https://tinhte.vn/thread/huawei-ra-mat-mate-xt-2-dien-thoai-gap-3-mong-3-5mm-co-privacy-display-gia-tu-77-trieu.4175417/",
+      "file": "pages/15-thread-huawei-ra-mat-mate-xt-2-dien-thoa.html",
+      "title": "Huawei ra mắt Mate XT 2: điện thoại gập 3 mỏng 3.5mm, có \"Privacy Display\", giá từ 77 triệu",
+      "h1": "Huawei ra mắt Mate XT 2: điện thoại gập 3 mỏng 3.5mm, có \"Privacy Display\", giá từ 77 triệu",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://tinhte.vn/profile/nkinhluan.151/",
-      "file": "pages/10-profile-nkinhluan.html",
-      "title": "nkinhluan - Trang cá nhân",
-      "h1": "nkinhluan",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/profile/nhan-1512.1274270/",
-      "file": "pages/11-profile-nhan-1512.html",
-      "title": "Nhân 1512 - Trang cá nhân",
-      "h1": "Nhân 1512",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/profile/tungtek.2461064/",
-      "file": "pages/12-profile-tungtek.html",
-      "title": "@tungtek - Trang cá nhân",
-      "h1": "@tungtek",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/profile/may-tro-thinh-thai-binh.3396431/",
-      "file": "pages/13-profile-may-tro-thinh-thai-binh.html",
-      "title": "máy trợ thính thái bình - Trang cá nhân",
-      "h1": "máy trợ thính thái bình",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/thread/moi-nhan-ve-su-kien-avshow-lan-thu-26-dien-ra-tu-11-13-09-tai-tphcm.4175318/",
-      "file": "pages/14-thread-moi-nhan-ve-su-kien-avshow-lan-th.html",
-      "title": "Mời nhận vé sự kiện AVSHOW lần thứ 26 diễn ra từ 11-13/09 tại TPHCM",
-      "h1": "Mời nhận vé sự kiện AVSHOW lần thứ 26 diễn ra từ 11-13/09 tại TPHCM",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/profile/trung-dt.7742/",
-      "file": "pages/15-profile-trung-dt.html",
-      "title": "Trung Dt - Trang cá nhân",
-      "h1": "Trung Dt",
-      "depth": 1,
-      "status": 200
-    },
-    {
-      "url": "https://tinhte.vn/thread/ifa26-ghe-gian-hang-rapoo-chuot-phim-hoan-thien-ngon-hon-co-nut-ai.4175059/",
-      "file": "pages/16-thread-ifa26-ghe-gian-hang-rapoo-chuot-p.html",
-      "title": "IFA26: Ghé gian hàng Rapoo: Chuột phím hoàn thiện ngon hơn, có nút AI",
-      "h1": "IFA26: Ghé gian hàng Rapoo: Chuột phím hoàn thiện ngon hơn, có nút AI",
+      "url": "https://tinhte.vn/thread/ifa26-tham-quan-gian-hang-skinarma.4175256/",
+      "file": "pages/16-thread-ifa26-tham-quan-gian-hang-skinarm.html",
+      "title": "IFA26: Tham quan gian hàng SKINARMA",
+      "h1": "IFA26: Tham quan gian hàng SKINARMA",
       "depth": 1,
       "status": 200
     },
@@ -141,26 +141,26 @@
       "status": 200
     },
     {
-      "url": "https://tinhte.vn/thread/ifa26-ghe-vao-gian-hang-cuktech-van-me-do-sac-them-man-hinh-thao-roi-va-sac-laptop-360w.4175065/",
-      "file": "pages/18-thread-ifa26-ghe-vao-gian-hang-cuktech-v.html",
-      "title": "IFA26: Ghé vào gian hàng CUKTECH: Vẫn mê đồ sạc, thêm màn hình tháo rời và sạc laptop 360W",
-      "h1": "IFA26: Ghé vào gian hàng CUKTECH: Vẫn mê đồ sạc, thêm màn hình tháo rời và sạc laptop 360W",
+      "url": "https://tinhte.vn/thread/xiaomi-18-fold-chinh-thuc-ra-mat-tai-trung-quoc-man-hinh-7-58-inch-chip-xring-o3-pin-6-000-mah.4175352/",
+      "file": "pages/18-thread-xiaomi-18-fold-chinh-thuc-ra-mat-.html",
+      "title": "Xiaomi 18 Fold chính thức ra mắt tại Trung Quốc: màn hình 7,58 inch, chip XRING O3, pin 6.000 mAh",
+      "h1": "Xiaomi 18 Fold chính thức ra mắt tại Trung Quốc: màn hình 7,58 inch, chip XRING O3, pin 6.000 mAh",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://tinhte.vn/thread/ifa26-tren-tay-roborock-saros-20-flow-complete-doi-sang-con-lan-tu-giat-leo-go-8-8-cm.4174830/",
-      "file": "pages/19-thread-ifa26-tren-tay-roborock-saros-20-.html",
-      "title": "IFA26: Trên tay Roborock Saros 20 Flow Complete: Đổi sang con lăn tự giặt, leo gờ 8,8 cm",
-      "h1": "IFA26: Trên tay Roborock Saros 20 Flow Complete: Đổi sang con lăn tự giặt, leo gờ 8,8 cm",
+      "url": "https://tinhte.vn/profile/trung-dt.7742/",
+      "file": "pages/19-profile-trung-dt.html",
+      "title": "Trung Dt - Trang cá nhân",
+      "h1": "Trung Dt",
       "depth": 1,
       "status": 200
     },
     {
-      "url": "https://tinhte.vn/thread/lam-sao-de-uoc-luong-tuoi-tho-con-lai-cua-ssd.3662476/",
-      "file": "pages/20-thread-lam-sao-de-uoc-luong-tuoi-tho-con.html",
-      "title": "Làm sao để ước lượng tuổi thọ còn lại của SSD? | Viết bởi Lư Thế Nghĩa",
-      "h1": "Làm sao để ước lượng tuổi thọ còn lại của SSD?",
+      "url": "https://tinhte.vn/thread/instagram-de-nguoi-dung-tu-chinh-thuat-toan-reels-khong-phai-de-no-quyet-dinh-het.4175365/",
+      "file": "pages/20-thread-instagram-de-nguoi-dung-tu-chinh-.html",
+      "title": "Instagram để người dùng tự chỉnh thuật toán Reels, không phải để nó quyết định hết",
+      "h1": "",
       "depth": 1,
       "status": 200
     }

@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Vietcetera*
+*Bringing Vietnam To The World*
 
 Vietcetera mang đến cái nhìn đa diện về một Việt Nam hiện đại, năng động và đầy tiềm năng bằng những câu chuyện chân thực về các nhân tố và giá trị văn hoá mới.
 

@@ -12,13 +12,15 @@
   "source": {
     "url": "https://sqlite.org/",
     "finalUrl": "https://sqlite.org/",
-    "extractedAt": "2026-09-07T23:53:43.658Z",
+    "extractedAt": "2026-09-08T03:51:16.251Z",
     "thin": false,
     "blocked": false,
     "pages": true,
     "recon": "skipped:no-browser"
   },
-  "refined": [],
+  "refined": [
+    "tagline: \"Common Links\" is page furniture and the page offered no other line; cleared"
+  ],
   "counts": {
     "pages": 20,
     "colors": 15,

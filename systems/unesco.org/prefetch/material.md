@@ -48,6 +48,8 @@
 - "Almarai" normal normal — fonts/almarai-normal.ttf (truetype, 148808 bytes)
 - "Almarai" bold normal — fonts/almarai-bold.ttf (truetype, 152744 bytes)
 - "Almarai" bolder normal — fonts/almarai-bolder.ttf (truetype, 163924 bytes)
+- "Almarai" lighter normal — fonts/almarai-lighter.ttf (truetype, 145536 bytes)
+- "unesco" normal normal — fonts/unesco-normal.woff (woff, 85672 bytes)
 
 These font FILES are already saved locally. In brand.json, keep each
 typography `family` spelled EXACTLY as listed above so the self-hosted

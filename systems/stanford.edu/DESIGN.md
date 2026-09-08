@@ -18,7 +18,7 @@ colors:
 
 > Surface: web
 
-*Stanford University*
+*At Stanford, a spirit of optimism and possibility energizes our mission of discovery and learning. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Alive with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.*
 
 At Stanford, a spirit of optimism and possibility energizes our mission of discovery and learning. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Alive with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.
 
