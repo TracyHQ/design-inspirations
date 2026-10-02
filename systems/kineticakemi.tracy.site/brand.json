@@ -1,0 +1,158 @@
+{
+  "name": "Kinetic",
+  "tagline": "Ship fast. Sleep through the night.",
+  "description": "Kinetic is observability, reimagined: logs, metrics and traces in one pipeline, with fast queries and alerting your on-call rotation deserves.",
+  "sourceUrl": "https://kineticakemi.tracy.site/",
+  "logo": {
+    "primary": "logos/favicon-0.png",
+    "alternates": [],
+    "notes": ""
+  },
+  "colors": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "Background",
+      "usage": "page canvas"
+    },
+    {
+      "role": "surface",
+      "hex": "#f5f5f5",
+      "oklch": "",
+      "name": "Surface",
+      "usage": "cards / raised surfaces"
+    },
+    {
+      "role": "foreground",
+      "hex": "#000000",
+      "oklch": "",
+      "name": "Foreground",
+      "usage": "body text"
+    },
+    {
+      "role": "muted",
+      "hex": "#8c8c8c",
+      "oklch": "",
+      "name": "Muted",
+      "usage": "secondary text"
+    },
+    {
+      "role": "border",
+      "hex": "#dbdbdb",
+      "oklch": "",
+      "name": "Border",
+      "usage": "hairlines / dividers"
+    },
+    {
+      "role": "accent",
+      "hex": "#3f6a0a",
+      "oklch": "",
+      "name": "Accent",
+      "usage": "primary brand color"
+    },
+    {
+      "role": "accent-secondary",
+      "hex": "#4d7c0f",
+      "oklch": "",
+      "name": "Accent secondary",
+      "usage": "secondary brand color / links"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "IBM Plex Sans",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "IBM Plex Sans",
+      "fallbacks": [
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    }
+  },
+  "voice": {
+    "adjectives": [],
+    "tone": "",
+    "messagingPillars": [
+      "Ship fast. Sleep through the night.",
+      "One platform for every signal",
+      "From alert to resolved in four moves"
+    ],
+    "vocabulary": {
+      "use": [],
+      "avoid": []
+    }
+  },
+  "imagery": {
+    "style": "",
+    "subjects": [],
+    "treatment": "",
+    "avoid": [],
+    "samples": [
+      {
+        "file": "imagery/hero-0.webp",
+        "kind": "hero",
+        "caption": "Hero image"
+      },
+      {
+        "file": "imagery/image-1.webp",
+        "kind": "image",
+        "caption": "Site image 1"
+      },
+      {
+        "file": "imagery/image-2.webp",
+        "kind": "image",
+        "caption": "Site image 2"
+      },
+      {
+        "file": "imagery/image-3.webp",
+        "kind": "image",
+        "caption": "Site image 3"
+      },
+      {
+        "file": "imagery/image-4.webp",
+        "kind": "image",
+        "caption": "Site image 4"
+      },
+      {
+        "file": "imagery/image-5.webp",
+        "kind": "image",
+        "caption": "Site image 5"
+      },
+      {
+        "file": "imagery/image-6.webp",
+        "kind": "image",
+        "caption": "Site image 6"
+      }
+    ]
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "8px baseline grid",
+    "postureRules": []
+  }
+}

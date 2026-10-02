@@ -1,0 +1,3387 @@
+
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+
+
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/site-title/style.min.css */
+
+
+.wp-block-site-tagline{box-sizing:border-box}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/site-tagline/style.min.css */
+
+
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/group/style.min.css */
+
+
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{outline:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/navigation-link/style.min.css */
+
+
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/heading/style.min.css */
+
+
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/list/style.min.css */
+
+
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/columns/style.min.css */
+
+
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/paragraph/style.min.css */
+
+
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button[class*=wp-block-button__width]{width:calc(var(--wp--block-button--width)*1% - var(--wp--style--block-gap, .5em)*(1 - var(--wp--block-button--width)/100))}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button[class*=wp-block-button__width]{width:calc(var(--wp--block-button--width)*1%)}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:transparent;background-image:none}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/button/style.min.css */
+
+
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/buttons/style.min.css */
+
+
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:rgba(90,90,90,.25);border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto rgba(90,90,90,.25);outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:rgba(90,90,90,.25);border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/image/style.min.css */
+
+
+.wp-block-post-content{display:flow-root}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/post-content/style.min.css */
+
+
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+
+
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+
+
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--bg: #FBFCFA;--wp--preset--color--surface: #FFFFFF;--wp--preset--color--surface-warm: #F2F5EE;--wp--preset--color--fg: #46514B;--wp--preset--color--fg-2: #10140F;--wp--preset--color--muted: #7C877F;--wp--preset--color--meta: #7C877F;--wp--preset--color--border: #E4E8E0;--wp--preset--color--border-soft: #E4E8E0;--wp--preset--color--accent: #4D7C0F;--wp--preset--color--accent-on: #FFFFFF;--wp--preset--color--accent-hover: #3F6A0A;--wp--preset--color--accent-active: #3F6A0A;--wp--preset--color--success: #30A46C;--wp--preset--color--warn: #F5A623;--wp--preset--color--danger: #E5484D;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--xs: 12.5px;--wp--preset--font-size--sm: 14px;--wp--preset--font-size--base: 16px;--wp--preset--font-size--lg: 19px;--wp--preset--font-size--xl: 23px;--wp--preset--font-size--xxl: 28px;--wp--preset--font-size--xxxl: 38px;--wp--preset--font-size--xxxxl: 52px;--wp--preset--font-family--display: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;--wp--preset--font-family--body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;--wp--preset--font-family--mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--1: 4px;--wp--preset--spacing--2: 8px;--wp--preset--spacing--3: 12px;--wp--preset--spacing--4: 16px;--wp--preset--spacing--5: 20px;--wp--preset--spacing--6: 24px;--wp--preset--spacing--8: 32px;--wp--preset--spacing--12: 48px;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);--wp--custom--leading--body: 1.55;--wp--custom--leading--tight: 1.04;--wp--custom--tracking--display: -1.5px;--wp--custom--section-y--desktop: 80px;--wp--custom--section-y--tablet: 56px;--wp--custom--section-y--phone: 56px;--wp--custom--radius--sm: 8px;--wp--custom--radius--md: 12px;--wp--custom--radius--lg: 16px;--wp--custom--radius--pill: 100px;--wp--custom--elev--flat: none;--wp--custom--elev--ring: 0 0 0 3px rgba(77, 124, 15, .25);--wp--custom--elev--raised: 0 18px 44px -20px rgba(20, 30, 15, .2);--wp--custom--focus-ring: 0 0 0 3px rgba(77, 124, 15, .25);--wp--custom--motion--fast: 0.15s;--wp--custom--motion--base: 0.2s;--wp--custom--ease--standard: ease;--wp--custom--container--max: 1240px;--wp--custom--container--gutter-desktop: 32px;--wp--custom--container--gutter-tablet: 32px;--wp--custom--container--gutter-phone: 20px;--wp--custom--tracy--inspiration: ja-kinetic;}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 1240px;--wp--style--global--wide-size: 1240px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--wp--preset--spacing--4); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: var(--wp--preset--spacing--4); }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--4);margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--4);margin-block-end: 0;}:root :where(.is-layout-flex){gap: var(--wp--preset--spacing--4);}:root :where(.is-layout-grid){gap: var(--wp--preset--spacing--4);}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--bg);color: var(--wp--preset--color--fg);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--base);line-height: var(--wp--custom--leading--body);padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--fg);}:root :where(a:where(:not(.wp-element-button)):hover){color: var(--wp--preset--color--accent);}h1, h2, h3, h4, h5, h6{color: var(--wp--preset--color--fg);font-family: var(--wp--preset--font-family--display);letter-spacing: var(--wp--custom--tracking--display);line-height: var(--wp--custom--leading--tight);}h1{font-size: var(--wp--preset--font-size--xxxl);}h2{font-size: var(--wp--preset--font-size--xxl);}h3{font-size: var(--wp--preset--font-size--xl);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--accent);border-radius: var(--wp--custom--radius--md);border-width: 0;color: var(--wp--preset--color--accent-on);font-family: inherit;font-size: inherit;font-style: inherit;font-weight: 600;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--accent-hover);color: var(--wp--preset--color--accent-on);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-color{color: var(--wp--preset--color--bg) !important;}.has-surface-color{color: var(--wp--preset--color--surface) !important;}.has-surface-warm-color{color: var(--wp--preset--color--surface-warm) !important;}.has-fg-color{color: var(--wp--preset--color--fg) !important;}.has-fg-2-color{color: var(--wp--preset--color--fg-2) !important;}.has-muted-color{color: var(--wp--preset--color--muted) !important;}.has-meta-color{color: var(--wp--preset--color--meta) !important;}.has-border-color{color: var(--wp--preset--color--border) !important;}.has-border-soft-color{color: var(--wp--preset--color--border-soft) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-accent-on-color{color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-color{color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-color{color: var(--wp--preset--color--accent-active) !important;}.has-success-color{color: var(--wp--preset--color--success) !important;}.has-warn-color{color: var(--wp--preset--color--warn) !important;}.has-danger-color{color: var(--wp--preset--color--danger) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-background-color{background-color: var(--wp--preset--color--bg) !important;}.has-surface-background-color{background-color: var(--wp--preset--color--surface) !important;}.has-surface-warm-background-color{background-color: var(--wp--preset--color--surface-warm) !important;}.has-fg-background-color{background-color: var(--wp--preset--color--fg) !important;}.has-fg-2-background-color{background-color: var(--wp--preset--color--fg-2) !important;}.has-muted-background-color{background-color: var(--wp--preset--color--muted) !important;}.has-meta-background-color{background-color: var(--wp--preset--color--meta) !important;}.has-border-background-color{background-color: var(--wp--preset--color--border) !important;}.has-border-soft-background-color{background-color: var(--wp--preset--color--border-soft) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-accent-on-background-color{background-color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-background-color{background-color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-background-color{background-color: var(--wp--preset--color--accent-active) !important;}.has-success-background-color{background-color: var(--wp--preset--color--success) !important;}.has-warn-background-color{background-color: var(--wp--preset--color--warn) !important;}.has-danger-background-color{background-color: var(--wp--preset--color--danger) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-border-color{border-color: var(--wp--preset--color--bg) !important;}.has-surface-border-color{border-color: var(--wp--preset--color--surface) !important;}.has-surface-warm-border-color{border-color: var(--wp--preset--color--surface-warm) !important;}.has-fg-border-color{border-color: var(--wp--preset--color--fg) !important;}.has-fg-2-border-color{border-color: var(--wp--preset--color--fg-2) !important;}.has-muted-border-color{border-color: var(--wp--preset--color--muted) !important;}.has-meta-border-color{border-color: var(--wp--preset--color--meta) !important;}.has-border-border-color{border-color: var(--wp--preset--color--border) !important;}.has-border-soft-border-color{border-color: var(--wp--preset--color--border-soft) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-accent-on-border-color{border-color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-border-color{border-color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-border-color{border-color: var(--wp--preset--color--accent-active) !important;}.has-success-border-color{border-color: var(--wp--preset--color--success) !important;}.has-warn-border-color{border-color: var(--wp--preset--color--warn) !important;}.has-danger-border-color{border-color: var(--wp--preset--color--danger) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xs-font-size{font-size: var(--wp--preset--font-size--xs) !important;}.has-sm-font-size{font-size: var(--wp--preset--font-size--sm) !important;}.has-base-font-size{font-size: var(--wp--preset--font-size--base) !important;}.has-lg-font-size{font-size: var(--wp--preset--font-size--lg) !important;}.has-xl-font-size{font-size: var(--wp--preset--font-size--xl) !important;}.has-xxl-font-size{font-size: var(--wp--preset--font-size--xxl) !important;}.has-xxxl-font-size{font-size: var(--wp--preset--font-size--xxxl) !important;}.has-xxxxl-font-size{font-size: var(--wp--preset--font-size--xxxxl) !important;}.has-display-font-family{font-family: var(--wp--preset--font-family--display) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-mono-font-family{font-family: var(--wp--preset--font-family--mono) !important;}/* wp-ja-kinetic: dark mode. The source (JA Kinetic, `default` site style) is dark by default: assets/js/wp-ja-kinetic-dark.js puts data-theme="dark" on the root before the first paint unless the tracy_theme cookie says light, and color-scheme follows it here, as the source's own html does (dark -> `dark`, light -> `normal`). Each colour preset carries both halves through light-dark(): light = the palette of theme.json, dark = the source's html.t4-dark terminal block (css/darkmode.css:1-26, chrome :80-88), with meta, border-soft and accent-active from the design system's dark block (systems/ja-kinetic/tokens.css:367). success, warn and danger are not remapped by the source. The rest of the dark block is not a colour, or is declared by the sections sheet, so it is restated under the attribute. */ :root{--wp--preset--color--bg:light-dark(#FBFCFA,#0A0D0C);--wp--preset--color--surface:light-dark(#FFFFFF,#121614);--wp--preset--color--surface-warm:light-dark(#F2F5EE,#0F1311);--wp--preset--color--fg:light-dark(#46514B,#9AA6A1);--wp--preset--color--fg-2:light-dark(#10140F,#F2F5F3);--wp--preset--color--muted:light-dark(#66716A,#7F8B86);--wp--preset--color--meta:light-dark(#66716A,#7F8B86);--wp--preset--color--border:light-dark(#E4E8E0,#232A27);--wp--preset--color--border-soft:light-dark(#E4E8E0,#232A27);--wp--preset--color--accent:light-dark(#4D7C0F,#A3E635);--wp--preset--color--accent-on:light-dark(#FFFFFF,#0A0D0C);--wp--preset--color--accent-hover:light-dark(#3F6A0A,#BCF25A);--wp--preset--color--accent-active:light-dark(#3F6A0A,#BCF25A);}:root[data-theme="dark"]{color-scheme:dark;--wp--custom--elev--raised:0 20px 50px -18px rgba(0,0,0,.6);--grid:rgba(255,255,255,.035);--bg-rgb:10,13,12;--text-rgb:154,166,161;--chrome-elevated:#161B18;}
+/*# sourceURL=global-styles-inline-css */
+
+
+.wp-container-core-group-is-layout-edecd76c{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-edecd76c{flex-wrap:nowrap;}.wp-container-core-group-is-layout-95b0ab8d{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-navigation-is-layout-fb50d4a4{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-fdda04a9{justify-content:space-between;}
+/*# sourceURL=core-block-supports-inline-css */
+
+
+/*! This file is auto-generated */
+.skip-link.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;word-break:normal!important}.skip-link.screen-reader-text:focus{background-color:#eee;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
+/*# sourceURL=/wp-includes/css/wp-block-template-skip-link.min.css */
+
+div.wp-block-column.tracy-footer__brand.is-layout-flow{flex-basis:34%;}
+@media screen and (max-width:639px){#acym__callout__container{width:100%;top:0}#acym__callout__container .acym_callout{margin-bottom:0;width:100%}}#acym__callout__container{right:0;top:45px;position:fixed;width:400px;max-width:100%;z-index:1000000}#acym__callout__container .acym_callout_close{width:17px;height:18px;cursor:pointer;display:inline;margin-left:auto;background-color:transparent;color:#6d6d6d;padding:0}#acym__callout__container .acym_callout{padding:15px;margin-left:640px;margin-right:-640px;margin-bottom:1rem;max-width:100%;-moz-transition-property:margin-left,margin-right;-o-transition-property:margin-left,margin-right;-webkit-transition-property:margin-left,margin-right;transition-property:margin-left,margin-right;-moz-transition-duration:1s;-o-transition-duration:1s;-webkit-transition-duration:1s;transition-duration:1s;width:400px;overflow:hidden;border-radius:4px 0 0 4px;border:none;box-shadow:2px 2px 15px 2px #ebebeb;float:right;display:flex;opacity:1;word-wrap:break-word;word-break:break-word}#acym__callout__container .acym_callout i{margin:auto!important;border-radius:50px;height:50px;width:50px;line-height:50px;text-align:center;font-size:16px}#acym__callout__container .acym_callout p{float:right;font-size:14px;width:calc(100% - 120px);margin:1rem 0 1rem 1rem}.acym__callout__front__success{background-color:#ebfcf4}.acym__callout__front__warning{background-color:#fff6e9}.acym__callout__front__error{background-color:#ffedef}.acym__callout__front__info{background-color:#eef1ff}.acym_front_message,.acym_front_message_error,.acym_front_message_success,.acym_front_message_warning{padding:1em!important;margin-bottom:10px;z-index:10}.acym_front_message_success{color:#130;background-color:#dfc}.acym_front_message_warning{color:#3c3200;background-color:#fff8d4}.acym_front_message_error{color:#400;background-color:#fdd}
+.wp-block-navigation{position:relative}.wp-block-navigation ul{margin-bottom:0;margin-left:0;margin-top:0;padding-left:0}.wp-block-navigation ul,.wp-block-navigation ul li{list-style:none}.wp-block-navigation .wp-block-navigation-item{align-items:center;background-color:inherit;display:flex;position:relative}.wp-block-navigation .wp-block-navigation-item .wp-block-navigation__submenu-container:empty{display:none}.wp-block-navigation .wp-block-navigation-item__content{display:block;z-index:1}.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content{color:inherit}.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content,.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active,.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:focus{text-decoration:underline}.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content,.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:active,.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:focus{text-decoration:line-through}.wp-block-navigation :where(a),.wp-block-navigation :where(a:active),.wp-block-navigation :where(a:focus){text-decoration:none}.wp-block-navigation .wp-block-navigation__submenu-icon{align-self:center;background-color:inherit;border:none;color:currentColor;display:inline-block;font-size:inherit;height:.6em;line-height:0;margin-left:.25em;padding:0;width:.6em}.wp-block-navigation .wp-block-navigation__submenu-icon svg{stroke:currentColor;display:inline-block;height:inherit;margin-top:.075em;width:inherit}.wp-block-navigation{--navigation-layout-justification-setting:flex-start;--navigation-layout-direction:row;--navigation-layout-wrap:wrap;--navigation-layout-justify:flex-start;--navigation-layout-align:center}.wp-block-navigation.is-vertical{--navigation-layout-direction:column;--navigation-layout-justify:initial;--navigation-layout-align:flex-start}.wp-block-navigation.no-wrap{--navigation-layout-wrap:nowrap}.wp-block-navigation.items-justified-center{--navigation-layout-justification-setting:center;--navigation-layout-justify:center}.wp-block-navigation.items-justified-center.is-vertical{--navigation-layout-align:center}.wp-block-navigation.items-justified-right{--navigation-layout-justification-setting:flex-end;--navigation-layout-justify:flex-end}.wp-block-navigation.items-justified-right.is-vertical{--navigation-layout-align:flex-end}.wp-block-navigation.items-justified-space-between{--navigation-layout-justification-setting:space-between;--navigation-layout-justify:space-between}:where(.wp-block-navigation) ul li{padding:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{align-items:normal;background-color:inherit;color:inherit;display:flex;flex-direction:column;opacity:0;position:absolute;z-index:2}@media not (prefers-reduced-motion){.wp-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:0;overflow:hidden;visibility:hidden;width:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content{display:flex;flex-grow:1;padding:.5em 1em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content .wp-block-navigation__submenu-icon{margin-left:auto;margin-right:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content{margin:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{left:-1px;top:100%}@media (min-width:782px){.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:100%;top:-1px}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container:before{background:transparent;content:"";display:block;height:100%;position:absolute;right:100%;width:.5em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon{margin-right:.25em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon svg{transform:rotate(-90deg)}}@media (hover:hover){.wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container{height:auto;min-width:200px;opacity:1;overflow:visible;visibility:visible;width:auto}}.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container,.wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within>.wp-block-navigation__submenu-container{height:auto;min-width:200px;opacity:1;overflow:visible;visibility:visible;width:auto}.wp-block-navigation .has-child.open-always{align-items:var(--navigation-layout-align,initial);flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);gap:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always,.wp-block-navigation .has-child.open-always .wp-block-navigation-item{justify-content:var(--navigation-layout-justify,initial)}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container,.wp-block-navigation .has-child.open-always.wp-block-navigation-submenu{gap:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always .wp-block-navigation-item,.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container,.wp-block-navigation .has-child.open-always.wp-block-navigation-submenu{padding-bottom:0;padding-top:0}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container{padding-left:var(--wp--style--block-gap,2em);padding-right:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container .wp-block-navigation-item__content{padding:0}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content,.wp-block-navigation .has-child.open-always>.wp-block-navigation-item__content{flex-grow:0}.wp-block-navigation .has-child.open-always>.wp-block-navigation__submenu-container{background-color:transparent;border:none;color:inherit;flex-basis:100%;height:auto;opacity:1;overflow:visible;position:static;visibility:visible;width:auto}.wp-block-navigation.has-background .has-child .wp-block-navigation__submenu-container{left:0;top:100%}@media (min-width:782px){.wp-block-navigation.has-background .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:100%;top:0}}.wp-block-navigation-submenu{display:flex;position:relative}.wp-block-navigation-submenu .wp-block-navigation__submenu-icon svg{stroke:currentColor}button.wp-block-navigation-item__content{background-color:transparent;border:none;color:currentColor;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-align:left;text-transform:inherit}.wp-block-navigation-submenu__toggle{cursor:pointer}.wp-block-navigation-submenu__toggle[aria-expanded=true]+.wp-block-navigation__submenu-icon>svg,.wp-block-navigation-submenu__toggle[aria-expanded=true]>svg{transform:rotate(180deg)}.wp-block-navigation-item.open-on-click .wp-block-navigation-submenu__toggle{padding-left:0;padding-right:.85em}.wp-block-navigation-item.open-on-click .wp-block-navigation-submenu__toggle+.wp-block-navigation__submenu-icon{margin-left:-.6em;pointer-events:none}.wp-block-navigation-item.open-on-click button.wp-block-navigation-item__content:not(.wp-block-navigation-submenu__toggle){padding:0}.wp-block-navigation .wp-block-page-list,.wp-block-navigation__container,.wp-block-navigation__responsive-close,.wp-block-navigation__responsive-container,.wp-block-navigation__responsive-container-content,.wp-block-navigation__responsive-dialog{gap:inherit}:where(.wp-block-navigation.has-background .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation.has-background .wp-block-navigation-submenu a:not(.wp-element-button)){padding:.5em 1em}:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content){padding:.5em 1em}.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container{left:auto;right:0}.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:-1px;right:-1px}@media (min-width:782px){.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:auto;right:100%}}.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{background-color:#fff;border:1px solid rgba(0,0,0,.15)}.wp-block-navigation.has-background .wp-block-navigation__submenu-container{background-color:inherit}.wp-block-navigation:not(.has-text-color) .wp-block-navigation__submenu-container{color:#000}.wp-block-navigation__container{align-items:var(--navigation-layout-align,initial);display:flex;flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);justify-content:var(--navigation-layout-justify,initial);list-style:none;margin:0;padding-left:0}.wp-block-navigation__container .is-responsive{display:none}.wp-block-navigation__container:only-child,.wp-block-page-list:only-child{flex-grow:1}@keyframes overlay-menu__fade-in-animation{0%{opacity:0;transform:translateY(.5em)}to{opacity:1;transform:translateY(0)}}.wp-block-navigation__responsive-container{bottom:0;display:none;left:0;position:fixed;right:0;top:0}.wp-block-navigation__responsive-container :where(.wp-block-navigation-item a){color:inherit}.wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content{align-items:var(--navigation-layout-align,initial);display:flex;flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);justify-content:var(--navigation-layout-justify,initial)}.wp-block-navigation__responsive-container:not(.is-menu-open.is-menu-open){background-color:inherit!important;color:inherit!important}.wp-block-navigation__responsive-container.is-menu-open{background-color:inherit;display:flex;flex-direction:column}@media not (prefers-reduced-motion){.wp-block-navigation__responsive-container.is-menu-open{animation:overlay-menu__fade-in-animation .1s ease-out;animation-fill-mode:forwards}}.wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){padding:clamp(1rem,var(--wp--style--root--padding-top),20rem) clamp(1rem,var(--wp--style--root--padding-right),20rem) clamp(1rem,var(--wp--style--root--padding-bottom),20rem) clamp(1rem,var(--wp--style--root--padding-left),20rem)}.wp-block-navigation__responsive-container.is-menu-open{overflow:auto;z-index:100000}.wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) .wp-block-navigation__responsive-container-content{padding-top:calc(2rem + 24px)}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content{align-items:var(--navigation-layout-justification-setting,inherit);display:flex;flex-direction:column;flex-wrap:nowrap;overflow:visible}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-page-list{justify-content:flex-start}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-icon{display:none}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container{border:none;height:auto;min-width:200px;opacity:1;overflow:initial;padding-left:2rem;padding-right:2rem;position:static;visibility:visible;width:auto}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container{gap:inherit}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container{padding-top:var(--wp--style--block-gap,2em)}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content{padding:0}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation-item,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-page-list{align-items:var(--navigation-layout-justification-setting,initial);display:flex;flex-direction:column}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation-item,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation-item .wp-block-navigation__submenu-container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-page-list{background:transparent!important;color:inherit!important}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container{left:auto;right:auto}.wp-block-navigation__responsive-container.disable-default-overlay .wp-block-navigation__overlay-container{display:none;width:100%}.wp-block-navigation__responsive-container.disable-default-overlay .wp-block-navigation__responsive-close{max-width:none}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content>:not(.wp-block-navigation__overlay-container){display:none}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__overlay-container{display:block}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__overlay-container .wp-block-navigation__submenu-container{left:0;right:auto}@media (min-width:600px){.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open){background-color:inherit;display:block;position:relative;width:100%;z-index:auto}.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close{display:none}.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container{left:0}}.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){background-color:#fff}.wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){color:#000}.wp-block-navigation__toggle_button_label{font-size:1rem;font-weight:700}.wp-block-navigation__responsive-container-close,.wp-block-navigation__responsive-container-open{background:transparent;border:none;color:currentColor;cursor:pointer;margin:0;padding:0;text-transform:inherit;vertical-align:middle}.wp-block-navigation__responsive-container-close svg,.wp-block-navigation__responsive-container-open svg{fill:currentColor;display:block;height:24px;pointer-events:none;width:24px}.wp-block-navigation__responsive-container-open{display:flex}.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open{font-family:inherit;font-size:inherit;font-weight:inherit}@media (min-width:600px){.wp-block-navigation__responsive-container-open:not(.always-shown){display:none}}.wp-block-navigation__responsive-container-close{position:absolute;right:0;top:0;z-index:2}.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close{font-family:inherit;font-size:inherit;font-weight:inherit}.disable-default-overlay .wp-block-navigation__responsive-container-close{right:clamp(1rem,var(--wp--style--root--padding-left),20rem);top:clamp(1rem,var(--wp--style--root--padding-left),20rem)}.wp-block-navigation__responsive-close{width:100%}.has-modal-open .wp-block-navigation__responsive-close{margin-left:auto;margin-right:auto;max-width:var(--wp--style--global--wide-size,100%)}.wp-block-navigation__responsive-close:focus{outline:none}.is-menu-open .wp-block-navigation__responsive-close,.is-menu-open .wp-block-navigation__responsive-container-content,.is-menu-open .wp-block-navigation__responsive-dialog{box-sizing:border-box}.wp-block-navigation__responsive-dialog{position:relative}.has-modal-open .admin-bar .is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-dialog{margin-top:46px}@media (min-width:782px){.has-modal-open .admin-bar .is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-dialog{margin-top:32px}}html.has-modal-open{overflow:hidden}
+/* tracy — component styles, written once against the WordPress variables that carry the 56
+ * OpenDesign tokens (--wp--preset--* from the palette / font / size / spacing presets,
+ * --wp--custom--* for the rest). No literal colours: the active style variation is the only
+ * source of every colour, font, size, radius and shadow. Structure lives in layout.css. */
+
+/* The same box model as the Joomla template and the section library's utilities assume: a
+   swatch of w-[9rem] h-[6rem] with padding is 9rem by 6rem, not 9rem plus padding. Lowest
+   specificity, so any block that sets its own box-sizing keeps it. */
+:where(.tracy) *,
+:where(.tracy) *::before,
+:where(.tracy) *::after {
+  box-sizing: border-box;
+}
+
+:where(.tracy) img,
+:where(.tracy) svg,
+:where(.tracy) video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* WordPress puts the root block gap between header, main and footer, and the flow gap between
+   main's children; the sections and page frames carry their own spacing. */
+.tracy .wp-site-blocks > * + *,
+.tracy .tracy-main > * + * {
+  margin-block-start: 0;
+}
+
+.tracy :focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+.tracy code,
+.tracy pre,
+.tracy kbd {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: var(--wp--preset--font-size--sm);
+}
+
+/* Type roles */
+
+.tracy-display {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: var(--wp--preset--font-size--xxxxl);
+  line-height: var(--wp--custom--leading--tight);
+  letter-spacing: var(--wp--custom--tracking--display);
+  margin: 0 0 var(--wp--preset--spacing--5);
+}
+
+.tracy-eyebrow {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: var(--wp--preset--font-size--xs);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--wp--preset--color--meta);
+  margin: 0 0 var(--wp--preset--spacing--3);
+}
+
+.tracy-eyebrow a {
+  text-decoration: none;
+}
+
+.tracy-lead {
+  font-size: var(--wp--preset--font-size--lg);
+  color: var(--wp--preset--color--fg-2);
+  max-width: 60ch;
+  margin: 0 0 var(--wp--preset--spacing--6);
+}
+
+.tracy-meta {
+  font-size: var(--wp--preset--font-size--sm);
+  color: var(--wp--preset--color--muted);
+  gap: var(--wp--preset--spacing--3);
+}
+
+.tracy-muted {
+  color: var(--wp--preset--color--muted);
+}
+
+/* Date · author, the way the Joomla layout separates them. */
+.tracy-meta > * + *::before {
+  content: '·';
+  margin-inline-end: var(--wp--preset--spacing--3);
+}
+
+/* Buttons: the core button block, in the design system's own shape */
+
+.tracy .wp-block-button__link {
+  border: 1px solid var(--wp--preset--color--accent);
+  border-radius: var(--wp--custom--radius--md);
+  padding: var(--wp--preset--spacing--3) var(--wp--preset--spacing--5);
+  font-weight: 600;
+  box-shadow: var(--wp--custom--elev--flat);
+  transition:
+    background var(--wp--custom--motion--base) var(--wp--custom--ease--standard),
+    box-shadow var(--wp--custom--motion--base) var(--wp--custom--ease--standard);
+}
+
+.tracy .wp-block-button__link:hover {
+  box-shadow: var(--wp--custom--elev--raised);
+}
+
+.tracy .wp-block-button.is-style-outline .wp-block-button__link,
+.tracy .tracy-btn--ghost .wp-block-button__link {
+  background: transparent;
+  color: var(--wp--preset--color--fg);
+  border-color: var(--wp--preset--color--border);
+}
+
+/* A plain .tracy-btn element (a <button> in the section library's contact form, a link outside
+   a button block): the same shape as the button block's link. The block's wrapper div carries
+   tracy-btn too, for its modifiers — excluded, or it would draw a second box around the link. */
+.tracy .tracy-btn:not(.wp-block-button) {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wp--preset--spacing--2);
+  padding: var(--wp--preset--spacing--3) var(--wp--preset--spacing--5);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: var(--wp--custom--radius--md);
+  background: var(--wp--preset--color--surface);
+  color: var(--wp--preset--color--fg);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--wp--custom--elev--flat);
+  transition:
+    background var(--wp--custom--motion--base) var(--wp--custom--ease--standard),
+    box-shadow var(--wp--custom--motion--base) var(--wp--custom--ease--standard),
+    transform var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy .tracy-btn:not(.wp-block-button):hover {
+  box-shadow: var(--wp--custom--elev--raised);
+}
+
+.tracy .tracy-btn:not(.wp-block-button):active {
+  transform: translateY(1px);
+}
+
+.tracy .tracy-btn--primary:not(.wp-block-button) {
+  background: var(--wp--preset--color--accent);
+  color: var(--wp--preset--color--accent-on);
+  border-color: var(--wp--preset--color--accent);
+}
+
+.tracy .tracy-btn--primary:not(.wp-block-button):hover {
+  background: var(--wp--preset--color--accent-hover);
+}
+
+.tracy .tracy-btn--primary:not(.wp-block-button):active {
+  background: var(--wp--preset--color--accent-active);
+}
+
+.tracy-actions {
+  gap: var(--wp--preset--spacing--3);
+}
+
+/* Header and navigation */
+
+.tracy-header {
+  background: var(--wp--preset--color--bg);
+  border-bottom: 1px solid var(--wp--preset--color--border-soft);
+}
+
+.tracy-header__inner {
+  max-width: var(--wp--custom--container--max);
+  margin-inline: auto;
+  min-height: calc(var(--wp--preset--spacing--12) + var(--wp--preset--spacing--4));
+  align-items: center;
+}
+
+.tracy-brand,
+.tracy-brand a {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: var(--wp--preset--font-size--lg);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: var(--wp--custom--tracking--display);
+}
+
+.tracy-nav .wp-block-navigation-item__content {
+  padding: var(--wp--preset--spacing--2) var(--wp--preset--spacing--3);
+  border-radius: var(--wp--custom--radius--sm);
+  color: var(--wp--preset--color--fg-2);
+  text-decoration: none;
+  transition: background var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+/* The page the visitor is on, marked the way the Joomla template marks it. */
+.tracy-nav .current-menu-item > .wp-block-navigation-item__content,
+.tracy-nav .current-menu-ancestor > .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--fg);
+  box-shadow: inset 0 -2px 0 var(--wp--preset--color--accent);
+}
+
+.tracy-nav .wp-block-navigation-item__content:hover {
+  background: color-mix(in oklab, var(--wp--preset--color--accent), transparent 80%);
+  color: var(--wp--preset--color--fg);
+}
+
+/* The items sit as close as the Joomla menu's. The block's own flex gap is wider and is printed
+   in the page body, after this sheet, so the selector has to outrank it. */
+.tracy .tracy-nav.wp-block-navigation__container.wp-block-navigation,
+.tracy .tracy-nav .wp-block-navigation__container.wp-block-navigation {
+  gap: var(--wp--preset--spacing--1);
+}
+
+/* Hero (geometry per variant in layout.css) */
+
+.tracy-hero {
+  padding-block: var(--wp--custom--section-y--desktop);
+  background: var(--wp--preset--color--bg);
+}
+
+.tracy-hero__inner {
+  max-width: var(--wp--custom--container--max);
+  margin-inline: auto;
+  display: grid;
+  gap: var(--wp--preset--spacing--8);
+  align-items: center;
+}
+
+.tracy-hero__media {
+  margin: 0;
+}
+
+.tracy-hero__media img {
+  width: 100%;
+  border-radius: var(--wp--custom--radius--lg);
+  box-shadow: var(--wp--custom--elev--raised);
+}
+
+/* Cards and grid */
+
+.tracy-grid {
+  gap: var(--wp--preset--spacing--6);
+}
+
+.tracy-card {
+  background: var(--wp--preset--color--surface);
+  border: 1px solid var(--wp--preset--color--border-soft);
+  border-radius: var(--wp--custom--radius--lg);
+  box-shadow: var(--wp--custom--elev--ring);
+  overflow: hidden;
+  transition: box-shadow var(--wp--custom--motion--base) var(--wp--custom--ease--standard);
+}
+
+.tracy-card:hover {
+  box-shadow: var(--wp--custom--elev--raised);
+}
+
+.tracy-card__media img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tracy-card__body {
+  padding: var(--wp--preset--spacing--5);
+}
+
+.tracy-card__title {
+  font-size: var(--wp--preset--font-size--lg);
+  margin: 0 0 var(--wp--preset--spacing--2);
+}
+
+.tracy-card__title a {
+  text-decoration: none;
+}
+
+.tracy-card__text {
+  color: var(--wp--preset--color--fg-2);
+  font-size: var(--wp--preset--font-size--sm);
+  margin: 0;
+}
+
+.tracy-pagination {
+  margin-top: var(--wp--preset--spacing--8);
+  gap: var(--wp--preset--spacing--2);
+}
+
+/* Listing, article, pricing, sections */
+
+/* Gutters: the root has no padding (sections bleed and carry their own); the framed pages carry theirs here. */
+.tracy-listing,
+.tracy-article,
+.tracy-page,
+.tracy-pricing-page {
+  padding-block: var(--wp--custom--section-y--desktop);
+}
+
+/* The container: the same box on both themes and in the section library — the system's
+   container max, with its gutter inside that width (border-box), so chrome, page heads and
+   sections all start on the same line. */
+.tracy-container,
+.tracy-header__inner,
+.tracy-footer__inner,
+.tracy-hero__inner {
+  max-width: var(--wp--custom--container--max);
+  margin-inline: auto;
+  padding-inline: var(--wp--custom--container--gutter-desktop);
+}
+
+.tracy-listing__head,
+.tracy-page__head,
+.tracy-pricing-page__head {
+  margin-bottom: var(--wp--preset--spacing--8);
+}
+
+
+.tracy-article {
+  max-width: min(var(--wp--custom--container--max), 72ch);
+}
+
+.tracy-article__head {
+  margin-bottom: var(--wp--preset--spacing--8);
+}
+
+.tracy-article__title {
+  font-size: var(--wp--preset--font-size--xxxl);
+}
+
+.tracy-article__media {
+  margin: 0 0 var(--wp--preset--spacing--8);
+}
+
+.tracy-article__media img {
+  border-radius: var(--wp--custom--radius--lg);
+}
+
+/* Links are bare in chrome and sections; inside running text they are underlined, where nothing
+   else tells a link from a word. Same as the Joomla template. */
+.tracy-prose a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--wp--preset--color--accent), transparent 30%);
+  text-underline-offset: 0.15em;
+}
+
+.tracy-prose > p:first-child {
+  font-size: var(--wp--preset--font-size--lg);
+  color: var(--wp--preset--color--fg-2);
+}
+
+.tracy-prose img {
+  border-radius: var(--wp--custom--radius--md);
+}
+
+.tracy-cta {
+  background: var(--wp--preset--color--accent);
+  color: var(--wp--preset--color--accent-on);
+  padding-block: var(--wp--custom--section-y--desktop);
+}
+
+.tracy-cta h2 {
+  color: inherit;
+}
+
+.tracy-cta .wp-block-button__link {
+  background: var(--wp--preset--color--accent-on);
+  color: var(--wp--preset--color--accent);
+  border-color: var(--wp--preset--color--accent-on);
+}
+
+.tracy-pricing table,
+table.tracy-pricing {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--wp--preset--color--surface);
+  border: 1px solid var(--wp--preset--color--border-soft);
+  border-radius: var(--wp--custom--radius--lg);
+  overflow: hidden;
+}
+
+.tracy-pricing th,
+.tracy-pricing td {
+  padding: var(--wp--preset--spacing--4) var(--wp--preset--spacing--5);
+  text-align: start;
+  border: 0;
+  border-bottom: 1px solid var(--wp--preset--color--border-soft);
+  vertical-align: top;
+}
+
+.tracy-pricing thead th {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: var(--wp--preset--font-size--lg);
+}
+
+.tracy-pricing thead th small {
+  display: block;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: var(--wp--preset--font-size--xs);
+  color: var(--wp--preset--color--muted);
+  margin-top: var(--wp--preset--spacing--1);
+}
+
+.tracy-pricing tbody th {
+  font-weight: 500;
+  color: var(--wp--preset--color--fg-2);
+}
+
+.tracy-pricing tr:last-child th,
+.tracy-pricing tr:last-child td {
+  border-bottom: 0;
+}
+
+.tracy-pricing .is-hot {
+  background: color-mix(in oklab, var(--wp--preset--color--accent), var(--wp--preset--color--surface) 85%);
+  box-shadow: inset 2px 0 0 var(--wp--preset--color--accent), inset -2px 0 0 var(--wp--preset--color--accent);
+}
+
+.tracy-pricing thead .is-hot {
+  box-shadow: inset 2px 2px 0 var(--wp--preset--color--accent), inset -2px 0 0 var(--wp--preset--color--accent);
+}
+
+/* Footer */
+
+.tracy-footer {
+  border-top: 1px solid var(--wp--preset--color--border-soft);
+  padding-block: var(--wp--preset--spacing--8);
+  color: var(--wp--preset--color--muted);
+  font-size: var(--wp--preset--font-size--sm);
+}
+
+.tracy-footer__inner {
+  max-width: var(--wp--custom--container--max);
+  margin-inline: auto;
+}
+
+.tracy-footer__brand,
+.tracy-footer__brand a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tracy-footer__note {
+  margin: 0;
+}
+
+/* Responsive tokens */
+
+@media (max-width: 1024px) {
+  .tracy-container,
+  .tracy-header__inner,
+  .tracy-footer__inner,
+  .tracy-hero__inner {
+    padding-inline: var(--wp--custom--container--gutter-tablet);
+  }
+
+  .tracy-hero,
+  .tracy-listing,
+  .tracy-article,
+  .tracy-pricing-page,
+  .tracy-cta {
+    padding-block: var(--wp--custom--section-y--tablet);
+  }
+}
+
+@media (max-width: 640px) {
+  .tracy-container,
+  .tracy-header__inner,
+  .tracy-footer__inner,
+  .tracy-hero__inner {
+    padding-inline: var(--wp--custom--container--gutter-phone);
+  }
+
+  .tracy-hero,
+  .tracy-listing,
+  .tracy-article,
+  .tracy-pricing-page,
+  .tracy-cta {
+    padding-block: var(--wp--custom--section-y--phone);
+  }
+
+  .tracy-display {
+    font-size: var(--wp--preset--font-size--xxxl);
+  }
+
+  .tracy-pricing {
+    overflow-x: auto;
+  }
+}
+
+/* tracy — layout, keyed on the body classes functions.php adds: .tracy-nav-<x> (five header
+ * geometries) × .tracy-hero-<y> (four hero geometries), from archetypes.json of the vendored
+ * library, plus .tracy-page-<kind>. Only structure here; every colour, size and shadow comes
+ * through tracy.css from the active style variation. */
+
+/* ---- nav: top-left (default) — brand start, menu end; the flex group already does it ---- */
+
+/* ---- nav: top-centered — brand on its own line, menu centred below ---- */
+
+.tracy-nav-top-centered .tracy-header__inner {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--wp--preset--spacing--3);
+  padding-block: var(--wp--preset--spacing--4);
+}
+
+/* ---- nav: brand-centered — larger brand centred, menu centred beneath ---- */
+
+.tracy-nav-brand-centered .tracy-header__inner {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--wp--preset--spacing--3);
+  padding-block: var(--wp--preset--spacing--4);
+}
+
+.tracy-nav-brand-centered .tracy-brand,
+.tracy-nav-brand-centered .tracy-brand a {
+  font-size: var(--wp--preset--font-size--xl);
+}
+
+/* ---- nav: sidebar — header becomes a sticky column ---- */
+
+@media (min-width: 1025px) {
+  .tracy-nav-sidebar {
+    display: grid;
+    grid-template-columns: 16rem minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding-inline: 0;
+  }
+
+  .tracy-nav-sidebar .tracy-header {
+    grid-row: 1 / -1;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-bottom: 0;
+    border-inline-end: 1px solid var(--wp--preset--color--border-soft);
+    padding-inline: var(--wp--custom--container--gutter-desktop);
+  }
+
+  .tracy-nav-sidebar .tracy-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--wp--preset--spacing--8);
+    padding-block: var(--wp--preset--spacing--8);
+  }
+
+  .tracy-nav-sidebar .tracy-nav .wp-block-navigation__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tracy-nav-sidebar .tracy-main,
+  .tracy-nav-sidebar .tracy-footer {
+    grid-column: 2;
+    padding-inline: var(--wp--custom--container--gutter-desktop);
+  }
+}
+
+/* ---- nav: overlay — on the home page the header floats over the hero ---- */
+
+.tracy-nav-overlay.tracy-page-home {
+  position: relative;
+}
+
+.tracy-nav-overlay.tracy-page-home .tracy-header {
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  z-index: 10;
+  background: transparent;
+  border-bottom: 0;
+}
+
+.tracy-nav-overlay.tracy-page-home .tracy-hero {
+  padding-top: calc(var(--wp--custom--section-y--desktop) + var(--wp--preset--spacing--12));
+}
+
+/* ---- hero: split (default) — copy left, image right ---- */
+
+.tracy-hero-split .tracy-hero__inner {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+}
+
+/* ---- hero: centered — one column, centred, image below ---- */
+
+.tracy-hero-centered .tracy-hero__inner {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+
+.tracy-hero-centered .tracy-hero__copy {
+  max-width: 60ch;
+}
+
+.tracy-hero-centered .tracy-lead {
+  margin-inline: auto;
+}
+
+.tracy-hero-centered .tracy-actions {
+  justify-content: center;
+}
+
+.tracy-hero-centered .tracy-hero__media {
+  width: min(100%, 56rem);
+}
+
+/* ---- hero: stack — copy above a full-width image ---- */
+
+.tracy-hero-stack .tracy-hero__inner {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.tracy-hero-stack .tracy-hero__copy {
+  max-width: 64ch;
+}
+
+.tracy-hero-stack .tracy-hero__media img {
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+}
+
+/* ---- hero: cover — image fills the section, copy sits on it ---- */
+
+.tracy-hero-cover .tracy-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 80vh;
+  display: grid;
+  align-items: end;
+  color: var(--wp--preset--color--bg);
+}
+
+.tracy-hero-cover .tracy-hero__inner {
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+}
+
+.tracy-hero-cover .tracy-hero__copy {
+  max-width: 64ch;
+}
+
+.tracy-hero-cover .tracy-hero .tracy-display,
+.tracy-hero-cover .tracy-hero .tracy-lead,
+.tracy-hero-cover .tracy-hero .tracy-eyebrow {
+  color: inherit;
+}
+
+.tracy-hero-cover .tracy-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  margin: 0;
+}
+
+.tracy-hero-cover .tracy-hero__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.tracy-hero-cover .tracy-hero__media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--wp--preset--color--fg), transparent 15%),
+    color-mix(in oklab, var(--wp--preset--color--fg), transparent 60%)
+  );
+}
+
+.tracy-hero-cover .tracy-hero .tracy-btn--ghost .wp-block-button__link {
+  color: inherit;
+  border-color: currentColor;
+}
+
+.tracy-hero-cover.tracy-nav-overlay.tracy-page-home .tracy-brand,
+.tracy-hero-cover.tracy-nav-overlay.tracy-page-home .tracy-brand a,
+.tracy-hero-cover.tracy-nav-overlay.tracy-page-home .tracy-nav .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--bg);
+}
+
+/* ---- small screens ---- */
+
+@media (max-width: 1024px) {
+  .tracy-hero-split .tracy-hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tracy-hero-cover .tracy-hero {
+    min-height: 60vh;
+  }
+
+  .tracy-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .tracy-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+@layer properties;
+.m-0 {
+  margin: 0px;
+}
+.mx-auto {
+  margin-inline: auto;
+}
+.my-4 {
+  margin-block: var(--wp--preset--spacing--4);
+}
+.mt-3 {
+  margin-top: var(--wp--preset--spacing--3);
+}
+.mt-4 {
+  margin-top: var(--wp--preset--spacing--4);
+}
+.mt-6 {
+  margin-top: var(--wp--preset--spacing--6);
+}
+.mt-8 {
+  margin-top: var(--wp--preset--spacing--8);
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-1 {
+  margin-bottom: var(--wp--preset--spacing--1);
+}
+.mb-2 {
+  margin-bottom: var(--wp--preset--spacing--2);
+}
+.mb-3 {
+  margin-bottom: var(--wp--preset--spacing--3);
+}
+.mb-4 {
+  margin-bottom: var(--wp--preset--spacing--4);
+}
+.mb-6 {
+  margin-bottom: var(--wp--preset--spacing--6);
+}
+.mb-8 {
+  margin-bottom: var(--wp--preset--spacing--8);
+}
+.mb-12 {
+  margin-bottom: var(--wp--preset--spacing--12);
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.inline-grid {
+  display: inline-grid;
+}
+.h-12 {
+  height: var(--wp--preset--spacing--12);
+}
+.h-\[5rem\] {
+  height: 5rem;
+}
+.h-\[6rem\] {
+  height: 6rem;
+}
+.h-\[calc\(var\(--space-1\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--1) * 4);
+}
+.h-\[calc\(var\(--space-2\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--2) * 4);
+}
+.h-\[calc\(var\(--space-4\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--4) * 4);
+}
+.h-\[calc\(var\(--space-6\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--6) * 4);
+}
+.h-\[calc\(var\(--space-8\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--8) * 4);
+}
+.h-\[calc\(var\(--space-12\)\*4\)\] {
+  height: calc(var(--wp--preset--spacing--12) * 4);
+}
+.w-12 {
+  width: var(--wp--preset--spacing--12);
+}
+.w-\[8rem\] {
+  width: 8rem;
+}
+.w-\[9rem\] {
+  width: 9rem;
+}
+.w-\[calc\(var\(--space-1\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--1) * 4);
+}
+.w-\[calc\(var\(--space-2\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--2) * 4);
+}
+.w-\[calc\(var\(--space-4\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--4) * 4);
+}
+.w-\[calc\(var\(--space-6\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--6) * 4);
+}
+.w-\[calc\(var\(--space-8\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--8) * 4);
+}
+.w-\[calc\(var\(--space-12\)\*4\)\] {
+  width: calc(var(--wp--preset--spacing--12) * 4);
+}
+.max-w-\[62ch\] {
+  max-width: 62ch;
+}
+.max-w-page {
+  max-width: var(--wp--custom--container--max);
+}
+.flex-1 {
+  flex: 1;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.place-items-center {
+  place-items: center;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-1 {
+  gap: var(--wp--preset--spacing--1);
+}
+.gap-2 {
+  gap: var(--wp--preset--spacing--2);
+}
+.gap-4 {
+  gap: var(--wp--preset--spacing--4);
+}
+.gap-6 {
+  gap: var(--wp--preset--spacing--6);
+}
+.gap-8 {
+  gap: var(--wp--preset--spacing--8);
+}
+.gap-12 {
+  gap: var(--wp--preset--spacing--12);
+}
+.gap-x-12 {
+  column-gap: var(--wp--preset--spacing--12);
+}
+.gap-y-6 {
+  row-gap: var(--wp--preset--spacing--6);
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.rounded-lg {
+  border-radius: var(--wp--custom--radius--lg);
+}
+.rounded-md {
+  border-radius: var(--wp--custom--radius--md);
+}
+.rounded-pill {
+  border-radius: var(--wp--custom--radius--pill);
+}
+.rounded-sm {
+  border-radius: var(--wp--custom--radius--sm);
+}
+.border {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+}
+.border-y {
+  border-block-style: var(--tw-border-style);
+  border-block-width: 1px;
+}
+.border-t {
+  border-top-style: var(--tw-border-style);
+  border-top-width: 1px;
+}
+.border-t-2 {
+  border-top-style: var(--tw-border-style);
+  border-top-width: 2px;
+}
+.border-b {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1px;
+}
+.border-accent {
+  border-color: var(--wp--preset--color--accent);
+}
+.border-accent\/40 {
+  border-color: var(--wp--preset--color--accent);
+  @supports (color: color-mix(in lab, red, red)) {
+    border-color: color-mix(in oklab, var(--wp--preset--color--accent) 40%, transparent);
+  }
+}
+.border-border {
+  border-color: var(--wp--preset--color--border);
+}
+.border-border-soft {
+  border-color: var(--wp--preset--color--border-soft);
+}
+.bg-accent {
+  background-color: var(--wp--preset--color--accent);
+}
+.bg-accent\/10 {
+  background-color: var(--wp--preset--color--accent);
+  @supports (color: color-mix(in lab, red, red)) {
+    background-color: color-mix(in oklab, var(--wp--preset--color--accent) 10%, transparent);
+  }
+}
+.bg-bg {
+  background-color: var(--wp--preset--color--bg);
+}
+.bg-danger {
+  background-color: var(--wp--preset--color--danger);
+}
+.bg-fg {
+  background-color: var(--wp--preset--color--fg);
+}
+.bg-muted {
+  background-color: var(--wp--preset--color--muted);
+}
+.bg-success {
+  background-color: var(--wp--preset--color--success);
+}
+.bg-surface {
+  background-color: var(--wp--preset--color--surface);
+}
+.bg-surface-warm {
+  background-color: var(--wp--preset--color--surface-warm);
+}
+.bg-warn {
+  background-color: var(--wp--preset--color--warn);
+}
+.p-3 {
+  padding: var(--wp--preset--spacing--3);
+}
+.p-6 {
+  padding: var(--wp--preset--spacing--6);
+}
+.p-8 {
+  padding: var(--wp--preset--spacing--8);
+}
+.px-3 {
+  padding-inline: var(--wp--preset--spacing--3);
+}
+.px-8 {
+  padding-inline: var(--wp--preset--spacing--8);
+}
+.px-container-phone {
+  padding-inline: var(--wp--custom--container--gutter-phone);
+}
+.py-2 {
+  padding-block: var(--wp--preset--spacing--2);
+}
+.py-4 {
+  padding-block: var(--wp--preset--spacing--4);
+}
+.py-8 {
+  padding-block: var(--wp--preset--spacing--8);
+}
+.py-12 {
+  padding-block: var(--wp--preset--spacing--12);
+}
+.py-section-phone {
+  padding-block: var(--wp--custom--section-y--phone);
+}
+.pt-4 {
+  padding-top: var(--wp--preset--spacing--4);
+}
+.pb-section-phone {
+  padding-bottom: var(--wp--custom--section-y--phone);
+}
+.text-center {
+  text-align: center;
+}
+.font-\[inherit\] {
+  font-family: inherit;
+}
+.font-display {
+  font-family: var(--wp--preset--font-family--display);
+}
+.font-mono {
+  font-family: var(--wp--preset--font-family--mono);
+}
+.text-2xl {
+  font-size: var(--wp--preset--font-size--xxl);
+}
+.text-3xl {
+  font-size: var(--wp--preset--font-size--xxxl);
+}
+.text-lg {
+  font-size: var(--wp--preset--font-size--lg);
+}
+.text-sm {
+  font-size: var(--wp--preset--font-size--sm);
+}
+.text-xl {
+  font-size: var(--wp--preset--font-size--xl);
+}
+.text-xs {
+  font-size: var(--wp--preset--font-size--xs);
+}
+.leading-tight {
+  --tw-leading: var(--wp--custom--leading--tight);
+  line-height: var(--wp--custom--leading--tight);
+}
+.font-bold {
+  --tw-font-weight: 700;
+  font-weight: 700;
+}
+.tracking-display {
+  --tw-tracking: var(--wp--custom--tracking--display);
+  letter-spacing: var(--wp--custom--tracking--display);
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.text-accent-on {
+  color: var(--wp--preset--color--accent-on);
+}
+.text-bg {
+  color: var(--wp--preset--color--bg);
+}
+.text-fg {
+  color: var(--wp--preset--color--fg);
+}
+.text-fg-2 {
+  color: var(--wp--preset--color--fg-2);
+}
+.text-inherit {
+  color: inherit;
+}
+.text-muted {
+  color: var(--wp--preset--color--muted);
+}
+.opacity-80 {
+  opacity: 80%;
+}
+.opacity-85 {
+  opacity: 85%;
+}
+.opacity-90 {
+  opacity: 90%;
+}
+.shadow-\[0_0_0_2px_var\(--accent\)\,var\(--elev-raised\)\] {
+  --tw-shadow: 0 0 0 2px var(--tw-shadow-color, var(--wp--preset--color--accent)), var(--wp--custom--elev--raised);
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+.shadow-raised {
+  --tw-shadow: var(--wp--custom--elev--raised);
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+@media (width >= 40rem) {
+  .sm\:order-2 {
+    order: 2;
+  }
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:grid-cols-\[1fr_1\.2fr\] {
+    grid-template-columns: 1fr 1.2fr;
+  }
+  .sm\:px-container-tablet {
+    padding-inline: var(--wp--custom--container--gutter-tablet);
+  }
+  .sm\:py-section-tablet {
+    padding-block: var(--wp--custom--section-y--tablet);
+  }
+  .sm\:pb-section-tablet {
+    padding-bottom: var(--wp--custom--section-y--tablet);
+  }
+}
+@media (width >= 64rem) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lg\:px-container-desktop {
+    padding-inline: var(--wp--custom--container--gutter-desktop);
+  }
+  .lg\:py-section-desktop {
+    padding-block: var(--wp--custom--section-y--desktop);
+  }
+  .lg\:pb-section-desktop {
+    padding-bottom: var(--wp--custom--section-y--desktop);
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-tracking: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+    }
+  }
+}
+
+
+
+.tracy-grid > *,
+.tracy-hero__inner > * {
+  margin-block-start: 0;
+}
+
+.tracy-page__body > .tracy-section,
+.tracy-pricing-page__body > .tracy-section {
+  padding: 0;
+}
+
+.tracy-logos.wp-block-list,
+.tracy-plan__list.wp-block-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tracy-quote.wp-block-quote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: normal;
+}
+
+.tracy-quote cite {
+  display: block;
+  font-style: normal;
+  font-size: var(--wp--preset--font-size--sm);
+  color: var(--wp--preset--color--muted);
+}
+
+.tracy-faq__item summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--wp--preset--spacing--4);
+  font-family: var(--wp--preset--font-family--display);
+  font-size: var(--wp--preset--font-size--lg);
+  font-weight: 600;
+}
+
+.tracy-faq__item summary::-webkit-details-marker {
+  display: none;
+}
+
+.tracy-faq__item summary::after {
+  content: '+';
+  color: var(--wp--preset--color--accent);
+  font-family: var(--wp--preset--font-family--mono);
+}
+
+.tracy-faq__item[open] summary::after {
+  content: '–';
+}
+
+.tracy-plan__list li::before {
+  content: '✓ ';
+  color: var(--wp--preset--color--success);
+}
+
+.tracy-btn--inverse .wp-block-button__link,
+.tracy-btn--inverse.tracy-btn {
+  background: var(--wp--preset--color--accent-on);
+  color: var(--wp--preset--color--accent);
+  border-color: var(--wp--preset--color--accent-on);
+}
+
+.tracy-cta-final__box .tracy-btn--ghost .wp-block-button__link,
+.tracy-cta-final__box .tracy-btn--ghost {
+  color: inherit;
+  border-color: currentColor;
+  background: transparent;
+}
+
+.tracy-form {
+  display: grid;
+  gap: var(--wp--preset--spacing--4);
+  padding: var(--wp--preset--spacing--6);
+  background: var(--wp--preset--color--surface);
+  border: 1px solid var(--wp--preset--color--border-soft);
+  border-radius: var(--wp--custom--radius--lg);
+}
+
+.tracy-field {
+  display: grid;
+  gap: var(--wp--preset--spacing--1);
+}
+
+.tracy-field__label {
+  font-size: var(--wp--preset--font-size--sm);
+  color: var(--wp--preset--color--fg-2);
+}
+
+.tracy-field input,
+.tracy-field textarea,
+.tracy-field select {
+  font: inherit;
+  width: 100%;
+  padding: var(--wp--preset--spacing--3);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: var(--wp--custom--radius--md);
+  background: var(--wp--preset--color--bg);
+  color: var(--wp--preset--color--fg);
+}
+
+.tracy-field__input:focus-visible,
+.tracy-field :focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+.tracy-form .tracy-btn {
+  justify-self: start;
+}
+
+.tracy-form__note {
+  margin: 0;
+  font-size: var(--wp--preset--font-size--sm);
+}
+
+.tracy-form__note--ok {
+  color: var(--wp--preset--color--success);
+}
+
+.tracy-form__note--bad {
+  color: var(--wp--preset--color--danger);
+}
+
+.tracy-pagination__item.is-current {
+  background: var(--wp--preset--color--surface);
+  color: var(--wp--preset--color--fg);
+  font-weight: 600;
+}
+
+.tracy-entry__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tracy-entry__title a:hover {
+  color: var(--wp--preset--color--accent);
+}
+
+/* wp-ja-kinetic — the chrome the source theme has no rule for: the header's brand, menu and
+ * action groups, the mega menu panel, the theme toggle, the footer columns. Loaded after
+ * tracy.css and layout.css on every page kind but the design pages. Every colour, size and
+ * shadow is a WordPress variable of the active variation; there is no literal value here to go
+ * out of step with the dark set in theme.json.
+ *
+ * The measurements are the Joomla source's own: a sticky bar with a hairline bottom rule, the
+ * 1240px content container, the desktop row folding into the overlay menu below 992px, and the
+ * gutter dropping at 620px. */
+
+/* ---- web fonts: the source's own @import (css/template.css:20) pulls IBM Plex Sans (400/500/600),
+   JetBrains Mono (400/500/700) and Space Grotesk (400/500/600/700) from Google Fonts. The build
+   engine's generated theme.json can only carry a font-family STACK for the active variation
+   (settings.typography.fontFamilies is locked out of theme.overlay.json — an overlay setting it
+   would silently undo rootVariation, scripts/build.mjs:448-462); it never bundles a fontFace, so
+   without this block every family in that stack falls through to the system fallback that already
+   follows it. Google serves each of these three families as one variable-weight woff2, so bundling
+   is three files, self-hosted at assets/fonts/ (downloaded on the host — the stand's container has
+   no outbound network) and registered here as three @font-face rules under the same family names
+   the generated stack already asks for first, so no other sheet has to change. */
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-sans-variable.woff2') format('woff2');
+}
+
+/* JetBrains Mono is registered as the source registers it: Google's stylesheet declares one face
+   per requested weight (400, 500, 700), each a single fixed weight over the same variable file
+   (the latin subset, byte-identical to jetbrains-mono-variable.woff2). A computed 600 therefore
+   matches the 700 face and paints at wght 700 on the source (.hx-inc-time, .hx-prompt,
+   .hx-btn--ghost); a single `400 700` range face would paint a true 600 instead. */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../fonts/space-grotesk-variable.woff2') format('woff2');
+}
+
+/* The generated theme.json stack for each preset carries a system fallback tail
+   (`"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif`) — the build engine's own
+   default for every design system, and `settings.typography.fontFamilies` cannot be overridden
+   from this overlay (scripts/build.mjs:448-462, see the comment on the @font-face block above).
+   The source's own computed font-family carries no such tail: `body`/buttons resolve to the bare
+   family name, and only form controls add one literal fallback. Overriding the resolved custom
+   property here reaches every consumer of the preset (this sheet and every other) without
+   touching the generated file. */
+:root {
+  --wp--preset--font-family--display: 'Space Grotesk';
+  --wp--preset--font-family--body: 'IBM Plex Sans';
+  --wp--preset--font-family--mono: 'JetBrains Mono', monospace;
+}
+
+/* Source: body { -webkit-font-smoothing: antialiased } (css/template.css:19397-19405), inherited by
+   every element. WordPress leaves it at `auto`, which draws every glyph heavier on macOS. */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Source: every page but the error page loads the T4 settings sheet after template.css, whose
+   `body { font-family: var(--body-font-family) }` (media/t4/css/36.css:108-116, `IBM Plex Sans`)
+   leaves the bare family the :root override above reproduces. The error page
+   (body.body-error-page) loads no settings sheet, so template.css's own
+   `body { font-family: "IBM Plex Sans", system-ui, sans-serif }` (css/template.css:19397-19405) is
+   the one in effect there and every element that inherits from body carries that stack. */
+body.error404 {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+
+/* Source: the last heading rule in the cascade is the T4 settings sheet's
+   `h1, h2, h3, h4, h5, h6 { line-height: var(--heading-line-height) }` with
+   `--heading-line-height: 1.06` (media/t4/css/36.css:91 + :130, loaded after template.css, so it overrides
+   template.css's own h1 1.04 / h2 1.08 / h3-h4 1.3). theme.json's heading element carries the tight
+   leading 1.04 instead; this sheet loads after the global styles at the same element specificity,
+   and every heading a section styles itself keeps its own, more specific rule. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.06;
+}
+
+/* Source: the same T4 settings rule carries `letter-spacing: var(--heading-letter-spacing)` with
+   `--heading-letter-spacing: -1px` (media/t4/css/36.css:92 + :135; 33.css, 36-sub.css and 37.css say the
+   same), overriding template.css's h1 -1.5px / h2 -1px / h3 -0.5px / h4 -0.3px. theme.json's heading
+   element uses the display tracking token (-1.5px) instead; the token itself stays, since the brand
+   word and `.tracy-display` use it too. Headings a section styles itself keep their own rule. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -1px;
+}
+
+/* Source: css/template.css:204-208, verbatim — smooth in-page scrolling on the root, kept inside the
+   source's own reduced-motion guard. */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Source: media/t4/css/36.css:199-201, verbatim — the T4 settings sheet dims every primary button on
+   hover, site-wide. */
+.btn.btn-primary:hover {
+  opacity: 0.85;
+}
+
+/* Source: media/t4/css/36.css:214-216, verbatim — the same settings sheet dims every secondary
+   button on hover, site-wide. */
+.btn.btn-secondary:hover {
+  opacity: 0.85;
+}
+
+/* ---- header: three groups on one row. The bar sticks to the top of the viewport, as
+   .kinetic-header does in the source (position: sticky; top: 0), and the menu group is
+   stretched to the bar's full height so a mega panel hung from the bar's bottom edge starts
+   exactly where its trigger box ends. ---- */
+
+/* The source declares .kinetic-header (and its T4 wrapper, .t4-sticky) position: sticky; top: 0,
+   but measured live (light mode, 1440, /pages/login): scrolling the page 300px moves the header's
+   own top to -300, and 600px (past the page's max scroll) to -387 — it does not stay pinned, it
+   scrolls away with the page like a static element. No ancestor breaks the sticky containing block
+   (overflow, transform and contain are all their initial values up the whole chain to <body>), so
+   whatever keeps it from sticking lives outside this measured DOM/CSS; D-11 is to match what the
+   source actually does, so the header is not made sticky here either. `relative` (not `static`)
+   on purpose: it stays in normal flow exactly like `static` with no offset set, but it is still a
+   POSITIONED ancestor, and the full-width mega panel (.tracy-mega__panel, position: absolute;
+   top: 100%, not itself inside a .tracy-mega--compact) needs one — the header used to supply it
+   only as a side effect of being sticky; dropping straight to `static` broke hover-to-panel travel
+   (measured: mega-hover.mjs FAIL, gapPx 834, before this line read `relative`). */
+.tracy-header {
+  position: relative;
+  /* Source: z-index: 1030 on .kinetic-header (css/template.css:19947) — the literal number is
+     restated even though `relative` (see above) already keeps it off the sticky stacking order
+     the source's z-index was written for; no visible effect, kept for parity. */
+  z-index: 1030;
+  background: var(--wp--preset--color--bg);
+  border-bottom: 1px solid var(--wp--preset--color--border);
+}
+
+/* Source: .kinetic-header-inner { max-width: var(--content-max, 1240px); margin: 0 auto;
+   padding: 0 32px } (css/template.css:19958-19962) — the row's own box stops at the CONTENT
+   width, and the 32px gutter is inner padding on top of it, not folded into the box like a
+   section's container. Measured live: box x100 w1240 at 1440, content (padded) x132 — a section
+   container is wider by 2×gutter and centers gutter outside the content edge instead. */
+.tracy-header__inner,
+.tracy-footer__inner,
+.tracy-mega__inner {
+  max-width: var(--wp--custom--container--max);
+  padding-inline: var(--wp--custom--container--gutter-desktop);
+  margin-inline: auto;
+}
+
+/* 66px content height + the header's own 1px border-bottom = the source's own .kinetic-header-inner
+   (css/template.css:19958: height: 66px) — measured 67px total on the live source at 1440, light
+   mode, `.kinetic-header` (not the T4 landmark `#t4-header`, which carries no border of its own and
+   was the element an earlier pass compared against). */
+/* Same specificity note as `body .tracy-footer__columns` further down: `body .cls` (0,1,1) beats
+   the generated `.is-content-justification-*`/`.is-layout-flex` (0,1,0) regardless of stylesheet
+   order — restated here even though the value already matches the part's own block attrs, so the
+   row stays correct if that attribute is ever edited in the Site Editor. */
+/* `gap: normal` restated explicitly: core's own `:root :where(.is-layout-flex){gap:var(--wp--
+   preset--spacing--4)}` has near-zero specificity but is still non-zero, so leaving gap unset
+   here would let it apply a 16px gap the source's own two-item row (space-between already pushes
+   them to the row's ends) never carries. */
+body .tracy-header__inner {
+  min-height: 66px;
+  gap: normal;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* Source: .hx-left { display:flex; align-items:center; gap:38px } — the brand and the desktop
+   nav share ONE flex item (css/template.css:19967-19975), so `.tracy-header__inner`'s own
+   `space-between` above only ever has this and `.tracy-header__actions` to push apart. */
+.tracy-header__left {
+  align-items: center;
+  gap: 38px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* Source: .kinetic-logo { display:inline-flex; align-items:center; gap:10px }
+   (css/template.css:19897-19900). */
+.tracy-header__brand {
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.tracy-header__brand .tracy-logo {
+  display: block;
+  align-self: center;
+  line-height: 0;
+}
+
+.tracy-header__brand .tracy-logo svg {
+  display: block;
+  height: 26px;
+  width: 26px;
+}
+
+/* Source: .kinetic-logo-text { font: 700 19px/1 "Space Grotesk"; letter-spacing:-0.5px;
+   color: chrome-heading } (css/template.css:19903-19910) — not the display/lg preset pair
+   (600/-0.02em) this rule read before. The base theme's own `.tracy-brand, .tracy-brand a`
+   (src/wp-ja-kinetic/assets/css/tracy.css) sets `letter-spacing: var(--wp--custom--tracking--
+   display)` (-1.5px) directly on the nested `<a>` the Site Title block renders — one class
+   higher specificity (0,1,1) than a bare `.tracy-brand` (0,1,0), so it wins on that child even
+   though this rule already wins on the `.tracy-brand` element itself; measured live: the `<p
+   class="tracy-brand">`'s own letter-spacing read -0.5px correctly, but its `<a>` read -1.5px
+   and the logo box measured 7px narrower than the source's 61px. Repeating the selector one
+   level into the anchor closes that gap at the same specificity this rule already carries for
+   the wrapper. */
+.tracy-header__brand .tracy-brand,
+.tracy-header__brand .tracy-brand a {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: var(--chrome-heading);
+}
+
+/* Source: .kinetic-header .site-slogan { display: none !important } (css/template.css:20924-
+   20926) — the tagline exists in the source's own markup (the bloginfo it is seeded from is
+   real, `wp option get blogdescription` → "observability, reimagined") but the header itself
+   never shows it. Measured live before this rule: WordPress rendered it visibly next to the
+   wordmark; the source's own header never does. */
+.tracy-header__slogan {
+  display: none;
+}
+
+/* Source: .hx-desknav { display:flex; align-items:center }. */
+.tracy-header__menu {
+  align-self: center;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+/* The navigation block is the overlay (hamburger) menu only: `overlayMenu: always` in the part,
+   shown below the tablet width. The desktop row is .tracy-header__links — plain links and the
+   mega blocks in the source's order, every one a block of its own in the Site Editor. */
+.tracy-header__menu .tracy-nav {
+  align-self: center;
+  display: none;
+}
+
+.tracy-header__links {
+  align-items: stretch;
+  gap: var(--wp--preset--spacing--1);
+  flex-wrap: nowrap;
+}
+
+.tracy-header__link {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+/* Source: `.hx-desknav … .nav > li > a { font: 400 14px "IBM Plex Sans"; color: chrome-text;
+   padding: 8px 12px; border-radius: 8px; line-height: 1.2 }` (css/template.css:19993-20003);
+   hover and the active (current-page) item both paint `chrome-heading`, not the accent green —
+   `:hover` stays a colour change with no background, and only `.active` adds weight 500
+   (css/template.css:20005-20031). `aria-current="page"` is this theme's own stand-in for the
+   source's server-rendered `.active`/`.current` class (inc/extra.php). */
+.tracy-header__link a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--chrome-text);
+  text-decoration: none;
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+/* Source: `.hx-signin { font-size:14px; color:chrome-text }` — a bare Bootstrap-less link with
+   no padding, no flex box and no line-height override of its own, so it falls through to the
+   body's own leading (css/template.css capture: `.hx-signin` computed line-height 21.7px =
+   14px × the design's 1.55 body leading, `display:block`) — a plainer shape than the nav
+   links/mega triggers next to it, which is why this is its own rule rather than sharing theirs. */
+.tracy-header__signin a {
+  display: block;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: var(--wp--custom--leading--body);
+  color: var(--chrome-text);
+  text-decoration: none;
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy-header__link a:hover,
+.tracy-header__signin a:hover {
+  color: var(--chrome-heading);
+}
+
+.tracy-header__link a[aria-current='page'] {
+  color: var(--chrome-heading);
+  font-weight: 500;
+}
+
+.tracy-header__link a:focus-visible,
+.tracy-header__signin a:focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+/* Source: .hx-right { display:flex; align-items:center; gap:14px }, pushed to the row's far end
+   by `.tracy-header__inner`'s own `space-between` (two children only, see above). */
+.tracy-header__actions {
+  align-items: center;
+  gap: 14px;
+  flex: 0 0 auto;
+}
+
+.tracy-header__signin {
+  margin: 0;
+}
+
+/* Source: `.hx-right-links .hx-cta-pill, .hx-btn--primary { display:inline-flex; gap:7px;
+   background: primary; color: primary-ink; font-weight:600; font-size:14px; padding:9px 16px;
+   border-radius:8px; border:none }` (css/template.css:20164-20182) — a rounded rectangle, not
+   the design system's pill shape, and the arrow glyph is part of the button's own gap-7 row
+   (svg 15×15, parts/header.html). */
+.tracy-header__cta .wp-block-button__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  font-size: 14px;
+  /* Source: `.hx-cta-pill` computed `line-height: 14px` (line-height:1) — core's own button
+     style default (1.5) left the box 7px taller than the source's 33px. */
+  line-height: 1;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.tracy-header__cta .wp-block-button__link svg {
+  width: 15px;
+  height: 15px;
+  flex: none;
+}
+
+/* Keyboard focus: the same ring as the header's other controls (`.tracy-theme-toggle`); core's
+   button style removed the outline and nothing put a ring back, so a Tab onto it showed nothing. */
+.tracy-header__cta .wp-block-button__link:focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+/* ---- mega menu: EVERY panel — Home/Company's short list as well as Product/Pages' columns —
+   is an auto-width card hung under its own trigger (source: `.mega-dropdown-menu { width: auto
+   !important; min-width: 0 !important }`, css/template.css:20064-20067). There is no full-bleed
+   band variant in the source; `.tracy-mega--compact` used to be the only class styled that way,
+   which left the wider panels spanning the header instead of sizing to their columns. ---- */
+
+.tracy-mega {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Source's trigger (`.nav-link.dropdown-toggle`) sets no gap between the label and `.item-
+   caret`: both live flush against each other (measured live: caret's own left margin 0px, its
+   left edge lands exactly on the label span's right edge) — an inline-flex/button-only 4px gap
+   here widened the trigger box 4px past the source's 84px on every mega item. */
+.tracy-mega__trigger {
+  appearance: none;
+  background: none;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--chrome-text);
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+/* Source: hover paints `chrome-heading`; the open state carries no colour rule of its own
+   (css/template.css:20005-20031 has no `.show`/open selector), so the trigger only changes
+   colour on `:hover`/`:focus`, not merely because its panel is open. */
+.tracy-mega__trigger:hover {
+  color: var(--chrome-heading);
+}
+
+.tracy-mega__trigger[aria-current='page'] {
+  color: var(--chrome-heading);
+  font-weight: 500;
+}
+
+.tracy-mega__trigger:focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+/* Source: `.item-caret { display:flex; align-items:center; justify-content:center; height:22px;
+   width:22px 22px } ::before { border-top:4px solid; border-left/right:4px solid transparent }`
+   (css/template.css:16027-16038) — a solid downward triangle, not a rotated corner. */
+.tracy-mega__caret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+}
+
+.tracy-mega__caret::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid currentColor;
+}
+
+/* Source, dark: `html.t4-dark .kinetic-header .item-caret { color:#E6EAE8 !important }` and the same
+   on its ::before border (css/template.css:19935-19942); the ::before here draws in currentColor. */
+:root[data-theme="dark"] .tracy-mega__caret {
+  color: #E6EAE8 !important;
+}
+
+/* The panel: an auto-width card hung from the trigger's bottom edge, painted only while open.
+   The class is toggled by wp-ja-kinetic-mega.js; no :hover rule, so what opens it is one
+   contract. Source: `.mega-dropdown-menu { background:surface; border:1px solid border;
+   border-radius:14px; box-shadow: shadow; padding:0; margin-top:8px; position:absolute }`
+   + `.mega-dropdown-inner { padding:28px }` (css/template.css:20037-20050). */
+.tracy-mega__panel {
+  display: none;
+  position: absolute;
+  inset-inline-start: 0;
+  top: 100%;
+  z-index: 30;
+  margin-top: 8px;
+  width: auto;
+  min-width: 0;
+  background: var(--wp--preset--color--surface);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: 14px;
+  box-shadow: var(--wp--custom--elev--raised);
+  padding: 28px;
+  color: var(--wp--preset--color--fg);
+}
+
+.tracy-mega.is-open > .tracy-mega__panel {
+  display: block;
+}
+
+.tracy-mega__inner {
+  max-width: none;
+  padding-inline: 0;
+}
+
+/* Source: `.mega-dropdown-inner > .row { display:flex; flex-wrap:nowrap; gap:56px }`
+   (css/template.css:20068-20074) — columns sit side by side at their own content width, never
+   wrapping under the card. */
+/* `body .cls` specificity bump, same trap as the footer/header flex rows above: core's own
+   `.is-layout-flex{flex-wrap:wrap}` (unlayered, printed after this stylesheet) otherwise wins the
+   tie against a bare one-class rule. */
+body .tracy-mega__columns {
+  flex-wrap: nowrap;
+  gap: 56px;
+}
+
+.tracy-mega__columns > .wp-block-column {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+/* Source: `.mega-col-title { font:600 11px/1 "JetBrains Mono"; letter-spacing:1.5px;
+   text-transform:uppercase; color:chrome-muted; margin:0 0 16px }` (css/template.css:20081-20090). */
+.tracy-mega__title {
+  margin: 0 0 16px;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--chrome-muted);
+  white-space: nowrap;
+}
+
+/* Source: `.mega-nav { display:flex; flex-direction:column; gap:13px }` (css/template.css:20099-20106). */
+.tracy-mega__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.tracy-mega__links a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--chrome-text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy-mega__links a:hover {
+  color: var(--chrome-heading);
+}
+
+/* The panel's link to the page being read. The source gives the active item the same colour as a
+   hovered one and a heavier weight (css/template.css:20124-20137); inc/extra.php sets the mark. */
+.tracy-mega__links a[aria-current='page'] {
+  color: var(--chrome-heading);
+  font-weight: 500;
+}
+
+/* In the Site Editor the panel is always open and sits in the flow, so its columns can be edited. */
+.tracy-mega--editing > .tracy-mega__panel {
+  display: block;
+  position: static;
+  box-shadow: none;
+}
+
+/* ---- theme toggle: a bordered square button with a sun/moon SVG pair, one shown at a time —
+   the source's own pair, not an abstract filled/empty circle. Source: `.kinetic-theme-toggle {
+   width/height:36px; border:1px solid chrome-border; background:chrome-surface; radius:9px;
+   color:chrome-text } svg{16×16} .hx-sun{display:none} .hx-moon{display:block}`, flipped under
+   `[data-theme=dark]` (css/template.css:20209-20268). The root's own `data-theme` attribute
+   (wp-ja-kinetic-dark.js) stands in for the source's `html.t4-dark`/`[data-theme=dark]` hook. ---- */
+
+.tracy-theme-toggle {
+  appearance: none;
+  font: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--chrome-border);
+  border-radius: 9px;
+  background: var(--chrome-surface);
+  color: var(--chrome-text);
+  cursor: pointer;
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard),
+    border-color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy-theme-toggle:hover {
+  color: var(--chrome-heading);
+  border-color: var(--chrome-muted);
+}
+
+.tracy-theme-toggle:focus-visible {
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+.tracy-theme-toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tracy-theme-toggle .tracy-theme-toggle__sun {
+  display: none;
+}
+
+.tracy-theme-toggle .tracy-theme-toggle__moon {
+  display: block;
+}
+
+[data-theme='dark'] .tracy-theme-toggle .tracy-theme-toggle__moon {
+  display: none;
+}
+
+[data-theme='dark'] .tracy-theme-toggle .tracy-theme-toggle__sun {
+  display: block;
+}
+
+/* ---- mobile menu trigger + drawer: WordPress core's own Navigation block (overlayMenu:"always")
+   renders its own toggle button and overlay container; nothing here changes that markup, only
+   its paint. Source: `.t4-offcanvas-toggle { width/height:36px; border:1px solid chrome-border;
+   background:chrome-surface; radius:9px; color:chrome-heading }`, shown only under 992px
+   (css/template.css:20232-20289); the drawer itself: `.kinetic-offcanvas { width:min(100vw,400px);
+   background:chrome-surface; border-left:1px solid chrome-border }` (css/template.css:20296-20303),
+   docked to the right by the browser's own dialog/anchor behaviour core already provides. ---- */
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container-open {
+  display: flex;
+  font: inherit;
+  line-height: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--chrome-border);
+  border-radius: 9px;
+  background: var(--chrome-surface);
+  color: var(--chrome-heading);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container-open svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Touch targets: the source's 36px square is under the 40px a finger needs; phones get 40px. */
+@media (max-width: 767px) {
+  .tracy-theme-toggle,
+  .tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container-open,
+  footer .tracy-footer__social-tile {
+    width: 40px;
+    height: 40px;
+  }
+  /* footer links: a 40px box, the row pitch kept (30px box + 11px gap before) */
+  .tracy-footer__links a,
+  nav.tracy-footer__links .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    padding: 9px 0;
+  }
+  nav.tracy-footer__links .wp-block-navigation__container {
+    gap: 1px;
+  }
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open {
+  --wp--style--root--padding-top: 0px;
+  --wp--style--root--padding-right: 0px;
+  --wp--style--root--padding-bottom: 0px;
+  --wp--style--root--padding-left: 0px;
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: min(100vw, 400px);
+  max-width: min(100vw, 400px);
+  height: 100%;
+  background: var(--chrome-surface);
+  border-left: 1px solid var(--chrome-border);
+  box-shadow: -24px 0 60px rgba(16, 20, 15, 0.18);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+  padding: 18px 20px;
+}
+
+/* Each item card. Source: `.t4-off-canvas-body li > a { padding:13px 14px; border:1px solid
+   chrome-border; radius:10px; background:chrome-bg; font:500 16px "Space Grotesk";
+   color:chrome-heading }`, current item `color:chrome-primary; background:chrome-elevated`
+   (css/template.css:20366-20404). Core wraps every link in a `wp-block-navigation-item`; the
+   link itself carries the card, so the parity is one class down from the source's `<li>`. */
+.tracy-header__menu .tracy-nav .wp-block-navigation__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation-item {
+  width: 100%;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation-item__content,
+.tracy-header__menu .tracy-nav .wp-block-navigation-submenu__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 14px !important;
+  border: 1px solid var(--chrome-border);
+  border-radius: 10px;
+  background: var(--chrome-bg);
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--chrome-heading);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation-item__content[aria-current='page'],
+.tracy-header__menu .tracy-nav .wp-block-navigation-item.has-child:has(.wp-block-navigation__submenu-container [aria-current='page']) > .wp-block-navigation-item__content {
+  color: var(--chrome-primary);
+  background: var(--chrome-elevated);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__submenu-container {
+  position: static;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin: 8px 0 0;
+  padding-inline-start: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__submenu-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--chrome-muted);
+}
+
+/* C-18 drill: wp-ja-kinetic-drawer.js adds `.tracy-drill-open` to the one top-level item the
+   visitor drilled into (its own click tracking, not core's `aria-expanded` — core does not
+   enforce "one submenu open at a time" for click-opened items, and auto-expands the current
+   page's own parent on load, neither of which matches the source) — the source replaces the
+   whole top-level list with the open submenu's own items instead of expanding it in place
+   (css/template.css:20366-20404), so every sibling item, and the open item's own trigger row,
+   are hidden here; only its `.wp-block-navigation__submenu-container` (plus the back row
+   inc/extra.php injects as that list's first child) is left standing — and the sign-in link and
+   CTA, which the source keeps below the drilled panel (`.kinetic-oc-cta` sits outside its nav). */
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container[data-tracy-drill] .wp-block-navigation__container > li:where(:not(.tracy-nav__signin, .tracy-nav__cta)) {
+  display: none;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container[data-tracy-drill] .wp-block-navigation__container > li.tracy-drill-open {
+  display: block;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container[data-tracy-drill] .wp-block-navigation__container > li.tracy-drill-open > .wp-block-navigation-item__content,
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container[data-tracy-drill] .wp-block-navigation__container > li.tracy-drill-open > .wp-block-navigation-submenu__toggle {
+  display: none;
+}
+
+/* Core's own overlay rules outrank the drawer rules above on three points, so they are restated
+   here one step stronger (wp-includes/blocks/navigation/style.css, WordPress 7.1):
+   - `.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background-color:#fff }`
+     — five classes against four: the panel painted white, not chrome-surface; its sibling rule
+     `….is-menu-open:not(.disable-default-overlay) { color:#000 }` turned the close button black
+     (source: `.js-offcanvas-close { color: chrome-text }`, css/template.css:20327-20335);
+   - the overlay content and list take `align-items: var(--navigation-layout-justification-setting)`
+     and the list centres itself (`align-self: center`, measured), which shrinks every card to its text
+     (measured 113–200px) — the source's cards span the drawer;
+   - `….is-menu-open … .has-child .wp-block-navigation__submenu-container { visibility:visible; min-width:200px;
+     padding-left/right:2rem; … }` pre-expands every submenu — the source opens on the top level only and
+     shows a submenu once its parent is drilled (the drill rules above);
+   - `….is-menu-open:not(.disable-default-overlay) { padding: clamp(1rem, var(--wp--style--root--padding-*), 20rem) }`
+     pads the panel 16px on every side even with the root padding zeroed above — the source's head row
+     runs edge to edge and its list starts 20px in; and its `gap: inherit` on the list and on every
+     submenu list replaces the source's 8px between cards. */
+.tracy-header__menu .tracy-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
+  padding: 0;
+  background: var(--chrome-surface);
+  color: var(--chrome-text);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content,
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container,
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
+  align-items: stretch;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+  align-self: stretch;
+  gap: 8px;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open:not([data-tracy-drill]) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+  display: none;
+}
+
+/* Source: `.dropdown-menu.is-drilled { padding:0; margin:0; gap:8px }` (css/template.css:20861-20868) —
+   a drilled panel is flush with the drawer, not indented under its parent. */
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+/* Hover. Source: every drawer card `li > a:hover { border-color: chrome-muted }` (css/template.css:20386-20388);
+   a drilled row is a `.dropdown-item`, which T4's off-canvas rule also paints `background: transparent;
+   color: var(--body-link-hover-color)` = primary-hover (css/template.css:16618-16624). */
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container > li:not(.tracy-nav__signin):not(.tracy-nav__cta) > .wp-block-navigation-item__content:hover {
+  border-color: var(--chrome-muted);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container .wp-block-navigation-item__content:hover {
+  border-color: var(--chrome-muted);
+  background: transparent;
+  color: var(--primary-hover);
+}
+
+/* Source: `li.parent > a::after { content:"›"; font-size:18px; line-height:1; color:chrome-muted; flex:none }`
+   (css/template.css:20402-20418). Core hides its own submenu icon inside the overlay. */
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container > li.has-child > .wp-block-navigation-item__content::after {
+  content: '›';
+  flex: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--chrome-muted);
+}
+
+/* Head row, added by inc/extra.php (wp_ja_kinetic_drawer_head). Source: `.t4-off-canvas-header { display:flex;
+   align-items:center; justify-content:space-between; padding:18px 20px; border-bottom:1px solid chrome-border }`,
+   logo `gap:9px`, glyph 22px, name `700 17px "Space Grotesk"` chrome-heading with the logo's own `line-height:1;
+   letter-spacing:-0.5px`, close `font-size:22px; line-height:1; color:chrome-text` in a 32px round button
+   (css/template.css:19900-19915, 20304-20335; measured row 69px tall). Core's close button is absolutely
+   placed in the dialog; it is set onto this row, and its icon replaced by the source's own "×". */
+.tracy-header__menu .tracy-nav .tracy-nav__drawer-head {
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+  min-height: 32px;
+  padding: 18px 20px;
+  background: var(--chrome-surface);
+  border-bottom: 1px solid var(--chrome-border);
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__drawer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__drawer-logo svg {
+  display: block;
+  flex: none;
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__drawer-logo span {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: var(--chrome-heading);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-close {
+  top: 18px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--chrome-text);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-close svg {
+  display: none;
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-close::before {
+  content: '×';
+}
+
+/* Source: `.kinetic-drill-back { display:flex; align-items:center; gap:8px; width:100%; border:0;
+   border-bottom:1px solid chrome-border; border-radius:0; margin:0 0 6px; padding:2px 2px 12px;
+   font:600 15px "Space Grotesk"; color:chrome-heading; text-align:left }`, its arrow 18px chrome-primary
+   (css/template.css:20869-20899); line height measured 23.25px on the source (body 1.55). */
+.tracy-nav__drill-back {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 0 0 6px;
+  padding: 2px 2px 12px;
+  border: 0;
+  border-bottom: 1px solid var(--chrome-border);
+  border-radius: 0;
+  background: none;
+  appearance: none;
+  cursor: pointer;
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.55;
+  color: var(--chrome-heading);
+  text-align: left;
+}
+
+.tracy-nav__drill-back svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  color: var(--chrome-primary);
+}
+
+/* Source: `.kinetic-drill-sublabel { font:600 11px "JetBrains Mono"; letter-spacing:1.5px;
+   text-transform:uppercase; color:chrome-muted; padding:12px 2px 4px; margin:0 }`, first one
+   `padding-top:4px` (css/template.css:20900-20912). Added by assets/js/wp-ja-kinetic-drawer.js. */
+.tracy-header__menu .tracy-nav .tracy-nav__drill-sublabel {
+  margin: 0;
+  padding: 12px 2px 4px;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--chrome-muted);
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__drill-sublabel:first-of-type {
+  padding-top: 4px;
+}
+
+/* The two links appended after the real menu items (parts/header.html) stand in for the
+   drawer's own sign-in link + full-width "Start free" button below the source's divider:
+   `.kinetic-oc-cta { margin-top:18px; padding-top:18px; border-top:1px solid chrome-border }`, the two
+   links 12px apart (`.custom { gap:12px }`), sign-in `14px` chrome-text centred, CTA `padding:13px;
+   border-radius:9px; font-weight:600` (css/template.css:20446-20493, 20829-20842), its arrow 8px after
+   the label (measured). The list's own 8px gap is part of each distance below. */
+.tracy-header__menu .tracy-nav .wp-block-navigation__container > .tracy-nav__signin {
+  margin-top: 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--chrome-border);
+}
+
+.tracy-header__menu .tracy-nav .wp-block-navigation__container > .tracy-nav__cta {
+  margin-top: 4px;
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__signin > .wp-block-navigation-item__content {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  padding: 0 14px !important;
+  font-family: var(--wp--preset--font-family--body);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--chrome-text);
+  justify-content: center;
+}
+
+.tracy-header__menu .tracy-nav .tracy-nav__cta > .wp-block-navigation-item__content {
+  padding: 13px !important;
+  border: 0;
+  border-radius: 9px;
+  background: var(--primary);
+  color: var(--primary-ink);
+  font-family: var(--wp--preset--font-family--body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Source repeats the same header CTA markup (arrow svg included) inside the drawer
+   (`#acm-header-cta-228` appears twice, live capture): `<svg class="hx-cta-arrow" width="15" height="15"
+   viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12
+   12 19"/></svg>`. Core's navigation-link label is text only, so the same arrow is drawn as a mask. */
+.tracy-header__menu .tracy-nav .tracy-nav__cta > .wp-block-navigation-item__content::after {
+  content: '';
+  flex: none;
+  width: 15px;
+  height: 15px;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'/%3E%3Cpolyline points='12 5 19 12 12 19'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'/%3E%3Cpolyline points='12 5 19 12 12 19'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ---- footer: the four-column band, the dispatch band, then the legal strip — the three rows of
+   the source footer. The footer element itself has no padding or rule; each row carries its own. ---- */
+
+/* The source's whole footer — brand/link row, newsletter row, legal strip — is one element
+   (.kinetic-footer) painted in the design's "elevated" tint, not the page background; the row
+   borders inside it are hairlines, not colour changes. Measured light mode, live source:
+   .kinetic-footer background rgb(242,245,238) == --chrome-elevated (css/template.css:19330),
+   already bridged from this theme's own surface-warm preset (wp-ja-kinetic-sections.css:55). */
+/* Two stacked top lines, as the source draws them: its wrapper `div.t4-section.t4-footer`
+   (transparent, `border-top: 1px solid rgba(255,255,255,0.07)`, css/template.css:17499-17504) over
+   the page background, then `footer.kinetic-footer`'s own 1px hairline on the tinted footer. Here the
+   footer element takes the wrapper's line (its tint clipped off the border) and the first row, the
+   band, takes the hairline. */
+.tracy .tracy-footer {
+  padding-block: 0;
+  background: var(--chrome-elevated);
+  background-clip: padding-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.tracy .tracy-footer > .tracy-footer__band {
+  border-top: 1px solid var(--wp--preset--color--border);
+}
+
+/* Source: .kinetic-footer-inner { padding: 64px 32px 32px } — ONE box around every row (cols,
+   news band, legal strip): `.tracy-footer__inner` below already carries the horizontal half of
+   that (shared with the header/mega rule above); this is only the vertical half, scoped to the
+   footer's own inner so it never leaks onto the header/mega's use of the same class. The two
+   rows below carry their own top rhythm (margin-top 48px + padding-top) and no bottom padding of
+   their own — the 32px at the very end belongs to this box, not to the last row. */
+.tracy-footer__band .tracy-footer__inner {
+  padding-block: 64px 32px;
+}
+
+/* Source: .hx-foot-cols { display:grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap:40px }
+   (css/template.css:20519-20523) — overrides wp:columns' own flex layout; isStackedOnMobile:false
+   on the block (parts/footer.html) keeps core's forced mobile stack from fighting it below.
+   `body` in the selector: core's own generated layout CSS carries `body .is-layout-flex{display:
+   flex}` (specificity 0,1,1 — an element plus a class), which otherwise silently outranks a bare
+   `.tracy-footer__columns{display:grid}` (0,1,0) regardless of stylesheet load order — measured
+   live: `display` stayed `flex` and the grid-column span on the brand cell (below) then had
+   nothing to span, since flex-basis on that cell's own inline style (`style="flex-basis:34%"`,
+   from the block's {"width":"34%"} attribute) took over instead. */
+body .tracy-footer__columns {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 0;
+}
+
+/* .tracy-footer__lock is the wp:html anchor itself (glyph + "Kinetic" wordmark), not a wrapper
+   block — see parts/footer.html. Source: .hx-brand-lock { gap: 10px }, .hx-brand-word
+   { font: "Space Grotesk" 700 18px/1; color: chrome-heading }. */
+.tracy-footer__lock {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.tracy-footer__logo {
+  display: block;
+  height: 24px;
+  width: 24px;
+  flex: 0 0 auto;
+  color: var(--chrome-primary);
+}
+
+.tracy-footer__lock .tracy-brand {
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  /* Explicit, not left to inherit: the footer wordmark sits in the same `.tracy-brand` class as
+     the header's (parts/header.html, parts/footer.html), and only the header's own context rule
+     sets a negative tracking; this one has none in the source (`.hx-brand-word`,
+     css/template.css:20548-20554). */
+  letter-spacing: normal;
+  color: var(--chrome-heading);
+}
+
+/* Source: the brand column's copy is `.hx-social-label` (the ACM social module's own intro
+   text), not the generic `.hx-foot-brand p` fallback — `font:400 14px "IBM Plex Sans"; line-
+   height:1.6; letter-spacing:0; margin:14px 0 14px; max-width:280px` (css/template.css:20563-
+   20573). The generic rule a few lines below it carries a taller `18px` bottom margin for markup
+   shapes without the module wrapper; the running source's markup always has it, so `14px` is
+   what actually reaches the page. */
+.tracy-footer__blurb {
+  margin: 14px 0 14px;
+  max-width: 280px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.6;
+  color: var(--chrome-text);
+}
+
+/* Source: .hx-foot-col h3 { font: 400 11px/normal "JetBrains Mono"; letter-spacing:1.5px;
+   text-transform:uppercase; color:chrome-muted; margin:0 0 11px } (css/template.css:20621-20631)
+   — mono, not body; 400, not 600; 11px, not the xs preset (12.5px); chrome-muted, not the meta
+   preset; measured live 2026-09-22, this rule previously used the display/body stack at 600 with
+   the wrong colour token, which was part of the footer's own height overshoot. */
+.tracy-footer__title {
+  margin: 0 0 11px;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--chrome-muted);
+}
+
+/* Source: ul.menu { gap:11px } (css/template.css:20632-20638), not the spacing-3 preset (12px). */
+.tracy-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 11px;
+}
+
+/* Source's footer nav link colour is not the plain muted preset: `.kinetic-footer …li > a` paints
+   from `--chrome-text` (`#46514B`) and its `:hover` from `--chrome-heading` (`#10140F`) — the
+   chrome copy of the neutrals the header/footer stay on (wp-ja-kinetic-sections.css's bridge
+   `:root` block already declares both). Measured live 2026-09-22: this rule previously used
+   `--wp--preset--color--muted` (`#7C877F`), one step lighter than the source. */
+/* Source's own link is a Bootstrap `.nav-link` (`ul.nav.navbar-nav li > a`), which carries
+   `display:inline-block; padding:4px 0` from Bootstrap's own nav-link rule, not from anything
+   `.hx-foot-col`-specific — measured live: line-height 21.7px, but the anchor's own box is 30px
+   (21.7 + 2×4 padding). Missing here, the same text sat in an 18px box, ~22% of the 25px/1440 and
+   73px/390 footer-height shortfall this row traced to (verified: title font/colour/gap fixed
+   first, land closer, this closed the rest). */
+/* Source: `.hx-foot-col ul.menu li > a { font-weight:500 }`, current page `font-weight:700`
+   (css/template.css:20647-20670) — `aria-current` is this theme's stand-in for the source's
+   server-rendered `.active`/`.current` (inc/extra.php). */
+.tracy-footer__links a {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  padding: 4px 0;
+  font-size: var(--wp--preset--font-size--sm);
+  font-weight: 500;
+  color: var(--chrome-text);
+  text-decoration: none;
+}
+
+.tracy-footer__links a:hover {
+  color: var(--chrome-heading);
+}
+
+.tracy-footer__links a[aria-current='page'] {
+  font-weight: 700;
+}
+
+/* The three link columns are `core/navigation` blocks (D-40): the `nav` carries the column's
+   class, core's own list inside it takes the column's grid and gap instead of its flex layout,
+   and core's item box and link padding give way to the column link's own rule above. */
+nav.tracy-footer__links {
+  display: block;
+}
+nav.tracy-footer__links .wp-block-navigation__container {
+  display: grid;
+  gap: 11px;
+  margin: 0;
+  padding: 0;
+}
+nav.tracy-footer__links .wp-block-navigation-item {
+  display: block;
+}
+/* Core paints its link `inherit` with a doubled class (0,3,0); the column's colour needs one more. */
+nav.tracy-footer__links .wp-block-navigation-item__content.wp-block-navigation-item__content {
+  display: inline-block;
+  color: var(--chrome-text);
+}
+nav.tracy-footer__links .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--chrome-heading);
+}
+
+/* Source: .hx-social { gap: 10px }, tile { 34x34, border 1px chrome-border, radius 8px,
+   color chrome-text }, tile:hover { color chrome-heading, border-color chrome-muted }, svg 16x16. */
+.tracy-footer__social {
+  gap: 10px;
+  margin-top: var(--wp--preset--spacing--1);
+}
+
+.tracy-footer__social-tile {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--chrome-border);
+  border-radius: 8px;
+  color: var(--chrome-text);
+  text-decoration: none;
+  transition: color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard),
+    border-color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy-footer__social-tile:hover {
+  color: var(--chrome-heading);
+  border-color: var(--chrome-muted);
+}
+
+.tracy-footer__social-tile svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Source: .hx-foot-news-band { margin-top: 48px; border-top: 1px …; padding-top: 36px } — no
+   padding-bottom of its own. */
+.tracy-footer__news {
+  margin-top: var(--wp--preset--spacing--12);
+  border-top: 1px solid var(--wp--preset--color--border);
+  padding-top: 36px;
+}
+
+/* Source: .acym_module_form { display:flex; align-items:center; gap:10px; flex-wrap:wrap }
+   (css/template.css:13083-13088) — title/desc left, form right; both explicit here in case the
+   block's own layout class is ever absent from a cached render. */
+/* Same specificity note as the other flex rows in this file: core's own `body .is-layout-flex`
+   (0,1,1) beats a bare one-class rule (0,1,0). */
+body .tracy-footer__news-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Source: .acym_introtext { flex:1 1 auto; margin-right:auto; display:flex; flex-direction:column;
+   gap:5px } (css/template.css:13089-13095). */
+.tracy-footer__news-intro {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-right: auto;
+  gap: 5px;
+}
+
+/* Source: .hx-news-title { font:700 18px/1.2 "Space Grotesk"; letter-spacing:-1px;
+   color:chrome-heading } (css/template.css:20675-20682, letter-spacing measured live) — an `h3`,
+   so without an explicit value here it falls through to this theme's own global heading tracking
+   (`elements.heading` in theme.json, -1.5px), one step tighter than the source's own literal. */
+.tracy-footer__news-title {
+  margin: 0;
+  font-family: var(--wp--preset--font-family--display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: var(--chrome-heading);
+}
+
+/* Source: .hx-news-desc { font-size:14px; line-height:1.5; color:chrome-muted }
+   (css/template.css:20683-20689). */
+.tracy-footer__news-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--chrome-muted);
+}
+
+/* Source: .acym_form { flex:0 0 auto; margin:0 } wraps the AcyMailing block's own markup
+   (.acym_module > .acym_fulldiv > form > .acym_module_form > [.acym_form, .acysubbuttons]); with
+   the block's own intro-text slot empty (parts/footer.html), .acym_module_form here holds only
+   those two, so it reproduces the source's field+button row with no extra styling needed on it.
+   Rules below target the plugin's own class names 1:1 against css/template.css:13102-13188; the
+   plugin's own stylesheet is dequeued (inc/extra.php) so nothing else competes with them. */
+.tracy-footer__news-row .acym_module {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.tracy-footer__news-row .acym_module form {
+  margin: 0;
+}
+
+.tracy-footer__news-row .acym_module .acym_module_form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tracy-footer__news-row .acym_module .onefield {
+  margin: 0;
+}
+
+.tracy-footer__news-row .acym_module label {
+  display: block;
+  margin: 0;
+}
+
+/* The visible label span the plugin renders beside the input — hidden, same as the source, which
+   relies on the input's own placeholder instead (css/template.css:13113-13115). */
+.tracy-footer__news-row .acym_module .acym__users__creation__fields__title {
+  display: none;
+}
+
+.tracy-footer__news-row .acym_module input[type='email'],
+.tracy-footer__news-row .acym_module input[type='text'] {
+  width: 260px;
+  max-width: 100%;
+  background: var(--chrome-surface);
+  border: 1px solid var(--chrome-border);
+  border-radius: 9px;
+  padding: 13px 14px;
+  color: var(--chrome-heading);
+  font-family: var(--wp--preset--font-family--body);
+  font-size: 14px;
+  line-height: 1.2;
+  box-shadow: none;
+  transition: border-color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+/* The error layout's own field is taller than every other page's — measured live on the running
+   source's 404 page: `display:block` (elsewhere `inline-block`, the plain UA default) and
+   line-height 21.7px (14px × the design's 1.55 body leading, elsewhere 16.8px/1.2) — a distinct
+   literal error.css carries, the same shape as this template's footer column rhythm above. */
+body.error404 .tracy-footer__news-row .acym_module input[type='email'],
+body.error404 .tracy-footer__news-row .acym_module input[type='text'] {
+  display: block;
+  line-height: var(--wp--custom--leading--body);
+}
+
+.tracy-footer__news-row .acym_module input[type='email']::placeholder,
+.tracy-footer__news-row .acym_module input[type='text']::placeholder {
+  color: var(--chrome-muted);
+  opacity: 1;
+}
+
+.tracy-footer__news-row .acym_module input[type='email']:focus,
+.tracy-footer__news-row .acym_module input[type='email']:active,
+.tracy-footer__news-row .acym_module input[type='text']:focus,
+.tracy-footer__news-row .acym_module input[type='text']:active {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: none;
+}
+
+/* AcyMailing's own client-side check marks a failed field with `.acym_invalid_field` and shows
+   `.acym__field__error__block` (measured live on the stand: fill an invalid address, submit —
+   the plugin adds both). The source's own copy of this same module never toggles the message
+   visible (css/template.css:13200-13206 styles it, but nothing on the running page adds the
+   `__active` modifier that shows it) while its input still paints a red border on that state, so
+   the field itself carries the error and the text block stays hidden, matching source exactly. */
+.tracy-footer__news-row .acym_module input.acym_invalid_field {
+  background: color-mix(in srgb, var(--err) 12%, white);
+  border-color: rgb(157, 38, 29);
+}
+
+.tracy-footer__news-row .acym_module .acym__field__error__block {
+  display: none !important;
+}
+
+.tracy-footer__news-row .acym_module .acysubbuttons {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.tracy-footer__news-row .acym_module .acysubbuttons button.subbutton,
+.tracy-footer__news-row .acym_module .acysubbuttons input.subbutton {
+  background: var(--primary);
+  color: var(--primary-ink);
+  border: 1px solid transparent;
+  border-radius: 9px;
+  padding: 13px 34px;
+  /* The source also loads AcyMailing's module sheet (media/com_acym/css/module.min.css
+     `.acym_module_form input{max-width:90%}`), dequeued here: 90% of the 135px wrapper gives way to
+     this 130px floor, so the button paints 130px wide in a 135px slot (measured 2026-09-25, 1440). */
+  min-width: 130px;
+  max-width: 90%;
+  font-family: var(--wp--preset--font-family--body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background-color var(--wp--custom--motion--fast) var(--wp--custom--ease--standard);
+}
+
+.tracy-footer__news-row .acym_module .acysubbuttons button.subbutton:hover,
+.tracy-footer__news-row .acym_module .acysubbuttons button.subbutton:focus,
+.tracy-footer__news-row .acym_module .acysubbuttons input.subbutton:hover,
+.tracy-footer__news-row .acym_module .acysubbuttons input.subbutton:focus {
+  background: var(--primary-hover);
+  outline: none;
+  box-shadow: var(--wp--custom--focus-ring);
+}
+
+/* Source's `.hx-foot-bottom` is ONE element carrying both the row's rhythm AND its own flex row
+   in a single rule — `border-top:1px; margin-top:48px; padding-top:24px; display:flex;
+   align-items:center; justify-content:space-between; gap:14px` (css/template.css:20729-20738);
+   the final 32px of the whole footer comes from the shared `.tracy-footer__inner`'s own
+   padding-bottom (`.tracy-footer__band .tracy-footer__inner` above), not from this row. Split
+   here into `.tracy-footer__strip` (the outer box the parity tooling measures against the
+   source's single element) and `.tracy-footer__bottom` (its one child, copy + legal list) —
+   restating the same flex on both keeps the outer box's own computed style byte-identical to the
+   source's single-element shape while still flexing the two inner children. */
+.tracy-footer__strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: var(--wp--preset--spacing--12);
+  padding-top: 24px;
+  border-top: 1px solid var(--wp--preset--color--border);
+}
+
+/* Same specificity note as `body .tracy-footer__columns` and `body .tracy-header__inner` above:
+   the part's own block attrs ask core for flex/space-between, but the generated
+   `.is-layout-flex` class (0,1,0) loses to core's own `body .is-layout-flex{display:flex}`
+   (0,1,1) — measured live, this row painted `display:block` before this rule. */
+body .tracy-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+}
+
+/* Source: .hx-copy { font-size:13px; color:chrome-muted } (css/template.css:20747-20751) —
+   not the xs preset. */
+.tracy-footer__copy {
+  margin: 0;
+  font-size: 13px;
+  color: var(--chrome-muted);
+}
+
+/* Source: .hx-legal { display:flex; gap:22px } a { font-size:13px; color:chrome-muted }
+   (css/template.css:20752-20763). */
+.tracy-footer__legal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.tracy-footer__legal a {
+  font-size: 13px;
+  color: var(--chrome-muted);
+  text-decoration: none;
+}
+
+.tracy-footer__legal a:hover {
+  color: var(--chrome-text);
+}
+
+/* ---- back-to-top: a fixed pill, hidden until the page has scrolled, shown by
+   wp-ja-kinetic-back-to-top.js toggling `.tracy-top-away` on <body> — the theme's own name for
+   the source's `.top-away` (css/template.css:11440-11449, 17606-17629: `#back-to-top { display:
+   none; position:fixed; right:2rem; bottom:1rem; width/height:40px; border-radius:5px;
+   background: rgba(0,0,0,.5) } i { color:#fff }`, shown under `.top-away #back-to-top`). ---- */
+
+.tracy-back-to-top {
+  display: none;
+  position: fixed;
+  right: 2rem;
+  bottom: 1rem;
+  z-index: 40;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.tracy-back-to-top svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tracy-back-to-top:hover,
+.tracy-back-to-top:focus,
+.tracy-back-to-top:active {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+body.tracy-top-away .tracy-back-to-top {
+  display: flex;
+}
+
+/* ---- small screens: the source drops its desktop row and its right-hand links at 992px and
+   shows the drawer button in their place; the bar is 60px tall from there down. ---- */
+
+@media (max-width: 991px) {
+  /* `body .cls`: the same specificity trap flagged throughout this file — the desktop
+     `body .tracy-header__inner { min-height: 66px }` rule above (0,1,1) otherwise keeps winning
+     under 992px against a bare `.tracy-header__inner{min-height:60px}` (0,1,0) regardless of
+     cascade order, since @media does not add specificity. Measured live before this line carried
+     `body`: the row stayed 66px tall below 992px (source is 60px there), which cascaded into
+     every centred item (logo, toggle, hamburger) sitting 3px lower than the source. */
+  body .tracy-header__inner {
+    min-height: 60px;
+    /* Below 992px the row's only sibling pair left in normal flow is the toggle group and the
+       hamburger (brand's own gap to them is swallowed by `.tracy-header__actions`'s own
+       `margin-inline-start: auto` below) — source's own `.hx-right` measured live at this width:
+       toggle box 36 wide, hamburger box 36 wide, group box 82 wide, so the gap between the two
+       is 10px, not the desktop row's 14px this rule read before. */
+    gap: 10px;
+  }
+
+  /* Source's .hx-left only exists to carry the desktop row's own 38px gap (css/template.css
+     19967-19975); it has no rule of its own below 992px, where the desktop row it groups is
+     hidden anyway. `display: contents` drops the wrapper from the box tree so `.tracy-header__menu`
+     (now carrying only the hamburger) becomes a direct flex item of `.tracy-header__inner` again,
+     where `order` below can put it next to the toggle. `body .cls`: same specificity trap as
+     every other flex/display rule in this file — a bare `.tracy-header__left{display:contents}`
+     lost outright to core's own `body .is-layout-flex{display:flex}`. */
+  body .tracy-header__left {
+    display: contents;
+  }
+
+  /* The bar itself only ever carries the logo, the theme toggle and the hamburger below 992px —
+     "Start free" moves into the drawer only (`.kinetic-oc-cta`, css/template.css:20456-20486);
+     `.hx-right-links` (sign-in + CTA together) is hidden whole (css/template.css:20274-20276).
+     `.tracy-header__cta` and `.tracy-header__links` both carry core's own `.is-layout-flex`
+     (their block attrs ask for a flex layout); `body .is-layout-flex{display:flex}` (0,1,1) then
+     outranks a bare `.cls{display:none}` (0,1,0) — same specificity trap as
+     `body .tracy-footer__columns` below, same fix. */
+  body .tracy-header__menu .tracy-header__links,
+  body .tracy-header__cta,
+  .tracy-header__signin,
+  .tracy-header__slogan {
+    display: none;
+  }
+
+  .tracy-header__menu .tracy-nav {
+    display: block;
+  }
+
+  .tracy-header__menu {
+    flex: 0 0 auto;
+    order: 3;
+  }
+
+  /* Below 992px the row is only ever logo … toggle, hamburger — two items, not three, so
+     `justify-content: space-between` (desktop's own two-item row) would float the toggle at the
+     row's exact midpoint instead of flush against the hamburger. `margin-inline-start: auto` on
+     the toggle group does the same job space-between did on desktop — push everything from here
+     on to the row's end; the container's own 10px `gap` (above) then keeps the toggle and
+     hamburger apart by exactly that much, matching the source's `.hx-right` box at this width.
+     `.tracy-header__inner .cls`: core's own block-supports stylesheet carries `.is-layout-flex >
+     :is(*, div) { margin: 0 }` (specificity 0,1,1, printed inline in <head>), which otherwise
+     keeps `margin-inline-start` at 0 against a bare `.tracy-header__actions` (0,1,0) regardless
+     of load order. Measured live before this line carried the extra ancestor: computed
+     `margin-left` stayed `0px`, so `justify-content: space-between` (still active, unset below
+     992px) spread the row's now-THREE flex items (logo, toggle group, hamburger) evenly instead
+     of packing the last two flush at the end like the source's own two-item
+     `.hx-left`/`.hx-right` row. */
+  .tracy-header__inner .tracy-header__actions {
+    order: 2;
+    margin-inline-start: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .tracy-header__inner,
+  .tracy-footer__inner,
+  .tracy-mega__inner {
+    padding-inline: var(--wp--custom--container--gutter-phone);
+  }
+
+  .tracy-header__inner {
+    gap: var(--wp--preset--spacing--2);
+  }
+
+  .tracy-header__cta .wp-block-button__link {
+    padding: var(--wp--preset--spacing--2) var(--wp--preset--spacing--4);
+  }
+}
+
+/* Source's own breakpoint for the newsletter row, distinct from the 620px above
+   (css/template.css:13227-13244): the row stacks and the field/button both go full width. */
+/* Source: css/template.css:20768-20776. Same `body` specificity note as the base rule above. */
+@media (max-width: 880px) {
+  body .tracy-footer__columns {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px 20px;
+  }
+
+  .tracy-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  /* Source: .kinetic-footer-inner { padding: 40px 20px 28px } (css/template.css:20777-20780) —
+     one box, same as the desktop 64/32 rule above; only this breakpoint changes it (there is no
+     separate 991px-tablet value in the source to step through first). */
+  .tracy-footer__band .tracy-footer__inner {
+    padding-block: 40px 28px;
+  }
+
+  .tracy-footer__news-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tracy-footer__news-intro {
+    margin-right: 0;
+  }
+
+  .tracy-footer__news-row .acym_module {
+    width: 100%;
+  }
+
+  /* Without this, the input's own width:100% below resolves against .acym_form's content-based
+     size (flex: 0 0 auto, set outside this query) instead of the row's full width, and shrinks to
+     the browser's default text-input size. Source: .acym_form { width: 100% } at the same
+     breakpoint (css/template.css:13235-13236). */
+  .tracy-footer__news-row .acym_module .acym_form {
+    width: 100%;
+  }
+
+  .tracy-footer__news-row .acym_module input[type='email'],
+  .tracy-footer__news-row .acym_module input[type='text'] {
+    width: 100%;
+  }
+
+  /* The button's own `width` (below) resolves against `.acysubbuttons`'s content-based
+     flex-basis (`flex: 0 0 auto`, set outside this query) unless the wrapper itself is stretched
+     too — the same "child's 100% needs a 100% parent" gap `.acym_form` above already carries a
+     rule for. Measured live before this line: the button stayed content-width (135px) at 390
+     instead of the source's own full-width wrapper. */
+  .tracy-footer__news-row .acym_module .acysubbuttons {
+    width: 100%;
+  }
+
+  /* Source's own button does not go edge-to-edge with its wrapper even once the wrapper itself
+     is full width — measured live at 390: `.acysubbuttons` box 350px, `.subbutton` box 315px, a
+     fixed 35px gap on the trailing edge that holds at every width in this query's range
+     (css/template.css:13227-13244 stacks the row but does not literally set the button to
+     `width:100%`). */
+  .tracy-footer__news-row .acym_module .acysubbuttons button.subbutton,
+  .tracy-footer__news-row .acym_module .acysubbuttons input.subbutton {
+    width: calc(100% - 35px);
+  }
+}
+
+/* ---- 404 footer newsletter (D-47): the source's error.php types its own form here
+   (`form.hx-news-form`, error.php:386-389, css/template.css:20690-20729) that never submits; this
+   page keeps the working AcyMailing block and draws it in that form's boxes: a 260px field and a
+   content-width button (`padding:13px 22px`, no border, the band's line height — Bootstrap's reboot
+   gives buttons `line-height:inherit` there) side by side; under
+   560px the band stacks with a 24px gap and the form keeps its own shrink-to-fit width. ---- */
+.error404 .tracy-footer__news-row .acym_module .acysubbuttons button.subbutton,
+.error404 .tracy-footer__news-row .acym_module .acysubbuttons input.subbutton {
+  width: auto;
+  min-width: 0;
+  max-width: none;
+  padding: 13px 22px;
+  border: 0;
+  line-height: inherit;
+}
+
+@media (max-width: 560px) {
+  .error404 .tracy-footer__news-row {
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .error404 .tracy-footer__news-row .acym_module,
+  .error404 .tracy-footer__news-row .acym_module .acysubbuttons {
+    width: auto;
+  }
+}
+
+/* ---- 404: the source's own dedicated error layout (css/error.css), not the page chrome's
+   generic notice — templates/404.html. Every value below is that stylesheet's own literal,
+   ported 1:1 (light mode has no dark override in it to bridge). ---- */
+
+/* Source: body.body-error-page { min-height:100vh; display:flex; flex-direction:column }
+   (error.css:15-22) — belt-and-suspenders alongside whatever sticky-footer rule `tracy` already
+   carries on `body`, scoped to the one template that needs it. */
+body.error404 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The source's own error-layout header omits the arrow icon inside "Start free" — measured live
+   on the running source's 404 page: `<a class="hx-cta-pill" href="…">Start free</a>`, no `<svg>`,
+   22px narrower than the same button elsewhere (116px there, 94px here), which the header's
+   own `justify-content: space-between` row then carries into the sign-in link sitting 22px
+   further right too. Every other template keeps the icon (parts/header.html). */
+body.error404 .tracy-header__cta .wp-block-button__link svg {
+  display: none;
+}
+
+/* The error layout's own footer column rhythm is looser than every other page's — measured live
+   on the running source's 404 page: `.hx-foot-col h3` line-height 14.3px (11px × 1.3, a literal
+   this one layout uses, not the theme's shared body/tight leading tokens) and `.hx-foot-col li >
+   a` padding 8px 0 (double the 4px every other footer carries) — templates/404.html's own
+   `.tracy-404-footer` class scopes both to this one template. */
+.tracy-404-footer .tracy-footer__title {
+  line-height: 1.3;
+}
+
+/* error.php does not load the per-page rule that tightens the dispatch heading to -1px; its
+   `h3.hx-news-title` falls back to the template's h3 letter-spacing, -0.5px (measured on the running
+   source's 404, 1440 and 390). */
+.tracy-404-footer .tracy-footer__news-title {
+  letter-spacing: -0.5px;
+}
+
+.tracy-404-footer .tracy-footer__links a {
+  padding: 8px 0;
+  /* Unlike every other footer, the error layout's own link carries no `position:relative` of its
+     own (measured live: `static`/`auto`) — the opposite of the generic footer rule above. */
+  position: static;
+  top: auto;
+}
+
+/* Source error.css §2: Error body centred section (flex:1 → fills space between nav/footer) */
+.hx-error-body {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 32px;
+  background: var(--bg);
+}
+
+/* Source error.css §3: Inner wrapper */
+.hx-error-inner {
+  max-width: 760px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Source error.css §4: Eyebrow */
+.hx-error-eyebrow {
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: var(--primary);
+  margin: 0 0 28px;
+  text-transform: uppercase;
+}
+
+/* Source error.css §5: Big 404 */
+.hx-error-code {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -4px;
+  color: var(--heading);
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+/* Source error.css §6: H1 */
+.hx-error-h1 {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: var(--heading);
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+/* Source error.css §7: Subhead */
+.hx-error-sub {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 440px;
+  margin: 0;
+}
+
+/* Source error.css §8: Button row */
+.hx-error-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 28px;
+}
+
+/* Primary CTA — larger pad + r9 + 14.5px to match .pen, inherits bg/color from .hx-btn--primary */
+.hx-error-btns .hx-btn--error-p {
+  font-size: 14.5px;
+  padding: 13px 22px;
+  border-radius: 9px;
+  gap: 8px;
+}
+
+/* Secondary / "surface" button — solid surface bg (NOT transparent ghost). The source loads
+   error.css after template.css, so its bare `.hx-btn--error-s` beats `.hx-btn`; here the shared
+   `.hx-btn` rule (wp-ja-kinetic-sections.css) loads after this sheet, so the row scope restores
+   that win (measured: padding 11px 18px / transparent border without it). */
+.hx-error-btns .hx-btn--error-s {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 12px 20px;
+  border-radius: 9px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--heading);
+  text-decoration: none;
+  transition: 0.15s;
+}
+.hx-error-btns .hx-btn--error-s:hover {
+  background: var(--elevated);
+  color: var(--heading);
+  text-decoration: none;
+}
+
+/* The inner group is a flow-layout block, whose `> *` gap rule gives both literal rows a 16px
+   top margin (measured); the source's two divs carry the UA default 0. */
+.hx-error-btns,
+.hx-error-quick {
+  margin: 0;
+}
+
+/* Source error.css §9: Quick links row */
+.hx-error-quick {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  padding-top: 32px;
+}
+.hx-error-quick a {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.hx-error-quick a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* Source error.css §10: Mobile (max 767.98px) */
+@media (max-width: 767.98px) {
+  .hx-error-body {
+    padding: 64px 24px 72px;
+  }
+  .hx-error-code {
+    font-size: 96px;
+    letter-spacing: -3px;
+  }
+  .hx-error-h1 {
+    font-size: 25px;
+    line-height: 1.15;
+  }
+  .hx-error-sub {
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .hx-error-btns {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .hx-error-btns .hx-btn--error-p,
+  .hx-btn--error-s {
+    width: 100%;
+    justify-content: center;
+  }
+  .hx-error-quick {
+    gap: 14px;
+  }
+}
+
+/* Phones, after the drawer's own rules: its close button at 40px, and its group labels at the
+   12px floor (the source's 11px). */
+@media (max-width: 767px) {
+  .tracy-header__menu .tracy-nav .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-close {
+    width: 40px;
+    height: 40px;
+  }
+  .tracy-header__menu .tracy-nav .tracy-nav__drill-sublabel {
+    font-size: 12px;
+  }
+  .tracy-header__menu .tracy-nav .tracy-nav__signin > .wp-block-navigation-item__content {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  /* the brand links: a 40px target around the 26px mark and the 19px wordmark, same look */
+  .tracy-header__brand .tracy-logo {
+    padding: 7px;
+    margin: -7px;
+  }
+  .tracy-header__brand .tracy-brand a,
+  .tracy-footer__lock {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+  }
+}
+
+/* Phones: the 12px text floor (RSP-01). The source sets its mono labels at 10-11.5px; on a phone every one of
+   them is raised to 12px. Generated from this file's own rules: keep it last, and regenerate it
+   when a label size changes. */
+@media (max-width: 767px) {
+  .tracy-mega__title,
+  .tracy-header__menu .tracy-nav .tracy-nav__drill-sublabel,
+  .tracy-footer__title {
+    font-size: 12px;
+  }
+}

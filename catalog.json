@@ -1,8 +1,54 @@
 {
   "schemaVersion": "tracy-community-inspirations/v1",
-  "count": 83,
-  "updatedAt": "2026-09-08T08:44:18.999Z",
+  "count": 85,
+  "updatedAt": "2026-09-30T15:57:53.214Z",
   "systems": [
+    {
+      "id": "brand:kineticakemi.tracy.site",
+      "name": "Kinetic",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "kineticakemi.tracy.site",
+      "url": "https://kineticakemi.tracy.site/",
+      "extractedAt": "2026-09-30T15:57:53.214Z",
+      "pages": false,
+      "counts": {
+        "colors": 22,
+        "fonts": 3,
+        "logos": 1,
+        "imagery": 7,
+        "fonts_files": 4,
+        "headings": 23,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
+    {
+      "id": "brand:angelclothes.tracy.site",
+      "name": "Home",
+      "category": "Community",
+      "vi": false,
+      "nav": "top-left",
+      "hero": "centered",
+      "dark": true,
+      "host": "angelclothes.tracy.site",
+      "url": "https://angelclothes.tracy.site/",
+      "extractedAt": "2026-09-18T02:36:37.327Z",
+      "pages": false,
+      "counts": {
+        "colors": 22,
+        "fonts": 4,
+        "logos": 4,
+        "imagery": 0,
+        "fonts_files": 4,
+        "headings": 3,
+        "engineFiles": 19,
+        "slots": 151
+      }
+    },
     {
       "id": "brand:tracy.ai",
       "name": "Tracy",

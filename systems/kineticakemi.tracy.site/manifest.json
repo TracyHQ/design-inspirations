@@ -1,0 +1,32 @@
+{
+  "id": "brand:kineticakemi.tracy.site",
+  "host": "kineticakemi.tracy.site",
+  "kind": "reference",
+  "slug": "kinetic",
+  "name": "Kinetic",
+  "category": "Reference",
+  "description": "Kinetic is observability, reimagined: logs, metrics and traces in one pipeline, with fast queries and alerting your on-call rotation deserves.",
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://kineticakemi.tracy.site/",
+    "finalUrl": "https://kineticakemi.tracy.site/",
+    "extractedAt": "2026-09-30T15:57:53.214Z",
+    "thin": false,
+    "blocked": false
+  },
+  "refined": [
+    "name: \"Kinetic — Observability, reimagined\" → \"Kinetic\" (from the shortest title segment)",
+    "fonts: 4 faces self-hosted from Google Fonts (IBM Plex Sans)"
+  ],
+  "counts": {
+    "colors": 22,
+    "fonts": 3,
+    "logos": 1,
+    "imagery": 7,
+    "fonts_files": 4,
+    "headings": 23,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}

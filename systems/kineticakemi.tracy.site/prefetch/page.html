@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en-US" data-style="terminal" data-theme-default="dark">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<meta name="description" content="Kinetic is observability, reimagined: logs, metrics and traces in one pipeline, with fast queries and alerting your on-call rotation deserves.">
+<title>Kinetic — Observability, reimagined</title>
+<link rel='dns-prefetch' href='//kineticakemi.tracy.site' />
+<link rel="alternate" type="application/rss+xml" title="Kinetic &raquo; Feed" href="https://kineticakemi.tracy.site/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kinetic &raquo; Comments Feed" href="https://kineticakemi.tracy.site/comments/feed/" />
+<link rel="icon" href="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/favicon.png" type="image/png">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kineticakemi.tracy.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkineticakemi.tracy.site%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kineticakemi.tracy.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkineticakemi.tracy.site%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='acy_front_messages_css-css' href='https://kineticakemi.tracy.site/wp-content/plugins/acymailing/media/css/front/messages.min.css?v=1790762608&#038;ver=11.0.5' media='all' />
+<style id="wp-block-site-title-inline-css">
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/site-title/style.min.css */
+</style>
+<style id="wp-block-site-tagline-inline-css">
+.wp-block-site-tagline{box-sizing:border-box}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/site-tagline/style.min.css */
+</style>
+<style id="wp-block-group-inline-css">
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/group/style.min.css */
+</style>
+<style id="wp-block-navigation-link-inline-css">
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{outline:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/navigation-link/style.min.css */
+</style>
+<link rel='stylesheet' id='wp-block-navigation-css' href='https://kineticakemi.tracy.site/wp-includes/blocks/navigation/style.min.css?ver=7.1.2' media='all' />
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-columns-inline-css">
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-button-inline-css">
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button[class*=wp-block-button__width]{width:calc(var(--wp--block-button--width)*1% - var(--wp--style--block-gap, .5em)*(1 - var(--wp--block-button--width)/100))}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button[class*=wp-block-button__width]{width:calc(var(--wp--block-button--width)*1%)}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:transparent;background-image:none}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/button/style.min.css */
+</style>
+<style id="wp-block-buttons-inline-css">
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/buttons/style.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:rgba(90,90,90,.25);border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto rgba(90,90,90,.25);outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:rgba(90,90,90,.25);border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-post-content-inline-css">
+.wp-block-post-content{display:flow-root}
+/*# sourceURL=https://kineticakemi.tracy.site/wp-includes/blocks/post-content/style.min.css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--bg: #FBFCFA;--wp--preset--color--surface: #FFFFFF;--wp--preset--color--surface-warm: #F2F5EE;--wp--preset--color--fg: #46514B;--wp--preset--color--fg-2: #10140F;--wp--preset--color--muted: #7C877F;--wp--preset--color--meta: #7C877F;--wp--preset--color--border: #E4E8E0;--wp--preset--color--border-soft: #E4E8E0;--wp--preset--color--accent: #4D7C0F;--wp--preset--color--accent-on: #FFFFFF;--wp--preset--color--accent-hover: #3F6A0A;--wp--preset--color--accent-active: #3F6A0A;--wp--preset--color--success: #30A46C;--wp--preset--color--warn: #F5A623;--wp--preset--color--danger: #E5484D;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--xs: 12.5px;--wp--preset--font-size--sm: 14px;--wp--preset--font-size--base: 16px;--wp--preset--font-size--lg: 19px;--wp--preset--font-size--xl: 23px;--wp--preset--font-size--xxl: 28px;--wp--preset--font-size--xxxl: 38px;--wp--preset--font-size--xxxxl: 52px;--wp--preset--font-family--display: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;--wp--preset--font-family--body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;--wp--preset--font-family--mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--1: 4px;--wp--preset--spacing--2: 8px;--wp--preset--spacing--3: 12px;--wp--preset--spacing--4: 16px;--wp--preset--spacing--5: 20px;--wp--preset--spacing--6: 24px;--wp--preset--spacing--8: 32px;--wp--preset--spacing--12: 48px;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);--wp--custom--leading--body: 1.55;--wp--custom--leading--tight: 1.04;--wp--custom--tracking--display: -1.5px;--wp--custom--section-y--desktop: 80px;--wp--custom--section-y--tablet: 56px;--wp--custom--section-y--phone: 56px;--wp--custom--radius--sm: 8px;--wp--custom--radius--md: 12px;--wp--custom--radius--lg: 16px;--wp--custom--radius--pill: 100px;--wp--custom--elev--flat: none;--wp--custom--elev--ring: 0 0 0 3px rgba(77, 124, 15, .25);--wp--custom--elev--raised: 0 18px 44px -20px rgba(20, 30, 15, .2);--wp--custom--focus-ring: 0 0 0 3px rgba(77, 124, 15, .25);--wp--custom--motion--fast: 0.15s;--wp--custom--motion--base: 0.2s;--wp--custom--ease--standard: ease;--wp--custom--container--max: 1240px;--wp--custom--container--gutter-desktop: 32px;--wp--custom--container--gutter-tablet: 32px;--wp--custom--container--gutter-phone: 20px;--wp--custom--tracy--inspiration: ja-kinetic;}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 1240px;--wp--style--global--wide-size: 1240px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--wp--preset--spacing--4); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: var(--wp--preset--spacing--4); }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--4);margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--4);margin-block-end: 0;}:root :where(.is-layout-flex){gap: var(--wp--preset--spacing--4);}:root :where(.is-layout-grid){gap: var(--wp--preset--spacing--4);}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--bg);color: var(--wp--preset--color--fg);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--base);line-height: var(--wp--custom--leading--body);padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--fg);}:root :where(a:where(:not(.wp-element-button)):hover){color: var(--wp--preset--color--accent);}h1, h2, h3, h4, h5, h6{color: var(--wp--preset--color--fg);font-family: var(--wp--preset--font-family--display);letter-spacing: var(--wp--custom--tracking--display);line-height: var(--wp--custom--leading--tight);}h1{font-size: var(--wp--preset--font-size--xxxl);}h2{font-size: var(--wp--preset--font-size--xxl);}h3{font-size: var(--wp--preset--font-size--xl);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--accent);border-radius: var(--wp--custom--radius--md);border-width: 0;color: var(--wp--preset--color--accent-on);font-family: inherit;font-size: inherit;font-style: inherit;font-weight: 600;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--accent-hover);color: var(--wp--preset--color--accent-on);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-color{color: var(--wp--preset--color--bg) !important;}.has-surface-color{color: var(--wp--preset--color--surface) !important;}.has-surface-warm-color{color: var(--wp--preset--color--surface-warm) !important;}.has-fg-color{color: var(--wp--preset--color--fg) !important;}.has-fg-2-color{color: var(--wp--preset--color--fg-2) !important;}.has-muted-color{color: var(--wp--preset--color--muted) !important;}.has-meta-color{color: var(--wp--preset--color--meta) !important;}.has-border-color{color: var(--wp--preset--color--border) !important;}.has-border-soft-color{color: var(--wp--preset--color--border-soft) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-accent-on-color{color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-color{color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-color{color: var(--wp--preset--color--accent-active) !important;}.has-success-color{color: var(--wp--preset--color--success) !important;}.has-warn-color{color: var(--wp--preset--color--warn) !important;}.has-danger-color{color: var(--wp--preset--color--danger) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-background-color{background-color: var(--wp--preset--color--bg) !important;}.has-surface-background-color{background-color: var(--wp--preset--color--surface) !important;}.has-surface-warm-background-color{background-color: var(--wp--preset--color--surface-warm) !important;}.has-fg-background-color{background-color: var(--wp--preset--color--fg) !important;}.has-fg-2-background-color{background-color: var(--wp--preset--color--fg-2) !important;}.has-muted-background-color{background-color: var(--wp--preset--color--muted) !important;}.has-meta-background-color{background-color: var(--wp--preset--color--meta) !important;}.has-border-background-color{background-color: var(--wp--preset--color--border) !important;}.has-border-soft-background-color{background-color: var(--wp--preset--color--border-soft) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-accent-on-background-color{background-color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-background-color{background-color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-background-color{background-color: var(--wp--preset--color--accent-active) !important;}.has-success-background-color{background-color: var(--wp--preset--color--success) !important;}.has-warn-background-color{background-color: var(--wp--preset--color--warn) !important;}.has-danger-background-color{background-color: var(--wp--preset--color--danger) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-bg-border-color{border-color: var(--wp--preset--color--bg) !important;}.has-surface-border-color{border-color: var(--wp--preset--color--surface) !important;}.has-surface-warm-border-color{border-color: var(--wp--preset--color--surface-warm) !important;}.has-fg-border-color{border-color: var(--wp--preset--color--fg) !important;}.has-fg-2-border-color{border-color: var(--wp--preset--color--fg-2) !important;}.has-muted-border-color{border-color: var(--wp--preset--color--muted) !important;}.has-meta-border-color{border-color: var(--wp--preset--color--meta) !important;}.has-border-border-color{border-color: var(--wp--preset--color--border) !important;}.has-border-soft-border-color{border-color: var(--wp--preset--color--border-soft) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-accent-on-border-color{border-color: var(--wp--preset--color--accent-on) !important;}.has-accent-hover-border-color{border-color: var(--wp--preset--color--accent-hover) !important;}.has-accent-active-border-color{border-color: var(--wp--preset--color--accent-active) !important;}.has-success-border-color{border-color: var(--wp--preset--color--success) !important;}.has-warn-border-color{border-color: var(--wp--preset--color--warn) !important;}.has-danger-border-color{border-color: var(--wp--preset--color--danger) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xs-font-size{font-size: var(--wp--preset--font-size--xs) !important;}.has-sm-font-size{font-size: var(--wp--preset--font-size--sm) !important;}.has-base-font-size{font-size: var(--wp--preset--font-size--base) !important;}.has-lg-font-size{font-size: var(--wp--preset--font-size--lg) !important;}.has-xl-font-size{font-size: var(--wp--preset--font-size--xl) !important;}.has-xxl-font-size{font-size: var(--wp--preset--font-size--xxl) !important;}.has-xxxl-font-size{font-size: var(--wp--preset--font-size--xxxl) !important;}.has-xxxxl-font-size{font-size: var(--wp--preset--font-size--xxxxl) !important;}.has-display-font-family{font-family: var(--wp--preset--font-family--display) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-mono-font-family{font-family: var(--wp--preset--font-family--mono) !important;}/* wp-ja-kinetic: dark mode. The source (JA Kinetic, `default` site style) is dark by default: assets/js/wp-ja-kinetic-dark.js puts data-theme="dark" on the root before the first paint unless the tracy_theme cookie says light, and color-scheme follows it here, as the source's own html does (dark -> `dark`, light -> `normal`). Each colour preset carries both halves through light-dark(): light = the palette of theme.json, dark = the source's html.t4-dark terminal block (css/darkmode.css:1-26, chrome :80-88), with meta, border-soft and accent-active from the design system's dark block (systems/ja-kinetic/tokens.css:367). success, warn and danger are not remapped by the source. The rest of the dark block is not a colour, or is declared by the sections sheet, so it is restated under the attribute. */ :root{--wp--preset--color--bg:light-dark(#FBFCFA,#0A0D0C);--wp--preset--color--surface:light-dark(#FFFFFF,#121614);--wp--preset--color--surface-warm:light-dark(#F2F5EE,#0F1311);--wp--preset--color--fg:light-dark(#46514B,#9AA6A1);--wp--preset--color--fg-2:light-dark(#10140F,#F2F5F3);--wp--preset--color--muted:light-dark(#66716A,#7F8B86);--wp--preset--color--meta:light-dark(#66716A,#7F8B86);--wp--preset--color--border:light-dark(#E4E8E0,#232A27);--wp--preset--color--border-soft:light-dark(#E4E8E0,#232A27);--wp--preset--color--accent:light-dark(#4D7C0F,#A3E635);--wp--preset--color--accent-on:light-dark(#FFFFFF,#0A0D0C);--wp--preset--color--accent-hover:light-dark(#3F6A0A,#BCF25A);--wp--preset--color--accent-active:light-dark(#3F6A0A,#BCF25A);}:root[data-theme="dark"]{color-scheme:dark;--wp--custom--elev--raised:0 20px 50px -18px rgba(0,0,0,.6);--grid:rgba(255,255,255,.035);--bg-rgb:10,13,12;--text-rgb:154,166,161;--chrome-elevated:#161B18;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id="core-block-supports-inline-css">
+.wp-container-core-group-is-layout-edecd76c{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-edecd76c{flex-wrap:nowrap;}.wp-container-core-group-is-layout-95b0ab8d{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-navigation-is-layout-fb50d4a4{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-fdda04a9{justify-content:space-between;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+<style id="wp-block-template-skip-link-inline-css">
+/*! This file is auto-generated */
+.skip-link.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;word-break:normal!important}.skip-link.screen-reader-text:focus{background-color:#eee;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
+/*# sourceURL=/wp-includes/css/wp-block-template-skip-link.min.css */
+</style>
+<link rel='stylesheet' id='tracy-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/tracy.css?ver=1.1.3' media='all' />
+<link rel='stylesheet' id='tracy-layout-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/layout.css?ver=1.1.3' media='all' />
+<link rel='stylesheet' id='tracy-sections-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/sections.css?ver=1.1.3' media='all' />
+<link rel='stylesheet' id='wp-ja-kinetic-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/wp-ja-kinetic.css?ver=1.1.3.1790762608' media='all' />
+<link rel='stylesheet' id='wp-ja-kinetic-sections-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/wp-ja-kinetic-sections.css?ver=1.1.3.1790762608' media='all' />
+<link rel='stylesheet' id='wp-ja-kinetic-article-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/wp-ja-kinetic-article.css?ver=1.1.3.1790762608' media='all' />
+<link rel='stylesheet' id='wp-ja-kinetic-finder-auth-css' href='https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/css/wp-ja-kinetic-finder-auth.css?ver=1.1.3.1790762608' media='all' />
+<script type="text/od-defused-script" id="acy_front_messages_js-js-before">
+var ACYM_AJAX_START = "https://kineticakemi.tracy.site/wp-admin/admin-ajax.php";
+            var ACYM_AJAX_PARAMS = "?action=acymailing_router&noheader=1&nocache=1790783869";
+            var ACYM_AJAX = ACYM_AJAX_START + ACYM_AJAX_PARAMS;
+//# sourceURL=acy_front_messages_js-js-before
+</script>
+<script type="text/od-defused-script" id="acy_front_messages_js-js" src="https://kineticakemi.tracy.site/wp-content/plugins/acymailing/media/js/front/messages.min.js?v=1790762608&#038;ver=11.0.5"></script>
+<script type="text/od-defused-script" id="jquery-core-js" src="https://kineticakemi.tracy.site/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script type="text/od-defused-script" id="jquery-migrate-js" src="https://kineticakemi.tracy.site/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script type="text/od-defused-script" id="acym_script1-js" src="https://kineticakemi.tracy.site/wp-content/plugins/acymailing/media/js/module.min.js?v=1105&#038;ver=11.0.5"></script>
+<script type="text/od-defused-script" id="acym_script1-js-after">
+if (typeof window.acymModule === "undefined") {
+            window.acymModule = {"NAMECAPTION":"Name","NAME_MISSING":"Please enter your name","EMAILCAPTION":"Email","VALID_EMAIL":"Please enter a valid e-mail address","VALID_EMAIL_CONFIRMATION":"Email field and email confirmation field must be identical","CAPTCHA_MISSING":"The captcha is invalid, please try again","NO_LIST_SELECTED":"Please select the lists you want to subscribe to","NO_LIST_SELECTED_UNSUB":"Please select the lists you want to unsubscribe from","ACCEPT_TERMS":"Please check the Terms and Conditions \/ Privacy policy"};
+            window.acymModule.emailRegex = /^[a-z0-9!#$%&\'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&\'*+\/=?^_`{|}~-]+)*\@([a-z0-9-]+\.)+[a-z0-9]{2,20}$/i;
+        }
+    
+//# sourceURL=acym_script1-js-after
+</script>
+<script type="text/od-defused-script" data-wp-strategy="defer" defer id="tracy-preview-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/tracy-preview.js?ver=1.1.3"></script>
+<script type="text/od-defused-script" id="wp-ja-kinetic-dark-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/wp-ja-kinetic-dark.js?ver=1.1.3.1790762608"></script>
+<script type="text/od-defused-script" data-wp-strategy="defer" defer id="wp-ja-kinetic-mega-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/wp-ja-kinetic-mega.js?ver=1.1.3.1790762608"></script>
+<script type="text/od-defused-script" data-wp-strategy="defer" defer id="wp-ja-kinetic-drawer-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/wp-ja-kinetic-drawer.js?ver=1.1.3.1790762608"></script>
+<script type="text/od-defused-script" data-wp-strategy="defer" defer id="wp-ja-kinetic-auth-finder-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/wp-ja-kinetic-auth-finder.js?ver=1.1.3.1790762608"></script>
+<script type="text/od-defused-script" data-wp-strategy="defer" defer id="wp-ja-kinetic-back-to-top-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/wp-ja-kinetic-back-to-top.js?ver=1.1.3.1790762608"></script>
+<link rel="https://api.w.org/" href="https://kineticakemi.tracy.site/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://kineticakemi.tracy.site/wp-json/wp/v2/pages/1740" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kineticakemi.tracy.site/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel="canonical" href="https://kineticakemi.tracy.site/" />
+<link rel='shortlink' href='https://kineticakemi.tracy.site/' />
+<script type="text/od-defused-script" id="wp-importmap" type="importmap">
+{"imports":{"@wordpress/interactivity":"https://kineticakemi.tracy.site/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1"}}
+</script>
+<link rel="modulepreload" href="https://kineticakemi.tracy.site/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1" id="@wordpress/interactivity-js-modulepreload" fetchpriority="low">
+</head>
+
+<body class="home wp-singular page-template-default page page-id-1740 wp-embed-responsive wp-theme-wp-ja-kinetic tracy tracy-nav-top-left tracy-hero-split tracy-page-home item-214">
+
+<a class="skip-link screen-reader-text" id="wp-skip-link" href="#wp--skip-link--target">Skip to content</a><div class="wp-site-blocks"><header class="tracy-header wp-block-template-part"><!-- Source: .kinetic-header-inner { display:flex; justify-content:space-between } has exactly TWO
+     children — .hx-left (brand + nav together, its own `gap:38px`) and .hx-right (sign-in/CTA/
+     toggle) — not three groups spread apart by `space-between` (css/template.css:19958-19975).
+     `.tracy-header__left` below is that same pairing; `space-between` on the row then only ever
+     has two things to push apart, exactly like the source. -->
+
+<div class="wp-block-group tracy-header__inner is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-95b0ab8d wp-block-group-is-layout-flex">
+
+<div class="wp-block-group tracy-header__left is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+
+<div class="wp-block-group tracy-header__brand is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+<!-- The source's brand mark is not an uploaded image — two inline SVG strokes, css/template.css
+     source markup: `<span class="kinetic-logo"><svg class="kinetic-logo-glyph" …>…</svg>…</span>`.
+     A WordPress Site Logo block only ever renders an img element, so the glyph is carried the same way
+     the theme toggle icon already is (below, and in parts/footer.html): a static wp:html block,
+     stroked with the same --chrome-primary bridge custom property the source's own SVG reads. -->
+
+<a class="tracy-logo" href="/" aria-label="Home"><svg width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 4 Q16 12 8 20 Q16 28 24 20" stroke="var(--chrome-primary)" stroke-width="2.4" stroke-linecap="round"></path><path d="M24 12 Q16 20 24 28 Q16 4 8 12" stroke="var(--chrome-primary)" stroke-width="2.4" stroke-linecap="round" opacity="0.5"></path></svg></a>
+
+<p class="tracy-brand wp-block-site-title"><a href="https://kineticakemi.tracy.site" target="_self" rel="home" aria-current="page">Kinetic</a></p>
+<p class="tracy-header__slogan wp-block-site-tagline">observability, reimagined</p>
+</div>
+
+
+<div class="wp-block-group tracy-header__menu is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+<!-- The source's off-canvas drawer is its full `mainmenu` (mod_menu 227, position offcanvas,
+     showAllChildren) in menu order — Home / Product / Pricing / Company / Pages, measured with JS
+     running at 390px, 2026-09-24 — not the desktop mega bar. Its own script
+     (templates/ja_kinetic/js/darkmode.js, initDrill) then regroups each drilled panel under the
+     desktop mega panel's column titles (Platform / Content / Discover …), rows no column names
+     trailing unlabelled; assets/js/wp-ja-kinetic-drawer.js does the same from the mega blocks
+     below. Core's own Navigation block supplies the toggle button + overlay container
+     (overlayMenu:"always"); this is the only place that content is declared, since the block has
+     no ref to an existing wp_nav_menu (D-31). Two more links (sign-in, the full-width CTA) are
+     appended at the end, styled by their own className below the source's divider
+     (css/template.css:20444-20486) — core has no slot to inject arbitrary non-menu markup inside
+     its own overlay otherwise. The source's "Author" item links
+     `/index.php/index.php/product/authors/author/priya.raman` (a doubled `/index.php`); it points
+     here at the page that item names, `/pages/author`, and so does the desktop Pages panel's
+     Author link below — the regrouping matches rows to columns by link, as the source's does. -->
+<nav class="is-responsive tracy-nav wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open always-shown" 
+				data-wp-on--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+				<div class="wp-block-navigation__responsive-container hidden-by-default"  id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			><div class="tracy-nav__drawer-head"><a class="tracy-nav__drawer-logo" href="https://kineticakemi.tracy.site/" aria-label="Kinetic home"><svg width="22" height="22" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 4 Q16 12 8 20 Q16 28 24 20" stroke="var(--chrome-primary)" stroke-width="2.6" stroke-linecap="round"></path><path d="M24 12 Q16 20 24 28 Q16 4 8 12" stroke="var(--chrome-primary)" stroke-width="2.6" stroke-linecap="round" opacity="0.5"></path></svg><span>Kinetic</span></a></div>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul class="wp-block-navigation__container is-responsive tracy-nav wp-block-navigation"><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null, &quot;previousFocus&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--pointerenter="actions.openMenuOnHover" data-wp-on--pointerleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Home</span></a><button data-wp-bind--aria-expanded="state.isSubmenuOpen" data-wp-on--click="actions.toggleMenuOnClick" aria-label="Home submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><button type="button" class="tracy-nav__drill-back" data-tracy-drill-back><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Home</span></button><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/" aria-current="page"><span class="wp-block-navigation-item__label">Terminal</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/home-menu/home-blueprint"><span class="wp-block-navigation-item__label">Blueprint</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/home-menu/home-signal"><span class="wp-block-navigation-item__label">Signal</span></a></li></ul></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null, &quot;previousFocus&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--pointerenter="actions.openMenuOnHover" data-wp-on--pointerleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Product</span></a><button data-wp-bind--aria-expanded="state.isSubmenuOpen" data-wp-on--click="actions.toggleMenuOnClick" aria-label="Product submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><button type="button" class="tracy-nav__drill-back" data-tracy-drill-back><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Product</span></button><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/features"><span class="wp-block-navigation-item__label">Features</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/integrations"><span class="wp-block-navigation-item__label">Integrations</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/changelog"><span class="wp-block-navigation-item__label">Changelog</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/blog"><span class="wp-block-navigation-item__label">Blog</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/faq"><span class="wp-block-navigation-item__label">FAQ</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/all-categories"><span class="wp-block-navigation-item__label">All Categories</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/article-archive"><span class="wp-block-navigation-item__label">Article Archive</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/product/authors"><span class="wp-block-navigation-item__label">Our Writers</span></a></li></ul></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pricing"><span class="wp-block-navigation-item__label">Pricing</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null, &quot;previousFocus&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--pointerenter="actions.openMenuOnHover" data-wp-on--pointerleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Company</span></a><button data-wp-bind--aria-expanded="state.isSubmenuOpen" data-wp-on--click="actions.toggleMenuOnClick" aria-label="Company submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><button type="button" class="tracy-nav__drill-back" data-tracy-drill-back><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Company</span></button><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/company/about"><span class="wp-block-navigation-item__label">About</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/company/team"><span class="wp-block-navigation-item__label">Team</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/company/contact"><span class="wp-block-navigation-item__label">Contact</span></a></li></ul></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null, &quot;previousFocus&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--pointerenter="actions.openMenuOnHover" data-wp-on--pointerleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Pages</span></a><button data-wp-bind--aria-expanded="state.isSubmenuOpen" data-wp-on--click="actions.toggleMenuOnClick" aria-label="Pages submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><button type="button" class="tracy-nav__drill-back" data-tracy-drill-back><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Pages</span></button><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/landing"><span class="wp-block-navigation-item__label">Landing</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/kineticql"><span class="wp-block-navigation-item__label">Single Article</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/tags"><span class="wp-block-navigation-item__label">All Tags</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/search"><span class="wp-block-navigation-item__label">Search</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/login"><span class="wp-block-navigation-item__label">Login</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/register"><span class="wp-block-navigation-item__label">Register</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/reset"><span class="wp-block-navigation-item__label">Password Reset</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/remind"><span class="wp-block-navigation-item__label">Username Reminder</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/engineering"><span class="wp-block-navigation-item__label">Engineering</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/author"><span class="wp-block-navigation-item__label">Author</span></a></li></ul></li><li class="wp-block-navigation-item tracy-nav__signin wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/login"><span class="wp-block-navigation-item__label">Sign in</span></a></li><li class="wp-block-navigation-item tracy-nav__cta wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/pages/register"><span class="wp-block-navigation-item__label">Start free</span></a></li></ul>
+								
+							</div>
+						</div>
+					</div>
+				</div></nav>
+
+<div class="wp-block-group tracy-header__links is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+<div class="tracy-mega has-child tracy-mega--compact wp-block-wp-ja-kinetic-mega-menu" data-tracy-mega="">
+	<button type="button" class="tracy-mega__trigger" aria-current="page" aria-expanded="false" aria-controls="tracy-mega-2">
+		<span class="tracy-mega__label">Home</span>
+		<span class="tracy-mega__caret" aria-hidden="true"></span>
+	</button>
+	<div id="tracy-mega-2" class="tracy-mega__panel wp-block-navigation__submenu-container">
+		<div class="tracy-mega__inner">
+			
+
+<h3 class="wp-block-heading tracy-mega__title">Home Styles</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/" aria-current="page">Terminal</a></li>
+
+
+<li><a href="/home-menu/home-blueprint">Blueprint</a></li>
+
+
+<li><a href="/home-menu/home-signal">Signal</a></li>
+
+</ul>
+
+		</div>
+	</div>
+</div>
+
+<div class="tracy-mega has-child wp-block-wp-ja-kinetic-mega-menu" data-tracy-mega="">
+	<button type="button" class="tracy-mega__trigger" aria-expanded="false" aria-controls="tracy-mega-3">
+		<span class="tracy-mega__label">Product</span>
+		<span class="tracy-mega__caret" aria-hidden="true"></span>
+	</button>
+	<div id="tracy-mega-3" class="tracy-mega__panel wp-block-navigation__submenu-container">
+		<div class="tracy-mega__inner">
+			
+
+<div class="wp-block-columns tracy-mega__columns is-layout-flex wp-container-core-columns-is-layout-edecd76c wp-block-columns-is-layout-flex">
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Platform</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/product/features">Features</a></li>
+
+
+<li><a href="/product/integrations">Integrations</a></li>
+
+
+<li><a href="/product/changelog">Changelog</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Content</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/product/blog">Blog</a></li>
+
+
+<li><a href="/product/article-archive">Article Archive</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Discover</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/product/all-categories">All Categories</a></li>
+
+
+<li><a href="/product/authors">Our Writers</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+		</div>
+	</div>
+</div>
+
+
+<p class="tracy-header__link wp-block-paragraph"><a href="/pricing">Pricing</a></p>
+
+<div class="tracy-mega has-child tracy-mega--compact wp-block-wp-ja-kinetic-mega-menu" data-tracy-mega="">
+	<button type="button" class="tracy-mega__trigger" aria-expanded="false" aria-controls="tracy-mega-4">
+		<span class="tracy-mega__label">Company</span>
+		<span class="tracy-mega__caret" aria-hidden="true"></span>
+	</button>
+	<div id="tracy-mega-4" class="tracy-mega__panel wp-block-navigation__submenu-container">
+		<div class="tracy-mega__inner">
+			
+
+<h3 class="wp-block-heading tracy-mega__title">Company</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/company/about">About</a></li>
+
+
+<li><a href="/company/team">Team</a></li>
+
+
+<li><a href="/company/contact">Contact</a></li>
+
+</ul>
+
+		</div>
+	</div>
+</div>
+
+<div class="tracy-mega has-child wp-block-wp-ja-kinetic-mega-menu" data-tracy-mega="">
+	<button type="button" class="tracy-mega__trigger" aria-expanded="false" aria-controls="tracy-mega-5">
+		<span class="tracy-mega__label">Pages</span>
+		<span class="tracy-mega__caret" aria-hidden="true"></span>
+	</button>
+	<div id="tracy-mega-5" class="tracy-mega__panel wp-block-navigation__submenu-container">
+		<div class="tracy-mega__inner">
+			
+
+<div class="wp-block-columns tracy-mega__columns is-layout-flex wp-container-core-columns-is-layout-edecd76c wp-block-columns-is-layout-flex">
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Account</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/pages/login">Login</a></li>
+
+
+<li><a href="/pages/register">Register</a></li>
+
+
+<li><a href="/pages/reset">Password Reset</a></li>
+
+
+<li><a href="/pages/remind">Username Reminder</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Content</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/pages/engineering">Engineering</a></li>
+
+
+<li><a href="/pages/kineticql">Single Article</a></li>
+
+
+<li><a href="/pages/author">Author</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-mega__title">Discover</h3>
+
+
+<ul class="wp-block-list tracy-mega__links">
+
+<li><a href="/pages/tags">All Tags</a></li>
+
+
+<li><a href="/pages/search">Search</a></li>
+
+
+<li><a href="/pages/landing">Landing</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group tracy-header__actions is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+
+<p class="tracy-header__signin wp-block-paragraph"><a href="/pages/login">Sign in</a></p>
+
+
+<div class="wp-block-buttons tracy-header__cta is-layout-flex wp-block-buttons-is-layout-flex">
+
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/pages/register">Start free<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div>
+
+</div>
+
+<!-- The source's toggle carries a static accessible name and a hard-coded `aria-pressed="false"`
+     regardless of the resolved theme (measured live, both light and the dark default: `aria-
+     label="Toggle dark mode" aria-pressed="false" title="Toggle light / dark"`) — not a label
+     that narrates the current state. wp-ja-kinetic-dark.js only swaps `data-theme-state` (unused
+     by CSS now) and lets the root's own `data-theme` attribute drive the sun/moon swap below. -->
+
+<button type="button" class="tracy-theme-toggle" data-tracy-theme-toggle aria-label="Toggle dark mode" aria-pressed="false" title="Toggle light / dark"><svg class="tracy-theme-toggle__sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg><svg class="tracy-theme-toggle__moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+
+</div>
+
+</div>
+
+</header>
+
+<main id="wp--skip-link--target" class="wp-block-group tracy-main tracy-page-stack tracy-page-stack--home is-layout-flow wp-block-group-is-layout-flow">
+<div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-group ja-acm acm-hero style-1 is-layout-flow wp-block-group-is-layout-flow" id="acm-hero-177">
+
+<div class="wp-block-group hx-container hx-pad acm-hero-inner is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-hero-grid is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-hero-copy is-layout-flow wp-block-group-is-layout-flow">
+<div class="hx-eyebrow">// observability, reimagined</div>
+
+<h1 class="wp-block-heading hx-h1">Ship fast. Sleep through the night.</h1>
+
+
+<p class="hx-sub wp-block-paragraph">Kinetic unifies metrics, logs and traces into one on-call workflow — so you find the failing span before your users do.</p>
+
+
+<div class="wp-block-buttons hx-btnrow is-layout-flex wp-block-buttons-is-layout-flex">
+<a class="hx-btn hx-btn--primary" href="/pages/register">Start free<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+<a class="hx-btn hx-btn--ghost" href="/pages/login"><span class="hx-prompt">$</span> kinetic init</a>
+</div>
+
+
+<div class="wp-block-group hx-trust is-layout-flow wp-block-group-is-layout-flow">
+<span>Trusted by 2,000+ on-call teams</span>
+</div>
+
+</div>
+
+
+<div class="wp-block-group acm-hero-visual is-layout-flow wp-block-group-is-layout-flow">
+<img decoding="async" class="hx-panelimg is-terminal" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/hero-terminal-panel-terminal.webp?v=1.1.2" alt="Ship fast. Sleep through the night."/>
+<img decoding="async" class="hx-panelimg is-blueprint" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/hero-terminal-panel-blueprint.webp?v=1.1.2" alt="Ship fast. Sleep through the night."/>
+<img decoding="async" class="hx-panelimg is-signal" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/hero-terminal-panel-signal.webp?v=1.1.2" alt="Ship fast. Sleep through the night."/>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="wp-block-group ja-acm acm-clients style-1 is-layout-flow wp-block-group-is-layout-flow" id="acm-clients-178">
+
+<section class="wp-block-group hx-section hx-pad is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-clients-strip is-layout-flow wp-block-group-is-layout-flow">
+<span class="acm-clients-caption">Trusted by engineering teams shipping at scale</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Vercel
+</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Linear
+</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Supabase
+</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Retool
+</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Ramp
+</span>
+<span class="wp-block-group acm-clients-logo is-text is-layout-flow wp-block-group-is-layout-flow">
+Loom
+</span>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="wp-block-group acm-clients-ticker is-layout-flow wp-block-group-is-layout-flow" aria-label="Live platform stats">
+
+<div class="wp-block-group hx-container acm-tick-inner is-layout-flow wp-block-group-is-layout-flow">
+<span class="wp-block-group acm-tick-live is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="wp-block-group acm-tick-dot is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></span>
+
+LIVE
+</span>
+
+<div class="wp-block-group acm-tick-viewport is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-tick-track is-layout-flow wp-block-group-is-layout-flow">
+<span class="wp-block-group acm-tick-group is-layout-flow wp-block-group-is-layout-flow">
+<span class="acm-tick-item is-bright">1.2M EVENTS/MIN</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">p95 &lt;400ms</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">99.99% UPTIME</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">10B EVENTS SCANNED</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">SOC 2 TYPE II</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">OPENTELEMETRY-NATIVE</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">ZERO SEAT FEES</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">30-DAY HOT RETENTION</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">TAIL-BASED SAMPLING</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+</span>
+<span class="wp-block-group acm-tick-group is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true">
+<span class="acm-tick-item is-bright">1.2M EVENTS/MIN</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">p95 &lt;400ms</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">99.99% UPTIME</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">10B EVENTS SCANNED</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">SOC 2 TYPE II</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">OPENTELEMETRY-NATIVE</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">ZERO SEAT FEES</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-dim">30-DAY HOT RETENTION</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+<span class="acm-tick-item is-bright">TAIL-BASED SAMPLING</span>
+<span class="acm-tick-sep" aria-hidden="true">&bull;</span>
+</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+
+<div class="wp-block-group ja-acm acm-bento style-2 is-layout-flow wp-block-group-is-layout-flow" id="acm-bento-179">
+
+<section class="wp-block-group hx-section hx-pad is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-bento-rule is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true">
+</div>
+
+
+<div class="wp-block-group acm-bento-head is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-bento-head-main is-layout-flow wp-block-group-is-layout-flow">
+<div class="acm-bento-eyebrow">(01) / what you get</div>
+
+<h2 class="wp-block-heading acm-bento-title">One platform for every signal</h2>
+
+</div>
+
+
+<p class="acm-bento-sub wp-block-paragraph">Stop stitching together five tools. Kinetic ingests, correlates and alerts on your entire stack from a single, fast pipeline.</p>
+
+</div>
+
+
+<div class="wp-block-group hx-bento acm-bento-grid is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-card acm-bento-tile span-feat is-feat is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="acm-bento-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg></span>
+
+
+<h3 class="wp-block-heading acm-bento-tile-title">Unified telemetry, one timeline</h3>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">Logs, metrics and traces share one schema and one clock. Line them up on a single timeline and the correlation that used to take four tabs is just there.</p>
+
+<div class="wp-block-image acm-bento-media"><img fetchpriority="high" decoding="async" width="1114" height="282" src="/wp-content/uploads/2026/09/bento-telemetry-chart.webp" alt="Unified telemetry, one timeline" class="wp-image-1492" srcset="https://kineticakemi.tracy.site/wp-content/uploads/2026/09/bento-telemetry-chart.webp 1114w, https://kineticakemi.tracy.site/wp-content/uploads/2026/09/bento-telemetry-chart-300x76.webp 300w, https://kineticakemi.tracy.site/wp-content/uploads/2026/09/bento-telemetry-chart-1024x259.webp 1024w, https://kineticakemi.tracy.site/wp-content/uploads/2026/09/bento-telemetry-chart-768x194.webp 768w" sizes="(max-width: 1114px) 100vw, 1114px" /></div>
+</div>
+
+
+<div class="wp-block-group hx-card acm-bento-tile span-wide is-stat is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-bento-stat-main is-layout-flow wp-block-group-is-layout-flow">
+<div class="acm-bento-stat-eyebrow">SUB-SECOND QUERIES</div>
+
+<div class="wp-block-group acm-bento-stat-row is-layout-flow wp-block-group-is-layout-flow">
+<span class="acm-bento-stat-val">&lt;400</span>
+<span class="acm-bento-stat-unit">ms</span>
+</div>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">p95 query latency scanning 10 billion events. Ask a question, get the answer before you blink.</p>
+
+</div>
+
+<svg class="acm-bento-spark" viewBox="0 0 120 70" preserveAspectRatio="none" fill="none" aria-hidden="true"><path d="M0 60l20-8 20 4 20-18 20 6 20-22 20 8" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>
+</div>
+
+
+<div class="wp-block-group hx-card acm-bento-tile span-1 is-small is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="acm-bento-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+
+
+<div class="wp-block-group acm-bento-body is-layout-flow wp-block-group-is-layout-flow">
+
+<h3 class="wp-block-heading acm-bento-tile-title">Smart alerting</h3>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">Baselines that learn. Page only when it matters.</p>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group hx-card acm-bento-tile span-1 is-small is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="acm-bento-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></span>
+
+
+<div class="wp-block-group acm-bento-body is-layout-flow wp-block-group-is-layout-flow">
+
+<h3 class="wp-block-heading acm-bento-tile-title">Distributed tracing</h3>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">Edge to database, with flame graphs and span context.</p>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group hx-card acm-bento-tile span-wide is-half is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="acm-bento-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg></span>
+
+
+<div class="wp-block-group acm-bento-body is-layout-flow wp-block-group-is-layout-flow">
+
+<h3 class="wp-block-heading acm-bento-tile-title">Tiered retention</h3>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">Hot for 30 days, warm for a year. Pay for what you query, not what you hoard.</p>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group hx-card acm-bento-tile span-wide is-half is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="acm-bento-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>
+
+
+<div class="wp-block-group acm-bento-body is-layout-flow wp-block-group-is-layout-flow">
+
+<h3 class="wp-block-heading acm-bento-tile-title">SOC 2 &amp; SSO</h3>
+
+
+<p class="acm-bento-tile-text wp-block-paragraph">SAML, SCIM, audit logs and field-level redaction from day one, every plan.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div class="wp-block-group ja-acm acm-incident-timeline style-1 is-layout-flow wp-block-group-is-layout-flow" id="acm-incident-180">
+
+<div class="wp-block-group hx-section is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container hx-pad acm-incident-inner is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-incident-head is-layout-flow wp-block-group-is-layout-flow">
+<div class="hx-eyebrow">// anatomy of an incident</div>
+
+<h2 class="wp-block-heading hx-h2">From alert to resolved in four moves</h2>
+
+</div>
+
+
+<div class="wp-block-group hx-incident cols-4 is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-inc-cell is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="wp-block-group hx-inc-line is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></span>
+
+
+<div class="wp-block-group hx-inc-head is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-inc-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/><path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/><circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/></svg></span>
+<span class="hx-inc-time">t+0s</span>
+</div>
+
+<div class="hx-inc-phase">Detect</div>
+
+<h4 class="wp-block-heading hx-inc-title">Anomaly fires</h4>
+
+
+<p class="hx-inc-text wp-block-paragraph">Kinetic spots the latency spike before the threshold alert would.</p>
+
+</div>
+
+
+<div class="wp-block-group hx-inc-cell is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="wp-block-group hx-inc-line is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></span>
+
+
+<div class="wp-block-group hx-inc-head is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-inc-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg></span>
+<span class="hx-inc-time">t+30s</span>
+</div>
+
+<div class="hx-inc-phase">Triage</div>
+
+<h4 class="wp-block-heading hx-inc-title">Right team paged</h4>
+
+
+<p class="hx-inc-text wp-block-paragraph">Ownership routing pages the payments squad, not everyone.</p>
+
+</div>
+
+
+<div class="wp-block-group hx-inc-cell is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="wp-block-group hx-inc-line is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></span>
+
+
+<div class="wp-block-group hx-inc-head is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-inc-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></span>
+<span class="hx-inc-time">t+4m</span>
+</div>
+
+<div class="hx-inc-phase">Mitigate</div>
+
+<h4 class="wp-block-heading hx-inc-title">Root span found</h4>
+
+
+<p class="hx-inc-text wp-block-paragraph">The trace explorer pins the failing downstream call.</p>
+
+</div>
+
+
+<div class="wp-block-group hx-inc-cell is-layout-flow wp-block-group-is-layout-flow">
+
+<span class="wp-block-group hx-inc-line is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></span>
+
+
+<div class="wp-block-group hx-inc-head is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-inc-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+<span class="hx-inc-time">t+9m</span>
+</div>
+
+<div class="hx-inc-phase">Resolve</div>
+
+<h4 class="wp-block-heading hx-inc-title">Rolled back</h4>
+
+
+<p class="hx-inc-text wp-block-paragraph">Deploy reverted, incident closed, timeline saved.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group ja-acm acm-kineticql-split style-1 is-layout-flow wp-block-group-is-layout-flow" id="acm-kineticql-split-181">
+
+<section class="wp-block-group hx-section hx-split-section is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-split is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group acm-split-copy is-layout-flow wp-block-group-is-layout-flow">
+<div class="acm-split-eyebrow">// query, don't click</div>
+
+<h2 class="wp-block-heading acm-split-title">Ask your telemetry anything</h2>
+
+
+<p class="acm-split-sub wp-block-paragraph">KineticQL turns dashboards into a query language. No more clicking through twelve panels to answer one question.</p>
+
+
+<ul class="wp-block-list acm-split-checks">
+<li class="acm-split-check"><svg class="hx-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Join logs to traces in one expression</span></li>
+<li class="acm-split-check"><svg class="hx-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Save and share queries as alerts</span></li>
+<li class="acm-split-check"><svg class="hx-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Sub-second over 13 months of data</span></li>
+<li class="acm-split-check"><svg class="hx-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Versioned, reviewable, in git</span></li>
+</ul>
+
+<a class="acm-split-cta" href="/pages/kineticql">Read the KineticQL docs</a>
+</div>
+
+
+<div class="wp-block-group acm-split-panelcol is-layout-flow wp-block-group-is-layout-flow">
+<img decoding="async" class="hx-panelimg is-terminal" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/kineticql-code-panel-terminal.webp" alt="Ask your telemetry anything"/>
+<img decoding="async" class="hx-panelimg is-blueprint" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/kineticql-code-panel-blueprint.webp" alt="Ask your telemetry anything"/>
+<img decoding="async" class="hx-panelimg is-signal" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/images/kineticql-code-panel-signal.webp" alt="Ask your telemetry anything"/>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div class="wp-block-group ja-acm acm-features-ledger style-1 layout-metrics is-layout-flow wp-block-group-is-layout-flow" id="acm-features-ledger-182">
+
+<div class="wp-block-group hx-section is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container hx-pad is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-metrics-card is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-metrics-head is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metrics-cardlabel">KINETIC · PRODUCTION METRICS</span>
+<span class="wp-block-group hx-metrics-badge is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metrics-dot" aria-hidden="true"></span>
+LIVE
+</span>
+</div>
+
+
+<div class="wp-block-group hx-metrics-row is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-metric-col is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metric-label">QUERY LATENCY</span>
+<span class="hx-metric-value">&lt;400ms</span>
+<span class="hx-metric-desc">p95 query latency at 10B events</span>
+</div>
+
+
+<div class="wp-block-group hx-metric-col is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metric-label">AVAILABILITY</span>
+<span class="hx-metric-value">99.99%</span>
+<span class="hx-metric-desc">ingestion uptime SLA</span>
+</div>
+
+
+<div class="wp-block-group hx-metric-col is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metric-label">TEAMS</span>
+<span class="hx-metric-value">4,000+</span>
+<span class="hx-metric-desc">engineering teams onboard</span>
+</div>
+
+
+<div class="wp-block-group hx-metric-col is-layout-flow wp-block-group-is-layout-flow">
+<span class="hx-metric-label">COST DELTA</span>
+<span class="hx-metric-value">62%</span>
+<span class="hx-metric-desc">lower cost vs. legacy APM</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="wp-block-group ja-acm acm-testimonials style-1 is-layout-flow wp-block-group-is-layout-flow" id="acm-testimonials-183">
+
+<div class="wp-block-group hx-section is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container hx-pad is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-testi-inner is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-testi-rule is-layout-flow wp-block-group-is-layout-flow" aria-hidden="true"></div>
+
+
+<div class="wp-block-group hx-testi-head is-layout-flow wp-block-group-is-layout-flow">
+
+<p class="hx-eyebrow wp-block-paragraph">(04) / FROM THE ON-CALL</p>
+
+
+<h2 class="wp-block-heading hx-h2">Loved by engineers who carry the pager</h2>
+
+</div>
+
+
+<div class="wp-block-group hx-testi-row is-layout-flow wp-block-group-is-layout-flow">
+<figure class="wp-block-group hx-card hx-testi-hero is-layout-flow wp-block-group-is-layout-flow">
+<blockquote class="hx-testi-q">We cut mean-time-to-resolution from 40 minutes to under 6. Kinetic is the first tab open during an incident.</blockquote>
+<figcaption>
+<div class="wp-block-group hx-testi-author hx-testi-author--lg is-layout-flow wp-block-group-is-layout-flow">
+<img decoding="async" src="/wp-content/uploads/2026/09/priya-raman.jpg" alt="Priya Raman" class="hx-testi-avatar">
+<span class="wp-block-group hx-testi-id is-layout-flow wp-block-group-is-layout-flow">
+<b class="hx-testi-name">Priya Raman</b>
+<em class="hx-testi-meta">Staff SRE, Northwind</em>
+</span>
+</div>
+</figcaption>
+</figure>
+<div class="wp-block-group hx-testi-stack is-layout-flow wp-block-group-is-layout-flow"><figure class="wp-block-group hx-card hx-testi-small is-layout-flow wp-block-group-is-layout-flow">
+<blockquote class="hx-testi-q">"One query language for everything killed three separate dashboards. Onboarding new on-call took an afternoon."</blockquote>
+<figcaption>
+<div class="wp-block-group hx-testi-author hx-testi-author--sm is-layout-flow wp-block-group-is-layout-flow">
+<img decoding="async" src="/wp-content/uploads/2026/09/marcus-lee.jpg" alt="Marcus Lee" class="hx-testi-avatar">
+<span class="wp-block-group hx-testi-id is-layout-flow wp-block-group-is-layout-flow">
+<b class="hx-testi-name">Marcus Lee</b>
+<em class="hx-testi-meta">Eng Lead, Quanta</em>
+</span>
+</div>
+</figcaption>
+</figure><figure class="wp-block-group hx-card hx-testi-small is-layout-flow wp-block-group-is-layout-flow">
+<blockquote class="hx-testi-q">"The bill dropped 60% after we moved off our legacy APM, and queries got faster. Rare to get both."</blockquote>
+<figcaption>
+<div class="wp-block-group hx-testi-author hx-testi-author--sm is-layout-flow wp-block-group-is-layout-flow">
+<img decoding="async" src="/wp-content/uploads/2026/09/sofia-alvarez.jpg" alt="Sofia Alvarez" class="hx-testi-avatar">
+<span class="wp-block-group hx-testi-id is-layout-flow wp-block-group-is-layout-flow">
+<b class="hx-testi-name">Sofia Alvarez</b>
+<em class="hx-testi-meta">Platform Eng, Orbital</em>
+</span>
+</div>
+</figcaption>
+</figure></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-group ja-acm acm-cta style-1 cta-card is-layout-flow wp-block-group-is-layout-flow" id="acm-cta-184">
+
+<div class="wp-block-group hx-section is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-container is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group hx-cta-inner is-layout-flow wp-block-group-is-layout-flow">
+
+<p class="hx-cta-eyebrow wp-block-paragraph">// get started in minutes</p>
+
+
+<h2 class="wp-block-heading hx-cta-title">Your next incident is coming. Be ready for it.</h2>
+
+
+<p class="hx-cta-sub wp-block-paragraph">Free for 14 days. No credit card. Pipe your first logs in under five minutes.</p>
+
+
+<div class="wp-block-buttons hx-cta-actions is-layout-flex wp-block-buttons-is-layout-flex">
+<a class="hx-cta-btn hx-cta-btn-primary" href="/pages/register">Start free<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+<a class="hx-cta-chip" href="/pages/register"><span class="hx-cta-chip-sigil">$</span><span class="hx-cta-chip-text">kinetic init</span></a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</main>
+
+<footer class="tracy-footer wp-block-template-part"><!-- Source: `.kinetic-footer-inner` is ONE shared padded box (max-width:1240px; padding:64px
+     32px 32px) holding all three rows — `.hx-foot-cols`, `.hx-foot-news-band`, `.hx-foot-bottom`
+     — as plain children (css/template.css:19958-19962 pattern, `.kinetic-footer-inner` capture);
+     none of the three rows carries its own horizontal inset, they inherit it for free by sitting
+     inside that one wrapper. `.tracy-footer__inner` below is that same single wrapper — NOT one
+     per row — so `.tracy-footer__news`/`.tracy-footer__strip` only ever add their own vertical
+     rhythm (margin-top/border-top/padding-top), the same shape as the source. -->
+
+<div class="wp-block-group tracy-footer__band is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group tracy-footer__inner is-layout-flow wp-block-group-is-layout-flow">
+<!-- Source: .hx-foot-cols { display:grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap:40px },
+     collapsing to a 3-column grid with the brand spanning the full row under 880px
+     (css/template.css:20519-20523, 20768-20776) — core's own forced mobile stack
+     (":not(.is-not-stacked-on-mobile) > .wp-block-column { flex-basis:100% !important }" below
+     781px) would otherwise turn every column into one long vertical stack; isStackedOnMobile:false
+     emits the class that opts out of it, so the chrome sheet's own grid rules apply at every width
+     instead. -->
+
+<div class="wp-block-columns is-not-stacked-on-mobile tracy-footer__columns is-layout-flex wp-container-core-columns-is-layout-edecd76c wp-block-columns-is-layout-flex">
+
+<div class="wp-block-column tracy-footer__brand is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:34%">
+<!-- The footer's brand is the source's own footer ACM content (acm-social, empty `pages` array —
+     chrome, written straight into this part at step 3), not the site identity: its wordmark is the
+     literal string "Kinetic" (css/template.css capture: `<a class="hx-brand-lock" …><span
+     class="hx-brand-word">Kinetic</span></a>`), independent of the header's site-title/tagline. A
+     wp:html block carries the glyph + wordmark together, matching the header's glyph markup at the
+     footer's own 24px size (source: `.hx-brand-glyph { width: 24px; height: 24px }`). -->
+
+<a class="tracy-footer__lock" href="/" aria-label="Kinetic"><svg class="tracy-footer__logo" width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 4 Q16 12 8 20 Q16 28 24 20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path><path d="M24 12 Q16 20 24 28 Q16 4 8 12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="0.5"></path></svg><span class="tracy-brand">Kinetic</span></a>
+
+
+<p class="tracy-footer__blurb wp-block-paragraph">Observability without the overhead. Logs, metrics and traces on one fast timeline.</p>
+
+<!-- The source draws its own social glyphs (css/template.css capture: an arrows-and-slash mark for
+     "Source", a circle-with-signal mark for "Email", the plain broadcast mark for "RSS"), not
+     WordPress core's brand logos (github/mail/rss), so core/social-links (which can only draw its
+     own icon set) is replaced with the same three inline SVGs, one wp:html block per tile so each
+     keeps its own href/label. -->
+
+<div class="wp-block-group tracy-footer__social is-nowrap is-layout-flex wp-container-core-group-is-layout-edecd76c wp-block-group-is-layout-flex">
+
+<a class="tracy-footer__social-tile" href="https://github.com/kinetic-labs" aria-label="Source" title="Source" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></g></svg></a>
+
+
+<a class="tracy-footer__social-tile" href="/cdn-cgi/l/email-protection#244c4148484b644f4d4a41504d47484546570a404152" aria-label="Email" title="Email" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"></path></g></svg></a>
+
+
+<!-- Source: the RSS tile links the blog category's own feed (`com_content&view=category&id=22
+     &format=feed&type=rss`), not a site-wide feed — this theme's equivalent is the "Field notes
+     from the on-call" category feed, the one category that item-ids.php maps to a menu
+     (inc/item-ids.php:75). -->
+<a class="tracy-footer__social-tile" href="/category/field-notes-from-the-on-call/feed/" aria-label="RSS feed" title="RSS feed" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></g></svg></a>
+
+</div>
+
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-footer__title">Product</h3>
+
+<!-- Source: mod_menu 223 / 224 / 225 show the Joomla menus footer-product / footer-dev /
+     footer-company, edited under Menus. Here the seeded wp_navigation of the same menutype: the
+     seeder fills each `ref` from the block's `nav.<menutype>` name (D-40). -->
+<nav class="is-vertical tracy-footer__links wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-fb50d4a4 wp-block-navigation-is-layout-flex" aria-label="footer-product"><ul class="wp-block-navigation__container is-vertical tracy-footer__links wp-block-navigation"><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/product/features/"><span class="wp-block-navigation-item__label">Features</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/pricing/"><span class="wp-block-navigation-item__label">Pricing</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/product/integrations/"><span class="wp-block-navigation-item__label">Integrations</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/product/changelog/"><span class="wp-block-navigation-item__label">Changelog</span></a></li></ul></nav>
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-footer__title">Developers</h3>
+
+<nav class="is-vertical tracy-footer__links wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-fb50d4a4 wp-block-navigation-is-layout-flex" aria-label="footer-dev"><ul class="wp-block-navigation__container is-vertical tracy-footer__links wp-block-navigation"><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/product/blog/"><span class="wp-block-navigation-item__label">Blog</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/pages/kineticql/"><span class="wp-block-navigation-item__label">KineticQL</span></a></li><li class="wp-block-navigation-item tracy-footer__links wp-block-navigation"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/pages/search/"><span class="wp-block-navigation-item__label">Search</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/pages/tags/"><span class="wp-block-navigation-item__label">All Tags</span></a></li></ul></nav>
+</div>
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-footer__title">Company</h3>
+
+<nav class="is-vertical tracy-footer__links wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-fb50d4a4 wp-block-navigation-is-layout-flex" aria-label="footer-company"><ul class="wp-block-navigation__container is-vertical tracy-footer__links wp-block-navigation"><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/company/about/"><span class="wp-block-navigation-item__label">About</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/company/team/"><span class="wp-block-navigation-item__label">Team</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/product/faq/"><span class="wp-block-navigation-item__label">FAQ</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://kineticakemi.tracy.site/company/contact/"><span class="wp-block-navigation-item__label">Contact</span></a></li></ul></nav>
+</div>
+
+</div>
+
+
+<div class="wp-block-group tracy-footer__news is-layout-flow wp-block-group-is-layout-flow">
+<!-- Source: .acym_module_form { display:flex; align-items:center; gap:10px; flex-wrap:wrap },
+     .acym_introtext { flex:1 1 auto; margin-right:auto } (css/template.css:13083-13106) — title/desc
+     left, form right, wrapping under it at narrow widths. The ACYM block below renders its own
+     intro-text slot too (suppressed with `"title":""` — it would otherwise duplicate the heading
+     below as a bare, unstyled text node). -->
+
+<div class="wp-block-group tracy-footer__news-row is-layout-flex wp-block-group-is-layout-flex">
+
+<div class="wp-block-group tracy-footer__news-intro is-layout-flow wp-block-group-is-layout-flow">
+
+<h3 class="wp-block-heading tracy-footer__news-title">Monthly dispatch</h3>
+
+
+<p class="tracy-footer__news-desc wp-block-paragraph">Incident retros, query tips and product news. No spam, unsubscribe anytime.</p>
+
+</div>
+
+<!-- The subscribe form the source posts to its ACYM component. The block belongs to AcyMailing for
+     WordPress (wordpress.org slug `acymailing`), installed at provision time and deliberately not
+     bundled: the Theme Review Team forbids a theme shipping a plugin. Block name read from the
+     plugin's own source, 11.0.5 — `WpInit/Gutenberg.php:175`, `register_block_type(
+     'acymailing/subscription-form', … )`. It declares no required attribute: with no list named,
+     `acym_renderForm()` subscribes to every list (`back/Core/wordpress/form.php:170-172`). Until the
+     plugin is installed the block is unregistered and renders nothing, which is why the band's
+     heading and copy stay as blocks of their own.
+     `"title":""` — the block's own intro-text slot, unused: the heading/desc above already carry
+     that copy, matching the source's `.hx-news-title`/`.hx-news-desc` text exactly. Every other
+     attribute is the block's own default, which already matches the source: `subtext` "Subscribe"
+     (WpInit/Gutenberg.php:151-158), one field (email, auto-added — form.php:150-151), no consent
+     line (`termscontent`/`privacypolicy`/`trackingconsent` all empty/"0" by default), one list, no
+     visible picker (`hiddenlists`/`displists` both empty → acym_renderForm subscribes to every list
+     silently, form.php:167-169 — the stand carries exactly one). Field placeholder ("Email" by
+     default, no per-field admin option for a distinct one — FieldClass.php:550-551) is rewritten to
+     the source's "you@company.com" by `wp_ja_kinetic_newsletter_placeholder()` in inc/extra.php. -->
+	<script type="text/od-defused-script" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/od-defused-script" type="text/javascript">
+        window.addEventListener('DOMContentLoaded', (event) => {
+            window.acymModule["excludeValuesformAcym79411"] = [];
+            window.acymModule["excludeValuesformAcym79411"]["2"] = "Email";        });
+	</script>
+	<div class="acym_module " id="acym_module_formAcym79411">
+		<div class="acym_fulldiv" id="acym_fulldiv_formAcym79411" >
+			<form enctype="multipart/form-data"
+			      id="formAcym79411"
+			      name="formAcym79411"
+			      method="POST"
+			      aria-label="Subscription"
+			      action="https://kineticakemi.tracy.site/index.php?page=acymailing_front&amp;ctrl=frontusers&amp;noheader=1"
+			      onsubmit="return submitAcymForm('subscribe','formAcym79411')">
+				<div class="acym_module_form">
+                    
+<div class="acym_form">
+    <div class="onefield fieldacy2 acyfield_text" id="field_2">
+<input
+     type="email" name="user[email]" id="email_field_769" autocomplete="email" class="cell acym__user__edit__email" placeholder="you@company.com" aria-label="Email" aria-required="true" value="" data-authorized-content="{&quot;0&quot;:&quot;all&quot;,&quot;regex&quot;:&quot;&quot;,&quot;message&quot;:&quot;Incorrect value for the field Email&quot;}" required>
+<div class="acym__field__error__block" data-acym-field-id="2" aria-live="assertive"></div></div></div>
+
+<p class="acysubbuttons">
+	<noscript>Please enable the javascript to submit this form</noscript>
+    	<button type="submit"
+	        class="btn btn-primary button subbutton"
+	        onclick="try{ return submitAcymForm(&quot;subscribe&quot;,&quot;formAcym79411&quot;, &quot;acymSubmitSubForm&quot;); }catch(err){alert(&quot;The form could not be submitted &quot;+err);return false;}">Subscribe</button>
+    </p>
+				</div>
+
+				<input type="hidden" name="ctrl" value="frontusers" />
+				<input type="hidden" name="task" value="notask" />
+				<input type="hidden" name="option" value="acymailing" />
+
+                				<input type="hidden" name="ajax" value="1" />
+				<input type="hidden" name="successmode" value="replace" />
+				<input type="hidden" name="acy_source" value="gutenberg_subscription_form" />
+				<input type="hidden" name="hiddenlists" value="1" />
+				<input type="hidden" name="acyformname" value="formAcym79411" />
+				<input type="hidden" name="acysubmode" value="widget_acym" />
+				<input type="hidden" name="confirmation_message" value="" />
+
+                			</form>
+		</div>
+	</div>
+    
+</div>
+
+</div>
+
+
+<div class="wp-block-group tracy-footer__strip is-layout-flow wp-block-group-is-layout-flow">
+
+<div class="wp-block-group tracy-footer__bottom is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-fdda04a9 wp-block-group-is-layout-flex">
+
+<p class="tracy-footer__copy wp-block-paragraph">© 2026 Kinetic Labs, Inc. All rights reserved.</p>
+
+
+<ul class="wp-block-list tracy-footer__legal">
+
+<li><a href="/privacy-policy">Privacy</a></li>
+
+
+<li><a href="/terms-of-service">Terms</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- The source's #back-to-top sits as a sibling right after the footer block, shown only once the
+     page has scrolled (`.top-away #back-to-top`, css/template.css:11440-11449, 17606-17629) —
+     wp-ja-kinetic-back-to-top.js toggles the theme's own `.tracy-top-away` on <body>. -->
+
+<button type="button" id="back-to-top" class="tracy-back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
+
+</footer>
+</div>
+<script type="text/od-defused-script" type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/wp-ja-kinetic/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/od-defused-script" data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}" fetchpriority="low" id="@wordpress/block-library/navigation/view-js-module" src="https://kineticakemi.tracy.site/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=1bf28ded04f9f188bdcb" type="module"></script>
+<script type="text/od-defused-script" id="tracy-js" src="https://kineticakemi.tracy.site/wp-content/themes/wp-ja-kinetic/assets/js/tracy.js?ver=1.1.3"></script>
+<script type="text/od-defused-script" id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://kineticakemi.tracy.site/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="text/od-defused-script" type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://kineticakemi.tracy.site/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script type="text/od-defused-script" async src="https://tracy.ai/dashboard/badge.js" data-variant="draft" data-site="kineticakemi.tracy.site" data-team-href="https://cowork.tracy.site/kineticakemi/team"></script><script type="text/od-defused-script" type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"704a67e449f04d738079234b2164ec7a","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
