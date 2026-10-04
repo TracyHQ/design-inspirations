@@ -6,24 +6,20 @@
   "name": "JoomlArt",
   "category": "Reference",
   "description": "Best of the Joomla templates since 2005. Offering responsive Joomla templates &amp; free Joomla templates with 200+ Joomla template collection, 40+ Joomla extension library. 300K+ happy members",
-  "vi": false,
   "nav": "top-left",
   "hero": "centered",
   "source": {
     "url": "https://joomlart.com/",
-    "finalUrl": "https://joomlart.com/",
-    "extractedAt": "2026-09-08T03:49:30.697Z",
+    "finalUrl": "https://www.joomlart.com/",
+    "extractedAt": "2026-10-04T17:48:46.349Z",
     "thin": false,
-    "blocked": false,
-    "pages": true,
-    "recon": "skipped:no-browser"
+    "blocked": false
   },
   "refined": [
     "font: display \"Font Awesome 6 Free\" → \"Inter\" (the family the site sets on h1..h6)",
     "font: body \"Font Awesome 6 Free\" is an icon or code face → \"Inter\""
   ],
   "counts": {
-    "pages": 20,
     "colors": 20,
     "fonts": 10,
     "logos": 6,

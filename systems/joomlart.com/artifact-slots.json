@@ -1648,9 +1648,9 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "© JoomlArt · joomlart.com",
-    "chars": 25,
-    "words": 4
+    "text": "© JoomlArt",
+    "chars": 10,
+    "words": 2
    },
    {
     "id": "span.73",
@@ -1659,9 +1659,31 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "Generated brand system",
-    "chars": 22,
-    "words": 3
+    "text": "Designed by · Inspired by",
+    "chars": 25,
+    "words": 5
+   },
+   {
+    "id": "a.29",
+    "tag": "a",
+    "n": 29,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "Tracy",
+    "chars": 5,
+    "words": 1
+   },
+   {
+    "id": "a.30",
+    "tag": "a",
+    "n": 30,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "JoomlArt",
+    "chars": 8,
+    "words": 1
    }
   ],
   "deck": [
@@ -3326,9 +3348,42 @@
     "role": "paragraph",
     "group": null,
     "inNav": false,
-    "text": "JoomlArt · 100 Market Street, Suite 200 · joomlart.com",
-    "chars": 54,
-    "words": 9
+    "text": "JoomlArt · 100 Market Street, Suite 200 ·",
+    "chars": 41,
+    "words": 8
+   },
+   {
+    "id": "span.1",
+    "tag": "span",
+    "n": 1,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "Designed by · Inspired by",
+    "chars": 25,
+    "words": 5
+   },
+   {
+    "id": "a.4",
+    "tag": "a",
+    "n": 4,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "Tracy",
+    "chars": 5,
+    "words": 1
+   },
+   {
+    "id": "a.5",
+    "tag": "a",
+    "n": 5,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "JoomlArt",
+    "chars": 8,
+    "words": 1
    }
   ],
   "newsletter": [
@@ -3559,9 +3614,42 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "© JoomlArt · joomlart.com",
+    "text": "© JoomlArt ·",
+    "chars": 12,
+    "words": 3
+   },
+   {
+    "id": "span.0",
+    "tag": "span",
+    "n": 0,
+    "role": "label",
+    "group": null,
+    "inNav": false,
+    "text": "Designed by · Inspired by",
     "chars": 25,
-    "words": 4
+    "words": 5
+   },
+   {
+    "id": "a.8",
+    "tag": "a",
+    "n": 8,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "Tracy",
+    "chars": 5,
+    "words": 1
+   },
+   {
+    "id": "a.9",
+    "tag": "a",
+    "n": 9,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "JoomlArt",
+    "chars": 8,
+    "words": 1
    }
   ],
   "form": [
@@ -3880,8 +3968,30 @@
     "role": "label",
     "group": null,
     "inNav": false,
-    "text": "joomlart.com",
-    "chars": 12,
+    "text": "Designed by · Inspired by",
+    "chars": 25,
+    "words": 5
+   },
+   {
+    "id": "a.1",
+    "tag": "a",
+    "n": 1,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "Tracy",
+    "chars": 5,
+    "words": 1
+   },
+   {
+    "id": "a.2",
+    "tag": "a",
+    "n": 2,
+    "role": "link",
+    "group": null,
+    "inNav": false,
+    "text": "JoomlArt",
+    "chars": 8,
     "words": 1
    }
   ],
