@@ -1,0 +1,32 @@
+{
+  "id": "brand:e-tech.tracy.site",
+  "host": "e-tech.tracy.site",
+  "kind": "reference",
+  "slug": "e-tech",
+  "name": "E-tech",
+  "category": "Reference",
+  "description": "Plain, practical tools for e-commerce, digital marketing and agency teams to work faster and manage more with less effort.",
+  "nav": "top-left",
+  "hero": "centered",
+  "source": {
+    "url": "https://e-tech.tracy.site/",
+    "finalUrl": "https://e-tech.tracy.site/",
+    "extractedAt": "2026-10-06T04:56:51.494Z",
+    "thin": false,
+    "blocked": false
+  },
+  "refined": [
+    "name: \"E-tech - making tool for Ecommerce , Digital Marketing, Agency\" → \"E-tech\" (from the shortest title segment)",
+    "fonts: 4 faces self-hosted from Google Fonts (Inter)"
+  ],
+  "counts": {
+    "colors": 23,
+    "fonts": 0,
+    "logos": 1,
+    "imagery": 8,
+    "fonts_files": 4,
+    "headings": 20,
+    "engineFiles": 19,
+    "slots": 151
+  }
+}
